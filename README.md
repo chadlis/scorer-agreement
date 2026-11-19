@@ -86,6 +86,7 @@ differences will be listed here, before it is frozen.
 ```
 src/autointerp/   prompt, scorer registry, TLS context
 scripts/          run_smoke.py: one paid call per scorer
+                  check_gemini_versions.py: which Gemini Flash accepts no reasoning
 tests/            unit tests (no network, no paid calls)
 data/raw/         Neuronpedia cache (not committed, re-downloadable)
 data/smoke/       raw responses of the setup test calls
