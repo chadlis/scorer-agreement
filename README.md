@@ -49,15 +49,18 @@ later Flash versions do not allow reasoning to be turned off
 
 The prompt is the detection prompt of EleutherAI's
 [delphi](https://github.com/EleutherAI/delphi) (commit `a11130d`, default setting of
-one text per call). Its instructions are kept word for word except for one sentence,
-and the three solved examples that delphi places before the question are removed.
+one text per call). Its instructions are kept word for word except for one replaced
+sentence and one added sentence, and the three solved examples that delphi places
+before the question are removed.
 These examples make up most of delphi's prompt, so results are not directly
 comparable with delphi's detection scores. They were removed because three of their
 15 labels disagree with the activations recorded on Neuronpedia, and two of them
 come from the SAE studied here. The sentence "return 1 if the sentence is correctly
 labeled or 0 if the tokens are mislabeled", identical to a sentence of delphi's
 fuzzing prompt, becomes "return 1 if the example
-possesses the latent or 0 if it does not", because detection shows no labels. Answers
+possesses the latent or 0 if it does not", because detection shows no labels. The
+added sentence, "Your list must contain exactly one value, 0 or 1, per example", follows
+a test call in which two scorers answered `[0, 1]` to a single example. Answers
 are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
 frozen yet.
 
@@ -77,7 +80,8 @@ OPENROUTER_API_KEY=...
 ```
 
 `uv run scripts/run_smoke.py --yes` makes one paid call per scorer (a fraction of a
-cent). Without `--yes`, the script only prints what it would send.
+cent). `uv run scripts/check_format.py --yes` sends 19 texts to each scorer to count
+unreadable answers. Without `--yes`, scripts only print what they would send.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.
