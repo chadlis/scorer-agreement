@@ -19,8 +19,9 @@ so. The state submitted to the hackathon is the git tag `hackathon-submission`.
 
 ## Status
 
-Setup is in progress. Each scorer has been reached with one test call, and the scorer
-prompt is a draft that has not been frozen. No measurement has been made yet.
+Setup is done. The scorer prompt was frozen on 2026-11-19 (git tag `prompt-frozen`)
+after three format checks on 19 texts per scorer (`data/smoke/`). No measurement has
+been made yet. Next: build and freeze the texts, labels and placebos, and `PLAN.md`.
 
 ## Planned design
 
@@ -49,26 +50,28 @@ later Flash versions do not allow reasoning to be turned off
 
 The prompt is the detection prompt of EleutherAI's
 [delphi](https://github.com/EleutherAI/delphi) (commit `a11130d`, default setting of
-one text per call). Its instructions are kept word for word except for one replaced
-sentence and two added sentences, and the three solved examples that delphi places
-before the question are removed.
-These examples make up most of delphi's prompt, so results are not directly
-comparable with delphi's detection scores. They were removed because three of their
-15 labels disagree with the activations recorded on Neuronpedia, and two of them
-come from the SAE studied here. The sentence "return 1 if the sentence is correctly
-labeled or 0 if the tokens are mislabeled", identical to a sentence of delphi's
-fuzzing prompt, becomes "return 1 if the example
-possesses the latent or 0 if it does not", because detection shows no labels. The
-added sentence, "Your list must contain exactly one value, 0 or 1, per example", follows
-a test call in which two scorers answered `[0, 1]` to a single example. Line breaks
-inside a text are replaced by spaces before it is shown to a scorer, because a format
-check showed that they make scorers read one text as several examples
-(`data/smoke/format_check.jsonl`). An unreadable answer is retried once with the
-identical call, then counted as invalid. The second added sentence, "Each example is
-a short excerpt and may start or end mid-sentence", follows a format check in which
-one scorer refused to judge a text cut mid-sentence. Answers
-are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
-frozen yet.
+one text per call), with four changes. Each one follows a check recorded in
+`data/smoke/`.
+
+1. The three solved examples that delphi places before the question are removed.
+   Three of their 15 labels disagree with the activations recorded on Neuronpedia,
+   and two of them come from the SAE studied here. These examples make up most of
+   delphi's prompt, so results are not directly comparable with delphi's scores.
+2. "return 1 if the sentence is correctly labeled or 0 if the tokens are mislabeled",
+   identical to a sentence of delphi's fuzzing prompt, becomes "return 1 if the
+   example possesses the latent or 0 if it does not": detection shows no labels.
+3. "Your list must contain exactly one value, 0 or 1, per example." is added: without
+   it, two scorers answered `[0, 1]` to a single text.
+4. "Each example is a short excerpt and may start or end mid-sentence." is added:
+   without it, one scorer refused to judge a text cut mid-sentence.
+
+Line breaks inside a text are replaced by spaces, because they made scorers read one
+text as several. Answers are free text, parsed with delphi's rule (the first `[...]`
+must hold exactly one 0 or 1). Structured outputs are not used: they would add a
+provider-specific decoding constraint that differs between scorers, and hide refusals.
+An unreadable answer is retried once, then counted as invalid. An API failure that
+persists after backoff is recorded as an error, apart from answers. Code:
+`src/autointerp/prompt.py`.
 
 ## Usage
 

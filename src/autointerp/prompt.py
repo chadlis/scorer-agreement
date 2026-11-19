@@ -24,7 +24,8 @@ commit a11130d6cf9493ac7feb9205b4fa9edf67cadb66, default configuration
    refused to answer on a window cut mid-sentence and asked for the full text.
 
 The answer is parsed with delphi's rule (Classifier._parse).
-DRAFT until frozen by review.
+FROZEN on 2026-11-19 (git tag prompt-frozen). Do not edit SYSTEM, USER_TEMPLATE or
+parse_answer: any later change is a deviation, recorded in DEVIATIONS.md.
 """
 
 import json
