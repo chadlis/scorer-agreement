@@ -9,10 +9,7 @@ SYSTEM = (
 )
 
 USER_TEMPLATE = (
-    "Feature description: {explanation}\n\n"
-    "Text excerpt:\n"
-    "<<<{text}>>>\n\n"
-    "Answer (1 or 0):"
+    "Feature description: {explanation}\n\nText excerpt:\n<<<{text}>>>\n\nAnswer (1 or 0):"
 )
 
 

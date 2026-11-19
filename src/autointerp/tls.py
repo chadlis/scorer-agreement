@@ -5,6 +5,7 @@ VERIFY_X509_STRICT flag rejects. Only that flag is cleared (decision of
 2026-11-19). Chain, signature, hostname and expiry are still verified.
 Scope: the project's own HTTP clients only.
 """
+
 import os
 import ssl
 
