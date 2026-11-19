@@ -44,8 +44,14 @@ has no effect.
 | Haiku 5.5 | `claude-haiku-5-5` | thinking disabled, effort low | 0 |
 | Sonnet 5.5 | `claude-sonnet-5-5` | thinking `between_tools`, effort low | 0 |
 | Opus 5.5 | `claude-opus-5-5` | thinking cannot be disabled; effort low | 0 |
-| Gemini Flash | `google/gemini-3.8-flash` (OpenRouter, Google AI Studio pinned) | temperature 0, reasoning effort minimal (cannot be disabled) | 54 |
+| Gemini Flash | `google/gemini-2.5-flash` (OpenRouter, Google AI Studio pinned) | temperature 0, reasoning disabled | 0 |
 | Mistral Small 3.2 | `mistralai/mistral-small-3.2-24b-instruct` (OpenRouter, Parasail bf16 pinned) | temperature 0 | 0 |
 
 Claude models reject sampling parameters, so no temperature is sent to them.
 No server-side refusal fallback is enabled: it would silently swap the scorer.
+
+Gemini version: van der Ben et al. (2026) name only "Gemini Flash". Gemini 3.5 to
+3.8 Flash reject disabling reasoning (HTTP 400; 3.8 at minimal effort used 54-61
+reasoning tokens on the test item). Gemini 2.5 Flash accepts it, so it is used to
+keep settings aligned with the other non-reasoning scorers. Raw responses:
+`data/smoke/smoke.jsonl` and `data/smoke/gemini_versions.jsonl`.

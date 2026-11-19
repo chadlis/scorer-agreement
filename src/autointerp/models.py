@@ -20,8 +20,8 @@ SCORERS = {
     ),  # thinking cannot be disabled
     "gemini-flash": dict(
         api="openrouter",
-        model="google/gemini-3.8-flash",
-        params=dict(temperature=0, reasoning={"effort": "minimal"}),
+        model="google/gemini-2.5-flash",
+        params=dict(temperature=0, reasoning={"enabled": False}),
         provider={
             "order": ["google-ai-studio"],
             "allow_fallbacks": False,
