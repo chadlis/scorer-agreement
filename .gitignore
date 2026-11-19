@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.key
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# raw Neuronpedia cache: re-downloadable, large
+data/raw/*
+!data/raw/.gitkeep
