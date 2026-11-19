@@ -1,6 +1,7 @@
 """Step 1: one paid call per scorer, raw responses kept.
 
-Usage: uv run scripts/run_smoke.py [name ...]
+Usage: uv run scripts/run_smoke.py [--yes] [name ...]
+Without --yes, nothing is sent: the script prints the planned calls and exits.
 
 Records in data/smoke/smoke.jsonl without a "system" field were made with the
 earlier draft prompt (commit 6c294f1). New records store the prompt sent.
@@ -45,8 +46,14 @@ def main() -> None:
         http_client=openai.DefaultHttpxClient(verify=ssl_context()),
     )
     out = ROOT / "data/smoke/smoke.jsonl"
+    args = [a for a in sys.argv[1:] if a != "--yes"]
+    names = args or list(SCORERS)
+    if "--yes" not in sys.argv[1:]:
+        print("Dry run, nothing sent. Planned paid calls:", ", ".join(names))
+        print("Rerun with --yes to send them.")
+        return
 
-    for name in sys.argv[1:] or SCORERS:
+    for name in names:
         cfg = SCORERS[name]
         t0 = time.time()
         rec = {
@@ -91,6 +98,7 @@ def main() -> None:
                     raw=d,
                     served_model=d.get("model"),
                     provider=d.get("provider"),
+                    provider_requested=cfg["provider"],
                     stop=r.choices[0].finish_reason,
                     usage=d.get("usage"),
                 )

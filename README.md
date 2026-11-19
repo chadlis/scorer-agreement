@@ -19,8 +19,8 @@ so. The state submitted to the hackathon is the git tag `hackathon-submission`.
 
 ## Status
 
-Setup is done: each scorer has answered one test call. The scorer prompt is still a
-draft. No measurement has been made yet.
+Setup is in progress. Each scorer has been reached with one test call, and the scorer
+prompt is a draft that has not been frozen. No measurement has been made yet.
 
 ## Planned design
 
@@ -39,7 +39,8 @@ measurement.
 | Gemini Flash | `google/gemini-2.5-flash` via OpenRouter, Google AI Studio | temperature 0, reasoning disabled |
 | Mistral Small 3.2 | `mistralai/mistral-small-3.2-24b-instruct` via OpenRouter, Parasail bf16 | temperature 0 |
 
-Claude models reject sampling parameters, so none are sent to them. No fallback model
+Claude models reject sampling parameters, so none are sent to them: they run with
+their default sampling, not at temperature 0. No fallback model
 is enabled: a refusal counts as an unreadable answer. Gemini 2.5 Flash is used because
 later Flash versions do not allow reasoning to be turned off
 (`data/smoke/gemini_versions.jsonl`).
@@ -48,11 +49,14 @@ later Flash versions do not allow reasoning to be turned off
 
 The prompt is the detection prompt of EleutherAI's
 [delphi](https://github.com/EleutherAI/delphi) (commit `a11130d`, default setting of
-one text per call), kept word for word except for two changes. The three solved
-examples placed before the question are removed: three of their 15 labels contradict
-the activations recorded on Neuronpedia, and two of them come from the SAE studied
-here. The sentence "return 1 if the sentence is correctly labeled or 0 if the tokens
-are mislabeled", taken from delphi's fuzzing prompt, becomes "return 1 if the example
+one text per call). Its instructions are kept word for word except for one sentence,
+and the three solved examples that delphi places before the question are removed.
+These examples make up most of delphi's prompt, so results are not directly
+comparable with delphi's detection scores. They were removed because three of their
+15 labels disagree with the activations recorded on Neuronpedia, and two of them
+come from the SAE studied here. The sentence "return 1 if the sentence is correctly
+labeled or 0 if the tokens are mislabeled", identical to a sentence of delphi's
+fuzzing prompt, becomes "return 1 if the example
 possesses the latent or 0 if it does not", because detection shows no labels. Answers
 are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
 frozen yet.
@@ -72,10 +76,12 @@ ANTHROPIC_API_KEY=...
 OPENROUTER_API_KEY=...
 ```
 
-`uv run scripts/run_smoke.py` makes one paid call per scorer (a fraction of a cent).
+`uv run scripts/run_smoke.py --yes` makes one paid call per scorer (a fraction of a
+cent). Without `--yes`, the script only prints what it would send.
 
-`src/autointerp/tls.py` relaxes one strict certificate check that fails behind a
-TLS-inspecting proxy. Certificate verification stays on.
+Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
+strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.
+Without the variable, the default check applies.
 
 ## License
 

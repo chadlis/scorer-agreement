@@ -2,7 +2,8 @@
 
 Produced data/smoke/gemini_versions.jsonl on 2026-11-19, with the earlier draft
 prompt (commit 6c294f1). Rerunning uses the current prompt and stores it.
-Usage: uv run scripts/check_gemini_versions.py
+Usage: uv run scripts/check_gemini_versions.py --yes
+Without --yes, nothing is sent: the script prints the planned calls and exits.
 """
 
 import json
@@ -33,6 +34,10 @@ TEXT = (
 
 
 def main() -> None:
+    if "--yes" not in sys.argv[1:]:
+        print("Dry run, nothing sent. Planned paid calls:", ", ".join(MODELS))
+        print("Rerun with --yes to send them.")
+        return
     for line in (ROOT / ".env").read_text().splitlines():
         if "=" in line and not line.startswith("#"):
             k, v = line.split("=", 1)

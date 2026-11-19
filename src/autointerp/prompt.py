@@ -4,14 +4,15 @@ Base: EleutherAI/delphi, delphi/scorers/classifier/prompts/detection_prompt.py a
 commit a11130d6cf9493ac7feb9205b4fa9edf67cadb66, default configuration
 (n_examples_shown=1, one text per call). Everything is kept verbatim except:
 
-1. The three solved few-shot examples are removed (zero-shot). Three of their
-   15 labels contradict the activations recorded on Neuronpedia, and two of the
-   three examples come from the SAE studied here (gpt2-small/6-res-jb, features
-   6048 and 9396).
+1. The three solved few-shot examples are removed (zero-shot). They make up most
+   of delphi's prompt, so scores are not directly comparable with delphi's. Three
+   of their 15 labels disagree with the activations recorded on Neuronpedia, and
+   two of the three examples come from the SAE studied here (gpt2-small/6-res-jb,
+   features 6048 and 9396).
 2. "return 1 if the sentence is correctly labeled or 0 if the tokens are
    mislabeled" is replaced by "return 1 if the example possesses the latent or 0
-   if it does not". The original sentence comes from delphi's fuzzing prompt,
-   where marked tokens are labels. Detection shows no labels.
+   if it does not". The original sentence is identical to one in delphi's fuzzing
+   prompt, where marked tokens are labels. Detection shows no labels.
 
 The answer is parsed with delphi's rule (Classifier._parse).
 DRAFT until frozen by review.
