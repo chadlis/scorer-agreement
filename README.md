@@ -92,6 +92,9 @@ OPENROUTER_API_KEY=...
 cent). `uv run scripts/check_format.py --yes` sends 19 texts to each scorer to count
 unreadable answers. Without `--yes`, scripts only print what they would send.
 
+`uv run scripts/check_activation_api.py` recomputes five stored windows of feature 100
+with Neuronpedia's free activation API (`data/activation_test/`).
+
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.
 Without the variable, the default check applies.
