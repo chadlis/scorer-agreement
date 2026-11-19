@@ -1,4 +1,4 @@
-"""Scorer prompt: delphi's detection prompt with three documented changes.
+"""Scorer prompt: delphi's detection prompt with four documented changes.
 
 Base: EleutherAI/delphi, delphi/scorers/classifier/prompts/detection_prompt.py at
 commit a11130d6cf9493ac7feb9205b4fa9edf67cadb66, default configuration
@@ -18,6 +18,10 @@ commit a11130d6cf9493ac7feb9205b4fa9edf67cadb66, default configuration
    smoke test without it (2026-11-19, data/smoke/smoke.jsonl), Haiku 5.5 and
    Mistral Small 3.2 answered [0, 1] to a single example. The solved examples
    removed in change 1 were delphi's only demonstration of the list format.
+4. One sentence is added after "You will then be given several text examples.":
+   "Each example is a short excerpt and may start or end mid-sentence." In a
+   format check without it (data/smoke/format_check_v2.jsonl), Sonnet 5.5 twice
+   refused to answer on a window cut mid-sentence and asked for the full text.
 
 The answer is parsed with delphi's rule (Classifier._parse).
 DRAFT until frozen by review.
@@ -30,8 +34,9 @@ SYSTEM = (
     "You are an intelligent and meticulous linguistics researcher.\n\n"
     'You will be given a certain latent of text, such as "male pronouns" or '
     '"text with negative sentiment".\n\n'
-    "You will then be given several text examples. Your task is to determine which "
-    "examples possess the latent.\n\n"
+    "You will then be given several text examples. Each example is a short excerpt "
+    "and may start or end mid-sentence. Your task is to determine which examples "
+    "possess the latent.\n\n"
     "For each example in turn, return 1 if the example possesses the latent or 0 if it "
     "does not. You must return your response in a valid Python list. Your list must "
     "contain exactly one value, 0 or 1, per example. Do not return anything else "

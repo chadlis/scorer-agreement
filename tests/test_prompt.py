@@ -42,11 +42,20 @@ For each example in turn, return 1 if the sentence is correctly labeled or 0 if 
 
 
 def test_system_is_delphi_with_only_documented_changes():
-    expected = DELPHI_SYSTEM.replace(
-        "return 1 if the sentence is correctly labeled or 0 if the tokens are mislabeled.",
-        "return 1 if the example possesses the latent or 0 if it does not.",
-    ).replace(
-        "valid Python list. Do not",
-        "valid Python list. Your list must contain exactly one value, 0 or 1, per example. Do not",
+    expected = (
+        DELPHI_SYSTEM.replace(
+            "return 1 if the sentence is correctly labeled or 0 if the tokens are mislabeled.",
+            "return 1 if the example possesses the latent or 0 if it does not.",
+        )
+        .replace(
+            "several text examples. Your task",
+            "several text examples. Each example is a short excerpt and may start or end "
+            "mid-sentence. Your task",
+        )
+        .replace(
+            "valid Python list. Do not",
+            "valid Python list. Your list must contain exactly one value, 0 or 1, "
+            "per example. Do not",
+        )
     )
     assert SYSTEM == expected

@@ -50,7 +50,7 @@ later Flash versions do not allow reasoning to be turned off
 The prompt is the detection prompt of EleutherAI's
 [delphi](https://github.com/EleutherAI/delphi) (commit `a11130d`, default setting of
 one text per call). Its instructions are kept word for word except for one replaced
-sentence and one added sentence, and the three solved examples that delphi places
+sentence and two added sentences, and the three solved examples that delphi places
 before the question are removed.
 These examples make up most of delphi's prompt, so results are not directly
 comparable with delphi's detection scores. They were removed because three of their
@@ -64,7 +64,9 @@ a test call in which two scorers answered `[0, 1]` to a single example. Line bre
 inside a text are replaced by spaces before it is shown to a scorer, because a format
 check showed that they make scorers read one text as several examples
 (`data/smoke/format_check.jsonl`). An unreadable answer is retried once with the
-identical call, then counted as invalid. Answers
+identical call, then counted as invalid. The second added sentence, "Each example is
+a short excerpt and may start or end mid-sentence", follows a format check in which
+one scorer refused to judge a text cut mid-sentence. Answers
 are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
 frozen yet.
 

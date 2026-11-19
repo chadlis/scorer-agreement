@@ -8,9 +8,11 @@ over activation levels) and every remaining one where it does not (5 on
 measurement is decided at step 2, not here.
 
 Version 1 (data/smoke/format_check.jsonl): decoded windows, no retry.
-Version 2 (data/smoke/format_check_v2.jsonl, default): line breaks replaced by
+Version 2 (data/smoke/format_check_v2.jsonl): line breaks replaced by
 spaces (neuronpedia.scorer_text) and one identical retry on an unreadable answer
 (clients.score).
+Version 3 (data/smoke/format_check_v3.jsonl, default): as version 2, with the
+prompt sentence on excerpts cut mid-sentence.
 
 Usage: uv run scripts/check_format.py [--yes] [scorer ...]
 Without --yes, nothing is sent: the script prints the planned calls and exits.
@@ -64,7 +66,7 @@ def main() -> None:
         return
     load_env()
     clients = Clients()
-    out = ROOT / "data/smoke/format_check_v2.jsonl"
+    out = ROOT / "data/smoke/format_check_v3.jsonl"
     for name in names:
         first, final = Counter(), Counter()
         for k, item in enumerate(items):
