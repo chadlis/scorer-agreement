@@ -32,6 +32,12 @@ def test_source_groups_links_shifted_windows_transitively():
     assert source_groups([a, b, c, d], k=3) == [0, 0, 0, 1]
 
 
+def test_source_groups_merges_two_groups_through_a_later_window():
+    a, d = list("abcdef"), list("uvwxyz")
+    bridge = list("defuvw")  # shares "def" with a and "uvw" with d
+    assert source_groups([a, d, bridge], k=3) == [0, 0, 0]
+
+
 def test_scorer_text_replaces_line_breaks_with_one_space():
     from autointerp.neuronpedia import scorer_text
 

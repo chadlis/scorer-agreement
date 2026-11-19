@@ -21,14 +21,17 @@ so. The state submitted to the hackathon is the git tag `hackathon-submission`.
 
 Setup is done. The scorer prompt was frozen on 2026-11-19 (git tag `prompt-frozen`)
 after three format checks on 19 texts per scorer (`data/smoke/`). No measurement has
-been made yet. Next: build and freeze the texts, labels and placebos, and `PLAN.md`.
+been made yet.
+
+Data freezing is in progress. Decisions are recorded in `PLAN.md` (a draft until it
+is frozen) as they are made. Negatives are drawn from the stored windows of the other
+sampled features, then checked one by one with Neuronpedia's activation API.
 
 ## Planned design
 
 100 features, 40 texts per feature (20 where the feature fires, 20 where it does not),
 3 conditions (the two original explanations and a placebo), 5 scorers, and every call
-made twice: 120,000 calls. The plan will be frozen in `PLAN.md` before the first
-measurement.
+made twice: 120,000 calls. `PLAN.md` will be frozen before the first measurement.
 
 ## Scorers
 
@@ -94,6 +97,8 @@ unreadable answers. Without `--yes`, scripts only print what they would send.
 
 `uv run scripts/check_activation_api.py` recomputes five stored windows of feature 100
 with Neuronpedia's free activation API (`data/activation_test/`).
+`uv run scripts/check_negatives.py` tries the negatives rule on six features. Calls to
+the activation API are spaced by 3.6 s and cached under `data/raw/`.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.

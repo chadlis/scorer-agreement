@@ -2,7 +2,8 @@
 
 Recomputes five stored windows (three positives at different levels, two zero
 windows) and compares the new activations with the stored ones.
-Produced data/activation_test/feature100.json on 2026-11-19.
+Produced data/activation_test/feature100.json on 2026-11-19. It predates
+autointerp.activation, which later scripts use (cached, spaced calls).
 Usage: uv run scripts/check_activation_api.py
 """
 

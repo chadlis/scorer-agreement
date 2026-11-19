@@ -1,0 +1,138 @@
+{
+ "features": [
+  100,
+  6048,
+  9396,
+  3903,
+  10468,
+  16466
+ ],
+ "frac_nonzero": {
+  "100": 0.001189231872558594,
+  "6048": 0.0004596710205078125,
+  "9396": 0.0007791519165039062,
+  "3903": 0.0001509984334309896,
+  "10468": 0.0001424153645833333,
+  "16466": 0.01128673553466797
+ },
+ "windows": 472,
+ "pool": 346,
+ "pool_per_feature": {
+  "100": 65,
+  "6048": 63,
+  "9396": 58,
+  "3903": 38,
+  "10468": 60,
+  "16466": 62
+ },
+ "checks": [
+  {
+   "target": 100,
+   "from_feature": 3903,
+   "window": 23,
+   "text": " Wait<|endoftext|> in East Jerusalem and the West Bank, which were conquered in the 1967 war",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 100,
+   "from_feature": 9396,
+   "window": 10,
+   "text": " manufacturers, so we're turning to you guys! About Us From",
+   "has_line_break": true,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 100,
+   "from_feature": 9396,
+   "window": 40,
+   "text": "V DEAL. I KNOW YOU GUYS JUST RECENTLY EXTENDED THE TER",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 100,
+   "from_feature": 9396,
+   "window": 18,
+   "text": " once we get it. What do you guys think of this big news? Like the",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 6048,
+   "from_feature": 100,
+   "window": 59,
+   "text": " containing several recommendations for dealing with risks posed by coastal flooding. The report, which is",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 6048,
+   "from_feature": 100,
+   "window": 2,
+   "text": " depressant and<|endoftext|> expectancy of the effects of alcohol without actually having consumed it. In",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 6048,
+   "from_feature": 10468,
+   "window": 7,
+   "text": " perceived new threat, real or otherwise: Thus full-body scanners, unacceptable as recently",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 6048,
+   "from_feature": 9396,
+   "window": 26,
+   "text": " Last week, we [gave you guys a date](http://boards.na",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 9396,
+   "from_feature": 6048,
+   "window": 32,
+   "text": " ball [pending free-agent left tackle Cordy Glenn and left guard Richie Inc",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 9396,
+   "from_feature": 100,
+   "window": 23,
+   "text": " the Court is satisfied that the effect of the government' proposal to require RAS approvals",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 9396,
+   "from_feature": 16466,
+   "window": 39,
+   "text": " with a cap of 4.3 million tonnes of emissions per year — as well as",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  },
+  {
+   "target": 9396,
+   "from_feature": 10468,
+   "window": 30,
+   "text": " her into a comic-book superhero and thus avoided meddling with ancient European cultural tradition.",
+   "has_line_break": false,
+   "max_raw": 0,
+   "max_shown": 0
+  }
+ ]
+}

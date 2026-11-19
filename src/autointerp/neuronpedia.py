@@ -102,6 +102,11 @@ def scorer_text(tokens: list[str]) -> str:
     return _NEWLINES.sub(" ", window_text(tokens))
 
 
+def kgrams(tokens: list[str], k: int = 6) -> set[tuple[str, ...]]:
+    """Every run of k consecutive tokens."""
+    return {tuple(tokens[i : i + k]) for i in range(len(tokens) - k + 1)}
+
+
 def source_groups(windows: list[list[str]], k: int = 6) -> list[int]:
     """Group sliding windows that come from the same source text.
 
@@ -116,11 +121,13 @@ def source_groups(windows: list[list[str]], k: int = 6) -> list[int]:
             i = parent[i]
         return i
 
-    grams = [{tuple(w[i : i + k]) for i in range(len(w) - k + 1)} for w in windows]
-    for i in range(len(windows)):
-        for j in range(i):
-            if grams[i] & grams[j]:
-                parent[root(i)] = root(j)
+    first: dict[tuple[str, ...], int] = {}  # k-gram -> first window that holds it
+    for i, w in enumerate(windows):
+        for g in kgrams(w, k):
+            j = first.setdefault(g, i)
+            if j != i:
+                a, b = root(i), root(j)
+                parent[max(a, b)] = min(a, b)
     ids: dict[int, int] = {}
     return [ids.setdefault(root(i), len(ids)) for i in range(len(windows))]
 
