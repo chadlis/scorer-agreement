@@ -1,13 +1,22 @@
-# Autointerp scorers: agreement and gain over placebo
+# scorer-agreement
 
-Hackathon project (Mechanistic Interpretability Hackathon 5: Autointerp).
-Work started before the kick-off; this is stated in the report.
+Autointerp scorers: agreement and gain over placebo.
 
 Question: with texts and explanations held fixed, do detection scorers differ
 in their judgments, and in how much the explanation helps them compared with an
 unrelated explanation (placebo)?
 
 Source: SAE `gpt2-small/6-res-jb` via the Neuronpedia API.
+
+## Origin
+
+This project started as an entry to the Mechanistic Interpretability Hackathon 5:
+Autointerp (kick-off 2026-11-20, submission 2026-11-22). Preparation work began
+before the kick-off, as allowed by the rules and stated in the report. The commit
+history shows what was fixed before any measurement.
+
+The exact state submitted to the hackathon is the git tag `hackathon-submission`.
+Work on `main` may continue after that date.
 
 ## Setup
 
