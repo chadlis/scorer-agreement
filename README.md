@@ -44,6 +44,19 @@ is enabled: a refusal counts as an unreadable answer. Gemini 2.5 Flash is used b
 later Flash versions do not allow reasoning to be turned off
 (`data/smoke/gemini_versions.jsonl`).
 
+## Scorer prompt
+
+The prompt is the detection prompt of EleutherAI's
+[delphi](https://github.com/EleutherAI/delphi) (commit `a11130d`, default setting of
+one text per call), kept word for word except for two changes. The three solved
+examples placed before the question are removed: three of their 15 labels contradict
+the activations recorded on Neuronpedia, and two of them come from the SAE studied
+here. The sentence "return 1 if the sentence is correctly labeled or 0 if the tokens
+are mislabeled", taken from delphi's fuzzing prompt, becomes "return 1 if the example
+possesses the latent or 0 if it does not", because detection shows no labels. Answers
+are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
+frozen yet.
+
 ## Usage
 
 ```bash
