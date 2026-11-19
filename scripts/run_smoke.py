@@ -1,6 +1,9 @@
 """Step 1: one paid call per scorer, raw responses kept.
 
 Usage: uv run scripts/run_smoke.py [name ...]
+
+Records in data/smoke/smoke.jsonl without a "system" field were made with the
+earlier draft prompt (commit 6c294f1). New records store the prompt sent.
 """
 
 import json
@@ -46,7 +49,13 @@ def main() -> None:
     for name in sys.argv[1:] or SCORERS:
         cfg = SCORERS[name]
         t0 = time.time()
-        rec = {"scorer": name, "model": cfg["model"], "params": cfg["params"]}
+        rec = {
+            "scorer": name,
+            "model": cfg["model"],
+            "params": cfg["params"],
+            "system": SYSTEM,
+            "user": build_user(EXPL, TEXT),
+        }
         try:
             if cfg["api"] == "anthropic":
                 r = ant.messages.create(

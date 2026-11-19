@@ -1,6 +1,7 @@
 """Check which Gemini Flash versions accept disabled reasoning (one paid call each).
 
-Produced data/smoke/gemini_versions.jsonl on 2026-11-19.
+Produced data/smoke/gemini_versions.jsonl on 2026-11-19, with the earlier draft
+prompt (commit 6c294f1). Rerunning uses the current prompt and stores it.
 Usage: uv run scripts/check_gemini_versions.py
 """
 
@@ -51,6 +52,8 @@ def main() -> None:
             "model": model,
             "params": {"temperature": 0, "reasoning": {"enabled": False}},
             "provider_order": PROVIDER["order"],
+            "system": SYSTEM,
+            "user": messages[1]["content"],
         }
         t0 = time.time()
         try:
