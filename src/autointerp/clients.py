@@ -92,3 +92,22 @@ def call_scorer(clients: Clients, name: str, system: str, user: str) -> dict:
         rec.update(ok=False, error=f"{type(e).__name__}: {e}")
     rec["latency_s"] = round(time.time() - t0, 2)
     return rec
+
+
+def score(clients: Clients, name: str, system: str, user: str) -> dict:
+    """Protocol rule: an unreadable answer is retried once with the identical call.
+
+    Returns the final record, with every attempt kept in "attempts" and the final
+    reading in "final_answer" ("1", "0" or "invalid"). API errors are not retried
+    here (the SDKs already retry rate limits and server errors).
+    """
+    attempts = [call_scorer(clients, name, system, user)]
+    if attempts[0]["ok"] and attempts[0]["answer"] == "invalid":
+        attempts.append(call_scorer(clients, name, system, user))
+    final = attempts[-1]
+    return {
+        **final,
+        "attempts": attempts,
+        "n_attempts": len(attempts),
+        "final_answer": final.get("answer", "invalid") if final["ok"] else "invalid",
+    }

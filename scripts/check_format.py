@@ -7,6 +7,11 @@ over activation levels) and every remaining one where it does not (5 on
 2026-11-19). Texts keep <|endoftext|> as is. How texts are built for the
 measurement is decided at step 2, not here.
 
+Version 1 (data/smoke/format_check.jsonl): decoded windows, no retry.
+Version 2 (data/smoke/format_check_v2.jsonl, default): line breaks replaced by
+spaces (neuronpedia.scorer_text) and one identical retry on an unreadable answer
+(clients.score).
+
 Usage: uv run scripts/check_format.py [--yes] [scorer ...]
 Without --yes, nothing is sent: the script prints the planned calls and exits.
 """
@@ -15,9 +20,9 @@ import json
 import sys
 from collections import Counter
 
-from autointerp.clients import ROOT, Clients, call_scorer, load_env
+from autointerp.clients import ROOT, Clients, load_env, score
 from autointerp.models import SCORERS
-from autointerp.neuronpedia import fetch_feature, source_groups, window_text
+from autointerp.neuronpedia import fetch_feature, scorer_text, source_groups
 from autointerp.prompt import SYSTEM, build_user
 
 FEATURE = 100
@@ -39,7 +44,7 @@ def pick_windows(feature: dict) -> list[dict]:
         {
             "max": round(a["maxValue"], 2),
             "truth": int(a["maxValue"] > 0),
-            "text": window_text(a["tokens"]),
+            "text": scorer_text(a["tokens"]),
         }
         for a in pos + neg
     ]
@@ -55,22 +60,24 @@ def main() -> None:
     print(f"{len(items)} texts ({n_pos} positive, {n_neg} negative), explanation: {expl!r}")
     if "--yes" not in sys.argv[1:]:
         print(f"Dry run, nothing sent. Planned paid calls: {len(items)} x {', '.join(names)}")
-        print("Rerun with --yes to send them.")
+        print("Rerun with --yes to send them (unreadable answers are retried once).")
         return
     load_env()
     clients = Clients()
-    out = ROOT / "data/smoke/format_check.jsonl"
+    out = ROOT / "data/smoke/format_check_v2.jsonl"
     for name in names:
-        answers = Counter()
+        first, final = Counter(), Counter()
         for k, item in enumerate(items):
-            rec = call_scorer(clients, name, SYSTEM, build_user(expl, item["text"]))
+            rec = score(clients, name, SYSTEM, build_user(expl, item["text"]))
             rec.update(feature=FEATURE, item=k, truth=item["truth"], max_activation=item["max"])
             with out.open("a") as f:
                 f.write(json.dumps(rec, default=str) + "\n")
-            answers[rec.get("answer", "error")] += 1
-            if rec.get("answer") == "invalid" or not rec["ok"]:
-                print(f"  {name} item {k}: {rec.get('text', rec.get('error'))!r}")
-        print(f"{name:14} {dict(answers)}")
+            first[rec["attempts"][0].get("answer", "error")] += 1
+            final[rec["final_answer"]] += 1
+            for i, att in enumerate(rec["attempts"]):
+                if att.get("answer") == "invalid" or not att["ok"]:
+                    print(f"  {name} item {k} try {i + 1}: {att.get('text', att.get('error'))!r}")
+        print(f"{name:14} first try {dict(first)}  after retry {dict(final)}")
 
 
 if __name__ == "__main__":

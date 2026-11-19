@@ -60,7 +60,11 @@ labeled or 0 if the tokens are mislabeled", identical to a sentence of delphi's
 fuzzing prompt, becomes "return 1 if the example
 possesses the latent or 0 if it does not", because detection shows no labels. The
 added sentence, "Your list must contain exactly one value, 0 or 1, per example", follows
-a test call in which two scorers answered `[0, 1]` to a single example. Answers
+a test call in which two scorers answered `[0, 1]` to a single example. Line breaks
+inside a text are replaced by spaces before it is shown to a scorer, because a format
+check showed that they make scorers read one text as several examples
+(`data/smoke/format_check.jsonl`). An unreadable answer is retried once with the
+identical call, then counted as invalid. Answers
 are parsed with delphi's rule. See `src/autointerp/prompt.py`. The prompt is not
 frozen yet.
 
@@ -69,7 +73,7 @@ frozen yet.
 ```bash
 uv sync
 uv run pytest
-uv run ruff check . && uv run ruff format --check .
+scripts/check.sh   # lint, format, tests and README typography, stops at the first failure
 ```
 
 API keys are read from a `.env` file at the repository root, which git ignores:

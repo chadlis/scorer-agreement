@@ -10,6 +10,7 @@ whole token sequence.
 """
 
 import json
+import re
 import time
 from pathlib import Path
 
@@ -85,6 +86,20 @@ def decode_tokens(tokens: list[str]) -> list[str]:
 
 def window_text(tokens: list[str]) -> str:
     return "".join(decode_tokens(tokens))
+
+
+_NEWLINES = re.compile(r"[ \t]*\n[\s]*")
+
+
+def scorer_text(tokens: list[str]) -> str:
+    """Text shown to a scorer: the decoded window with every run of line breaks
+    (and the blanks around it) replaced by one space.
+
+    Decided on 2026-11-19 after a format check in which line breaks inside a
+    window made scorers read it as several examples (data/smoke/format_check.jsonl).
+    Activations are unaffected: they were measured on the original text.
+    """
+    return _NEWLINES.sub(" ", window_text(tokens))
 
 
 def source_groups(windows: list[list[str]], k: int = 6) -> list[int]:

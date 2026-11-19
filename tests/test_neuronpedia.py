@@ -30,3 +30,11 @@ def test_source_groups_links_shifted_windows_transitively():
     c = list("ijklmnopqr")  # shares a run with b only
     d = list("zyxwvutsrq")  # unrelated
     assert source_groups([a, b, c, d], k=3) == [0, 0, 0, 1]
+
+
+def test_scorer_text_replaces_line_breaks_with_one_space():
+    from autointerp.neuronpedia import scorer_text
+
+    toks = [" cost", "Ċ", "Ċ", "Research", " is", "Ċ"]
+    assert scorer_text(toks) == " cost Research is "
+    assert "\n" not in scorer_text(["a", " Ċ", "Ċ", " b"])
