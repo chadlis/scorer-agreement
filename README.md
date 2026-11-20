@@ -121,6 +121,9 @@ Data-freezing scripts:
 - `uv run scripts/build_texts.py [feature ...]` builds and labels the 40 texts of
   each feature, pilot first, with the free activation API (`data/texts/`, about 8 h,
   resumable).
+- `uv run scripts/run_pilot.py` prints what the pilot would send. With `--yes` it
+  sends it (paid, capped at 10 USD, Claude through the Message Batches API), and only
+  once the git tag `plan-frozen` exists (`data/runs/pilot/`).
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
 errors, and cached under `data/raw/`.
