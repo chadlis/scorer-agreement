@@ -1,11 +1,15 @@
 {
  "round": 11,
- "reviewer": "pending: Salah",
+ "reviewer": "Salah",
  "rejected_doubt": [],
  "confident_checked": [],
  "confident_rejected": [],
- "rejected_generic": [],
- "pending_doubt": [
-  8697
- ]
+ "rejected_generic": [
+  {
+   "target": 8697,
+   "donor": 20682,
+   "placebo": "names of a person, specifically the name \"Corey\""
+  }
+ ],
+ "note": "Salah rejected the light doubt on 8697 and forbade the placebo 'names of a person, specifically the name \"Corey\"' (flagged on two targets, rounds 10 and 11). One more round (12)."
 }

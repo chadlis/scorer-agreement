@@ -290,7 +290,9 @@ with the same scorer prompt. Labels stay those of the target feature.
    are forbidden in the automatic rounds too. At the round 10 review, he rejected
    both doubts, forbade the placebo "references to government bodies and
    officials" (flagged on two targets in a row, too broad), and asked for a round
-   11.
+   11. At the round 11 review, he forbade the placebo "names of a person,
+   specifically the name "Corey"" (light doubt on two targets in a row) and asked for
+   a round 12.
 10. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.
