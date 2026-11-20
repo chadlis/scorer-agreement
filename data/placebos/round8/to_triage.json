@@ -1,0 +1,36 @@
+{
+ "pairs": [
+  {
+   "target": 336,
+   "target_A": "food and drink related phrases",
+   "target_B": "instances of the word \"ready\"",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 3540,
+   "target_A": "phrases containing the name \"McElroy\"",
+   "target_B": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof",
+   "donor": 22496,
+   "donor_model": "B",
+   "placebo": "references to governmental organizations and entities"
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 24159,
+   "donor_model": "B",
+   "placebo": "specific formatting elements, particularly related to structured data or metadata"
+  },
+  {
+   "target": 10814,
+   "target_A": "mentions related to financial bailouts",
+   "target_B": "references to financial bailouts and rescue packages",
+   "donor": 15387,
+   "donor_model": "B",
+   "placebo": "references to images or pictures"
+  }
+ ]
+}
