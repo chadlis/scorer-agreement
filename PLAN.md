@@ -6,6 +6,30 @@ any change is recorded in `DEVIATIONS.md` with its reason.
 
 ## Data
 
+### Feature selection
+
+**Filter (set in the protocol).** A feature can be sampled only if its activation
+frequency `frac_nonzero`, the share of corpus tokens on which it fires as reported
+by Neuronpedia, is strictly between 1e-5 and 1e-2, that is between 0.001% and 1% of
+tokens. The sampling rule within this range and its seed are still open.
+
+**Why the upper bound.** A text is a window of 17 tokens. If a feature fires on a
+share f of tokens, a random window contains at least one activation with
+probability about 1 − (1 − f)^17, if tokens are taken as independent (activations
+cluster, so the true rate is somewhat lower). This is 1.7% at f = 0.1% and 15.7% at
+f = 1%. Above 1%, negatives become hard to find and many borrowed passages would be
+rejected. Very frequent features also tend to fire on generic patterns that are
+hard to state in one sentence. This tendency is not measured on this SAE.
+
+**Why the lower bound.** Below 0.001%, a feature fires on fewer than 1 token in
+100,000. Few distinct passages are then available as positives, while 20 distinct
+positives at varied activation levels are needed, and the explanation itself rests
+on few examples. This is a reason of principle, not a result: in the trial, the
+rarest feature, 10468 (f = 0.014%), still had 54 distinct positive passages.
+
+**Status of the bounds.** They are round orders of magnitude, not tuned values and
+not taken from a specific paper. They are fixed before sampling.
+
 ### Negatives (decided 2026-11-19)
 
 **Source.** The 20 negative texts of a target feature are drawn from the stored
@@ -67,8 +91,8 @@ the same as with any other source.
 - *Labels describe the window alone.* A negative is checked on the 17 tokens the
   scorer sees, without the text that preceded it in the corpus. This is the label
   that matches the scorer's task, not the activation in the original context
-  (recomputed values differ from stored ones by 9 to 22% on positives,
-  `data/activation_test/`).
+  (on the positives recomputed so far within the filter, recomputed values range
+  from 26% below to 115% above the stored ones).
 - *Size of the pool.* In the trial (`scripts/check_negatives.py`), six features gave
   472 windows and 346 distinct passages, 38 to 65 per feature. One hundred features
   should give about 5,800 passages, for about 3,000 needed (20 negatives and 10
