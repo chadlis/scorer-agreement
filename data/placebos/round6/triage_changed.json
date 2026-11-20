@@ -1,0 +1,51 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Le placebo est-il assez spécifique et assez éloigné du sens de la cible pour qu'un scoreur réponde 0 à presque tous les textes, y compris ceux où la cible s'active, ou bien risque-t-il de convenir aux textes de la cible (recouvrement de sens) ou à la plupart des textes (motif générique) ?",
+ "pairs": [
+  {
+   "target": 9692,
+   "verdict": "confident",
+   "reason": "Restaurants : thème précis, sans rapport avec la marque LEGO et ses jouets."
+  },
+  {
+   "target": 17632,
+   "verdict": "confident",
+   "reason": "Syntaxe de code informatique : motif précis, absent de textes de presse sur des conférences de presse ou de prose ordinaire avec « a »/« an »."
+  },
+  {
+   "target": 20330,
+   "verdict": "confident",
+   "reason": "Titres et postes d'autorité : catégorie délimitée, sans lien avec le mot « two » ; présents dans une minorité de textes seulement."
+  },
+  {
+   "target": 5634,
+   "verdict": "confident",
+   "reason": "Peur ou anxiété : registre émotionnel précis, sans rapport avec les termes financiers et les indicateurs de réussite."
+  },
+  {
+   "target": 5059,
+   "verdict": "confident",
+   "reason": "Nom propre « McElroy » : très spécifique, sans rapport avec les animaux préhistoriques, les mastodontes ou le malt."
+  },
+  {
+   "target": 12732,
+   "verdict": "doubt",
+   "reason": "Fit : une révélation ou une information nouvelle est souvent présentée comme une communication (« revealed », « told », « announced », message), ce qui recouvre « communication directe ou messages »."
+  },
+  {
+   "target": 12276,
+   "verdict": "doubt",
+   "reason": "Fit : « perception » englobe les sensations et le ressenti, donc le plaisir ; de plus la formule est vague (« seems », « looks », « feels ») et tire vers le générique."
+  },
+  {
+   "target": 13910,
+   "verdict": "doubt",
+   "reason": "Fit : catégorie plus large qui inclut la cible, « Venezuelan » et les mentions du Venezuela relèvent des nationalités."
+  },
+  {
+   "target": 3246,
+   "verdict": "confident",
+   "reason": "Mention d'un parti politique : thème précis, sans rapport avec les expressions de peur ou d'anxiété."
+  }
+ ]
+}
