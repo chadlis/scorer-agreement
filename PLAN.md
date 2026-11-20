@@ -1,8 +1,10 @@
 # Plan
 
-Status: draft. This file is completed decision by decision during data freezing
-(step 2), then frozen in a commit before the first measurement call. After that,
-any change is recorded in `DEVIATIONS.md` with its reason.
+> **Status (2026-11-20): complete, not frozen yet.** Every decision is taken. The
+> file will be frozen in the commit that adds the verified texts and labels (git tag
+> `plan-frozen`), before the first scorer call. From then on, any change is recorded
+> in `DEVIATIONS.md` with its reason. Still to fix before the pilot: its spending cap
+> (section 2.7, rule 3).
 
 How to read it: section 1 is a one-page summary, section 2 holds the rules in the
 order the study runs, section 3 gathers every limit to be reported, and the

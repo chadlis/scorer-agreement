@@ -23,12 +23,12 @@ Setup is done. The scorer prompt was frozen on 2026-11-19 (git tag `prompt-froze
 after three format checks on 19 texts per scorer (`data/smoke/`). No measurement has
 been made yet.
 
-Data freezing is in progress. Decisions are recorded in `PLAN.md` (a draft until it
-is frozen) as they are made. The 100 features are a simple random sample of the
-eligible features, drawn with a seed committed beforehand. Negatives are drawn from
-the stored windows of the other sampled features. Every label, positive or negative,
-is then checked with Neuronpedia's activation API on the exact text shown to the
-scorer.
+Data freezing is in progress. Every decision is written in `PLAN.md`, complete and
+to be frozen with the verified texts. The texts are being built and checked. The 100
+features are a simple random sample of the eligible features, drawn with a seed
+committed beforehand. Negatives are drawn from the stored windows of the other
+sampled features. Every label, positive or negative, is then checked with
+Neuronpedia's activation API on the exact text shown to the scorer.
 
 ## Planned design
 
