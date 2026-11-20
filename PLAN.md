@@ -332,11 +332,35 @@ triage instead of trusting it.
 - *Lexical filter.* Meaning can be close without a shared word, and a shared word
   does not always mean close meaning. The filter is a screen, not a judgment.
 
-### Open points
+### Windows (decided 2026-11-20)
 
-- Windows that contain `<|endoftext|>` join two documents (12 of 85 windows for
-  feature 100).
-- Passages that hold both positive and negative windows.
+**Document separators.** A stored window can hold `<|endoftext|>`, the token that
+separates two documents in GPT-2's corpus. In the sample, 9.2% of positive windows
+(460 of 4,948 positive passages) hold one, and the peak is after it in two cases out
+of three, never on it. Neuronpedia's activation API reads it as one special token,
+so the recomputed label matches the text shown. The rule:
+
+1. Windows with a separator are kept, for positives and negatives alike, and shown
+   to the scorer as they are.
+2. After the 40 texts of every feature are built, the share of texts holding a
+   separator is compared between positives and negatives. If it differs by more
+   than 5 points, negatives with a separator are replaced by the next eligible
+   passages without one, from the same seeded list, until the gap is at most 5
+   points, so that the separator says nothing about the label.
+
+Why: dropping these windows would leave two sampled features (14889 and 21484)
+with fewer than 20 distinct positive passages, so the sample and the frozen
+placebos would change. Dropping them on one side only would make the separator a
+cue. Limit to report: about one text in ten joins two documents.
+
+**Mixed passages.** Only 2 of the 5,532 passage groups of the sample mix positive and
+zero windows of a feature. A passage counts as positive for its feature when any of
+its windows is positive. Negatives already exclude any passage close to a window of
+the target, so no conflict arises.
+
+**One window per passage.** 159 positive passages hold several sliding windows. The
+window kept, recomputed and shown is the one with the highest stored activation,
+centred on the peak.
 
 ## Analyses
 
