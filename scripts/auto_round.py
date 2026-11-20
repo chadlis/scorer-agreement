@@ -4,7 +4,8 @@ Usage:
   uv run scripts/auto_round.py assign N   repair round N-1 into round N, list the
                                           changed pairs for the triage
   uv run scripts/auto_round.py close N    merge the triage of the changed pairs with
-                                          the verdicts carried over, reject every doubt
+                                          the verdicts carried over, reject every strong
+                                          doubt (a doubt without strength counts as strong)
 
 assign writes data/placebos/roundN/assignment.json and to_triage.json. The triage
 agent writes roundN/triage_changed.json. close writes roundN/triage.json and
@@ -99,20 +100,27 @@ def close(n: int) -> None:
         }
         for r in pairs
     ]
-    doubts = [t["target"] for t in merged if t["verdict"] == "doubt"]
+    doubts = [t for t in merged if t["verdict"] == "doubt"]
+    # From round 13 on (rule 9), only strong doubts are rejected, light ones wait for Salah.
+    strong = [t["target"] for t in doubts if t.get("strength", "strong") == "strong"]
+    light = [t["target"] for t in doubts if t.get("strength") == "light"]
     (d / "triage.json").write_text(
         json.dumps({"model": "claude-fable-5-2", "pairs": merged}, indent=1)
     )
     decisions = {
         "round": n,
         "reviewer": "automatic (rule 9)",
-        "rejected_doubt": doubts,
+        "rejected_doubt": strong,
+        "light_doubt": light,
         "confident_checked": [],
         "confident_rejected": [],
         "rejected_generic": [],
     }
     (d / "decisions.json").write_text(json.dumps(decisions, indent=1))
-    print(f"round {n}: {len(changed)} pairs triaged, {len(doubts)} doubts rejected")
+    print(
+        f"round {n}: {len(changed)} pairs triaged, {len(strong)} strong doubts rejected, "
+        f"{len(light)} light doubts kept for review"
+    )
 
 
 if __name__ == "__main__":

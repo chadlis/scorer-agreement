@@ -292,7 +292,11 @@ with the same scorer prompt. Labels stay those of the target feature.
    officials" (flagged on two targets in a row, too broad), and asked for a round
    11. At the round 11 review, he forbade the placebo "names of a person,
    specifically the name "Corey"" (light doubt on two targets in a row) and asked for
-   a round 12.
+   a round 12. At the round 12 review, he rejected the strong doubt on 19647 and
+   decided that, from round 13 on, the triage marks each doubt strong or light,
+   strong doubts are rejected automatically, and the rounds stop as soon as a round
+   leaves only light doubts or none (at most up to round 16). The light doubts left
+   then go to him at once, and the assignment is frozen.
 10. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.

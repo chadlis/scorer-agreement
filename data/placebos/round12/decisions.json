@@ -1,11 +1,11 @@
 {
  "round": 12,
- "reviewer": "pending: Salah",
- "rejected_doubt": [],
+ "reviewer": "Salah",
+ "rejected_doubt": [
+  19647
+ ],
  "confident_checked": [],
  "confident_rejected": [],
  "rejected_generic": [],
- "pending_doubt": [
-  19647
- ]
+ "note": "Salah rejected the strong doubt on 19647 and decided that strong doubts are now rejected automatically until a round leaves only light doubts or none."
 }
