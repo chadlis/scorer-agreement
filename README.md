@@ -24,9 +24,11 @@ after three format checks on 19 texts per scorer (`data/smoke/`). No measurement
 been made yet.
 
 Data freezing is in progress. Decisions are recorded in `PLAN.md` (a draft until it
-is frozen) as they are made. Negatives are drawn from the stored windows of the other
-sampled features. Every label, positive or negative, is then checked with
-Neuronpedia's activation API on the exact text shown to the scorer.
+is frozen) as they are made. The 100 features are a simple random sample of the
+eligible features, drawn with a seed committed beforehand. Negatives are drawn from
+the stored windows of the other sampled features. Every label, positive or negative,
+is then checked with Neuronpedia's activation API on the exact text shown to the
+scorer.
 
 ## Planned design
 
@@ -100,9 +102,10 @@ unreadable answers. Without `--yes`, scripts only print what they would send.
 with Neuronpedia's free activation API (`data/activation_test/`).
 `uv run scripts/check_negatives.py` tries the negatives rule on six features.
 `uv run scripts/survey_features.py` downloads 120 random features (exploratory seed 1,
-distinct from the final draw) to size the sampling rule (`data/feature_survey/`). Calls to
-the activation API are spaced by 3.6 s, retried on rate limits and server errors,
-and cached under `data/raw/`.
+distinct from the final draw) to size the sampling rule (`data/feature_survey/`).
+`uv run scripts/draw_features.py` draws the 100 features with the committed seed
+(`data/draw/`). Calls to the activation API are spaced by 3.6 s, retried on rate
+limits and server errors, and cached under `data/raw/`.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.
