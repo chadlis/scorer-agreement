@@ -1,0 +1,605 @@
+{
+ "model": "claude-fable-5-2",
+ "pairs": [
+  {
+   "target": 1133,
+   "verdict": "confident",
+   "reason": "Mot pr\u00e9cis \u00ab method \u00bb, sans lien de sens avec les ordres ou instructions.",
+   "carried_over": true
+  },
+  {
+   "target": 10461,
+   "verdict": "confident",
+   "reason": "Structure \u00ab something of a/an \u00bb contre pr\u00e9fixe \u00ab over \u00bb : motif lexical pr\u00e9cis et sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 14889,
+   "verdict": "confident",
+   "reason": "Publication Ars contre expressions de priorit\u00e9/importance : sens sans rapport, placebo assez pr\u00e9cis.",
+   "carried_over": true
+  },
+  {
+   "target": 47,
+   "verdict": "confident",
+   "reason": "Donner ou recevoir des ordres : sans rapport avec la mention d'un parti politique.",
+   "carried_over": true
+  },
+  {
+   "target": 15387,
+   "verdict": "confident",
+   "reason": "Images contre conditionnelles en \u00ab If \u00bb : motif syntaxique pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 18011,
+   "verdict": "confident",
+   "reason": "Vocabulaire des syst\u00e8mes informatiques : sans lien avec \u00ab diss \u00bb ni avec la dissociation.",
+   "carried_over": true
+  },
+  {
+   "target": 11479,
+   "verdict": "confident",
+   "reason": "Assignation/allocation contre le mot \u00ab Along \u00bb : mot pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 9692,
+   "verdict": "confident",
+   "reason": "Restaurants : th\u00e8me pr\u00e9cis, sans rapport avec la marque LEGO et ses jouets.",
+   "carried_over": true
+  },
+  {
+   "target": 23318,
+   "verdict": "confident",
+   "reason": "Calme et tranquillit\u00e9 : notion pr\u00e9cise, sans lien avec les mutations biologiques ou la mutilation.",
+   "carried_over": true
+  },
+  {
+   "target": 5479,
+   "verdict": "confident",
+   "reason": "Nombres \u00e0 trait d'union li\u00e9s aux conf\u00e9rences sportives : motif \u00e9troit et formel, sans rapport avec les groupes ethniques ou les identit\u00e9s collectives.",
+   "carried_over": false
+  },
+  {
+   "target": 9401,
+   "verdict": "confident",
+   "reason": "Noms de personnes contre le mot \u00ab two \u00bb : mot pr\u00e9cis, absent de la plupart des textes.",
+   "carried_over": true
+  },
+  {
+   "target": 17632,
+   "verdict": "confident",
+   "reason": "Syntaxe de code informatique : motif pr\u00e9cis, absent de textes de presse sur des conf\u00e9rences de presse ou de prose ordinaire avec \u00ab a \u00bb/\u00ab an \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 20330,
+   "verdict": "confident",
+   "reason": "Titres et postes d'autorit\u00e9 : cat\u00e9gorie d\u00e9limit\u00e9e, sans lien avec le mot \u00ab two \u00bb ; pr\u00e9sents dans une minorit\u00e9 de textes seulement.",
+   "carried_over": true
+  },
+  {
+   "target": 5634,
+   "verdict": "confident",
+   "reason": "Peur ou anxi\u00e9t\u00e9 : registre \u00e9motionnel pr\u00e9cis, sans rapport avec les termes financiers et les indicateurs de r\u00e9ussite.",
+   "carried_over": true
+  },
+  {
+   "target": 14097,
+   "verdict": "confident",
+   "reason": "Mot \u00ab sexuality \u00bb : pr\u00e9cis et sans lien avec le mot \u00ab Cop \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 13068,
+   "verdict": "confident",
+   "reason": "Conf\u00e9rences sportives contre plaisir : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 11794,
+   "verdict": "confident",
+   "reason": "\u00c9tat du Maine : lieu pr\u00e9cis, sans lien avec les vid\u00e9os.",
+   "carried_over": true
+  },
+  {
+   "target": 7229,
+   "verdict": "confident",
+   "reason": "Fragment \u00ab Ey. \u00bb : motif lexical pr\u00e9cis, sans lien avec les v\u00eatements ou \u00ab suit \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 2112,
+   "verdict": "confident",
+   "reason": "\u00c9motions intenses : sans rapport avec les noms de lieux ou de nationalit\u00e9s.",
+   "carried_over": true
+  },
+  {
+   "target": 22163,
+   "verdict": "confident",
+   "reason": "Pronoms contre nourriture et boisson : placebo pr\u00e9cis, sans rapport avec la cible.",
+   "carried_over": true
+  },
+  {
+   "target": 16269,
+   "verdict": "confident",
+   "reason": "Noms contenant \u00ab Brien \u00bb ou \u00ab Reilly \u00bb : motif lexical tr\u00e8s \u00e9troit, sans rapport avec les th\u00e9rapies ni avec \u00ab ape \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 10122,
+   "verdict": "confident",
+   "reason": "Jours de la semaine : cat\u00e9gorie ferm\u00e9e et pr\u00e9cise, sans rapport avec la magie ou le mot \u00ab spell \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 6322,
+   "verdict": "confident",
+   "reason": "Couteaux contre remerciements : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 23756,
+   "verdict": "confident",
+   "reason": "\u00ab topic \u00bb + nombre contre le nom \u00ab Gordon \u00bb : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 18727,
+   "verdict": "confident",
+   "reason": "Mutations biologiques : th\u00e8me scientifique pr\u00e9cis, aucun lien avec l'\u00c9tat du Maine.",
+   "carried_over": false
+  },
+  {
+   "target": 19944,
+   "verdict": "confident",
+   "reason": "Exactitude et pr\u00e9cision, th\u00e8me distinct de l'aide ou de la contribution.",
+   "carried_over": true
+  },
+  {
+   "target": 17379,
+   "verdict": "confident",
+   "reason": "Ach\u00e8vement/fin de phrase contre traitements th\u00e9rapeutiques : placebo pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 3665,
+   "verdict": "confident",
+   "reason": "R\u00e9v\u00e9lations surprenantes, \u00e0 l'oppos\u00e9 des pr\u00e9visions et projections attendues.",
+   "carried_over": true
+  },
+  {
+   "target": 1589,
+   "verdict": "confident",
+   "reason": "\u00ab as per \u00bb contre troubles politiques : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 565,
+   "verdict": "confident",
+   "reason": "Remerciements contre le pr\u00e9nom \u00ab Evgeni \u00bb : nom pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 3812,
+   "verdict": "confident",
+   "reason": "Activisme contre le mot \u00ab spell \u00bb : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 5264,
+   "verdict": "confident",
+   "reason": "Troubles politiques contre int\u00e9grit\u00e9 structurelle/ing\u00e9nierie : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 6076,
+   "verdict": "confident",
+   "reason": "Fragment \u00ab ary \u00bb : motif lexical pr\u00e9cis, sans lien avec les statistiques sportives.",
+   "carried_over": true
+  },
+  {
+   "target": 5059,
+   "verdict": "confident",
+   "reason": "Nom propre \u00ab McElroy \u00bb : tr\u00e8s sp\u00e9cifique, sans rapport avec les animaux pr\u00e9historiques, les mastodontes ou le malt.",
+   "carried_over": true
+  },
+  {
+   "target": 12229,
+   "verdict": "confident",
+   "reason": "Lieux contre l'expression \u00ab one day \u00bb : expression pr\u00e9cise, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 23629,
+   "verdict": "confident",
+   "reason": "Verbe \u00ab to be \u00bb contre le mot \u00ab whee \u00bb : mot rare et pr\u00e9cis.",
+   "carried_over": true
+  },
+  {
+   "target": 1635,
+   "verdict": "confident",
+   "reason": "Publication Ars : r\u00e9f\u00e9rence pr\u00e9cise, sans lien avec les restaurants.",
+   "carried_over": true
+  },
+  {
+   "target": 15660,
+   "verdict": "confident",
+   "reason": "Nom \u00ab Kay \u00bb suivi d'un nombre : motif tr\u00e8s pr\u00e9cis, sans lien avec l'envoi de messages.",
+   "carried_over": true
+  },
+  {
+   "target": 3232,
+   "verdict": "confident",
+   "reason": "Verbes de causalit\u00e9/adverbes de degr\u00e9 contre offres group\u00e9es : placebo pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 13572,
+   "verdict": "confident",
+   "reason": "Ach\u00e8vement et finalit\u00e9, sans lien avec l'absorption de substances.",
+   "carried_over": true
+  },
+  {
+   "target": 21857,
+   "verdict": "confident",
+   "reason": "L\u00e9gislation contre Venezuela : pays pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 1746,
+   "verdict": "confident",
+   "reason": "Terrorisme contre \u00e9pingler/immobiliser physiquement : geste pr\u00e9cis, sans rapport direct.",
+   "carried_over": true
+  },
+  {
+   "target": 15655,
+   "verdict": "confident",
+   "reason": "Le mot \u00ab right \u00bb contre personnes nomm\u00e9es ou recrut\u00e9es \u00e0 un poste : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 5030,
+   "verdict": "confident",
+   "reason": "\u00c9pingler/attacher contre gouvernements provinciaux : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 9607,
+   "verdict": "confident",
+   "reason": "R\u00e9glementation fiscale et incitations financi\u00e8res, th\u00e8me distinct du tabagisme.",
+   "carried_over": true
+  },
+  {
+   "target": 20467,
+   "verdict": "confident",
+   "reason": "Manque d'information ou impact minime, sans rapport avec les verbes de mouvement.",
+   "carried_over": true
+  },
+  {
+   "target": 22455,
+   "verdict": "confident",
+   "reason": "Nom \u00ab Gordon \u00bb contre symboles inhabituels : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 13920,
+   "verdict": "confident",
+   "reason": "\u00c9chec et ses cons\u00e9quences : th\u00e8me pr\u00e9cis, distinct des aspirations futures et de \u00ab one day \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 14562,
+   "verdict": "confident",
+   "reason": "Citations de sources en \u00ab According to \u00bb, sans lien avec les factures et d\u00e9penses.",
+   "carried_over": true
+  },
+  {
+   "target": 8968,
+   "verdict": "confident",
+   "reason": "Militantisme et questions sociales : sans rapport avec les dates.",
+   "carried_over": true
+  },
+  {
+   "target": 2019,
+   "verdict": "confident",
+   "reason": "Pr\u00e9visions et projections : sans lien avec les mots en \u00ab ary \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 12637,
+   "verdict": "confident",
+   "reason": "Mot \u00ab even \u00bb : motif lexical pr\u00e9cis, sans lien avec les nominations \u00e0 un poste.",
+   "carried_over": true
+  },
+  {
+   "target": 13847,
+   "verdict": "confident",
+   "reason": "Enjeux juridiques et politiques contre mode/v\u00eatements : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 18377,
+   "verdict": "confident",
+   "reason": "Clients/m\u00e9c\u00e8nes contre terrorisme : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 14612,
+   "verdict": "confident",
+   "reason": "Camps oppos\u00e9s contre sommet physique d'un objet : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 14256,
+   "verdict": "confident",
+   "reason": "Noms de personnes contre structure \u00ab something of a/an \u00bb : motif pr\u00e9cis.",
+   "carried_over": true
+  },
+  {
+   "target": 20058,
+   "verdict": "confident",
+   "reason": "Rumeurs et sp\u00e9culations : th\u00e8me pr\u00e9cis, sans lien direct avec Washington, D.C.",
+   "carried_over": true
+  },
+  {
+   "target": 8697,
+   "verdict": "doubt",
+   "reason": "Doute l\u00e9ger, type g\u00e9n\u00e9rique : le d\u00e9but \u00ab names of a person \u00bb peut faire r\u00e9pondre 1 \u00e0 tout texte contenant un pr\u00e9nom, m\u00eame si la pr\u00e9cision \u00ab Corey \u00bb le restreint ; aucun recouvrement de sens avec le silence.",
+   "carried_over": false
+  },
+  {
+   "target": 18623,
+   "verdict": "confident",
+   "reason": "Manipulation/alt\u00e9ration contre \u00ab patrons \u00bb/m\u00e9c\u00e9nat : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 13350,
+   "verdict": "confident",
+   "reason": "Structure/ing\u00e9nierie contre assignation/allocation : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 22598,
+   "verdict": "confident",
+   "reason": "Phrases commen\u00e7ant par \u00ab That \u00bb contre tabac : th\u00e8me pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 336,
+   "verdict": "confident",
+   "reason": "Authenticit\u00e9 et identit\u00e9 v\u00e9ritable : th\u00e8me abstrait sans lien avec la nourriture, la boisson ou le mot \u00ab ready \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 16546,
+   "verdict": "confident",
+   "reason": "Groupes ethniques ou nationalit\u00e9s : th\u00e8me pr\u00e9cis, sans lien de sens avec les rumeurs ou la sp\u00e9culation.",
+   "carried_over": true
+  },
+  {
+   "target": 5596,
+   "verdict": "confident",
+   "reason": "Aide et assistance, sans rapport avec les traits uniques ou caract\u00e9ristiques.",
+   "carried_over": true
+  },
+  {
+   "target": 9451,
+   "verdict": "confident",
+   "reason": "Conditionnelles contre conf\u00e9rences de presse : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 11911,
+   "verdict": "confident",
+   "reason": "Expression \u00ab per the official data \u00bb : tr\u00e8s pr\u00e9cise, sans lien avec les jours de la semaine.",
+   "carried_over": true
+  },
+  {
+   "target": 16447,
+   "verdict": "confident",
+   "reason": "\u00ab at \u00bb + lieu contre dissociation/d\u00e9connexion : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 3540,
+   "verdict": "confident",
+   "reason": "Mastodontes et malt : vocabulaire tr\u00e8s pr\u00e9cis, sans lien de sens avec le nom McElroy ou les patronymes en \u00ab Mc \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 18562,
+   "verdict": "confident",
+   "reason": "Organismes gouvernementaux : th\u00e8me assez large mais absent de la plupart des extraits, sans rapport avec le mot \u00ab extra \u00bb ou l'id\u00e9e de suppl\u00e9ment.",
+   "carried_over": false
+  },
+  {
+   "target": 3718,
+   "verdict": "confident",
+   "reason": "Pronoms f\u00e9minins contre ambassadeurs : th\u00e8me pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 12732,
+   "verdict": "confident",
+   "reason": "Nom de lieu \u00ab Perth \u00bb : tr\u00e8s sp\u00e9cifique, aucun rapport avec les r\u00e9v\u00e9lations ou d\u00e9couvertes surprenantes.",
+   "carried_over": true
+  },
+  {
+   "target": 3025,
+   "verdict": "confident",
+   "reason": "Couteaux, objet concret sans lien avec le manque d'information.",
+   "carried_over": true
+  },
+  {
+   "target": 11931,
+   "verdict": "confident",
+   "reason": "Le mot \u00ab method \u00bb contre FIFA : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 12276,
+   "verdict": "confident",
+   "reason": "Mot pr\u00e9cis \u00ab left \u00bb : sans rapport avec le plaisir ou l'agr\u00e9ment, et absent de la plupart des extraits.",
+   "carried_over": true
+  },
+  {
+   "target": 14799,
+   "verdict": "confident",
+   "reason": "Statistiques de performance sportive : sans rapport avec les offres group\u00e9es.",
+   "carried_over": true
+  },
+  {
+   "target": 19956,
+   "verdict": "confident",
+   "reason": "Ponctuation interrogative/exclamative contre absorption : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 13910,
+   "verdict": "confident",
+   "reason": "\u00c9l\u00e9ments de mise en forme de donn\u00e9es structur\u00e9es ou m\u00e9tadonn\u00e9es : sans rapport avec le Venezuela et absent de la prose d'actualit\u00e9 ordinaire.",
+   "carried_over": true
+  },
+  {
+   "target": 743,
+   "verdict": "confident",
+   "reason": "Obligations financi\u00e8res et d\u00e9penses, sans lien avec les noms de sportifs ou \u00ab Evgeni \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 22207,
+   "verdict": "confident",
+   "reason": "Renflouements financiers : th\u00e8me pr\u00e9cis, sans lien avec les formules de priorit\u00e9.",
+   "carried_over": true
+  },
+  {
+   "target": 10814,
+   "verdict": "confident",
+   "reason": "R\u00e9f\u00e9rences \u00e0 des images ou photos : pr\u00e9cis et sans lien avec les plans de sauvetage financiers.",
+   "carried_over": true
+  },
+  {
+   "target": 24159,
+   "verdict": "confident",
+   "reason": "Mot pr\u00e9cis \u00ab extra \u00bb, sans lien avec les dates, nombres et m\u00e9tadonn\u00e9es.",
+   "carried_over": true
+  },
+  {
+   "target": 23683,
+   "verdict": "confident",
+   "reason": "Vid\u00e9o : sans rapport avec l'authenticit\u00e9.",
+   "carried_over": true
+  },
+  {
+   "target": 23863,
+   "verdict": "confident",
+   "reason": "Camps ou points de vue oppos\u00e9s : th\u00e8me pr\u00e9cis, distinct des adjectifs descriptifs.",
+   "carried_over": true
+  },
+  {
+   "target": 21183,
+   "verdict": "confident",
+   "reason": "Pr\u00e9fixe \u00ab over \u00bb contre le mot \u00ab right \u00bb : mot pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 16631,
+   "verdict": "confident",
+   "reason": "Termes financiers et d'entreprise : sans rapport avec l'apparence ou la perception.",
+   "carried_over": true
+  },
+  {
+   "target": 10171,
+   "verdict": "confident",
+   "reason": "Groupes ethniques ou communaut\u00e9s, sans rapport avec le mot \u00ab left \u00bb.",
+   "carried_over": true
+  },
+  {
+   "target": 19647,
+   "verdict": "confident",
+   "reason": "Comparaisons entre \u00e9poques ou g\u00e9n\u00e9rations : sans rapport avec les conseils (councils).",
+   "carried_over": true
+  },
+  {
+   "target": 11974,
+   "verdict": "confident",
+   "reason": "Sexualit\u00e9 contre le mot \u00ab relative \u00bb : mot pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 16064,
+   "verdict": "confident",
+   "reason": "Noms propres contre exclamations de surprise : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 24369,
+   "verdict": "confident",
+   "reason": "Comparaisons entre \u00e9poques contre \u00e9glises : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 21731,
+   "verdict": "confident",
+   "reason": "Motif pr\u00e9cis \u00ab topic \u00bb suivi d'un nombre, sans lien avec la fiscalit\u00e9.",
+   "carried_over": true
+  },
+  {
+   "target": 8511,
+   "verdict": "confident",
+   "reason": "Mot \u00ab ki \u00bb : motif lexical pr\u00e9cis, sans lien avec les organisations.",
+   "carried_over": true
+  },
+  {
+   "target": 19103,
+   "verdict": "confident",
+   "reason": "\u00c9glises contre num\u00e9ros ISBN : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 19071,
+   "verdict": "confident",
+   "reason": "LEGO, sujet tr\u00e8s sp\u00e9cifique sans lien avec les citations de sources.",
+   "carried_over": true
+  },
+  {
+   "target": 13689,
+   "verdict": "confident",
+   "reason": "Perth contre le mot \u00ab Cop \u00bb : mot pr\u00e9cis, sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 3246,
+   "verdict": "confident",
+   "reason": "Mention d'un parti politique : th\u00e8me pr\u00e9cis, sans rapport avec les expressions de peur ou d'anxi\u00e9t\u00e9.",
+   "carried_over": true
+  },
+  {
+   "target": 21725,
+   "verdict": "confident",
+   "reason": "Lieux aux \u00c9tats-Unis (Washington, DC), sans rapport avec les guillemets de dialogue.",
+   "carried_over": true
+  },
+  {
+   "target": 2221,
+   "verdict": "confident",
+   "reason": "Le mot \u00ab relative \u00bb contre conseils/associations politiques : sans rapport.",
+   "carried_over": true
+  },
+  {
+   "target": 8995,
+   "verdict": "confident",
+   "reason": "L\u00e9gislation : th\u00e8me pr\u00e9cis, sans lien direct avec la radio.",
+   "carried_over": true
+  },
+  {
+   "target": 21484,
+   "verdict": "confident",
+   "reason": "Num\u00e9ros ISBN contre radio : sans rapport.",
+   "carried_over": true
+  }
+ ]
+}

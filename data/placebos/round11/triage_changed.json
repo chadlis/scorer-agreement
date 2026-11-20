@@ -1,0 +1,26 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur lisant ce placebo répondrait-il 0 à presque tous les textes, y compris ceux où la cible s'active, c'est-à-dire le placebo est-il à la fois spécifique (pas un motif présent partout) et sans recouvrement de sens avec les explications de la cible ?",
+ "pairs": [
+  {
+   "target": 5479,
+   "verdict": "confident",
+   "reason": "Nombres à trait d'union liés aux conférences sportives : motif étroit et formel, sans rapport avec les groupes ethniques ou les identités collectives."
+  },
+  {
+   "target": 18727,
+   "verdict": "confident",
+   "reason": "Mutations biologiques : thème scientifique précis, aucun lien avec l'État du Maine."
+  },
+  {
+   "target": 8697,
+   "verdict": "doubt",
+   "reason": "Doute léger, type générique : le début « names of a person » peut faire répondre 1 à tout texte contenant un prénom, même si la précision « Corey » le restreint ; aucun recouvrement de sens avec le silence."
+  },
+  {
+   "target": 18562,
+   "verdict": "confident",
+   "reason": "Organismes gouvernementaux : thème assez large mais absent de la plupart des extraits, sans rapport avec le mot « extra » ou l'idée de supplément."
+  }
+ ]
+}
