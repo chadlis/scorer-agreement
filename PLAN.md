@@ -11,7 +11,7 @@ any change is recorded in `DEVIATIONS.md` with its reason.
 **Filter (set in the protocol).** A feature can be sampled only if its activation
 frequency `frac_nonzero`, the share of corpus tokens on which it fires as reported
 by Neuronpedia, is strictly between 1e-5 and 1e-2, that is between 0.001% and 1% of
-tokens. The sampling rule within this range and its seed are still open.
+tokens.
 
 **Why the upper bound.** A text is a window of 17 tokens. If a feature fires on a
 share f of tokens, a random window contains at least one activation with
@@ -29,6 +29,41 @@ rarest feature, 10468 (f = 0.014%), still had 54 distinct positive passages.
 
 **Status of the bounds.** They are round orders of magnitude, not tuned values and
 not taken from a specific paper. They are fixed before sampling.
+
+**Sampling (decided 2026-11-20).** Simple random sampling among eligible features.
+
+1. Seed: **20261120**, written and committed here before any download for the draw.
+2. The 24,576 feature indices are shuffled once with `random.Random(20261120).shuffle`
+   (Mersenne Twister, Fisher-Yates). The resulting order is saved in
+   `data/draw/order.json` with the Python version: Python guarantees the same
+   `random()` stream for a seed, not the same `shuffle` algorithm across versions.
+3. Features are examined in that order. A feature is eligible if (a) it passes the
+   filter above, (b) it has both original explanations, A by gpt-3.5-turbo and B by
+   gpt-4o-mini, (c) it has at least 20 distinct stored positive passages
+   (`neuronpedia.source_groups`), counted without any call, and (d) it passes the
+   gate (Labels, rule 6).
+4. The first 100 eligible features form the sample, in that order. The first 5 form
+   the pilot. No eligible feature is skipped.
+5. A feature dropped later is replaced by the next eligible feature in the same
+   order. The position reached in the order is saved, so replacements continue
+   from there.
+6. Features already seen (the six of the trial, the 120 of the survey) are neither
+   excluded nor favoured: only their frequency and explanations were read, nothing
+   that the study measures.
+
+**Why simple sampling.** The question is about scorers on the features of this SAE.
+A simple random sample estimates that without bias and keeps the planned analysis
+(bootstrap over features) unchanged. Frequency is not a variable of the planned
+analysis, so quotas per frequency band would only add weights and a stratified
+bootstrap. Both options cost a few minutes of downloads.
+
+**Expected, from the survey** (`scripts/survey_features.py`, 120 random features,
+exploratory seed 1): 113 of 120 pass conditions (a) to (c), so about 106 features
+are examined. The sample should hold about 1 feature between 0.001% and 0.01%, 63
+between 0.01% and 0.1%, and 36 between 0.1% and 1%.
+
+**Limit, to be reported.** Rare features (below 0.01%) are about 1% of eligible
+features: the study says nothing about them.
 
 ### Negatives (decided 2026-11-19)
 
@@ -99,7 +134,7 @@ the same as with any other source.
   reserves per feature). The 12 candidates checked were all at 0 for their target.
 - *Order of decisions.* The pool depends on the sampled features, the exclusion
   on the placebo rule, and the rejection on the label rule (decided below). The
-  sampling and placebo rules are still open.
+  sampling rule is decided above, the placebo rule is still open.
 
 ### Labels (decided 2026-11-20)
 
@@ -157,7 +192,6 @@ Two independent reviews (2026-11-20) checked this rule against the trial data.
 
 ### Open points
 
-- Sampling rule for the 100 features, and its seed.
 - Placebo rule.
 - Windows that contain `<|endoftext|>` join two documents (12 of 85 windows for
   feature 100).
