@@ -1,0 +1,44 @@
+{
+ "pairs": [
+  {
+   "target": 16546,
+   "target_A": "mentions of rumors or speculation",
+   "target_B": "instances of the word \"rumor\"",
+   "donor": 2112,
+   "donor_model": "B",
+   "placebo": "references to specific ethnic groups or nationalities"
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 13689,
+   "donor_model": "B",
+   "placebo": "references to the location 'Perth' and related proper names"
+  },
+  {
+   "target": 12276,
+   "target_A": "words related to pleasure or enjoyment",
+   "target_B": "references to the concept of pleasure",
+   "donor": 10171,
+   "donor_model": "B",
+   "placebo": "instances of the word \"left.\""
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 22496,
+   "donor_model": "B",
+   "placebo": "references to governmental organizations and entities"
+  },
+  {
+   "target": 10814,
+   "target_A": "mentions related to financial bailouts",
+   "target_B": "references to financial bailouts and rescue packages",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  }
+ ]
+}
