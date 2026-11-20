@@ -1,0 +1,20 @@
+{
+ "pairs": [
+  {
+   "target": 11931,
+   "target_A": "occurrences of the word \"method\" in the text",
+   "target_B": "references to various techniques or procedures",
+   "donor": 8511,
+   "donor_model": "B",
+   "placebo": "references to organizations or entities described as \"bodies.\""
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 22836,
+   "donor_model": "B",
+   "placebo": "references to FIFA and related topics"
+  }
+ ]
+}
