@@ -114,6 +114,20 @@ def rows(pairs: Pairs, m: dict[int, int], order: list[int]) -> list[dict]:
     ]
 
 
+def donor_pool(
+    sample: list[int], specific: set[tuple[int, str]], candidates: list[int]
+) -> tuple[list[int], list[int], list[int]]:
+    """Rule 8b: (donors, sampled features left out, outside donors). A feature is a
+    donor if at least one of its explanations is specific."""
+
+    def has_specific(i: int) -> bool:
+        return (i, "A") in specific or (i, "B") in specific
+
+    dropped = [i for i in sample if not has_specific(i)]
+    outside = [i for i in candidates if has_specific(i)]
+    return [i for i in sample if has_specific(i)] + outside, dropped, outside
+
+
 def derangement(
     targets: list[int], rng: random.Random, donors: list[int] | None = None
 ) -> dict[int, int]:

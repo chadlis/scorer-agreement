@@ -272,7 +272,14 @@ with the same scorer prompt. Labels stay those of the target feature.
      20261120 + 3), keeps the pairs rejected in round 1 forbidden, and repairs as
      in rule 4, a failing target also being able to take an unused donor. Round 2
      was not reviewed.
-9. *Freeze.* The final assignment, the triage and the review are committed before
+9. *Automatic rounds* (decided at the round 3 review, where Salah rejected all 21
+   doubt pairs and found the triage judgments right). Rounds 4 to 6 run without
+   human review: the assignment of the previous round is repaired as in rule 4
+   (unused donors as spares, every pair rejected so far forbidden, seed 20261120 +
+   round), a fresh Fable 5.2 agent triages only the pairs whose placebo changed
+   (the others keep their verdict), and every doubt is rejected. The number of
+   doubts per round is reported. After round 6, Salah decides how to close.
+10. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.
 

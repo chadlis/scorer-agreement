@@ -1,0 +1,32 @@
+{
+ "round": 3,
+ "date": "2026-11-20",
+ "reviewer": "Salah",
+ "rejected_doubt": [
+  47,
+  18011,
+  5634,
+  14097,
+  11794,
+  19944,
+  1635,
+  15660,
+  9607,
+  2019,
+  12637,
+  20058,
+  11911,
+  12732,
+  14799,
+  13910,
+  743,
+  22207,
+  23683,
+  16631,
+  19647
+ ],
+ "confident_checked": [],
+ "confident_rejected": [],
+ "rejected_generic": [],
+ "note": "All 21 doubt pairs rejected: Salah found the triage judgments right. Rounds 4 to 6 reject every doubt automatically (rule 9)."
+}

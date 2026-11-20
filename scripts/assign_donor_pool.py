@@ -17,7 +17,7 @@ import random
 import sys
 
 from autointerp.neuronpedia import ROOT, fetch_feature
-from autointerp.placebo import SEED, build_pairs, derangement, repair, rows
+from autointerp.placebo import SEED, build_pairs, derangement, donor_pool, repair, rows
 
 DIR = ROOT / "data" / "placebos"
 
@@ -28,12 +28,7 @@ def main(n: int) -> None:
     specific = {(e["index"], e["model"]) for e in classes if e["class"] == "specific"}
     candidates = json.loads((DIR / "donor_candidates.json").read_text())["candidates"]
 
-    def has_specific(i: int) -> bool:
-        return (i, "A") in specific or (i, "B") in specific
-
-    dropped = [i for i in sample if not has_specific(i)]
-    outside = [c["index"] for c in candidates if has_specific(c["index"])]
-    donors = [i for i in sample if has_specific(i)] + outside
+    donors, dropped, outside = donor_pool(sample, specific, [c["index"] for c in candidates])
 
     forbidden = set()
     for k in range(1, n):
