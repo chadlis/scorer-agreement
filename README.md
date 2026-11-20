@@ -124,6 +124,9 @@ Data-freezing scripts:
 - `uv run scripts/run_pilot.py` prints what the pilot would send. With `--yes` it
   sends it (paid, capped at 10 USD, Claude through the Message Batches API), and only
   once the git tag `plan-frozen` exists (`data/runs/pilot/`).
+- `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
+  freeze (separator balance, token lengths), and `uv run scripts/pilot_report.py`
+  computes the pilot gate and both central measures from the pilot log.
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
 errors, and cached under `data/raw/`.
