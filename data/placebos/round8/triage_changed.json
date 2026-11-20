@@ -1,0 +1,26 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur qui lit ce placebo répondrait-il 0 à presque tous les extraits, y compris ceux où la feature cible s'active, parce que le placebo est à la fois précis et sans rapport de sens avec la cible ?",
+ "pairs": [
+  {
+   "target": 336,
+   "verdict": "doubt",
+   "reason": "Générique : « communication directe ou messages » est vague et peut couvrir tout dialogue, citation ou adresse au lecteur (ex. « are you ready? »), donc beaucoup d'extraits."
+  },
+  {
+   "target": 3540,
+   "verdict": "doubt",
+   "reason": "Recouvrement : les noms en « Mc » (McConnell, McCain, McCarthy…) apparaissent souvent dans des textes politiques citant le Sénat, le Congrès ou des agences, donc des entités gouvernementales."
+  },
+  {
+   "target": 13910,
+   "verdict": "confident",
+   "reason": "Éléments de mise en forme de données structurées ou métadonnées : sans rapport avec le Venezuela et absent de la prose d'actualité ordinaire."
+  },
+  {
+   "target": 10814,
+   "verdict": "confident",
+   "reason": "Références à des images ou photos : précis et sans lien avec les plans de sauvetage financiers."
+  }
+ ]
+}

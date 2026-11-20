@@ -1,0 +1,11 @@
+{
+ "round": 8,
+ "reviewer": "automatic (rule 9)",
+ "rejected_doubt": [
+  336,
+  3540
+ ],
+ "confident_checked": [],
+ "confident_rejected": [],
+ "rejected_generic": []
+}
