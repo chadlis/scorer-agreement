@@ -259,12 +259,19 @@ with the same scorer prompt. Labels stay those of the target feature.
    - a fourth filter (d) rejects a placebo classed generic,
    - a sampled feature whose A and B are both generic is not a donor (it stays a
      target),
-   - each one is replaced by the next feature of the draw order, from position 113,
-     that passes conditions (a) to (c) of the sampling and has at least one specific
-     explanation. These outside donors are not targets: they supply no texts,
-   - round 3 starts from a new derangement of targets onto this donor pool (seed
-     20261120 + 3), keeps the pairs rejected in round 1 forbidden, and repairs as in
-     rule 4. Each donor still serves exactly once. Round 2 was not reviewed.
+   - the next features of the draw order from position 113 that pass conditions (a)
+     to (c) of the sampling are candidate donors (30 fetched,
+     `scripts/donor_candidates.py`). Every candidate with at least one specific
+     explanation joins the pool. These outside donors are not targets: they supply
+     no texts,
+   - the pool then holds more donors than targets, and each donor serves at most
+     once. With exactly one donor per target no valid assignment existed: a donor
+     whose only specific explanation is "percentage values" (2 words) fails the
+     length filter for every target, and a maximum matching covered 99 targets,
+   - round 3 starts from a new derangement of the targets onto the pool (seed
+     20261120 + 3), keeps the pairs rejected in round 1 forbidden, and repairs as
+     in rule 4, a failing target also being able to take an unused donor. Round 2
+     was not reviewed.
 9. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.

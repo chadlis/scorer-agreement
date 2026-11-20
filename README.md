@@ -111,7 +111,9 @@ Data-freezing scripts:
 - `uv run scripts/assign_placebos.py` assigns one placebo to each feature (round 1),
   `uv run scripts/review_placebos.py N` lists the pairs to review in round N, and
   `uv run scripts/reassign_placebos.py N` reassigns the pairs rejected before round
-  N (`data/placebos/roundN/`).
+  N (`data/placebos/roundN/`). From round 3, `uv run scripts/donor_candidates.py`
+  fetches candidate outside donors and `uv run scripts/assign_donor_pool.py N`
+  assigns from a pool that leaves out features whose two explanations are generic.
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
 errors, and cached under `data/raw/`.

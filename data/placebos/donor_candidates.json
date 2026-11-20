@@ -1,0 +1,191 @@
+{
+ "candidates": [
+  {
+   "position": 113,
+   "index": 22836,
+   "A": "references to the FIFA organization or events related to FIFA",
+   "B": "references to FIFA and related topics"
+  },
+  {
+   "position": 114,
+   "index": 4222,
+   "A": "positive adjectives used in food-related contexts",
+   "B": "symbols or characters that appear to be unusual or non-standard"
+  },
+  {
+   "position": 115,
+   "index": 18973,
+   "A": "terms related to information technology systems and operations",
+   "B": "technical terms related to programming and computing features"
+  },
+  {
+   "position": 116,
+   "index": 6336,
+   "A": "words related to comparison and contrast",
+   "B": "relationships between different entities or concepts"
+  },
+  {
+   "position": 117,
+   "index": 20567,
+   "A": "details about an item or place, including the presence of accompanying elements or features",
+   "B": "phrases indicating completeness or accompanying details"
+  },
+  {
+   "position": 118,
+   "index": 865,
+   "A": "mentions of governmental entities or processes, particularly related to provincial governments",
+   "B": "references to provincial government entities and related terminology"
+  },
+  {
+   "position": 119,
+   "index": 15618,
+   "A": "specific diplomatic positions or assignments",
+   "B": "references to ambassadors and their assignments to various countries and organizations"
+  },
+  {
+   "position": 120,
+   "index": 11898,
+   "A": "adjectives or verbs related to intense emotions",
+   "B": "terms related to deep emotional experiences and crises"
+  },
+  {
+   "position": 121,
+   "index": 20682,
+   "A": "names of a person, specifically the name \"Corey\"",
+   "B": "mentions of specific individuals named Corey and Derrick"
+  },
+  {
+   "position": 122,
+   "index": 7791,
+   "A": "adjectives followed by words related to size or degree",
+   "B": "the word \"even\" in various contexts to indicate a comparison or enhancement"
+  },
+  {
+   "position": 123,
+   "index": 12434,
+   "A": "phrases related to working processes or mechanisms",
+   "B": "verbs indicating functionality or operation of systems and processes"
+  },
+  {
+   "position": 124,
+   "index": 17410,
+   "A": "percentage values",
+   "B": "phrases related to numerical statistics and percentages"
+  },
+  {
+   "position": 125,
+   "index": 11940,
+   "A": "phrases related to specific roles or actions in social contexts, such as \"learners,\" \"contractors,\" and \"servant leaders.\"",
+   "B": "references to various roles and classifications of individuals or groups"
+  },
+  {
+   "position": 126,
+   "index": 18469,
+   "A": "phrases beginning with \"Along\"",
+   "B": "occurrences of the word \"Along\" indicating continuity or progression in a narrative"
+  },
+  {
+   "position": 127,
+   "index": 9703,
+   "A": "verbs related to decisions and actions",
+   "B": "actions related to the revocation, suspension, or cessation of programs, policies, or services"
+  },
+  {
+   "position": 128,
+   "index": 22496,
+   "A": "references to government bodies and officials",
+   "B": "references to governmental organizations and entities"
+  },
+  {
+   "position": 129,
+   "index": 20308,
+   "A": "names containing 'Brien' or 'Reilly'",
+   "B": "names of people, particularly those involved in media or commentary"
+  },
+  {
+   "position": 130,
+   "index": 21350,
+   "A": "phrases related to time or durations",
+   "B": "phrases indicating duration or the concept of waiting"
+  },
+  {
+   "position": 131,
+   "index": 18614,
+   "A": "references to time durations, particularly mentioning years and decades",
+   "B": "references to time durations, particularly in years and months"
+  },
+  {
+   "position": 132,
+   "index": 2910,
+   "A": "specific keywords related to a particular entity or topic (\"Ey\")",
+   "B": "references to the concept or entity represented by \"Ey.\""
+  },
+  {
+   "position": 133,
+   "index": 2339,
+   "A": "references to the physical top of something",
+   "B": "references to the top and bottom positions of objects or items in various contexts"
+  },
+  {
+   "position": 134,
+   "index": 8773,
+   "A": "phrases related to accuracy or precision",
+   "B": "terms and phrases related to various forms of \"literacy\" or \"ability.\""
+  },
+  {
+   "position": 135,
+   "index": 10865,
+   "A": "instances where the word 'the' appears",
+   "B": "segments of text that contain a specific end-of-text token, indicating the completion of thoughts or ideas"
+  },
+  {
+   "position": 136,
+   "index": 20373,
+   "A": "names containing \"ki\"",
+   "B": "occurrences of the word \"ki.\""
+  },
+  {
+   "position": 137,
+   "index": 12069,
+   "A": "phrases related to wheezing or respiratory conditions",
+   "B": "the word \"whee,\" indicating excitement or enthusiasm"
+  },
+  {
+   "position": 138,
+   "index": 4912,
+   "A": "pieces of code containing specific characters and formatting",
+   "B": "patterns resembling programming syntax and code structures"
+  },
+  {
+   "position": 139,
+   "index": 20199,
+   "A": "exclamatory expressions of surprise or admiration",
+   "B": "exclamatory expressions of surprise or amazement"
+  },
+  {
+   "position": 140,
+   "index": 5773,
+   "A": "the name \"Kay\" followed by a numerical value",
+   "B": "mentions of the name \"Kay.\""
+  },
+  {
+   "position": 142,
+   "index": 17875,
+   "A": "instances indicating failure or lack of success",
+   "B": "instances of failure and related outcomes"
+  },
+  {
+   "position": 143,
+   "index": 12242,
+   "A": "titles or positions related to leadership and authority roles",
+   "B": "titles and positions of authority or leadership"
+  }
+ ],
+ "skipped": [
+  {
+   "position": 141,
+   "index": 1420,
+   "failed": "frequency"
+  }
+ ]
+}

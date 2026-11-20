@@ -75,3 +75,29 @@ def test_repair_never_reuses_a_forbidden_text():
     banned = p.placebo(0, m[0])
     pl.repair(m, p, random.Random(2), forbidden_texts=frozenset({banned}))
     assert all(p.placebo(t, d) != banned for t, d in m.items())
+
+
+def test_outside_donors_and_generic_filter():
+    p = toy_pairs()
+    p.a[8], p.b[8] = "phrases related to lighthouses", "mentions of lighthouses in text"
+    p.a[9], p.b[9] = "phrases related to commas", "mentions of commas in text"
+    p.nb[8] = p.nb[9] = set()
+    p.specific = {(i, m) for i in range(9) for m in "AB"}  # feature 9 is generic
+    donors = [d for d in range(10) if d not in (0, 9)]  # 0 leaves the donor pool
+    m = pl.derangement(p.targets, random.Random(4), donors=donors)
+    assert sorted(m.values()) == sorted(donors)
+    assert "generic" in p.problems(1, 9)
+    pl.repair(m, p, random.Random(4))
+    assert all(p.problems(t, d) == [] for t, d in m.items())
+
+
+def test_repair_can_bring_in_a_spare_donor():
+    p = toy_pairs()
+    p.a[8], p.b[8] = "phrases related to lighthouses", "mentions of lighthouses in text"
+    p.a[9] = p.b[9] = "x"  # donor 9 can serve nobody (length)
+    p.nb[8] = p.nb[9] = set()
+    m = pl.derangement(p.targets, random.Random(4), donors=list(range(10)))
+    spare = sorted(set(range(10)) - set(m.values()))
+    pl.repair(m, p, random.Random(4), spare=spare)
+    assert 9 not in m.values() and 9 in spare
+    assert all(p.problems(t, d) == [] for t, d in m.items())

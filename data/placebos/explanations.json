@@ -1,0 +1,1564 @@
+{
+ "explanations": [
+  {
+   "index": 1133,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to giving or receiving commands or instructions"
+  },
+  {
+   "index": 1133,
+   "role": "sample",
+   "model": "B",
+   "text": "references to commands and directives"
+  },
+  {
+   "index": 10461,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases describing something as a specific type of thing or an example of a particular trait"
+  },
+  {
+   "index": 10461,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases that include the structure \"something of a/an\""
+  },
+  {
+   "index": 14889,
+   "role": "sample",
+   "model": "A",
+   "text": "instances of specific entities or terms, particularly \"Ars\" and other related terms"
+  },
+  {
+   "index": 14889,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the Ars publication"
+  },
+  {
+   "index": 47,
+   "role": "sample",
+   "model": "A",
+   "text": "references to political parties, specifically mentioning support or actions related to a particular party"
+  },
+  {
+   "index": 47,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of a political party"
+  },
+  {
+   "index": 15387,
+   "role": "sample",
+   "model": "A",
+   "text": "images or visual representations in text"
+  },
+  {
+   "index": 15387,
+   "role": "sample",
+   "model": "B",
+   "text": "references to images or pictures"
+  },
+  {
+   "index": 18011,
+   "role": "sample",
+   "model": "A",
+   "text": "occurrences of the word \"diss\" or its variations in the text"
+  },
+  {
+   "index": 18011,
+   "role": "sample",
+   "model": "B",
+   "text": "words related to dissociation or disconnection"
+  },
+  {
+   "index": 11479,
+   "role": "sample",
+   "model": "A",
+   "text": "verbs associated with the action of assigning something to someone or something else"
+  },
+  {
+   "index": 11479,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to the concept of assignment or allocation"
+  },
+  {
+   "index": 9692,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions or descriptions related to LEGO"
+  },
+  {
+   "index": 9692,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the brand Lego and its products"
+  },
+  {
+   "index": 23318,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of biological mutations or alterations"
+  },
+  {
+   "index": 23318,
+   "role": "sample",
+   "model": "B",
+   "text": "references to mutation and mutilation"
+  },
+  {
+   "index": 5479,
+   "role": "sample",
+   "model": "A",
+   "text": "references to different ethnic groups or communities"
+  },
+  {
+   "index": 5479,
+   "role": "sample",
+   "model": "B",
+   "text": "references to groups of people and their identities"
+  },
+  {
+   "index": 9401,
+   "role": "sample",
+   "model": "A",
+   "text": "names of individuals"
+  },
+  {
+   "index": 9401,
+   "role": "sample",
+   "model": "B",
+   "text": "proper nouns, specifically names of individuals and entities"
+  },
+  {
+   "index": 17632,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of press conferences"
+  },
+  {
+   "index": 17632,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the indefinite articles \"a\" and \"an\" in various contexts"
+  },
+  {
+   "index": 20330,
+   "role": "sample",
+   "model": "A",
+   "text": "the number \"two\" or variations of it"
+  },
+  {
+   "index": 20330,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the word \"two.\""
+  },
+  {
+   "index": 5634,
+   "role": "sample",
+   "model": "A",
+   "text": "financial and business related terms"
+  },
+  {
+   "index": 5634,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to success and business metrics"
+  },
+  {
+   "index": 14097,
+   "role": "sample",
+   "model": "A",
+   "text": "references to historical or contemporary figures and events associated with the term 'Cop'"
+  },
+  {
+   "index": 14097,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of the word \"Cop\" in various contexts"
+  },
+  {
+   "index": 13068,
+   "role": "sample",
+   "model": "A",
+   "text": "hyphenated numbers related to sports conferences"
+  },
+  {
+   "index": 13068,
+   "role": "sample",
+   "model": "B",
+   "text": "references to sports conferences and teams, specifically in collegiate athletics"
+  },
+  {
+   "index": 11794,
+   "role": "sample",
+   "model": "A",
+   "text": "video-related words or prompts"
+  },
+  {
+   "index": 11794,
+   "role": "sample",
+   "model": "B",
+   "text": "references to videos that can be watched"
+  },
+  {
+   "index": 7229,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to fashion or clothing items"
+  },
+  {
+   "index": 7229,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of \"suit\" and its variations"
+  },
+  {
+   "index": 2112,
+   "role": "sample",
+   "model": "A",
+   "text": "references to geographic locations, specifically focusing on names of cities or countries"
+  },
+  {
+   "index": 2112,
+   "role": "sample",
+   "model": "B",
+   "text": "references to specific ethnic groups or nationalities"
+  },
+  {
+   "index": 22163,
+   "role": "sample",
+   "model": "A",
+   "text": "pronouns referring to people or entities"
+  },
+  {
+   "index": 22163,
+   "role": "sample",
+   "model": "B",
+   "text": "pronouns referring to individuals involved in interactions or conflicts"
+  },
+  {
+   "index": 16269,
+   "role": "sample",
+   "model": "A",
+   "text": "terms related to therapeutic treatments or therapies"
+  },
+  {
+   "index": 16269,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to the concept of \"ape.\""
+  },
+  {
+   "index": 10122,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to magic and spells"
+  },
+  {
+   "index": 10122,
+   "role": "sample",
+   "model": "B",
+   "text": "the presence of the word \"spell\" and its variations"
+  },
+  {
+   "index": 6322,
+   "role": "sample",
+   "model": "A",
+   "text": "references to sharp objects, particularly knives"
+  },
+  {
+   "index": 6322,
+   "role": "sample",
+   "model": "B",
+   "text": "references to knives in various contexts"
+  },
+  {
+   "index": 23756,
+   "role": "sample",
+   "model": "A",
+   "text": "the word \"topic\" followed by a number"
+  },
+  {
+   "index": 23756,
+   "role": "sample",
+   "model": "B",
+   "text": "references to specific subjects or themes in various contexts"
+  },
+  {
+   "index": 18727,
+   "role": "sample",
+   "model": "A",
+   "text": "references to the state of Maine"
+  },
+  {
+   "index": 18727,
+   "role": "sample",
+   "model": "B",
+   "text": "the repeated mention of the state of Maine"
+  },
+  {
+   "index": 19944,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to providing assistance or help"
+  },
+  {
+   "index": 19944,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases indicating assistance or contribution towards a goal"
+  },
+  {
+   "index": 17379,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases indicating completion or finality, often with a tone of resolution or accomplishment"
+  },
+  {
+   "index": 17379,
+   "role": "sample",
+   "model": "B",
+   "text": "sentences that conclude with a period"
+  },
+  {
+   "index": 3665,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to being projected or forecasted to occur"
+  },
+  {
+   "index": 3665,
+   "role": "sample",
+   "model": "B",
+   "text": "references to \"the\" as a prominent article throughout the text"
+  },
+  {
+   "index": 1589,
+   "role": "sample",
+   "model": "A",
+   "text": "instances of the phrase 'per the official data'"
+  },
+  {
+   "index": 1589,
+   "role": "sample",
+   "model": "B",
+   "text": "the phrase \"as per,\" indicating references or sources of information"
+  },
+  {
+   "index": 565,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of gratitude or acknowledgements"
+  },
+  {
+   "index": 565,
+   "role": "sample",
+   "model": "B",
+   "text": "repeated phrases starting with \"Thanks to.\""
+  },
+  {
+   "index": 3812,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to activism and social issues"
+  },
+  {
+   "index": 3812,
+   "role": "sample",
+   "model": "B",
+   "text": "words related to activism and activist actions"
+  },
+  {
+   "index": 5264,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to political turmoil and conflict"
+  },
+  {
+   "index": 5264,
+   "role": "sample",
+   "model": "B",
+   "text": "references to ethnic tensions and conflicts"
+  },
+  {
+   "index": 6076,
+   "role": "sample",
+   "model": "A",
+   "text": "statistical or numerical information"
+  },
+  {
+   "index": 6076,
+   "role": "sample",
+   "model": "B",
+   "text": "statistical data related to performance metrics in sports"
+  },
+  {
+   "index": 5059,
+   "role": "sample",
+   "model": "A",
+   "text": "terms related to prehistoric animals"
+  },
+  {
+   "index": 5059,
+   "role": "sample",
+   "model": "B",
+   "text": "words related to mastodons and malt"
+  },
+  {
+   "index": 12229,
+   "role": "sample",
+   "model": "A",
+   "text": "locations or geographical regions"
+  },
+  {
+   "index": 12229,
+   "role": "sample",
+   "model": "B",
+   "text": "references to a specific geographical region"
+  },
+  {
+   "index": 23629,
+   "role": "sample",
+   "model": "A",
+   "text": "grammatically structured phrases with specific keyword patterns"
+  },
+  {
+   "index": 23629,
+   "role": "sample",
+   "model": "B",
+   "text": "occurrences of the verb \"to be\" in various forms"
+  },
+  {
+   "index": 1635,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of or related to restaurants"
+  },
+  {
+   "index": 1635,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of restaurants"
+  },
+  {
+   "index": 15660,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to directing or sending information"
+  },
+  {
+   "index": 15660,
+   "role": "sample",
+   "model": "B",
+   "text": "references to direct communication or messages"
+  },
+  {
+   "index": 3232,
+   "role": "sample",
+   "model": "A",
+   "text": "verbs indicating causality or influence"
+  },
+  {
+   "index": 3232,
+   "role": "sample",
+   "model": "B",
+   "text": "adverbs or phrases that indicate degree or extent"
+  },
+  {
+   "index": 13572,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to absorption or substances being absorbed"
+  },
+  {
+   "index": 13572,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to the process of absorption in various contexts"
+  },
+  {
+   "index": 21857,
+   "role": "sample",
+   "model": "A",
+   "text": "concepts related to legislation"
+  },
+  {
+   "index": 21857,
+   "role": "sample",
+   "model": "B",
+   "text": "references to legislation"
+  },
+  {
+   "index": 1746,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions or references to terrorist activities or groups"
+  },
+  {
+   "index": 1746,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of terrorist groups and related terminology"
+  },
+  {
+   "index": 15655,
+   "role": "sample",
+   "model": "A",
+   "text": "keywords related to a specific direction or instruction, particularly the word \"right.\""
+  },
+  {
+   "index": 15655,
+   "role": "sample",
+   "model": "B",
+   "text": "the word \"right\" and its variations in various contexts indicating affirmation or agreement"
+  },
+  {
+   "index": 5030,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to physically pinning or restraining something or someone"
+  },
+  {
+   "index": 5030,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the concept of pinning or attaching items physically or metaphorically"
+  },
+  {
+   "index": 9607,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to smoking"
+  },
+  {
+   "index": 9607,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to smoking and its effects"
+  },
+  {
+   "index": 20467,
+   "role": "sample",
+   "model": "A",
+   "text": "verbs related to movement or actions of individuals"
+  },
+  {
+   "index": 20467,
+   "role": "sample",
+   "model": "B",
+   "text": "verbs that indicate movement or action"
+  },
+  {
+   "index": 22455,
+   "role": "sample",
+   "model": "A",
+   "text": "names related to the name \"Gordon.\""
+  },
+  {
+   "index": 22455,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the name Gordon, particularly in the context of notable individuals"
+  },
+  {
+   "index": 13920,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases mentioning future events or aspirations"
+  },
+  {
+   "index": 13920,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the phrase \"one day.\""
+  },
+  {
+   "index": 14562,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to financial transactions, specifically focusing on the concept of bills"
+  },
+  {
+   "index": 14562,
+   "role": "sample",
+   "model": "B",
+   "text": "references to financial obligations or expenses"
+  },
+  {
+   "index": 8968,
+   "role": "sample",
+   "model": "A",
+   "text": "dates mentioned in text"
+  },
+  {
+   "index": 8968,
+   "role": "sample",
+   "model": "B",
+   "text": "days of the week and specific dates"
+  },
+  {
+   "index": 2019,
+   "role": "sample",
+   "model": "A",
+   "text": "co-occurrences of the word \"ary\""
+  },
+  {
+   "index": 2019,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to a specific genre or category frequently ending in \"ary.\""
+  },
+  {
+   "index": 12637,
+   "role": "sample",
+   "model": "A",
+   "text": "names of individuals being selected or hired for specific roles or positions"
+  },
+  {
+   "index": 12637,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the word \"to.\""
+  },
+  {
+   "index": 13847,
+   "role": "sample",
+   "model": "A",
+   "text": "proper nouns and terms related to legal and political issues"
+  },
+  {
+   "index": 13847,
+   "role": "sample",
+   "model": "B",
+   "text": "references to controversial or significant issues and topics"
+  },
+  {
+   "index": 18377,
+   "role": "sample",
+   "model": "A",
+   "text": "references to someone being a supporter or regular customer of a business or place"
+  },
+  {
+   "index": 18377,
+   "role": "sample",
+   "model": "B",
+   "text": "references to patrons and patronage in various contexts"
+  },
+  {
+   "index": 14612,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to opposite sides or viewpoints"
+  },
+  {
+   "index": 14612,
+   "role": "sample",
+   "model": "B",
+   "text": "references to conflicting parties or perspectives in a discussion"
+  },
+  {
+   "index": 14256,
+   "role": "sample",
+   "model": "A",
+   "text": "names or terms related to people, potentially in positions of authority or prominence"
+  },
+  {
+   "index": 14256,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of specific individuals and their associated actions or roles"
+  },
+  {
+   "index": 20058,
+   "role": "sample",
+   "model": "A",
+   "text": "locations within the United States, specifically Washington, DC"
+  },
+  {
+   "index": 20058,
+   "role": "sample",
+   "model": "B",
+   "text": "locations and references to Washington, D.C"
+  },
+  {
+   "index": 8697,
+   "role": "sample",
+   "model": "A",
+   "text": "keywords related to silence or lack of noise"
+  },
+  {
+   "index": 8697,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the concept of quietness or tranquility"
+  },
+  {
+   "index": 18623,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to actions or events that involve manipulation or alteration"
+  },
+  {
+   "index": 18623,
+   "role": "sample",
+   "model": "B",
+   "text": "prefixes or roots of words related to actions or states"
+  },
+  {
+   "index": 13350,
+   "role": "sample",
+   "model": "A",
+   "text": "terms related to structural components or properties"
+  },
+  {
+   "index": 13350,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to structural integrity and engineering"
+  },
+  {
+   "index": 22598,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases introducing a new topic or concept"
+  },
+  {
+   "index": 22598,
+   "role": "sample",
+   "model": "B",
+   "text": "assertions or statements beginning with \"That.\""
+  },
+  {
+   "index": 336,
+   "role": "sample",
+   "model": "A",
+   "text": "food and drink related phrases"
+  },
+  {
+   "index": 336,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the word \"ready\""
+  },
+  {
+   "index": 16546,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of rumors or speculation"
+  },
+  {
+   "index": 16546,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the word \"rumor\""
+  },
+  {
+   "index": 5596,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases or terms related to unique or characteristic elements"
+  },
+  {
+   "index": 5596,
+   "role": "sample",
+   "model": "B",
+   "text": "references to unique characteristics or trademarks associated with items or individuals"
+  },
+  {
+   "index": 9451,
+   "role": "sample",
+   "model": "A",
+   "text": "conditional statements beginning with \"If\""
+  },
+  {
+   "index": 9451,
+   "role": "sample",
+   "model": "B",
+   "text": "conditional statements or hypothetical situations"
+  },
+  {
+   "index": 11911,
+   "role": "sample",
+   "model": "A",
+   "text": "days of the week, especially Monday"
+  },
+  {
+   "index": 11911,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of days of the week, particularly in the context of events or actions"
+  },
+  {
+   "index": 16447,
+   "role": "sample",
+   "model": "A",
+   "text": "specific locations or venues where events occurred"
+  },
+  {
+   "index": 16447,
+   "role": "sample",
+   "model": "B",
+   "text": "occurrences of \"at\" followed by locations or events"
+  },
+  {
+   "index": 3540,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases containing the name \"McElroy\""
+  },
+  {
+   "index": 3540,
+   "role": "sample",
+   "model": "B",
+   "text": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof"
+  },
+  {
+   "index": 18562,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of additional or supplementary things"
+  },
+  {
+   "index": 18562,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of the word \"extra\" in various contexts"
+  },
+  {
+   "index": 3718,
+   "role": "sample",
+   "model": "A",
+   "text": "female pronouns"
+  },
+  {
+   "index": 3718,
+   "role": "sample",
+   "model": "B",
+   "text": "references to a specific female subject (likely a protagonist) and her actions or feelings"
+  },
+  {
+   "index": 12732,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to unexpected revelations or surprising discoveries"
+  },
+  {
+   "index": 12732,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases indicating a revelation or new information being presented"
+  },
+  {
+   "index": 3025,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases indicating lack of information or minimal impact"
+  },
+  {
+   "index": 3025,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases indicating a lack of information or uncertainty"
+  },
+  {
+   "index": 11931,
+   "role": "sample",
+   "model": "A",
+   "text": "occurrences of the word \"method\" in the text"
+  },
+  {
+   "index": 11931,
+   "role": "sample",
+   "model": "B",
+   "text": "references to various techniques or procedures"
+  },
+  {
+   "index": 12276,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to pleasure or enjoyment"
+  },
+  {
+   "index": 12276,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the concept of pleasure"
+  },
+  {
+   "index": 14799,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to bundle offers or packages"
+  },
+  {
+   "index": 14799,
+   "role": "sample",
+   "model": "B",
+   "text": "references to bundles and bundle deals"
+  },
+  {
+   "index": 19956,
+   "role": "sample",
+   "model": "A",
+   "text": "punctuation marks indicating a question, excitement, or an ending"
+  },
+  {
+   "index": 19956,
+   "role": "sample",
+   "model": "B",
+   "text": "punctuation marks indicating rhetorical questions or exclamations"
+  },
+  {
+   "index": 13910,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of the country Venezuela"
+  },
+  {
+   "index": 13910,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions and references to Venezuela and its political context"
+  },
+  {
+   "index": 743,
+   "role": "sample",
+   "model": "A",
+   "text": "names related to sports or people's names"
+  },
+  {
+   "index": 743,
+   "role": "sample",
+   "model": "B",
+   "text": "mentions of the name \"Evgeni.\""
+  },
+  {
+   "index": 22207,
+   "role": "sample",
+   "model": "A",
+   "text": "generic phrases representing importance or priority"
+  },
+  {
+   "index": 22207,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases emphasizing priority or significance"
+  },
+  {
+   "index": 10814,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions related to financial bailouts"
+  },
+  {
+   "index": 10814,
+   "role": "sample",
+   "model": "B",
+   "text": "references to financial bailouts and rescue packages"
+  },
+  {
+   "index": 24159,
+   "role": "sample",
+   "model": "A",
+   "text": "dates, numbers, and references to publications"
+  },
+  {
+   "index": 24159,
+   "role": "sample",
+   "model": "B",
+   "text": "specific formatting elements, particularly related to structured data or metadata"
+  },
+  {
+   "index": 23683,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to authenticity"
+  },
+  {
+   "index": 23683,
+   "role": "sample",
+   "model": "B",
+   "text": "terms related to authenticity and genuine identity"
+  },
+  {
+   "index": 23863,
+   "role": "sample",
+   "model": "A",
+   "text": "adjectives that describe attributes of objects or characteristics of actions"
+  },
+  {
+   "index": 23863,
+   "role": "sample",
+   "model": "B",
+   "text": "adjectives that convey characteristics of objects, emotions, and behaviors"
+  },
+  {
+   "index": 21183,
+   "role": "sample",
+   "model": "A",
+   "text": "Overused or excessive terms and phrases"
+  },
+  {
+   "index": 21183,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the prefix \"over\" or related forms indicating excessive actions or conditions"
+  },
+  {
+   "index": 16631,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to appearance and comparison"
+  },
+  {
+   "index": 16631,
+   "role": "sample",
+   "model": "B",
+   "text": "expressions related to perception and appearance"
+  },
+  {
+   "index": 10171,
+   "role": "sample",
+   "model": "A",
+   "text": "locations where something or someone was left"
+  },
+  {
+   "index": 10171,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the word \"left.\""
+  },
+  {
+   "index": 19647,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases related to councils or political associations"
+  },
+  {
+   "index": 19647,
+   "role": "sample",
+   "model": "B",
+   "text": "references to various councils and their roles or functions"
+  },
+  {
+   "index": 11974,
+   "role": "sample",
+   "model": "A",
+   "text": "instances of the word \"sexuality\" along with other related concepts or contexts"
+  },
+  {
+   "index": 11974,
+   "role": "sample",
+   "model": "B",
+   "text": "references to sexuality and related identity topics"
+  },
+  {
+   "index": 16064,
+   "role": "sample",
+   "model": "A",
+   "text": "proper nouns related to locations or people"
+  },
+  {
+   "index": 16064,
+   "role": "sample",
+   "model": "B",
+   "text": "proper nouns, particularly names associated with locations and individuals"
+  },
+  {
+   "index": 24369,
+   "role": "sample",
+   "model": "A",
+   "text": "comparisons between different time periods or locations"
+  },
+  {
+   "index": 24369,
+   "role": "sample",
+   "model": "B",
+   "text": "phrases indicating comparisons between different time periods or generations"
+  },
+  {
+   "index": 21731,
+   "role": "sample",
+   "model": "A",
+   "text": "terms related to tax breaks"
+  },
+  {
+   "index": 21731,
+   "role": "sample",
+   "model": "B",
+   "text": "terminology related to tax regulation and financial incentives"
+  },
+  {
+   "index": 8511,
+   "role": "sample",
+   "model": "A",
+   "text": "organizations or formal groups"
+  },
+  {
+   "index": 8511,
+   "role": "sample",
+   "model": "B",
+   "text": "references to organizations or entities described as \"bodies.\""
+  },
+  {
+   "index": 19103,
+   "role": "sample",
+   "model": "A",
+   "text": "references to churches or church-related activities"
+  },
+  {
+   "index": 19103,
+   "role": "sample",
+   "model": "B",
+   "text": "references to \"church.\""
+  },
+  {
+   "index": 19071,
+   "role": "sample",
+   "model": "A",
+   "text": "references to information sources or citations, often starting with \"According to\""
+  },
+  {
+   "index": 19071,
+   "role": "sample",
+   "model": "B",
+   "text": "instances of the phrase \"According to the.\""
+  },
+  {
+   "index": 13689,
+   "role": "sample",
+   "model": "A",
+   "text": "mentions of the location \"Perth\" with varying levels of specificity"
+  },
+  {
+   "index": 13689,
+   "role": "sample",
+   "model": "B",
+   "text": "references to the location 'Perth' and related proper names"
+  },
+  {
+   "index": 3246,
+   "role": "sample",
+   "model": "A",
+   "text": "words and phrases related to fear and anxiety"
+  },
+  {
+   "index": 3246,
+   "role": "sample",
+   "model": "B",
+   "text": "expressions of fear or anxiety"
+  },
+  {
+   "index": 21725,
+   "role": "sample",
+   "model": "A",
+   "text": "phrases containing dialogues with speech marks"
+  },
+  {
+   "index": 21725,
+   "role": "sample",
+   "model": "B",
+   "text": "punctuation marks, particularly quotation marks in dialogue"
+  },
+  {
+   "index": 2221,
+   "role": "sample",
+   "model": "A",
+   "text": "instances of the word \"relative\" occurring in various contexts"
+  },
+  {
+   "index": 2221,
+   "role": "sample",
+   "model": "B",
+   "text": "terms associated with comparisons or ratios"
+  },
+  {
+   "index": 8995,
+   "role": "sample",
+   "model": "A",
+   "text": "words related to radio"
+  },
+  {
+   "index": 8995,
+   "role": "sample",
+   "model": "B",
+   "text": "references to radio"
+  },
+  {
+   "index": 21484,
+   "role": "sample",
+   "model": "A",
+   "text": "ISBN numbers"
+  },
+  {
+   "index": 21484,
+   "role": "sample",
+   "model": "B",
+   "text": "ISBN numbers and other publication identifiers"
+  },
+  {
+   "index": 22836,
+   "role": "candidate",
+   "model": "A",
+   "text": "references to the FIFA organization or events related to FIFA"
+  },
+  {
+   "index": 22836,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to FIFA and related topics"
+  },
+  {
+   "index": 4222,
+   "role": "candidate",
+   "model": "A",
+   "text": "positive adjectives used in food-related contexts"
+  },
+  {
+   "index": 4222,
+   "role": "candidate",
+   "model": "B",
+   "text": "symbols or characters that appear to be unusual or non-standard"
+  },
+  {
+   "index": 18973,
+   "role": "candidate",
+   "model": "A",
+   "text": "terms related to information technology systems and operations"
+  },
+  {
+   "index": 18973,
+   "role": "candidate",
+   "model": "B",
+   "text": "technical terms related to programming and computing features"
+  },
+  {
+   "index": 6336,
+   "role": "candidate",
+   "model": "A",
+   "text": "words related to comparison and contrast"
+  },
+  {
+   "index": 6336,
+   "role": "candidate",
+   "model": "B",
+   "text": "relationships between different entities or concepts"
+  },
+  {
+   "index": 20567,
+   "role": "candidate",
+   "model": "A",
+   "text": "details about an item or place, including the presence of accompanying elements or features"
+  },
+  {
+   "index": 20567,
+   "role": "candidate",
+   "model": "B",
+   "text": "phrases indicating completeness or accompanying details"
+  },
+  {
+   "index": 865,
+   "role": "candidate",
+   "model": "A",
+   "text": "mentions of governmental entities or processes, particularly related to provincial governments"
+  },
+  {
+   "index": 865,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to provincial government entities and related terminology"
+  },
+  {
+   "index": 15618,
+   "role": "candidate",
+   "model": "A",
+   "text": "specific diplomatic positions or assignments"
+  },
+  {
+   "index": 15618,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to ambassadors and their assignments to various countries and organizations"
+  },
+  {
+   "index": 11898,
+   "role": "candidate",
+   "model": "A",
+   "text": "adjectives or verbs related to intense emotions"
+  },
+  {
+   "index": 11898,
+   "role": "candidate",
+   "model": "B",
+   "text": "terms related to deep emotional experiences and crises"
+  },
+  {
+   "index": 20682,
+   "role": "candidate",
+   "model": "A",
+   "text": "names of a person, specifically the name \"Corey\""
+  },
+  {
+   "index": 20682,
+   "role": "candidate",
+   "model": "B",
+   "text": "mentions of specific individuals named Corey and Derrick"
+  },
+  {
+   "index": 7791,
+   "role": "candidate",
+   "model": "A",
+   "text": "adjectives followed by words related to size or degree"
+  },
+  {
+   "index": 7791,
+   "role": "candidate",
+   "model": "B",
+   "text": "the word \"even\" in various contexts to indicate a comparison or enhancement"
+  },
+  {
+   "index": 12434,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases related to working processes or mechanisms"
+  },
+  {
+   "index": 12434,
+   "role": "candidate",
+   "model": "B",
+   "text": "verbs indicating functionality or operation of systems and processes"
+  },
+  {
+   "index": 17410,
+   "role": "candidate",
+   "model": "A",
+   "text": "percentage values"
+  },
+  {
+   "index": 17410,
+   "role": "candidate",
+   "model": "B",
+   "text": "phrases related to numerical statistics and percentages"
+  },
+  {
+   "index": 11940,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases related to specific roles or actions in social contexts, such as \"learners,\" \"contractors,\" and \"servant leaders.\""
+  },
+  {
+   "index": 11940,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to various roles and classifications of individuals or groups"
+  },
+  {
+   "index": 18469,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases beginning with \"Along\""
+  },
+  {
+   "index": 18469,
+   "role": "candidate",
+   "model": "B",
+   "text": "occurrences of the word \"Along\" indicating continuity or progression in a narrative"
+  },
+  {
+   "index": 9703,
+   "role": "candidate",
+   "model": "A",
+   "text": "verbs related to decisions and actions"
+  },
+  {
+   "index": 9703,
+   "role": "candidate",
+   "model": "B",
+   "text": "actions related to the revocation, suspension, or cessation of programs, policies, or services"
+  },
+  {
+   "index": 22496,
+   "role": "candidate",
+   "model": "A",
+   "text": "references to government bodies and officials"
+  },
+  {
+   "index": 22496,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to governmental organizations and entities"
+  },
+  {
+   "index": 20308,
+   "role": "candidate",
+   "model": "A",
+   "text": "names containing 'Brien' or 'Reilly'"
+  },
+  {
+   "index": 20308,
+   "role": "candidate",
+   "model": "B",
+   "text": "names of people, particularly those involved in media or commentary"
+  },
+  {
+   "index": 21350,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases related to time or durations"
+  },
+  {
+   "index": 21350,
+   "role": "candidate",
+   "model": "B",
+   "text": "phrases indicating duration or the concept of waiting"
+  },
+  {
+   "index": 18614,
+   "role": "candidate",
+   "model": "A",
+   "text": "references to time durations, particularly mentioning years and decades"
+  },
+  {
+   "index": 18614,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to time durations, particularly in years and months"
+  },
+  {
+   "index": 2910,
+   "role": "candidate",
+   "model": "A",
+   "text": "specific keywords related to a particular entity or topic (\"Ey\")"
+  },
+  {
+   "index": 2910,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to the concept or entity represented by \"Ey.\""
+  },
+  {
+   "index": 2339,
+   "role": "candidate",
+   "model": "A",
+   "text": "references to the physical top of something"
+  },
+  {
+   "index": 2339,
+   "role": "candidate",
+   "model": "B",
+   "text": "references to the top and bottom positions of objects or items in various contexts"
+  },
+  {
+   "index": 8773,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases related to accuracy or precision"
+  },
+  {
+   "index": 8773,
+   "role": "candidate",
+   "model": "B",
+   "text": "terms and phrases related to various forms of \"literacy\" or \"ability.\""
+  },
+  {
+   "index": 10865,
+   "role": "candidate",
+   "model": "A",
+   "text": "instances where the word 'the' appears"
+  },
+  {
+   "index": 10865,
+   "role": "candidate",
+   "model": "B",
+   "text": "segments of text that contain a specific end-of-text token, indicating the completion of thoughts or ideas"
+  },
+  {
+   "index": 20373,
+   "role": "candidate",
+   "model": "A",
+   "text": "names containing \"ki\""
+  },
+  {
+   "index": 20373,
+   "role": "candidate",
+   "model": "B",
+   "text": "occurrences of the word \"ki.\""
+  },
+  {
+   "index": 12069,
+   "role": "candidate",
+   "model": "A",
+   "text": "phrases related to wheezing or respiratory conditions"
+  },
+  {
+   "index": 12069,
+   "role": "candidate",
+   "model": "B",
+   "text": "the word \"whee,\" indicating excitement or enthusiasm"
+  },
+  {
+   "index": 4912,
+   "role": "candidate",
+   "model": "A",
+   "text": "pieces of code containing specific characters and formatting"
+  },
+  {
+   "index": 4912,
+   "role": "candidate",
+   "model": "B",
+   "text": "patterns resembling programming syntax and code structures"
+  },
+  {
+   "index": 20199,
+   "role": "candidate",
+   "model": "A",
+   "text": "exclamatory expressions of surprise or admiration"
+  },
+  {
+   "index": 20199,
+   "role": "candidate",
+   "model": "B",
+   "text": "exclamatory expressions of surprise or amazement"
+  },
+  {
+   "index": 5773,
+   "role": "candidate",
+   "model": "A",
+   "text": "the name \"Kay\" followed by a numerical value"
+  },
+  {
+   "index": 5773,
+   "role": "candidate",
+   "model": "B",
+   "text": "mentions of the name \"Kay.\""
+  },
+  {
+   "index": 17875,
+   "role": "candidate",
+   "model": "A",
+   "text": "instances indicating failure or lack of success"
+  },
+  {
+   "index": 17875,
+   "role": "candidate",
+   "model": "B",
+   "text": "instances of failure and related outcomes"
+  },
+  {
+   "index": 12242,
+   "role": "candidate",
+   "model": "A",
+   "text": "titles or positions related to leadership and authority roles"
+  },
+  {
+   "index": 12242,
+   "role": "candidate",
+   "model": "B",
+   "text": "titles and positions of authority or leadership"
+  }
+ ]
+}

@@ -36,9 +36,19 @@ def n_words(text: str) -> int:
 class Pairs:
     """Explanations and neighbours of the sample, and the filters on one pair."""
 
-    def __init__(self, a: dict, b: dict, neighbours: dict, seed: int = SEED):
-        self.a, self.b, self.nb = a, b, neighbours
-        self.targets = sorted(a)
+    def __init__(
+        self,
+        a: dict,
+        b: dict,
+        neighbours: dict,
+        seed: int = SEED,
+        targets: list[int] | None = None,
+        specific: set[tuple[int, str]] | None = None,
+    ):
+        """`a`, `b`, `neighbours` cover targets and donors. `specific` holds the
+        (feature, "A" or "B") explanations classed specific, or None for no filter."""
+        self.a, self.b, self.nb, self.specific = a, b, neighbours, specific
+        self.targets = sorted(targets if targets is not None else a)
         order = self.targets[:]
         random.Random(seed).shuffle(order)
         half = len(order) // 2
@@ -57,15 +67,24 @@ class Pairs:
         mean = (n_words(self.a[target]) + n_words(self.b[target])) / 2
         if not LEN_MIN <= n_words(p) / mean <= LEN_MAX:
             out.append("length")
+        if self.specific is not None and (donor, self.model[target]) not in self.specific:
+            out.append("generic")
         return out
 
 
 A_MODEL, B_MODEL = "gpt-3.5-turbo", "gpt-4o-mini"
 
 
-def build_pairs(sample: list[int], fetch, seed: int = SEED) -> Pairs:
-    """Pairs for the sampled features, from their Neuronpedia JSON (`fetch(index)`)."""
-    raws = {i: fetch(i) for i in sample}
+def build_pairs(
+    sample: list[int],
+    fetch,
+    seed: int = SEED,
+    extra_donors: list[int] = (),
+    specific: set[tuple[int, str]] | None = None,
+) -> Pairs:
+    """Pairs for the sampled features (and outside donors), from their Neuronpedia
+    JSON (`fetch(index)`)."""
+    raws = {i: fetch(i) for i in [*sample, *extra_donors]}
 
     def explanation(raw: dict, model: str) -> str:
         return next(
@@ -74,10 +93,10 @@ def build_pairs(sample: list[int], fetch, seed: int = SEED) -> Pairs:
             if e["explanationModelName"] == model
         )
 
-    a = {i: explanation(raws[i], A_MODEL) for i in sample}
-    b = {i: explanation(raws[i], B_MODEL) for i in sample}
-    nb = {i: set(raws[i]["topkCosSimIndices"]) - {i} for i in sample}
-    return Pairs(a, b, nb, seed=seed)
+    a = {i: explanation(r, A_MODEL) for i, r in raws.items()}
+    b = {i: explanation(r, B_MODEL) for i, r in raws.items()}
+    nb = {i: set(r["topkCosSimIndices"]) - {i} for i, r in raws.items()}
+    return Pairs(a, b, nb, seed=seed, targets=sample, specific=specific)
 
 
 def rows(pairs: Pairs, m: dict[int, int], order: list[int]) -> list[dict]:
@@ -95,10 +114,16 @@ def rows(pairs: Pairs, m: dict[int, int], order: list[int]) -> list[dict]:
     ]
 
 
-def derangement(targets: list[int], rng: random.Random) -> dict[int, int]:
+def derangement(
+    targets: list[int], rng: random.Random, donors: list[int] | None = None
+) -> dict[int, int]:
+    """Map each target to a distinct donor, none to itself. Donors default to targets.
+    With more donors than targets, the donors left over are not used."""
+    pool = sorted(donors) if donors is not None else targets
     while True:
-        donors = targets[:]
+        donors = pool[:]
         rng.shuffle(donors)
+        donors = donors[: len(targets)]
         if all(t != d for t, d in zip(targets, donors, strict=True)):
             return dict(zip(targets, donors, strict=True))
 
@@ -110,9 +135,12 @@ def repair(
     forbidden: frozenset = frozenset(),
     forbidden_texts: frozenset = frozenset(),
     max_swaps: int = 100_000,
+    spare: list[int] | None = None,
 ) -> int:
     """Swap donors in place until no pair fails the filters, is a forbidden (target,
-    donor) pair, or uses a forbidden placebo text. Returns the swap count."""
+    donor) pair, or uses a forbidden placebo text. A failing target swaps its donor
+    with another target's, or with an unused donor from `spare` (updated in place).
+    Returns the swap count."""
 
     def fails(t: int) -> bool:
         return (
@@ -127,9 +155,14 @@ def repair(
         if swaps >= max_swaps:
             raise RuntimeError("no valid assignment found")
         t = rng.choice(bad)
-        u = rng.choice([x for x in targets if x != t])
-        if m[u] != t and m[t] != u:
-            m[t], m[u] = m[u], m[t]
+        others = [x for x in targets if x != t]
+        k = rng.randrange(len(others) + len(spare or []))
+        if k < len(others):
+            u = others[k]
+            if m[u] != t and m[t] != u:
+                m[t], m[u] = m[u], m[t]
+        elif (d := spare[k - len(others)]) != t:
+            spare[k - len(others)], m[t] = m[t], d
         swaps += 1
     return swaps
 
