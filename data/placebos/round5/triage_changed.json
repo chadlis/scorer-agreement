@@ -1,0 +1,26 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Le placebo est-il assez spécifique et assez éloigné du sens de la cible pour qu'un scoreur réponde 0 à presque tous les textes, y compris ceux où la cible s'active ?",
+ "pairs": [
+  {"target": 1133, "verdict": "confident", "reason": "Mot précis « method », sans lien de sens avec les ordres ou instructions."},
+  {"target": 17632, "verdict": "doubt", "reason": "Fit : une conférence de presse est une forme de communication directe, avec déclarations et messages."},
+  {"target": 20330, "verdict": "confident", "reason": "Parti politique, sans rapport avec le mot « two »."},
+  {"target": 5634, "verdict": "doubt", "reason": "Générique : perception et apparence couvrent des verbes courants (seem, look, appear, see) présents dans beaucoup d'extraits."},
+  {"target": 19944, "verdict": "confident", "reason": "Exactitude et précision, thème distinct de l'aide ou de la contribution."},
+  {"target": 3665, "verdict": "confident", "reason": "Révélations surprenantes, à l'opposé des prévisions et projections attendues."},
+  {"target": 5059, "verdict": "doubt", "reason": "Fit : « malt » (bière, boissons, malt shop) peut apparaître dans des textes de restauration."},
+  {"target": 13572, "verdict": "confident", "reason": "Achèvement et finalité, sans lien avec l'absorption de substances."},
+  {"target": 9607, "verdict": "confident", "reason": "Réglementation fiscale et incitations financières, thème distinct du tabagisme."},
+  {"target": 20467, "verdict": "confident", "reason": "Manque d'information ou impact minime, sans rapport avec les verbes de mouvement."},
+  {"target": 14562, "verdict": "confident", "reason": "Citations de sources en « According to », sans lien avec les factures et dépenses."},
+  {"target": 5596, "verdict": "confident", "reason": "Aide et assistance, sans rapport avec les traits uniques ou caractéristiques."},
+  {"target": 3025, "verdict": "confident", "reason": "Couteaux, objet concret sans lien avec le manque d'information."},
+  {"target": 13910, "verdict": "doubt", "reason": "Fit : les textes sur le Venezuela et sa politique citent souvent des titres de dirigeants (président, ministre)."},
+  {"target": 743, "verdict": "confident", "reason": "Obligations financières et dépenses, sans lien avec les noms de sportifs ou « Evgeni »."},
+  {"target": 24159, "verdict": "confident", "reason": "Mot précis « extra », sans lien avec les dates, nombres et métadonnées."},
+  {"target": 10171, "verdict": "confident", "reason": "Groupes ethniques ou communautés, sans rapport avec le mot « left »."},
+  {"target": 21731, "verdict": "confident", "reason": "Motif précis « topic » suivi d'un nombre, sans lien avec la fiscalité."},
+  {"target": 19071, "verdict": "confident", "reason": "LEGO, sujet très spécifique sans lien avec les citations de sources."},
+  {"target": 21725, "verdict": "confident", "reason": "Lieux aux États-Unis (Washington, DC), sans rapport avec les guillemets de dialogue."}
+ ]
+}
