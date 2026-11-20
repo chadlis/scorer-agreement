@@ -97,7 +97,9 @@ def scorer_text(tokens: list[str]) -> str:
 
     Decided on 2026-11-19 after a format check in which line breaks inside a
     window made scorers read it as several examples (data/smoke/format_check.jsonl).
-    Activations are unaffected: they were measured on the original text.
+    Activations recomputed on this text differ from those of the original window
+    (feature 9396, window 50: 5.40 here against 4.30 with the line breaks), so
+    labels are measured on this exact text (PLAN.md, Labels).
     """
     return _NEWLINES.sub(" ", window_text(tokens))
 

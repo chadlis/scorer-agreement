@@ -10,6 +10,7 @@ from autointerp import activation as act
 def tmp_cache(tmp_path, monkeypatch):
     monkeypatch.setattr(act, "CACHE", tmp_path)
     monkeypatch.setattr(act, "MIN_INTERVAL_S", 0)
+    monkeypatch.setattr(act, "BACKOFF_S", (0, 0, 0))
     return tmp_path
 
 
@@ -42,8 +43,37 @@ def test_response_is_cached_with_its_request(tmp_cache):
     assert saved["request"]["customText"] == "a text"
 
 
-def test_http_error_is_raised_and_not_cached(tmp_cache):
-    with httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(429))) as client:
+def test_rate_limit_is_retried_then_cached(tmp_cache):
+    ok = httpx.Response(200, json={"maxValue": 1})
+    replies = iter([httpx.Response(429), httpx.Response(503), ok])
+    with httpx.Client(transport=httpx.MockTransport(lambda r: next(replies))) as client:
+        assert act.activation(7, "busy", client=client) == {"maxValue": 1}
+    assert act.cache_path(7, "busy", "gpt2-small", "6-res-jb").exists()
+
+
+def test_persistent_rate_limit_is_raised_and_not_cached(tmp_cache):
+    sent = []
+
+    def busy(request):
+        sent.append(request)
+        return httpx.Response(429)
+
+    with httpx.Client(transport=httpx.MockTransport(busy)) as client:
         with pytest.raises(httpx.HTTPStatusError):
             act.activation(7, "busy", client=client)
+    assert len(sent) == len(act.BACKOFF_S) + 1
     assert not act.cache_path(7, "busy", "gpt2-small", "6-res-jb").exists()
+
+
+def test_client_error_is_not_retried(tmp_cache):
+    sent = []
+
+    def bad(request):
+        sent.append(request)
+        return httpx.Response(400)
+
+    with httpx.Client(transport=httpx.MockTransport(bad)) as client:
+        with pytest.raises(httpx.HTTPStatusError):
+            act.activation(7, "bad", client=client)
+    assert len(sent) == 1
+    assert not act.cache_path(7, "bad", "gpt2-small", "6-res-jb").exists()

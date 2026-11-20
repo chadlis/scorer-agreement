@@ -25,7 +25,8 @@ been made yet.
 
 Data freezing is in progress. Decisions are recorded in `PLAN.md` (a draft until it
 is frozen) as they are made. Negatives are drawn from the stored windows of the other
-sampled features, then checked one by one with Neuronpedia's activation API.
+sampled features. Every label, positive or negative, is then checked with
+Neuronpedia's activation API on the exact text shown to the scorer.
 
 ## Planned design
 
@@ -98,7 +99,8 @@ unreadable answers. Without `--yes`, scripts only print what they would send.
 `uv run scripts/check_activation_api.py` recomputes five stored windows of feature 100
 with Neuronpedia's free activation API (`data/activation_test/`).
 `uv run scripts/check_negatives.py` tries the negatives rule on six features. Calls to
-the activation API are spaced by 3.6 s and cached under `data/raw/`.
+the activation API are spaced by 3.6 s, retried on rate limits and server errors,
+and cached under `data/raw/`.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.

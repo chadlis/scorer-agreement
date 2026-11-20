@@ -50,8 +50,8 @@ passages: once duplicates are removed, about 6 distinct passages remain per feat
 4. Passages are shuffled once with a published seed. Targets then take turns, each
    taking its next eligible unused passage, until each has 20 negatives plus a
    reserve.
-5. Each candidate is checked with Neuronpedia's activation API for T, on the text
-   alone. A candidate that activates T above the threshold (to be decided) is
+5. Each candidate is checked with Neuronpedia's activation API for T, following
+   the label rule below. A candidate whose activation for T is above 0 is
    rejected and replaced by the next one in T's list.
 
 **Why this source.** Positives and negatives then come from the same corpus, with
@@ -88,8 +88,8 @@ the same as with any other source.
   removes shared texts, but a target's negatives still depend on which other
   features were sampled. The bootstrap over features treats features as
   independent, which is a small approximation.
-- *Labels describe the window alone.* A negative is checked on the 17 tokens the
-  scorer sees, without the text that preceded it in the corpus. This is the label
+- *Labels describe the window alone.* A negative is checked on the text the scorer
+  sees, without the text that preceded it in the corpus. This is the label
   that matches the scorer's task, not the activation in the original context
   (on the positives recomputed so far within the filter, recomputed values range
   from 26% below to 115% above the stored ones).
@@ -98,12 +98,65 @@ the same as with any other source.
   should give about 5,800 passages, for about 3,000 needed (20 negatives and 10
   reserves per feature). The 12 candidates checked were all at 0 for their target.
 - *Order of decisions.* The pool depends on the sampled features, the exclusion
-  on the placebo rule, and the rejection on the threshold. These are decided next.
+  on the placebo rule, and the rejection on the label rule (decided below). The
+  sampling and placebo rules are still open.
+
+### Labels (decided 2026-11-20)
+
+**Rule.**
+
+1. Every label is measured with Neuronpedia's activation API on exactly the text
+   shown to the scorer (`neuronpedia.scorer_text`, line breaks replaced by spaces),
+   never on stored values. The activation of a text is its maximum over all
+   tokens, at any position.
+2. *Negative*: activation exactly 0. The SAE returns true zeros, so there is no
+   rounding issue.
+3. *Positive*: activation at least 10% of the feature's stored maximum
+   (`maxActApprox`). The stored maximum stays the reference because no recomputed
+   maximum over the corpus exists.
+4. *Grey zone*: anything in between is dropped and replaced. Rejections are
+   counted per feature and reported.
+5. *Choice of positives*: every distinct positive passage of a feature is
+   recomputed. Among those labelled positive, sorted by recomputed activation, the
+   20 at evenly spaced ranks are kept, so that levels are spread over what the
+   scorer reads.
+6. *Gate*: before anything else, the window holding a feature's stored maximum is
+   recomputed. If it is not a positive by rule 3, the feature is dropped and
+   replaced by the next feature of the seeded draw.
+7. *Replacement*: a feature that lacks 20 positives or 20 negatives is replaced by
+   the next feature of the seeded draw. Replaced features are listed and reported.
+8. *Order*: the features of the pilot are verified first.
+
+**Why.** Recomputing changes values both ways. Within the filter, recomputed
+values range from 26% below to 115% above the stored ones, and two of the 16
+positives checked cross the 10% line. Removing line breaks also changes the
+value (feature 9396, window 50: 4.30 with them, 5.40 without). A label must
+describe the text the scorer reads. In the trial, feature 16466 (outside the
+filter) returned 0 on all four positives recomputed, including its maximum: the
+gate catches such features with one call. No positive within the filter fell to 0.
+Two independent reviews (2026-11-20) checked this rule against the trial data.
+
+**Cost.** About 7,500 to 8,500 free calls, about 8 hours at 3.6 s per call.
+
+**Limits, to be reported.**
+
+- *Clear cases only.* The grey zone is removed, and Neuronpedia stores almost no
+  window below 10% of a feature's maximum. Nothing is said about weak activations.
+- *Differences from delphi.* delphi uses activations in context, positives
+  spread over quantiles and random negatives, with no grey zone. Here labels are
+  recomputed without context, with a threshold relative to the stored maximum.
+- *Rejected negatives are semantic neighbours* (in the trial, a "Thus far" passage
+  at 0.013 for feature 100). Removing them leaves easier negatives, which slightly
+  flatters specificity under the original explanations.
+- *Features that need long context* fail the gate or lose positives and are
+  replaced. The sample then leans towards features readable from 17 tokens. The
+  replaced features are listed so this can be judged.
+- *Length.* Removing line breaks shortens about 20% of positive windows to 13 to
+  15 tokens. Whether positives and negatives differ in this respect is checked
+  before freezing.
 
 ### Open points
 
-- Activation threshold for labels, and the exact text sent for verification
-  (with or without line breaks).
 - Sampling rule for the 100 features, and its seed.
 - Placebo rule.
 - Windows that contain `<|endoftext|>` join two documents (12 of 85 windows for
