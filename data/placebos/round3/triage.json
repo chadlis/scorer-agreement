@@ -1,0 +1,506 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Le placebo est-il assez précis et assez éloigné du sens de la cible pour qu'un scoreur réponde 0 à la plupart des textes, y compris ceux où la cible s'active ?",
+ "pairs": [
+  {
+   "target": 1133,
+   "verdict": "confident",
+   "reason": "Commandes/instructions contre mutations biologiques : aucun lien."
+  },
+  {
+   "target": 10461,
+   "verdict": "confident",
+   "reason": "Structure « something of a/an » contre préfixe « over » : motif lexical précis et sans rapport."
+  },
+  {
+   "target": 14889,
+   "verdict": "confident",
+   "reason": "Publication Ars contre expressions de priorité/importance : sens sans rapport, placebo assez précis."
+  },
+  {
+   "target": 47,
+   "verdict": "doubt",
+   "reason": "Générique : « specific entities or terms » peut couvrir n'importe quel nom propre, dont un parti politique ; seule la mention « Ars » est précise."
+  },
+  {
+   "target": 15387,
+   "verdict": "confident",
+   "reason": "Images contre conditionnelles en « If » : motif syntaxique précis, sans rapport."
+  },
+  {
+   "target": 18011,
+   "verdict": "doubt",
+   "reason": "Fit : les mots en « diss » incluent « dissent », « dissident », proches de l'activisme et des questions sociales."
+  },
+  {
+   "target": 11479,
+   "verdict": "confident",
+   "reason": "Assignation/allocation contre le mot « Along » : mot précis, sans rapport."
+  },
+  {
+   "target": 9692,
+   "verdict": "confident",
+   "reason": "LEGO contre le nom « McElroy » : nom propre précis, sans rapport."
+  },
+  {
+   "target": 23318,
+   "verdict": "confident",
+   "reason": "Mutations biologiques contre authenticité : domaines distincts."
+  },
+  {
+   "target": 5479,
+   "verdict": "confident",
+   "reason": "Groupes ethniques contre animaux préhistoriques : sans rapport."
+  },
+  {
+   "target": 9401,
+   "verdict": "confident",
+   "reason": "Noms de personnes contre le mot « two » : mot précis, absent de la plupart des textes."
+  },
+  {
+   "target": 17632,
+   "verdict": "confident",
+   "reason": "Conférences de presse contre statistiques sportives : placebo précis, recoupement peu probable."
+  },
+  {
+   "target": 20330,
+   "verdict": "confident",
+   "reason": "Le nombre « two » contre l'État du Maine : sans rapport."
+  },
+  {
+   "target": 5634,
+   "verdict": "doubt",
+   "reason": "Fit : succès et indicateurs d'entreprise contre échec et issues liées ; même axe sémantique, textes financiers parlant de pertes ou de faillites."
+  },
+  {
+   "target": 14097,
+   "verdict": "doubt",
+   "reason": "Générique : « adjectifs ou verbes d'émotion intense » est une catégorie large, plausible dans des textes de police (« Cop »)."
+  },
+  {
+   "target": 13068,
+   "verdict": "confident",
+   "reason": "Conférences sportives contre plaisir : sans rapport."
+  },
+  {
+   "target": 11794,
+   "verdict": "doubt",
+   "reason": "Fit : « communication directe ou messages » est une catégorie large qui peut englober une invitation à regarder une vidéo."
+  },
+  {
+   "target": 7229,
+   "verdict": "confident",
+   "reason": "Vêtements/« suit » contre le mot « ki » : mot rare et précis."
+  },
+  {
+   "target": 2112,
+   "verdict": "confident",
+   "reason": "Villes, pays, nationalités contre sexualité : sans rapport."
+  },
+  {
+   "target": 22163,
+   "verdict": "confident",
+   "reason": "Pronoms contre nourriture et boisson : placebo précis, sans rapport avec la cible."
+  },
+  {
+   "target": 16269,
+   "verdict": "confident",
+   "reason": "Thérapies/« ape » contre silence : sans rapport."
+  },
+  {
+   "target": 10122,
+   "verdict": "confident",
+   "reason": "Magie/« spell » contre noms « Brien »/« Reilly » : noms précis, sans rapport."
+  },
+  {
+   "target": 6322,
+   "verdict": "confident",
+   "reason": "Couteaux contre remerciements : sans rapport."
+  },
+  {
+   "target": 23756,
+   "verdict": "confident",
+   "reason": "« topic » + nombre contre le nom « Gordon » : sans rapport."
+  },
+  {
+   "target": 18727,
+   "verdict": "confident",
+   "reason": "État du Maine contre morceaux de code : sans rapport."
+  },
+  {
+   "target": 19944,
+   "verdict": "doubt",
+   "reason": "Générique : « specific keywords related to a particular entity or topic » convient à presque tout texte ; seul « Ey » est précis."
+  },
+  {
+   "target": 17379,
+   "verdict": "confident",
+   "reason": "Achèvement/fin de phrase contre traitements thérapeutiques : placebo précis, sans rapport."
+  },
+  {
+   "target": 3665,
+   "verdict": "confident",
+   "reason": "Prévisions/projections contre Washington, DC : lieu précis, sans rapport."
+  },
+  {
+   "target": 1589,
+   "verdict": "confident",
+   "reason": "« as per » contre troubles politiques : sans rapport."
+  },
+  {
+   "target": 565,
+   "verdict": "confident",
+   "reason": "Remerciements contre le prénom « Evgeni » : nom précis, sans rapport."
+  },
+  {
+   "target": 3812,
+   "verdict": "confident",
+   "reason": "Activisme contre le mot « spell » : sans rapport."
+  },
+  {
+   "target": 5264,
+   "verdict": "confident",
+   "reason": "Troubles politiques contre intégrité structurelle/ingénierie : sans rapport."
+  },
+  {
+   "target": 6076,
+   "verdict": "confident",
+   "reason": "Statistiques contre jours de la semaine : placebo précis, cooccurrence seulement occasionnelle."
+  },
+  {
+   "target": 5059,
+   "verdict": "confident",
+   "reason": "Animaux préhistoriques contre allègements fiscaux : sans rapport."
+  },
+  {
+   "target": 12229,
+   "verdict": "confident",
+   "reason": "Lieux contre l'expression « one day » : expression précise, sans rapport."
+  },
+  {
+   "target": 23629,
+   "verdict": "confident",
+   "reason": "Verbe « to be » contre le mot « whee » : mot rare et précis."
+  },
+  {
+   "target": 1635,
+   "verdict": "doubt",
+   "reason": "Fit : double sens de « order » (commande au restaurant) face à « commands and directives »."
+  },
+  {
+   "target": 15660,
+   "verdict": "doubt",
+   "reason": "Fit : envoi/transmission d'information contre révélations ; les deux portent sur de l'information communiquée ou divulguée."
+  },
+  {
+   "target": 3232,
+   "verdict": "confident",
+   "reason": "Verbes de causalité/adverbes de degré contre offres groupées : placebo précis, sans rapport."
+  },
+  {
+   "target": 13572,
+   "verdict": "confident",
+   "reason": "Absorption contre manque d'information/impact minime : sens sans rapport."
+  },
+  {
+   "target": 21857,
+   "verdict": "confident",
+   "reason": "Législation contre Venezuela : pays précis, sans rapport."
+  },
+  {
+   "target": 1746,
+   "verdict": "confident",
+   "reason": "Terrorisme contre épingler/immobiliser physiquement : geste précis, sans rapport direct."
+  },
+  {
+   "target": 15655,
+   "verdict": "confident",
+   "reason": "Le mot « right » contre personnes nommées ou recrutées à un poste : sans rapport."
+  },
+  {
+   "target": 5030,
+   "verdict": "confident",
+   "reason": "Épingler/attacher contre gouvernements provinciaux : sans rapport."
+  },
+  {
+   "target": 9607,
+   "verdict": "doubt",
+   "reason": "Fit : « assistance ou contribution vers un but » est large ; textes sur le tabac avec « contributes to », « helps quit »."
+  },
+  {
+   "target": 20467,
+   "verdict": "confident",
+   "reason": "Verbes de mouvement contre systèmes informatiques : sans rapport."
+  },
+  {
+   "target": 22455,
+   "verdict": "confident",
+   "reason": "Nom « Gordon » contre symboles inhabituels : sans rapport."
+  },
+  {
+   "target": 13920,
+   "verdict": "confident",
+   "reason": "« one day »/événements futurs contre le mot « rumor » : mot précis, sans rapport."
+  },
+  {
+   "target": 14562,
+   "verdict": "confident",
+   "reason": "Factures/obligations financières contre l'expression « per the official data » : expression précise."
+  },
+  {
+   "target": 8968,
+   "verdict": "confident",
+   "reason": "Dates contre législation : thème précis, sans rapport avec des dates."
+  },
+  {
+   "target": 2019,
+   "verdict": "doubt",
+   "reason": "Fit : les mots en « ary » incluent « contrary », « adversary », qui collent à « côtés ou points de vue opposés »."
+  },
+  {
+   "target": 12637,
+   "verdict": "doubt",
+   "reason": "Fit : la cible B est le mot « to » et le placebo contient « According to the » ; recoupement lexical sur « to »."
+  },
+  {
+   "target": 13847,
+   "verdict": "confident",
+   "reason": "Enjeux juridiques et politiques contre mode/vêtements : sans rapport."
+  },
+  {
+   "target": 18377,
+   "verdict": "confident",
+   "reason": "Clients/mécènes contre terrorisme : sans rapport."
+  },
+  {
+   "target": 14612,
+   "verdict": "confident",
+   "reason": "Camps opposés contre sommet physique d'un objet : sans rapport."
+  },
+  {
+   "target": 14256,
+   "verdict": "confident",
+   "reason": "Noms de personnes contre structure « something of a/an » : motif précis."
+  },
+  {
+   "target": 20058,
+   "verdict": "doubt",
+   "reason": "Fit : les textes sur Washington, DC citent souvent des titres de pouvoir (President, Senator, Secretary)."
+  },
+  {
+   "target": 8697,
+   "verdict": "confident",
+   "reason": "Silence contre nombres à trait d'union des conférences sportives : sans rapport."
+  },
+  {
+   "target": 18623,
+   "verdict": "confident",
+   "reason": "Manipulation/altération contre « patrons »/mécénat : sans rapport."
+  },
+  {
+   "target": 13350,
+   "verdict": "confident",
+   "reason": "Structure/ingénierie contre assignation/allocation : sans rapport."
+  },
+  {
+   "target": 22598,
+   "verdict": "confident",
+   "reason": "Phrases commençant par « That » contre tabac : thème précis, sans rapport."
+  },
+  {
+   "target": 336,
+   "verdict": "confident",
+   "reason": "Nourriture/« ready » contre images ou photos : sans rapport."
+  },
+  {
+   "target": 16546,
+   "verdict": "confident",
+   "reason": "Rumeurs contre organismes gouvernementaux : thème distinct, assez précis."
+  },
+  {
+   "target": 5596,
+   "verdict": "confident",
+   "reason": "Caractéristiques uniques contre « topic » + nombre : motif précis."
+  },
+  {
+   "target": 9451,
+   "verdict": "confident",
+   "reason": "Conditionnelles contre conférences de presse : sans rapport."
+  },
+  {
+   "target": 11911,
+   "verdict": "doubt",
+   "reason": "Générique : « phrases d'achèvement ou de finalité » est large, et les textes datés (« ended Monday », « finished on Friday ») peuvent y correspondre."
+  },
+  {
+   "target": 16447,
+   "verdict": "confident",
+   "reason": "« at » + lieu contre dissociation/déconnexion : sans rapport."
+  },
+  {
+   "target": 3540,
+   "verdict": "confident",
+   "reason": "Nom « McElroy » contre éléments de formatage/métadonnées : sans rapport."
+  },
+  {
+   "target": 18562,
+   "verdict": "confident",
+   "reason": "Le mot « extra » contre comparaisons entre époques ou générations : sans rapport."
+  },
+  {
+   "target": 3718,
+   "verdict": "confident",
+   "reason": "Pronoms féminins contre ambassadeurs : thème précis, sans rapport."
+  },
+  {
+   "target": 12732,
+   "verdict": "doubt",
+   "reason": "Fit : révélations (« it turns out », « apparently ») contre expressions de perception et d'apparence (« it appears », « seems ») ; sens voisins."
+  },
+  {
+   "target": 3025,
+   "verdict": "confident",
+   "reason": "Manque d'information contre renflouements financiers : sans rapport."
+  },
+  {
+   "target": 11931,
+   "verdict": "confident",
+   "reason": "Le mot « method » contre FIFA : sans rapport."
+  },
+  {
+   "target": 12276,
+   "verdict": "confident",
+   "reason": "Plaisir contre peur/anxiété : émotions opposées, placebo précis qui ne décrit pas les textes de plaisir."
+  },
+  {
+   "target": 14799,
+   "verdict": "doubt",
+   "reason": "Fit : les offres groupées emploient souvent « extra » (« extra content », « at no extra cost »)."
+  },
+  {
+   "target": 19956,
+   "verdict": "confident",
+   "reason": "Ponctuation interrogative/exclamative contre absorption : sans rapport."
+  },
+  {
+   "target": 13910,
+   "verdict": "doubt",
+   "reason": "Fit : les textes sur le Venezuela parlent souvent de dette, de défaut de paiement et de crise économique (« obligations financières »)."
+  },
+  {
+   "target": 743,
+   "verdict": "doubt",
+   "reason": "Fit : la cible porte sur des prénoms de sportifs ; « Corey » et « Derrick » sont aussi des prénoms de sportifs, même catégorie."
+  },
+  {
+   "target": 22207,
+   "verdict": "doubt",
+   "reason": "Fit : priorité/importance contre succès et indicateurs d'entreprise ; recoupement dans les textes de gestion (« top priority », « key to success »)."
+  },
+  {
+   "target": 10814,
+   "verdict": "confident",
+   "reason": "Renflouements financiers contre Perth : lieu précis, sans rapport."
+  },
+  {
+   "target": 24159,
+   "verdict": "confident",
+   "reason": "Dates/métadonnées contre le mot « even » : mot précis, peu probable dans des métadonnées."
+  },
+  {
+   "target": 23683,
+   "verdict": "doubt",
+   "reason": "Fit : « authentic » qualifie souvent une cuisine ou un restaurant (« authentic Mexican restaurant »)."
+  },
+  {
+   "target": 23863,
+   "verdict": "confident",
+   "reason": "Adjectifs contre prévisions/projections : placebo précis, sans rapport."
+  },
+  {
+   "target": 21183,
+   "verdict": "confident",
+   "reason": "Préfixe « over » contre le mot « right » : mot précis, sans rapport."
+  },
+  {
+   "target": 16631,
+   "verdict": "doubt",
+   "reason": "Fit : perception et apparence (« looks », « see ») recoupent le champ visuel des mots liés à la vidéo (« watch », « view »)."
+  },
+  {
+   "target": 10171,
+   "verdict": "confident",
+   "reason": "Le mot « left » contre LEGO : sans rapport."
+  },
+  {
+   "target": 19647,
+   "verdict": "doubt",
+   "reason": "Générique et fit : « terms related to a specific genre or category » est vague, et les mots en « ary » (« secretary », « parliamentary », « advisory ») apparaissent dans les textes de conseils."
+  },
+  {
+   "target": 11974,
+   "verdict": "confident",
+   "reason": "Sexualité contre le mot « relative » : mot précis, sans rapport."
+  },
+  {
+   "target": 16064,
+   "verdict": "confident",
+   "reason": "Noms propres contre exclamations de surprise : sans rapport."
+  },
+  {
+   "target": 24369,
+   "verdict": "confident",
+   "reason": "Comparaisons entre époques contre églises : sans rapport."
+  },
+  {
+   "target": 21731,
+   "verdict": "confident",
+   "reason": "Allègements fiscaux contre le mot « method » : sans rapport."
+  },
+  {
+   "target": 8511,
+   "verdict": "confident",
+   "reason": "Organisations/« bodies » contre couteaux : sans rapport."
+  },
+  {
+   "target": 19103,
+   "verdict": "confident",
+   "reason": "Églises contre numéros ISBN : sans rapport."
+  },
+  {
+   "target": 19071,
+   "verdict": "confident",
+   "reason": "« According to » contre « Kay » + nombre : motif précis, sans rapport."
+  },
+  {
+   "target": 13689,
+   "verdict": "confident",
+   "reason": "Perth contre le mot « Cop » : mot précis, sans rapport."
+  },
+  {
+   "target": 3246,
+   "verdict": "confident",
+   "reason": "Peur/anxiété contre groupes ethniques ou nationalités : sans rapport direct."
+  },
+  {
+   "target": 21725,
+   "verdict": "confident",
+   "reason": "Guillemets de dialogue contre groupes ethniques : thème précis, sans rapport."
+  },
+  {
+   "target": 2221,
+   "verdict": "confident",
+   "reason": "Le mot « relative » contre conseils/associations politiques : sans rapport."
+  },
+  {
+   "target": 8995,
+   "verdict": "confident",
+   "reason": "Radio contre parti politique : sans rapport."
+  },
+  {
+   "target": 21484,
+   "verdict": "confident",
+   "reason": "Numéros ISBN contre radio : sans rapport."
+  }
+ ]
+}

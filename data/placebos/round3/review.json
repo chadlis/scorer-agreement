@@ -1,0 +1,216 @@
+{
+ "seed": 20261120,
+ "triage_model": "claude-fable-5-2",
+ "pairs": [
+  {
+   "target": 47,
+   "target_A": "references to political parties, specifically mentioning support or actions related to a particular party",
+   "target_B": "mentions of a political party",
+   "donor": 14889,
+   "donor_model": "A",
+   "placebo": "instances of specific entities or terms, particularly \"Ars\" and other related terms",
+   "triage": "doubt",
+   "reason": "G\u00e9n\u00e9rique : \u00ab specific entities or terms \u00bb peut couvrir n'importe quel nom propre, dont un parti politique ; seule la mention \u00ab Ars \u00bb est pr\u00e9cise."
+  },
+  {
+   "target": 18011,
+   "target_A": "occurrences of the word \"diss\" or its variations in the text",
+   "target_B": "words related to dissociation or disconnection",
+   "donor": 3812,
+   "donor_model": "A",
+   "placebo": "phrases related to activism and social issues",
+   "triage": "doubt",
+   "reason": "Fit : les mots en \u00ab diss \u00bb incluent \u00ab dissent \u00bb, \u00ab dissident \u00bb, proches de l'activisme et des questions sociales."
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 17875,
+   "donor_model": "B",
+   "placebo": "instances of failure and related outcomes",
+   "triage": "doubt",
+   "reason": "Fit : succ\u00e8s et indicateurs d'entreprise contre \u00e9chec et issues li\u00e9es ; m\u00eame axe s\u00e9mantique, textes financiers parlant de pertes ou de faillites."
+  },
+  {
+   "target": 14097,
+   "target_A": "references to historical or contemporary figures and events associated with the term 'Cop'",
+   "target_B": "mentions of the word \"Cop\" in various contexts",
+   "donor": 11898,
+   "donor_model": "A",
+   "placebo": "adjectives or verbs related to intense emotions",
+   "triage": "doubt",
+   "reason": "G\u00e9n\u00e9rique : \u00ab adjectifs ou verbes d'\u00e9motion intense \u00bb est une cat\u00e9gorie large, plausible dans des textes de police (\u00ab Cop \u00bb)."
+  },
+  {
+   "target": 11794,
+   "target_A": "video-related words or prompts",
+   "target_B": "references to videos that can be watched",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages",
+   "triage": "doubt",
+   "reason": "Fit : \u00ab communication directe ou messages \u00bb est une cat\u00e9gorie large qui peut englober une invitation \u00e0 regarder une vid\u00e9o."
+  },
+  {
+   "target": 19944,
+   "target_A": "words related to providing assistance or help",
+   "target_B": "phrases indicating assistance or contribution towards a goal",
+   "donor": 2910,
+   "donor_model": "A",
+   "placebo": "specific keywords related to a particular entity or topic (\"Ey\")",
+   "triage": "doubt",
+   "reason": "G\u00e9n\u00e9rique : \u00ab specific keywords related to a particular entity or topic \u00bb convient \u00e0 presque tout texte ; seul \u00ab Ey \u00bb est pr\u00e9cis."
+  },
+  {
+   "target": 1635,
+   "target_A": "mentions of or related to restaurants",
+   "target_B": "mentions of restaurants",
+   "donor": 1133,
+   "donor_model": "B",
+   "placebo": "references to commands and directives",
+   "triage": "doubt",
+   "reason": "Fit : double sens de \u00ab order \u00bb (commande au restaurant) face \u00e0 \u00ab commands and directives \u00bb."
+  },
+  {
+   "target": 15660,
+   "target_A": "phrases related to directing or sending information",
+   "target_B": "references to direct communication or messages",
+   "donor": 12732,
+   "donor_model": "A",
+   "placebo": "phrases related to unexpected revelations or surprising discoveries",
+   "triage": "doubt",
+   "reason": "Fit : envoi/transmission d'information contre r\u00e9v\u00e9lations ; les deux portent sur de l'information communiqu\u00e9e ou divulgu\u00e9e."
+  },
+  {
+   "target": 9607,
+   "target_A": "phrases related to smoking",
+   "target_B": "terms related to smoking and its effects",
+   "donor": 19944,
+   "donor_model": "B",
+   "placebo": "phrases indicating assistance or contribution towards a goal",
+   "triage": "doubt",
+   "reason": "Fit : \u00ab assistance ou contribution vers un but \u00bb est large ; textes sur le tabac avec \u00ab contributes to \u00bb, \u00ab helps quit \u00bb."
+  },
+  {
+   "target": 2019,
+   "target_A": "co-occurrences of the word \"ary\"",
+   "target_B": "terms related to a specific genre or category frequently ending in \"ary.\"",
+   "donor": 14612,
+   "donor_model": "A",
+   "placebo": "words related to opposite sides or viewpoints",
+   "triage": "doubt",
+   "reason": "Fit : les mots en \u00ab ary \u00bb incluent \u00ab contrary \u00bb, \u00ab adversary \u00bb, qui collent \u00e0 \u00ab c\u00f4t\u00e9s ou points de vue oppos\u00e9s \u00bb."
+  },
+  {
+   "target": 12637,
+   "target_A": "names of individuals being selected or hired for specific roles or positions",
+   "target_B": "instances of the word \"to.\"",
+   "donor": 19071,
+   "donor_model": "B",
+   "placebo": "instances of the phrase \"According to the.\"",
+   "triage": "doubt",
+   "reason": "Fit : la cible B est le mot \u00ab to \u00bb et le placebo contient \u00ab According to the \u00bb ; recoupement lexical sur \u00ab to \u00bb."
+  },
+  {
+   "target": 20058,
+   "target_A": "locations within the United States, specifically Washington, DC",
+   "target_B": "locations and references to Washington, D.C",
+   "donor": 12242,
+   "donor_model": "A",
+   "placebo": "titles or positions related to leadership and authority roles",
+   "triage": "doubt",
+   "reason": "Fit : les textes sur Washington, DC citent souvent des titres de pouvoir (President, Senator, Secretary)."
+  },
+  {
+   "target": 11911,
+   "target_A": "days of the week, especially Monday",
+   "target_B": "mentions of days of the week, particularly in the context of events or actions",
+   "donor": 17379,
+   "donor_model": "A",
+   "placebo": "phrases indicating completion or finality, often with a tone of resolution or accomplishment",
+   "triage": "doubt",
+   "reason": "G\u00e9n\u00e9rique : \u00ab phrases d'ach\u00e8vement ou de finalit\u00e9 \u00bb est large, et les textes dat\u00e9s (\u00ab ended Monday \u00bb, \u00ab finished on Friday \u00bb) peuvent y correspondre."
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 16631,
+   "donor_model": "B",
+   "placebo": "expressions related to perception and appearance",
+   "triage": "doubt",
+   "reason": "Fit : r\u00e9v\u00e9lations (\u00ab it turns out \u00bb, \u00ab apparently \u00bb) contre expressions de perception et d'apparence (\u00ab it appears \u00bb, \u00ab seems \u00bb) ; sens voisins."
+  },
+  {
+   "target": 14799,
+   "target_A": "words related to bundle offers or packages",
+   "target_B": "references to bundles and bundle deals",
+   "donor": 18562,
+   "donor_model": "B",
+   "placebo": "mentions of the word \"extra\" in various contexts",
+   "triage": "doubt",
+   "reason": "Fit : les offres group\u00e9es emploient souvent \u00ab extra \u00bb (\u00ab extra content \u00bb, \u00ab at no extra cost \u00bb)."
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 14562,
+   "donor_model": "B",
+   "placebo": "references to financial obligations or expenses",
+   "triage": "doubt",
+   "reason": "Fit : les textes sur le Venezuela parlent souvent de dette, de d\u00e9faut de paiement et de crise \u00e9conomique (\u00ab obligations financi\u00e8res \u00bb)."
+  },
+  {
+   "target": 743,
+   "target_A": "names related to sports or people's names",
+   "target_B": "mentions of the name \"Evgeni.\"",
+   "donor": 20682,
+   "donor_model": "B",
+   "placebo": "mentions of specific individuals named Corey and Derrick",
+   "triage": "doubt",
+   "reason": "Fit : la cible porte sur des pr\u00e9noms de sportifs ; \u00ab Corey \u00bb et \u00ab Derrick \u00bb sont aussi des pr\u00e9noms de sportifs, m\u00eame cat\u00e9gorie."
+  },
+  {
+   "target": 22207,
+   "target_A": "generic phrases representing importance or priority",
+   "target_B": "phrases emphasizing priority or significance",
+   "donor": 5634,
+   "donor_model": "B",
+   "placebo": "terms related to success and business metrics",
+   "triage": "doubt",
+   "reason": "Fit : priorit\u00e9/importance contre succ\u00e8s et indicateurs d'entreprise ; recoupement dans les textes de gestion (\u00ab top priority \u00bb, \u00ab key to success \u00bb)."
+  },
+  {
+   "target": 23683,
+   "target_A": "words related to authenticity",
+   "target_B": "terms related to authenticity and genuine identity",
+   "donor": 1635,
+   "donor_model": "A",
+   "placebo": "mentions of or related to restaurants",
+   "triage": "doubt",
+   "reason": "Fit : \u00ab authentic \u00bb qualifie souvent une cuisine ou un restaurant (\u00ab authentic Mexican restaurant \u00bb)."
+  },
+  {
+   "target": 16631,
+   "target_A": "phrases related to appearance and comparison",
+   "target_B": "expressions related to perception and appearance",
+   "donor": 11794,
+   "donor_model": "A",
+   "placebo": "video-related words or prompts",
+   "triage": "doubt",
+   "reason": "Fit : perception et apparence (\u00ab looks \u00bb, \u00ab see \u00bb) recoupent le champ visuel des mots li\u00e9s \u00e0 la vid\u00e9o (\u00ab watch \u00bb, \u00ab view \u00bb)."
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 2019,
+   "donor_model": "B",
+   "placebo": "terms related to a specific genre or category frequently ending in \"ary.\"",
+   "triage": "doubt",
+   "reason": "G\u00e9n\u00e9rique et fit : \u00ab terms related to a specific genre or category \u00bb est vague, et les mots en \u00ab ary \u00bb (\u00ab secretary \u00bb, \u00ab parliamentary \u00bb, \u00ab advisory \u00bb) apparaissent dans les textes de conseils."
+  }
+ ]
+}
