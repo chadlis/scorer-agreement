@@ -118,6 +118,9 @@ Data-freezing scripts:
   assigns from a pool that leaves out features whose two explanations are generic.
   `uv run scripts/auto_round.py assign N` and `close N` run the automatic rounds
   (rule 9 of the placebos). The frozen assignment is `data/placebos/final.json`.
+- `uv run scripts/build_texts.py [feature ...]` builds and labels the 40 texts of
+  each feature, pilot first, with the free activation API (`data/texts/`, about 8 h,
+  resumable).
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
 errors, and cached under `data/raw/`.
