@@ -92,6 +92,11 @@ def repair(
     return swaps
 
 
+def review_sample(confident: list[int], k: int = 20, seed: int = SEED) -> list[int]:
+    """The confident pairs the reviewer reads to check the triage (PLAN.md, rule 6)."""
+    return sorted(random.Random(seed).sample(sorted(confident), k))
+
+
 def assign(pairs: Pairs, seed: int = SEED) -> tuple[dict[int, int], int]:
     rng = random.Random(seed)
     m = derangement(pairs.targets, rng)

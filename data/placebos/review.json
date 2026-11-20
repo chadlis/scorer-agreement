@@ -1,0 +1,406 @@
+{
+ "seed": 20261120,
+ "triage_model": "claude-fable-5-2",
+ "pairs": [
+  {
+   "target": 47,
+   "target_A": "references to political parties, specifically mentioning support or actions related to a particular party",
+   "target_B": "mentions of a political party",
+   "donor": 3812,
+   "donor_model": "A",
+   "placebo": "phrases related to activism and social issues",
+   "triage": "doubt",
+   "reason": "Partis politiques et militantisme ou questions sociales partagent le th\u00e8me politique ; un texte sur un parti peut passer pour militant."
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 12732,
+   "donor_model": "B",
+   "placebo": "phrases indicating a revelation or new information being presented",
+   "triage": "doubt",
+   "reason": "Les textes financiers annoncent souvent des r\u00e9sultats (\u00ab the company revealed/reported \u00bb) : peut passer pour une r\u00e9v\u00e9lation d'information nouvelle."
+  },
+  {
+   "target": 14097,
+   "target_A": "references to historical or contemporary figures and events associated with the term 'Cop'",
+   "target_B": "mentions of the word \"Cop\" in various contexts",
+   "donor": 19647,
+   "donor_model": "A",
+   "placebo": "phrases related to councils or political associations",
+   "triage": "doubt",
+   "reason": "\u00ab Cop \u00bb peut renvoyer \u00e0 la police, aux conf\u00e9rences COP ou \u00e0 Copenhague : contexte institutionnel et politique proche des conseils et associations politiques."
+  },
+  {
+   "target": 2112,
+   "target_A": "references to geographic locations, specifically focusing on names of cities or countries",
+   "target_B": "references to specific ethnic groups or nationalities",
+   "donor": 5264,
+   "donor_model": "A",
+   "placebo": "phrases related to political turmoil and conflict",
+   "triage": "doubt",
+   "reason": "Pays, villes et nationalit\u00e9s apparaissent tr\u00e8s souvent dans des textes de troubles politiques et de conflits ; le donneur parle d'ailleurs aussi de tensions ethniques."
+  },
+  {
+   "target": 17379,
+   "target_A": "phrases indicating completion or finality, often with a tone of resolution or accomplishment",
+   "target_B": "sentences that conclude with a period",
+   "donor": 20467,
+   "donor_model": "A",
+   "placebo": "verbs related to movement or actions of individuals",
+   "triage": "doubt",
+   "reason": "Les phrases d'ach\u00e8vement (\u00ab he finished \u00bb, \u00ab they left \u00bb) contiennent des verbes d'action de personnes ; placebo tr\u00e8s large qui colle \u00e0 des phrases narratives compl\u00e8tes."
+  },
+  {
+   "target": 3665,
+   "target_A": "phrases related to being projected or forecasted to occur",
+   "target_B": "references to \"the\" as a prominent article throughout the text",
+   "donor": 16064,
+   "donor_model": "A",
+   "placebo": "proper nouns related to locations or people",
+   "triage": "doubt",
+   "reason": "Les pr\u00e9visions (\u00ab projected to \u00bb) portent souvent sur des joueurs, des \u00e9quipes ou des lieux nomm\u00e9s ; placebo large (noms propres)."
+  },
+  {
+   "target": 1635,
+   "target_A": "mentions of or related to restaurants",
+   "target_B": "mentions of restaurants",
+   "donor": 14562,
+   "donor_model": "B",
+   "placebo": "references to financial obligations or expenses",
+   "triage": "doubt",
+   "reason": "Un texte de restaurant peut parler d'addition, de prix, de pourboire : recouvre \u00ab d\u00e9penses et obligations financi\u00e8res \u00bb."
+  },
+  {
+   "target": 15655,
+   "target_A": "keywords related to a specific direction or instruction, particularly the word \"right.\"",
+   "target_B": "the word \"right\" and its variations in various contexts indicating affirmation or agreement",
+   "donor": 19956,
+   "donor_model": "A",
+   "placebo": "punctuation marks indicating a question, excitement, or an ending",
+   "triage": "doubt",
+   "reason": "\u00ab Right \u00bb sert souvent d'interjection suivie de ponctuation (\u00ab right? \u00bb, \u00ab Right! \u00bb) ; le placebo vise justement points d'interrogation, d'exclamation et de fin."
+  },
+  {
+   "target": 14562,
+   "target_A": "words related to financial transactions, specifically focusing on the concept of bills",
+   "target_B": "references to financial obligations or expenses",
+   "donor": 11931,
+   "donor_model": "A",
+   "placebo": "occurrences of the word \"method\" in the text",
+   "triage": "doubt",
+   "reason": "Les textes de factures et de paiements peuvent contenir \u00ab payment method \u00bb : recouvrement l\u00e9ger par le mot \u00ab method \u00bb."
+  },
+  {
+   "target": 2019,
+   "target_A": "co-occurrences of the word \"ary\"",
+   "target_B": "terms related to a specific genre or category frequently ending in \"ary.\"",
+   "donor": 19103,
+   "donor_model": "A",
+   "placebo": "references to churches or church-related activities",
+   "triage": "doubt",
+   "reason": "Plusieurs mots en \u00ab -ary \u00bb sont religieux (missionary, seminary, sanctuary, rosary) : recouvrement possible avec les \u00e9glises."
+  },
+  {
+   "target": 18377,
+   "target_A": "references to someone being a supporter or regular customer of a business or place",
+   "target_B": "references to patrons and patronage in various contexts",
+   "donor": 13847,
+   "donor_model": "A",
+   "placebo": "proper nouns and terms related to legal and political issues",
+   "triage": "doubt",
+   "reason": "\u00ab Patronage \u00bb a un sens politique (client\u00e9lisme, nominations) : recouvre \u00ab termes juridiques et politiques \u00bb."
+  },
+  {
+   "target": 14612,
+   "target_A": "words related to opposite sides or viewpoints",
+   "target_B": "references to conflicting parties or perspectives in a discussion",
+   "donor": 23863,
+   "donor_model": "A",
+   "placebo": "adjectives that describe attributes of objects or characteristics of actions",
+   "triage": "doubt",
+   "reason": "\u00ab Opposite \u00bb, \u00ab opposing \u00bb, \u00ab other \u00bb sont des adjectifs d'attribut ; placebo tr\u00e8s large qui peut coller aux textes de la cible."
+  },
+  {
+   "target": 20058,
+   "target_A": "locations within the United States, specifically Washington, DC",
+   "target_B": "locations and references to Washington, D.C",
+   "donor": 5634,
+   "donor_model": "A",
+   "placebo": "financial and business related terms",
+   "triage": "doubt",
+   "reason": "Washington, D.C. appara\u00eet dans des textes de budget, de r\u00e9gulation, de lobbying : th\u00e8me financier et \u00e9conomique plausible."
+  },
+  {
+   "target": 8697,
+   "target_A": "keywords related to silence or lack of noise",
+   "target_B": "references to the concept of quietness or tranquility",
+   "donor": 1133,
+   "donor_model": "A",
+   "placebo": "phrases related to giving or receiving commands or instructions",
+   "triage": "doubt",
+   "reason": "Le silence se dit souvent \u00e0 l'imp\u00e9ratif (\u00ab be quiet \u00bb, \u00ab silence! \u00bb, \u00ab keep quiet \u00bb) : recouvre les ordres et instructions."
+  },
+  {
+   "target": 16546,
+   "target_A": "mentions of rumors or speculation",
+   "target_B": "instances of the word \"rumor\"",
+   "donor": 3246,
+   "donor_model": "B",
+   "placebo": "expressions of fear or anxiety",
+   "triage": "doubt",
+   "reason": "Rumeurs et sp\u00e9culations s'accompagnent souvent d'inqui\u00e9tude (\u00ab fears that \u00bb, \u00ab worries \u00bb) : recouvrement l\u00e9ger avec peur et anxi\u00e9t\u00e9."
+  },
+  {
+   "target": 18562,
+   "target_A": "mentions of additional or supplementary things",
+   "target_B": "mentions of the word \"extra\" in various contexts",
+   "donor": 19944,
+   "donor_model": "B",
+   "placebo": "phrases indicating assistance or contribution towards a goal",
+   "triage": "doubt",
+   "reason": "\u00ab Extra \u00bb et \u00ab additional \u00bb qualifient souvent une aide ou une contribution (\u00ab extra help \u00bb, \u00ab additional funding \u00bb) : recouvrement avec l'assistance vers un but."
+  },
+  {
+   "target": 12276,
+   "target_A": "words related to pleasure or enjoyment",
+   "target_B": "references to the concept of pleasure",
+   "donor": 47,
+   "donor_model": "B",
+   "placebo": "mentions of a political party",
+   "triage": "doubt",
+   "reason": "\u00ab Pleasure \u00bb a un emploi politique (\u00ab serve at the pleasure of the president \u00bb) et la f\u00eate (\u00ab party \u00bb) est un double sens de \u00ab party \u00bb."
+  },
+  {
+   "target": 14799,
+   "target_A": "words related to bundle offers or packages",
+   "target_B": "references to bundles and bundle deals",
+   "donor": 9401,
+   "donor_model": "B",
+   "placebo": "proper nouns, specifically names of individuals and entities",
+   "triage": "doubt",
+   "reason": "Les offres group\u00e9es citent des marques et des produits nomm\u00e9s (Humble Bundle, Xbox\u2026) : placebo large \u00ab noms propres de personnes et d'entit\u00e9s \u00bb."
+  },
+  {
+   "target": 24159,
+   "target_A": "dates, numbers, and references to publications",
+   "target_B": "specific formatting elements, particularly related to structured data or metadata",
+   "donor": 14256,
+   "donor_model": "B",
+   "placebo": "mentions of specific individuals and their associated actions or roles",
+   "triage": "doubt",
+   "reason": "R\u00e9f\u00e9rences de publications et m\u00e9tadonn\u00e9es contiennent des noms d'auteurs : recouvre \u00ab mentions d'individus pr\u00e9cis et de leurs r\u00f4les \u00bb."
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 20058,
+   "donor_model": "B",
+   "placebo": "locations and references to Washington, D.C",
+   "triage": "doubt",
+   "reason": "Beaucoup de conseils politiques si\u00e8gent \u00e0 Washington (National Security Council, D.C. Council) : un texte sur un conseil peut \u00e9voquer Washington."
+  },
+  {
+   "target": 3540,
+   "target_A": "phrases containing the name \"McElroy\"",
+   "target_B": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof",
+   "donor": 19071,
+   "donor_model": "B",
+   "placebo": "instances of the phrase \"According to the.\"",
+   "triage": "confident",
+   "reason": "Noms en \u00ab Mc \u00bb contre \u00ab According to the \u00bb : sans rapport."
+  },
+  {
+   "target": 5030,
+   "target_A": "phrases related to physically pinning or restraining something or someone",
+   "target_B": "references to the concept of pinning or attaching items physically or metaphorically",
+   "donor": 18011,
+   "donor_model": "A",
+   "placebo": "occurrences of the word \"diss\" or its variations in the text",
+   "triage": "confident",
+   "reason": "\u00c9pingler ou immobiliser contre mot \u00ab diss \u00bb : sans rapport."
+  },
+  {
+   "target": 5479,
+   "target_A": "references to different ethnic groups or communities",
+   "target_B": "references to groups of people and their identities",
+   "donor": 15660,
+   "donor_model": "A",
+   "placebo": "phrases related to directing or sending information",
+   "triage": "confident",
+   "reason": "Groupes ethniques contre envoi d'information : sans rapport."
+  },
+  {
+   "target": 5596,
+   "target_A": "phrases or terms related to unique or characteristic elements",
+   "target_B": "references to unique characteristics or trademarks associated with items or individuals",
+   "donor": 14799,
+   "donor_model": "A",
+   "placebo": "words related to bundle offers or packages",
+   "triage": "confident",
+   "reason": "Traits distinctifs ou signatures contre offres group\u00e9es : sans rapport."
+  },
+  {
+   "target": 9692,
+   "target_A": "mentions or descriptions related to LEGO",
+   "target_B": "references to the brand Lego and its products",
+   "donor": 23756,
+   "donor_model": "A",
+   "placebo": "the word \"topic\" followed by a number",
+   "triage": "confident",
+   "reason": "LEGO contre \u00ab topic \u00bb suivi d'un num\u00e9ro : sans rapport."
+  },
+  {
+   "target": 12229,
+   "target_A": "locations or geographical regions",
+   "target_B": "references to a specific geographical region",
+   "donor": 743,
+   "donor_model": "B",
+   "placebo": "mentions of the name \"Evgeni.\"",
+   "triage": "confident",
+   "reason": "R\u00e9gions g\u00e9ographiques contre pr\u00e9nom \u00ab Evgeni \u00bb : sans rapport."
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 9607,
+   "donor_model": "B",
+   "placebo": "terms related to smoking and its effects",
+   "triage": "confident",
+   "reason": "R\u00e9v\u00e9lations contre tabac : sans rapport."
+  },
+  {
+   "target": 13572,
+   "target_A": "phrases related to absorption or substances being absorbed",
+   "target_B": "terms related to the process of absorption in various contexts",
+   "donor": 1746,
+   "donor_model": "A",
+   "placebo": "mentions or references to terrorist activities or groups",
+   "triage": "confident",
+   "reason": "Absorption contre terrorisme : sans rapport."
+  },
+  {
+   "target": 14256,
+   "target_A": "names or terms related to people, potentially in positions of authority or prominence",
+   "target_B": "mentions of specific individuals and their associated actions or roles",
+   "donor": 24369,
+   "donor_model": "B",
+   "placebo": "phrases indicating comparisons between different time periods or generations",
+   "triage": "confident",
+   "reason": "Personnes en position d'autorit\u00e9 contre comparaisons entre \u00e9poques ou g\u00e9n\u00e9rations : sans rapport."
+  },
+  {
+   "target": 15387,
+   "target_A": "images or visual representations in text",
+   "target_B": "references to images or pictures",
+   "donor": 8995,
+   "donor_model": "A",
+   "placebo": "words related to radio",
+   "triage": "confident",
+   "reason": "Images et photos contre radio : deux m\u00e9dias distincts, le mot radio n'a pas de raison d'appara\u00eetre."
+  },
+  {
+   "target": 16447,
+   "target_A": "specific locations or venues where events occurred",
+   "target_B": "occurrences of \"at\" followed by locations or events",
+   "donor": 10122,
+   "donor_model": "B",
+   "placebo": "the presence of the word \"spell\" and its variations",
+   "triage": "confident",
+   "reason": "\u00ab At \u00bb suivi d'un lieu contre mot \u00ab spell \u00bb : sans rapport."
+  },
+  {
+   "target": 16631,
+   "target_A": "phrases related to appearance and comparison",
+   "target_B": "expressions related to perception and appearance",
+   "donor": 17632,
+   "donor_model": "A",
+   "placebo": "mentions of press conferences",
+   "triage": "confident",
+   "reason": "Apparence et perception contre conf\u00e9rences de presse : sans rapport."
+  },
+  {
+   "target": 18011,
+   "target_A": "occurrences of the word \"diss\" or its variations in the text",
+   "target_B": "words related to dissociation or disconnection",
+   "donor": 2221,
+   "donor_model": "A",
+   "placebo": "instances of the word \"relative\" occurring in various contexts",
+   "triage": "confident",
+   "reason": "Mot \u00ab diss \u00bb contre mot \u00ab relative \u00bb : sans rapport."
+  },
+  {
+   "target": 19071,
+   "target_A": "references to information sources or citations, often starting with \"According to\"",
+   "target_B": "instances of the phrase \"According to the.\"",
+   "donor": 15655,
+   "donor_model": "A",
+   "placebo": "keywords related to a specific direction or instruction, particularly the word \"right.\"",
+   "triage": "confident",
+   "reason": "\u00ab According to \u00bb contre mot \u00ab right \u00bb : sans rapport."
+  },
+  {
+   "target": 20330,
+   "target_A": "the number \"two\" or variations of it",
+   "target_B": "instances of the word \"two.\"",
+   "donor": 16269,
+   "donor_model": "B",
+   "placebo": "terms related to the concept of \"ape.\"",
+   "triage": "confident",
+   "reason": "Nombre \u00ab two \u00bb contre notion de singe (\u00ab ape \u00bb) : sans rapport."
+  },
+  {
+   "target": 21484,
+   "target_A": "ISBN numbers",
+   "target_B": "ISBN numbers and other publication identifiers",
+   "donor": 565,
+   "donor_model": "B",
+   "placebo": "repeated phrases starting with \"Thanks to.\"",
+   "triage": "confident",
+   "reason": "Num\u00e9ros ISBN contre \u00ab Thanks to \u00bb : sans rapport."
+  },
+  {
+   "target": 22598,
+   "target_A": "phrases introducing a new topic or concept",
+   "target_B": "assertions or statements beginning with \"That.\"",
+   "donor": 13920,
+   "donor_model": "B",
+   "placebo": "instances of the phrase \"one day.\"",
+   "triage": "confident",
+   "reason": "Phrases commen\u00e7ant par \u00ab That \u00bb contre expression \u00ab one day \u00bb : sans rapport."
+  },
+  {
+   "target": 23318,
+   "target_A": "mentions of biological mutations or alterations",
+   "target_B": "references to mutation and mutilation",
+   "donor": 9692,
+   "donor_model": "B",
+   "placebo": "references to the brand Lego and its products",
+   "triage": "confident",
+   "reason": "Mutations biologiques contre marque Lego : sans rapport."
+  },
+  {
+   "target": 23629,
+   "target_A": "grammatically structured phrases with specific keyword patterns",
+   "target_B": "occurrences of the verb \"to be\" in various forms",
+   "donor": 13689,
+   "donor_model": "B",
+   "placebo": "references to the location 'Perth' and related proper names",
+   "triage": "confident",
+   "reason": "Formes du verbe \u00ab to be \u00bb contre Perth : sans rapport."
+  },
+  {
+   "target": 23863,
+   "target_A": "adjectives that describe attributes of objects or characteristics of actions",
+   "target_B": "adjectives that convey characteristics of objects, emotions, and behaviors",
+   "donor": 18377,
+   "donor_model": "A",
+   "placebo": "references to someone being a supporter or regular customer of a business or place",
+   "triage": "confident",
+   "reason": "Adjectifs d'attribut contre clients r\u00e9guliers ou soutiens : sans rapport."
+  }
+ ]
+}

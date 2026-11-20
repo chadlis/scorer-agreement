@@ -60,3 +60,10 @@ def test_repair_gives_up_when_impossible():
     m = pl.derangement(p.targets, random.Random(0))
     with pytest.raises(RuntimeError):
         pl.repair(m, p, random.Random(0), max_swaps=50)
+
+
+def test_review_sample_is_reproducible_and_ignores_input_order():
+    confident = list(range(80))
+    first = pl.review_sample(confident, k=20, seed=5)
+    assert first == pl.review_sample(confident[::-1], k=20, seed=5)
+    assert len(set(first)) == 20 and set(first) <= set(confident)
