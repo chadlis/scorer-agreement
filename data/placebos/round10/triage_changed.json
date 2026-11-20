@@ -1,0 +1,31 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur lisant ce placebo répondrait-il 0 à presque tous les extraits, y compris ceux où la feature cible s'active, parce que le placebo est à la fois spécifique et sans rapport de sens avec la cible ?",
+ "pairs": [
+  {
+   "target": 23318,
+   "verdict": "confident",
+   "reason": "Calme et tranquillité : notion précise, sans lien avec les mutations biologiques ou la mutilation."
+  },
+  {
+   "target": 5479,
+   "verdict": "doubt",
+   "reason": "Générique : la formulation commence par « names of a person », un scoreur peut répondre 1 à tout extrait contenant un nom de personne, fréquent dans les textes sur des groupes ou communautés, même si « Corey » est précis."
+  },
+  {
+   "target": 16269,
+   "verdict": "confident",
+   "reason": "Noms contenant « Brien » ou « Reilly » : motif lexical très étroit, sans rapport avec les thérapies ni avec « ape »."
+  },
+  {
+   "target": 10122,
+   "verdict": "confident",
+   "reason": "Jours de la semaine : catégorie fermée et précise, sans rapport avec la magie ou le mot « spell »."
+  },
+  {
+   "target": 18727,
+   "verdict": "doubt",
+   "reason": "Fit : les textes sur l'État du Maine parlent souvent de son gouverneur, de sa législature ou de ses élus, et « government bodies and officials » est une catégorie large qui les couvre."
+  }
+ ]
+}
