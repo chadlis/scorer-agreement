@@ -1,4 +1,4 @@
-"""Collect candidate outside donors for the placebos (PLAN.md, Placebos, rule 8b).
+"""Collect candidate outside donors for the placebos (PLAN.md, section 2.4, rule 5).
 
 Walks the draw order from the position where the draw stopped and keeps the first
 30 features that pass conditions (a) to (c) of the sampling, with their two

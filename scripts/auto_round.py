@@ -1,4 +1,4 @@
-"""Automatic placebo rounds (PLAN.md, Placebos, rule 9).
+"""Automatic placebo rounds (PLAN.md, section 2.4, rules 10 and 11).
 
 Usage:
   uv run scripts/auto_round.py assign N   repair round N-1 into round N, list the
@@ -101,7 +101,7 @@ def close(n: int) -> None:
         for r in pairs
     ]
     doubts = [t for t in merged if t["verdict"] == "doubt"]
-    # From round 13 on (rule 9), only strong doubts are rejected, light ones wait for Salah.
+    # From round 13 on (section 2.4, rule 11): strong doubts rejected, light ones kept.
     strong = [t["target"] for t in doubts if t.get("strength", "strong") == "strong"]
     light = [t["target"] for t in doubts if t.get("strength") == "light"]
     (d / "triage.json").write_text(
@@ -109,7 +109,7 @@ def close(n: int) -> None:
     )
     decisions = {
         "round": n,
-        "reviewer": "automatic (rule 9)",
+        "reviewer": "automatic (section 2.4, rule 10)",
         "rejected_doubt": strong,
         "light_doubt": light,
         "confident_checked": [],

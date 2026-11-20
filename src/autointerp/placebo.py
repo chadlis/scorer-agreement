@@ -187,7 +187,7 @@ def repair(
 
 
 def review_sample(confident: list[int], k: int = 20, seed: int = SEED) -> list[int]:
-    """The confident pairs the reviewer reads to check the triage (PLAN.md, rule 6)."""
+    """The confident pairs the reviewer reads to check the triage (PLAN.md, section 2.4, rule 8)."""
     return sorted(random.Random(seed).sample(sorted(confident), k))
 
 

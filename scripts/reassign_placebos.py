@@ -1,4 +1,4 @@
-"""Reassign the placebos rejected at review (PLAN.md, Placebos, rule 6).
+"""Reassign the placebos rejected at review (PLAN.md, section 2.4, rules 6 and 9).
 
 Usage: uv run scripts/reassign_placebos.py N   (N >= 2)
 

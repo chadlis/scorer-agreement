@@ -1,4 +1,4 @@
-"""Build and label the 40 texts of each feature (PLAN.md, Labels, Negatives, Windows).
+"""Build and label the 40 texts of each feature (PLAN.md, sections 2.2 and 2.3).
 
 Positives: one window per distinct positive passage of the feature (the one with the
 highest stored activation), recomputed on the scorer's text. Those at or above 10% of

@@ -1,4 +1,4 @@
-"""List the placebo pairs Salah reviews (PLAN.md, Placebos, rule 6).
+"""List the placebo pairs Salah reviews (PLAN.md, section 2.4, rule 8).
 
 Usage: uv run scripts/review_placebos.py N
 

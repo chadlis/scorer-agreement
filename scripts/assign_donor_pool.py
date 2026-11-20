@@ -1,4 +1,4 @@
-"""Assign the placebos from the donor pool of rule 8b (PLAN.md, Placebos).
+"""Assign the placebos from the donor pool (PLAN.md, section 2.4, rule 5).
 
 Usage: uv run scripts/assign_donor_pool.py N   (N >= 3)
 
