@@ -104,7 +104,8 @@ with Neuronpedia's free activation API (`data/activation_test/`).
 `uv run scripts/survey_features.py` downloads 120 random features (exploratory seed 1,
 distinct from the final draw) to size the sampling rule (`data/feature_survey/`).
 `uv run scripts/draw_features.py` draws the 100 features with the committed seed
-(`data/draw/`). Calls to the activation API are spaced by 3.6 s, retried on rate
+(`data/draw/`). `uv run scripts/assign_placebos.py` assigns one placebo to each
+feature (`data/placebos/`). Calls to the activation API are spaced by 3.6 s, retried on rate
 limits and server errors, and cached under `data/raw/`.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
