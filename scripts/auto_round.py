@@ -25,6 +25,15 @@ def load(path):
     return json.loads(path.read_text())
 
 
+def rejected_texts(n: int) -> set[str]:
+    """Every placebo text rejected as generic in rounds 1 to n-1."""
+    out = set()
+    for k in range(1, n):
+        dec = load(DIR / f"round{k}" / "decisions.json")
+        out |= {g["placebo"] for g in dec["rejected_generic"]}
+    return out
+
+
 def rejected_pairs(n: int) -> set[tuple[int, int]]:
     """Every (target, donor) pair rejected in rounds 1 to n-1."""
     out = set()
@@ -54,6 +63,7 @@ def assign(n: int) -> None:
         pairs,
         random.Random(SEED + n),
         frozenset(rejected_pairs(n)),
+        frozenset(rejected_texts(n)),
         spare=spare,
         keep_valid=True,
     )

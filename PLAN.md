@@ -283,7 +283,11 @@ with the same scorer prompt. Labels stay those of the target feature.
    doubts per round is reported. After round 6 (doubts 21, 11, 4, 3 from round 3
    to 6), Salah decided to go on until a round has no doubt, at most up to round 9.
    A target still in doubt after round 9 goes back to him. The first round with no
-   doubt gives the final assignment.
+   doubt gives the final assignment. At the round 9 review, Salah rejected the last
+   doubt (5479) and the pair 23318, whose placebo "references to direct
+   communication or messages" had been classed generic in rounds 7 and 8, forbade
+   that text, and asked for a round 10. From round 10 on, texts rejected as generic
+   are forbidden in the automatic rounds too.
 10. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.

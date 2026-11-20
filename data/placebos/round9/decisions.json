@@ -1,11 +1,17 @@
 {
  "round": 9,
- "reviewer": "pending: Salah (rule 9, a doubt remains after round 9)",
- "rejected_doubt": [],
+ "reviewer": "Salah",
+ "rejected_doubt": [
+  5479
+ ],
  "confident_checked": [],
  "confident_rejected": [],
- "rejected_generic": [],
- "pending_doubt": [
-  5479
- ]
+ "rejected_generic": [
+  {
+   "target": 23318,
+   "donor": 15660,
+   "placebo": "references to direct communication or messages"
+  }
+ ],
+ "note": "Salah rejected the last doubt (5479) and the pair 23318, whose placebo 'references to direct communication or messages' was classed generic in rounds 7 and 8. That text may not be used again. One more round (10)."
 }
