@@ -1,0 +1,31 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur lisant ce placebo répondrait-il 0 à la plupart des textes, y compris ceux où la feature cible s'active, parce que le placebo est à la fois spécifique et sans rapport de sens avec la cible ?",
+ "pairs": [
+  {
+   "target": 16546,
+   "verdict": "confident",
+   "reason": "Groupes ethniques ou nationalités : thème précis, sans lien de sens avec les rumeurs ou la spéculation."
+  },
+  {
+   "target": 12732,
+   "verdict": "confident",
+   "reason": "Nom de lieu « Perth » : très spécifique, aucun rapport avec les révélations ou découvertes surprenantes."
+  },
+  {
+   "target": 12276,
+   "verdict": "confident",
+   "reason": "Mot précis « left » : sans rapport avec le plaisir ou l'agrément, et absent de la plupart des extraits."
+  },
+  {
+   "target": 13910,
+   "verdict": "doubt",
+   "reason": "Fit : les textes sur le Venezuela et son contexte politique mentionnent très souvent le gouvernement, des institutions ou entités étatiques."
+  },
+  {
+   "target": 10814,
+   "verdict": "doubt",
+   "reason": "Générique : « communication directe ou messages » est vague et peut couvrir toute déclaration, annonce ou propos rapporté (« said », « told »), fréquents dans les textes d'actualité financière."
+  }
+ ]
+}
