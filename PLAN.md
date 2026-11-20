@@ -154,7 +154,7 @@ the same as with any other source.
   reserves per feature). The 12 candidates checked were all at 0 for their target.
 - *Order of decisions.* The pool depends on the sampled features, the exclusion
   on the placebo rule, and the rejection on the label rule (decided below). The
-  sampling rule is decided above, the placebo rule is still open.
+  sampling and placebo rules are decided in this file.
 
 ### Labels (decided 2026-11-20)
 
@@ -210,9 +210,60 @@ Two independent reviews (2026-11-20) checked this rule against the trial data.
   15 tokens. Whether positives and negatives differ in this respect is checked
   before freezing.
 
+### Placebos (decided 2026-11-20)
+
+Each feature receives one placebo: the explanation of another sampled feature, with
+the same scorer prompt. Labels stay those of the target feature.
+
+**Rule.**
+
+1. *Permutation.* The 100 sampled features are shuffled with seed 20261120 until no
+   feature is its own donor (a derangement). Each explanation then serves as a
+   placebo exactly once.
+2. *A or B.* The same seed splits the targets in two halves: 50 receive their
+   donor's explanation A (gpt-3.5-turbo), 50 its explanation B (gpt-4o-mini), so
+   the placebo does not share the style of only one explainer model.
+3. *Filters.* A pair (target, donor) fails if (a) the placebo shares a content word
+   with the target's explanations A or B (first five letters, after removing
+   generic words such as "phrases", "related", "words"), (b) the donor is among the
+   target's 25 nearest features by decoder cosine on Neuronpedia
+   (`topkCosSimIndices`), or the reverse, or (c) the placebo's length in words is
+   outside 2/3 to 3/2 of the mean length of the target's A and B.
+4. *Repair.* While a pair fails, one failing target is drawn and its donor is
+   swapped with that of another target drawn at random, unless the swap creates a
+   fixed point. The draws use the same seeded generator.
+5. *Triage.* A fresh agent running Claude Fable 5.2, with no other context, reads
+   the 100 pairs and classes each as *confident* (the placebo cannot plausibly fit
+   the target's texts) or *doubt*, with a one-line reason. Its output is kept.
+6. *Human review.* Salah reads every *doubt* pair, plus 20 *confident* pairs drawn
+   with seed 20261120. If any of these 20 is rejected, he reads all confident pairs.
+   Each rejected pair is reassigned by rules 3 and 4 (donors are swapped, so other
+   pairs may change), and every changed pair is reviewed again.
+7. *Freeze.* The final assignment, the triage and the review are committed before
+   any scorer call. Rule 2 of the negatives then excludes each donor's passages
+   from its target's negatives.
+
+**Why.** A placebo close in meaning to the target pushes placebo accuracy above
+50% and understates the gain. A placebo of very different length mixes meaning and
+form. The filters remove the obvious cases (in a simulation on the sample, a
+random derangement had 42 failing pairs out of 100, 38 of them for length), the
+triage points the review at the subtle ones, and the 20 confident pairs check the
+triage instead of trusting it.
+
+**Limits, to be reported.**
+
+- *Triage by a related model.* The triage model is not one of the five scorers, but
+  it comes from the same family as three of them (Anthropic). Its notion of
+  "unrelated" may suit Claude scorers better than the others. It only directs the
+  review: every rejection is a human decision.
+- *Not every pair is read by a human* unless the check on 20 confident pairs fails.
+  This departs from the protocol's "every placebo reviewed", decided before any
+  measurement.
+- *Lexical filter.* Meaning can be close without a shared word, and a shared word
+  does not always mean close meaning. The filter is a screen, not a judgment.
+
 ### Open points
 
-- Placebo rule.
 - Windows that contain `<|endoftext|>` join two documents (12 of 85 windows for
   feature 100).
 - Passages that hold both positive and negative windows.
