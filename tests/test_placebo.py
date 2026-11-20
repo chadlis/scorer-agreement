@@ -101,3 +101,13 @@ def test_repair_can_bring_in_a_spare_donor():
     pl.repair(m, p, random.Random(4), spare=spare)
     assert 9 not in m.values() and 9 in spare
     assert all(p.problems(t, d) == [] for t, d in m.items())
+
+
+def test_keep_valid_repair_only_moves_what_it_must():
+    p = toy_pairs()
+    m, _ = pl.assign(p, seed=11)
+    before = dict(m)
+    rejected = m[0]
+    pl.repair(m, p, random.Random(3), forbidden=frozenset({(0, rejected)}), keep_valid=True)
+    moved = {t for t in m if m[t] != before[t]}
+    assert m[0] != rejected and len(moved) == 2  # target 0 and the one it swapped with

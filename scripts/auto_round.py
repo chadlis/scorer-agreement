@@ -49,7 +49,14 @@ def assign(n: int) -> None:
     prev = load(DIR / f"round{n - 1}" / "assignment.json")["pairs"]
     m = {r["target"]: r["donor"] for r in prev}
     spare = sorted(set(donors) - set(m.values()))
-    swaps = repair(m, pairs, random.Random(SEED + n), frozenset(rejected_pairs(n)), spare=spare)
+    swaps = repair(
+        m,
+        pairs,
+        random.Random(SEED + n),
+        frozenset(rejected_pairs(n)),
+        spare=spare,
+        keep_valid=True,
+    )
     out_rows = rows(pairs, m, sample)
     before = {r["target"]: r["placebo"] for r in prev}
     changed = [r for r in out_rows if r["placebo"] != before[r["target"]]]

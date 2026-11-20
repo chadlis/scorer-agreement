@@ -150,18 +150,23 @@ def repair(
     forbidden_texts: frozenset = frozenset(),
     max_swaps: int = 100_000,
     spare: list[int] | None = None,
+    keep_valid: bool = False,
 ) -> int:
     """Swap donors in place until no pair fails the filters, is a forbidden (target,
     donor) pair, or uses a forbidden placebo text. A failing target swaps its donor
     with another target's, or with an unused donor from `spare` (updated in place).
-    Returns the swap count."""
+    With `keep_valid`, a swap is made only if the other target's new pair passes, so
+    valid pairs are only touched to fix a failing one. Returns the swap count."""
+
+    def fails_with(t: int, d: int) -> bool:
+        return (
+            (t, d) in forbidden
+            or pairs.placebo(t, d) in forbidden_texts
+            or bool(pairs.problems(t, d))
+        )
 
     def fails(t: int) -> bool:
-        return (
-            (t, m[t]) in forbidden
-            or pairs.placebo(t, m[t]) in forbidden_texts
-            or bool(pairs.problems(t, m[t]))
-        )
+        return fails_with(t, m[t])
 
     swaps = 0
     targets = sorted(m)
@@ -173,7 +178,7 @@ def repair(
         k = rng.randrange(len(others) + len(spare or []))
         if k < len(others):
             u = others[k]
-            if m[u] != t and m[t] != u:
+            if m[u] != t and m[t] != u and not (keep_valid and fails_with(u, m[t])):
                 m[t], m[u] = m[u], m[t]
         elif (d := spare[k - len(others)]) != t:
             spare[k - len(others)], m[t] = m[t], d

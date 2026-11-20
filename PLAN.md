@@ -276,7 +276,9 @@ with the same scorer prompt. Labels stay those of the target feature.
    doubt pairs and found the triage judgments right). Rounds 4 to 6 run without
    human review: the assignment of the previous round is repaired as in rule 4
    (unused donors as spares, every pair rejected so far forbidden, seed 20261120 +
-   round), a fresh Fable 5.2 agent triages only the pairs whose placebo changed
+   round), except that a swap is made only if the other target's new pair passes,
+   so that valid pairs move only to fix a rejected one (the plain repair changed 99
+   placebos to fix 21), a fresh Fable 5.2 agent triages only the pairs whose placebo changed
    (the others keep their verdict), and every doubt is rejected. The number of
    doubts per round is reported. After round 6, Salah decides how to close.
 10. *Freeze.* The final assignment, the triage and the review are committed before

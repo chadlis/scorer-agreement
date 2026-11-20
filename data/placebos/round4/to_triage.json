@@ -1,0 +1,332 @@
+{
+ "pairs": [
+  {
+   "target": 1133,
+   "target_A": "phrases related to giving or receiving commands or instructions",
+   "target_B": "references to commands and directives",
+   "donor": 11911,
+   "donor_model": "A",
+   "placebo": "days of the week, especially Monday"
+  },
+  {
+   "target": 47,
+   "target_A": "references to political parties, specifically mentioning support or actions related to a particular party",
+   "target_B": "mentions of a political party",
+   "donor": 1133,
+   "donor_model": "A",
+   "placebo": "phrases related to giving or receiving commands or instructions"
+  },
+  {
+   "target": 18011,
+   "target_A": "occurrences of the word \"diss\" or its variations in the text",
+   "target_B": "words related to dissociation or disconnection",
+   "donor": 18973,
+   "donor_model": "A",
+   "placebo": "terms related to information technology systems and operations"
+  },
+  {
+   "target": 17632,
+   "target_A": "mentions of press conferences",
+   "target_B": "instances of the indefinite articles \"a\" and \"an\" in various contexts",
+   "donor": 47,
+   "donor_model": "B",
+   "placebo": "mentions of a political party"
+  },
+  {
+   "target": 20330,
+   "target_A": "the number \"two\" or variations of it",
+   "target_B": "instances of the word \"two.\"",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 12242,
+   "donor_model": "B",
+   "placebo": "titles and positions of authority or leadership"
+  },
+  {
+   "target": 14097,
+   "target_A": "references to historical or contemporary figures and events associated with the term 'Cop'",
+   "target_B": "mentions of the word \"Cop\" in various contexts",
+   "donor": 11974,
+   "donor_model": "A",
+   "placebo": "instances of the word \"sexuality\" along with other related concepts or contexts"
+  },
+  {
+   "target": 11794,
+   "target_A": "video-related words or prompts",
+   "target_B": "references to videos that can be watched",
+   "donor": 18727,
+   "donor_model": "B",
+   "placebo": "the repeated mention of the state of Maine"
+  },
+  {
+   "target": 7229,
+   "target_A": "words related to fashion or clothing items",
+   "target_B": "mentions of \"suit\" and its variations",
+   "donor": 2910,
+   "donor_model": "B",
+   "placebo": "references to the concept or entity represented by \"Ey.\""
+  },
+  {
+   "target": 2112,
+   "target_A": "references to geographic locations, specifically focusing on names of cities or countries",
+   "target_B": "references to specific ethnic groups or nationalities",
+   "donor": 11898,
+   "donor_model": "A",
+   "placebo": "adjectives or verbs related to intense emotions"
+  },
+  {
+   "target": 18727,
+   "target_A": "references to the state of Maine",
+   "target_B": "the repeated mention of the state of Maine",
+   "donor": 20682,
+   "donor_model": "A",
+   "placebo": "names of a person, specifically the name \"Corey\""
+  },
+  {
+   "target": 19944,
+   "target_A": "words related to providing assistance or help",
+   "target_B": "phrases indicating assistance or contribution towards a goal",
+   "donor": 6322,
+   "donor_model": "A",
+   "placebo": "references to sharp objects, particularly knives"
+  },
+  {
+   "target": 3665,
+   "target_A": "phrases related to being projected or forecasted to occur",
+   "target_B": "references to \"the\" as a prominent article throughout the text",
+   "donor": 14562,
+   "donor_model": "A",
+   "placebo": "words related to financial transactions, specifically focusing on the concept of bills"
+  },
+  {
+   "target": 6076,
+   "target_A": "statistical or numerical information",
+   "target_B": "statistical data related to performance metrics in sports",
+   "donor": 2019,
+   "donor_model": "A",
+   "placebo": "co-occurrences of the word \"ary\""
+  },
+  {
+   "target": 1635,
+   "target_A": "mentions of or related to restaurants",
+   "target_B": "mentions of restaurants",
+   "donor": 14889,
+   "donor_model": "B",
+   "placebo": "references to the Ars publication"
+  },
+  {
+   "target": 15660,
+   "target_A": "phrases related to directing or sending information",
+   "target_B": "references to direct communication or messages",
+   "donor": 5773,
+   "donor_model": "A",
+   "placebo": "the name \"Kay\" followed by a numerical value"
+  },
+  {
+   "target": 9607,
+   "target_A": "phrases related to smoking",
+   "target_B": "terms related to smoking and its effects",
+   "donor": 11931,
+   "donor_model": "B",
+   "placebo": "references to various techniques or procedures"
+  },
+  {
+   "target": 20467,
+   "target_A": "verbs related to movement or actions of individuals",
+   "target_B": "verbs that indicate movement or action",
+   "donor": 18562,
+   "donor_model": "A",
+   "placebo": "mentions of additional or supplementary things"
+  },
+  {
+   "target": 13920,
+   "target_A": "phrases mentioning future events or aspirations",
+   "target_B": "instances of the phrase \"one day.\"",
+   "donor": 17875,
+   "donor_model": "B",
+   "placebo": "instances of failure and related outcomes"
+  },
+  {
+   "target": 14562,
+   "target_A": "words related to financial transactions, specifically focusing on the concept of bills",
+   "target_B": "references to financial obligations or expenses",
+   "donor": 17379,
+   "donor_model": "A",
+   "placebo": "phrases indicating completion or finality, often with a tone of resolution or accomplishment"
+  },
+  {
+   "target": 8968,
+   "target_A": "dates mentioned in text",
+   "target_B": "days of the week and specific dates",
+   "donor": 3812,
+   "donor_model": "A",
+   "placebo": "phrases related to activism and social issues"
+  },
+  {
+   "target": 2019,
+   "target_A": "co-occurrences of the word \"ary\"",
+   "target_B": "terms related to a specific genre or category frequently ending in \"ary.\"",
+   "donor": 3665,
+   "donor_model": "A",
+   "placebo": "phrases related to being projected or forecasted to occur"
+  },
+  {
+   "target": 12637,
+   "target_A": "names of individuals being selected or hired for specific roles or positions",
+   "target_B": "instances of the word \"to.\"",
+   "donor": 7791,
+   "donor_model": "B",
+   "placebo": "the word \"even\" in various contexts to indicate a comparison or enhancement"
+  },
+  {
+   "target": 20058,
+   "target_A": "locations within the United States, specifically Washington, DC",
+   "target_B": "locations and references to Washington, D.C",
+   "donor": 16546,
+   "donor_model": "A",
+   "placebo": "mentions of rumors or speculation"
+  },
+  {
+   "target": 11911,
+   "target_A": "days of the week, especially Monday",
+   "target_B": "mentions of days of the week, particularly in the context of events or actions",
+   "donor": 1589,
+   "donor_model": "A",
+   "placebo": "instances of the phrase 'per the official data'"
+  },
+  {
+   "target": 18562,
+   "target_A": "mentions of additional or supplementary things",
+   "target_B": "mentions of the word \"extra\" in various contexts",
+   "donor": 23318,
+   "donor_model": "B",
+   "placebo": "references to mutation and mutilation"
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 4912,
+   "donor_model": "B",
+   "placebo": "patterns resembling programming syntax and code structures"
+  },
+  {
+   "target": 3025,
+   "target_A": "phrases indicating lack of information or minimal impact",
+   "target_B": "phrases indicating a lack of information or uncertainty",
+   "donor": 8773,
+   "donor_model": "B",
+   "placebo": "terms and phrases related to various forms of \"literacy\" or \"ability.\""
+  },
+  {
+   "target": 14799,
+   "target_A": "words related to bundle offers or packages",
+   "target_B": "references to bundles and bundle deals",
+   "donor": 6076,
+   "donor_model": "B",
+   "placebo": "statistical data related to performance metrics in sports"
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 20058,
+   "donor_model": "B",
+   "placebo": "locations and references to Washington, D.C"
+  },
+  {
+   "target": 743,
+   "target_A": "names related to sports or people's names",
+   "target_B": "mentions of the name \"Evgeni.\"",
+   "donor": 16631,
+   "donor_model": "B",
+   "placebo": "expressions related to perception and appearance"
+  },
+  {
+   "target": 22207,
+   "target_A": "generic phrases representing importance or priority",
+   "target_B": "phrases emphasizing priority or significance",
+   "donor": 10814,
+   "donor_model": "B",
+   "placebo": "references to financial bailouts and rescue packages"
+  },
+  {
+   "target": 24159,
+   "target_A": "dates, numbers, and references to publications",
+   "target_B": "specific formatting elements, particularly related to structured data or metadata",
+   "donor": 19071,
+   "donor_model": "B",
+   "placebo": "instances of the phrase \"According to the.\""
+  },
+  {
+   "target": 23683,
+   "target_A": "words related to authenticity",
+   "target_B": "terms related to authenticity and genuine identity",
+   "donor": 11794,
+   "donor_model": "A",
+   "placebo": "video-related words or prompts"
+  },
+  {
+   "target": 23863,
+   "target_A": "adjectives that describe attributes of objects or characteristics of actions",
+   "target_B": "adjectives that convey characteristics of objects, emotions, and behaviors",
+   "donor": 14612,
+   "donor_model": "A",
+   "placebo": "words related to opposite sides or viewpoints"
+  },
+  {
+   "target": 16631,
+   "target_A": "phrases related to appearance and comparison",
+   "target_B": "expressions related to perception and appearance",
+   "donor": 5634,
+   "donor_model": "A",
+   "placebo": "financial and business related terms"
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 24369,
+   "donor_model": "B",
+   "placebo": "phrases indicating comparisons between different time periods or generations"
+  },
+  {
+   "target": 21731,
+   "target_A": "terms related to tax breaks",
+   "target_B": "terminology related to tax regulation and financial incentives",
+   "donor": 19944,
+   "donor_model": "A",
+   "placebo": "words related to providing assistance or help"
+  },
+  {
+   "target": 8511,
+   "target_A": "organizations or formal groups",
+   "target_B": "references to organizations or entities described as \"bodies.\"",
+   "donor": 20373,
+   "donor_model": "B",
+   "placebo": "occurrences of the word \"ki.\""
+  },
+  {
+   "target": 19071,
+   "target_A": "references to information sources or citations, often starting with \"According to\"",
+   "target_B": "instances of the phrase \"According to the.\"",
+   "donor": 12732,
+   "donor_model": "A",
+   "placebo": "phrases related to unexpected revelations or surprising discoveries"
+  },
+  {
+   "target": 8995,
+   "target_A": "words related to radio",
+   "target_B": "references to radio",
+   "donor": 21857,
+   "donor_model": "B",
+   "placebo": "references to legislation"
+  }
+ ]
+}
