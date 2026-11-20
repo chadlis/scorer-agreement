@@ -34,7 +34,9 @@ scorer.
 
 100 features, 40 texts per feature (20 where the feature fires, 20 where it does not),
 3 conditions (the two original explanations and a placebo), 5 scorers, and every call
-made twice: 120,000 calls. `PLAN.md` will be frozen before the first measurement.
+made twice: 120,000 calls. Answers are scored against labels recomputed on the exact
+text shown, and the analyses (agreement, gain over the placebo, profile per scorer)
+are fixed in `PLAN.md`, which is frozen before the first measurement.
 
 ## Scorers
 

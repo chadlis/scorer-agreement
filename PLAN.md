@@ -362,7 +362,100 @@ the target, so no conflict arises.
 window kept, recomputed and shown is the one with the highest stored activation,
 centred on the peak.
 
+## Scoring
+
+**Scorers and settings.** Five scorers, with the model ids and settings of
+`src/autointerp/models.py`: Claude Haiku 5.5 (thinking off), Sonnet 5.5 (initial
+thinking off), Opus 5.5 (effort low, thinking cannot be disabled), Gemini 2.5 Flash
+(temperature 0, reasoning off, Google AI Studio pinned) and Mistral Small 3.2
+(temperature 0, Parasail bf16 pinned). `max_tokens` is 2048, since thinking tokens
+count towards it. The settings of each call are written into its CSV row.
+
+**Prompt.** The frozen detection prompt (git tag `prompt-frozen`), one text per call,
+the same template for the three conditions (explanation A, explanation B, placebo).
+The answer is read with delphi's rule, retried once if unreadable, then recorded as
+`invalid`.
+
+**Passes.** Every call is made twice (passes 1 and 2), in separate requests. If, in
+the pilot, a scorer gives a different answer in the two passes on more than 5% of
+its calls (X = 5%, decided 2026-11-20), it gets a third pass on the whole grid.
+The three Claude scorers go through Anthropic's Message Batches API (half price,
+delayed answers), the two others through OpenRouter. Volume: 100 features × 40
+texts × 3 conditions × 5 scorers × 2 passes = 120,000 calls.
+
+**Output.** One CSV row per call: feature, text id, label, condition, explanation
+shown, scorer, model id, settings, pass, raw answer, parsed answer, retry flag,
+tokens (input, output, thinking), cost, latency, timestamp. Raw API responses are
+kept. The CSV is frozen when the grid ends.
+
 ## Analyses
 
-To be written before freezing: which pass feeds each analysis, the third-pass rule
-and its threshold, kappa conditions, how invalid answers are counted.
+All analyses are fixed here before any scorer call. Comparisons are always paired:
+same features, texts and conditions.
+
+**Answer per call.**
+
+- *Accuracy, gain, sensitivity, specificity* use the mean over passes: a text counts
+  as the share of passes that answered right (1, 1/2 or 0 with two passes, thirds
+  with three). This estimates the accuracy of a single call and uses all passes
+  without breaking ties by chance.
+- *Agreement and kappa* need one binary answer per scorer and text: pass 1 is used.
+  The same figures are recomputed on pass 2 as a check, and reported if they differ
+  noticeably.
+- *Invalid answers* count as errors in accuracy, are left out of agreement (a pair
+  of scorers is compared on the texts both answered), and their rate is reported per
+  scorer.
+
+**1. Agreement between scorers (Figure 1).** For each of the 10 pairs of scorers:
+raw agreement, disagreement rate and Cohen's kappa, on conditions A and B pooled
+(the use the explanations are meant for). Agreement under the placebo is reported
+apart, since nearly every answer is 0 there and agreement would be inflated.
+
+**2. Gain over the placebo (central measure, Figure 2).** For each scorer, gain =
+mean of its accuracies with A and with B, minus its accuracy with the placebo. The
+gains with A and with B are also reported apart. Then the 10 pairwise differences
+of gain between scorers. With 10 comparisons at 95%, about one difference in two
+series of comparisons would exclude 0 by chance: differences are read with this in
+mind, and none is singled out after seeing the results.
+
+**3. Profile per scorer (Table).** Sensitivity, specificity, rate of "1" answers,
+invalid rate and stability between passes (share of texts answered differently by
+pass 1 and pass 2), per condition. Stability is never presented as a ceiling on
+agreement between scorers.
+
+**Confidence intervals.** Percentile intervals at 95% from a bootstrap over features
+(the 100 features are resampled with replacement, with their 40 texts and all
+conditions), 10,000 resamples, seed 20261120. Texts are not resampled one by one,
+because the texts of a feature share its explanation and their errors move together.
+
+**Checks.**
+
+- Placebo accuracy is expected near 50%. If it is well above (more than 60% for a
+  scorer), a form cue is looked for (length, document separators, source feature of
+  the negatives) before any conclusion.
+- Built texts: the share of texts with a document separator is balanced between
+  positives and negatives (Windows), and the mean length in tokens of the scorer's
+  text is compared between positives and negatives and reported.
+- The difference between A and B for a given feature is exploratory only.
+
+## Pilot (gate)
+
+The pilot runs the whole chain on the 5 pilot features (1133, 10461, 14889, 47,
+15387) with all five scorers, both passes and the three conditions (600 calls per
+scorer). The grid starts only if the pilot shows:
+
+- every negative verified inactive, every positive verified,
+- placebo accuracy near 50% for every scorer,
+- less than 2% invalid answers per scorer,
+- the real cost per call, thinking included, per scorer,
+- both central measures (agreement and gain) computed end to end.
+
+A spending cap for the pilot is fixed by Salah before the first paid call, and the
+total cap after the pilot, from the measured cost.
+
+**Stop rules.** If the pilot fails, the data are fixed and the grid does not start.
+If the grid is too slow or too costly, a scorer is removed (Opus first) or the number
+of features is reduced (taking the first ones of the draw), never the number of
+texts per feature. No extension starts before the two figures and the table exist.
+The extensions, in that order if time allows: an arm with no explanation, a second
+prompt, explanations too broad or too narrow (Oikarinen et al.), A against B.
