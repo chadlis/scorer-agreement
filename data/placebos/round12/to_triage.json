@@ -1,0 +1,28 @@
+{
+ "pairs": [
+  {
+   "target": 8697,
+   "target_A": "keywords related to silence or lack of noise",
+   "target_B": "references to the concept of quietness or tranquility",
+   "donor": 24369,
+   "donor_model": "A",
+   "placebo": "comparisons between different time periods or locations"
+  },
+  {
+   "target": 22207,
+   "target_A": "generic phrases representing importance or priority",
+   "target_B": "phrases emphasizing priority or significance",
+   "donor": 20682,
+   "donor_model": "B",
+   "placebo": "mentions of specific individuals named Corey and Derrick"
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 8511,
+   "donor_model": "B",
+   "placebo": "references to organizations or entities described as \"bodies.\""
+  }
+ ]
+}
