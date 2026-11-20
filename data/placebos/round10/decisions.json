@@ -1,12 +1,17 @@
 {
  "round": 10,
- "reviewer": "pending: Salah",
- "rejected_doubt": [],
+ "reviewer": "Salah",
+ "rejected_doubt": [
+  5479
+ ],
  "confident_checked": [],
  "confident_rejected": [],
- "rejected_generic": [],
- "pending_doubt": [
-  5479,
-  18727
- ]
+ "rejected_generic": [
+  {
+   "target": 18727,
+   "donor": 22496,
+   "placebo": "references to government bodies and officials"
+  }
+ ],
+ "note": "Salah rejected both doubts. The placebo 'references to government bodies and officials' was flagged on two targets (5479 in round 9, 18727 in round 10) and is forbidden as too broad. One more round (11)."
 }
