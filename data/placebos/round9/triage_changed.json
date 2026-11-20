@@ -1,0 +1,26 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Le placebo est-il assez spécifique et assez éloigné du sens de la cible pour qu'un scoreur réponde 0 à presque tous les textes, y compris ceux où la cible s'active ?",
+ "pairs": [
+  {
+   "target": 23318,
+   "verdict": "confident",
+   "reason": "Communication directe ou messages : sans rapport avec les mutations biologiques ou la mutilation, et motif assez précis pour ne pas couvrir la plupart des textes."
+  },
+  {
+   "target": 5479,
+   "verdict": "doubt",
+   "reason": "Fit : les organes et responsables gouvernementaux sont des groupes de personnes définis par une identité (cible B), et les textes sur les groupes ethniques ou communautés sont souvent politiques et citent des autorités."
+  },
+  {
+   "target": 336,
+   "verdict": "confident",
+   "reason": "Authenticité et identité véritable : thème abstrait sans lien avec la nourriture, la boisson ou le mot « ready »."
+  },
+  {
+   "target": 3540,
+   "verdict": "confident",
+   "reason": "Mastodontes et malt : vocabulaire très précis, sans lien de sens avec le nom McElroy ou les patronymes en « Mc »."
+  }
+ ]
+}
