@@ -67,3 +67,11 @@ def test_review_sample_is_reproducible_and_ignores_input_order():
     first = pl.review_sample(confident, k=20, seed=5)
     assert first == pl.review_sample(confident[::-1], k=20, seed=5)
     assert len(set(first)) == 20 and set(first) <= set(confident)
+
+
+def test_repair_never_reuses_a_forbidden_text():
+    p = toy_pairs()
+    m, _ = pl.assign(p, seed=11)
+    banned = p.placebo(0, m[0])
+    pl.repair(m, p, random.Random(2), forbidden_texts=frozenset({banned}))
+    assert all(p.placebo(t, d) != banned for t, d in m.items())

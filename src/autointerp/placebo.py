@@ -3,7 +3,8 @@
 A seeded derangement of the sample gives each target a donor. Half of the targets
 receive the donor's explanation A, half its explanation B. Pairs that fail one of
 three filters are repaired by seeded swaps of donors. Pairs rejected at review are
-passed back as `forbidden` and repaired the same way.
+passed back as `forbidden`, and rejected placebo texts as `forbidden_texts`, then
+repaired the same way.
 """
 
 import random
@@ -59,6 +60,41 @@ class Pairs:
         return out
 
 
+A_MODEL, B_MODEL = "gpt-3.5-turbo", "gpt-4o-mini"
+
+
+def build_pairs(sample: list[int], fetch, seed: int = SEED) -> Pairs:
+    """Pairs for the sampled features, from their Neuronpedia JSON (`fetch(index)`)."""
+    raws = {i: fetch(i) for i in sample}
+
+    def explanation(raw: dict, model: str) -> str:
+        return next(
+            e["description"].strip()
+            for e in raw["explanations"]
+            if e["explanationModelName"] == model
+        )
+
+    a = {i: explanation(raws[i], A_MODEL) for i in sample}
+    b = {i: explanation(raws[i], B_MODEL) for i in sample}
+    nb = {i: set(raws[i]["topkCosSimIndices"]) - {i} for i in sample}
+    return Pairs(a, b, nb, seed=seed)
+
+
+def rows(pairs: Pairs, m: dict[int, int], order: list[int]) -> list[dict]:
+    """One record per target, in the order of the sample."""
+    return [
+        {
+            "target": t,
+            "target_A": pairs.a[t],
+            "target_B": pairs.b[t],
+            "donor": m[t],
+            "donor_model": pairs.model[t],
+            "placebo": pairs.placebo(t, m[t]),
+        }
+        for t in order
+    ]
+
+
 def derangement(targets: list[int], rng: random.Random) -> dict[int, int]:
     while True:
         donors = targets[:]
@@ -72,12 +108,18 @@ def repair(
     pairs: Pairs,
     rng: random.Random,
     forbidden: frozenset = frozenset(),
+    forbidden_texts: frozenset = frozenset(),
     max_swaps: int = 100_000,
 ) -> int:
-    """Swap donors in place until no pair fails or is forbidden. Returns the swap count."""
+    """Swap donors in place until no pair fails the filters, is a forbidden (target,
+    donor) pair, or uses a forbidden placebo text. Returns the swap count."""
 
     def fails(t: int) -> bool:
-        return (t, m[t]) in forbidden or bool(pairs.problems(t, m[t]))
+        return (
+            (t, m[t]) in forbidden
+            or pairs.placebo(t, m[t]) in forbidden_texts
+            or bool(pairs.problems(t, m[t]))
+        )
 
     swaps = 0
     targets = sorted(m)

@@ -1,0 +1,73 @@
+{
+ "round": 1,
+ "date": "2026-11-20",
+ "reviewer": "Salah",
+ "rejected_doubt": [
+  47,
+  5634,
+  14097,
+  2112,
+  17379,
+  3665,
+  1635,
+  15655,
+  14562,
+  2019,
+  18377,
+  14612,
+  20058,
+  8697,
+  16546,
+  18562,
+  12276,
+  14799,
+  24159,
+  19647
+ ],
+ "confident_checked": [
+  3540,
+  5030,
+  5479,
+  5596,
+  9692,
+  12229,
+  12732,
+  13572,
+  14256,
+  15387,
+  16447,
+  16631,
+  18011,
+  19071,
+  20330,
+  21484,
+  22598,
+  23318,
+  23629,
+  23863
+ ],
+ "confident_rejected": [],
+ "rejected_generic": [
+  {
+   "target": 11794,
+   "donor": 17379,
+   "placebo": "sentences that conclude with a period"
+  },
+  {
+   "target": 8511,
+   "donor": 12637,
+   "placebo": "instances of the word \"to.\""
+  },
+  {
+   "target": 21731,
+   "donor": 22163,
+   "placebo": "pronouns referring to people or entities"
+  },
+  {
+   "target": 13847,
+   "donor": 23629,
+   "placebo": "grammatically structured phrases with specific keyword patterns"
+  }
+ ],
+ "note": "All 20 doubt pairs rejected. The 4 generic placebos flagged by the triage are rejected and their texts may not be used as a placebo again. The 20 confident pairs checked are all accepted, so the remaining confident pairs are not read."
+}

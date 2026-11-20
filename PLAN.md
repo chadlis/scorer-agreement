@@ -239,7 +239,18 @@ the same scorer prompt. Labels stay those of the target feature.
    with seed 20261120. If any of these 20 is rejected, he reads all confident pairs.
    Each rejected pair is reassigned by rules 3 and 4 (donors are swapped, so other
    pairs may change), and every changed pair is reviewed again.
-7. *Freeze.* The final assignment, the triage and the review are committed before
+7. *Rounds.* After a review, rejected (target, donor) pairs and rejected placebo
+   texts are forbidden, and the repair of rule 4 runs again from the previous
+   assignment with seed 20261120 + round number. Each round is kept in
+   `data/placebos/roundN/` (assignment, triage, review list, decisions). From round
+   2 on, the triage reads all 100 pairs again and Salah reviews every doubt pair:
+   the check on 20 confident pairs was passed in round 1.
+8. *Generic placebos* (decided at the round 1 review). A placebo that describes a
+   generic pattern (punctuation, a function word, pronouns, grammar) fits most texts,
+   positive or negative. It does not bias the gain, but it makes the placebo
+   condition uneven across features, so it is rejected and counts as a doubt in the
+   triage.
+9. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.
 
