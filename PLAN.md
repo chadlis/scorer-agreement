@@ -280,7 +280,10 @@ with the same scorer prompt. Labels stay those of the target feature.
    so that valid pairs move only to fix a rejected one (the plain repair changed 99
    placebos to fix 21), a fresh Fable 5.2 agent triages only the pairs whose placebo changed
    (the others keep their verdict), and every doubt is rejected. The number of
-   doubts per round is reported. After round 6, Salah decides how to close.
+   doubts per round is reported. After round 6 (doubts 21, 11, 4, 3 from round 3
+   to 6), Salah decided to go on until a round has no doubt, at most up to round 9.
+   A target still in doubt after round 9 goes back to him. The first round with no
+   doubt gives the final assignment.
 10. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.
