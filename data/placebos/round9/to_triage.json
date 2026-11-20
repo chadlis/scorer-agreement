@@ -1,0 +1,36 @@
+{
+ "pairs": [
+  {
+   "target": 23318,
+   "target_A": "mentions of biological mutations or alterations",
+   "target_B": "references to mutation and mutilation",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 5479,
+   "target_A": "references to different ethnic groups or communities",
+   "target_B": "references to groups of people and their identities",
+   "donor": 22496,
+   "donor_model": "A",
+   "placebo": "references to government bodies and officials"
+  },
+  {
+   "target": 336,
+   "target_A": "food and drink related phrases",
+   "target_B": "instances of the word \"ready\"",
+   "donor": 23683,
+   "donor_model": "B",
+   "placebo": "terms related to authenticity and genuine identity"
+  },
+  {
+   "target": 3540,
+   "target_A": "phrases containing the name \"McElroy\"",
+   "target_B": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof",
+   "donor": 5059,
+   "donor_model": "B",
+   "placebo": "words related to mastodons and malt"
+  }
+ ]
+}
