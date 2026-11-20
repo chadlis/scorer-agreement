@@ -98,16 +98,23 @@ OPENROUTER_API_KEY=...
 cent). `uv run scripts/check_format.py --yes` sends 19 texts to each scorer to count
 unreadable answers. Without `--yes`, scripts only print what they would send.
 
-`uv run scripts/check_activation_api.py` recomputes five stored windows of feature 100
-with Neuronpedia's free activation API (`data/activation_test/`).
-`uv run scripts/check_negatives.py` tries the negatives rule on six features.
-`uv run scripts/survey_features.py` downloads 120 random features (exploratory seed 1,
-distinct from the final draw) to size the sampling rule (`data/feature_survey/`).
-`uv run scripts/draw_features.py` draws the 100 features with the committed seed
-(`data/draw/`). `uv run scripts/assign_placebos.py` assigns one placebo to each
-feature (`data/placebos/`). `uv run scripts/review_placebos.py N` lists the pairs to review in round N, and
-`uv run scripts/reassign_placebos.py N` reassigns the pairs rejected before round N. Calls to the activation API are spaced by 3.6 s, retried on rate
-limits and server errors, and cached under `data/raw/`.
+Data-freezing scripts:
+
+- `uv run scripts/check_activation_api.py` recomputes five stored windows of feature
+  100 with Neuronpedia's free activation API (`data/activation_test/`).
+- `uv run scripts/check_negatives.py` tries the negatives rule on six features.
+- `uv run scripts/survey_features.py` downloads 120 random features (exploratory
+  seed 1, distinct from the final draw) to size the sampling rule
+  (`data/feature_survey/`).
+- `uv run scripts/draw_features.py` draws the 100 features with the committed seed
+  (`data/draw/`).
+- `uv run scripts/assign_placebos.py` assigns one placebo to each feature (round 1),
+  `uv run scripts/review_placebos.py N` lists the pairs to review in round N, and
+  `uv run scripts/reassign_placebos.py N` reassigns the pairs rejected before round
+  N (`data/placebos/roundN/`).
+
+Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
+errors, and cached under `data/raw/`.
 
 Behind a TLS-inspecting proxy, set `AUTOINTERP_RELAX_X509_STRICT=1` to relax one
 strict certificate check (`src/autointerp/tls.py`). Certificate verification stays on.
