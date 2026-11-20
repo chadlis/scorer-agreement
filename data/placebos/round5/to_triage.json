@@ -1,0 +1,164 @@
+{
+ "pairs": [
+  {
+   "target": 1133,
+   "target_A": "phrases related to giving or receiving commands or instructions",
+   "target_B": "references to commands and directives",
+   "donor": 11931,
+   "donor_model": "A",
+   "placebo": "occurrences of the word \"method\" in the text"
+  },
+  {
+   "target": 17632,
+   "target_A": "mentions of press conferences",
+   "target_B": "instances of the indefinite articles \"a\" and \"an\" in various contexts",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 20330,
+   "target_A": "the number \"two\" or variations of it",
+   "target_B": "instances of the word \"two.\"",
+   "donor": 47,
+   "donor_model": "B",
+   "placebo": "mentions of a political party"
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 16631,
+   "donor_model": "B",
+   "placebo": "expressions related to perception and appearance"
+  },
+  {
+   "target": 19944,
+   "target_A": "words related to providing assistance or help",
+   "target_B": "phrases indicating assistance or contribution towards a goal",
+   "donor": 8773,
+   "donor_model": "A",
+   "placebo": "phrases related to accuracy or precision"
+  },
+  {
+   "target": 3665,
+   "target_A": "phrases related to being projected or forecasted to occur",
+   "target_B": "references to \"the\" as a prominent article throughout the text",
+   "donor": 12732,
+   "donor_model": "A",
+   "placebo": "phrases related to unexpected revelations or surprising discoveries"
+  },
+  {
+   "target": 5059,
+   "target_A": "terms related to prehistoric animals",
+   "target_B": "words related to mastodons and malt",
+   "donor": 1635,
+   "donor_model": "A",
+   "placebo": "mentions of or related to restaurants"
+  },
+  {
+   "target": 13572,
+   "target_A": "phrases related to absorption or substances being absorbed",
+   "target_B": "terms related to the process of absorption in various contexts",
+   "donor": 17379,
+   "donor_model": "A",
+   "placebo": "phrases indicating completion or finality, often with a tone of resolution or accomplishment"
+  },
+  {
+   "target": 9607,
+   "target_A": "phrases related to smoking",
+   "target_B": "terms related to smoking and its effects",
+   "donor": 21731,
+   "donor_model": "B",
+   "placebo": "terminology related to tax regulation and financial incentives"
+  },
+  {
+   "target": 20467,
+   "target_A": "verbs related to movement or actions of individuals",
+   "target_B": "verbs that indicate movement or action",
+   "donor": 3025,
+   "donor_model": "A",
+   "placebo": "phrases indicating lack of information or minimal impact"
+  },
+  {
+   "target": 14562,
+   "target_A": "words related to financial transactions, specifically focusing on the concept of bills",
+   "target_B": "references to financial obligations or expenses",
+   "donor": 19071,
+   "donor_model": "A",
+   "placebo": "references to information sources or citations, often starting with \"According to\""
+  },
+  {
+   "target": 5596,
+   "target_A": "phrases or terms related to unique or characteristic elements",
+   "target_B": "references to unique characteristics or trademarks associated with items or individuals",
+   "donor": 19944,
+   "donor_model": "A",
+   "placebo": "words related to providing assistance or help"
+  },
+  {
+   "target": 3025,
+   "target_A": "phrases indicating lack of information or minimal impact",
+   "target_B": "phrases indicating a lack of information or uncertainty",
+   "donor": 6322,
+   "donor_model": "B",
+   "placebo": "references to knives in various contexts"
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 12242,
+   "donor_model": "B",
+   "placebo": "titles and positions of authority or leadership"
+  },
+  {
+   "target": 743,
+   "target_A": "names related to sports or people's names",
+   "target_B": "mentions of the name \"Evgeni.\"",
+   "donor": 14562,
+   "donor_model": "B",
+   "placebo": "references to financial obligations or expenses"
+  },
+  {
+   "target": 24159,
+   "target_A": "dates, numbers, and references to publications",
+   "target_B": "specific formatting elements, particularly related to structured data or metadata",
+   "donor": 18562,
+   "donor_model": "B",
+   "placebo": "mentions of the word \"extra\" in various contexts"
+  },
+  {
+   "target": 10171,
+   "target_A": "locations where something or someone was left",
+   "target_B": "instances of the word \"left.\"",
+   "donor": 5479,
+   "donor_model": "A",
+   "placebo": "references to different ethnic groups or communities"
+  },
+  {
+   "target": 21731,
+   "target_A": "terms related to tax breaks",
+   "target_B": "terminology related to tax regulation and financial incentives",
+   "donor": 23756,
+   "donor_model": "A",
+   "placebo": "the word \"topic\" followed by a number"
+  },
+  {
+   "target": 19071,
+   "target_A": "references to information sources or citations, often starting with \"According to\"",
+   "target_B": "instances of the phrase \"According to the.\"",
+   "donor": 9692,
+   "donor_model": "A",
+   "placebo": "mentions or descriptions related to LEGO"
+  },
+  {
+   "target": 21725,
+   "target_A": "phrases containing dialogues with speech marks",
+   "target_B": "punctuation marks, particularly quotation marks in dialogue",
+   "donor": 20058,
+   "donor_model": "A",
+   "placebo": "locations within the United States, specifically Washington, DC"
+  }
+ ]
+}

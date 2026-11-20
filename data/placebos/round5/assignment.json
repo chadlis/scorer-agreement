@@ -1,0 +1,835 @@
+{
+ "seed": 20261125,
+ "swaps": 27,
+ "changed": [
+  1133,
+  17632,
+  20330,
+  5634,
+  19944,
+  3665,
+  5059,
+  13572,
+  9607,
+  20467,
+  14562,
+  5596,
+  3025,
+  13910,
+  743,
+  24159,
+  10171,
+  21731,
+  19071,
+  21725
+ ],
+ "unused_donors": [
+  8511,
+  9703,
+  10171,
+  11911,
+  17410
+ ],
+ "pairs": [
+  {
+   "target": 1133,
+   "target_A": "phrases related to giving or receiving commands or instructions",
+   "target_B": "references to commands and directives",
+   "donor": 11931,
+   "donor_model": "A",
+   "placebo": "occurrences of the word \"method\" in the text"
+  },
+  {
+   "target": 10461,
+   "target_A": "phrases describing something as a specific type of thing or an example of a particular trait",
+   "target_B": "phrases that include the structure \"something of a/an\"",
+   "donor": 21183,
+   "donor_model": "B",
+   "placebo": "instances of the prefix \"over\" or related forms indicating excessive actions or conditions"
+  },
+  {
+   "target": 14889,
+   "target_A": "instances of specific entities or terms, particularly \"Ars\" and other related terms",
+   "target_B": "references to the Ars publication",
+   "donor": 22207,
+   "donor_model": "A",
+   "placebo": "generic phrases representing importance or priority"
+  },
+  {
+   "target": 47,
+   "target_A": "references to political parties, specifically mentioning support or actions related to a particular party",
+   "target_B": "mentions of a political party",
+   "donor": 1133,
+   "donor_model": "A",
+   "placebo": "phrases related to giving or receiving commands or instructions"
+  },
+  {
+   "target": 15387,
+   "target_A": "images or visual representations in text",
+   "target_B": "references to images or pictures",
+   "donor": 9451,
+   "donor_model": "A",
+   "placebo": "conditional statements beginning with \"If\""
+  },
+  {
+   "target": 18011,
+   "target_A": "occurrences of the word \"diss\" or its variations in the text",
+   "target_B": "words related to dissociation or disconnection",
+   "donor": 18973,
+   "donor_model": "A",
+   "placebo": "terms related to information technology systems and operations"
+  },
+  {
+   "target": 11479,
+   "target_A": "verbs associated with the action of assigning something to someone or something else",
+   "target_B": "terms related to the concept of assignment or allocation",
+   "donor": 18469,
+   "donor_model": "B",
+   "placebo": "occurrences of the word \"Along\" indicating continuity or progression in a narrative"
+  },
+  {
+   "target": 9692,
+   "target_A": "mentions or descriptions related to LEGO",
+   "target_B": "references to the brand Lego and its products",
+   "donor": 3540,
+   "donor_model": "A",
+   "placebo": "phrases containing the name \"McElroy\""
+  },
+  {
+   "target": 23318,
+   "target_A": "mentions of biological mutations or alterations",
+   "target_B": "references to mutation and mutilation",
+   "donor": 23683,
+   "donor_model": "B",
+   "placebo": "terms related to authenticity and genuine identity"
+  },
+  {
+   "target": 5479,
+   "target_A": "references to different ethnic groups or communities",
+   "target_B": "references to groups of people and their identities",
+   "donor": 5059,
+   "donor_model": "A",
+   "placebo": "terms related to prehistoric animals"
+  },
+  {
+   "target": 9401,
+   "target_A": "names of individuals",
+   "target_B": "proper nouns, specifically names of individuals and entities",
+   "donor": 20330,
+   "donor_model": "B",
+   "placebo": "instances of the word \"two.\""
+  },
+  {
+   "target": 17632,
+   "target_A": "mentions of press conferences",
+   "target_B": "instances of the indefinite articles \"a\" and \"an\" in various contexts",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 20330,
+   "target_A": "the number \"two\" or variations of it",
+   "target_B": "instances of the word \"two.\"",
+   "donor": 47,
+   "donor_model": "B",
+   "placebo": "mentions of a political party"
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 16631,
+   "donor_model": "B",
+   "placebo": "expressions related to perception and appearance"
+  },
+  {
+   "target": 14097,
+   "target_A": "references to historical or contemporary figures and events associated with the term 'Cop'",
+   "target_B": "mentions of the word \"Cop\" in various contexts",
+   "donor": 11974,
+   "donor_model": "A",
+   "placebo": "instances of the word \"sexuality\" along with other related concepts or contexts"
+  },
+  {
+   "target": 13068,
+   "target_A": "hyphenated numbers related to sports conferences",
+   "target_B": "references to sports conferences and teams, specifically in collegiate athletics",
+   "donor": 12276,
+   "donor_model": "B",
+   "placebo": "references to the concept of pleasure"
+  },
+  {
+   "target": 11794,
+   "target_A": "video-related words or prompts",
+   "target_B": "references to videos that can be watched",
+   "donor": 18727,
+   "donor_model": "B",
+   "placebo": "the repeated mention of the state of Maine"
+  },
+  {
+   "target": 7229,
+   "target_A": "words related to fashion or clothing items",
+   "target_B": "mentions of \"suit\" and its variations",
+   "donor": 2910,
+   "donor_model": "B",
+   "placebo": "references to the concept or entity represented by \"Ey.\""
+  },
+  {
+   "target": 2112,
+   "target_A": "references to geographic locations, specifically focusing on names of cities or countries",
+   "target_B": "references to specific ethnic groups or nationalities",
+   "donor": 11898,
+   "donor_model": "A",
+   "placebo": "adjectives or verbs related to intense emotions"
+  },
+  {
+   "target": 22163,
+   "target_A": "pronouns referring to people or entities",
+   "target_B": "pronouns referring to individuals involved in interactions or conflicts",
+   "donor": 336,
+   "donor_model": "A",
+   "placebo": "food and drink related phrases"
+  },
+  {
+   "target": 16269,
+   "target_A": "terms related to therapeutic treatments or therapies",
+   "target_B": "terms related to the concept of \"ape.\"",
+   "donor": 8697,
+   "donor_model": "A",
+   "placebo": "keywords related to silence or lack of noise"
+  },
+  {
+   "target": 10122,
+   "target_A": "words related to magic and spells",
+   "target_B": "the presence of the word \"spell\" and its variations",
+   "donor": 20308,
+   "donor_model": "A",
+   "placebo": "names containing 'Brien' or 'Reilly'"
+  },
+  {
+   "target": 6322,
+   "target_A": "references to sharp objects, particularly knives",
+   "target_B": "references to knives in various contexts",
+   "donor": 565,
+   "donor_model": "A",
+   "placebo": "mentions of gratitude or acknowledgements"
+  },
+  {
+   "target": 23756,
+   "target_A": "the word \"topic\" followed by a number",
+   "target_B": "references to specific subjects or themes in various contexts",
+   "donor": 22455,
+   "donor_model": "A",
+   "placebo": "names related to the name \"Gordon.\""
+  },
+  {
+   "target": 18727,
+   "target_A": "references to the state of Maine",
+   "target_B": "the repeated mention of the state of Maine",
+   "donor": 20682,
+   "donor_model": "A",
+   "placebo": "names of a person, specifically the name \"Corey\""
+  },
+  {
+   "target": 19944,
+   "target_A": "words related to providing assistance or help",
+   "target_B": "phrases indicating assistance or contribution towards a goal",
+   "donor": 8773,
+   "donor_model": "A",
+   "placebo": "phrases related to accuracy or precision"
+  },
+  {
+   "target": 17379,
+   "target_A": "phrases indicating completion or finality, often with a tone of resolution or accomplishment",
+   "target_B": "sentences that conclude with a period",
+   "donor": 16269,
+   "donor_model": "A",
+   "placebo": "terms related to therapeutic treatments or therapies"
+  },
+  {
+   "target": 3665,
+   "target_A": "phrases related to being projected or forecasted to occur",
+   "target_B": "references to \"the\" as a prominent article throughout the text",
+   "donor": 12732,
+   "donor_model": "A",
+   "placebo": "phrases related to unexpected revelations or surprising discoveries"
+  },
+  {
+   "target": 1589,
+   "target_A": "instances of the phrase 'per the official data'",
+   "target_B": "the phrase \"as per,\" indicating references or sources of information",
+   "donor": 5264,
+   "donor_model": "A",
+   "placebo": "phrases related to political turmoil and conflict"
+  },
+  {
+   "target": 565,
+   "target_A": "mentions of gratitude or acknowledgements",
+   "target_B": "repeated phrases starting with \"Thanks to.\"",
+   "donor": 743,
+   "donor_model": "B",
+   "placebo": "mentions of the name \"Evgeni.\""
+  },
+  {
+   "target": 3812,
+   "target_A": "phrases related to activism and social issues",
+   "target_B": "words related to activism and activist actions",
+   "donor": 10122,
+   "donor_model": "B",
+   "placebo": "the presence of the word \"spell\" and its variations"
+  },
+  {
+   "target": 5264,
+   "target_A": "phrases related to political turmoil and conflict",
+   "target_B": "references to ethnic tensions and conflicts",
+   "donor": 13350,
+   "donor_model": "B",
+   "placebo": "terms related to structural integrity and engineering"
+  },
+  {
+   "target": 6076,
+   "target_A": "statistical or numerical information",
+   "target_B": "statistical data related to performance metrics in sports",
+   "donor": 2019,
+   "donor_model": "A",
+   "placebo": "co-occurrences of the word \"ary\""
+  },
+  {
+   "target": 5059,
+   "target_A": "terms related to prehistoric animals",
+   "target_B": "words related to mastodons and malt",
+   "donor": 1635,
+   "donor_model": "A",
+   "placebo": "mentions of or related to restaurants"
+  },
+  {
+   "target": 12229,
+   "target_A": "locations or geographical regions",
+   "target_B": "references to a specific geographical region",
+   "donor": 13920,
+   "donor_model": "B",
+   "placebo": "instances of the phrase \"one day.\""
+  },
+  {
+   "target": 23629,
+   "target_A": "grammatically structured phrases with specific keyword patterns",
+   "target_B": "occurrences of the verb \"to be\" in various forms",
+   "donor": 12069,
+   "donor_model": "B",
+   "placebo": "the word \"whee,\" indicating excitement or enthusiasm"
+  },
+  {
+   "target": 1635,
+   "target_A": "mentions of or related to restaurants",
+   "target_B": "mentions of restaurants",
+   "donor": 14889,
+   "donor_model": "B",
+   "placebo": "references to the Ars publication"
+  },
+  {
+   "target": 15660,
+   "target_A": "phrases related to directing or sending information",
+   "target_B": "references to direct communication or messages",
+   "donor": 5773,
+   "donor_model": "A",
+   "placebo": "the name \"Kay\" followed by a numerical value"
+  },
+  {
+   "target": 3232,
+   "target_A": "verbs indicating causality or influence",
+   "target_B": "adverbs or phrases that indicate degree or extent",
+   "donor": 14799,
+   "donor_model": "A",
+   "placebo": "words related to bundle offers or packages"
+  },
+  {
+   "target": 13572,
+   "target_A": "phrases related to absorption or substances being absorbed",
+   "target_B": "terms related to the process of absorption in various contexts",
+   "donor": 17379,
+   "donor_model": "A",
+   "placebo": "phrases indicating completion or finality, often with a tone of resolution or accomplishment"
+  },
+  {
+   "target": 21857,
+   "target_A": "concepts related to legislation",
+   "target_B": "references to legislation",
+   "donor": 13910,
+   "donor_model": "A",
+   "placebo": "mentions of the country Venezuela"
+  },
+  {
+   "target": 1746,
+   "target_A": "mentions or references to terrorist activities or groups",
+   "target_B": "mentions of terrorist groups and related terminology",
+   "donor": 5030,
+   "donor_model": "A",
+   "placebo": "phrases related to physically pinning or restraining something or someone"
+  },
+  {
+   "target": 15655,
+   "target_A": "keywords related to a specific direction or instruction, particularly the word \"right.\"",
+   "target_B": "the word \"right\" and its variations in various contexts indicating affirmation or agreement",
+   "donor": 12637,
+   "donor_model": "A",
+   "placebo": "names of individuals being selected or hired for specific roles or positions"
+  },
+  {
+   "target": 5030,
+   "target_A": "phrases related to physically pinning or restraining something or someone",
+   "target_B": "references to the concept of pinning or attaching items physically or metaphorically",
+   "donor": 865,
+   "donor_model": "A",
+   "placebo": "mentions of governmental entities or processes, particularly related to provincial governments"
+  },
+  {
+   "target": 9607,
+   "target_A": "phrases related to smoking",
+   "target_B": "terms related to smoking and its effects",
+   "donor": 21731,
+   "donor_model": "B",
+   "placebo": "terminology related to tax regulation and financial incentives"
+  },
+  {
+   "target": 20467,
+   "target_A": "verbs related to movement or actions of individuals",
+   "target_B": "verbs that indicate movement or action",
+   "donor": 3025,
+   "donor_model": "A",
+   "placebo": "phrases indicating lack of information or minimal impact"
+  },
+  {
+   "target": 22455,
+   "target_A": "names related to the name \"Gordon.\"",
+   "target_B": "references to the name Gordon, particularly in the context of notable individuals",
+   "donor": 4222,
+   "donor_model": "B",
+   "placebo": "symbols or characters that appear to be unusual or non-standard"
+  },
+  {
+   "target": 13920,
+   "target_A": "phrases mentioning future events or aspirations",
+   "target_B": "instances of the phrase \"one day.\"",
+   "donor": 17875,
+   "donor_model": "B",
+   "placebo": "instances of failure and related outcomes"
+  },
+  {
+   "target": 14562,
+   "target_A": "words related to financial transactions, specifically focusing on the concept of bills",
+   "target_B": "references to financial obligations or expenses",
+   "donor": 19071,
+   "donor_model": "A",
+   "placebo": "references to information sources or citations, often starting with \"According to\""
+  },
+  {
+   "target": 8968,
+   "target_A": "dates mentioned in text",
+   "target_B": "days of the week and specific dates",
+   "donor": 3812,
+   "donor_model": "A",
+   "placebo": "phrases related to activism and social issues"
+  },
+  {
+   "target": 2019,
+   "target_A": "co-occurrences of the word \"ary\"",
+   "target_B": "terms related to a specific genre or category frequently ending in \"ary.\"",
+   "donor": 3665,
+   "donor_model": "A",
+   "placebo": "phrases related to being projected or forecasted to occur"
+  },
+  {
+   "target": 12637,
+   "target_A": "names of individuals being selected or hired for specific roles or positions",
+   "target_B": "instances of the word \"to.\"",
+   "donor": 7791,
+   "donor_model": "B",
+   "placebo": "the word \"even\" in various contexts to indicate a comparison or enhancement"
+  },
+  {
+   "target": 13847,
+   "target_A": "proper nouns and terms related to legal and political issues",
+   "target_B": "references to controversial or significant issues and topics",
+   "donor": 7229,
+   "donor_model": "A",
+   "placebo": "words related to fashion or clothing items"
+  },
+  {
+   "target": 18377,
+   "target_A": "references to someone being a supporter or regular customer of a business or place",
+   "target_B": "references to patrons and patronage in various contexts",
+   "donor": 1746,
+   "donor_model": "A",
+   "placebo": "mentions or references to terrorist activities or groups"
+  },
+  {
+   "target": 14612,
+   "target_A": "words related to opposite sides or viewpoints",
+   "target_B": "references to conflicting parties or perspectives in a discussion",
+   "donor": 2339,
+   "donor_model": "A",
+   "placebo": "references to the physical top of something"
+  },
+  {
+   "target": 14256,
+   "target_A": "names or terms related to people, potentially in positions of authority or prominence",
+   "target_B": "mentions of specific individuals and their associated actions or roles",
+   "donor": 10461,
+   "donor_model": "B",
+   "placebo": "phrases that include the structure \"something of a/an\""
+  },
+  {
+   "target": 20058,
+   "target_A": "locations within the United States, specifically Washington, DC",
+   "target_B": "locations and references to Washington, D.C",
+   "donor": 16546,
+   "donor_model": "A",
+   "placebo": "mentions of rumors or speculation"
+  },
+  {
+   "target": 8697,
+   "target_A": "keywords related to silence or lack of noise",
+   "target_B": "references to the concept of quietness or tranquility",
+   "donor": 13068,
+   "donor_model": "A",
+   "placebo": "hyphenated numbers related to sports conferences"
+  },
+  {
+   "target": 18623,
+   "target_A": "words related to actions or events that involve manipulation or alteration",
+   "target_B": "prefixes or roots of words related to actions or states",
+   "donor": 18377,
+   "donor_model": "B",
+   "placebo": "references to patrons and patronage in various contexts"
+  },
+  {
+   "target": 13350,
+   "target_A": "terms related to structural components or properties",
+   "target_B": "terms related to structural integrity and engineering",
+   "donor": 11479,
+   "donor_model": "B",
+   "placebo": "terms related to the concept of assignment or allocation"
+  },
+  {
+   "target": 22598,
+   "target_A": "phrases introducing a new topic or concept",
+   "target_B": "assertions or statements beginning with \"That.\"",
+   "donor": 9607,
+   "donor_model": "B",
+   "placebo": "terms related to smoking and its effects"
+  },
+  {
+   "target": 336,
+   "target_A": "food and drink related phrases",
+   "target_B": "instances of the word \"ready\"",
+   "donor": 15387,
+   "donor_model": "B",
+   "placebo": "references to images or pictures"
+  },
+  {
+   "target": 16546,
+   "target_A": "mentions of rumors or speculation",
+   "target_B": "instances of the word \"rumor\"",
+   "donor": 22496,
+   "donor_model": "B",
+   "placebo": "references to governmental organizations and entities"
+  },
+  {
+   "target": 5596,
+   "target_A": "phrases or terms related to unique or characteristic elements",
+   "target_B": "references to unique characteristics or trademarks associated with items or individuals",
+   "donor": 19944,
+   "donor_model": "A",
+   "placebo": "words related to providing assistance or help"
+  },
+  {
+   "target": 9451,
+   "target_A": "conditional statements beginning with \"If\"",
+   "target_B": "conditional statements or hypothetical situations",
+   "donor": 17632,
+   "donor_model": "A",
+   "placebo": "mentions of press conferences"
+  },
+  {
+   "target": 11911,
+   "target_A": "days of the week, especially Monday",
+   "target_B": "mentions of days of the week, particularly in the context of events or actions",
+   "donor": 1589,
+   "donor_model": "A",
+   "placebo": "instances of the phrase 'per the official data'"
+  },
+  {
+   "target": 16447,
+   "target_A": "specific locations or venues where events occurred",
+   "target_B": "occurrences of \"at\" followed by locations or events",
+   "donor": 18011,
+   "donor_model": "B",
+   "placebo": "words related to dissociation or disconnection"
+  },
+  {
+   "target": 3540,
+   "target_A": "phrases containing the name \"McElroy\"",
+   "target_B": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof",
+   "donor": 24159,
+   "donor_model": "B",
+   "placebo": "specific formatting elements, particularly related to structured data or metadata"
+  },
+  {
+   "target": 18562,
+   "target_A": "mentions of additional or supplementary things",
+   "target_B": "mentions of the word \"extra\" in various contexts",
+   "donor": 23318,
+   "donor_model": "B",
+   "placebo": "references to mutation and mutilation"
+  },
+  {
+   "target": 3718,
+   "target_A": "female pronouns",
+   "target_B": "references to a specific female subject (likely a protagonist) and her actions or feelings",
+   "donor": 15618,
+   "donor_model": "B",
+   "placebo": "references to ambassadors and their assignments to various countries and organizations"
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 4912,
+   "donor_model": "B",
+   "placebo": "patterns resembling programming syntax and code structures"
+  },
+  {
+   "target": 3025,
+   "target_A": "phrases indicating lack of information or minimal impact",
+   "target_B": "phrases indicating a lack of information or uncertainty",
+   "donor": 6322,
+   "donor_model": "B",
+   "placebo": "references to knives in various contexts"
+  },
+  {
+   "target": 11931,
+   "target_A": "occurrences of the word \"method\" in the text",
+   "target_B": "references to various techniques or procedures",
+   "donor": 22836,
+   "donor_model": "B",
+   "placebo": "references to FIFA and related topics"
+  },
+  {
+   "target": 12276,
+   "target_A": "words related to pleasure or enjoyment",
+   "target_B": "references to the concept of pleasure",
+   "donor": 3246,
+   "donor_model": "B",
+   "placebo": "expressions of fear or anxiety"
+  },
+  {
+   "target": 14799,
+   "target_A": "words related to bundle offers or packages",
+   "target_B": "references to bundles and bundle deals",
+   "donor": 6076,
+   "donor_model": "B",
+   "placebo": "statistical data related to performance metrics in sports"
+  },
+  {
+   "target": 19956,
+   "target_A": "punctuation marks indicating a question, excitement, or an ending",
+   "target_B": "punctuation marks indicating rhetorical questions or exclamations",
+   "donor": 13572,
+   "donor_model": "B",
+   "placebo": "terms related to the process of absorption in various contexts"
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 12242,
+   "donor_model": "B",
+   "placebo": "titles and positions of authority or leadership"
+  },
+  {
+   "target": 743,
+   "target_A": "names related to sports or people's names",
+   "target_B": "mentions of the name \"Evgeni.\"",
+   "donor": 14562,
+   "donor_model": "B",
+   "placebo": "references to financial obligations or expenses"
+  },
+  {
+   "target": 22207,
+   "target_A": "generic phrases representing importance or priority",
+   "target_B": "phrases emphasizing priority or significance",
+   "donor": 10814,
+   "donor_model": "B",
+   "placebo": "references to financial bailouts and rescue packages"
+  },
+  {
+   "target": 10814,
+   "target_A": "mentions related to financial bailouts",
+   "target_B": "references to financial bailouts and rescue packages",
+   "donor": 13689,
+   "donor_model": "B",
+   "placebo": "references to the location 'Perth' and related proper names"
+  },
+  {
+   "target": 24159,
+   "target_A": "dates, numbers, and references to publications",
+   "target_B": "specific formatting elements, particularly related to structured data or metadata",
+   "donor": 18562,
+   "donor_model": "B",
+   "placebo": "mentions of the word \"extra\" in various contexts"
+  },
+  {
+   "target": 23683,
+   "target_A": "words related to authenticity",
+   "target_B": "terms related to authenticity and genuine identity",
+   "donor": 11794,
+   "donor_model": "A",
+   "placebo": "video-related words or prompts"
+  },
+  {
+   "target": 23863,
+   "target_A": "adjectives that describe attributes of objects or characteristics of actions",
+   "target_B": "adjectives that convey characteristics of objects, emotions, and behaviors",
+   "donor": 14612,
+   "donor_model": "A",
+   "placebo": "words related to opposite sides or viewpoints"
+  },
+  {
+   "target": 21183,
+   "target_A": "Overused or excessive terms and phrases",
+   "target_B": "instances of the prefix \"over\" or related forms indicating excessive actions or conditions",
+   "donor": 15655,
+   "donor_model": "B",
+   "placebo": "the word \"right\" and its variations in various contexts indicating affirmation or agreement"
+  },
+  {
+   "target": 16631,
+   "target_A": "phrases related to appearance and comparison",
+   "target_B": "expressions related to perception and appearance",
+   "donor": 5634,
+   "donor_model": "A",
+   "placebo": "financial and business related terms"
+  },
+  {
+   "target": 10171,
+   "target_A": "locations where something or someone was left",
+   "target_B": "instances of the word \"left.\"",
+   "donor": 5479,
+   "donor_model": "A",
+   "placebo": "references to different ethnic groups or communities"
+  },
+  {
+   "target": 19647,
+   "target_A": "phrases related to councils or political associations",
+   "target_B": "references to various councils and their roles or functions",
+   "donor": 24369,
+   "donor_model": "B",
+   "placebo": "phrases indicating comparisons between different time periods or generations"
+  },
+  {
+   "target": 11974,
+   "target_A": "instances of the word \"sexuality\" along with other related concepts or contexts",
+   "target_B": "references to sexuality and related identity topics",
+   "donor": 2221,
+   "donor_model": "A",
+   "placebo": "instances of the word \"relative\" occurring in various contexts"
+  },
+  {
+   "target": 16064,
+   "target_A": "proper nouns related to locations or people",
+   "target_B": "proper nouns, particularly names associated with locations and individuals",
+   "donor": 20199,
+   "donor_model": "B",
+   "placebo": "exclamatory expressions of surprise or amazement"
+  },
+  {
+   "target": 24369,
+   "target_A": "comparisons between different time periods or locations",
+   "target_B": "phrases indicating comparisons between different time periods or generations",
+   "donor": 19103,
+   "donor_model": "A",
+   "placebo": "references to churches or church-related activities"
+  },
+  {
+   "target": 21731,
+   "target_A": "terms related to tax breaks",
+   "target_B": "terminology related to tax regulation and financial incentives",
+   "donor": 23756,
+   "donor_model": "A",
+   "placebo": "the word \"topic\" followed by a number"
+  },
+  {
+   "target": 8511,
+   "target_A": "organizations or formal groups",
+   "target_B": "references to organizations or entities described as \"bodies.\"",
+   "donor": 20373,
+   "donor_model": "B",
+   "placebo": "occurrences of the word \"ki.\""
+  },
+  {
+   "target": 19103,
+   "target_A": "references to churches or church-related activities",
+   "target_B": "references to \"church.\"",
+   "donor": 21484,
+   "donor_model": "B",
+   "placebo": "ISBN numbers and other publication identifiers"
+  },
+  {
+   "target": 19071,
+   "target_A": "references to information sources or citations, often starting with \"According to\"",
+   "target_B": "instances of the phrase \"According to the.\"",
+   "donor": 9692,
+   "donor_model": "A",
+   "placebo": "mentions or descriptions related to LEGO"
+  },
+  {
+   "target": 13689,
+   "target_A": "mentions of the location \"Perth\" with varying levels of specificity",
+   "target_B": "references to the location 'Perth' and related proper names",
+   "donor": 14097,
+   "donor_model": "B",
+   "placebo": "mentions of the word \"Cop\" in various contexts"
+  },
+  {
+   "target": 3246,
+   "target_A": "words and phrases related to fear and anxiety",
+   "target_B": "expressions of fear or anxiety",
+   "donor": 2112,
+   "donor_model": "B",
+   "placebo": "references to specific ethnic groups or nationalities"
+  },
+  {
+   "target": 21725,
+   "target_A": "phrases containing dialogues with speech marks",
+   "target_B": "punctuation marks, particularly quotation marks in dialogue",
+   "donor": 20058,
+   "donor_model": "A",
+   "placebo": "locations within the United States, specifically Washington, DC"
+  },
+  {
+   "target": 2221,
+   "target_A": "instances of the word \"relative\" occurring in various contexts",
+   "target_B": "terms associated with comparisons or ratios",
+   "donor": 19647,
+   "donor_model": "A",
+   "placebo": "phrases related to councils or political associations"
+  },
+  {
+   "target": 8995,
+   "target_A": "words related to radio",
+   "target_B": "references to radio",
+   "donor": 21857,
+   "donor_model": "B",
+   "placebo": "references to legislation"
+  },
+  {
+   "target": 21484,
+   "target_A": "ISBN numbers",
+   "target_B": "ISBN numbers and other publication identifiers",
+   "donor": 8995,
+   "donor_model": "B",
+   "placebo": "references to radio"
+  }
+ ]
+}
