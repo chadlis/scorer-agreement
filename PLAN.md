@@ -3,8 +3,7 @@
 > **Status (2026-11-20): complete, not frozen yet.** Every decision is taken. The
 > file will be frozen in the commit that adds the verified texts and labels (git tag
 > `plan-frozen`), before the first scorer call. From then on, any change is recorded
-> in `DEVIATIONS.md` with its reason. Still to fix before the pilot: its spending cap
-> (section 2.7, rule 3).
+> in `DEVIATIONS.md` with its reason.
 
 How to read it: section 1 is a one-page summary, section 2 holds the rules in the
 order the study runs, section 3 gathers every limit to be reported, and the
@@ -377,8 +376,10 @@ All analyses are fixed here before any scorer call.
    - less than 2% invalid answers per scorer,
    - the real cost per call, thinking included, per scorer,
    - both central measures (agreement and gain) computed end to end.
-3. *Spending caps.* A spending cap for the pilot is fixed by Salah before the first
-   paid call, and the total cap after the pilot, from the measured cost.
+3. *Spending caps.* The pilot is capped at 10 USD (decided by Salah on 2026-11-20,
+   about three times the estimate of 3 USD from the token counts of the format
+   checks). The run stops on its own when the cap is reached. The total cap is fixed
+   after the pilot, from the measured cost.
 4. *Pilot fails.* If the pilot fails, the data are fixed and the grid does not
    start.
 5. *Grid too slow or too costly.* A scorer is removed (Opus first) or the number of
