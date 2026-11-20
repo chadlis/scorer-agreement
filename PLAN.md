@@ -212,8 +212,8 @@ Two independent reviews (2026-11-20) checked this rule against the trial data.
 
 ### Placebos (decided 2026-11-20)
 
-Each feature receives one placebo: the explanation of another sampled feature, with
-the same scorer prompt. Labels stay those of the target feature.
+Each feature receives one placebo: the explanation of another feature (the donor),
+with the same scorer prompt. Labels stay those of the target feature.
 
 **Rule.**
 
@@ -250,6 +250,21 @@ the same scorer prompt. Labels stay those of the target feature.
    positive or negative. It does not bias the gain, but it makes the placebo
    condition uneven across features, so it is rejected and counts as a doubt in the
    triage.
+8b. *Donor pool* (decided after the round 2 triage). Rules 1 and 8 cannot hold
+   together: some sampled features have two generic explanations (for example
+   "proper nouns, specifically names" and "names of individuals"), so they cannot
+   donate, yet rule 1 makes every sampled feature donate once. From round 3 on:
+   - a fresh Fable 5.2 agent classes every explanation of the sample, and of the
+     candidate donors below, as *specific* or *generic*, and its output is kept,
+   - a fourth filter (d) rejects a placebo classed generic,
+   - a sampled feature whose A and B are both generic is not a donor (it stays a
+     target),
+   - each one is replaced by the next feature of the draw order, from position 113,
+     that passes conditions (a) to (c) of the sampling and has at least one specific
+     explanation. These outside donors are not targets: they supply no texts,
+   - round 3 starts from a new derangement of targets onto this donor pool (seed
+     20261120 + 3), keeps the pairs rejected in round 1 forbidden, and repairs as in
+     rule 4. Each donor still serves exactly once. Round 2 was not reviewed.
 9. *Freeze.* The final assignment, the triage and the review are committed before
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.

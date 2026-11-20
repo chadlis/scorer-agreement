@@ -1,0 +1,10 @@
+{
+ "round": 2,
+ "date": "2026-11-20",
+ "reviewer": null,
+ "rejected_doubt": [],
+ "confident_checked": [],
+ "confident_rejected": [],
+ "rejected_generic": [],
+ "note": "Not reviewed: the round 2 triage showed that rules 1 and 8 cannot hold together (some sampled features have only generic explanations). Superseded by the donor pool of rule 8b and a new assignment in round 3."
+}
