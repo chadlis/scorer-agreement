@@ -1,0 +1,36 @@
+{
+ "pairs": [
+  {
+   "target": 5479,
+   "target_A": "references to different ethnic groups or communities",
+   "target_B": "references to groups of people and their identities",
+   "donor": 13068,
+   "donor_model": "A",
+   "placebo": "hyphenated numbers related to sports conferences"
+  },
+  {
+   "target": 18727,
+   "target_A": "references to the state of Maine",
+   "target_B": "the repeated mention of the state of Maine",
+   "donor": 23318,
+   "donor_model": "A",
+   "placebo": "mentions of biological mutations or alterations"
+  },
+  {
+   "target": 8697,
+   "target_A": "keywords related to silence or lack of noise",
+   "target_B": "references to the concept of quietness or tranquility",
+   "donor": 20682,
+   "donor_model": "A",
+   "placebo": "names of a person, specifically the name \"Corey\""
+  },
+  {
+   "target": 18562,
+   "target_A": "mentions of additional or supplementary things",
+   "target_B": "mentions of the word \"extra\" in various contexts",
+   "donor": 22496,
+   "donor_model": "B",
+   "placebo": "references to governmental organizations and entities"
+  }
+ ]
+}
