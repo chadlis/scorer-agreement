@@ -1,0 +1,21 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Le placebo est-il assez spécifique et assez éloigné du sens de la cible pour qu'un scoreur réponde 0 à la plupart des textes, y compris ceux où la cible s'active ?",
+ "pairs": [
+  {
+   "target": 8697,
+   "verdict": "confident",
+   "reason": "Comparaison entre périodes ou lieux : motif précis (il faut une comparaison explicite), sans lien avec le silence ou la tranquillité."
+  },
+  {
+   "target": 22207,
+   "verdict": "confident",
+   "reason": "Deux prénoms précis (Corey, Derrick) : très spécifique, sans rapport avec les formules d'importance ou de priorité."
+  },
+  {
+   "target": 19647,
+   "verdict": "doubt",
+   "reason": "Doute fort, problème de recouvrement (fit) : un conseil est une organisation couramment appelée « body » (governing body), catégorie plus large qui inclut la cible."
+  }
+ ]
+}
