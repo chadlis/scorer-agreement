@@ -1,0 +1,44 @@
+{
+ "pairs": [
+  {
+   "target": 23318,
+   "target_A": "mentions of biological mutations or alterations",
+   "target_B": "references to mutation and mutilation",
+   "donor": 8697,
+   "donor_model": "B",
+   "placebo": "references to the concept of quietness or tranquility"
+  },
+  {
+   "target": 5479,
+   "target_A": "references to different ethnic groups or communities",
+   "target_B": "references to groups of people and their identities",
+   "donor": 20682,
+   "donor_model": "A",
+   "placebo": "names of a person, specifically the name \"Corey\""
+  },
+  {
+   "target": 16269,
+   "target_A": "terms related to therapeutic treatments or therapies",
+   "target_B": "terms related to the concept of \"ape.\"",
+   "donor": 20308,
+   "donor_model": "A",
+   "placebo": "names containing 'Brien' or 'Reilly'"
+  },
+  {
+   "target": 10122,
+   "target_A": "words related to magic and spells",
+   "target_B": "the presence of the word \"spell\" and its variations",
+   "donor": 11911,
+   "donor_model": "A",
+   "placebo": "days of the week, especially Monday"
+  },
+  {
+   "target": 18727,
+   "target_A": "references to the state of Maine",
+   "target_B": "the repeated mention of the state of Maine",
+   "donor": 22496,
+   "donor_model": "A",
+   "placebo": "references to government bodies and officials"
+  }
+ ]
+}
