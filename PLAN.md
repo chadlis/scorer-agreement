@@ -62,8 +62,28 @@ exploratory seed 1): 113 of 120 pass conditions (a) to (c), so about 106 feature
 are examined. The sample should hold about 1 feature between 0.001% and 0.01%, 63
 between 0.01% and 0.1%, and 36 between 0.1% and 1%.
 
-**Limit, to be reported.** Rare features (below 0.01%) are about 1% of eligible
-features: the study says nothing about them.
+**Result of the draw (2026-11-20, `scripts/draw_features.py`, `data/draw/`).** 113
+features were examined in the seeded order: 5 failed the frequency filter (one of
+them never fires), 8 failed the gate, 100 were kept. The pilot is 1133, 10461,
+14889, 47 and 15387. Replacements continue from position 113. The sample holds 1
+feature between 0.001% and 0.01%, 71 between 0.01% and 0.1%, and 28 between 0.1%
+and 1%.
+
+**Limits, to be reported.**
+
+- *Rare features.* Features below 0.01% are about 1% of eligible features: the
+  study says nothing about them.
+- *Features that fire on line breaks are excluded by construction.* The scorer's
+  text replaces line breaks with spaces (decided 2026-11-19), so a feature whose
+  activation sits on the line-break token cannot fire on what the scorer reads.
+  Two of the 108 features that reached the gate are of this kind (11574 and 1715,
+  peak on the line break, recomputed at 0).
+- *The gate shifts the sample towards less frequent features.* The other 6 gate
+  failures collapse when their strongest window is sent alone: 4 fall to 0 and 2
+  fall below the threshold (6% and 9% of the maximum). Six of the 8 failures are
+  above 0.1%, so the sample holds 28 features above 0.1% where the survey predicted
+  about 36. The study describes features whose activation can be read from the
+  window alone.
 
 ### Negatives (decided 2026-11-19)
 
