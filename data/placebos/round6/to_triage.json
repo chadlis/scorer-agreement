@@ -1,0 +1,76 @@
+{
+ "pairs": [
+  {
+   "target": 9692,
+   "target_A": "mentions or descriptions related to LEGO",
+   "target_B": "references to the brand Lego and its products",
+   "donor": 1635,
+   "donor_model": "A",
+   "placebo": "mentions of or related to restaurants"
+  },
+  {
+   "target": 17632,
+   "target_A": "mentions of press conferences",
+   "target_B": "instances of the indefinite articles \"a\" and \"an\" in various contexts",
+   "donor": 4912,
+   "donor_model": "B",
+   "placebo": "patterns resembling programming syntax and code structures"
+  },
+  {
+   "target": 20330,
+   "target_A": "the number \"two\" or variations of it",
+   "target_B": "instances of the word \"two.\"",
+   "donor": 12242,
+   "donor_model": "B",
+   "placebo": "titles and positions of authority or leadership"
+  },
+  {
+   "target": 5634,
+   "target_A": "financial and business related terms",
+   "target_B": "terms related to success and business metrics",
+   "donor": 3246,
+   "donor_model": "B",
+   "placebo": "expressions of fear or anxiety"
+  },
+  {
+   "target": 5059,
+   "target_A": "terms related to prehistoric animals",
+   "target_B": "words related to mastodons and malt",
+   "donor": 3540,
+   "donor_model": "A",
+   "placebo": "phrases containing the name \"McElroy\""
+  },
+  {
+   "target": 12732,
+   "target_A": "phrases related to unexpected revelations or surprising discoveries",
+   "target_B": "phrases indicating a revelation or new information being presented",
+   "donor": 15660,
+   "donor_model": "B",
+   "placebo": "references to direct communication or messages"
+  },
+  {
+   "target": 12276,
+   "target_A": "words related to pleasure or enjoyment",
+   "target_B": "references to the concept of pleasure",
+   "donor": 16631,
+   "donor_model": "B",
+   "placebo": "expressions related to perception and appearance"
+  },
+  {
+   "target": 13910,
+   "target_A": "mentions of the country Venezuela",
+   "target_B": "mentions and references to Venezuela and its political context",
+   "donor": 2112,
+   "donor_model": "B",
+   "placebo": "references to specific ethnic groups or nationalities"
+  },
+  {
+   "target": 3246,
+   "target_A": "words and phrases related to fear and anxiety",
+   "target_B": "expressions of fear or anxiety",
+   "donor": 47,
+   "donor_model": "B",
+   "placebo": "mentions of a political party"
+  }
+ ]
+}
