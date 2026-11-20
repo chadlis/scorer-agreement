@@ -98,7 +98,9 @@ unreadable answers. Without `--yes`, scripts only print what they would send.
 
 `uv run scripts/check_activation_api.py` recomputes five stored windows of feature 100
 with Neuronpedia's free activation API (`data/activation_test/`).
-`uv run scripts/check_negatives.py` tries the negatives rule on six features. Calls to
+`uv run scripts/check_negatives.py` tries the negatives rule on six features.
+`uv run scripts/survey_features.py` downloads 120 random features (exploratory seed 1,
+distinct from the final draw) to size the sampling rule (`data/feature_survey/`). Calls to
 the activation API are spaced by 3.6 s, retried on rate limits and server errors,
 and cached under `data/raw/`.
 

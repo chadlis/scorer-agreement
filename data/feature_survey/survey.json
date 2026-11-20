@@ -1,0 +1,1805 @@
+{
+ "seed": 1,
+ "features": [
+  {
+   "index": 4402,
+   "frac_nonzero": 0.0002177556355794271,
+   "max_act": 47.31252288818359,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 65,
+   "n_pos_windows": 40,
+   "n_pos_passages": 39,
+   "explanations": {
+    "gpt-3.5-turbo": "actions related to undergoing some form of treatment or evaluation",
+    "gpt-4o-mini": "the term \"undergo\" and its variations, indicating processes or changes"
+   }
+  },
+  {
+   "index": 18651,
+   "frac_nonzero": 0.0003442764282226562,
+   "max_act": 41.15940093994141,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 69,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": " phrases related to committing offenses or crimes",
+    "gpt-4o-mini": "terms related to legal violations or offenses"
+   }
+  },
+  {
+   "index": 2067,
+   "frac_nonzero": 0.0004002253214518229,
+   "max_act": 51.24020767211914,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases where \"kind of\" is used",
+    "gpt-4o-mini": "phrases that include the word \"kind.\""
+   }
+  },
+  {
+   "index": 8358,
+   "frac_nonzero": 0.0004704793294270833,
+   "max_act": 15.52940559387207,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 50,
+   "explanations": {
+    "gpt-3.5-turbo": "references to specific geographical locations, particularly cities",
+    "gpt-4o-mini": " references to specific locations or areas, particularly cities and towns"
+   }
+  },
+  {
+   "index": 3863,
+   "frac_nonzero": 8.360544840494792e-05,
+   "max_act": 60.07350158691406,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 45,
+   "explanations": {
+    "gpt-3.5-turbo": "names of political figures, specifically focusing on those with the prefix \"Mu\"",
+    "gpt-4o-mini": "the mentions of the name \"Muammar\" and its variations, particularly in a political context"
+   }
+  },
+  {
+   "index": 16234,
+   "frac_nonzero": 0.0001977284749348958,
+   "max_act": 61.81362533569336,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 60,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to legal or political issues, especially regarding civil rights or liberties",
+    "gpt-4o-mini": " terms related to civil rights and liberties"
+   }
+  },
+  {
+   "index": 14728,
+   "frac_nonzero": 0.002024650573730469,
+   "max_act": 29.72940635681152,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "personal pronouns followed by verbs",
+    "gpt-4o-mini": " instances of the word \"you\" emphasizing direct address or engagement with the reader"
+   }
+  },
+  {
+   "index": 15474,
+   "frac_nonzero": 0.0004364649454752604,
+   "max_act": 44.37401962280273,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 88,
+   "n_pos_windows": 63,
+   "n_pos_passages": 62,
+   "explanations": {
+    "gpt-3.5-turbo": "the surname \"Ridgway.\"",
+    "gpt-4o-mini": "multiple instances of the letter 'g' in various contexts"
+   }
+  },
+  {
+   "index": 21351,
+   "frac_nonzero": 0.002301216125488281,
+   "max_act": 13.11726188659668,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 78,
+   "n_pos_windows": 53,
+   "n_pos_passages": 50,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of specific individuals in a context related to sports or activities",
+    "gpt-4o-mini": " instances of proper nouns or specific entities"
+   }
+  },
+  {
+   "index": 12439,
+   "frac_nonzero": 0.0003773371378580729,
+   "max_act": 39.22525024414062,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 58,
+   "n_pos_windows": 33,
+   "n_pos_passages": 30,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to financial matters, particularly deductions",
+    "gpt-4o-mini": "terms related to tax deductions and their implications"
+   }
+  },
+  {
+   "index": 6879,
+   "frac_nonzero": 0.0002091725667317708,
+   "max_act": 55.84438323974609,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 58,
+   "n_pos_windows": 33,
+   "n_pos_passages": 33,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of economic policies related to government austerity measures",
+    "gpt-4o-mini": " references to austerity measures and policies"
+   }
+  },
+  {
+   "index": 3075,
+   "frac_nonzero": 0.002869606018066406,
+   "max_act": 29.50498008728027,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases indicating supporting or opposing an argument",
+    "gpt-4o-mini": " occurrences of a specific symbol or character"
+   }
+  },
+  {
+   "index": 15986,
+   "frac_nonzero": 0.0002533594767252604,
+   "max_act": 57.28655242919922,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 47,
+   "explanations": {
+    "gpt-3.5-turbo": "We're sorry, we made a mistake in understanding the neuron's behavior. Based on the activations provided, the neuron is primarily looking for terms related to the Google company",
+    "gpt-4o-mini": " occurrences of the word \"Google.\""
+   }
+  },
+  {
+   "index": 928,
+   "frac_nonzero": 0.0007034937540690104,
+   "max_act": 11.49408435821533,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 77,
+   "n_pos_windows": 52,
+   "n_pos_passages": 52,
+   "explanations": {
+    "gpt-3.5-turbo": "sports team names",
+    "gpt-4o-mini": " mentions of specific sports teams and medical conditions related to the lungs"
+   }
+  },
+  {
+   "index": 12773,
+   "frac_nonzero": 0.000232696533203125,
+   "max_act": 59.44748306274414,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 60,
+   "n_pos_windows": 35,
+   "n_pos_passages": 33,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to financial entities like hedge funds",
+    "gpt-4o-mini": " references to hedge funds and related financial concepts"
+   }
+  },
+  {
+   "index": 14180,
+   "frac_nonzero": 0.0002390543619791667,
+   "max_act": 36.18598556518555,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "the word \"supporters\" along with interactions or actions associated with supporters",
+    "gpt-4o-mini": "references to supporters"
+   }
+  },
+  {
+   "index": 19904,
+   "frac_nonzero": 0.0004695256551106771,
+   "max_act": 30.05917739868164,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to cooperation and collaboration",
+    "gpt-4o-mini": " occurrences of the concept of collaboration or working together"
+   }
+  },
+  {
+   "index": 69,
+   "frac_nonzero": 0.0002841949462890625,
+   "max_act": 30.39421844482422,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to a decline or downfall",
+    "gpt-4o-mini": "references to the phrase \"go down.\""
+   }
+  },
+  {
+   "index": 22801,
+   "frac_nonzero": 0.003091812133789062,
+   "max_act": 11.45468330383301,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to compensation or reward",
+    "gpt-4o-mini": " phrases related to compensation or rewards"
+   }
+  },
+  {
+   "index": 14594,
+   "frac_nonzero": 0.0002183914184570312,
+   "max_act": 54.46945571899414,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases or sentences denoting a significant event or occurrence for the first time in a particular context",
+    "gpt-4o-mini": " occurrences of the phrase \"first time.\""
+   }
+  },
+  {
+   "index": 8727,
+   "frac_nonzero": 0.0006046295166015625,
+   "max_act": 29.16275215148926,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to the effects and impacts of various factors or events",
+    "gpt-4o-mini": "references to the effects and impacts of various situations or conditions"
+   }
+  },
+  {
+   "index": 23643,
+   "frac_nonzero": 0.0002393722534179688,
+   "max_act": 42.64886093139648,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 63,
+   "n_pos_windows": 38,
+   "n_pos_passages": 37,
+   "explanations": {
+    "gpt-3.5-turbo": "words containing the sequence \"ech\"",
+    "gpt-4o-mini": "references to the \"tech\" or \"technology\" domain"
+   }
+  },
+  {
+   "index": 7496,
+   "frac_nonzero": 0.03208573659261068,
+   "max_act": 329.6368103027344,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 45,
+   "n_pos_windows": 32,
+   "n_pos_passages": 22,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to warning signs about alcohol consumption",
+    "gpt-4o-mini": "the presence of special characters or formatting indicators"
+   }
+  },
+  {
+   "index": 19370,
+   "frac_nonzero": 0.0008328755696614584,
+   "max_act": 26.11426544189453,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 74,
+   "n_pos_windows": 49,
+   "n_pos_passages": 47,
+   "explanations": {
+    "gpt-3.5-turbo": "numbers with a specific format - '000' followed by varying numbers",
+    "gpt-4o-mini": "repeated numerical patterns or counts"
+   }
+  },
+  {
+   "index": 3349,
+   "frac_nonzero": 0.0001570383707682292,
+   "max_act": 52.96334075927734,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 69,
+   "n_pos_windows": 44,
+   "n_pos_passages": 41,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of the Veterans Affairs (VA) system",
+    "gpt-4o-mini": "references to the Veterans Administration (VA)"
+   }
+  },
+  {
+   "index": 10401,
+   "frac_nonzero": 0.0004599889119466146,
+   "max_act": 39.94068908691406,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "verbs related to promoting or advocating for different causes or ideologies",
+    "gpt-4o-mini": "phrases related to promoting various causes or initiatives"
+   }
+  },
+  {
+   "index": 1002,
+   "frac_nonzero": 0.0002667109171549479,
+   "max_act": 40.22521209716797,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 70,
+   "n_pos_windows": 46,
+   "n_pos_passages": 46,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to lottery activities",
+    "gpt-4o-mini": "references to lottery and gambling contexts"
+   }
+  },
+  {
+   "index": 731,
+   "frac_nonzero": 0.000255584716796875,
+   "max_act": 40.2470703125,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 89,
+   "n_pos_windows": 64,
+   "n_pos_passages": 64,
+   "explanations": {
+    "gpt-3.5-turbo": "commands or directives given by an authority figure or person in power",
+    "gpt-4o-mini": " instances of commands or directives given by authoritative figures"
+   }
+  },
+  {
+   "index": 833,
+   "frac_nonzero": 0.0006923675537109375,
+   "max_act": 31.27457046508789,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "ment of entities or concepts occurring outside of a specific context",
+    "gpt-4o-mini": " references to entities or topics related to locations or external contexts"
+   }
+  },
+  {
+   "index": 21284,
+   "frac_nonzero": 0.0004421869913736979,
+   "max_act": 38.60434341430664,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 70,
+   "n_pos_windows": 45,
+   "n_pos_passages": 41,
+   "explanations": {
+    "gpt-3.5-turbo": "strings related to retrieving or manipulating data, likely related to programming scripts",
+    "gpt-4o-mini": " occurrences of the term \"get\" and its variations in a programming context"
+   }
+  },
+  {
+   "index": 17741,
+   "frac_nonzero": 0.0005251566569010416,
+   "max_act": 33.69692611694336,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to specific locations or events, such as \"Spadina\" and \"Fort York\"",
+    "gpt-4o-mini": " references to locations and specific geographic or urban terms"
+   }
+  },
+  {
+   "index": 301,
+   "frac_nonzero": 0.0002660751342773438,
+   "max_act": 37.28860855102539,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "medical procedures or processes",
+    "gpt-4o-mini": " mentions of various procedures"
+   }
+  },
+  {
+   "index": 12491,
+   "frac_nonzero": 0.002197901407877604,
+   "max_act": 22.0121898651123,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases expressing negation or contradiction",
+    "gpt-4o-mini": "negations or expressions of denial"
+   }
+  },
+  {
+   "index": 22494,
+   "frac_nonzero": 0.001415888468424479,
+   "max_act": 21.88845252990723,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "numbers, such as figures, statistics, and projected values",
+    "gpt-4o-mini": "terms related to forecasts or projections of future results or conditions"
+   }
+  },
+  {
+   "index": 7097,
+   "frac_nonzero": 0.01304531097412109,
+   "max_act": 14.19962024688721,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 77,
+   "n_pos_windows": 53,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to instructions or commands",
+    "gpt-4o-mini": " key phrases associated with important decisions or actions"
+   }
+  },
+  {
+   "index": 13831,
+   "frac_nonzero": 0.0002288818359375,
+   "max_act": 47.68447875976562,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "sports-related terms and statistics",
+    "gpt-4o-mini": "bullet points or list items in a text"
+   }
+  },
+  {
+   "index": 23784,
+   "frac_nonzero": 0.01148382822672526,
+   "max_act": 6.208103656768799,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 56,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to actions in various scenarios such as battles, games, and everyday life",
+    "gpt-4o-mini": " tactical and situational elements related to movement and positioning"
+   }
+  },
+  {
+   "index": 951,
+   "frac_nonzero": 0.000278472900390625,
+   "max_act": 24.86122512817383,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 44,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to a specific term \"ie\" in a technical context",
+    "gpt-4o-mini": " mentions of Internet Explorer"
+   }
+  },
+  {
+   "index": 17289,
+   "frac_nonzero": 0.0002962748209635417,
+   "max_act": 36.30146408081055,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to carrying out actions or procedures",
+    "gpt-4o-mini": " instances of the term \"execution\" and its related forms"
+   }
+  },
+  {
+   "index": 7264,
+   "frac_nonzero": 0.0001513163248697917,
+   "max_act": 41.74356460571289,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 71,
+   "n_pos_windows": 47,
+   "n_pos_passages": 42,
+   "explanations": {
+    "gpt-3.5-turbo": "locations or landmarks related to the city of San Diego",
+    "gpt-4o-mini": " mentions of \"San Diego\" and related locations"
+   }
+  },
+  {
+   "index": 14348,
+   "frac_nonzero": 0.001722017923990885,
+   "max_act": 20.75392150878906,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 59,
+   "explanations": {
+    "gpt-3.5-turbo": "names or proper nouns",
+    "gpt-4o-mini": " proper nouns, particularly names of people and places"
+   }
+  },
+  {
+   "index": 16246,
+   "frac_nonzero": 0.0009682973225911459,
+   "max_act": 22.68511772155762,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "locations or organizations",
+    "gpt-4o-mini": "references to specific countries and regions"
+   }
+  },
+  {
+   "index": 18116,
+   "frac_nonzero": 0.006697972615559896,
+   "max_act": 11.86288166046143,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 56,
+   "n_pos_passages": 45,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to political events and figures",
+    "gpt-4o-mini": " sentences or phrases that conclude with punctuation marks, indicating the end of statements or thoughts"
+   }
+  },
+  {
+   "index": 7637,
+   "frac_nonzero": 0.004998842875162761,
+   "max_act": 9.609193801879883,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 59,
+   "n_pos_passages": 59,
+   "explanations": {
+    "gpt-3.5-turbo": "sports-related terms and actions",
+    "gpt-4o-mini": " entities and specific terms related to team sports and organizational structures"
+   }
+  },
+  {
+   "index": 11327,
+   "frac_nonzero": 0.01006476084391276,
+   "max_act": 7.308062076568604,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 75,
+   "n_pos_windows": 50,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "instances of the word 'end'",
+    "gpt-4o-mini": "terms related to repetition or recurrence"
+   }
+  },
+  {
+   "index": 7565,
+   "frac_nonzero": 0.0002838770548502604,
+   "max_act": 36.42209243774414,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 72,
+   "n_pos_windows": 47,
+   "n_pos_passages": 47,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to forceful impact or criticism",
+    "gpt-4o-mini": " instances of the word \"slam\" and its variations, indicating a focus on harsh criticism or strong reactions"
+   }
+  },
+  {
+   "index": 22178,
+   "frac_nonzero": 0.001450220743815104,
+   "max_act": 18.63802146911621,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 67,
+   "n_pos_windows": 42,
+   "n_pos_passages": 40,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to medical conditions, especially Alzheimer's disease and Parkinson's disease",
+    "gpt-4o-mini": "mentions of Alzheimer's disease and related health conditions"
+   }
+  },
+  {
+   "index": 7169,
+   "frac_nonzero": 0.0001999537150065104,
+   "max_act": 50.43829345703125,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 57,
+   "n_pos_windows": 32,
+   "n_pos_passages": 32,
+   "explanations": {
+    "gpt-3.5-turbo": "references to the city or university of Newcastle",
+    "gpt-4o-mini": " mentions of the location \"Newcastle.\""
+   }
+  },
+  {
+   "index": 15060,
+   "frac_nonzero": 0.0006564458211263021,
+   "max_act": 21.91450500488281,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 76,
+   "n_pos_windows": 51,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of organizations and events related to environmental activism",
+    "gpt-4o-mini": "mentions of environmental organizations and health-related entities"
+   }
+  },
+  {
+   "index": 9495,
+   "frac_nonzero": 0.0001249313354492188,
+   "max_act": 40.51863479614258,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 65,
+   "n_pos_windows": 40,
+   "n_pos_passages": 37,
+   "explanations": {
+    "gpt-3.5-turbo": "contractions with negative statements",
+    "gpt-4o-mini": "the repeated expression of inability or failure to act"
+   }
+  },
+  {
+   "index": 704,
+   "frac_nonzero": 0.003249168395996094,
+   "max_act": 13.90056705474854,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to legal or regulatory issues",
+    "gpt-4o-mini": "emphasis or sentiment expressed through the phrase \"I am.\""
+   }
+  },
+  {
+   "index": 13637,
+   "frac_nonzero": 0.0003843307495117188,
+   "max_act": 46.40497207641602,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 59,
+   "explanations": {
+    "gpt-3.5-turbo": "comparative terms denoting degree or intensity",
+    "gpt-4o-mini": "repeated mentions of the word \"much\" to emphasize comparisons or intensify statements"
+   }
+  },
+  {
+   "index": 18233,
+   "frac_nonzero": 8.551279703776042e-05,
+   "max_act": 65.63570404052734,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 51,
+   "n_pos_windows": 26,
+   "n_pos_passages": 5,
+   "explanations": {
+    "gpt-3.5-turbo": "references to media playback on unsupported devices",
+    "gpt-4o-mini": "references to device compatibility and issues related to media playback"
+   }
+  },
+  {
+   "index": 21046,
+   "frac_nonzero": 0.001744270324707031,
+   "max_act": 22.73254776000977,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 70,
+   "n_pos_windows": 45,
+   "n_pos_passages": 44,
+   "explanations": {
+    "gpt-3.5-turbo": "references to advertisements or commercials",
+    "gpt-4o-mini": "references to commercials and advertisements"
+   }
+  },
+  {
+   "index": 3276,
+   "frac_nonzero": 0.0001207987467447917,
+   "max_act": 54.73219299316406,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 57,
+   "n_pos_windows": 32,
+   "n_pos_passages": 30,
+   "explanations": {
+    "gpt-3.5-turbo": "the phrase \"by the way\"",
+    "gpt-4o-mini": "phrases that introduce additional comments or asides"
+   }
+  },
+  {
+   "index": 6091,
+   "frac_nonzero": 0.001472791035970052,
+   "max_act": 19.94805717468262,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 77,
+   "n_pos_windows": 52,
+   "n_pos_passages": 48,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to authority, power, and decision-making",
+    "gpt-4o-mini": " references to authority and discretion in governance"
+   }
+  },
+  {
+   "index": 20622,
+   "frac_nonzero": 0.003643989562988281,
+   "max_act": 15.41626930236816,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "adverbs or adverbial phrases describing intensity",
+    "gpt-4o-mini": " phrases that convey uncertainty or negation"
+   }
+  },
+  {
+   "index": 23712,
+   "frac_nonzero": 0.0005435943603515625,
+   "max_act": 22.43825912475586,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 83,
+   "n_pos_windows": 58,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to the concept of time",
+    "gpt-4o-mini": " phrases related to playing time and incarceration"
+   }
+  },
+  {
+   "index": 9712,
+   "frac_nonzero": 0.002970377604166667,
+   "max_act": 14.91686534881592,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 74,
+   "n_pos_windows": 50,
+   "n_pos_passages": 36,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to coding and programming languages",
+    "gpt-4o-mini": "references to \"DJANGO\" or related content"
+   }
+  },
+  {
+   "index": 3961,
+   "frac_nonzero": 0.0001942316691080729,
+   "max_act": 57.96124267578125,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 72,
+   "n_pos_windows": 47,
+   "n_pos_passages": 44,
+   "explanations": {
+    "gpt-3.5-turbo": "references to visa applications and related processes",
+    "gpt-4o-mini": " mentions of visas"
+   }
+  },
+  {
+   "index": 24351,
+   "frac_nonzero": 0.006458600362141927,
+   "max_act": 21.02776527404785,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 56,
+   "n_pos_passages": 41,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to progress or remaining work on a task",
+    "gpt-4o-mini": "phrases that express the idea of progress or distance yet to be covered"
+   }
+  },
+  {
+   "index": 10901,
+   "frac_nonzero": 0.0001621246337890625,
+   "max_act": 45.72354507446289,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 77,
+   "n_pos_windows": 52,
+   "n_pos_passages": 47,
+   "explanations": {
+    "gpt-3.5-turbo": "references to a person named \"Fiennes\" who is likely the center of attention in articles or discussions",
+    "gpt-4o-mini": "the presence of the word \"Fi\" or its variations, indicating a focus on specific named entities or concepts associated with that term"
+   }
+  },
+  {
+   "index": 23641,
+   "frac_nonzero": 0.003635406494140625,
+   "max_act": 13.08913612365723,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "references to financial topics related to loans or debts",
+    "gpt-4o-mini": "references to student loans and comic books"
+   }
+  },
+  {
+   "index": 23304,
+   "frac_nonzero": 0.0002559026082356771,
+   "max_act": 46.52245712280273,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to physical surfaces or areas",
+    "gpt-4o-mini": " references to the surface of the Earth and its characteristics"
+   }
+  },
+  {
+   "index": 16410,
+   "frac_nonzero": 0.001326560974121094,
+   "max_act": 16.50058937072754,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 59,
+   "explanations": {
+    "gpt-3.5-turbo": "the letter \"d\" preceded or followed by specific letters",
+    "gpt-4o-mini": "signals or structural markers indicating the end of a document or a significant transition"
+   }
+  },
+  {
+   "index": 16636,
+   "frac_nonzero": 0.0004091262817382812,
+   "max_act": 43.14667129516602,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "keywords associated with abilities or skills",
+    "gpt-4o-mini": "phrases related to capabilities or skills"
+   }
+  },
+  {
+   "index": 21964,
+   "frac_nonzero": 0.002566655476888021,
+   "max_act": 13.97356510162354,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 83,
+   "n_pos_windows": 58,
+   "n_pos_passages": 50,
+   "explanations": {
+    "gpt-3.5-turbo": "names of individuals, potentially actors or characters in a movie or some other type of production",
+    "gpt-4o-mini": "proper nouns, specifically names of people"
+   }
+  },
+  {
+   "index": 6220,
+   "frac_nonzero": 0.001439094543457031,
+   "max_act": 24.94172668457031,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 60,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to statements or declarations made by individuals",
+    "gpt-4o-mini": "the phrase \"that\" in various contexts"
+   }
+  },
+  {
+   "index": 9940,
+   "frac_nonzero": 0.0003207524617513021,
+   "max_act": 37.75939559936523,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 83,
+   "n_pos_windows": 58,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to years",
+    "gpt-4o-mini": "possessive forms indicating time references, specifically related to the current or past years"
+   }
+  },
+  {
+   "index": 9311,
+   "frac_nonzero": 0.01037851969401042,
+   "max_act": 6.662158012390137,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 78,
+   "n_pos_windows": 54,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "references to specific professions or specialized fields such as police, politics, investments, and medical sciences",
+    "gpt-4o-mini": " terms related to societal issues and health-related topics"
+   }
+  },
+  {
+   "index": 19253,
+   "frac_nonzero": 0.002643585205078125,
+   "max_act": 14.47903251647949,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to actions or tasks being done or considered",
+    "gpt-4o-mini": " verbs that denote actions related to discussion and processing of topics"
+   }
+  },
+  {
+   "index": 16363,
+   "frac_nonzero": 0.0007375081380208334,
+   "max_act": 31.76030731201172,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases mentioning locations",
+    "gpt-4o-mini": "the conjunction \"and\" in various contexts"
+   }
+  },
+  {
+   "index": 16557,
+   "frac_nonzero": 0.0001500447591145833,
+   "max_act": 50.86213302612305,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 65,
+   "n_pos_windows": 40,
+   "n_pos_passages": 36,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to daily life activities or occurrences",
+    "gpt-4o-mini": " references to daily routines and common experiences"
+   }
+  },
+  {
+   "index": 12889,
+   "frac_nonzero": 0.001922925313313802,
+   "max_act": 16.1099967956543,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 58,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to political and health-related topics",
+    "gpt-4o-mini": "terms related to political issues and social justice"
+   }
+  },
+  {
+   "index": 19300,
+   "frac_nonzero": 0.0002123514811197917,
+   "max_act": 53.19646072387695,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to the Department of Veterans Affairs",
+    "gpt-4o-mini": "terms related to veterans and veteran affairs"
+   }
+  },
+  {
+   "index": 1131,
+   "frac_nonzero": 0.000244140625,
+   "max_act": 50.69793701171875,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "instances of the word \"left\" in relation to events or situations",
+    "gpt-4o-mini": " instances where subjects are abandoned or left in various contexts"
+   }
+  },
+  {
+   "index": 15736,
+   "frac_nonzero": 0.0001900990804036458,
+   "max_act": 36.32971572875977,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 76,
+   "n_pos_windows": 51,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to music charts and specific music publications",
+    "gpt-4o-mini": " references to music charts and their rankings"
+   }
+  },
+  {
+   "index": 7954,
+   "frac_nonzero": 0.0001309712727864583,
+   "max_act": 50.58993911743164,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "locations or events associated with fairs",
+    "gpt-4o-mini": " occurrences of the word \"Fair\" in various contexts"
+   }
+  },
+  {
+   "index": 24370,
+   "frac_nonzero": 0.0002854665120442708,
+   "max_act": 35.79885101318359,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to theft and unauthorized acquisition of property",
+    "gpt-4o-mini": " terms related to theft and related criminal activities"
+   }
+  },
+  {
+   "index": 13247,
+   "frac_nonzero": 0.009816487630208334,
+   "max_act": 7.992731094360352,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 50,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to risk assessment and consequences",
+    "gpt-4o-mini": "phrases related to risk and harm associated with substances or actions"
+   }
+  },
+  {
+   "index": 13576,
+   "frac_nonzero": 0.00219567616780599,
+   "max_act": 12.41964149475098,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "URLs, file names, and references to accessing data or information on the internet",
+    "gpt-4o-mini": " references to access and available resources in digital contexts"
+   }
+  },
+  {
+   "index": 21782,
+   "frac_nonzero": 0.0004555384318033854,
+   "max_act": 50.06716537475586,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 83,
+   "n_pos_windows": 58,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions or references to news",
+    "gpt-4o-mini": " mentions of news"
+   }
+  },
+  {
+   "index": 5669,
+   "frac_nonzero": 0.0002527236938476562,
+   "max_act": 51.46931457519531,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 55,
+   "n_pos_windows": 30,
+   "n_pos_passages": 27,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to secret or hidden actions",
+    "gpt-4o-mini": " instances of the word \"sneak\" and its variations in different contexts"
+   }
+  },
+  {
+   "index": 12029,
+   "frac_nonzero": 0.00311438242594401,
+   "max_act": 13.23635005950928,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": " words related to actions and events involving individuals and organizations",
+    "gpt-4o-mini": " instances of the verb \"to be\" in various forms"
+   }
+  },
+  {
+   "index": 17983,
+   "frac_nonzero": 0.0001192092895507812,
+   "max_act": 58.65196990966797,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 83,
+   "n_pos_windows": 58,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to \"Ge\" with different numerical suffixes",
+    "gpt-4o-mini": "the name \"Ge\" in various contexts"
+   }
+  },
+  {
+   "index": 23037,
+   "frac_nonzero": 0.002871831258138021,
+   "max_act": 14.58858966827393,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 58,
+   "explanations": {
+    "gpt-3.5-turbo": "dates and months",
+    "gpt-4o-mini": " references to specific dates and time periods"
+   }
+  },
+  {
+   "index": 22101,
+   "frac_nonzero": 0.003714243570963542,
+   "max_act": 14.2846508026123,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to personal identification, such as names and other personal information",
+    "gpt-4o-mini": "references to personal identification details and their usage"
+   }
+  },
+  {
+   "index": 24189,
+   "frac_nonzero": 0.0057220458984375,
+   "max_act": 8.228029251098633,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to different aspects of technology, such as action, money, optics, economic sanctions, institutional learning, visionary scripts, computational complexity, user-friendliness, core processing resources, CPU, IDE drive, technology, spending, cultural groups, management efficiency, regulatory compliance, environmental conditions, growth,",
+    "gpt-4o-mini": " key concepts related to action, economics, and technology"
+   }
+  },
+  {
+   "index": 12278,
+   "frac_nonzero": 0.0005534489949544271,
+   "max_act": 32.70711517333984,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "references to news sources or journalistic context",
+    "gpt-4o-mini": " references to media sources or agency names"
+   }
+  },
+  {
+   "index": 2833,
+   "frac_nonzero": 0.001526832580566406,
+   "max_act": 23.99170875549316,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 70,
+   "n_pos_windows": 45,
+   "n_pos_passages": 44,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to movie theaters and movie releases",
+    "gpt-4o-mini": " mentions of movie theaters and their associated activities"
+   }
+  },
+  {
+   "index": 14383,
+   "frac_nonzero": 0.005120913187662761,
+   "max_act": 15.85700225830078,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 74,
+   "n_pos_windows": 49,
+   "n_pos_passages": 43,
+   "explanations": {
+    "gpt-3.5-turbo": "characteristics related to demographics such as age, race, sex, and income",
+    "gpt-4o-mini": " demographical factors such as age, sex, race, and ethnicity"
+   }
+  },
+  {
+   "index": 21750,
+   "frac_nonzero": 0.0006573994954427084,
+   "max_act": 17.33713912963867,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 73,
+   "n_pos_windows": 48,
+   "n_pos_passages": 48,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of Northwestern University",
+    "gpt-4o-mini": " mentions of Northwestern University and associated individuals"
+   }
+  },
+  {
+   "index": 16660,
+   "frac_nonzero": 0.005167007446289062,
+   "max_act": 14.05676174163818,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 56,
+   "n_pos_passages": 55,
+   "explanations": {
+    "gpt-3.5-turbo": "references to specific organizations, websites, or individuals",
+    "gpt-4o-mini": " references to political entities and media"
+   }
+  },
+  {
+   "index": 3536,
+   "frac_nonzero": 0.0002899169921875,
+   "max_act": 38.50162124633789,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 55,
+   "n_pos_windows": 30,
+   "n_pos_passages": 30,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to stealing or unlawfully taking possessions",
+    "gpt-4o-mini": " terms related to theft or robbery, particularly looting and plundering"
+   }
+  },
+  {
+   "index": 5364,
+   "frac_nonzero": 0.001136144002278646,
+   "max_act": 18.69619560241699,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 39,
+   "explanations": {
+    "gpt-3.5-turbo": "specific programming terms and actions related to coding functions and logic",
+    "gpt-4o-mini": "programming concepts related to functions and their inputs/outputs"
+   }
+  },
+  {
+   "index": 17070,
+   "frac_nonzero": 0.000240325927734375,
+   "max_act": 62.72930908203125,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 72,
+   "n_pos_windows": 47,
+   "n_pos_passages": 42,
+   "explanations": {
+    "gpt-3.5-turbo": "keywords related to the individual Edward Snowden",
+    "gpt-4o-mini": "mentions of Edward Snowden"
+   }
+  },
+  {
+   "index": 12886,
+   "frac_nonzero": 0.00137488047281901,
+   "max_act": 16.36452102661133,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 76,
+   "n_pos_windows": 51,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases and words related to job interviews and candidate selection",
+    "gpt-4o-mini": " terms related to job applications and auditions"
+   }
+  },
+  {
+   "index": 12141,
+   "frac_nonzero": 0.0005664825439453125,
+   "max_act": 35.80923843383789,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 85,
+   "n_pos_windows": 60,
+   "n_pos_passages": 60,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases indicating the need to address or handle issues",
+    "gpt-4o-mini": " phrases emphasizing the concept of managing or handling difficult situations"
+   }
+  },
+  {
+   "index": 16046,
+   "frac_nonzero": 0.0001885096232096354,
+   "max_act": 48.28554153442383,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 61,
+   "n_pos_windows": 36,
+   "n_pos_passages": 34,
+   "explanations": {
+    "gpt-3.5-turbo": "proper nouns related to the name \"Duchamp\"",
+    "gpt-4o-mini": " occurrences of the substring \"uch.\""
+   }
+  },
+  {
+   "index": 24011,
+   "frac_nonzero": 0.004759470621744792,
+   "max_act": 16.61482429504395,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "names or titles followed by a statement or action",
+    "gpt-4o-mini": " statements related to legal or governmental issues"
+   }
+  },
+  {
+   "index": 969,
+   "frac_nonzero": 0.0004075368245442708,
+   "max_act": 40.51721572875977,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 88,
+   "n_pos_windows": 63,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "the specific word \"one\" being referred to within sentences",
+    "gpt-4o-mini": "instances of the word \"one\" in various contexts"
+   }
+  },
+  {
+   "index": 15378,
+   "frac_nonzero": 0.0004259745279947917,
+   "max_act": 35.03818130493164,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "dates represented with the format of two numbers separated by punctuation, such as years",
+    "gpt-4o-mini": " references to the 18th and early 19th centuries"
+   }
+  },
+  {
+   "index": 1424,
+   "frac_nonzero": 0.0001751581827799479,
+   "max_act": 36.21405029296875,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 71,
+   "n_pos_windows": 46,
+   "n_pos_passages": 45,
+   "explanations": {
+    "gpt-3.5-turbo": "references to healthcare providers",
+    "gpt-4o-mini": "references to service providers"
+   }
+  },
+  {
+   "index": 10109,
+   "frac_nonzero": 0.0002368291219075521,
+   "max_act": 38.80099868774414,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 88,
+   "n_pos_windows": 63,
+   "n_pos_passages": 63,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of societal concepts and structures",
+    "gpt-4o-mini": " references to the concept of society and its impact on various issues"
+   }
+  },
+  {
+   "index": 23048,
+   "frac_nonzero": 0.0001573562622070312,
+   "max_act": 48.8665885925293,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 52,
+   "explanations": {
+    "gpt-3.5-turbo": "proper nouns related to the United States of America",
+    "gpt-4o-mini": " mentions of the USA"
+   }
+  },
+  {
+   "index": 20146,
+   "frac_nonzero": 0.001531600952148438,
+   "max_act": 19.20474433898926,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 57,
+   "explanations": {
+    "gpt-3.5-turbo": "foreign phrases or words",
+    "gpt-4o-mini": " fragments or components of names or titles"
+   }
+  },
+  {
+   "index": 19437,
+   "frac_nonzero": 0.00051116943359375,
+   "max_act": 29.99447059631348,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "proper nouns related to \"Kill\"",
+    "gpt-4o-mini": "references to the \"Kill Bill\" film series"
+   }
+  },
+  {
+   "index": 18945,
+   "frac_nonzero": 0.008811314900716146,
+   "max_act": 13.06664848327637,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 46,
+   "explanations": {
+    "gpt-3.5-turbo": "text related to authorizing or granting permission",
+    "gpt-4o-mini": " implications of actions or situations that lead to consequences"
+   }
+  },
+  {
+   "index": 12897,
+   "frac_nonzero": 0.001127243041992188,
+   "max_act": 24.26916122436523,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 82,
+   "n_pos_windows": 57,
+   "n_pos_passages": 56,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to academic fields and titles, specifically in the realm of political science",
+    "gpt-4o-mini": "terms related to political science and academic positions in that field"
+   }
+  },
+  {
+   "index": 21206,
+   "frac_nonzero": 0.0002803802490234375,
+   "max_act": 44.19910049438477,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 61,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of the country \"Ireland\"",
+    "gpt-4o-mini": "references to Ireland and related locations"
+   }
+  },
+  {
+   "index": 5582,
+   "frac_nonzero": 0.0008840560913085938,
+   "max_act": 23.45741271972656,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 70,
+   "n_pos_windows": 45,
+   "n_pos_passages": 41,
+   "explanations": {
+    "gpt-3.5-turbo": "distances and measurements related to space and travel, such as light years, kilometers, and miles",
+    "gpt-4o-mini": "expressions related to distances and measurements in space"
+   }
+  },
+  {
+   "index": 5524,
+   "frac_nonzero": 0.00052642822265625,
+   "max_act": 29.04194450378418,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 72,
+   "n_pos_windows": 47,
+   "n_pos_passages": 44,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of aggressive behavior or aggression-related terms",
+    "gpt-4o-mini": "terms related to aggressive behaviors and violence"
+   }
+  },
+  {
+   "index": 16457,
+   "frac_nonzero": 0.01413186391194662,
+   "max_act": 7.688057899475098,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 74,
+   "n_pos_windows": 51,
+   "n_pos_passages": 49,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to intellectual property rights and innovation licensing",
+    "gpt-4o-mini": " terms related to creative commons licensing and intellectual property"
+   }
+  },
+  {
+   "index": 7436,
+   "frac_nonzero": 0.002665519714355469,
+   "max_act": 13.48676872253418,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 78,
+   "n_pos_windows": 53,
+   "n_pos_passages": 52,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to reducing intensity or impact",
+    "gpt-4o-mini": "phrases related to alleviating or mitigating negative impacts or burdens"
+   }
+  },
+  {
+   "index": 403,
+   "frac_nonzero": 0.0002288818359375,
+   "max_act": 42.25619125366211,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 81,
+   "n_pos_windows": 56,
+   "n_pos_passages": 54,
+   "explanations": {
+    "gpt-3.5-turbo": "mentions of astronomical objects, particularly stars and related terms",
+    "gpt-4o-mini": "references to celestial bodies, specifically stars"
+   }
+  },
+  {
+   "index": 6537,
+   "frac_nonzero": 0.001265207926432292,
+   "max_act": 14.44298934936523,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 84,
+   "n_pos_windows": 59,
+   "n_pos_passages": 58,
+   "explanations": {
+    "gpt-3.5-turbo": "words related to improvement or enhancement",
+    "gpt-4o-mini": " terms related to improvement and growth in various contexts"
+   }
+  },
+  {
+   "index": 17682,
+   "frac_nonzero": 0.0003627141316731771,
+   "max_act": 47.88533401489258,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 86,
+   "n_pos_windows": 61,
+   "n_pos_passages": 60,
+   "explanations": {
+    "gpt-3.5-turbo": "phrases related to action or movement out of a specific location or situation",
+    "gpt-4o-mini": "instances of the phrase \"get out.\""
+   }
+  },
+  {
+   "index": 17967,
+   "frac_nonzero": 0.001270929972330729,
+   "max_act": 26.84804534912109,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 80,
+   "n_pos_windows": 55,
+   "n_pos_passages": 53,
+   "explanations": {
+    "gpt-3.5-turbo": "years and events in history",
+    "gpt-4o-mini": " phrases indicating the conclusion of events or situations"
+   }
+  },
+  {
+   "index": 7607,
+   "frac_nonzero": 0.003046989440917969,
+   "max_act": 10.79426002502441,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 79,
+   "n_pos_windows": 54,
+   "n_pos_passages": 51,
+   "explanations": {
+    "gpt-3.5-turbo": "digital identifiers such as usernames or version numbers in a technical context",
+    "gpt-4o-mini": " identifiers related to games or gaming"
+   }
+  },
+  {
+   "index": 13253,
+   "frac_nonzero": 0.0001087188720703125,
+   "max_act": 45.96737289428711,
+   "has_a": true,
+   "has_b": true,
+   "n_explanations": 2,
+   "n_windows": 68,
+   "n_pos_windows": 43,
+   "n_pos_passages": 42,
+   "explanations": {
+    "gpt-3.5-turbo": "terms related to broadband internet services",
+    "gpt-4o-mini": "references to broadband services and networks"
+   }
+  }
+ ]
+}
