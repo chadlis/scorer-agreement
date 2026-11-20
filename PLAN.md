@@ -301,6 +301,18 @@ with the same scorer prompt. Labels stay those of the target feature.
    any scorer call. Rule 2 of the negatives then excludes each donor's passages
    from its target's negatives.
 
+**Result (frozen 2026-11-20, `data/placebos/final.json`).** Round 13 left no doubt,
+so its assignment is final. Rejected pairs per round: 20 doubt pairs and 4 generic
+ones in round 1, none in round 2 (not reviewed), then 21, 11, 4, 3, 2, 2, 1, 1, 0, 1
+and 0 from round 3 to 13. Seven placebo texts are forbidden: the 4 generic ones of
+round 1, then "references to direct communication or messages", "references to
+government bodies and officials" and "names of a person, specifically the name
+"Corey"". The 100 placebos come from 100 distinct donors, 21 of them outside the
+sample, 50 from explanations A and 50 from explanations B, and no target is its
+own donor. Pairs not changed since an earlier round keep the verdict of that
+round's triage, so each final pair was judged once by a fresh Fable 5.2 agent and
+found confident.
+
 **Why.** A placebo close in meaning to the target pushes placebo accuracy above
 50% and understates the gain. A placebo of very different length mixes meaning and
 form. The filters remove the obvious cases (in a simulation on the sample, a

@@ -1,0 +1,18 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur lisant ce placebo répondrait-il 1 sur les textes où la cible s'active (sens proche, sujet partagé, catégorie englobante, double sens) ou sur presque n'importe quel extrait (motif générique) ?",
+ "pairs": [
+  {
+   "target": 11931,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "Organisations appelées « bodies » : motif lexical précis, sans lien avec le mot « method » ni avec des techniques ou procédures."
+  },
+  {
+   "target": 19647,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "FIFA et football : sujet étroit et nommé, un texte sur des conseils (municipaux, politiques) ne le mentionne pas ; le seul recoupement serait un rare « FIFA Council »."
+  }
+ ]
+}

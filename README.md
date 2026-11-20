@@ -115,7 +115,7 @@ Data-freezing scripts:
   fetches candidate outside donors and `uv run scripts/assign_donor_pool.py N`
   assigns from a pool that leaves out features whose two explanations are generic.
   `uv run scripts/auto_round.py assign N` and `close N` run the automatic rounds
-  (rule 9 of the placebos).
+  (rule 9 of the placebos). The frozen assignment is `data/placebos/final.json`.
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server
 errors, and cached under `data/raw/`.
