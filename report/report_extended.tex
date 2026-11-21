@@ -73,21 +73,20 @@ explanation.
 The score therefore depends on two things: the explanation, which is what one wants to
 measure, and the scorer, which is a choice of the pipeline. Two recent works make this
 dependence a practical concern. First, van der Ben et al.\ (2026) show that the choices
-made in the pipeline move autointerp scores more than the differences between the models
-that are explained. To isolate those choices, they keep a single scorer fixed (Gemini
-Flash), and they name the variation of the scorer as an axis of instability that they
-did not study \av. Second, Chen (2026) shows that on the stored scoring data of
+made in the pipeline move autointerp scores more than the choice of the SAE architecture.
+To isolate those choices, they keep a single scorer fixed (Gemini Flash), and they name
+the variation of the scorer as an axis of instability that they did not study. Second, Chen (2026) shows that on the stored scoring data of
 Neuronpedia for GPT-2 small, a simple rule that never reads the explanation (it answers
 ``yes'' when the central token of the excerpt is marked) reaches a higher balanced
 accuracy than the stored LLM scorers, and recommends reporting every score next to the
-best rule that does without the explanation \av. Taken together, these results raise
+best rule that does without the explanation. Taken together, these results raise
 two questions that a fixed-scorer study cannot answer: whether another scorer would give
 the same scores, and how much of a score actually comes from the explanation.
 
-Scorers have been compared before. Paulo et al.\ (2024) score the same explanations
-with several scorers (Claude Sonnet 3.5, Llama 3.1 70B and 8B) and compare their mean
-scores and the correlations of their scores, and Chen (2026) compares simulators on
-identical inputs with original and shuffled explanations \av. To our knowledge
+Scorers have been compared before. Paulo et al.\ (2024, appendix F.7) score the same
+explanations with three scorers (Claude Sonnet 3.5, Llama 70B and Llama 8B) and compare
+their median scores, and Chen (2026) compares simulators on identical inputs with
+original and shuffled explanations. To our knowledge
 (searches of 17 and 21 November 2026), no study measures, for several detection scorers,
 their agreement text by text, the gain each draws over an explanation-free control, and
 whether their disagreements change which explanation is preferred. Our question is
@@ -132,7 +131,7 @@ each scorer on exactly the same texts.
 Figure~\ref{fig:design} shows the chain. We describe each step in order. Appendix~A
 gives the details, and \texttt{PLAN.md} in the repository gives every rule.
 
-\paragraph{Features.} The SAE is \texttt{gpt2-small/6-res-jb} (Bloom, 2024 \av), read
+\paragraph{Features.} The SAE is \texttt{gpt2-small/6-res-jb} (Bloom, 2024), read
 through the Neuronpedia API. The 24,576 features are shuffled once with a published
 seed (20261120) and examined in that order. A feature is kept if it fires on between
 0.001\% and 1\% of tokens, has both original explanations (A, written by
@@ -398,7 +397,7 @@ fifth draws about 3 points more on a gain of 30. At the level of the choice betw
 explanations of a feature, it matters again: the scorers rank the 200 explanations
 alike, but two scorers pick opposite explanations on 13 to 27\% of the features.} Van
 der Ben et al.\ (2026) report that the ranking of the best-explained features can shift
-with the pipeline even when mean scores look stable \av, and our ranking analysis shows
+with the pipeline even when mean scores look stable, and our ranking analysis shows
 the same pattern for the scorer: a stable mean gain does not guarantee a stable choice of
 explanation.
 
@@ -457,10 +456,11 @@ decision, reviewed the placebos and the plan, and read the divergent texts.
 \section*{References}
 
 \bibentree{Bloom, J. (2024). Open source sparse autoencoders for all residual stream
-layers of GPT2-small. \emph{LessWrong / AI Alignment Forum}. \av}
+layers of GPT2-small. Release page on Neuronpedia,
+\url{https://www.neuronpedia.org/gpt2sm-res-jb}.}
 
 \bibentree{Chen, X. (2026). Scoring explanations without reading them: structural
-shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}
+shortcuts in automated-interpretability evaluation data. arXiv:2610.37676.}
 
 \bibentree{Cohen, J. (1960). A coefficient of agreement for nominal scales.
 \emph{Educational and Psychological Measurement}, 20(1), 37-46.}
@@ -468,15 +468,15 @@ shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}
 \bibentree{Efron, B., \& Tibshirani, R. J. (1993). \emph{An Introduction to the
 Bootstrap}. Chapman \& Hall.}
 
-\bibentree{Lin, J. (2023). Neuronpedia: an interactive reference and tooling for
-interpretability. \url{https://www.neuronpedia.org}. \av}
+\bibentree{Lin, J. (2023). Neuronpedia: interactive reference and tooling for analyzing
+neural networks. Software available from \url{https://www.neuronpedia.org}.}
 
 \bibentree{Paulo, G., Mallen, A., Juang, C., \& Belrose, N. (2024). Automatically
-interpreting millions of features in large language models. arXiv:2410.13928. \av}
+interpreting millions of features in large language models. arXiv:2410.13928.}
 
 \bibentree{Van der Ben, S., Roch, N., Hedstr\"om, A., \& El-Assady, M. (2026). Building
 fast, evaluating slow: pipeline choices dominate autointerpretability score variance.
-arXiv:2607.19386. \av}
+arXiv:2607.19386.}
 
 \newpage
 \appendix
