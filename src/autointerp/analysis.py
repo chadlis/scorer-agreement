@@ -147,3 +147,54 @@ def error_ratio(t: pd.Series) -> float:
     """Shared errors over what independent errors would give: exy / (ex * ey), rates."""
     n = t["n"]
     return (t["exy"] / n) / ((t["ex"] / n) * (t["ey"] / n))
+
+
+def explanation_scores(calls: pd.DataFrame) -> pd.DataFrame:
+    """Exploratory (DEVIATIONS.md, 2). Accuracy of each explanation per scorer: one row
+    per (feature, condition) for A and B, one column per scorer, mean over passes,
+    invalid counted as wrong (as for accuracy)."""
+    s = text_scores(calls[calls["condition"].isin(["A", "B"])])
+    return s.groupby(["feature", "condition", "scorer"])["right"].mean().unstack("scorer")
+
+
+def spearman(x, y) -> float:
+    """Spearman rank correlation, ties given their average rank."""
+    return float(pd.Series(x).rank().corr(pd.Series(y).rank()))
+
+
+def preferences(scores: pd.DataFrame) -> pd.DataFrame:
+    """Per feature and scorer: +1 if A scores higher than B, -1 if B does, 0 if tied."""
+    a = scores.xs("A", level="condition")
+    b = scores.xs("B", level="condition")
+    return np.sign((a - b).round(12)).astype(int)
+
+
+def pair_preferences(signs: pd.DataFrame, x: str, y: str) -> dict[str, int]:
+    """Features where scorers x and y prefer the same explanation, opposite ones, or
+    where either scores A and B the same."""
+    tie = (signs[x] == 0) | (signs[y] == 0)
+    return {
+        "same": int(((signs[x] == signs[y]) & ~tie).sum()),
+        "opposite": int(((signs[x] == -signs[y]) & ~tie).sum()),
+        "tie": int(tie.sum()),
+    }
+
+
+def feature_bootstrap(
+    features: list,
+    stat: Callable[[list], object],
+    n: int = 10_000,
+    seed: int = SEED,
+    level: float = 0.95,
+):
+    """Like cluster_bootstrap, for statistics that are not sums of per-feature counts:
+    stat receives a list of features drawn with replacement and returns a number or an
+    array of numbers (several statistics on the same resamples). Returns the estimate
+    and the percentile bounds, with the shape of stat's output."""
+    rng = np.random.default_rng(seed)
+    k = len(features)
+    draws = np.array(
+        [np.asarray(stat([features[i] for i in rng.integers(0, k, size=k)])) for _ in range(n)]
+    )
+    lo, hi = np.nanquantile(draws, [(1 - level) / 2, 1 - (1 - level) / 2], axis=0)
+    return np.asarray(stat(list(features))), lo, hi

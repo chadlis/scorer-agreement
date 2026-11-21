@@ -1,0 +1,52 @@
+{
+ "haiku-5.5 - sonnet-5.5": {
+  "est": -0.0009,
+  "lo": -0.0144,
+  "hi": 0.0131
+ },
+ "haiku-5.5 - opus-5.5": {
+  "est": -0.0279,
+  "lo": -0.0471,
+  "hi": -0.01
+ },
+ "haiku-5.5 - gemini-flash": {
+  "est": -0.0004,
+  "lo": -0.0153,
+  "hi": 0.0138
+ },
+ "haiku-5.5 - mistral-small": {
+  "est": 0.0042,
+  "lo": -0.0133,
+  "hi": 0.0211
+ },
+ "sonnet-5.5 - opus-5.5": {
+  "est": -0.027,
+  "lo": -0.0489,
+  "hi": -0.0067
+ },
+ "sonnet-5.5 - gemini-flash": {
+  "est": 0.0005,
+  "lo": -0.0145,
+  "hi": 0.0156
+ },
+ "sonnet-5.5 - mistral-small": {
+  "est": 0.0051,
+  "lo": -0.0118,
+  "hi": 0.0229
+ },
+ "opus-5.5 - gemini-flash": {
+  "est": 0.0275,
+  "lo": 0.0079,
+  "hi": 0.0476
+ },
+ "opus-5.5 - mistral-small": {
+  "est": 0.0321,
+  "lo": 0.0117,
+  "hi": 0.0522
+ },
+ "gemini-flash - mistral-small": {
+  "est": 0.0046,
+  "lo": -0.0108,
+  "hi": 0.0207
+ }
+}

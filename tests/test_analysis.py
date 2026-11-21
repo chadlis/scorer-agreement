@@ -111,3 +111,40 @@ def test_error_ratio_on_a_case_worked_by_hand():
     t = an.error_counts(calls(rows))[("x", "y")].sum()
     assert dict(t) == {"n": 4, "ex": 2, "ey": 1, "exy": 1}
     assert an.error_ratio(t) == pytest.approx(2.0)
+
+
+def test_explanation_preferences_on_a_case_worked_by_hand():
+    # 3 features, 2 texts each, one pass. Accuracy of each explanation (A, B):
+    # x: f1 (1, 0.5), f2 (0.5, 1), f3 (1, 1)   y: f1 (1, 0), f2 (1, 0.5), f3 (0, 0.5)
+    # x prefers A, B, tie; y prefers A, A, B: same 1 (f1), opposite 1 (f2), tie 1 (f3).
+    right = {
+        ("x", 1): ((1, 1), (1, 0)),
+        ("x", 2): ((1, 0), (1, 1)),
+        ("x", 3): ((1, 1), (1, 1)),
+        ("y", 1): ((1, 1), (0, 0)),
+        ("y", 2): ((1, 1), (1, 0)),
+        ("y", 3): ((0, 0), (1, 0)),
+    }
+    rows = []
+    for (s, f), (ra, rb) in right.items():
+        for cond, r in (("A", ra), ("B", rb)):
+            for t, ok in enumerate(r):
+                rows.append((f, t, 1, cond, s, 1, "1" if ok else "0"))
+    scores = an.explanation_scores(calls(rows))
+    assert scores.loc[(2, "B"), "x"] == 1.0 and scores.loc[(1, "B"), "y"] == 0.0
+    signs = an.preferences(scores)
+    assert an.pair_preferences(signs, "x", "y") == {"same": 1, "opposite": 1, "tie": 1}
+    # Scores in index order (f1 A, f1 B, f2 A, f2 B, f3 A, f3 B): x (1, .5, .5, 1, 1, 1),
+    # y (1, 0, 1, .5, 0, .5). Average ranks: x (4.5, 1.5, 1.5, 4.5, 4.5, 4.5), y (5.5,
+    # 1.5, 5.5, 3.5, 1.5, 3.5). Centred: (1, -2, -2, 1, 1, 1) and (2, -2, 2, 0, -2, 0),
+    # whose products sum to 2 + 4 - 4 + 0 - 2 + 0 = 0, so the correlation is 0.
+    assert an.spearman(scores["x"], scores["y"]) == pytest.approx(0.0)
+    assert an.spearman([1, 2, 3], [3, 2, 1]) == pytest.approx(-1.0)
+
+
+def test_feature_bootstrap_on_constant_data_gives_a_point():
+    est, lo, hi = an.feature_bootstrap([1, 2, 3], lambda fs: 0.5, n=50)
+    assert est == lo == hi == 0.5
+    # several statistics at once: the mean of the drawn features, and a constant
+    est, lo, hi = an.feature_bootstrap([0, 10], lambda fs: [sum(fs) / len(fs), 1.0], n=2000)
+    assert list(est) == [5.0, 1.0] and lo[0] == 0.0 and hi[0] == 10.0 and lo[1] == hi[1] == 1.0

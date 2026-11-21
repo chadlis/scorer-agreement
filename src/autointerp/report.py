@@ -10,6 +10,7 @@ Both scripts/analyze_grid.py and notebooks/analysis.ipynb call these functions.
 from itertools import combinations
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 from autointerp import analysis as an
@@ -281,3 +282,68 @@ def fig_errors(exp: dict):
     _style(ax)
     fig.tight_layout()
     return fig
+
+
+def exploratory_ranking(calls: pd.DataFrame) -> dict:
+    """Exploratory, decided after the results (DEVIATIONS.md, 2): do scorers rank the
+    200 explanations alike, and do they pick the same explanation (A or B) for each
+    feature? Spearman correlations and preference counts per pair, with intervals from
+    the same resampled features, and a reference: a scorer against itself, pass 1
+    against pass 2."""
+    scores = an.explanation_scores(calls)
+    scorers = list(SCORERS)
+    pairs = list(combinations(scorers, 2))
+    features = sorted(scores.index.get_level_values("feature").unique())
+    by_feature = {f: scores.loc[f][scorers].to_numpy() for f in features}  # 2 x 5
+
+    def stat(fs: list) -> list[float]:
+        block = pd.DataFrame([row for f in fs for row in by_feature[f]], columns=scorers)
+        ranks = block.rank().corr()  # Spearman: Pearson correlation of average ranks
+        diff = block.iloc[0::2].to_numpy() - block.iloc[1::2].to_numpy()  # A minus B
+        signs = np.sign(diff.round(12))
+        out = []
+        for x, y in pairs:
+            sx, sy = signs[:, scorers.index(x)], signs[:, scorers.index(y)]
+            out += [ranks.loc[x, y], float(((sx == -sy) & (sx != 0) & (sy != 0)).mean())]
+        return out
+
+    est, lo, hi = an.feature_bootstrap(features, stat)
+    signs = an.preferences(scores)
+    out: dict = {"pairs": {}, "same_scorer_two_passes": {}}
+    for i, (x, y) in enumerate(pairs):
+        out["pairs"][f"{x} / {y}"] = {
+            "spearman": {
+                "est": round(float(est[2 * i]), 4),
+                "lo": round(float(lo[2 * i]), 4),
+                "hi": round(float(hi[2 * i]), 4),
+            },
+            "opposite_share": {
+                "est": round(float(est[2 * i + 1]), 4),
+                "lo": round(float(lo[2 * i + 1]), 4),
+                "hi": round(float(hi[2 * i + 1]), 4),
+            },
+            **an.pair_preferences(signs, x, y),
+        }
+    any_opposite = ((signs > 0).any(axis=1) & (signs < 0).any(axis=1)).sum()
+    out["features_with_opposite_choices"] = int(any_opposite)
+    for s in scorers:
+        per_pass = [
+            an.preferences(an.explanation_scores(calls[(calls["pass"] == p) & (calls.scorer == s)]))
+            for p in (1, 2)
+        ]
+        both = pd.DataFrame({"p1": per_pass[0][s], "p2": per_pass[1][s]})
+        out["same_scorer_two_passes"][s] = an.pair_preferences(both, "p1", "p2")
+    return out
+
+
+def gain_differences_simultaneous(calls: pd.DataFrame) -> dict:
+    """Robustness check (DEVIATIONS.md, 3): the 10 paired differences of gain with
+    Bonferroni intervals, each at 99.5%, so that the 10 hold together at 95%."""
+    per_feature = an.accuracy_counts(an.text_scores(calls))
+    out = {}
+    for x, y in combinations(list(SCORERS), 2):
+        est, lo, hi = an.cluster_bootstrap(
+            per_feature, lambda t, x=x, y=y: an.gain(t, x) - an.gain(t, y), level=0.995
+        )
+        out[f"{x} - {y}"] = {"est": round(est, 4), "lo": round(lo, 4), "hi": round(hi, 4)}
+    return out

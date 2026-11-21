@@ -1,0 +1,182 @@
+{
+ "pairs": {
+  "haiku-5.5 / sonnet-5.5": {
+   "spearman": {
+    "est": 0.8951,
+    "lo": 0.847,
+    "hi": 0.9296
+   },
+   "opposite_share": {
+    "est": 0.13,
+    "lo": 0.07,
+    "hi": 0.2
+   },
+   "same": 69,
+   "opposite": 13,
+   "tie": 18
+  },
+  "haiku-5.5 / opus-5.5": {
+   "spearman": {
+    "est": 0.8345,
+    "lo": 0.7496,
+    "hi": 0.8966
+   },
+   "opposite_share": {
+    "est": 0.23,
+    "lo": 0.15,
+    "hi": 0.32
+   },
+   "same": 63,
+   "opposite": 23,
+   "tie": 14
+  },
+  "haiku-5.5 / gemini-flash": {
+   "spearman": {
+    "est": 0.8763,
+    "lo": 0.8255,
+    "hi": 0.9123
+   },
+   "opposite_share": {
+    "est": 0.15,
+    "lo": 0.08,
+    "hi": 0.22
+   },
+   "same": 67,
+   "opposite": 15,
+   "tie": 18
+  },
+  "haiku-5.5 / mistral-small": {
+   "spearman": {
+    "est": 0.854,
+    "lo": 0.7998,
+    "hi": 0.8932
+   },
+   "opposite_share": {
+    "est": 0.2,
+    "lo": 0.12,
+    "hi": 0.28
+   },
+   "same": 63,
+   "opposite": 20,
+   "tie": 17
+  },
+  "sonnet-5.5 / opus-5.5": {
+   "spearman": {
+    "est": 0.8335,
+    "lo": 0.7418,
+    "hi": 0.9028
+   },
+   "opposite_share": {
+    "est": 0.19,
+    "lo": 0.12,
+    "hi": 0.27
+   },
+   "same": 64,
+   "opposite": 19,
+   "tie": 17
+  },
+  "sonnet-5.5 / gemini-flash": {
+   "spearman": {
+    "est": 0.8935,
+    "lo": 0.8415,
+    "hi": 0.9306
+   },
+   "opposite_share": {
+    "est": 0.14,
+    "lo": 0.08,
+    "hi": 0.21
+   },
+   "same": 65,
+   "opposite": 14,
+   "tie": 21
+  },
+  "sonnet-5.5 / mistral-small": {
+   "spearman": {
+    "est": 0.8344,
+    "lo": 0.7654,
+    "hi": 0.8864
+   },
+   "opposite_share": {
+    "est": 0.15,
+    "lo": 0.08,
+    "hi": 0.22
+   },
+   "same": 61,
+   "opposite": 15,
+   "tie": 24
+  },
+  "opus-5.5 / gemini-flash": {
+   "spearman": {
+    "est": 0.8057,
+    "lo": 0.7175,
+    "hi": 0.8689
+   },
+   "opposite_share": {
+    "est": 0.27,
+    "lo": 0.18,
+    "hi": 0.36
+   },
+   "same": 56,
+   "opposite": 27,
+   "tie": 17
+  },
+  "opus-5.5 / mistral-small": {
+   "spearman": {
+    "est": 0.7645,
+    "lo": 0.6755,
+    "hi": 0.8326
+   },
+   "opposite_share": {
+    "est": 0.22,
+    "lo": 0.14,
+    "hi": 0.3
+   },
+   "same": 59,
+   "opposite": 22,
+   "tie": 19
+  },
+  "gemini-flash / mistral-small": {
+   "spearman": {
+    "est": 0.8692,
+    "lo": 0.8098,
+    "hi": 0.9112
+   },
+   "opposite_share": {
+    "est": 0.18,
+    "lo": 0.11,
+    "hi": 0.26
+   },
+   "same": 60,
+   "opposite": 18,
+   "tie": 22
+  }
+ },
+ "same_scorer_two_passes": {
+  "haiku-5.5": {
+   "same": 72,
+   "opposite": 6,
+   "tie": 22
+  },
+  "sonnet-5.5": {
+   "same": 72,
+   "opposite": 1,
+   "tie": 27
+  },
+  "opus-5.5": {
+   "same": 69,
+   "opposite": 7,
+   "tie": 24
+  },
+  "gemini-flash": {
+   "same": 82,
+   "opposite": 0,
+   "tie": 18
+  },
+  "mistral-small": {
+   "same": 85,
+   "opposite": 0,
+   "tie": 15
+  }
+ },
+ "features_with_opposite_choices": 47
+}

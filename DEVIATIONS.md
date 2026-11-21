@@ -73,3 +73,23 @@ as wrong (as for accuracy in PLAN.md 2.6):
 The difference between A and B for a given feature stays exploratory (PLAN.md 2.6,
 rule 11): only the agreement between scorers on that difference is studied, not
 which explanation is better.
+
+**Done on 2026-11-21**, while the write-up was being drafted, after an external
+review of the repository had computed the same quantities with the definition
+above. The numbers were recomputed here and match (`report.exploratory_ranking`,
+`data/analysis/exploratory_ranking.json`, notebook). One reference was added that
+the definition did not foresee: each scorer against itself, pass 1 against pass 2,
+which gives the share of opposite choices due to the scorer's own noise. The share
+of opposite choices is counted over the 100 features, ties included.
+
+## 3. Robustness check: simultaneous intervals for the gain differences (2026-11-21)
+
+**Suggested by the same external review, after the results.** PLAN.md 2.6, rule 2,
+reads the 10 differences of gain with ordinary 95% intervals and warns about
+multiplicity in words. As a check, the 10 differences are also given with
+Bonferroni intervals (each at 99.5%, bootstrap over features as in rule 8), so that
+the 10 hold together at 95% (`report.gain_differences_simultaneous`,
+`data/analysis/gain_differences_simultaneous.json`). The planned intervals stay the
+reported ones. The review also proposed a control on 508 identical excerpts that are
+positive for one feature and negative for another. It is not adopted: the rule that
+selects those excerpts was not fixed beforehand, and it was not reproduced here.
