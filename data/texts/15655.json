@@ -1,0 +1,263 @@
+{
+ "feature": 15655,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": "ong Refuge, take the path to the right heading north-west. Just<|endoftext|>Michael",
+    "stored": 6.712088584899902,
+    "recomputed": 6.7981719970703125
+   },
+   {
+    "window": 55,
+    "text": " a<|endoftext|> of the caricature Senator Obama's right-wing critics have tried to create,\"",
+    "stored": 11.020432472229,
+    "recomputed": 10.22208023071289
+   },
+   {
+    "window": 52,
+    "text": " to vote. I just assumed they were right and I never did any<|endoftext|> not to",
+    "stored": 12.6107120513916,
+    "recomputed": 13.113287925720215
+   },
+   {
+    "window": 49,
+    "text": " and a small fringe group called Northern Kentucky Right to Life is endorsing his Tea Party challenger",
+    "stored": 20.59005546569824,
+    "recomputed": 20.980764389038086
+   },
+   {
+    "window": 44,
+    "text": "progressive Big Brother-in-chief right now. I am referring, of course",
+    "stored": 23.96297645568848,
+    "recomputed": 23.96356773376465
+   },
+   {
+    "window": 43,
+    "text": " 30-60 minutes chipping away at right now? Long-term goals come into",
+    "stored": 24.72126007080078,
+    "recomputed": 26.220388412475586
+   },
+   {
+    "window": 40,
+    "text": " email your default contact address. (See right, and check your own profile.) ",
+    "stored": 29.28003120422363,
+    "recomputed": 30.62773895263672
+   },
+   {
+    "window": 37,
+    "text": " the local horizon. With 2017 right around the corner, it's time to",
+    "stored": 29.73310279846191,
+    "recomputed": 35.120567321777344
+   },
+   {
+    "window": 36,
+    "text": " version or update your Flash plugin Download (right-click to download) As revealed to",
+    "stored": 34.69783782958984,
+    "recomputed": 36.32213592529297
+   },
+   {
+    "window": 35,
+    "text": " charge that a “vast, right-wing conspiracy” was out to",
+    "stored": 35.80893707275391,
+    "recomputed": 38.45013427734375
+   },
+   {
+    "window": 14,
+    "text": "� Story Continued Below Right on cue, the room united in upro",
+    "stored": 52.60366058349609,
+    "recomputed": 44.55751419067383
+   },
+   {
+    "window": 30,
+    "text": ", sorry. And to the west, right over this hill, Dakota Access is doing",
+    "stored": 41.59673690795898,
+    "recomputed": 48.305572509765625
+   },
+   {
+    "window": 22,
+    "text": " \"We cried over dinner, right into the mozzarella sticks,\" Stephanie",
+    "stored": 49.89094161987305,
+    "recomputed": 50.59223937988281
+   },
+   {
+    "window": 15,
+    "text": " was our best value at $29. Right behind was the Soléna Hyland",
+    "stored": 52.56219482421875,
+    "recomputed": 53.037208557128906
+   },
+   {
+    "window": 2,
+    "text": " discover the world and to know things. Right before writing the Codex I managed to cross",
+    "stored": 56.63737869262695,
+    "recomputed": 53.322689056396484
+   },
+   {
+    "window": 10,
+    "text": ", but that’s okay. Right now, the Nets have Brook Lopez as",
+    "stored": 52.80868148803711,
+    "recomputed": 53.842437744140625
+   },
+   {
+    "window": 19,
+    "text": " It’s a concept album, right? But it’s a great",
+    "stored": 52.28775024414062,
+    "recomputed": 54.97037124633789
+   },
+   {
+    "window": 4,
+    "text": " the materials on hand to build it. Right off the bat, my little astronauts have",
+    "stored": 54.60543441772461,
+    "recomputed": 55.4570426940918
+   },
+   {
+    "window": 1,
+    "text": " not bringing any of them to fruition. Right now one of my goals is to get",
+    "stored": 57.26161193847656,
+    "recomputed": 56.07842254638672
+   },
+   {
+    "window": 0,
+    "text": " bit in Video Games as environment artist. Right after my Video Games experience I worked for",
+    "stored": 58.35661697387695,
+    "recomputed": 58.950767517089844
+   }
+  ],
+  "positives": 59,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 22455,
+    "window": 11,
+    "text": " disease Bill Gates British Prime Minister Gordon Brown joined the presidents of Rwanda and Tanzania",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 15,
+    "text": " wanderer got up from his seat and left. Then, not long after",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 42,
+    "text": " is scary, unsustainable, and perhaps even foolish. You want to shape your",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 20,
+    "text": " move into the new facilities.\" Extra points: Illinois is 1-3,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 49,
+    "text": " Township. But Lawrenceville's Kickback Pinball Cafe, which opened in May, is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 55,
+    "text": " turned up and there wasn’t room for us all. It was chaos and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 18,
+    "text": " wooden delivery. So basically by becoming a Patron you're helping us out and you can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 18,
+    "text": " Bruce Wayne seeing his parents get shot turned him into Batman. By contrast, what Peter",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 32,
+    "text": " they became conservative and cautious, almost frightened of defeat. Klopp, a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 22,
+    "text": "ULE Buses will run on Thursday, May 23rd with (1)",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 76,
+    "text": " “to shreds” on his first day in office. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 11,
+    "text": "<|endoftext|> reports Associated Press. During a press conference that night, Irvine police Chief",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 1,
+    "text": " Daesh militant assault, killing scores of the terrorists in the process.<|endoftext|>Your web browser",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 20,
+    "text": " allowing the transition to take place with little to no extra spending. The agency",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 14,
+    "text": " the black half-collar at the nape of the bird’s neck.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 71,
+    "text": " Lots of returning Servicemen got free tickets to the World Series that year",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 37,
+    "text": "Queso\" and \"Lamborghini Dream\" with Young Thug),",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 6,
+    "text": "Now You See Me” director Louis Leterrier will executive produce the series and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 9,
+    "text": "ent over the cap. Salary Cap: $101,869,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 40,
+    "text": " to be grossly erroneous, however the Galen principles were still strictly adhered to in",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 8697,
+    "window": 68,
+    "text": "In the wake of the near panic over the launch of Sputnik in 1957,",
+    "recomputed": 2.516686201095581
+   }
+  ]
+ }
+}

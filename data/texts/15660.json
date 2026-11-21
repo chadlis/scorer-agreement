@@ -1,0 +1,256 @@
+{
+ "feature": 15660,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 51,
+    "text": " like: comets that pass very close to the sun on their trips through the<|endoftext|>",
+    "stored": 1.843034386634827,
+    "recomputed": 2.1614387035369873
+   },
+   {
+    "window": 47,
+    "text": " casino. The casino is within walking distance from the city center. However<|endoftext|> this is",
+    "stored": 2.508898258209229,
+    "recomputed": 3.5308942794799805
+   },
+   {
+    "window": 46,
+    "text": " he or she will give the client direct names, places, events, illnesses, or",
+    "stored": 3.361533880233765,
+    "recomputed": 4.78176736831665
+   },
+   {
+    "window": 42,
+    "text": "�s BMP with a direct hit on Ain Terma front. At the same",
+    "stored": 5.82657527923584,
+    "recomputed": 7.004548072814941
+   },
+   {
+    "window": 31,
+    "text": " either eat your berry ice cream straight out of the food processor or store it in",
+    "stored": 9.43140983581543,
+    "recomputed": 8.478264808654785
+   },
+   {
+    "window": 38,
+    "text": " and pedestrians (or trucks) heading straight through an intersection. By adding leading pedestrian signals",
+    "stored": 7.162850856781006,
+    "recomputed": 8.799193382263184
+   },
+   {
+    "window": 33,
+    "text": " providing a way to safely transfer money directly from one individual to another. It’",
+    "stored": 8.930797576904297,
+    "recomputed": 9.608263969421387
+   },
+   {
+    "window": 43,
+    "text": " that are sinkholes that are a direct result of the descent of the water level which",
+    "stored": 5.791630268096924,
+    "recomputed": 9.857455253601074
+   },
+   {
+    "window": 32,
+    "text": "In my quest to speak with experts directly involved with these matters, I thought to go",
+    "stored": 9.09955883026123,
+    "recomputed": 11.097034454345703
+   },
+   {
+    "window": 23,
+    "text": " end of 2012, takes its name straight from the frontlines. “POS RE",
+    "stored": 11.16332721710205,
+    "recomputed": 12.060629844665527
+   },
+   {
+    "window": 27,
+    "text": " higher acceptance rate than offers made directly by the employer. We usually take all",
+    "stored": 10.60137271881104,
+    "recomputed": 12.479504585266113
+   },
+   {
+    "window": 14,
+    "text": " 128 lanes of dedicated PCI Express connectivity direct to the root CPU complex, no PCIe switches",
+    "stored": 12.56966304779053,
+    "recomputed": 13.1128511428833
+   },
+   {
+    "window": 19,
+    "text": " has spoken to the media and directly to the public three separate times. 10 memorable lines",
+    "stored": 12.32757568359375,
+    "recomputed": 13.435136795043945
+   },
+   {
+    "window": 5,
+    "text": ", and various health and location data directly to your wrist. As far as",
+    "stored": 13.36859512329102,
+    "recomputed": 13.667583465576172
+   },
+   {
+    "window": 15,
+    "text": "Her statement to the public, and directly to the NCAA, was a fantastic piece of",
+    "stored": 12.54912567138672,
+    "recomputed": 13.754205703735352
+   },
+   {
+    "window": 11,
+    "text": " out or unless that suspect is hit directly in the brain,” said Martinelli",
+    "stored": 12.81709003448486,
+    "recomputed": 14.091764450073242
+   },
+   {
+    "window": 18,
+    "text": " month earlier, Mr Watson had written directly to the Director of Public Prosecutions,",
+    "stored": 12.402756690979,
+    "recomputed": 14.460515022277832
+   },
+   {
+    "window": 4,
+    "text": " it Work? This is straight from the Questrade website: You",
+    "stored": 13.43240642547607,
+    "recomputed": 14.591157913208008
+   },
+   {
+    "window": 0,
+    "text": " [Want more Heat news sent directly to your Facebook feed? Make sure to like",
+    "stored": 14.48498249053955,
+    "recomputed": 15.484233856201172
+   },
+   {
+    "window": 9,
+    "text": " write-up for full text search directly in the CartoDB Editor. ",
+    "stored": 13.04702091217041,
+    "recomputed": 16.39984893798828
+   }
+  ],
+  "positives": 51,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 9401,
+    "window": 32,
+    "text": " According to UK Study by Kevin Caruso August 25, 2005",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 52,
+    "text": "uy will present his EU strategy report at a summit in Brussels later this week. After",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 17,
+    "text": " Japan, to Quebec, to the indigenous peoples of South America, always immersing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 48,
+    "text": " for the slightest deviations of prison protocol according the Center For Constitutional Rights. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 65,
+    "text": " webs, but a Rapier still spells doom. Does not work if they",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 74,
+    "text": " that when he introduced the measure. Brittany Mirelez, a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 7,
+    "text": " students. School administrators received information Friday about marijuana-laced cookies on school",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 40,
+    "text": " will be an early sign of<|endoftext|>The two associations representing police chiefs in B.C",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 5,
+    "text": " children are even more pronounced than they are in adults. After all, everything is smaller",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 32,
+    "text": " move all these big ramps,\" Michael Knapik said.Despite the damage, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 14,
+    "text": "� Story Continued Below Right on cue, the room united in upro",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 60,
+    "text": " and vitamins A and D, could be dangerous at high levels, but essential at low",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 26,
+    "text": " the Canadian engineering firm Abdolaziz Khalili and Associates, which specialises in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 42,
+    "text": "-Pacific Partnership and has made an issue of America's shrinking manufacturing sector, President Reagan",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 23,
+    "text": ". In it, he takes a popular topic in which he has a strong dislike for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 17,
+    "text": " time by fabricating claims that her grandfather Gordon Ritchie sexually abused her. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 29,
+    "text": " African. The Immigrant Council of Ireland, the National Transport Authority and nationwide",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 27,
+    "text": " through a window of his home in Chapeco as the funeral procession passes on December",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 70,
+    "text": " Exchange/Gambling [ANN][Invest]-=Gamblex=- LAST CHANCE",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 4,
+    "text": " because it’s only the first spell for those Black Wizards put on you,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

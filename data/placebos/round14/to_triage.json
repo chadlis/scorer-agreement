@@ -1,0 +1,44 @@
+{
+ "pairs": [
+  {
+   "target": 6076,
+   "target_A": "statistical or numerical information",
+   "target_B": "statistical data related to performance metrics in sports",
+   "donor": 8995,
+   "donor_model": "A",
+   "placebo": "words related to radio"
+  },
+  {
+   "target": 3718,
+   "target_A": "female pronouns",
+   "target_B": "references to a specific female subject (likely a protagonist) and her actions or feelings",
+   "donor": 20682,
+   "donor_model": "B",
+   "placebo": "mentions of specific individuals named Corey and Derrick"
+  },
+  {
+   "target": 22207,
+   "target_A": "generic phrases representing importance or priority",
+   "target_B": "phrases emphasizing priority or significance",
+   "donor": 15618,
+   "donor_model": "A",
+   "placebo": "specific diplomatic positions or assignments"
+  },
+  {
+   "target": 21725,
+   "target_A": "phrases containing dialogues with speech marks",
+   "target_B": "punctuation marks, particularly quotation marks in dialogue",
+   "donor": 20058,
+   "donor_model": "B",
+   "placebo": "locations and references to Washington, D.C"
+  },
+  {
+   "target": 22836,
+   "target_A": "references to the FIFA organization or events related to FIFA",
+   "target_B": "references to FIFA and related topics",
+   "donor": 2019,
+   "donor_model": "B",
+   "placebo": "terms related to a specific genre or category frequently ending in \"ary.\""
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "feature": 3246,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 54,
+    "text": " cane. What binds them is a love of Chaplin's cinema - most are members",
+    "stored": 3.634139537811279,
+    "recomputed": 3.6091954708099365
+   },
+   {
+    "window": 56,
+    "text": " considers himself an actor anymore. He hates his character and being typecast to that character",
+    "stored": 3.532497882843018,
+    "recomputed": 5.118673324584961
+   },
+   {
+    "window": 50,
+    "text": " In fact, I’m afraid I have to say that when it comes to",
+    "stored": 7.27271556854248,
+    "recomputed": 7.754868507385254
+   },
+   {
+    "window": 45,
+    "text": " what all four White House contenders were afraid to say. I've heard that",
+    "stored": 11.93604373931885,
+    "recomputed": 10.845640182495117
+   },
+   {
+    "window": 48,
+    "text": " confused I felt sick. My biggest fear was never having children. Suddenly a huge piece",
+    "stored": 10.48290538787842,
+    "recomputed": 12.569653511047363
+   },
+   {
+    "window": 44,
+    "text": " brazen moves; others have long been wary of actions portending anti-democratic rule.",
+    "stored": 12.28100204467773,
+    "recomputed": 13.271952629089355
+   },
+   {
+    "window": 41,
+    "text": " this proves that a Muslim should not fear the bloated image of the crusader intelligence.\"",
+    "stored": 14.16174125671387,
+    "recomputed": 17.0263729095459
+   },
+   {
+    "window": 38,
+    "text": " Asian trading on Monday, driven by fears of a continued flight from emerging markets as tighter",
+    "stored": 16.8618278503418,
+    "recomputed": 19.554216384887695
+   },
+   {
+    "window": 35,
+    "text": " though. As a zerg the fear of tank and medivac harass is strong",
+    "stored": 20.19391059875488,
+    "recomputed": 21.31851577758789
+   },
+   {
+    "window": 32,
+    "text": " they became conservative and cautious, almost frightened of defeat. Klopp, a",
+    "stored": 23.30189323425293,
+    "recomputed": 23.632844924926758
+   },
+   {
+    "window": 28,
+    "text": " that's the point: Putin's fear of US aggression and interference is so deep that",
+    "stored": 23.88656044006348,
+    "recomputed": 25.097597122192383
+   },
+   {
+    "window": 31,
+    "text": ", value, and nutrition, for fear of dietary cholesterol , you must know that eggs",
+    "stored": 23.8162899017334,
+    "recomputed": 26.360525131225586
+   },
+   {
+    "window": 15,
+    "text": "rified of Tom Watson. They were scared of what he could do to their careers.",
+    "stored": 26.48282051086426,
+    "recomputed": 26.486770629882812
+   },
+   {
+    "window": 22,
+    "text": " refused to comment any further out of fear of being arrested but confirmed the baby does not",
+    "stored": 25.5776481628418,
+    "recomputed": 26.973865509033203
+   },
+   {
+    "window": 12,
+    "text": " times it’s due to fear of legal issues or being judged by family and",
+    "stored": 26.64995002746582,
+    "recomputed": 27.48627281188965
+   },
+   {
+    "window": 10,
+    "text": " insists that gay men should always be afraid of sex,' writes Peter Staley. ",
+    "stored": 26.85658264160156,
+    "recomputed": 28.177881240844727
+   },
+   {
+    "window": 19,
+    "text": " \"Banks are afraid of the FDIC and the penalties they could<|endoftext|>",
+    "stored": 26.19187927246094,
+    "recomputed": 28.4206485748291
+   },
+   {
+    "window": 9,
+    "text": " people sitting together, so people are scared of everything' Despite assurances the attacks",
+    "stored": 26.87960624694824,
+    "recomputed": 28.873685836791992
+   },
+   {
+    "window": 2,
+    "text": "'s suicide note indicated that he was afraid of being charged for the death of a man",
+    "stored": 28.82797622680664,
+    "recomputed": 29.749725341796875
+   },
+   {
+    "window": 1,
+    "text": " Bed\" and \"I'm Afraid of the Dark.\" And while the idea of",
+    "stored": 29.84750175476074,
+    "recomputed": 31.26776123046875
+   }
+  ],
+  "positives": 54,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 15660,
+    "window": 54,
+    "text": " rescued. “You are worthy of more. And we will work tirelessly",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 8,
+    "text": " slippery and I never know if I should pin it in place or just hold it so",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 48,
+    "text": " several years (or attempted to). Some days though, despite what is going on in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 7,
+    "text": " first local elections<|endoftext|> candidates in the directly-elected mayoral contests in Lewisham,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 37,
+    "text": " the most to limit its excesses dominated much of the early part of the Democratic presidential",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 41,
+    "text": " Indians had several different names for the great body of water, as can be learned from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 67,
+    "text": " the Berlin Police said in a statement this afternoon. Wir werden",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 23,
+    "text": " adventure that actually features talking trees and raccoons. It's not that they're",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 16,
+    "text": " with more access to information, but some restaurant owners argued that the grading system was far",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 27,
+    "text": " higher acceptance rate than offers made directly by the employer. We usually take all",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 30,
+    "text": " names and posting incorrect information, passing on rumors as facts. The theater community",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 24,
+    "text": "3. Nov. 19, 1978, East final: Montreal 21, Ottawa 16 ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 9,
+    "text": "’t have it;<|endoftext|>[Creative Commons image by Jasoon] ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 55,
+    "text": " Sudeten Nazi Party called for union with Germany and started rioting. Such was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 15,
+    "text": " has responsibility for the car-industry bailout, recalled: All of us",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 69,
+    "text": " moved to Manhattan. Loder went on to become one of its official editors. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 57,
+    "text": " constitutional reform for the White Earth (Ojibwe) Nation. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 35,
+    "text": " the ground wires are connected to the ground pins, the voltage wires are connected to the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 42,
+    "text": "39 a.m. and was centered 131 kilometers (81 miles) east of W",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 38,
+    "text": " three-year degree,\" top sources in the Army told MAIL TODAY. ",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

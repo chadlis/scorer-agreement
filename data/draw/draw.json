@@ -99,7 +99,7 @@
   21725,
   2221,
   8995,
-  21484
+  22836
  ],
  "pilot": [
   1133,
@@ -781,8 +781,24 @@
    "frac_nonzero": 0.00202782948811849,
    "failed": null,
    "gate_share": 0.9593
+  },
+  {
+   "index": 22836,
+   "frac_nonzero": 0.0002390543619791667,
+   "failed": null,
+   "gate_share": 1.0383
   }
  ],
- "next_position": 113,
- "seed": 20261120
+ "next_position": 114,
+ "seed": 20261120,
+ "replacements": [
+  {
+   "out": 21484,
+   "in": 22836,
+   "labelled": {
+    "positives": 16,
+    "negatives": 20
+   }
+  }
+ ]
 }

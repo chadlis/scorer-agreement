@@ -23,10 +23,12 @@ Setup is done. The scorer prompt was frozen on 2026-11-19 (git tag `prompt-froze
 after three format checks on 19 texts per scorer (`data/smoke/`). No measurement has
 been made yet.
 
-Data freezing is in progress. Every decision is written in `PLAN.md`, complete and
-to be frozen with the verified texts. The texts are being built and checked. The 100
-features are a simple random sample of the eligible features, drawn with a seed
-committed beforehand. Negatives are drawn from the stored windows of the other
+The data are frozen (git tag `plan-frozen`, 2026-11-21): `PLAN.md`, the 40 verified
+texts of each of the 100 features (`data/texts/`) and the placebos
+(`data/placebos/final.json`). The pilot is next. The 100 features are a simple
+random sample of the eligible features, drawn with a seed committed beforehand. One
+feature that kept too few positives after recomputation was replaced by the next
+one of the draw (`PLAN.md`, appendix A.2). Negatives are drawn from the stored windows of the other
 sampled features. Every label, positive or negative, is then checked with
 Neuronpedia's activation API on the exact text shown to the scorer.
 
@@ -117,15 +119,17 @@ Data-freezing scripts:
   fetches candidate outside donors and `uv run scripts/assign_donor_pool.py N`
   assigns from a pool that leaves out features whose two explanations are generic.
   `uv run scripts/auto_round.py assign N` and `close N` run the automatic rounds
-  (`PLAN.md`, section 2.4, rules 10 and 11). The frozen assignment is `data/placebos/final.json`.
+  (`PLAN.md`, section 2.4, rules 10 and 11), and `final N` writes the frozen
+  assignment, `data/placebos/final.json`.
 - `uv run scripts/build_texts.py [feature ...]` builds and labels the 40 texts of
   each feature, pilot first, with the free activation API (`data/texts/`, about 8 h,
-  resumable).
+  resumable). `uv run scripts/replace_features.py` replaces a feature whose texts
+  failed by the next eligible feature of the draw.
 - `uv run scripts/run_pilot.py` prints what the pilot would send. With `--yes` it
   sends it (paid, capped at 10 USD, Claude through the Message Batches API), and only
   once the git tag `plan-frozen` exists (`data/runs/pilot/`).
 - `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
-  freeze (separator balance, token lengths), and `uv run scripts/pilot_report.py`
+  freeze (no negative from the placebo donor, separator balance, token lengths), and `uv run scripts/pilot_report.py`
   computes the pilot gate and both central measures from the pilot log.
 
 Calls to the activation API are spaced by 3.6 s, retried on rate limits and server

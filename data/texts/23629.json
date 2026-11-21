@@ -1,0 +1,294 @@
+{
+ "feature": 23629,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " in an interview with INQUIRER.net on December 20 (I",
+    "stored": 1.408705472946167,
+    "recomputed": 1.8756048679351807
+   },
+   {
+    "window": 45,
+    "text": " California. Similarly, PPP’s final polling in Colorado and Washington State this",
+    "stored": 3.456828117370605,
+    "recomputed": 2.3087613582611084
+   },
+   {
+    "window": 52,
+    "text": " should be cancelled altogether? GameNGuide would love to hear your thoughts in the comments",
+    "stored": 2.241114854812622,
+    "recomputed": 2.7513256072998047
+   },
+   {
+    "window": 49,
+    "text": " Fox Sports, StarSports, ASN and Videoland for sports programming. ",
+    "stored": 2.604267358779907,
+    "recomputed": 3.4028570652008057
+   },
+   {
+    "window": 37,
+    "text": " All clear The FIA made it clear that following the analysis, it",
+    "stored": 4.513044834136963,
+    "recomputed": 4.070263385772705
+   },
+   {
+    "window": 42,
+    "text": " the Port<|endoftext|> Central Terminal. WSJ notes that a 2014 estimate totaling $3.",
+    "stored": 4.052051544189453,
+    "recomputed": 4.400647163391113
+   },
+   {
+    "window": 43,
+    "text": ".”<|endoftext|>\" \" The AAP has realized that a \" just turn it off",
+    "stored": 3.755914211273193,
+    "recomputed": 4.644524574279785
+   },
+   {
+    "window": 29,
+    "text": "' Executive Chair. \"TELUS is committed to better connecting citizens by linking homes",
+    "stored": 5.980729579925537,
+    "recomputed": 6.0611090660095215
+   },
+   {
+    "window": 24,
+    "text": " getting in over their head knowing that SAR is just a call away. Those",
+    "stored": 6.64024829864502,
+    "recomputed": 7.0216145515441895
+   },
+   {
+    "window": 26,
+    "text": "<|endoftext|>'s recruiting, which saw LPL gain 114 in net new advisers. LPL",
+    "stored": 6.576058387756348,
+    "recomputed": 7.162201881408691
+   },
+   {
+    "window": 14,
+    "text": " on June 16. CENTCOM reports: U.S. forces",
+    "stored": 7.702457427978516,
+    "recomputed": 7.368415832519531
+   },
+   {
+    "window": 18,
+    "text": " reach the Steinle family. BCR organized the event without the family’s",
+    "stored": 7.515029430389404,
+    "recomputed": 7.559944152832031
+   },
+   {
+    "window": 15,
+    "text": "ap Auto Bathurst 1000, CAMS has today released a short Q&A paper",
+    "stored": 7.582076549530029,
+    "recomputed": 7.949708938598633
+   },
+   {
+    "window": 7,
+    "text": " since the pipes cannot freeze. AER is working to ensure all regulatory and safety requirements",
+    "stored": 7.833134174346924,
+    "recomputed": 7.991272449493408
+   },
+   {
+    "window": 1,
+    "text": " has<|endoftext|> concerns. RTA is on the clock from the FTA to either",
+    "stored": 8.377727508544922,
+    "recomputed": 8.113019943237305
+   },
+   {
+    "window": 20,
+    "text": " president and CEO. “CFI has long championed the rights of nonreligious couples",
+    "stored": 7.379446983337402,
+    "recomputed": 8.45871353149414
+   },
+   {
+    "window": 3,
+    "text": "jiang 2 in commercial operation, CGN now has 12 power reactors in operation with a",
+    "stored": 8.058696746826172,
+    "recomputed": 8.93832015991211
+   },
+   {
+    "window": 10,
+    "text": " associated with the Koch brothers. CEI was critical of the EPA the last time the",
+    "stored": 7.737564563751221,
+    "recomputed": 9.24831485748291
+   },
+   {
+    "window": 17,
+    "text": "000 uninsured individuals. AHIP was also the organization behind this week’",
+    "stored": 7.539038181304932,
+    "recomputed": 9.32317066192627
+   },
+   {
+    "window": 5,
+    "text": " has not been on CNN since AHIP began its recent advertising campaign, this week,",
+    "stored": 7.90607213973999,
+    "recomputed": 9.925911903381348
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 57,
+    "text": " The U.S. EPA’s RE-Powering America’s",
+    "stored": 1.000196814537048,
+    "recomputed": 0.3368203639984131
+   },
+   {
+    "window": 58,
+    "text": " by each driver. LMP 1st: SrPhloof",
+    "stored": 0.8778680562973022,
+    "recomputed": 0.21334201097488403
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23863,
+    "window": 36,
+    "text": " appeared to be a few years old and outdated -- was pulled from The Response's website",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 28,
+    "text": " the<|endoftext|> it for granted<|endoftext|>Save this picture! Courtesy of Studio Liu Lubin ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 61,
+    "text": "issioning Up to now, that has required the maintenance (and, indeed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 46,
+    "text": " a spiral toward open conflict even when no side actually wants it. In other",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 31,
+    "text": " 50 war crimes suspects. Rumors on social media Hundreds of rumors",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 73,
+    "text": "’s existence remains, and demonstrates both the duties of a ‘chate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 27,
+    "text": " ties to Romney’s campaign and bundlers is already well documented, along with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 3,
+    "text": "�t seem to know the difference between church and the workplace. The Freedom",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 28,
+    "text": " CU<|endoftext|> 16th, 2010 1,385 Never a guest1,385Never ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 19,
+    "text": " A Hot Mess Of Leftist Politics and Activism On Display [Video] ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 22,
+    "text": " combination of good music, small-town authenticity and understated acting that makes it worthwhile",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 13,
+    "text": " relational tables is based on the document's structural summary, which is derived from the document",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 26,
+    "text": " might not get an A+ mark based strictly on smoothness, suggested Jordan Erickson",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 10,
+    "text": "s presidential campaign, often serves as something of the de facto liberal voice on the Fox",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 29,
+    "text": " from a sample of 669 current-gen games which had protagonists of a specific gender",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 34,
+    "text": ": God cannot be mocked. A man reaps what he sows,”",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 3,
+    "text": " snow, gazing out from under the overhanging branches of a balsam fir",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 40,
+    "text": ". Elizabeth Warren.\" Stephen Maturen / Getty Images Rep. Keith Ellison",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 33,
+    "text": " -qm <ratio>: quiet threshold for maxheld/limit ratio (",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 0,
+    "text": " as I am apt to do. The topic was mindfulness, a concept I’",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 14562,
+    "window": 4,
+    "text": " costs, without coverage they can incur substantial bills. One Centers for Disease Control and Prevention",
+    "recomputed": 0.6846936345100403
+   },
+   {
+    "from_feature": 22163,
+    "window": 50,
+    "text": " divorce, sex, bullying), while taking them out of the pastel-hued",
+    "recomputed": 0.16177627444267273
+   },
+   {
+    "from_feature": 47,
+    "window": 47,
+    "text": " law as it now reads, the Republican Party may never win the White House again,",
+    "recomputed": 0.445755273103714
+   },
+   {
+    "from_feature": 20467,
+    "window": 24,
+    "text": " approached a man and woman as they were walking. They said he then produced a gun",
+    "recomputed": 0.2703189253807068
+   }
+  ]
+ }
+}

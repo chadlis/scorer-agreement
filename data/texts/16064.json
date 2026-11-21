@@ -1,0 +1,270 @@
+{
+ "feature": 16064,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 51,
+    "text": " Ercan said that the museum at Şanlıurfa contains a",
+    "stored": 2.3027024269104,
+    "recomputed": 1.7009118795394897
+   },
+   {
+    "window": 45,
+    "text": "100; 50% of the next tranche, and 33% of a subsequent tr",
+    "stored": 3.985650539398193,
+    "recomputed": 3.200803279876709
+   },
+   {
+    "window": 52,
+    "text": " will now see<|endoftext|> think the fact that Oyster is selling books is less important than",
+    "stored": 1.970760583877563,
+    "recomputed": 3.6946628093719482
+   },
+   {
+    "window": 39,
+    "text": " police officer. Bryan James Hathaway, 25, was arraigned Wednesday",
+    "stored": 5.91707181930542,
+    "recomputed": 5.163936614990234
+   },
+   {
+    "window": 41,
+    "text": " by many names – Kalkin, Siddhartha, Maitreya,",
+    "stored": 5.599152565002441,
+    "recomputed": 6.000252723693848
+   },
+   {
+    "window": 47,
+    "text": " where he grew up, in 2009. Reeves said he came back to a very different",
+    "stored": 3.470460891723633,
+    "recomputed": 7.035759449005127
+   },
+   {
+    "window": 29,
+    "text": " Billy Joel, Mumford & Sons, Kendrick Lamar, My Morning Jacket, Alabama Sh",
+    "stored": 9.800698280334473,
+    "recomputed": 8.31074333190918
+   },
+   {
+    "window": 33,
+    "text": " violence,\" said Bill Masterson, a Hertz spokesman. \"Knowing that",
+    "stored": 8.722079277038574,
+    "recomputed": 9.07034969329834
+   },
+   {
+    "window": 38,
+    "text": " I was upset with myself,’ Hathaway said in a statement to police at",
+    "stored": 6.825616359710693,
+    "recomputed": 9.890035629272461
+   },
+   {
+    "window": 34,
+    "text": " this is true, it certainly appears that Hertz is admitting to a bogus takedown.",
+    "stored": 7.96763801574707,
+    "recomputed": 11.05226993560791
+   },
+   {
+    "window": 32,
+    "text": " Once the initial shock passed, Hertz IT employees had to make difficult choices",
+    "stored": 9.13836669921875,
+    "recomputed": 11.91478157043457
+   },
+   {
+    "window": 21,
+    "text": " gesture. Shelton High School senior James Tate just wanted to make his good friend,",
+    "stored": 12.37496280670166,
+    "recomputed": 12.51052474975586
+   },
+   {
+    "window": 11,
+    "text": " with cancer at his home near Laguna Niguel, Calif. He<|endoftext|> of the",
+    "stored": 13.32700729370117,
+    "recomputed": 12.955671310424805
+   },
+   {
+    "window": 17,
+    "text": "uchi Writer: Kazumasa Hirai, Fumio Konami ",
+    "stored": 12.86243057250977,
+    "recomputed": 13.983797073364258
+   },
+   {
+    "window": 5,
+    "text": "oshida (64 votes) Mr. Hiruta (54 votes) Young Rocker",
+    "stored": 14.25162315368652,
+    "recomputed": 14.431649208068848
+   },
+   {
+    "window": 12,
+    "text": " and on audio for Big Finish with Catherine Tate in 2016. Billie Piper",
+    "stored": 13.32630062103271,
+    "recomputed": 14.720069885253906
+   },
+   {
+    "window": 3,
+    "text": " they walked down the main corridor of the Tate. \"[And] a chap",
+    "stored": 14.53361701965332,
+    "recomputed": 15.268389701843262
+   },
+   {
+    "window": 1,
+    "text": "20 edition), showing the Rupes Nigra at the North Pole, surrounded by",
+    "stored": 14.6723051071167,
+    "recomputed": 15.810598373413086
+   },
+   {
+    "window": 25,
+    "text": " soon have to pay to play online, Hirai issued a subsequent statement indicating the present",
+    "stored": 10.65282917022705,
+    "recomputed": 16.09592628479004
+   },
+   {
+    "window": 0,
+    "text": " 29500 block of Pelican Way near Niguel Road and Alicia Parkway. ",
+    "stored": 16.7548999786377,
+    "recomputed": 18.822284698486328
+   }
+  ],
+  "positives": 52,
+  "grey": [],
+  "zero": [
+   {
+    "window": 53,
+    "text": " time as it is revealed in a Bodega episode. Unfortunately those with a chipset",
+    "stored": 1.856386184692383,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16546,
+    "window": 44,
+    "text": "s central villain, which, while unconfirmed, is rumored to be Irish mutant Black",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 7,
+    "text": " (e.g., mammoths, mastodons, giant ground sloths)",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 21,
+    "text": " the standard natural uranium (NU) bundles used in IPHWRs. These",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 34,
+    "text": " The tool must be portable and small enough to fit in our storage space.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 8,
+    "text": " risk. Your spit makes you look old: How's this for a depressing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 54,
+    "text": " we sit in his car, the FM Radio starts playing in full volume. A Tamil",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 13,
+    "text": " level scares in Norfolk Virginia“, right here at WUWT. Goes to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 16,
+    "text": ": Dan Majerle, 1988, Phoenix. C: Maurice Lucas,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 7,
+    "text": " Mohamed Morsi has for months faced criticism from secular and liberal activists over the government’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 0,
+    "text": " Dover Publications (reprint), ISBN 0-486-21959-3 ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 8,
+    "text": " finishing moves. It's difficult to<|endoftext|>Two weeks ago, we released Firefox Quantum to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 32,
+    "text": " and her date. Translation: Andreas Ekström. In",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 8,
+    "text": " the GOP tax plan is far from the party’s only policy that seems finely",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 57,
+    "text": " to the far side of the field, leaving the participants to stand around wondering what to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 16,
+    "text": " “scientific validation” of the method. First, that’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 34,
+    "text": " a threat to safety. It always turns out that what the author is really lamenting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 12,
+    "text": " for Gaga. The star then belted out a medley of her greatest",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 13,
+    "text": " native to our area. Thanks to the internet, we knew within minutes that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 44,
+    "text": " power. They offer their daughters to foreign fighters without asking the bride-to-be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 16,
+    "text": " frying, and added to processed foods including ready made mixtures used for drinks and cakes",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 1589,
+    "window": 6,
+    "text": " to come back here,\" Britt said, per the St. Louis Post-Dispatch.",
+    "recomputed": 9.468584060668945
+   }
+  ]
+ }
+}

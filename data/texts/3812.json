@@ -1,0 +1,300 @@
+{
+ "feature": 3812,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 45,
+    "text": " call ‘The Lobbyist Full-Employment Act,’ ” one",
+    "stored": 3.759530782699585,
+    "recomputed": 3.0632200241088867
+   },
+   {
+    "window": 36,
+    "text": " acquisitions. One of these “opportunities” involves “a London",
+    "stored": 9.0250244140625,
+    "recomputed": 5.706034183502197
+   },
+   {
+    "window": 42,
+    "text": " project runing as well. PhysX Painter PhysX Painter is",
+    "stored": 5.433048248291016,
+    "recomputed": 6.794400215148926
+   },
+   {
+    "window": 34,
+    "text": " Sin City special edition DVD, co-creators Frank Miller and Robert Rodriguez admitted that",
+    "stored": 10.31176471710205,
+    "recomputed": 8.238536834716797
+   },
+   {
+    "window": 37,
+    "text": " earn either a grade of “Satisfactory,” for letter grades from",
+    "stored": 7.940592765808105,
+    "recomputed": 8.513384819030762
+   },
+   {
+    "window": 40,
+    "text": " the last ever classic Who story “Survival” and tonally, there",
+    "stored": 6.538814544677734,
+    "recomputed": 10.414307594299316
+   },
+   {
+    "window": 32,
+    "text": ": Andrei Tarkovsky Creates a List of His 10 Favorite Films",
+    "stored": 11.63088798522949,
+    "recomputed": 11.099841117858887
+   },
+   {
+    "window": 16,
+    "text": " the same ones.” Creators mostly chose not to sign their artwork",
+    "stored": 20.1960391998291,
+    "recomputed": 13.33150577545166
+   },
+   {
+    "window": 30,
+    "text": "<|endoftext|> came after the Defoe “experiment” blew up. Instead of",
+    "stored": 12.81700325012207,
+    "recomputed": 14.762259483337402
+   },
+   {
+    "window": 27,
+    "text": " and come to be seen as “experts.” As such, they",
+    "stored": 14.61417579650879,
+    "recomputed": 15.95067310333252
+   },
+   {
+    "window": 25,
+    "text": " attempts to pull on a torpedo-deactivating outfit. After hordes<|endoftext|> a rebound",
+    "stored": 15.29857444763184,
+    "recomputed": 17.532901763916016
+   },
+   {
+    "window": 21,
+    "text": " D.C.-based Gay & Lesbian Activists Alliance. Dana Be",
+    "stored": 18.21060180664062,
+    "recomputed": 20.173171997070312
+   },
+   {
+    "window": 23,
+    "text": "back > 2-back. B, Activation in each of these regions within the",
+    "stored": 17.14547157287598,
+    "recomputed": 20.875892639160156
+   },
+   {
+    "window": 15,
+    "text": " the Republican Party<|endoftext|> weapons in Syria (\"Creative Diplom<|endoftext|>I have written in the",
+    "stored": 20.23967361450195,
+    "recomputed": 21.329477310180664
+   },
+   {
+    "window": 19,
+    "text": " A Hot Mess Of Leftist Politics and Activism On Display [Video] ",
+    "stored": 19.06947326660156,
+    "recomputed": 22.41668701171875
+   },
+   {
+    "window": 6,
+    "text": "” the source said. Activists reacting to the report about the campaign",
+    "stored": 25.25194549560547,
+    "recomputed": 24.83054542541504
+   },
+   {
+    "window": 1,
+    "text": " under the pretext of security. Activist Hammoud al-Moussa",
+    "stored": 27.92061996459961,
+    "recomputed": 25.857154846191406
+   },
+   {
+    "window": 14,
+    "text": " territory but will not necessarily collapse soon. Activists agreed, saying that unless the international",
+    "stored": 21.19132614135742,
+    "recomputed": 26.919830322265625
+   },
+   {
+    "window": 11,
+    "text": ". The pressure is on: Activists are pushing hard to make climate change",
+    "stored": 22.14293479919434,
+    "recomputed": 27.5811767578125
+   },
+   {
+    "window": 0,
+    "text": " appealed for support from civil society.<|endoftext|>Activision is defending itself from backlash against its",
+    "stored": 29.50512504577637,
+    "recomputed": 33.988128662109375
+   }
+  ],
+  "positives": 38,
+  "grey": [
+   {
+    "window": 44,
+    "text": " across Europe. The 4,000-Soldier ABCT will contribute to and strengthen",
+    "stored": 3.87800669670105,
+    "recomputed": 2.400905132293701
+   }
+  ],
+  "zero": [
+   {
+    "window": 3,
+    "text": " not offered to most shareholders. Activision has now settled these suits, with",
+    "stored": 27.3258171081543,
+    "recomputed": 0
+   },
+   {
+    "window": 4,
+    "text": " extremely unlikely to be updated: Activision Quantum of Solace",
+    "stored": 26.34567642211914,
+    "recomputed": 0
+   },
+   {
+    "window": 5,
+    "text": " and open to the public. Activities and displays now take up as much",
+    "stored": 25.3990535736084,
+    "recomputed": 0
+   },
+   {
+    "window": 7,
+    "text": " Javea in August. Activities on the Javea Beaches",
+    "stored": 23.81666564941406,
+    "recomputed": 0
+   },
+   {
+    "window": 10,
+    "text": " to 3 (was 1) Activities Raid Fixed an",
+    "stored": 22.37581443786621,
+    "recomputed": 0
+   },
+   {
+    "window": 22,
+    "text": " separation of church and state? Creative Commons - robynneblume",
+    "stored": 17.5694522857666,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23756,
+    "window": 14,
+    "text": " the people hearing you to know why the topic is important to them. 7",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 44,
+    "text": "), before he brutally murders him with an axe. In the Funny or Die parody,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 54,
+    "text": ". Caplan—who, according to his faculty page, was named a 2001 USA",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 23,
+    "text": ", and they may be more addicted than smokers who refrain from smoking for a half hour",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 73,
+    "text": " try\" or \"test it\" came to prominence in the 1950s Madison Avenue advertising",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 25,
+    "text": ", it’s just a cautionary PSA about the realities of HIV and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 15,
+    "text": " than a 60 percent majority. That has infuriated the Germans and the central",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 72,
+    "text": "olyneaux, who described how the Burton brewers began brewing beer for export to India",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 39,
+    "text": " and influence. They are marginalized and ostracized. When that happens, they can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 43,
+    "text": " Concerning Ladder Dangers According to the World Health Organization, the United States leads",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 3,
+    "text": "�s so popular that one is afraid of saying he was one of the last desp",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 3,
+    "text": "� Get the facts, direct to your inbox. Subscribe to our daily or",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 39,
+    "text": " here. Aggravated by the Hollywood thrill of technological innovation and the well-tim",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 28,
+    "text": " they just wouldn’t obey the commands my brain was giving them. I was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 53,
+    "text": " of the most delicious champagne, and are ready for the night ahead. You get in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 7,
+    "text": " a Titan is to hack out the nape of its neck, which is obviously easier",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 17,
+    "text": "There are almost 3,000 staff at HMRC with the power to peruse people",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 11,
+    "text": " one — he was assassinated on Obama's orders two weeks before the Regime slaughtered his",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 38,
+    "text": " are 'surgical', researchers found barely two per cent of their victims are known militants",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 44,
+    "text": " been living with local residents Paul and Tina Gardner. Details on services for the",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

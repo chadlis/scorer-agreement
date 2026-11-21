@@ -1,0 +1,256 @@
+{
+ "feature": 7229,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " PLL filming in Los Angeles and Suits shooting in Toronto, Bellisario is",
+    "stored": 6.412350177764893,
+    "recomputed": 5.051844596862793
+   },
+   {
+    "window": 59,
+    "text": "att suites, two three-bay Junior suites, and a four-bay Executive Suite",
+    "stored": 4.844730854034424,
+    "recomputed": 8.807251930236816
+   },
+   {
+    "window": 52,
+    "text": " anti-choice rant that described scenes more suited to an abattoir or an installment",
+    "stored": 9.701773643493652,
+    "recomputed": 9.8317289352417
+   },
+   {
+    "window": 54,
+    "text": ", the funding sources are not your typical suited-up investors. Sure, some VC",
+    "stored": 9.527205467224121,
+    "recomputed": 12.010823249816895
+   },
+   {
+    "window": 41,
+    "text": " Tony Taka designed two new swimsuit costumes, the “Dark Lotus Swim",
+    "stored": 22.3774242401123,
+    "recomputed": 18.64756202697754
+   },
+   {
+    "window": 39,
+    "text": " Countries across the world followed suit, setting up schemes to provide foreign investors",
+    "stored": 24.93877410888672,
+    "recomputed": 24.8548641204834
+   },
+   {
+    "window": 36,
+    "text": " . 4:30am Mobile Suit Gundam: Extreme VS Force released today in",
+    "stored": 27.94239044189453,
+    "recomputed": 27.55284881591797
+   },
+   {
+    "window": 37,
+    "text": " lot now at half-back and it suits my sort of game just playing down there",
+    "stored": 27.90042686462402,
+    "recomputed": 28.88269805908203
+   },
+   {
+    "window": 33,
+    "text": " the toolbar and new hamburger menu to suit your needs. Other changes and",
+    "stored": 29.48695945739746,
+    "recomputed": 30.21297836303711
+   },
+   {
+    "window": 29,
+    "text": " out about pick stitches, fully canvassed suits, Filson bags and Alden Indy",
+    "stored": 33.84026336669922,
+    "recomputed": 33.310279846191406
+   },
+   {
+    "window": 17,
+    "text": " walk a fun 5K in a gorilla suit Gorilla / banana suits",
+    "stored": 42.77228546142578,
+    "recomputed": 39.246246337890625
+   },
+   {
+    "window": 19,
+    "text": " Say we have the following source file, suitably named hello.c: ",
+    "stored": 42.19562149047852,
+    "recomputed": 39.54276657104492
+   },
+   {
+    "window": 24,
+    "text": " the<|endoftext|>omez With a reputation for writing suit-and-tie articles, Miguel Le",
+    "stored": 39.05847930908203,
+    "recomputed": 41.44963073730469
+   },
+   {
+    "window": 18,
+    "text": "rounged up a bumblebee suit, monkey pajamas, costumes for",
+    "stored": 42.72689056396484,
+    "recomputed": 42.897823333740234
+   },
+   {
+    "window": 46,
+    "text": " against it.[1] The suit alleged that, in what was dubbed the",
+    "stored": 18.32877731323242,
+    "recomputed": 43.69791793823242
+   },
+   {
+    "window": 8,
+    "text": " facilitates greater diversity) The habitat suitability which includes: Climate (tropical",
+    "stored": 44.40208435058594,
+    "recomputed": 44.925418853759766
+   },
+   {
+    "window": 3,
+    "text": ". He dressed quickly and put on a suit, necktie, and white shirt.",
+    "stored": 45.15236663818359,
+    "recomputed": 45.527767181396484
+   },
+   {
+    "window": 5,
+    "text": " waters around the ship, with some using suitcases as makeshift flotation<|endoftext|>In my",
+    "stored": 44.98533248901367,
+    "recomputed": 46.02997970581055
+   },
+   {
+    "window": 2,
+    "text": " IF you are one of the suiters (and ONLY if), you may",
+    "stored": 45.95138931274414,
+    "recomputed": 48.02294158935547
+   },
+   {
+    "window": 0,
+    "text": " coaches are expected to have a lot of suitors from China this year 6",
+    "stored": 47.46646499633789,
+    "recomputed": 50.51068878173828
+   }
+  ],
+  "positives": 59,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 1589,
+    "window": 38,
+    "text": "ed<|endoftext|> the topic of racism has arrived per force in the feminist newspapers and journals,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 6,
+    "text": " of oral sex because “practice makes pleasure.” However, to use the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 36,
+    "text": ".\" It said the global oversupply of milk less than two years ago",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 51,
+    "text": " first race, contact sending the Honda spinning at more than 100mph. Pl",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 53,
+    "text": " allowing Cunningham to get into the cruiser and leave the area. Harrison said",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 39,
+    "text": " LePage that would remove the property tax exemption that some nonprofits now have starting in 2019",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 7,
+    "text": " tape on the letters,\" he said. Tate said he also wore a helmet. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 31,
+    "text": "ying DWA<|endoftext|> the studio he helped to form in 1997 under parent company DreamWorks",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 14,
+    "text": " chemicals, genetic engineering, and technology to mutate themselves into stronger, powerful and immortal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 13,
+    "text": " Hensarling. Cruz also cut a radio ad that the campaign has used to swamp",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 57,
+    "text": " having leaked to Rosen classified information. Finally, in January, the Justice Department",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 71,
+    "text": " reference, as many of you pointed out, was to the list of 7 countries affected",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 51,
+    "text": " aircraft and two<|endoftext|>, SASTIND said. The latest possible lead in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 58,
+    "text": "600 goal pledged, with only 27 days left to go, but we're putting 100",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 23,
+    "text": " two seasons, the two highest sack totals of his career. Peat should help bring",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 12,
+    "text": " and on audio for Big Finish with Catherine Tate in 2016. Billie Piper",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 25,
+    "text": " gender, and prevents local municipalities from passing legislation allowing for anything else. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 0,
+    "text": " helping themselves to some of the spot's signature suds, at one point one of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 36,
+    "text": "S., overall<|endoftext|> to try and reshape our world according to their own ideology.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 16,
+    "text": " Shine — a giant spinning wheel wrapped in absorbent material that rolls over the vehicle to",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

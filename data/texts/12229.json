@@ -1,0 +1,275 @@
+{
+ "feature": 12229,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 53,
+    "text": " were registered under the Foreign Contribution (Regulation) Act up to March 31,",
+    "stored": 5.392086029052734,
+    "recomputed": 4.251651287078857
+   },
+   {
+    "window": 54,
+    "text": ". Even a conventional war on the Korean peninsula would likely see at least hundreds of thousands",
+    "stored": 4.147759914398193,
+    "recomputed": 8.060136795043945
+   },
+   {
+    "window": 50,
+    "text": " 2012 the focus shifts firmly to the southern basin explorers, where success for Falkland Oil",
+    "stored": 7.331329822540283,
+    "recomputed": 10.17200756072998
+   },
+   {
+    "window": 46,
+    "text": " required following the opening of the Redcliffe Peninsula Line. Mr Hinchl",
+    "stored": 8.193175315856934,
+    "recomputed": 11.285623550415039
+   },
+   {
+    "window": 42,
+    "text": " tropes, the moderate zones and the polar regions are presented. They are based",
+    "stored": 19.43299102783203,
+    "recomputed": 20.975725173950195
+   },
+   {
+    "window": 38,
+    "text": " dry regions to get drier and wet regions to get wetter. The second factor",
+    "stored": 21.83283805847168,
+    "recomputed": 23.2319393157959
+   },
+   {
+    "window": 39,
+    "text": " initial threshold of z > 20. Six regions of interest in the default mode network were",
+    "stored": 21.50188827514648,
+    "recomputed": 25.67974281311035
+   },
+   {
+    "window": 41,
+    "text": " northeast. To expand the fight beyond those regions, the U.S. recently air",
+    "stored": 20.0822639465332,
+    "recomputed": 27.774999618530273
+   },
+   {
+    "window": 28,
+    "text": " legalized Bitcoin and its businesses in their respective regions. The Indian government announced the likelihood of",
+    "stored": 26.67496490478516,
+    "recomputed": 28.352825164794922
+   },
+   {
+    "window": 26,
+    "text": "000 gays and lesbians living in the West Region. According to Joy News,",
+    "stored": 28.75358772277832,
+    "recomputed": 29.843244552612305
+   },
+   {
+    "window": 14,
+    "text": " economy of California, particularly the Southern California region. Founded in 2010, the LA",
+    "stored": 32.90309524536133,
+    "recomputed": 30.636981964111328
+   },
+   {
+    "window": 21,
+    "text": " now slipping behind the education race in our region and in the world,\" she said.",
+    "stored": 31.41859436035156,
+    "recomputed": 32.17426300048828
+   },
+   {
+    "window": 9,
+    "text": " the Association of Bay Area Governments and the region’s Metropolitan Transportation Commission. �",
+    "stored": 33.47946166992188,
+    "recomputed": 33.20794677734375
+   },
+   {
+    "window": 18,
+    "text": "pectfully as someone who comes from the region that is incredibly bigoted — people from",
+    "stored": 32.83852767944336,
+    "recomputed": 34.2498893737793
+   },
+   {
+    "window": 12,
+    "text": " you will find that they do sound more regionally British than they do American. ",
+    "stored": 33.31004333496094,
+    "recomputed": 34.71866226196289
+   },
+   {
+    "window": 19,
+    "text": ", and part of this is opening your region to those around you. The",
+    "stored": 32.79885864257812,
+    "recomputed": 35.630985260009766
+   },
+   {
+    "window": 3,
+    "text": " all we had<|endoftext|>New USC survey finds region’s escalating home prices hindering",
+    "stored": 34.45200729370117,
+    "recomputed": 36.36715316772461
+   },
+   {
+    "window": 8,
+    "text": "Kevin Caruso<|endoftext|>The Latin American region, made up of Mexico, Central America",
+    "stored": 33.48199081420898,
+    "recomputed": 36.60778045654297
+   },
+   {
+    "window": 2,
+    "text": " Apart from the lifestyle of the region, another reason it's happening in this",
+    "stored": 34.83263778686523,
+    "recomputed": 36.99095153808594
+   },
+   {
+    "window": 10,
+    "text": " Brazil GTM Research expects the region to install 2.1 gigawatts in",
+    "stored": 33.43412399291992,
+    "recomputed": 37.950225830078125
+   }
+  ],
+  "positives": 55,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 10122,
+    "window": 0,
+    "text": " a magical world where they have to use spell casting techniques to defeat each other. They",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 35,
+    "text": " reached at [email protected]<|endoftext|>United Against a Nuclear Iran (UANI), an",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 9,
+    "text": " sometimes there were debates on priority of the topics used. One of these debates occurred with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 46,
+    "text": " own podcasting company, Gimlet Media. While most stories about founders focus on their",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 5,
+    "text": " • She was the first woman radio operator to be flown undercover to Paris under",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 39,
+    "text": " “Cost estimates are conceptual and for comparative purposes only.”<|endoftext|>Mr Obama",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 34,
+    "text": ", which often doesn't bring us the satisfaction we had hoped for anyway. The Buddha",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 15,
+    "text": " Rather than continue negotiating, the Penguins shipped him to the Hurricanes, where Staal will",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 30,
+    "text": ": The sticker design with GPIO pinout - handy! What is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 2,
+    "text": "May 22–24, 2018 Tuesday, May 22 Doors at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 27,
+    "text": " I want to know who killed my son.) Aldrin had kept himself",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 30,
+    "text": " years. Her results clearly showed that bisexuality was not a transitional period: Very few",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 8,
+    "text": "'s office says Hawk did not comply with orders to drop the gun, and he was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 48,
+    "text": " escorting.\"<|endoftext|>For Veterans and Servicemembers You may receive Vocational",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 13,
+    "text": " cost (have you looked at your water bill lately), in time and in quality of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 9,
+    "text": " Island secretary of state's corporations database. Ready said the location that is now Mardi",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 56,
+    "text": " points are gained by icing all members of the opposing team. Players can thaw out",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 42,
+    "text": " to make illness one of its \"prime themes\" alongside \"love and battle and jealousy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 48,
+    "text": " got separated. My date was invited to smoke pot with some brothers. I had never",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 80,
+    "text": " the State is not lost during a campus crisis, including the crisis that ensued following the",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 3665,
+    "window": 54,
+    "text": " pan out differently across the many regions of the world. There will be much more<|endoftext|>",
+    "recomputed": 28.90349769592285
+   },
+   {
+    "from_feature": 21857,
+    "window": 42,
+    "text": "The stranglehold male lawmakers have on legislating private medical issues applies solely to Kentucky",
+    "recomputed": 2.068418025970459
+   },
+   {
+    "from_feature": 5479,
+    "window": 21,
+    "text": " mourning our ancestors and the genocide of our peoples and the theft of our lands. ND",
+    "recomputed": 0.3160492479801178
+   }
+  ]
+ }
+}

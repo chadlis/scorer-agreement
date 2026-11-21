@@ -1,0 +1,263 @@
+{
+ "feature": 22836,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 38,
+    "text": " one at the time could account for. Kepler was the first to discover that not all",
+    "stored": 7.66208553314209,
+    "recomputed": 7.883641242980957
+   },
+   {
+    "window": 36,
+    "text": " Under-21 Championship. The UEFA Technical Observers, present at every",
+    "stored": 13.3064489364624,
+    "recomputed": 13.88007640838623
+   },
+   {
+    "window": 37,
+    "text": " When GlobalPost caught up with Madden in Puerto Huarmey, he",
+    "stored": 9.835918426513672,
+    "recomputed": 15.901598930358887
+   },
+   {
+    "window": 32,
+    "text": "ed Franchise lets you decide for yourself. Madden NFL 25 includes both player and coach<|endoftext|>",
+    "stored": 15.82826232910156,
+    "recomputed": 17.321439743041992
+   },
+   {
+    "window": 31,
+    "text": ", along with several top executives from CONCACAF, PRFC's qualification to the",
+    "stored": 17.39879989624023,
+    "recomputed": 20.727258682250977
+   },
+   {
+    "window": 28,
+    "text": " decision that remains mired in controversy as Fifa and organisers grapple with the desperate plight of",
+    "stored": 44.92210388183594,
+    "recomputed": 47.6437873840332
+   },
+   {
+    "window": 19,
+    "text": " (Image: Alex Livesey - FIFA) “It was Van",
+    "stored": 54.64755630493164,
+    "recomputed": 55.70021057128906
+   },
+   {
+    "window": 27,
+    "text": "'s a similar sentiment on EA Sports' FIFA forums, where some players have said they",
+    "stored": 47.82990646362305,
+    "recomputed": 57.73856735229492
+   },
+   {
+    "window": 13,
+    "text": " protesters. When Putin looks at FIFA, he sees Russia. And when he",
+    "stored": 55.89632034301758,
+    "recomputed": 58.27098846435547
+   },
+   {
+    "window": 9,
+    "text": " the top three finishers at the 2014 FIFA World Cup. The U.S.",
+    "stored": 56.34098815917969,
+    "recomputed": 58.89096450805664
+   },
+   {
+    "window": 16,
+    "text": " MNT in the Final Round of 2018 FIFA World Cup qualifying. Four days later,",
+    "stored": 55.06728363037109,
+    "recomputed": 59.028621673583984
+   },
+   {
+    "window": 12,
+    "text": " says 'something reluctant' blocks women from FIFA leadership roles. Neglects to mention",
+    "stored": 55.97027969360352,
+    "recomputed": 59.26262664794922
+   },
+   {
+    "window": 26,
+    "text": ". And Blatter isn't among the FIFA officials charged. But that's",
+    "stored": 48.14315795898438,
+    "recomputed": 59.443504333496094
+   },
+   {
+    "window": 4,
+    "text": " until noon ET on Tuesday.<|endoftext|>When FIFA president Sepp Blatter took the mic",
+    "stored": 57.77655029296875,
+    "recomputed": 59.77922439575195
+   },
+   {
+    "window": 15,
+    "text": " a fun, fair and secure experience in FIFA is ongoing, and as a community your",
+    "stored": 55.20289611816406,
+    "recomputed": 60.18705368041992
+   },
+   {
+    "window": 3,
+    "text": " CONCACAF, one of the main FIFA regional entities at issue in the case,",
+    "stored": 58.18865966796875,
+    "recomputed": 60.528648376464844
+   },
+   {
+    "window": 11,
+    "text": "I want to give women more positions inside FIFA, although when it comes to the FIFA",
+    "stored": 56.11309051513672,
+    "recomputed": 61.061283111572266
+   },
+   {
+    "window": 10,
+    "text": ", it doesn't do the reputation of FIFA as a sexist body any good. ",
+    "stored": 56.22762680053711,
+    "recomputed": 61.58210754394531
+   },
+   {
+    "window": 1,
+    "text": " California system<|endoftext|> boycott on the purchase of FIFA Points until the mega publisher clarifies what",
+    "stored": 58.9122314453125,
+    "recomputed": 61.74120330810547
+   },
+   {
+    "window": 7,
+    "text": "\"If you look at the organization of FIFA, the president is elected by the congress",
+    "stored": 56.91825103759766,
+    "recomputed": 63.87122344970703
+   }
+  ],
+  "positives": 39,
+  "grey": [
+   {
+    "window": 40,
+    "text": ".\" From an Oct. 27 FEC letter, which the Ohio party just received",
+    "stored": 6.345937728881836,
+    "recomputed": 5.506992340087891
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18727,
+    "window": 12,
+    "text": ", 2017, First Liberty and the elite Maine law firm Eaton Peabody filed a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 28,
+    "text": " well as the incentives, like the \"creature creation\" pledge. These are things",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 20,
+    "text": " Blu-ray subtitles.\" Thanks to WTK for the news tip<|endoftext|>During",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 27,
+    "text": " and one of life’s great pleasures was born. Every primitive culture that has",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 6,
+    "text": " in Japan, Namibia, Alaska, Venezuela, Peru and Australia. And since 2000",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 46,
+    "text": " against it.[1] The suit alleged that, in what was dubbed the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 34,
+    "text": " on the situation when it comes to reaping the resources in that area, seemingly asking",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 26,
+    "text": " and Libyan leader Muammar Gaddafi, right? You may recall that Saddam switched from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 6,
+    "text": "? Would there be no more gross overpays for middling talent? No more",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 23,
+    "text": " locations through its map tiling protocol that assigns archaeological sites to cells that measure 20km",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 41,
+    "text": " poor too much power. 'Genuine universal suffrage' The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 21,
+    "text": " the romaji transcript and the author's signature for each poem, which is amazing!",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 29,
+    "text": " out. If we had at least five extra seconds then I wouldn’t shoot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 37,
+    "text": " highlighting (using same thresholds as for --quiet). Color mode is not compatible",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 20,
+    "text": " more apprehensive about what the end of HMV means for the future of Canada's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 39,
+    "text": " that after experts suggested that was too little to compensate senior executives who risk losing high-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 41,
+    "text": " woke up she realized her wallet and a necklace that her husband bought her weren't inside",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 21,
+    "text": " read any other longform pieces about Schlafly beyond the mandatory New York Times ob",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 23,
+    "text": " authorities descended on a house in Laguna Niguel Thursday morning to investigate two men suspected",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 27,
+    "text": " sailing the route of Manila → Tacloban → Catbalogan → Manila and",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

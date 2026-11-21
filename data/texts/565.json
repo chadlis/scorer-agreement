@@ -1,0 +1,263 @@
+{
+ "feature": 565,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": " also want to give a brief shout out to my second favorite Kathryn Mullen character,",
+    "stored": 3.842352628707886,
+    "recomputed": 6.3759050369262695
+   },
+   {
+    "window": 57,
+    "text": ".We also want to show our gratitude to those early believers that have supported us from",
+    "stored": 7.098807811737061,
+    "recomputed": 8.996546745300293
+   },
+   {
+    "window": 54,
+    "text": "adero as Delphi Product Manager Congratulations to Embarcadero, the Delphi",
+    "stored": 11.61648845672607,
+    "recomputed": 14.473949432373047
+   },
+   {
+    "window": 50,
+    "text": " of Ohio has ceased campaigning in Indiana thanks to a recent pact with Mr Cruz. (",
+    "stored": 14.52044296264648,
+    "recomputed": 17.99664878845215
+   },
+   {
+    "window": 47,
+    "text": " complaining about the slowing of game pace thanks to the managerial reviews associated with the rule.",
+    "stored": 17.93721008300781,
+    "recomputed": 21.129411697387695
+   },
+   {
+    "window": 44,
+    "text": ", like to place on record my thanks to everyone connected with the first team, including",
+    "stored": 19.27685546875,
+    "recomputed": 24.269718170166016
+   },
+   {
+    "window": 37,
+    "text": " a computer program. This is thanks to the rise of Building Information Modelling (BI",
+    "stored": 22.56819915771484,
+    "recomputed": 26.330835342407227
+   },
+   {
+    "window": 34,
+    "text": " read his tweet translated into English below thanks to goldpanner. The June",
+    "stored": 25.07769203186035,
+    "recomputed": 26.82647132873535
+   },
+   {
+    "window": 39,
+    "text": " interests at stake in the conflict, thanks to the complexity of the situation on the ground",
+    "stored": 20.64849472045898,
+    "recomputed": 28.096996307373047
+   },
+   {
+    "window": 36,
+    "text": " but that's doomsday talk, thanks to the legwork of the increasingly mythical --",
+    "stored": 23.99065780639648,
+    "recomputed": 30.861772537231445
+   },
+   {
+    "window": 31,
+    "text": " growing as an IT employer. But thanks to falling oil prices, IT employment in the",
+    "stored": 26.87112998962402,
+    "recomputed": 31.973073959350586
+   },
+   {
+    "window": 23,
+    "text": "’s major financial vulnerability. Thanks to easy credit and foreign demand, property prices",
+    "stored": 31.48866271972656,
+    "recomputed": 33.64698028564453
+   },
+   {
+    "window": 9,
+    "text": " but just asking …) Thanks to Mark Z for the link … ",
+    "stored": 35.09399032592773,
+    "recomputed": 33.790985107421875
+   },
+   {
+    "window": 11,
+    "text": " that your wait is almost over. Thanks to Adult Swim, fans now know when the",
+    "stored": 34.98142623901367,
+    "recomputed": 35.49209976196289
+   },
+   {
+    "window": 20,
+    "text": " Blu-ray subtitles.\" Thanks to WTK for the news tip<|endoftext|>During",
+    "stored": 34.09689331054688,
+    "recomputed": 35.92561340332031
+   },
+   {
+    "window": 7,
+    "text": " Turkey Club Sandwich review. Thanks to Arby’s you can now",
+    "stored": 35.69997406005859,
+    "recomputed": 36.13172912597656
+   },
+   {
+    "window": 0,
+    "text": ", I'm serious. Thanks to a paper submitted to Institute of<|endoftext|> Leaf",
+    "stored": 38.01156234741211,
+    "recomputed": 36.92570877075195
+   },
+   {
+    "window": 6,
+    "text": " as Spidey looks like. Thanks to some newly revealed concept art, we actually",
+    "stored": 35.81692886352539,
+    "recomputed": 37.1547737121582
+   },
+   {
+    "window": 27,
+    "text": " at the end of the year. Thanks to the kind generosity of Dr. Fleming,",
+    "stored": 28.45034408569336,
+    "recomputed": 37.39525604248047
+   },
+   {
+    "window": 2,
+    "text": "Better safe than sorry? Thanks to a common friend, I had a very",
+    "stored": 36.32644271850586,
+    "recomputed": 38.117889404296875
+   }
+  ],
+  "positives": 58,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 12637,
+    "window": 21,
+    "text": " was that they could hopefully sign Machado to an extension, but if they couldn't",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 63,
+    "text": " tested<|endoftext|> four, and in the proposal by Budischak , et al. 2013",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 55,
+    "text": " district, five major self-governing territories, and various possessions.[f] At",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 7,
+    "text": " has called on the Commission and the Council of Ministers to “abandon their plans",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 0,
+    "text": "attering, deadpan photo that makes him look like Jack-the-Ripper.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 7,
+    "text": " have this illness, so I refuse to patronise any restaurant that treats me like an",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 39,
+    "text": " of criminals. The American Kennel Club tracked 432 pet thefts in 2011,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 17,
+    "text": " medications, medical conditions, heavy metals, smoking etc. can affect the hair. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 24,
+    "text": " order to interfere in the 2016 elections. That hearing could amplify GOP concerns about Mr.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 39,
+    "text": "23-28. 55(4)23-28. Plot ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 61,
+    "text": " of followers had camped overnight awaiting the verdict. Internet services shut down ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 23,
+    "text": " 2015 to September this year. That puts the cost of the average home in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 1,
+    "text": " for boosting the production of fields that produce Venezuela’s most valuable crude. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 61,
+    "text": " be given by whoever is elected president. It concludes, “May God direct and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 1,
+    "text": " one with a cigar and one with a knife. He also comes with a pair of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 27,
+    "text": " allows a glimpse into another brewers world and methods. I’m really excited to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 7,
+    "text": " distant,<|endoftext|>, from Norway's Karl Ove Knausgaard to France's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 21,
+    "text": " gesture. Shelton High School senior James Tate just wanted to make his good friend,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 16,
+    "text": " and a meme war, with partisans trading diss tracks and web videos that bash the other",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 40,
+    "text": " different reactions to working on a still controversial subject.<|endoftext|>Damon Lindelof,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 19944,
+    "window": 46,
+    "text": "Lower High and higher high movement helping us to spot the resistance and support levels.Our",
+    "recomputed": 0.6311437487602234
+   }
+  ]
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "feature": 14799,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 41,
+    "text": " woke up she realized her wallet and a necklace that her husband bought her weren't inside",
+    "stored": 5.29132604598999,
+    "recomputed": 5.2084527015686035
+   },
+   {
+    "window": 38,
+    "text": " is unambiguous, and brackets within the prefix expression are unnecessary. As such, the",
+    "stored": 5.796794891357422,
+    "recomputed": 8.012301445007324
+   },
+   {
+    "window": 36,
+    "text": " size and has true flat sides<|endoftext|>Registration prefixes list on map Every civil",
+    "stored": 9.07199764251709,
+    "recomputed": 11.329874992370605
+   },
+   {
+    "window": 33,
+    "text": " einer Dienststelle der Bundespolizei im Berliner Ost",
+    "stored": 20.33488464355469,
+    "recomputed": 21.411882400512695
+   },
+   {
+    "window": 31,
+    "text": " on his way. Garen Bundles Not one to be left",
+    "stored": 21.49898338317871,
+    "recomputed": 23.71027374267578
+   },
+   {
+    "window": 28,
+    "text": ". The old Fire TV stick is now bundled with the Echo Dot for $60.",
+    "stored": 23.65169334411621,
+    "recomputed": 24.354543685913086
+   },
+   {
+    "window": 29,
+    "text": " Of course, included in the Vive Bundles are the following four critically acclaimed titles",
+    "stored": 22.96798706054688,
+    "recomputed": 25.57209014892578
+   },
+   {
+    "window": 24,
+    "text": " right for Canadians to have to pay for bundled television channels that they don't watch.",
+    "stored": 28.06197547912598,
+    "recomputed": 27.449298858642578
+   },
+   {
+    "window": 27,
+    "text": " ties to Romney’s campaign and bundlers is already well documented, along with",
+    "stored": 25.06392097473145,
+    "recomputed": 28.685012817382812
+   },
+   {
+    "window": 17,
+    "text": " Production’s MFreeEffectsBundle is a huge package of tools and utilities",
+    "stored": 33.03923034667969,
+    "recomputed": 31.413415908813477
+   },
+   {
+    "window": 15,
+    "text": " Browser (more specifically, the Tor Browser Bundle) is a great way to go.",
+    "stored": 33.16967010498047,
+    "recomputed": 32.41417694091797
+   },
+   {
+    "window": 10,
+    "text": " vital receptors on the surface of T cells bundle together when activated. This study",
+    "stored": 34.66845321655273,
+    "recomputed": 33.75110626220703
+   },
+   {
+    "window": 19,
+    "text": "45 RP! Garen Double Bundle Save 40% on both the",
+    "stored": 32.20061874389648,
+    "recomputed": 33.998661041259766
+   },
+   {
+    "window": 14,
+    "text": " Another product option named \"A One Dawn Bundle\" priced at $69.99,",
+    "stored": 33.30449295043945,
+    "recomputed": 34.78067398071289
+   },
+   {
+    "window": 12,
+    "text": ", but they add up to a big bundle of unified nonsense. Yet McConnell is now",
+    "stored": 34.11827850341797,
+    "recomputed": 37.16973114013672
+   },
+   {
+    "window": 23,
+    "text": " time. The ThO2 bundles were irradiated up to 600 FPD",
+    "stored": 28.16268920898438,
+    "recomputed": 39.36473083496094
+   },
+   {
+    "window": 4,
+    "text": " pick up the Sanguine Garen bundle and save 50% on the skin.",
+    "stored": 39.40345001220703,
+    "recomputed": 40.9861946105957
+   },
+   {
+    "window": 8,
+    "text": " only 1209 RP! These bundles will be available only until the end of",
+    "stored": 35.79988861083984,
+    "recomputed": 41.34392547607422
+   },
+   {
+    "window": 13,
+    "text": " week to upgrade until it loses access to bundles and will only get access to a monthly",
+    "stored": 33.56225967407227,
+    "recomputed": 42.554927825927734
+   },
+   {
+    "window": 0,
+    "text": " your bundle in the store. The longer bundles being cheaper per month. After",
+    "stored": 43.64683532714844,
+    "recomputed": 43.970115661621094
+   }
+  ],
+  "positives": 38,
+  "grey": [
+   {
+    "window": 37,
+    "text": " nella scuola con i minibus, lasciati con le chia",
+    "stored": 6.6561279296875,
+    "recomputed": 2.208242416381836
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 24369,
+    "window": 43,
+    "text": " 2.34 incidents a day. Like in Montreal, person crimes were the most common",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 38,
+    "text": " Hiddleston, a genial fellow, looks mighty dapper in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 12,
+    "text": " you will find that they do sound more regionally British than they do American. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 18,
+    "text": " one side of the wheel, making it look like the top part of a castle turret",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 64,
+    "text": " tapes of al Qaeda members including Abu Zubaydah and Abd al-Rahim",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 1,
+    "text": " not bringing any of them to fruition. Right now one of my goals is to get",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 4,
+    "text": " zone out. Getting lost in nature allows quiet, unstructured space in which to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 19,
+    "text": " the shade. The air is filled with billowing clouds of highly toxic gas. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 56,
+    "text": " at the players who have been at both ends of the Hot-or-Not spectrum",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 51,
+    "text": " \"They can do it from anywhere in the world, and they choose to do it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 24,
+    "text": " when I’m excited (See Picture Four). Mainly because of who I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 7,
+    "text": " the effort seemed meaningful. One day before break time, a monk handed me",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 30,
+    "text": "ard is good for this deck because cheap spells can be played on the same turn that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 2,
+    "text": "The Russian Defense Ministry said Saturday that Daesh terrorists shot down a helicopter near Syria's Pal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 33,
+    "text": " materials to cook an explosive for several Muslim extremists. Despite being assured by the FBI that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 82,
+    "text": " process - CAIRO — Egypt displayed Monday newly discovered tombs more than 4",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 38,
+    "text": " to other agenda items, such as tax reform. The poll was conducted from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 51,
+    "text": " just because the two did not wrestle each other to the ground over the course of not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 38,
+    "text": ". \"No arrests have been made yet,\" a police officer said.An airline spokesman",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 33,
+    "text": "From my understanding, one network was oversubscribed, and OBS are trying to",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

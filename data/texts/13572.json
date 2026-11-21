@@ -1,0 +1,263 @@
+{
+ "feature": 13572,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 45,
+    "text": "s milk is not great for nutrition or digestion thanks to the pasteurization and hom",
+    "stored": 6.10807466506958,
+    "recomputed": 5.0914106369018555
+   },
+   {
+    "window": 44,
+    "text": "'s carbon dioxide and water may now be trapped in geological features. Science,",
+    "stored": 6.775322914123535,
+    "recomputed": 6.276589870452881
+   },
+   {
+    "window": 41,
+    "text": " fact,<|endoftext|> it will cause a huge uptake in the number of people who choose to",
+    "stored": 11.12115573883057,
+    "recomputed": 10.720707893371582
+   },
+   {
+    "window": 42,
+    "text": " Sorry for being slow on the uptake. I guess “Tuesday Weld�",
+    "stored": 9.882458686828613,
+    "recomputed": 11.45389461517334
+   },
+   {
+    "window": 37,
+    "text": " life, we have remained completely self-absorbed, caught up in our beliefs,",
+    "stored": 13.84152221679688,
+    "recomputed": 12.819424629211426
+   },
+   {
+    "window": 34,
+    "text": " filled with cavities designed to reabsorb moisture from their exhalations.[10",
+    "stored": 16.78647232055664,
+    "recomputed": 16.578168869018555
+   },
+   {
+    "window": 32,
+    "text": " the ground as two layers acting simultaneously as absorbers and Planck radiators. Also",
+    "stored": 25.17219543457031,
+    "recomputed": 24.472129821777344
+   },
+   {
+    "window": 30,
+    "text": " wilderness of Alaska. \"Chaplin absorbs grief and makes you laugh. He said",
+    "stored": 28.1162052154541,
+    "recomputed": 28.812532424926758
+   },
+   {
+    "window": 26,
+    "text": "<|endoftext|> caveat that the SC primary today is absorbing folks' capacity. >> >> Thanks again",
+    "stored": 30.99146461486816,
+    "recomputed": 30.42735481262207
+   },
+   {
+    "window": 15,
+    "text": "? Will the global market be able to absorb new volumes from Alberta projects in the coming",
+    "stored": 35.75180816650391,
+    "recomputed": 31.86565589904785
+   },
+   {
+    "window": 25,
+    "text": " knowledge to achieve something with which they are absorbed. Readers continue to debate",
+    "stored": 30.99687576293945,
+    "recomputed": 32.893856048583984
+   },
+   {
+    "window": 22,
+    "text": " other tool,<|endoftext|> like ozone and cloud absorption, short- and long-wavelength",
+    "stored": 33.71686553955078,
+    "recomputed": 33.956058502197266
+   },
+   {
+    "window": 20,
+    "text": " impairing their ability to digest food and absorb nutrients. It’s no joke",
+    "stored": 35.11893844604492,
+    "recomputed": 34.096229553222656
+   },
+   {
+    "window": 8,
+    "text": " its trip through the pipe, heat is absorbed by the adjoining (hopefully large)",
+    "stored": 37.77769088745117,
+    "recomputed": 34.91120529174805
+   },
+   {
+    "window": 12,
+    "text": " shield against the radiation and survive. She absorbed the pilot’s knowledge of how",
+    "stored": 36.68801879882812,
+    "recomputed": 35.56767654418945
+   },
+   {
+    "window": 14,
+    "text": ". Their bodies also were large enough to absorb the toxins without harm. Squ",
+    "stored": 35.82691192626953,
+    "recomputed": 37.56697082519531
+   },
+   {
+    "window": 10,
+    "text": " considered for each zone separately by computing individual absorption spectra for up to 228 atmospheric layers",
+    "stored": 37.45383453369141,
+    "recomputed": 38.65616226196289
+   },
+   {
+    "window": 7,
+    "text": " % of the additional emissions cannot further be absorbed by the natural sinks and are accumulating in",
+    "stored": 37.80615997314453,
+    "recomputed": 39.50973129272461
+   },
+   {
+    "window": 3,
+    "text": " light on the material causes the electrons to absorb energy, elevating them into a region",
+    "stored": 39.70162200927734,
+    "recomputed": 40.613182067871094
+   },
+   {
+    "window": 1,
+    "text": "2] and are applied for calculating the absorbance in the respective regions. The vertical",
+    "stored": 41.51359176635742,
+    "recomputed": 41.166072845458984
+   }
+  ],
+  "positives": 47,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23756,
+    "window": 18,
+    "text": " register immigrants, which is a whole other topic of discussion entirely. The story",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 70,
+    "text": " reminded me of a similar statement I heard back in the Spring of 2012, pretty much",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 30,
+    "text": "KQbnxU — Toe in the Water (@toeinthewateruk",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 35,
+    "text": " Luna broke up in 2005, Dean & Britta spent the next year working on film",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 49,
+    "text": " an unremitting electoral disaster for the Republican Party? Absolutely. The amnesty beneficiaries plus the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 39,
+    "text": " 10:25 that night, a woman hopped out of a blue Toyota near the southeast",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 51,
+    "text": " forest is deep<|endoftext|> the most deforested parts of the Amazon. In the past",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 33,
+    "text": "ic Reviews Forums Topic # Posts Last Post Manual/docs 3",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 12,
+    "text": "epgear? Nepgear!\" Neptune hastily dashed into the lab she was shoved out of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 44,
+    "text": "ained-CPI” Social Security cuts to upper-class tax increases no Republican",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 38,
+    "text": ". However, some elements of bill have drawn criticism for being anti-family",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 72,
+    "text": "�t know when he did it. (crying) I’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 44,
+    "text": " Cantonese, and Mandarin. Video extras for the release include the \" Ghib",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 41,
+    "text": "isting of Han Chinese), the Neo-Victorian New Atlantis (consisting largely of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 26,
+    "text": " comments Monday on the kann Tarbut radio station during an interview with Israeli host Go",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 10,
+    "text": " his brother's coat walking out of the Tate Gallery with an impressionist masterpiece under his",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 24,
+    "text": " the two women would threaten to put a spell on them, or disclose details of their",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 35,
+    "text": "opallidal neurons in the globus pallidus, but was absent in the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 8,
+    "text": ", though, have always been first and foremost filmmakers of ideas, building the worlds of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 20,
+    "text": ", Singer was interested in the corollary between Professor X and Magneto and lumin",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 21731,
+    "window": 50,
+    "text": " of a budget surplus; another fuel tax freeze; a marriage tax allowance that benefits less",
+    "recomputed": 0.5828642845153809
+   }
+  ]
+ }
+}

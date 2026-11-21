@@ -1,0 +1,263 @@
+{
+ "feature": 14097,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 36,
+    "text": " same direction as the front of the quadcopter (for the Silver Blade #37",
+    "stored": 7.851839542388916,
+    "recomputed": 7.410419464111328
+   },
+   {
+    "window": 38,
+    "text": " discovered argue that the planet has once supported copious amounts of water, indicating that the",
+    "stored": 5.746000289916992,
+    "recomputed": 9.04185962677002
+   },
+   {
+    "window": 35,
+    "text": " a shy person could be transformed into RoboCop with just one squirt of photons from",
+    "stored": 13.33299446105957,
+    "recomputed": 13.35378646850586
+   },
+   {
+    "window": 33,
+    "text": "�t think this is a GPL/copyright issue because the GPL gives anyone the",
+    "stored": 18.34396934509277,
+    "recomputed": 17.83265495300293
+   },
+   {
+    "window": 31,
+    "text": " http://meetingorganizer.copernicus.org/EGU2011",
+    "stored": 22.20545768737793,
+    "recomputed": 22.336084365844727
+   },
+   {
+    "window": 24,
+    "text": " access to the Miami Herald SHARE COPY LINK Waiters badly sprained his",
+    "stored": 28.79670524597168,
+    "recomputed": 30.85314178466797
+   },
+   {
+    "window": 25,
+    "text": " among UN Officers Involved . Copenhagen : COPRI . Biermann ,",
+    "stored": 28.74501037597656,
+    "recomputed": 31.349834442138672
+   },
+   {
+    "window": 22,
+    "text": " in a 2004 fight with Mirko Cro Cop, but that wasn't from a submission",
+    "stored": 34.70705413818359,
+    "recomputed": 34.3961067199707
+   },
+   {
+    "window": 21,
+    "text": " there's no doubt in my mind that COPRA is going to go down as one",
+    "stored": 35.63668441772461,
+    "recomputed": 38.3222770690918
+   },
+   {
+    "window": 18,
+    "text": " Never mind that it is the biggest Keystone Cop in the room, at least, if",
+    "stored": 38.69709014892578,
+    "recomputed": 41.74597930908203
+   },
+   {
+    "window": 17,
+    "text": " Rainey as well as rookies Marshaun Coprich and Paul Perkins were added to<|endoftext|>",
+    "stored": 39.10407638549805,
+    "recomputed": 43.05152893066406
+   },
+   {
+    "window": 19,
+    "text": " weapons and trade in them. Copts, who make up about one tenth",
+    "stored": 37.21833419799805,
+    "recomputed": 43.57390213012695
+   },
+   {
+    "window": 15,
+    "text": "2GAT123\" from Beverly Hills Cop II, Training Day, Kiss Kiss Bang",
+    "stored": 40.72460174560547,
+    "recomputed": 44.71063995361328
+   },
+   {
+    "window": 12,
+    "text": "ist Association, whose chief executive, Andrew Copson, said: \"Claire Ray",
+    "stored": 45.8234977722168,
+    "recomputed": 46.96646499633789
+   },
+   {
+    "window": 6,
+    "text": " Sinai Peninsula, including the murder of a Copt in the city of El Arish",
+    "stored": 49.84722137451172,
+    "recomputed": 47.86101150512695
+   },
+   {
+    "window": 9,
+    "text": " Jihadists and Islamists accuse Copts of supporting the military overthrow of Islamist",
+    "stored": 48.45820236206055,
+    "recomputed": 49.98698425292969
+   },
+   {
+    "window": 7,
+    "text": "parable to the sea change that occurred when Copernicus described how the earth<|endoftext|> studies",
+    "stored": 49.8000602722168,
+    "recomputed": 50.90156173706055
+   },
+   {
+    "window": 3,
+    "text": "’s church in Alexandria where Coptic Pope Tawadros II had been",
+    "stored": 50.6396369934082,
+    "recomputed": 52.9062614440918
+   },
+   {
+    "window": 2,
+    "text": " He discovered that Mars did not orbit as Copernicus had thought, but in a",
+    "stored": 51.10914993286133,
+    "recomputed": 53.134098052978516
+   },
+   {
+    "window": 0,
+    "text": " of the book he wrote arguing against the Copernican theory hypothetically. ",
+    "stored": 53.79241561889648,
+    "recomputed": 53.68911361694336
+   }
+  ],
+  "positives": 34,
+  "grey": [
+   {
+    "window": 39,
+    "text": "” to Ecuadorians, asking his compatriots to “offer support to the",
+    "stored": 5.653976917266846,
+    "recomputed": 5.154455661773682
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 743,
+    "window": 34,
+    "text": " been the driving force behind brutal killings, genocides, executions, rapes, slavery",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 49,
+    "text": "az Ahmed Khan said. Authorities eventually frightened the tiger into a small cage inside the enclosure",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 4,
+    "text": " frightened of discussion, because they are afraid of injuring others or being injured themselves. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 56,
+    "text": " “<|endoftext|>According to data from the Canada Mortgage and Housing Corporation, 270,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 37,
+    "text": " took all the valuable crypto that their customers left on their system. Maybe the entire exchange",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 29,
+    "text": " government does not allow the independence of Spanish regions if they do not follow the Spanish constitution",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 3,
+    "text": " Town Hall to create a separate area for quiet reflection away from the traffic. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 85,
+    "text": " insists that it has no interest in contributing branding, only the underlying architecture. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 11,
+    "text": "\"You look at the kinds of arguments she was making last night. A lot of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 16,
+    "text": " between space and sound, MYRIAD mutates forms of live musical performance. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 0,
+    "text": " bit in Video Games as environment artist. Right after my Video Games experience I worked for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 43,
+    "text": " people.” Yet he was reassigned in 2006 to Ciudad del E",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 27,
+    "text": "land Vineyard from the McMinnville region, with persistent complex flavors of<|endoftext|> a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 22,
+    "text": " skin (that is, skin possessing uniform structural properties that fails or breaks under relatively low",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 53,
+    "text": " — irreverent, youthful, sometimes dangerous fun — is and always has been the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 58,
+    "text": "'ve already subscribed by making a pledge and choosing a tier, you might now want to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 48,
+    "text": " it is seen as a way to indirectly play digital currencies like bitcoin, many of which",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 6,
+    "text": " intention to send 400 soldiers to train the terrorists,” the state news agency S",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 50,
+    "text": " **Ace** of Spades Jhin on the **four** of Spades",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 14,
+    "text": "�s perspective,” coach Kevin Dineen said of Weiss. “",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

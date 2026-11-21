@@ -1,0 +1,256 @@
+{
+ "feature": 18562,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 49,
+    "text": " sure the director has the benefit of the additional perspectives from these highly experienced and respected intelligence",
+    "stored": 6.033161640167236,
+    "recomputed": 5.567028045654297
+   },
+   {
+    "window": 50,
+    "text": " jump in the pool yourself: Besides the added benefit of challenging yourself through switching up your",
+    "stored": 5.88340950012207,
+    "recomputed": 6.508586883544922
+   },
+   {
+    "window": 43,
+    "text": " mauled by the wild-animal extras who turn out to be the real stars",
+    "stored": 16.62473678588867,
+    "recomputed": 15.58241081237793
+   },
+   {
+    "window": 40,
+    "text": " collect that also unlock special in-game extras for Nintendo Wii U and 3DS games",
+    "stored": 20.24529838562012,
+    "recomputed": 19.41557502746582
+   },
+   {
+    "window": 39,
+    "text": " day, more exclusives, analysis and extras. Downing Street are unwilling",
+    "stored": 20.68794059753418,
+    "recomputed": 20.89825439453125
+   },
+   {
+    "window": 41,
+    "text": " found it had money for all kinds of extras. As I wrote in 2005, some",
+    "stored": 20.07230567932129,
+    "recomputed": 21.92144775390625
+   },
+   {
+    "window": 34,
+    "text": " the Ranger player who wins the Steven McDonald Extra Effort Award!Fans may vote for",
+    "stored": 34.62278747558594,
+    "recomputed": 35.59574890136719
+   },
+   {
+    "window": 33,
+    "text": "/PA Images The private CBC Extra channel aired footage of the Alexandria blast,",
+    "stored": 34.79624176025391,
+    "recomputed": 40.377197265625
+   },
+   {
+    "window": 29,
+    "text": " out. If we had at least five extra seconds then I wouldn’t shoot",
+    "stored": 39.49190139770508,
+    "recomputed": 41.23942184448242
+   },
+   {
+    "window": 17,
+    "text": " Carter’s case a burden made extra-heavy by the critical condemnation heaped",
+    "stored": 46.95806884765625,
+    "recomputed": 42.88924789428711
+   },
+   {
+    "window": 25,
+    "text": " I am an<|endoftext|> added in for that extra zing. The cheese has",
+    "stored": 43.39006042480469,
+    "recomputed": 44.59728240966797
+   },
+   {
+    "window": 1,
+    "text": " all that happy about the pope staying an extra day.” Assarm",
+    "stored": 49.41603851318359,
+    "recomputed": 46.382137298583984
+   },
+   {
+    "window": 2,
+    "text": " by eating more meat-free meals and extra fruit and vegetables each week is enough to",
+    "stored": 49.08881378173828,
+    "recomputed": 46.70326614379883
+   },
+   {
+    "window": 22,
+    "text": " discussion at the meetings, including extending the extra session to 10 minutes or<|endoftext|> can the",
+    "stored": 45.17310333251953,
+    "recomputed": 47.303218841552734
+   },
+   {
+    "window": 18,
+    "text": "s hoping for more action soon!<|endoftext|>Extraordinary stories, unusual people and a sideways",
+    "stored": 46.94809341430664,
+    "recomputed": 47.934783935546875
+   },
+   {
+    "window": 20,
+    "text": " move into the new facilities.\" Extra points: Illinois is 1-3,",
+    "stored": 45.91421127319336,
+    "recomputed": 48.106719970703125
+   },
+   {
+    "window": 5,
+    "text": ", it may prove to be worth the extra expense. EyePrintPRO is only available",
+    "stored": 47.97917175292969,
+    "recomputed": 48.983516693115234
+   },
+   {
+    "window": 7,
+    "text": "ellick said in a statement that the extra money would help \"sharply reduce",
+    "stored": 47.74297714233398,
+    "recomputed": 49.210411071777344
+   },
+   {
+    "window": 31,
+    "text": " Brisbane. Mr Hopkins says the extra services will run until the ash cloud passes",
+    "stored": 39.04268264770508,
+    "recomputed": 49.517112731933594
+   },
+   {
+    "window": 3,
+    "text": " The secretary would complain about the extra effort to learn and use software that she",
+    "stored": 48.92562484741211,
+    "recomputed": 51.69681167602539
+   }
+  ],
+  "positives": 52,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20330,
+    "window": 21,
+    "text": "right<|endoftext|>ron with suspicion. Two campaigns to be the party's president,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 0,
+    "text": " the founding of America. In her book Thomas Jefferson's Qur'an:",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 16,
+    "text": " in the presence of police officers to confirm authenticity, they walked away,�<|endoftext|> guy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 43,
+    "text": ".”<|endoftext|>\" \" The AAP has realized that a \" just turn it off",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 10,
+    "text": ". Mueller, by contrast, was hired to probe the Trump campaign and Russia, and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 16,
+    "text": " were popular at a time when little was known about the causes or cures for diseases.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 12,
+    "text": "ll’autoscontro, devastando tutto. E infine se",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 16,
+    "text": " This article reflects his personal views.<|endoftext|>Two years ago, researchers at Moscow-based",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 29,
+    "text": " Mark Rutte, amend the generous tax loopholes, which gradually began to expire in January",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 4,
+    "text": ", Lancia Stratos and Colin McRae’s Ford Focus. Pace",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 20,
+    "text": " band members being seriously ill. The new rumor also suggests that guitarist Malcolm<|endoftext|> to know",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 67,
+    "text": " the vast majority of hungry families. The researchers evaluated statistical factors and found a sensitivity of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 16,
+    "text": ". Those will all become beautiful shirts one day, he said. His friend, however",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 52,
+    "text": "-point shooting month was February, when he hit 40 percent of his treys.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 22,
+    "text": "-sized, sleepless slugs could spell devastation for our gardens this summer.\" ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 32,
+    "text": " 3,000 students and teachers have seen Holiday Inn at free or reduced rates, in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 47,
+    "text": " use it to explain a specific decision to the client.\" For instance, in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 12,
+    "text": " intractable on such data sets. Turk and Pentland's paper demonstrated ways to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 10,
+    "text": " Brazil GTM Research expects the region to install 2.1 gigawatts in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 20,
+    "text": " from 202 — Arthur Staple (@StapeNewsday) July 8, 2014 ",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

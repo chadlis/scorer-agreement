@@ -1,0 +1,36 @@
+{
+ "model": "claude-fable-5-2",
+ "criterion": "Un scoreur lisant ce placebo répondrait-il 1 sur les textes où la cible s'active (sens proche, sujet partagé, catégorie englobante, double sens) ou sur presque n'importe quel extrait (motif générique) ?",
+ "pairs": [
+  {
+   "target": 6076,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "Le vocabulaire de la radio est un sujet précis, sans rapport avec des statistiques ou chiffres de performance sportive."
+  },
+  {
+   "target": 3718,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "Deux prénoms masculins précis (Corey, Derrick) : rien à voir avec des pronoms féminins ou une protagoniste, et motif très étroit."
+  },
+  {
+   "target": 22207,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "Les postes ou affectations diplomatiques forment un sujet précis, sans lien avec des formules génériques d'importance ou de priorité."
+  },
+  {
+   "target": 21725,
+   "verdict": "confident",
+   "strength": null,
+   "reason": "Les références à Washington, D.C. sont un motif de lieu précis, sans lien avec les guillemets ou le dialogue."
+  },
+  {
+   "target": 22836,
+   "verdict": "doubt",
+   "strength": "light",
+   "reason": "Aucun lien avec la FIFA, mais la formule « termes liés à un genre ou une catégorie » est vague et seul le suffixe « ary » la resserre : un scoreur pourrait l'appliquer à des extraits variés."
+  }
+ ]
+}

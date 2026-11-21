@@ -1,0 +1,298 @@
+{
+ "feature": 6076,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 36,
+    "text": " to touch the ball around 90 more times over the course of a 16-game season",
+    "stored": 5.091547012329102,
+    "recomputed": 0.9757711291313171
+   },
+   {
+    "window": 43,
+    "text": " department. Combined, that group of five players has scored 20 points in",
+    "stored": 4.414049625396729,
+    "recomputed": 1.2943564653396606
+   },
+   {
+    "window": 41,
+    "text": "07) and save percentage (.927) as he bids to become just the second",
+    "stored": 4.754226207733154,
+    "recomputed": 1.9678884744644165
+   },
+   {
+    "window": 21,
+    "text": "onis shot 47% on 55 shots (By comparison, Thaddeus Young shot 35",
+    "stored": 6.231486797332764,
+    "recomputed": 2.458648920059204
+   },
+   {
+    "window": 48,
+    "text": " Over the past month, he has managed just 6.2 yards per attempt to go",
+    "stored": 4.045825958251953,
+    "recomputed": 2.5675301551818848
+   },
+   {
+    "window": 27,
+    "text": ". That’s 492 touches over the course of 16 games,<|endoftext|> holding",
+    "stored": 5.61318826675415,
+    "recomputed": 2.7436676025390625
+   },
+   {
+    "window": 20,
+    "text": " 12 fouls suffered (joint tournament high) 4 attempts blocked",
+    "stored": 6.375031471252441,
+    "recomputed": 3.129246950149536
+   },
+   {
+    "window": 50,
+    "text": " 12 receptions for 87 yards and two touchdowns over that span. \"I think",
+    "stored": 3.665797710418701,
+    "recomputed": 3.448871612548828
+   },
+   {
+    "window": 11,
+    "text": " also pacing all goalies in minutes played (3,078) and is tied",
+    "stored": 6.827482223510742,
+    "recomputed": 3.6669907569885254
+   },
+   {
+    "window": 39,
+    "text": " of the 78 (53.8 percent) special teams tackles that PFF recorded for",
+    "stored": 4.97983455657959,
+    "recomputed": 3.9770708084106445
+   },
+   {
+    "window": 16,
+    "text": " point production, as he has scored at least 20 points in 21 games and netted 30",
+    "stored": 6.560497760772705,
+    "recomputed": 4.186036109924316
+   },
+   {
+    "window": 46,
+    "text": " the punt coverage unit allowed a punt return for a touchdown (the Arizona Cardinals' Ted",
+    "stored": 4.047126293182373,
+    "recomputed": 4.3906049728393555
+   },
+   {
+    "window": 29,
+    "text": " closer). A total of nine relief pitchers have won the Cy Young Award across both leagues",
+    "stored": 5.506625652313232,
+    "recomputed": 4.664105415344238
+   },
+   {
+    "window": 17,
+    "text": " 1% of his pitches have been sinkers...or four-seam fastballs",
+    "stored": 6.539482116699219,
+    "recomputed": 4.926332950592041
+   },
+   {
+    "window": 4,
+    "text": "-play goals. His 35 points currently rank second among all NCHC freshmen.",
+    "stored": 7.526260852813721,
+    "recomputed": 5.001193523406982
+   },
+   {
+    "window": 12,
+    "text": ", while ranking second in both shots faced (1,447) and<|endoftext|>s clear",
+    "stored": 6.797582626342773,
+    "recomputed": 5.248630046844482
+   },
+   {
+    "window": 23,
+    "text": " two seasons, the two highest sack totals of his career. Peat should help bring",
+    "stored": 5.660909652709961,
+    "recomputed": 5.395696640014648
+   },
+   {
+    "window": 25,
+    "text": " five career touchdown passes (and five interceptions). \"We did the Wildcat",
+    "stored": 5.644959449768066,
+    "recomputed": 5.968742847442627
+   },
+   {
+    "window": 10,
+    "text": " City let in 38 goals, the most by any of the top four clubs. Vincent",
+    "stored": 7.019428253173828,
+    "recomputed": 6.687389373779297
+   },
+   {
+    "window": 5,
+    "text": "ett's record for most rushing yards by a freshman in the Big East. ",
+    "stored": 7.415424346923828,
+    "recomputed": 7.181163311004639
+   }
+  ],
+  "positives": 43,
+  "grey": [],
+  "zero": [
+   {
+    "window": 32,
+    "text": " 40% from the field and 33% from beyond the arc. Although those numbers aren",
+    "stored": 5.166885375976562,
+    "recomputed": 0
+   },
+   {
+    "window": 52,
+    "text": " Ibaka, who was 11 for 11 in a 2012 postseason game…. What’",
+    "stored": 2.141406297683716,
+    "recomputed": 0
+   },
+   {
+    "window": 53,
+    "text": " Bader in the main event, putting him in the front of the line for a",
+    "stored": 1.342420220375061,
+    "recomputed": 0
+   },
+   {
+    "window": 54,
+    "text": " strategy of using all those assets in the minors to improve the major league team was a",
+    "stored": 1.245116949081421,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16269,
+    "window": 38,
+    "text": " says he got off his bike and gaped at the poster for 10 minutes. Then",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 5,
+    "text": "oshida (64 votes) Mr. Hiruta (54 votes) Young Rocker",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 43,
+    "text": " with Winnipeg this week, he is ineligible to return to the University of Miami-Ohio",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 43,
+    "text": "9746 CVE-2014-9747 steamos-base-files - Fixed auto",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 57,
+    "text": " coal and bauxite. On one side of the struggle are the rebels--perhaps",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 21,
+    "text": " It's pretty clear Austin Hedges left a clear path to home. Say what",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 33,
+    "text": " or tolls, TxDOT puts together a plan to spend the money to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 17,
+    "text": " Infowars.com Wednesday, May 30, 2012 The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 36,
+    "text": " Developing Actionable Solutions for Today's Plague of Violence.\" One member of this trio",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 26,
+    "text": "ve seen artists like Gareth Emery and Knife Party take to Twitter to support the open",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 1,
+    "text": " Bed\" and \"I'm Afraid of the Dark.\" And while the idea of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 25,
+    "text": ". A few of those in the military who were appreciated Monday night in Baltimore",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 1,
+    "text": " also helped that, according to Thomas Klug, Marygrove College history professor and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 33,
+    "text": "gender identity and expression\" overwhelmingly passed the church House of Bishops and House of Dep",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 46,
+    "text": " business show, he grew impatient with Chris Hedges, the Pulitzer-prize-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 74,
+    "text": " and the B.C. SPCA are investigating \"horrific\" reports",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 29,
+    "text": " also invoked the “separation of church and state” and threatened that if",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 32,
+    "text": "dates.org After downloading, please help to seed that beast ;) All materials",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 55,
+    "text": " there is some kind of prejudice or anxiety about a group of people, stated or not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 37,
+    "text": " the plane spun out and nose-dived to the ground. Channel 2 Action News",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [],
+  "replaced": [
+   {
+    "reason": "placebo donor",
+    "out": {
+     "from_feature": 8995,
+     "window": 53,
+     "text": "�s edition of MMASucka Radio.<|endoftext|>Silver Spur Drive in is rev",
+     "recomputed": 0
+    },
+    "in": {
+     "from_feature": 8968,
+     "window": 17,
+     "text": " Infowars.com Wednesday, May 30, 2012 The",
+     "recomputed": 0
+    }
+   }
+  ]
+ }
+}

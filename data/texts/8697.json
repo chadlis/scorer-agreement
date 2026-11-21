@@ -1,0 +1,256 @@
+{
+ "feature": 8697,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 50,
+    "text": "inti Shamsuddin is polite and softly spoken as she describes the rigours of",
+    "stored": 6.871560573577881,
+    "recomputed": 5.7256269454956055
+   },
+   {
+    "window": 54,
+    "text": " a rough dirt road, in a little hollow it takes serious effort to find, even",
+    "stored": 4.794826984405518,
+    "recomputed": 6.776952743530273
+   },
+   {
+    "window": 48,
+    "text": " 11 cruisers still in service would still quietly expire by 2028. But the 11",
+    "stored": 11.63935375213623,
+    "recomputed": 13.748208999633789
+   },
+   {
+    "window": 44,
+    "text": " Greenwich Village, a uniformed officer stood quietly next to a woman who had unbutton",
+    "stored": 15.57033443450928,
+    "recomputed": 16.131820678710938
+   },
+   {
+    "window": 41,
+    "text": " was earlier seen smiling, nodding and chatting quietly with his attorney, Judy Clarke,<|endoftext|>",
+    "stored": 17.8143482208252,
+    "recomputed": 17.811607360839844
+   },
+   {
+    "window": 38,
+    "text": " female Chilean flamingo nor its mate went quietly. Hattiesburg Zoo",
+    "stored": 19.06645584106445,
+    "recomputed": 18.606412887573242
+   },
+   {
+    "window": 39,
+    "text": " And while this has always gone on on quietly in Britain, hiring someone else to breast",
+    "stored": 18.83412170410156,
+    "recomputed": 19.81732940673828
+   },
+   {
+    "window": 31,
+    "text": ", Canepa is located in a quieter, and much more isolated part of California",
+    "stored": 30.15286445617676,
+    "recomputed": 30.16905975341797
+   },
+   {
+    "window": 28,
+    "text": " why he didn’t just keep quiet or walk away rather than create a world",
+    "stored": 34.90034103393555,
+    "recomputed": 33.98057556152344
+   },
+   {
+    "window": 15,
+    "text": " discarding broken furniture. Things quieted down a lot the second year.",
+    "stored": 42.29988479614258,
+    "recomputed": 38.597904205322266
+   },
+   {
+    "window": 33,
+    "text": " -qm <ratio>: quiet threshold for maxheld/limit ratio (",
+    "stored": 29.50787734985352,
+    "recomputed": 39.5859489440918
+   },
+   {
+    "window": 22,
+    "text": " after a short time, with the baby quieted and sucking on a pacifier.",
+    "stored": 40.09723281860352,
+    "recomputed": 40.78434753417969
+   },
+   {
+    "window": 24,
+    "text": " is a fan, but it's so quiet i only hear it if i put the",
+    "stored": 37.50141143798828,
+    "recomputed": 41.69227600097656
+   },
+   {
+    "window": 10,
+    "text": "-of-sale, has made a quiet debut on the Amazon Appstore and on",
+    "stored": 43.60660171508789,
+    "recomputed": 42.07809829711914
+   },
+   {
+    "window": 17,
+    "text": " tiny world. And there are few truly quiet moments in this madcap life. In",
+    "stored": 41.78628158569336,
+    "recomputed": 44.16844177246094
+   },
+   {
+    "window": 14,
+    "text": " along main roads in the town, a quiet residential suburb of Chandigarh,",
+    "stored": 42.39068222045898,
+    "recomputed": 44.572059631347656
+   },
+   {
+    "window": 11,
+    "text": "’s principal said he was a quiet, shy kid who didn’t",
+    "stored": 43.60464096069336,
+    "recomputed": 45.49932098388672
+   },
+   {
+    "window": 21,
+    "text": " what have you, simply because things were quiet on the news front, Loeb confirms",
+    "stored": 40.62274169921875,
+    "recomputed": 46.4233512878418
+   },
+   {
+    "window": 1,
+    "text": " the War Powers Act was condemned to a quiet death by a president who had solemnly",
+    "stored": 46.80161285400391,
+    "recomputed": 47.126304626464844
+   },
+   {
+    "window": 7,
+    "text": " The streets of Ras Lanuf were quiet on Monday, troubled only by cars and",
+    "stored": 44.09272384643555,
+    "recomputed": 49.89043045043945
+   }
+  ],
+  "positives": 55,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14562,
+    "window": 24,
+    "text": " US feared if it cut emissions, energy bills would rise - and divert jobs to China",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 0,
+    "text": " Arrivals program. She says that both sides agreed it is most important not to have",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 22,
+    "text": " tool, you can consider all the relevant topics and questions surrounding the primary keywords that you",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 70,
+    "text": " possession, resisting an officer and prostitution. Texas appears most frequently on the list",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 35,
+    "text": " include the expiration of the home buyer tax credit and the fiscal crisis in Europe) ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 2,
+    "text": " provider. \"When the increase in monthly bills is coupled with the fact that 81.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 20,
+    "text": " the weekend that informed sources in the Washington, DC gay community told Madsen that GOP",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 49,
+    "text": "We would like to offer our sincere thanks to all who have supported, endorsed and believed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 16,
+    "text": " Watson Prison Planet Wednesday, April 2, 2008 The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 25,
+    "text": ", even if<|endoftext|> affects how Apple devices authenticate their secure connection with servers, allowing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 26,
+    "text": " the club’s desperation to tie him down. Manchester City are confident",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 36,
+    "text": " so called Islamic State, is the stuff of nightmares. They are ruthless, fanatical",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 58,
+    "text": " of the total revenue. At the luxury end of the market, water has",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 2,
+    "text": " a result, large language families often encompass peoples who look very different and have markedly distinct",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 2,
+    "text": "ed subjects had little trouble figuring out the relative sizes of the spaces. The person who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 13,
+    "text": " mostly Alawite-Muslim regime. Turkmani headed the regime's response to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 11,
+    "text": " still exists. If United hire Jose Mourinho to replace Van Gaal, Giggs' future",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 72,
+    "text": " Ryanair will continue to negotiate with the Israeli authorities over future routes and looks",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 45,
+    "text": " to expire. In addition, payroll tax rates that had been reduced in 2011 and 2012",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 42,
+    "text": " novel \"A Clockwork Orange\" and had him look at artwork from Francis Bacon, the",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

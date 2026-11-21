@@ -1,0 +1,263 @@
+{
+ "feature": 18727,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 28,
+    "text": "). After a successful appearance at Lithuania's largest rock festival \"The nights of",
+    "stored": 5.614817142486572,
+    "recomputed": 5.412139415740967
+   },
+   {
+    "window": 30,
+    "text": "<|endoftext|>Award-winning videographer Sean Malone had a raygun belt buckle confiscated recently",
+    "stored": 5.50941801071167,
+    "recomputed": 7.042718410491943
+   },
+   {
+    "window": 27,
+    "text": "é and the « great island » of Madagascar. The OLPC deployment done by<|endoftext|>",
+    "stored": 5.61665153503418,
+    "recomputed": 7.454851150512695
+   },
+   {
+    "window": 25,
+    "text": " women. Susan Collins (R-Maine) started the group, and Sens.",
+    "stored": 12.15288352966309,
+    "recomputed": 12.56608772277832
+   },
+   {
+    "window": 23,
+    "text": ". That treatment would include care at Central Maine Medical Center in Lewiston and traditional Chinese",
+    "stored": 36.841064453125,
+    "recomputed": 36.871971130371094
+   },
+   {
+    "window": 22,
+    "text": " within the Augusta School Department in Augusta, Maine. She works with students who have special",
+    "stored": 41.03293228149414,
+    "recomputed": 39.658447265625
+   },
+   {
+    "window": 18,
+    "text": " workspace. HOULTON, Maine — Houlton’s historic",
+    "stored": 43.36486434936523,
+    "recomputed": 39.98903274536133
+   },
+   {
+    "window": 10,
+    "text": " be North Carolina's Elizabeth Dole, Maine's Susan Collins, Nebraska's Chuck Hag",
+    "stored": 45.6011962890625,
+    "recomputed": 41.70613479614258
+   },
+   {
+    "window": 13,
+    "text": " purchase of the buildings in July through a Maine company it created, Miracle Enterprises, the",
+    "stored": 45.28563690185547,
+    "recomputed": 42.468040466308594
+   },
+   {
+    "window": 3,
+    "text": " have been up for debate in Pennsylvania, Maine and Nebraska this year. In",
+    "stored": 47.5013542175293,
+    "recomputed": 42.63467025756836
+   },
+   {
+    "window": 21,
+    "text": " were done<|endoftext|> J. Snowe of Maine, the only Republican senator to support any",
+    "stored": 42.96962738037109,
+    "recomputed": 42.77650451660156
+   },
+   {
+    "window": 17,
+    "text": " case then many states will follow suit. Maine and Connecticut also have the same law,",
+    "stored": 43.98493957519531,
+    "recomputed": 42.962646484375
+   },
+   {
+    "window": 7,
+    "text": "acial population include Oklahoma (61%) and Maine (53%). Under the Census",
+    "stored": 45.81710815429688,
+    "recomputed": 43.19685745239258
+   },
+   {
+    "window": 14,
+    "text": " barley called Newdale that is grown by Maine Potato Growers, Inc., in Pres",
+    "stored": 45.09164047241211,
+    "recomputed": 43.67329025268555
+   },
+   {
+    "window": 5,
+    "text": " percent in Alabama, to 99 percent in Maine and New Hampshire. About half",
+    "stored": 46.70528411865234,
+    "recomputed": 43.77408218383789
+   },
+   {
+    "window": 9,
+    "text": "Leaguer Chris Babb from the Maine Red Claws to a<|endoftext|> would still",
+    "stored": 45.60238265991211,
+    "recomputed": 44.06128692626953
+   },
+   {
+    "window": 16,
+    "text": " One must add to this list Maine governor Paul LePage — apparently now taking",
+    "stored": 44.54470062255859,
+    "recomputed": 44.37968063354492
+   },
+   {
+    "window": 1,
+    "text": " to swap out 10 Ron Paul delegates from Maine for 10 aligned with Mitt Romney. ",
+    "stored": 48.08609390258789,
+    "recomputed": 45.050201416015625
+   },
+   {
+    "window": 4,
+    "text": " is strongly correlated with the divorce rate in Maine? We cannot rely on correlation",
+    "stored": 46.96141815185547,
+    "recomputed": 46.337459564208984
+   },
+   {
+    "window": 2,
+    "text": " the highest in the Northeast, particularly in Maine and New Hampshire, the report said.",
+    "stored": 47.80095672607422,
+    "recomputed": 47.74768829345703
+   }
+  ],
+  "positives": 31,
+  "grey": [
+   {
+    "window": 29,
+    "text": " send warning signals out to England fans – Lithuania, Estonia, Bosnia, Faroe Islands",
+    "stored": 5.561088562011719,
+    "recomputed": 3.393737316131592
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 565,
+    "window": 7,
+    "text": " Turkey Club Sandwich review. Thanks to Arby’s you can now",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 49,
+    "text": " time it will be all subgroups with relative few papers combined, evolution and library then",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 17,
+    "text": "ials who had been appointed by the governor to oversee Flint’s finances with minimal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 38,
+    "text": " it saved me a ton of cash! If I bought all of my textbooks from the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 5,
+    "text": " approximately 2.5 hours. Thursday, Mar. 17, 2016 ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 14,
+    "text": " that were illegal) to prop up his signature healthcare law, the program's health exchanges",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 19,
+    "text": " a bread machine, here is how. Dissolve the yeast in the warm milk in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 52,
+    "text": ". According to research provided by the National Park Service, there has been widespread",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 0,
+    "text": " Gandhi and Christ, while many people in the east worry he has it in for everyone",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 38,
+    "text": " you<|endoftext|> to develop cancer than those who smoke less aggressively. The half-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 20,
+    "text": " in food can be different from those of smoking it, said Karen Simone, a clinical",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 30,
+    "text": " (HAL.N) and Schlumberger (SLB.N) as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 41,
+    "text": " how the man had died. (file picture) She denies the claim saying",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 17,
+    "text": "ulin, made a decision to attack the terrorists. The skillful actions of the Russian",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 33,
+    "text": " in a dozen nightclubs, pubs and restaurants. When Blueprint's head office staff out",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 32,
+    "text": " faced international backlash Lego says bricks are about 'freedom of expression', but",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 73,
+    "text": "“When I’m constantly berated by people asking my guests that are",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 9,
+    "text": ": \"For all the other deficiencies in her life she is to be applauded for her",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 14,
+    "text": " president of the indisputably bipartisan Council on Foreign Relations, likened Trump's rhetoric to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 21,
+    "text": " the time of the incident. HMCS Athabaskan went adrift",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

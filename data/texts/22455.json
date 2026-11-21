@@ -1,0 +1,275 @@
+{
+ "feature": 22455,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 34,
+    "text": " beat” that really raised eyebrows. Dudley continued: “It’s",
+    "stored": 5.421582221984863,
+    "recomputed": 5.465210914611816
+   },
+   {
+    "window": 31,
+    "text": " In apparent anticipation of those concerns, Boyd said in the letter that Justice Department �",
+    "stored": 6.143334865570068,
+    "recomputed": 8.188985824584961
+   },
+   {
+    "window": 29,
+    "text": " event included a Question and Answer session with Ramsay. Some in attendance did take this opportunity",
+    "stored": 11.19277954101562,
+    "recomputed": 12.070103645324707
+   },
+   {
+    "window": 27,
+    "text": " rushed for 79 yards filling in for Melvin Gordon in the Chargers' last game of the",
+    "stored": 36.12655258178711,
+    "recomputed": 32.31716537475586
+   },
+   {
+    "window": 26,
+    "text": ", largely competitive racing throughout, and Jeff Gordon’s likely final two NASCAR starts",
+    "stored": 40.21547698974609,
+    "recomputed": 37.69990539550781
+   },
+   {
+    "window": 25,
+    "text": " A team at Aberdeen's Robert Gordon University spent two years assessing measurements of hundreds",
+    "stored": 40.96716690063477,
+    "recomputed": 37.9276237487793
+   },
+   {
+    "window": 22,
+    "text": ", according to police. Paul Gordon Peters, 56, was attempting to meet",
+    "stored": 44.37118530273438,
+    "recomputed": 40.48027420043945
+   },
+   {
+    "window": 12,
+    "text": " adjunct faculty member in UB's Yale Gordon College of Arts and Sciences. Blum",
+    "stored": 47.83142852783203,
+    "recomputed": 42.978702545166016
+   },
+   {
+    "window": 21,
+    "text": " them completely?\" Israeli blogger Yochanan Gordon wrote on the paper's website. ",
+    "stored": 45.57831954956055,
+    "recomputed": 44.450775146484375
+   },
+   {
+    "window": 11,
+    "text": " disease Bill Gates British Prime Minister Gordon Brown joined the presidents of Rwanda and Tanzania",
+    "stored": 48.01891326904297,
+    "recomputed": 45.47243118286133
+   },
+   {
+    "window": 20,
+    "text": " park’s bears. Gordon Stenhouse, who heads the grizz",
+    "stored": 46.30316543579102,
+    "recomputed": 46.5870246887207
+   },
+   {
+    "window": 4,
+    "text": " hundreds of times during the Tony Blair and Gordon Brown years, would understand her strength of",
+    "stored": 49.15742492675781,
+    "recomputed": 46.721824645996094
+   },
+   {
+    "window": 17,
+    "text": " time by fabricating claims that her grandfather Gordon Ritchie sexually abused her. ",
+    "stored": 47.05840682983398,
+    "recomputed": 47.414241790771484
+   },
+   {
+    "window": 2,
+    "text": " as a dead parrot, as if Gordon Brown was not asked live on television if",
+    "stored": 50.25387573242188,
+    "recomputed": 47.617164611816406
+   },
+   {
+    "window": 8,
+    "text": " to show that far from being a gay Gordon he was a passionate womaniser, as",
+    "stored": 48.6874885559082,
+    "recomputed": 48.38533401489258
+   },
+   {
+    "window": 15,
+    "text": " are the biggest domestic deals. Gordon Taylor, chief executive of the Professional Football",
+    "stored": 47.12977981567383,
+    "recomputed": 48.518253326416016
+   },
+   {
+    "window": 10,
+    "text": ", the comedian, has also written to Gordon Brown on behalf of Peta, demanding",
+    "stored": 48.37789916992188,
+    "recomputed": 49.43391799926758
+   },
+   {
+    "window": 1,
+    "text": "ad,” written by respected author Gordon Thomas and due out next week. ",
+    "stored": 50.41470336914062,
+    "recomputed": 49.83926010131836
+   },
+   {
+    "window": 3,
+    "text": " Email The first time I interviewed Gordon Brown it was on the understanding that he",
+    "stored": 49.71184158325195,
+    "recomputed": 49.96442413330078
+   },
+   {
+    "window": 9,
+    "text": " same name, Holiday Inn is directed by Gordon Greenberg and features choreography by Denis Jones",
+    "stored": 48.62483978271484,
+    "recomputed": 50.733604431152344
+   }
+  ],
+  "positives": 32,
+  "grey": [
+   {
+    "window": 33,
+    "text": " Sound\" (The Stylistics, Harold Melvin & the Blue Noes). ",
+    "stored": 5.591008186340332,
+    "recomputed": 1.6666924953460693
+   },
+   {
+    "window": 35,
+    "text": "MGM) Photography: Harold Rosson Music: Harold Ar",
+    "stored": 5.282509326934814,
+    "recomputed": 4.109913349151611
+   },
+   {
+    "window": 36,
+    "text": " to represent independence between probability distributions in a way that can be verified statically. ",
+    "stored": 2.479809761047363,
+    "recomputed": 3.9238669872283936
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 15660,
+    "window": 32,
+    "text": "In my quest to speak with experts directly involved with these matters, I thought to go",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 40,
+    "text": " goes from here. Dr. Clifford Saper, editor of the Annals of Neurolog",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 18,
+    "text": " drug.Chantix helps people quit smoking by simulating the effects of nicotine in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 7,
+    "text": " This Game Hit the dirt in Colin McRae Rally - the classic off-road",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 35,
+    "text": " to Malaysia but Australia’s extradition legislation prohibits an individual from being sent back to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 5,
+    "text": " High School. Her group’s topic was “School Days.”",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 58,
+    "text": " us begin withSurface area/cu.ft.:120Upsides: A",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 8,
+    "text": " facilitates greater diversity) The habitat suitability which includes: Climate (tropical",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 47,
+    "text": " rule of Fight Club. Last Friday, November 6, tech blog Venture Beat",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 10,
+    "text": " just tied their series with the Atlanta Hawks at 2-2 because of a couple fl",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 24,
+    "text": " bankrupting the government, which had given depositor guarantees for all of the country�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 8,
+    "text": " hard to believe but nationalisation was something of an anti-climax. �",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 5,
+    "text": " Ironically, Boles was afraid of horses and made all of his robberies on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 56,
+    "text": ": 'taboola-interstitial-gallery-thumbnails-10', placement: 'Interstitial Gallery",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 12,
+    "text": " had the notion of hiring Bernie's wife to be their esteemed college's new president in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 28,
+    "text": " displaying any user interface, by specifying the CLSID of the shell extension. 14",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 9,
+    "text": " to 2017. \"This season,\" Jackson said, \"is over.\"<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 42,
+    "text": " is designing those character for animation. Monaca ( Wake Up, Girls! , My",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 38,
+    "text": " years in Oxford, Mississippi, it helps to know the nature of the rivalry between Ole",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 23,
+    "text": " I don’t even know when she would get into the UFC,”",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

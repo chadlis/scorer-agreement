@@ -1,0 +1,269 @@
+{
+ "feature": 10461,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 41,
+    "text": " the campaign trail, Donald Trump made much of his $1 trillion infrastructure promises. Today",
+    "stored": 5.459220886230469,
+    "recomputed": 4.966470241546631
+   },
+   {
+    "window": 38,
+    "text": " ready to leave, and so seemed much of Concepcion. The curfew ran from",
+    "stored": 10.38492584228516,
+    "recomputed": 9.99392032623291
+   },
+   {
+    "window": 37,
+    "text": " home. I’m not much of a designer, so I just build a",
+    "stored": 11.07943725585938,
+    "recomputed": 10.806878089904785
+   },
+   {
+    "window": 35,
+    "text": " clout of AIPAC is the stuff of legend. At the same time, talk",
+    "stored": 14.93706893920898,
+    "recomputed": 13.129227638244629
+   },
+   {
+    "window": 34,
+    "text": " RIA Novosti, included nothing of the ongoing tensions in Ukraine, fueled largely",
+    "stored": 15.50102615356445,
+    "recomputed": 15.611742973327637
+   },
+   {
+    "window": 32,
+    "text": " after he told the gunman he had nothing of value to hand over, NOPD",
+    "stored": 16.95659637451172,
+    "recomputed": 16.77985954284668
+   },
+   {
+    "window": 29,
+    "text": "ranos, but, oddly, nothing of the sort is happening in the image-",
+    "stored": 21.21913146972656,
+    "recomputed": 19.369159698486328
+   },
+   {
+    "window": 23,
+    "text": " that these guys consider what you say something of use.. Me? I think the both",
+    "stored": 28.32634353637695,
+    "recomputed": 25.700952529907227
+   },
+   {
+    "window": 20,
+    "text": "ea, players fixing games was a thing of the past. An oddsmaker named",
+    "stored": 31.39373970031738,
+    "recomputed": 28.148324966430664
+   },
+   {
+    "window": 24,
+    "text": " Meron, because I still remembered something of what I had heard in my childhood about",
+    "stored": 27.91410064697266,
+    "recomputed": 30.82880973815918
+   },
+   {
+    "window": 21,
+    "text": " faces that get prettier we need something of a higher level. We need to think",
+    "stored": 30.82379913330078,
+    "recomputed": 32.17695236206055
+   },
+   {
+    "window": 18,
+    "text": " hopes the sequence will nevertheless give viewers something of the sensation Gagarin must have experienced",
+    "stored": 34.49875640869141,
+    "recomputed": 36.3798942565918
+   },
+   {
+    "window": 15,
+    "text": "River Hill) have also made him something of a local fan favorite. After missing most",
+    "stored": 38.98674011230469,
+    "recomputed": 40.39518356323242
+   },
+   {
+    "window": 11,
+    "text": " Clippy, it may come as something of a shock that Microsoft has been nominated in",
+    "stored": 43.18032455444336,
+    "recomputed": 41.672542572021484
+   },
+   {
+    "window": 16,
+    "text": " work begins. Seasoning bamboo is something of an enigma to most people. Personally",
+    "stored": 38.30072784423828,
+    "recomputed": 42.018428802490234
+   },
+   {
+    "window": 4,
+    "text": "icke Davis, 59, is something of a celebrity among students at Barrett, the",
+    "stored": 45.22932052612305,
+    "recomputed": 44.284603118896484
+   },
+   {
+    "window": 0,
+    "text": "s energy efficiency program. It was something of a master stroke for the Right’",
+    "stored": 46.7789421081543,
+    "recomputed": 44.90899658203125
+   },
+   {
+    "window": 3,
+    "text": " first attempt at truth-telling was something of a dress rehearsal for the revelations to come",
+    "stored": 45.84501647949219,
+    "recomputed": 45.31617736816406
+   },
+   {
+    "window": 9,
+    "text": " and movies, product prominence has become something of a nuisance to the viewer. Compare that",
+    "stored": 44.56203079223633,
+    "recomputed": 46.61834716796875
+   },
+   {
+    "window": 1,
+    "text": " the next four years, Christie became something of a national punching bag. Everything people loved",
+    "stored": 46.23008728027344,
+    "recomputed": 47.921836853027344
+   }
+  ],
+  "positives": 38,
+  "grey": [
+   {
+    "window": 42,
+    "text": "-Pacific Partnership and has made an issue of America's shrinking manufacturing sector, President Reagan",
+    "stored": 5.034042358398438,
+    "recomputed": 4.181248664855957
+   },
+   {
+    "window": 43,
+    "text": " invasion. It won a measure of autonomy in the 2005 Iraqi constitution and has",
+    "stored": 4.680977821350098,
+    "recomputed": 3.9485692977905273
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14562,
+    "window": 43,
+    "text": " and other veterans endorsing Trump and was also billed as where Trump would make a major announcement",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 21,
+    "text": " of it's performance abilities and it's structural strength/adaptability for carrier and expedition",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 13,
+    "text": " time, US Sony reps had not offered Hirai's statement or further clarification about its",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 1,
+    "text": " under the body. The figure was gliding quickly along the length of the street heading",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 9,
+    "text": " Russian proposal may not solve Syria's underlying civil war, \"but it does solve the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 3,
+    "text": " film, and later better trailers did little to stem the tide of negative buzz. Yes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 23,
+    "text": " target lock with the locator, a radio message will often be received by the player",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 7,
+    "text": " 200 percent higher in 2011 than it was in 1979 for households in that group. In",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 58,
+    "text": " computer system issues. According to The Courier-Journal , David Reyes originally faced",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 22,
+    "text": " discussion at the meetings, including extending the extra session to 10 minutes or<|endoftext|> can the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 47,
+    "text": ". Tap amiibo to have the pictured villager visit your town. You can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 58,
+    "text": " and place a cast-iron or oven-safe skillet on the middle rack. Then",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 43,
+    "text": " $4,157. By 1980, per capita in Brunei hit $25,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 40,
+    "text": " the lack of female representation in the soccer body. \"If you look at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 5,
+    "text": ". Toad, T$A Commissary manager during the show, also became a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 31,
+    "text": " most energetic opponents of Trump—and have absorbed a sustained campaign of harassment from his supporters",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 15,
+    "text": " is in essence an attempt to persuade potential suitors to put their best offer on the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 34,
+    "text": "'s statement loaded with suggestions from his council of economic advisers, such as calls for a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 38,
+    "text": " DE-FB Will Tukuafu Two summers ago, Tukuafu exhibited",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 10,
+    "text": " comes down to ignorance on behalf of both sides,” he said, insisting that",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

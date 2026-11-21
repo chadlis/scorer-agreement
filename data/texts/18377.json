@@ -1,0 +1,256 @@
+{
+ "feature": 18377,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 32,
+    "text": "PICK UP LOCATION Patrons will be responsible for getting themselves to and",
+    "stored": 9.365415573120117,
+    "recomputed": 4.961190223693848
+   },
+   {
+    "window": 36,
+    "text": " Developing Actionable Solutions for Today's Plague of Violence.\" One member of this trio",
+    "stored": 5.591257095336914,
+    "recomputed": 5.809467315673828
+   },
+   {
+    "window": 39,
+    "text": " was not entitled to bring the claim for upkeep costs against Thomson Medical, its fertility centre",
+    "stored": 4.482548236846924,
+    "recomputed": 6.107534885406494
+   },
+   {
+    "window": 34,
+    "text": " communication with police and producing a \"patrons' bill of rights.\" N",
+    "stored": 8.969280242919922,
+    "recomputed": 6.836507320404053
+   },
+   {
+    "window": 31,
+    "text": " that the Patrolmen’s Benevolent Association is a group that is constantly agg",
+    "stored": 9.507777214050293,
+    "recomputed": 9.173763275146484
+   },
+   {
+    "window": 29,
+    "text": " a second to support Eryka on Patreon!<|endoftext|>Claim: Photograph shows a famine",
+    "stored": 15.35695171356201,
+    "recomputed": 14.740163803100586
+   },
+   {
+    "window": 28,
+    "text": " So what's the deal with this Patreon page or whatever this is? The first",
+    "stored": 15.81637573242188,
+    "recomputed": 16.450563430786133
+   },
+   {
+    "window": 25,
+    "text": " Cloister has three craft offerings to thirsty patrons: Rose of Shannon; a malt-",
+    "stored": 18.00738143920898,
+    "recomputed": 21.564088821411133
+   },
+   {
+    "window": 23,
+    "text": " who were widely known throughout Europe as influential patrons of the arts. With deep pockets,",
+    "stored": 18.37233924865723,
+    "recomputed": 23.320877075195312
+   },
+   {
+    "window": 22,
+    "text": ". Please understand that we need to help patrons waiting in line before we can look at",
+    "stored": 21.64837646484375,
+    "recomputed": 24.150928497314453
+   },
+   {
+    "window": 21,
+    "text": ". Nevertheless, Armey and his patrons’ goals are not what Hamilton envisioned",
+    "stored": 21.833251953125,
+    "recomputed": 25.102737426757812
+   },
+   {
+    "window": 18,
+    "text": " wooden delivery. So basically by becoming a Patron you're helping us out and you can",
+    "stored": 34.27778625488281,
+    "recomputed": 37.23098373413086
+   },
+   {
+    "window": 5,
+    "text": " says Glenn Kenny at MSN. It patronizes its audience, serving up \"one",
+    "stored": 41.53328704833984,
+    "recomputed": 41.8298454284668
+   },
+   {
+    "window": 7,
+    "text": " have this illness, so I refuse to patronise any restaurant that treats me like an",
+    "stored": 39.72432708740234,
+    "recomputed": 44.06937789916992
+   },
+   {
+    "window": 11,
+    "text": " intoxicated patron who needed to leave. Another patron \"recalled being ushered out of the",
+    "stored": 38.54959106445312,
+    "recomputed": 44.6987419128418
+   },
+   {
+    "window": 6,
+    "text": " 4th century Greek Bishop and is the patron saint of pawnbroking. Tales abound",
+    "stored": 40.31030654907227,
+    "recomputed": 45.62076950073242
+   },
+   {
+    "window": 2,
+    "text": " of the American<|endoftext|> on Hamilton as a patron saint of American “conservatism.",
+    "stored": 42.80051803588867,
+    "recomputed": 45.66563034057617
+   },
+   {
+    "window": 14,
+    "text": "olm says a female friend of the patron's tried to stop the bouncer,",
+    "stored": 37.67093658447266,
+    "recomputed": 46.494102478027344
+   },
+   {
+    "window": 4,
+    "text": " to cast their ballots. The patronizing nicknames and language contained in the",
+    "stored": 41.94458389282227,
+    "recomputed": 46.790828704833984
+   },
+   {
+    "window": 0,
+    "text": " crews and magazine journalists. She was the patron and chair of the board of directors of",
+    "stored": 44.6294059753418,
+    "recomputed": 47.675941467285156
+   }
+  ],
+  "positives": 36,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 19103,
+    "window": 59,
+    "text": " failing. In Italy, the Church was tightening its grip on free thinking,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 61,
+    "text": "!\" and scaled the wall. It took four of us to take her down and drag",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 46,
+    "text": " united in their demands for a lower tax burden at the top, reacted with horror.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 35,
+    "text": " GM as of April 1, according to the company's most recent proxy statement, down",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 32,
+    "text": ".org/10.1038/nature19332; 2016). The team behind",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14889,
+    "window": 10,
+    "text": " Spotlight Features Van Arsdel uses many new and exciting features that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 28,
+    "text": "). After a successful appearance at Lithuania's largest rock festival \"The nights of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 36,
+    "text": " More specifically, the Nevada fracas has been seized upon as a dire pre",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 22,
+    "text": " York, Morrow Junior Books, 1992.48 p. (Juvenile). ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 14,
+    "text": " barley called Newdale that is grown by Maine Potato Growers, Inc., in Pres",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 48,
+    "text": " quiet ease, directing patrollers with chain saws, sleds and closure ropes across",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 56,
+    "text": " a further event hosted at Sacred Hearts RC Church with over 100 people gathering to learn how",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 45,
+    "text": " with vinyls designed to be easily and quickly applied in Google offices around the world –",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 47,
+    "text": "th overall picks: 2016: Denzel Valentine, SG, Milwaukee: A",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 24,
+    "text": " according to Clinton's campaign: Saturday, October 29 1:00",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 30,
+    "text": "), dress up in green spandex suits and try their best to torment opposing players",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 5,
+    "text": " anyway. This will do little to reassure a growing number of influential figures in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 5,
+    "text": " total shot attempts, including 66-29 at even strength. The series is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 1,
+    "text": " Ash and Paul Kemp of the American Kratom Association at the Kratom March on DC",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 19,
+    "text": " in a 12-point loss to Richmond at the MCG last Thursday night.B",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

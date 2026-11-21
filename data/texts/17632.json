@@ -1,0 +1,263 @@
+{
+ "feature": 17632,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 54,
+    "text": " way of preventing unwanted pregnancies while he gave a now-notorious explanation of his views",
+    "stored": 4.227073669433594,
+    "recomputed": 2.977358341217041
+   },
+   {
+    "window": 58,
+    "text": " Thursday segment, Brzezinski read from a New York Daily News editorial published Wednesday that",
+    "stored": 2.421381235122681,
+    "recomputed": 3.6583755016326904
+   },
+   {
+    "window": 52,
+    "text": "uy will present his EU strategy report at a summit in Brussels later this week. After",
+    "stored": 6.003443241119385,
+    "recomputed": 7.028830528259277
+   },
+   {
+    "window": 48,
+    "text": " That impression was further validated during another exchange about Romney’s “",
+    "stored": 7.463835716247559,
+    "recomputed": 8.038711547851562
+   },
+   {
+    "window": 42,
+    "text": " your division didn't,\" Weiner said at a Baseball Writers' Association of America gathering.",
+    "stored": 10.52480030059814,
+    "recomputed": 9.546199798583984
+   },
+   {
+    "window": 44,
+    "text": " about that,” Musk said at a SpaceX hyperloop design competition on Sunday.",
+    "stored": 8.941843032836914,
+    "recomputed": 11.285664558410645
+   },
+   {
+    "window": 50,
+    "text": ", such as the need to laugh during a funeral or the experience of sexual arousal at",
+    "stored": 6.893153667449951,
+    "recomputed": 12.930527687072754
+   },
+   {
+    "window": 41,
+    "text": "Tolley] completely loses himself during an investigation of a demonic infestation, which",
+    "stored": 10.77317237854004,
+    "recomputed": 14.301959991455078
+   },
+   {
+    "window": 36,
+    "text": "old pregnant woman was killed late Wednesday during a shooting on Detroit’s west side",
+    "stored": 12.82490730285645,
+    "recomputed": 16.145092010498047
+   },
+   {
+    "window": 30,
+    "text": " cost $41<|endoftext|>More than once during a storm — as I've fretted over",
+    "stored": 15.31045722961426,
+    "recomputed": 16.329357147216797
+   },
+   {
+    "window": 16,
+    "text": " is not until 2015. During a Press Club speech yesterday, Mr Shorten",
+    "stored": 20.73920249938965,
+    "recomputed": 17.475656509399414
+   },
+   {
+    "window": 7,
+    "text": " foray into Christian theology. During a speech in Fort Dodge, Iowa, Trump",
+    "stored": 21.34584808349609,
+    "recomputed": 18.065284729003906
+   },
+   {
+    "window": 1,
+    "text": " against the party establishment. During a round table discussion on NBC’s",
+    "stored": 22.70595169067383,
+    "recomputed": 19.212888717651367
+   },
+   {
+    "window": 27,
+    "text": " commenced, Secretary of State Clinton declared during a classified briefing for members of Congress that �",
+    "stored": 17.0231876373291,
+    "recomputed": 19.590763092041016
+   },
+   {
+    "window": 22,
+    "text": " exposure to live wires and a<|endoftext|>During a Fox News roundtable today discussing a Colorado",
+    "stored": 19.55533599853516,
+    "recomputed": 20.265960693359375
+   },
+   {
+    "window": 3,
+    "text": " firmer official support on Sunday. During an appearance on ABC’s This Week",
+    "stored": 21.72444915771484,
+    "recomputed": 20.504928588867188
+   },
+   {
+    "window": 15,
+    "text": "'ll tell you,\" Trump told voters during an evening campaign rally in Sacramento, Calif.",
+    "stored": 20.76561164855957,
+    "recomputed": 21.2485408782959
+   },
+   {
+    "window": 20,
+    "text": ". Standing alongside Mr Rudd during a press conference in Jerusalem, Mr Lieberman said",
+    "stored": 20.1186466217041,
+    "recomputed": 21.892929077148438
+   },
+   {
+    "window": 19,
+    "text": " before, the German Foreign Minister said during a visit to Baghdad that the reconciliation process in",
+    "stored": 20.54654693603516,
+    "recomputed": 22.660978317260742
+   },
+   {
+    "window": 2,
+    "text": " but<|endoftext|> US President Bush said Wednesday during a press conference that Iran attaining nuclear weapons",
+    "stored": 22.36016464233398,
+    "recomputed": 24.080698013305664
+   }
+  ],
+  "positives": 59,
+  "grey": [
+   {
+    "window": 59,
+    "text": " turning over every document related to what happened.\" “At Wednesday's hearing",
+    "stored": 1.324271559715271,
+    "recomputed": 1.3212156295776367
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 565,
+    "window": 57,
+    "text": ".We also want to show our gratitude to those early believers that have supported us from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 16,
+    "text": " and carrot, cucumbers and jalapeño relish on a steamed b",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 53,
+    "text": ". There needs to be some levelling.\" Asked about federal borrowing, he",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 21,
+    "text": "LEDGE THAT YOU HAVE READ, UNDERSTAND, AND AGREE TO BE B",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 70,
+    "text": " an opinion article on the NASL situation by Thisisgame. However, the writer of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 16,
+    "text": " Arlington animal shelter and reunited with his owner Friday morning, according to a tweet by Arlington",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 12,
+    "text": " Program (TARP) and the auto bailout. However, these were sector-wide",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 56,
+    "text": " and use SQLlite as well. Ubuntu/Mint/RasberryPi users",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 58,
+    "text": " Sydney patiently spent up to 20 hours in the rain just for the chance to shop the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 28,
+    "text": "1=1-20% chance the rumor is correct FT2=21",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 36,
+    "text": " fissile material internationally. DAE’s accelerator driven sub-critical system",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 44,
+    "text": " big cats to be \"under the direct control and supervision of a knowledgeable and experienced animal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 35,
+    "text": " him. 2. Trump is vulgar and uninformed about issues. For a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 2,
+    "text": " as “stupid” a bailout idea advanced by Geithner. White",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 54,
+    "text": ", the funding sources are not your typical suited-up investors. Sure, some VC",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 52,
+    "text": " prove more economical to stay behind helping children to do better in the school,\" says Professor",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 62,
+    "text": " traditional movie-star way, but for now these three rooms—this big one we",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 23,
+    "text": " that is why we have to defend our church.\" Like many here, it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 15,
+    "text": " performing tonight at the Verizon Center in Washington, to the Oval Office just before dinner last",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 15,
+    "text": " discarding broken furniture. Things quieted down a lot the second year.",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

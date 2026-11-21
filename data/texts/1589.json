@@ -1,0 +1,276 @@
+{
+ "feature": 1589,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 37,
+    "text": " will be removed<|endoftext|> to start Performed app optimization Added P2",
+    "stored": 10.44541454315186,
+    "recomputed": 6.251283645629883
+   },
+   {
+    "window": 40,
+    "text": " giving GOP presidential candidate Donald Trump “permission to spew hate.” ",
+    "stored": 5.641157150268555,
+    "recomputed": 8.022701263427734
+   },
+   {
+    "window": 38,
+    "text": "ed<|endoftext|> the topic of racism has arrived per force in the feminist newspapers and journals,",
+    "stored": 9.995318412780762,
+    "recomputed": 13.193408012390137
+   },
+   {
+    "window": 36,
+    "text": " the report, watch the video above or peruse the charts below. With",
+    "stored": 12.2062816619873,
+    "recomputed": 14.530620574951172
+   },
+   {
+    "window": 34,
+    "text": " are all super-smart themselves (Also per the media.) Some possible movies",
+    "stored": 13.17256927490234,
+    "recomputed": 16.410369873046875
+   },
+   {
+    "window": 30,
+    "text": " tax bill that would do the opposite. Per The New York Times: A",
+    "stored": 17.82049942016602,
+    "recomputed": 16.75210952758789
+   },
+   {
+    "window": 28,
+    "text": ":20 a.m. ET: Per a source with knowledge of the situation,",
+    "stored": 19.32986450195312,
+    "recomputed": 18.880125045776367
+   },
+   {
+    "window": 33,
+    "text": " did not know which way to go. Perplexed, she sat down and prayed",
+    "stored": 13.82589912414551,
+    "recomputed": 21.555665969848633
+   },
+   {
+    "window": 29,
+    "text": " his name as a defensive guru. He persevered through a 35-year apprentices",
+    "stored": 18.2112922668457,
+    "recomputed": 22.483129501342773
+   },
+   {
+    "window": 15,
+    "text": " relation to a 2015 drunk driving arrest, per TMZ Sports. In addition to",
+    "stored": 30.18264579772949,
+    "recomputed": 25.20186996459961
+   },
+   {
+    "window": 16,
+    "text": " yards per return and the best production, per PFF, from a Giants punt return",
+    "stored": 30.05617332458496,
+    "recomputed": 26.93378257751465
+   },
+   {
+    "window": 20,
+    "text": " still young,” Johnson said, per the team’s website. �",
+    "stored": 27.31050300598145,
+    "recomputed": 30.21359634399414
+   },
+   {
+    "window": 23,
+    "text": " which ranked 24th in the NFL, per Pro Football Reference. They allowed 23 points",
+    "stored": 23.9370002746582,
+    "recomputed": 32.222347259521484
+   },
+   {
+    "window": 14,
+    "text": "Here's how the AFC stacked up, per SRS, at the end of the",
+    "stored": 31.10343170166016,
+    "recomputed": 33.84536361694336
+   },
+   {
+    "window": 6,
+    "text": " to come back here,\" Britt said, per the St. Louis Post-Dispatch.",
+    "stored": 39.17240524291992,
+    "recomputed": 34.13914489746094
+   },
+   {
+    "window": 12,
+    "text": " mark among NFL kickers in 2014, per Pro Football Focus (subscription required).",
+    "stored": 32.24088287353516,
+    "recomputed": 35.534488677978516
+   },
+   {
+    "window": 9,
+    "text": " producers—around 2,655 MW as per BTI’s estimates—could",
+    "stored": 34.92882537841797,
+    "recomputed": 38.25410842895508
+   },
+   {
+    "window": 5,
+    "text": " even when he wasn't talking, as per the lip-reading scene. No small",
+    "stored": 40.21851348876953,
+    "recomputed": 44.248374938964844
+   },
+   {
+    "window": 4,
+    "text": " city was already 500 years old. As per Hindu mythology, Varanasi was<|endoftext|>",
+    "stored": 42.26116943359375,
+    "recomputed": 45.115962982177734
+   },
+   {
+    "window": 0,
+    "text": " end of June 2016. As per the official data, India has been continuously",
+    "stored": 45.67338180541992,
+    "recomputed": 48.91851043701172
+   }
+  ],
+  "positives": 40,
+  "grey": [
+   {
+    "window": 31,
+    "text": " being evaluated, he said. Periodic changes are part of any business",
+    "stored": 14.46133995056152,
+    "recomputed": 1.4940118789672852
+   },
+   {
+    "window": 42,
+    "text": " what was the result? Well, to quote the BBC: Confused Turks",
+    "stored": 5.203704357147217,
+    "recomputed": 3.189528465270996
+   }
+  ],
+  "zero": [
+   {
+    "window": 41,
+    "text": " Shows [ edit ] Performers and animators provide regular entertainment",
+    "stored": 5.261958599090576,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 15655,
+    "window": 35,
+    "text": " charge that a “vast, right-wing conspiracy” was out to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 51,
+    "text": " said, and the energy needed for the additional refining actually could increase carbon pollution by 1",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 25,
+    "text": ", program in<|endoftext|> graduates travel outside the region for work during the week and return on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 56,
+    "text": "icating their home shores success worldwide. The Radio Industrial Complex hadn't fully kicked into gear",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 45,
+    "text": "’m glad the way it turned out.” This report contains",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 40,
+    "text": " to the Premier League, despite what happened at Chelsea, and may feel he has a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 56,
+    "text": " as the conventional auto industry packs up and leaves. It’s Elon Musk to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 44,
+    "text": " conditions. To the Japanese ear 'MacCarthy' and 'MacArthur' were",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 27,
+    "text": " to secure their financial security, and little more, and her goofy suitor Sir James",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 42,
+    "text": " „cel mai tare din parcare”, cu asta s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 86,
+    "text": " monthly prices • the cablecos hike fees to pay for all of the above",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 38,
+    "text": " lot of songs and it's pretty much structurally there.\" Ed has been",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 10,
+    "text": " booksellers must provide a certificate of authenticity for all autographed books. This must",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 13,
+    "text": " to identify and take down the network of terrorists behind the carnage. Salah",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 13,
+    "text": " fully costed platform. During a town hall meeting in downtown Toronto Monday,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 19,
+    "text": " \"embracing\" might be understating Brown's affection for Royal. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 56,
+    "text": " scientists to be a significant force in research and development, Senator Paulo Benigno \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 17,
+    "text": " sale of a portion of land to Hapeville, according to the council. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 17,
+    "text": " the country's disagreements with Western bodies. Video provided by Newsy Newslook ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 68,
+    "text": " in October in which he scored three goals and one assist and his fine form for Arsenal",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

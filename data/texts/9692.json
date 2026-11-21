@@ -1,0 +1,263 @@
+{
+ "feature": 9692,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 36,
+    "text": ", have nominated a Ferrari or a Lamborghini.\" With AAP<|endoftext|>LPL Financial",
+    "stored": 7.022969722747803,
+    "recomputed": 6.8006463050842285
+   },
+   {
+    "window": 34,
+    "text": "urally There\" The 'Lego House' singer admits he did most of",
+    "stored": 12.68733501434326,
+    "recomputed": 11.097402572631836
+   },
+   {
+    "window": 31,
+    "text": " project that [they] are using the bricks for, but we will gladly supply them",
+    "stored": 14.0790548324585,
+    "recomputed": 11.977315902709961
+   },
+   {
+    "window": 13,
+    "text": " of Avatar: The Last Airbender, LEGO created two sets from the show; unfortunately",
+    "stored": 53.53306579589844,
+    "recomputed": 49.10938262939453
+   },
+   {
+    "window": 27,
+    "text": " closer to getting this project into the next LEGO review!But remember, the road to",
+    "stored": 46.49908828735352,
+    "recomputed": 50.00542449951172
+   },
+   {
+    "window": 21,
+    "text": "-and-greet opportunities with favorite LEGO characters, exclusive opportunities to build alongside LEGO",
+    "stored": 51.88277816772461,
+    "recomputed": 52.132381439208984
+   },
+   {
+    "window": 16,
+    "text": " site where fans can submit their ideas for LEGO products, once a project<|endoftext|> as they",
+    "stored": 52.18172073364258,
+    "recomputed": 52.17178726196289
+   },
+   {
+    "window": 20,
+    "text": " year is the 50th anniversary of the LEGO® brick in Australia and Build joins the",
+    "stored": 52.09148025512695,
+    "recomputed": 53.4680061340332
+   },
+   {
+    "window": 29,
+    "text": " the Danish company for future projects, but Lego said if he places an order it will",
+    "stored": 45.11604309082031,
+    "recomputed": 54.693092346191406
+   },
+   {
+    "window": 2,
+    "text": " wooden roller coaster Coasterasaurus, Lego Ninjago World will open in early",
+    "stored": 57.25153732299805,
+    "recomputed": 55.48036193847656
+   },
+   {
+    "window": 3,
+    "text": " asking them to say [that] the Lego group is not supporting or endorsing the project",
+    "stored": 56.77824783325195,
+    "recomputed": 55.671791076660156
+   },
+   {
+    "window": 17,
+    "text": " expression. \"We make Lego bricks and Lego bricks are all about freedom of",
+    "stored": 52.17742156982422,
+    "recomputed": 55.878360748291016
+   },
+   {
+    "window": 8,
+    "text": " Video games Year Title Role Notes 2018 Lego DC Super-Villains Billy Batson",
+    "stored": 55.20637512207031,
+    "recomputed": 56.27685546875
+   },
+   {
+    "window": 32,
+    "text": " faced international backlash Lego says bricks are about 'freedom of expression', but",
+    "stored": 13.19862747192383,
+    "recomputed": 56.52838897705078
+   },
+   {
+    "window": 12,
+    "text": " knew I couldn’t afford that Lego set. So I broke it into pieces",
+    "stored": 54.33466339111328,
+    "recomputed": 56.549415588378906
+   },
+   {
+    "window": 11,
+    "text": " That is not to say that Lego is now endorsing the current work by Mr",
+    "stored": 54.41716003417969,
+    "recomputed": 57.3198127746582
+   },
+   {
+    "window": 5,
+    "text": " of Dogs will debut this week with The Lego Ninjago Movie and will also appear",
+    "stored": 55.7908821105957,
+    "recomputed": 58.00849914550781
+   },
+   {
+    "window": 7,
+    "text": "… stood in front of a wall of Lego boxes for 45 minutes before shoving the",
+    "stored": 55.33302688598633,
+    "recomputed": 58.47984313964844
+   },
+   {
+    "window": 15,
+    "text": "With members of the public now donating their Lego to Mr Ai, the artist may no",
+    "stored": 52.29099273681641,
+    "recomputed": 58.76607894897461
+   },
+   {
+    "window": 28,
+    "text": " about freedom of expression because anybody can take Lego bricks and build whatever they can imagine,\"",
+    "stored": 45.36515045166016,
+    "recomputed": 59.53182601928711
+   }
+  ],
+  "positives": 34,
+  "grey": [
+   {
+    "window": 35,
+    "text": " New Technology Telescope and the NASA/ESA Hubble Space Telescope to explore more than 100 planetary",
+    "stored": 7.783124923706055,
+    "recomputed": 5.187976837158203
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5030,
+    "window": 1,
+    "text": " could arrive. Yamauchi put a pin in August — so it may not be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 48,
+    "text": "zwei Tore, 22 Vorlagen) als konstant und extrem",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 33,
+    "text": " Sound\" (The Stylistics, Harold Melvin & the Blue Noes). ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 2,
+    "text": ", where wait times are far shorter than in California. In addition, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 23,
+    "text": " was about 22 times higher in Tennessee than in Minnesota, which had the lowest rate of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 6,
+    "text": " Sinai Peninsula, including the murder of a Copt in the city of El Arish",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 31,
+    "text": " solicitor Mark Stephens and human rights barrister Geoffrey Robertson QC. \"I'm",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 41,
+    "text": " to the 1993 World Trade Center bombing which left six dead, the Bureau of Alcohol,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 75,
+    "text": ". Speaking of As for the future of the company... there are",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 10,
+    "text": " considered for each zone separately by computing individual absorption spectra for up to 228 atmospheric layers",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 35,
+    "text": " reading generals' emails since I was 17,\" he said (he is 39), \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 35,
+    "text": " – Paterson (3); Challenges Won – Soria, Trafford, Jarun (",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 32,
+    "text": " be turned over to the court. That order was concealed from me. I found out",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 48,
+    "text": " 11 cruisers still in service would still quietly expire by 2028. But the 11",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 32,
+    "text": " over this section. @shapeshed “someone is using your library",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 45,
+    "text": " when you're down can sometimes leave you feeling even worse. \"There is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 45,
+    "text": " manoeuvring where courtiers and dignitaries could get close to the king. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 49,
+    "text": " security fee, however, would have been allocated solely toward UCPD security inside the<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 0,
+    "text": " our new mayor is an expert with a knife.” One day toward",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 1,
+    "text": " the atmosphere becomes even thinner than it is at present, and incapable of supporting dust storms",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

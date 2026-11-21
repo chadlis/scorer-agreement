@@ -1,0 +1,263 @@
+{
+ "feature": 21857,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 47,
+    "text": ". The European Parliament had no legislative powers whatsoever back in 1979. Today it",
+    "stored": 5.039300918579102,
+    "recomputed": 5.401362895965576
+   },
+   {
+    "window": 49,
+    "text": " toss the rule out. An ordinance that would have appropriated $75,000",
+    "stored": 4.680299282073975,
+    "recomputed": 6.293807029724121
+   },
+   {
+    "window": 41,
+    "text": " addressing some of the 11 recommendations, including legislating a ban on surcharges that exceed",
+    "stored": 12.5278377532959,
+    "recomputed": 11.668295860290527
+   },
+   {
+    "window": 42,
+    "text": "The stranglehold male lawmakers have on legislating private medical issues applies solely to Kentucky",
+    "stored": 11.27006149291992,
+    "recomputed": 13.231405258178711
+   },
+   {
+    "window": 37,
+    "text": " delay a vote on their proposed health care legislation on June 27 at the Capitol. (",
+    "stored": 23.47562217712402,
+    "recomputed": 29.630769729614258
+   },
+   {
+    "window": 36,
+    "text": " as long as Sweden offers friendlier asylum legislation than Denmark, the former will be a",
+    "stored": 25.14451217651367,
+    "recomputed": 30.52679443359375
+   },
+   {
+    "window": 33,
+    "text": " laws in 2011.Supporters of the new legislation said 19 states considered restricting access to restrooms",
+    "stored": 26.18849563598633,
+    "recomputed": 33.95419692993164
+   },
+   {
+    "window": 30,
+    "text": ".\" The Scottish Parliament has passed legislation which seeks to introduce a minimum price of",
+    "stored": 30.036865234375,
+    "recomputed": 34.78335189819336
+   },
+   {
+    "window": 28,
+    "text": " ISPs may find themselves subject to net neutrality legislation if they continue to abuse the public's",
+    "stored": 30.35160064697266,
+    "recomputed": 35.531654357910156
+   },
+   {
+    "window": 27,
+    "text": " Sunday that the Conservative majority formally supports the legislation, meaning it is all but assured of",
+    "stored": 31.90225410461426,
+    "recomputed": 35.97565841674805
+   },
+   {
+    "window": 31,
+    "text": " campaign. Airbnb praised the legislation in a statement released shortly after the vote",
+    "stored": 29.39328002929688,
+    "recomputed": 37.70332717895508
+   },
+   {
+    "window": 12,
+    "text": " it governs with the DUP again, including legislation to give equal status to the Irish language",
+    "stored": 35.79483795166016,
+    "recomputed": 37.94557571411133
+   },
+   {
+    "window": 7,
+    "text": " “muddied debate … on legislation that would significantly change the system that veterans",
+    "stored": 36.2628059387207,
+    "recomputed": 38.244873046875
+   },
+   {
+    "window": 20,
+    "text": " pains to try to show how the complex legislation, with its dense pages on derivatives practices",
+    "stored": 35.02938079833984,
+    "recomputed": 38.37922286987305
+   },
+   {
+    "window": 26,
+    "text": " and claim to be working hard to draft legislation and regulations to bring practices in line with",
+    "stored": 31.93185234069824,
+    "recomputed": 38.989017486572266
+   },
+   {
+    "window": 5,
+    "text": "136 and reflected the strong support for annual legislation that authorizes money for the men and",
+    "stored": 36.37696838378906,
+    "recomputed": 39.141868591308594
+   },
+   {
+    "window": 14,
+    "text": "� said Markey, arguing that subsequent legislation helped create new wireless providers and unleash a",
+    "stored": 35.69313049316406,
+    "recomputed": 40.01319885253906
+   },
+   {
+    "window": 6,
+    "text": " to third parties. As a matter of legislation, for any communications, a means for",
+    "stored": 36.2985725402832,
+    "recomputed": 40.19804763793945
+   },
+   {
+    "window": 9,
+    "text": " to deal with what is involved in the legislation. “It’",
+    "stored": 36.12804794311523,
+    "recomputed": 40.45864486694336
+   },
+   {
+    "window": 13,
+    "text": " think regardless of how people feel about the legislation itself, our job is to look out",
+    "stored": 35.78793716430664,
+    "recomputed": 40.95149230957031
+   }
+  ],
+  "positives": 47,
+  "grey": [],
+  "zero": [
+   {
+    "window": 48,
+    "text": " ADVERTISEMENT “Every bill we’ve passed in the last",
+    "stored": 4.767688751220703,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 3232,
+    "window": 9,
+    "text": " only recently more fully appreciated. Once confined chiefly to scholars and policy wonks, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 33,
+    "text": " did not know which way to go. Perplexed, she sat down and prayed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 39,
+    "text": " binge as much of it as you can right now. Netflix released the list",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 2,
+    "text": " about the interaction of politics, religion, sexuality and identity,\" Cecil said by phone from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 48,
+    "text": " says he is still undecided, but whichever side he comes down on could enjoy a big",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 57,
+    "text": "style pulled pork at home, complete with smoke ring and bark, which will show up",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 1,
+    "text": " been building itself out of a group of dissident Imperial Admirals and Moffs who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 9,
+    "text": ", not even in the movies. I scurried away, and confided in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 6,
+    "text": " irrelevant & incorrect information. One where both sides get to present their best case through facts",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 6,
+    "text": " After downloading, unpack the bundle into the android-development/ directory.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 71,
+    "text": " fear that the standoff may play out again in a few months. The plan sets up",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 51,
+    "text": " in cash, in November 2004, the two men considered the possibility of IMG's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 52,
+    "text": " you are living with a child on food stamps and the majority of your government subsidized income",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 59,
+    "text": " A<|endoftext|> of all, Big Boy turned out to have the highest level of testosterone of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 14,
+    "text": " to quit smoking, a top Chinese government body said in a circular on Sunday evening.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 28,
+    "text": " the creation of money and credit and fiscal stimulus the result of debt. Without these props",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 13,
+    "text": " targets the tear ducts and salivary glands, causing dryness of the eyes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 55,
+    "text": " cold war. It is being translated and published by Kotodama Heavy Industries, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 32,
+    "text": " they’re arguing with someone in the front seat. It’s then",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 13,
+    "text": ". Earl’s quiet, sustained fortitude earned Sound Transit's",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

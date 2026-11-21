@@ -1,0 +1,256 @@
+{
+ "feature": 24369,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 54,
+    "text": " the ACC is there the way it is for the SEC. It may not be,",
+    "stored": 3.147627592086792,
+    "recomputed": 2.063319206237793
+   },
+   {
+    "window": 51,
+    "text": " the selfie cam is better than the one on the back, do we? ",
+    "stored": 4.531837940216064,
+    "recomputed": 3.529104709625244
+   },
+   {
+    "window": 42,
+    "text": "�genius” than it is about willingness to pursue the unusual at the expense",
+    "stored": 6.091378688812256,
+    "recomputed": 4.074812412261963
+   },
+   {
+    "window": 45,
+    "text": " NHL offence (Los Angeles) than between any other two adjacent teams on the list.",
+    "stored": 5.285199165344238,
+    "recomputed": 4.4962544441223145
+   },
+   {
+    "window": 35,
+    "text": "alyze them as they would have to with other searches, namely getting a warrant.",
+    "stored": 8.065092086791992,
+    "recomputed": 5.29822301864624
+   },
+   {
+    "window": 52,
+    "text": " 40 yards, one touchdown. As was the case in Week 1, Fournette",
+    "stored": 4.131247520446777,
+    "recomputed": 5.948039531707764
+   },
+   {
+    "window": 24,
+    "text": " “with autistic persons” than when the items are contextualized as “",
+    "stored": 11.34951496124268,
+    "recomputed": 6.468787670135498
+   },
+   {
+    "window": 28,
+    "text": " dangerous to be a farmer as it is to be a police officer in South Africa,",
+    "stored": 9.853852272033691,
+    "recomputed": 8.095958709716797
+   },
+   {
+    "window": 33,
+    "text": " had bigger taste differences before than they do now. Lahne hopes to",
+    "stored": 8.480128288269043,
+    "recomputed": 8.887497901916504
+   },
+   {
+    "window": 27,
+    "text": " about Trump in the general as they were in the primaries, Trump will win a historic",
+    "stored": 10.59725284576416,
+    "recomputed": 9.50960922241211
+   },
+   {
+    "window": 32,
+    "text": "um actually works more with Pearl Abyss than with its Korean counterpart in terms of localization,",
+    "stored": 8.681269645690918,
+    "recomputed": 10.398188591003418
+   },
+   {
+    "window": 13,
+    "text": " times as deadly in New York City as in London.\" THE US APPE",
+    "stored": 13.07511520385742,
+    "recomputed": 12.000776290893555
+   },
+   {
+    "window": 23,
+    "text": " was about 22 times higher in Tennessee than in Minnesota, which had the lowest rate of",
+    "stored": 11.87364101409912,
+    "recomputed": 12.676506042480469
+   },
+   {
+    "window": 9,
+    "text": " and safer\" for Jews in Ukraine than in Western countries such as Belgium and France,",
+    "stored": 13.50701236724854,
+    "recomputed": 13.062995910644531
+   },
+   {
+    "window": 18,
+    "text": "-led coalition forces were dramatically lower than in the preceding year, with a total of",
+    "stored": 12.65267944335938,
+    "recomputed": 13.151032447814941
+   },
+   {
+    "window": 7,
+    "text": " 200 percent higher in 2011 than it was in 1979 for households in that group. In",
+    "stored": 13.66903209686279,
+    "recomputed": 13.663168907165527
+   },
+   {
+    "window": 19,
+    "text": " are in much better shape than they were in the late nineties. Nowadays,",
+    "stored": 12.64888477325439,
+    "recomputed": 14.128528594970703
+   },
+   {
+    "window": 22,
+    "text": " more in central broadcast distributions than they did in 2012-13, which helped fuel the",
+    "stored": 12.1534948348999,
+    "recomputed": 14.445713996887207
+   },
+   {
+    "window": 4,
+    "text": "ruk<|endoftext|> prisoners three times higher than in the rest of the population in Ukraine.",
+    "stored": 14.08515453338623,
+    "recomputed": 14.624276161193848
+   },
+   {
+    "window": 1,
+    "text": " the atmosphere becomes even thinner than it is at present, and incapable of supporting dust storms",
+    "stored": 14.37496852874756,
+    "recomputed": 15.763778686523438
+   }
+  ],
+  "positives": 58,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 11931,
+    "window": 38,
+    "text": "les Over Baby Parts Prices, Changes Abortion Methods EMBARGOED UNTIL",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 37,
+    "text": " the local horizon. With 2017 right around the corner, it's time to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 43,
+    "text": " ball handler, LMA can make them pay from all over the floor. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 48,
+    "text": " at the University of Louisville. That turned out to be a good decision.Burd",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 22,
+    "text": "-grade weapons and child pornography — and terrorists seeking to evade tracking by Western intelligence services",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 30,
+    "text": " the point? 10. All restaurants at Disney, even the nicest ones",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 9,
+    "text": " no legitimacy as it was not a registered body, said Murad Reza, an",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 27,
+    "text": " new connections to the database because creating and authenticating connections to the database is expensive -",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 47,
+    "text": "<|endoftext|>With the Ukrainian economy in a tailspin, ordinary Ukrainians now face the unnerving",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 42,
+    "text": ":<|endoftext|> a mass mobilization that supported vast armies that defeated the Nationalists. I don",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 21,
+    "text": " 2-1 on Burrows' goal at 2:02. The Canucks",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 27,
+    "text": " pointed to the 1996 Royal Commission on Aboriginal Peoples which was one of the most expensive inquiries",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 13,
+    "text": "He was scheduled to appear in bond court Monday. Records from the Illinois",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 47,
+    "text": " even existed. The story turned out to be completely wrong—but, again",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 35,
+    "text": "�s basic editing operations is remarkably overcomplicated and inconsistent. Since it’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 22,
+    "text": " premium costs. Many community colleges in Bergen and Passaic counties were forced to cut",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 52,
+    "text": "S.<|endoftext|>udad Juarez have even been charged with a crime.' ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 44,
+    "text": "relude The men on each side of the gun the night of this shooting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 37,
+    "text": " He said the Army has received no direction to use more fixed-price contracts and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 11,
+    "text": " We have to include race and gender and sexuality and class as markers that facilitate or impede",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "feature": 5596,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 43,
+    "text": "�has now introduced its own through the backdoor.” That backdoor is in the",
+    "stored": 5.330722332000732,
+    "recomputed": 4.725399971008301
+   },
+   {
+    "window": 41,
+    "text": "<|endoftext|>Tim Leiweke’s fingerprints are all over the current regime at Toronto",
+    "stored": 6.091773509979248,
+    "recomputed": 6.363241195678711
+   },
+   {
+    "window": 39,
+    "text": " to deny him the open shot and his trademark ‘La Bomba’.",
+    "stored": 9.928340911865234,
+    "recomputed": 8.852836608886719
+   },
+   {
+    "window": 36,
+    "text": "Microsoft Corp.' Added 'Digital Signature' column, which displays the signer",
+    "stored": 13.61086559295654,
+    "recomputed": 20.014745712280273
+   },
+   {
+    "window": 35,
+    "text": " extension dll is signed with a digital signature. This column is active only when '",
+    "stored": 18.67729759216309,
+    "recomputed": 21.507917404174805
+   },
+   {
+    "window": 27,
+    "text": " repealed, thanks to Cox’s signature-gathering efforts. He says that",
+    "stored": 32.48753356933594,
+    "recomputed": 32.84128189086914
+   },
+   {
+    "window": 29,
+    "text": " likely never receive the funding to pay for signature collectors and qualify for the ballot. P",
+    "stored": 30.11448287963867,
+    "recomputed": 32.883419036865234
+   },
+   {
+    "window": 19,
+    "text": " back regulations and undo President Barack Obama's signature health law -- but with a complicated path",
+    "stored": 38.79807281494141,
+    "recomputed": 36.82332229614258
+   },
+   {
+    "window": 22,
+    "text": " has received its share of criticism. Those signature white earbuds delivered poor-quality",
+    "stored": 37.08308029174805,
+    "recomputed": 38.339683532714844
+   },
+   {
+    "window": 31,
+    "text": " pointers that are a perfect match for this signature. A function that returns a non-",
+    "stored": 27.49686622619629,
+    "recomputed": 38.4923095703125
+   },
+   {
+    "window": 11,
+    "text": "th running of Del Mar’s signature event. 3-year-olds and",
+    "stored": 42.22670364379883,
+    "recomputed": 40.46414566040039
+   },
+   {
+    "window": 26,
+    "text": " President Richard Nixon made it official with his signature that December. The law gives",
+    "stored": 33.36624908447266,
+    "recomputed": 40.67229080200195
+   },
+   {
+    "window": 14,
+    "text": " that were illegal) to prop up his signature healthcare law, the program's health exchanges",
+    "stored": 41.216552734375,
+    "recomputed": 40.900733947753906
+   },
+   {
+    "window": 23,
+    "text": " “So far, the signature achievements of the Obama administration seem very much",
+    "stored": 36.9896125793457,
+    "recomputed": 41.20103454589844
+   },
+   {
+    "window": 12,
+    "text": " SIGN will retain some of the franchise's signature systems, such as Roman Cancels,",
+    "stored": 42.13169860839844,
+    "recomputed": 41.67833709716797
+   },
+   {
+    "window": 6,
+    "text": " with its retro treatment for the Bryant's signature line, releasing older pairs few and far",
+    "stored": 43.24854278564453,
+    "recomputed": 43.742828369140625
+   },
+   {
+    "window": 24,
+    "text": " with what Duncan says he believed was his signature on a document that would get him $",
+    "stored": 36.37400436401367,
+    "recomputed": 44.28554153442383
+   },
+   {
+    "window": 3,
+    "text": " charismatic, attracting those around her with her signature outfit and singing voice. Near the end",
+    "stored": 44.02608108520508,
+    "recomputed": 44.949371337890625
+   },
+   {
+    "window": 7,
+    "text": " leading a couple of the downtown area's signature redevelopment projects: the Rotunda Building,",
+    "stored": 43.10604858398438,
+    "recomputed": 46.27275848388672
+   },
+   {
+    "window": 0,
+    "text": " helping themselves to some of the spot's signature suds, at one point one of",
+    "stored": 46.45657348632812,
+    "recomputed": 46.507713317871094
+   }
+  ],
+  "positives": 45,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18562,
+    "window": 47,
+    "text": " can be accessed from the indicator menu > Extras > Clear Launcher. Update 3",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 54,
+    "text": " parents) for a private conversation. The separation removes the immediate influence of the parents and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 1,
+    "text": " things in there that I deem unacceptable. If the gameplay wasn't borked it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 5,
+    "text": " what Basil (former London GM Basil McRae) thought was the thing to do",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 32,
+    "text": " on our list because he makes that balance look easy. Rare are the wings who can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 22,
+    "text": "limited international agreements. These government bodies exist to facilitate the activities in space of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 30,
+    "text": " Review-Journal attorney Maggie McLetchie said, “FOIA was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 26,
+    "text": " WORKDIR / app #Install app dependencies COPY package .json / app RUN npm",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 23,
+    "text": " by VentureBeat<|endoftext|> He also posted this picture. That small picture looks very",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 82,
+    "text": " Tripoli, the Libyan foreign minister, Moussa Koussa, held an extraordinary news",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 21,
+    "text": ", despite being inducted into the Rock & Roll Hall of Fame, never quite got",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 24,
+    "text": "used. Pretty cool stuff, right? Yeah, yeah. What",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 3,
+    "text": "S. have completed written advance directives that spell out wishes for care or designate the person",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 45,
+    "text": " leave the rally.<|endoftext|>Bob Huntley wrestled with the limitations of the written recipe",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 31,
+    "text": " plans that are used to determine premium tax credits. The result is that a person who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 29,
+    "text": " Australia and recovered, they will have little more than a week to prepare for the first",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 20,
+    "text": " and Drug Administration recalled a number of pacemakers because of these same whiskers.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 33,
+    "text": ", I'd say persuade your colleagues in the House to abandon this dangerous, irresponsible path",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 39,
+    "text": " the organization’s preparedness and readiness to act. Article 5 of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 51,
+    "text": " over the last 18 months to make this happen, and it’s hard to",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

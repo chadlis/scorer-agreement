@@ -1,0 +1,294 @@
+{
+ "feature": 21725,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 31,
+    "text": "] flipping a life or a phase around,\" confirms James. After touring duties for Sh",
+    "stored": 21.63389205932617,
+    "recomputed": 3.9655089378356934
+   },
+   {
+    "window": 51,
+    "text": "(\"Green: 0x%02x\", ((color >> 8) && 0xff",
+    "stored": 5.669010162353516,
+    "recomputed": 5.514188766479492
+   },
+   {
+    "window": 36,
+    "text": " we do, and we love our customers,\" he said, \"Now we see some",
+    "stored": 17.96802711486816,
+    "recomputed": 6.981985092163086
+   },
+   {
+    "window": 40,
+    "text": " \"Sweet Force lightning, bro.\" The film follows the adventures of",
+    "stored": 14.48654937744141,
+    "recomputed": 8.325385093688965
+   },
+   {
+    "window": 32,
+    "text": " my nature to betray or abandon the responsibilities,\" said Mubarak, who promised \"to restore",
+    "stored": 21.38472557067871,
+    "recomputed": 8.494927406311035
+   },
+   {
+    "window": 22,
+    "text": ", we've wasted each other's time,\" you respond, churlishly,",
+    "stored": 28.89096260070801,
+    "recomputed": 9.870296478271484
+   },
+   {
+    "window": 30,
+    "text": "IvankaTrump you aren't our friend,\" wrote another. \"Tread",
+    "stored": 22.76962089538574,
+    "recomputed": 13.75821304321289
+   },
+   {
+    "window": 39,
+    "text": "<|endoftext|>Now they ask me for money again,\" she said. \"I don't have",
+    "stored": 15.81748008728027,
+    "recomputed": 16.328519821166992
+   },
+   {
+    "window": 14,
+    "text": ". \"80 years of age,\" he replies. \"Took",
+    "stored": 31.16851997375488,
+    "recomputed": 19.910789489746094
+   },
+   {
+    "window": 37,
+    "text": "\"It was kept under lid until today,\" Taylor said. Until his arrest",
+    "stored": 17.8476734161377,
+    "recomputed": 24.41539192199707
+   },
+   {
+    "window": 29,
+    "text": "\"I think we have to do everything,\" Leffingwell said. \"We",
+    "stored": 23.62191390991211,
+    "recomputed": 25.352252960205078
+   },
+   {
+    "window": 7,
+    "text": " that I was ok.' 'Good man,' she added. Married to",
+    "stored": 32.58359909057617,
+    "recomputed": 26.926288604736328
+   },
+   {
+    "window": 9,
+    "text": " to 2017. \"This season,\" Jackson said, \"is over.\"<|endoftext|>",
+    "stored": 31.91587829589844,
+    "recomputed": 28.391864776611328
+   },
+   {
+    "window": 26,
+    "text": ". \"He wants it done,\" McCaul said.<|endoftext|>Algerian",
+    "stored": 25.42218399047852,
+    "recomputed": 29.105880737304688
+   },
+   {
+    "window": 12,
+    "text": "? \"If you like it,\" says Jensen, \"But it's probably",
+    "stored": 31.29146575927734,
+    "recomputed": 29.989112854003906
+   },
+   {
+    "window": 23,
+    "text": " Gardner. \"She was spoiled,\" laughed Tina. Recently Reveille",
+    "stored": 28.30281448364258,
+    "recomputed": 31.234554290771484
+   },
+   {
+    "window": 0,
+    "text": "s end.\" \"I see,\" said Quirrell after a moment's",
+    "stored": 39.20833587646484,
+    "recomputed": 32.46570587158203
+   },
+   {
+    "window": 18,
+    "text": " Thanks.<|endoftext|>\"That was horrible,\" Shallan finally said, hand still held",
+    "stored": 30.48397827148438,
+    "recomputed": 32.739078521728516
+   },
+   {
+    "window": 1,
+    "text": " fulfilled. \"That was quick,\" Harry said, recovering. \"And most",
+    "stored": 37.03984069824219,
+    "recomputed": 34.37306594848633
+   },
+   {
+    "window": 5,
+    "text": "her tyres. \"Absolutely not,\" he said. \"I think you saw",
+    "stored": 33.26571273803711,
+    "recomputed": 36.52155685424805
+   }
+  ],
+  "positives": 47,
+  "grey": [
+   {
+    "window": 42,
+    "text": " wanted to figure out what beer to bring,\" the men told Snyder, who says he",
+    "stored": 13.13589763641357,
+    "recomputed": 2.306110382080078
+   },
+   {
+    "window": 45,
+    "text": " bothering her, it had to be major,'' a source told NW. ''",
+    "stored": 11.12197971343994,
+    "recomputed": 3.1230945587158203
+   },
+   {
+    "window": 46,
+    "text": " was not a single German company among them,\" said Reding. Since late",
+    "stored": 10.20911121368408,
+    "recomputed": 3.6034059524536133
+   },
+   {
+    "window": 47,
+    "text": " was provided primarily from women in the Senate,\" McCain said after the bipartisan deal was announced",
+    "stored": 9.777655601501465,
+    "recomputed": 2.4981961250305176
+   },
+   {
+    "window": 54,
+    "text": " standards and continue practicing under substandard conditions,\" Republican Lieutenant Governor Dan Patrick said. \"",
+    "stored": 4.015798091888428,
+    "recomputed": 3.2178378105163574
+   }
+  ],
+  "zero": [
+   {
+    "window": 48,
+    "text": " becoming an NHL player are leadership and competitiveness,\" he said. \"You have to be",
+    "stored": 9.120396614074707,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5030,
+    "window": 75,
+    "text": "\"This is one of those situations where we feel like we did enough good things to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 37,
+    "text": ", protection. With sharp spikes on both sides of its body, Castemisa is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 9,
+    "text": " from the White House and lawmakers on both sides that hundreds of thousands would lose their jobs",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 14,
+    "text": " off light, and what Clinton did is orders of magnitude worse than his offenses – she",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 11,
+    "text": " up dead skin, hair and food and absorb it back into itself. Because<|endoftext|> their",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 24,
+    "text": " effort is required to make the Republican conference look rejectionist, and being even theoretically open",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 53,
+    "text": " Wales Fertility Institute, said it was right from an “ethical point of view",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 39,
+    "text": " York, Boston and Atlanta. If you are an ACC fan, would you",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 13,
+    "text": " first year of implementation alone. CHED did not include funds for the law's implementation",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 1,
+    "text": ", like on Dennis Miller’s radio show when he toyed with the idea",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 43,
+    "text": "AMY GOODMAN: So you reviewed the videotape that you had from Memorial Day weekend —",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 23,
+    "text": " now includes shipping) you will receive TWO COPIES of the game! What a deal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 24,
+    "text": " countries cannot bail out failing banks by recapitalizing them — in other words, injecting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 1,
+    "text": "We've heard Tyson Barrie, Kevin Shattenkirk, Cam Fowler & more",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 73,
+    "text": " gross from the top five films. Italy pulled in $1.1 million",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 17,
+    "text": " |___/ May 18, 2010 You left me. It's almost been two years",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 3,
+    "text": "ular Handgun System, many individuals in the industry have been compelled to cry foul and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 21,
+    "text": " home than people under 55 years old than in 1999, while Generation-Xers,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 51,
+    "text": " on bending every institution to his arbitrary and selfish designs. This cannot be acceptable to the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 37,
+    "text": " GA 30333. E-mail: cdcinfo@cdc.gov.",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

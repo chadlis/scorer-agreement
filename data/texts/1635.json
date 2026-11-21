@@ -1,0 +1,270 @@
+{
+ "feature": 1635,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 54,
+    "text": " Patrons at the Across the Street Diner in downtown Corsicana. (Phot",
+    "stored": 7.365497589111328,
+    "recomputed": 4.748744010925293
+   },
+   {
+    "window": 51,
+    "text": " origin of water is what matters; many eateries offer water lists along with the wine",
+    "stored": 10.7464017868042,
+    "recomputed": 9.799995422363281
+   },
+   {
+    "window": 47,
+    "text": "ued -- recent book than \"Restaurant Man,\" written by Mario Batali's",
+    "stored": 13.98981475830078,
+    "recomputed": 12.28359317779541
+   },
+   {
+    "window": 48,
+    "text": "<|endoftext|> enough. \"Restaurant workers are professionals and in other countries are",
+    "stored": 13.94215965270996,
+    "recomputed": 13.504640579223633
+   },
+   {
+    "window": 44,
+    "text": "normal” baker. Smart restaurateurs are embracing the trend, such as",
+    "stored": 22.1359748840332,
+    "recomputed": 22.806608200073242
+   },
+   {
+    "window": 36,
+    "text": " director of operations at Benchmarc Restaurants, which owns several expensive dining establishments in",
+    "stored": 28.03528594970703,
+    "recomputed": 27.72575569152832
+   },
+   {
+    "window": 41,
+    "text": " rooms, opening in essence pop-up restaurants in each other’s space.",
+    "stored": 24.39398002624512,
+    "recomputed": 30.838682174682617
+   },
+   {
+    "window": 34,
+    "text": "inea — three Michelin-starred restaurants both — will swap chefs, kitchens and",
+    "stored": 28.93379783630371,
+    "recomputed": 32.361793518066406
+   },
+   {
+    "window": 40,
+    "text": " When chef and Momofuku restaurants founder David Chang set up Lucky Peach in",
+    "stored": 26.0612678527832,
+    "recomputed": 33.03160858154297
+   },
+   {
+    "window": 30,
+    "text": " the point? 10. All restaurants at Disney, even the nicest ones",
+    "stored": 32.42730712890625,
+    "recomputed": 37.815826416015625
+   },
+   {
+    "window": 29,
+    "text": " rules on allergen labelling in restaurants, warning that creativity and spontaneity",
+    "stored": 33.18746185302734,
+    "recomputed": 39.26359939575195
+   },
+   {
+    "window": 12,
+    "text": " @narendramodi to a restaurant for Mexican vegetarian fare pic.twitter.",
+    "stored": 42.03688049316406,
+    "recomputed": 41.15616226196289
+   },
+   {
+    "window": 13,
+    "text": " Grand Central Station -- as opposed to a restaurant that has to pay $200. Apple",
+    "stored": 41.70607376098633,
+    "recomputed": 41.637718200683594
+   },
+   {
+    "window": 21,
+    "text": " health. But, echoing other restaurant workers, she said some city health inspectors",
+    "stored": 39.89206695556641,
+    "recomputed": 42.33741760253906
+   },
+   {
+    "window": 11,
+    "text": " which allegedly claims that an employee at a restaurant in Columbus, MS potentially violated our stringent",
+    "stored": 42.17939376831055,
+    "recomputed": 42.6697998046875
+   },
+   {
+    "window": 20,
+    "text": " Marketing experts on Wednesday said the restaurant chain faces a complicated situation. Should the",
+    "stored": 40.54154968261719,
+    "recomputed": 43.151493072509766
+   },
+   {
+    "window": 3,
+    "text": "�s lives and futures.<|endoftext|>The restaurant had been particularly busy that night, and",
+    "stored": 43.63562393188477,
+    "recomputed": 43.7071533203125
+   },
+   {
+    "window": 2,
+    "text": " in Australia is<|endoftext|> Clark Wolf, a restaurant consultant. “It will be interesting",
+    "stored": 43.66253280639648,
+    "recomputed": 43.862396240234375
+   },
+   {
+    "window": 8,
+    "text": "araman says. But many restaurant workers in the U.S. don",
+    "stored": 42.72216033935547,
+    "recomputed": 44.4912109375
+   },
+   {
+    "window": 0,
+    "text": "ai\" redirects here. For the restaurant chain, see Todai (rest",
+    "stored": 44.81244659423828,
+    "recomputed": 45.492347717285156
+   }
+  ],
+  "positives": 55,
+  "grey": [
+   {
+    "window": 55,
+    "text": " The place is called Across the Street Diner, because the owner, Jimmy Hale,",
+    "stored": 6.169340133666992,
+    "recomputed": 3.6324522495269775
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16064,
+    "window": 30,
+    "text": "Since his election<|endoftext|> so all your Anna Kendrick fancasting (which is bad fancasting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 38,
+    "text": " ready to leave, and so seemed much of Concepcion. The curfew ran from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 15,
+    "text": " that includes its political parties and its redistributionary, military, regulatory, and money-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 60,
+    "text": " revealed by journalist<|endoftext|> week, the Presbyterian Church (USA) narrowly rejected a measure that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 1,
+    "text": " decided to trust their instincts and ordered their signature cocktail. And even though it was the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 9,
+    "text": ") Nestled in a quiet corner on the left side of the crowded",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 53,
+    "text": "ie ran a poll. Eighty-two percent said they were in favour of cannabis",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 22,
+    "text": "00 a pop.<|endoftext|>Story highlights Louis C.K. will host \"Saturday Night",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 3,
+    "text": " Ghanaians are generally forced to hide their sexuality behind closed doors.<|endoftext|>In a recent",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 46,
+    "text": " Shane Bouvet from Illinois, in Washington on Thursday. (Justin Jouvenal/",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 19,
+    "text": " was the only place to learn how to malt that was not through the big corporations that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 43,
+    "text": " would have been intermarriage, should have left a larger genetic heritage in Spain than just",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 23,
+    "text": "But this is a matter for the governing body and the headteacher initially but it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 24,
+    "text": " of President Aquino not to railroad the legislation that would create the new political entity.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 48,
+    "text": " more exactly, its ability to \"overlook\" that genocide. Not only is the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 66,
+    "text": " a variety of records, from phone records to bank account information to Internet activity. As",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 1,
+    "text": " the hospital, and then booked into jail Sunday morning. The Jackson County Sheriff",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 35,
+    "text": " of a family reunion ruined by an alcoholic relative and too many dogs is told with ver",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 31,
+    "text": " training staff<|endoftext|>s [just about] ready to go.” He",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 25,
+    "text": "88 Appalachian State Appalachian State 1988–89 Appalachian State Appalachian State 1989–90 Appalachian State",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 19103,
+    "window": 26,
+    "text": " told CNN that a man walked into the church and began shooting about 11:30 a",
+    "recomputed": 0.053638309240341187
+   }
+  ]
+ }
+}

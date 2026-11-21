@@ -1,0 +1,263 @@
+{
+ "feature": 15387,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " _taboola.push({ mode: 'thumbnails-c', container: 'taboola-",
+    "stored": 6.783689022064209,
+    "recomputed": 4.510087966918945
+   },
+   {
+    "window": 47,
+    "text": ". Tap amiibo to have the pictured villager visit your town. You can",
+    "stored": 12.04520893096924,
+    "recomputed": 7.807653427124023
+   },
+   {
+    "window": 46,
+    "text": "Those numbers, per CNN, paint a picture of a dying sport. After all,",
+    "stored": 12.34200000762939,
+    "recomputed": 10.302538871765137
+   },
+   {
+    "window": 52,
+    "text": "The impact on many aspects of the economic picture is unclear. But in the short term",
+    "stored": 9.801190376281738,
+    "recomputed": 13.988045692443848
+   },
+   {
+    "window": 38,
+    "text": " are two notable deals by Microsoft and Sony Pictures Imageworks for more than 200,000",
+    "stored": 19.34489631652832,
+    "recomputed": 15.049660682678223
+   },
+   {
+    "window": 42,
+    "text": " took seven years to get to the motion picture screen, and I use that as my",
+    "stored": 15.19449138641357,
+    "recomputed": 17.349414825439453
+   },
+   {
+    "window": 34,
+    "text": " Seph Lawless travels the country snapping pictures of abandoned shopping malls. The empty structures",
+    "stored": 21.10381126403809,
+    "recomputed": 20.31866455078125
+   },
+   {
+    "window": 33,
+    "text": " was misrepresented and gives only a limited picture of the actual events, according to his",
+    "stored": 22.53073120117188,
+    "recomputed": 21.884387969970703
+   },
+   {
+    "window": 28,
+    "text": " the<|endoftext|> it for granted<|endoftext|>Save this picture! Courtesy of Studio Liu Lubin ",
+    "stored": 25.61822509765625,
+    "recomputed": 24.005043029785156
+   },
+   {
+    "window": 30,
+    "text": " native AJAX<|endoftext|> could get the most picturesque views of the city. ",
+    "stored": 24.38495826721191,
+    "recomputed": 25.764362335205078
+   },
+   {
+    "window": 26,
+    "text": "5] <|endoftext|> was originally composed to picture by Alan Clark, using his own original",
+    "stored": 26.38988304138184,
+    "recomputed": 26.28089714050293
+   },
+   {
+    "window": 19,
+    "text": " who’s worked as sound or picture editor on films with George Lucas, Francis",
+    "stored": 32.05448150634766,
+    "recomputed": 27.395742416381836
+   },
+   {
+    "window": 21,
+    "text": " at about a year<|endoftext|>It's a picturesque county known for barbecue and rolling hills",
+    "stored": 30.05027008056641,
+    "recomputed": 28.8516845703125
+   },
+   {
+    "window": 16,
+    "text": " items such as vases, glass from picture frames, saved wine bottles or drink ware",
+    "stored": 32.31594848632812,
+    "recomputed": 31.504714965820312
+   },
+   {
+    "window": 23,
+    "text": " by VentureBeat<|endoftext|> He also posted this picture. That small picture looks very",
+    "stored": 29.02214241027832,
+    "recomputed": 32.0660285949707
+   },
+   {
+    "window": 14,
+    "text": " which are used for other things (see picture), and I left with only one,",
+    "stored": 32.57294082641602,
+    "recomputed": 32.48655319213867
+   },
+   {
+    "window": 4,
+    "text": ", with selected information Title Album details A Picture Perfect Hollywood Heartbreak Released: August 3",
+    "stored": 34.04485702514648,
+    "recomputed": 33.240684509277344
+   },
+   {
+    "window": 17,
+    "text": " said her husband, to scout locations for picture-taking during an upcoming visit from her",
+    "stored": 32.20895767211914,
+    "recomputed": 33.565128326416016
+   },
+   {
+    "window": 13,
+    "text": " or design. It is said that a picture is worth a thousand words and a powerful",
+    "stored": 32.62713623046875,
+    "recomputed": 34.570335388183594
+   },
+   {
+    "window": 2,
+    "text": " pit and join your favorite team for a picture. 200,000 people showed",
+    "stored": 34.38631820678711,
+    "recomputed": 35.83167266845703
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 56,
+    "text": ": 'taboola-interstitial-gallery-thumbnails-10', placement: 'Interstitial Gallery",
+    "stored": 5.837494850158691,
+    "recomputed": 1.138707160949707
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5634,
+    "window": 46,
+    "text": " de acord asupra unui singur lucru: Israelul nu ar",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 23,
+    "text": " United Methodist Church also upheld its teaching on homosexuality, which does not recognize same-sex",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 48,
+    "text": " That impression was further validated during another exchange about Romney’s “",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 39,
+    "text": "in said. \"We were excited playing at home, first time we could get a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 43,
+    "text": " large canvas panels surrounded the balloons on all sides. through deep concentration, electronic",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 41,
+    "text": " last thing I look at as the reaper takes me.<|endoftext|>The recent discounts on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 70,
+    "text": "ukara shows Chisaki unable to stop herself from feeling any longer, thanks in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 77,
+    "text": " the authorities will install surveillance cameras or have police patrol the area. His sentiment",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 24,
+    "text": ": 10.1126/science.aak9726 (About DOIs).",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 47,
+    "text": " Motors … authorizes Tesla Motors” to sell Tesla vehicles. Today,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 54,
+    "text": "’<|endoftext|> directly to the people they seek to serve. I recently received",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 15,
+    "text": " daily physical therapy in the hopes that one day she will not need her wheelchair. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 29,
+    "text": " companies are currently being published by the Washington-based International Consortium of Investigative Journalists (IC",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 21,
+    "text": " Egypt have been subjected to sexual organ mutilation. And the numbers are expected to be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 38,
+    "text": "TY throughout all the land unto all the inhabitants thereof. When the bell first arrived in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 17,
+    "text": " the United States, is one of the foremost voices for small government — including eliminating foreign",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 14,
+    "text": " greats such as Beethoven and Mozart. A composer would use instruments such",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 53,
+    "text": " He remained at the Metropolitan Detention Center on Tuesday on a $2,000 bond.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 12,
+    "text": ".[21][22] Many of these peoples worked in the mines, mills and processing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 16,
+    "text": " already agreed in June to increase the euro rescue fund (EFSF) and expand",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

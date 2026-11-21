@@ -1,0 +1,270 @@
+{
+ "feature": 1133,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 46,
+    "text": " the administration's NSA reforms. The amended order, written by outgoing FISC judge Reggie",
+    "stored": 4.248359203338623,
+    "recomputed": 4.780418395996094
+   },
+   {
+    "window": 34,
+    "text": " former federal jail in the town. Under direction from Warden Robert W. Dick, they",
+    "stored": 11.65620803833008,
+    "recomputed": 6.695992946624756
+   },
+   {
+    "window": 38,
+    "text": " 2011, it issued a stop-work order when Chhattisgarh and Od",
+    "stored": 8.945903778076172,
+    "recomputed": 7.331487655639648
+   },
+   {
+    "window": 41,
+    "text": " Travel to Greece came at the invitation of the Stavros Niarchos",
+    "stored": 7.069108009338379,
+    "recomputed": 8.036080360412598
+   },
+   {
+    "window": 36,
+    "text": " NSLs itself, without a court order, and demand a variety of records,",
+    "stored": 9.711691856384277,
+    "recomputed": 8.928670883178711
+   },
+   {
+    "window": 32,
+    "text": " be turned over to the court. That order was concealed from me. I found out",
+    "stored": 12.68421459197998,
+    "recomputed": 9.569755554199219
+   },
+   {
+    "window": 29,
+    "text": " the report illustrates, the implementation of the directive led to the ordering of unlawful attacks<|endoftext|>",
+    "stored": 14.82883358001709,
+    "recomputed": 11.940884590148926
+   },
+   {
+    "window": 27,
+    "text": " lawsuits, cease-and-desist orders, DMCA takedowns, whatever you have",
+    "stored": 16.18148422241211,
+    "recomputed": 13.944503784179688
+   },
+   {
+    "window": 7,
+    "text": " your enemy. Refuse your orders and concentrate on the real reason every soldier",
+    "stored": 23.96274185180664,
+    "recomputed": 14.669758796691895
+   },
+   {
+    "window": 31,
+    "text": " material.' The department maintains the directive was not aimed at any particular candidate and",
+    "stored": 13.09390735626221,
+    "recomputed": 14.832162857055664
+   },
+   {
+    "window": 28,
+    "text": " they just wouldn’t obey the commands my brain was giving them. I was",
+    "stored": 15.91166210174561,
+    "recomputed": 15.04344367980957
+   },
+   {
+    "window": 4,
+    "text": " by always asking for precision as to the orders received and from whom and when they were",
+    "stored": 26.2174129486084,
+    "recomputed": 15.087800979614258
+   },
+   {
+    "window": 17,
+    "text": " supervillains to work together and take orders, and Brown's Luthor was always in",
+    "stored": 20.02590942382812,
+    "recomputed": 17.75476837158203
+   },
+   {
+    "window": 30,
+    "text": " his life is threatened. Many interpreted the directive as a significant change of policy. A",
+    "stored": 14.12950229644775,
+    "recomputed": 18.856931686401367
+   },
+   {
+    "window": 22,
+    "text": " from again. Bush even signed an edict claiming the right to assassinate anyone, including",
+    "stored": 18.88623809814453,
+    "recomputed": 19.288990020751953
+   },
+   {
+    "window": 5,
+    "text": " kilometers off Gaza's coastline. Despite the order, the boat continued to sail towards the",
+    "stored": 25.35990715026855,
+    "recomputed": 21.595176696777344
+   },
+   {
+    "window": 20,
+    "text": " arrest warrants were issued because the judges' orders to vacate them were not input in",
+    "stored": 19.32769393920898,
+    "recomputed": 22.446609497070312
+   },
+   {
+    "window": 16,
+    "text": "000 bail.She was arrested on the orders of Indian-born Preet Bharara",
+    "stored": 20.88095855712891,
+    "recomputed": 22.989412307739258
+   },
+   {
+    "window": 6,
+    "text": " accused by the Free Syrian Army of issuing orders to torture anti-Assad activists and fighters",
+    "stored": 24.97762870788574,
+    "recomputed": 27.0052433013916
+   },
+   {
+    "window": 0,
+    "text": " was abandoned by his superiors after obeying orders to kill Altantuya Shaari",
+    "stored": 30.94563865661621,
+    "recomputed": 30.62009048461914
+   }
+  ],
+  "positives": 45,
+  "grey": [
+   {
+    "window": 47,
+    "text": "'s character when it becomes known that he ordered the assassination. North Korea claimed",
+    "stored": 3.183661460876465,
+    "recomputed": 1.1334290504455566
+   }
+  ],
+  "zero": [
+   {
+    "window": 45,
+    "text": " in Pakistan: Sponsored and directed Improvised Explosive Device and grenade attacks in",
+    "stored": 4.96720552444458,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 8697,
+    "window": 36,
+    "text": "powers my reticence. I roar quietly. Advertisement: <|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 68,
+    "text": " too often, this too works out. How? Unless it physically cannot exist",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 45,
+    "text": " new environment regulations are brought in. It is likely to make it much harder to strengthen",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 30,
+    "text": " into an interstellar war between two different human cultures, the Alliance and the Syndics.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 37,
+    "text": " works for everyone, not just those at the top,\" according to a statement. There",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 39,
+    "text": " consult the families of victims over the next two months to get their input into how the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 32,
+    "text": " credit for wind and the solar investment tax credit — the benefits for both expired tax credits",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 40,
+    "text": " – Week 9 Rank Team (Record) Last Week Rank Number of Weeks Ranked ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 13,
+    "text": "Zero's 40-Pin GPIO header, ready to connect to your project -",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 25,
+    "text": " the thematic purpose of the build,\" Lego spokesman Roar Rude Trangba",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 74,
+    "text": "forweiwei was born. It led to Australians and others around the world",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 26,
+    "text": "<|endoftext|> Nature, 2011. DOI: 10.1038/nature10446",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 4,
+    "text": ". dollar. Even more importantly, any bailout of private industry is in direct violation of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 36,
+    "text": " unfortunately fell through. First he signed on to create, direct, and serve as show",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 33,
+    "text": " departure from the scene would certainly deal a body blow to the Administration's peace efforts because",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 24,
+    "text": " imbalances, we need to do two things. First, local authorities facing high",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 15,
+    "text": " evacuated until a construction engineer can deem their structural safety. The air quality was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 32,
+    "text": "rupting Terrrorism, One Law Suit at a Time.\" Below is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 8,
+    "text": " to locate a research and development centre in Turku is a victory for us and all",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 7,
+    "text": "iten und Straftaten aufgenommen haben, die nie",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

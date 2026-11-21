@@ -1,0 +1,282 @@
+{
+ "feature": 3232,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " proven<|endoftext|> said that in future Israel would have to choose either to recognise Hamas was around",
+    "stored": 1.423739433288574,
+    "recomputed": 1.5218017101287842
+   },
+   {
+    "window": 49,
+    "text": " molecular developmental insights into shell coiling reported here also explain how shell coiling was lost",
+    "stored": 3.184321403503418,
+    "recomputed": 3.067622661590576
+   },
+   {
+    "window": 46,
+    "text": " at a time. They don't come anywhere near replacing the pensions. The",
+    "stored": 4.201745510101318,
+    "recomputed": 3.4520316123962402
+   },
+   {
+    "window": 52,
+    "text": "ied range) have to be traversed one by one, but for slices completely contained",
+    "stored": 2.792254209518433,
+    "recomputed": 4.526186943054199
+   },
+   {
+    "window": 47,
+    "text": " website. The value of that contract soared more than 92 percent in less than six months",
+    "stored": 3.959412813186646,
+    "recomputed": 4.734530448913574
+   },
+   {
+    "window": 45,
+    "text": " She added that she'd spoken \"to a lot of different groups\" about",
+    "stored": 4.236321449279785,
+    "recomputed": 6.2799577713012695
+   },
+   {
+    "window": 34,
+    "text": ", and since he's being groomed strictly as a late-inning reliever, he",
+    "stored": 6.022791385650635,
+    "recomputed": 6.534501075744629
+   },
+   {
+    "window": 41,
+    "text": " on the pitch it’s gone really well for me. “",
+    "stored": 5.114022731781006,
+    "recomputed": 7.218892574310303
+   },
+   {
+    "window": 33,
+    "text": " higher education institutions, said universities were working \"hell for leather\" to rectify the",
+    "stored": 6.196734428405762,
+    "recomputed": 7.664115905761719
+   },
+   {
+    "window": 29,
+    "text": " CommandBarFlyout! This control works very similarly to our standard CommandBar control –",
+    "stored": 7.447948455810547,
+    "recomputed": 8.177543640136719
+   },
+   {
+    "window": 30,
+    "text": " threats. The new attack came just a month after the massive “W",
+    "stored": 7.352517127990723,
+    "recomputed": 8.285767555236816
+   },
+   {
+    "window": 25,
+    "text": " with<|endoftext|> religion, or have morals developed solely through religion, or been given directly by",
+    "stored": 8.695290565490723,
+    "recomputed": 8.907115936279297
+   },
+   {
+    "window": 6,
+    "text": " anyone, including you and me, based solely on his whims. Torture, the",
+    "stored": 10.96238327026367,
+    "recomputed": 9.401152610778809
+   },
+   {
+    "window": 16,
+    "text": " Brad Edwards have represented two women, known only as Jane Does Nos. 1 and 2",
+    "stored": 10.27243709564209,
+    "recomputed": 9.927136421203613
+   },
+   {
+    "window": 0,
+    "text": " people who read to the kids, relying instead on volunteers (bless them). ",
+    "stored": 11.52026557922363,
+    "recomputed": 10.388738632202148
+   },
+   {
+    "window": 3,
+    "text": " span not as a series of movies connected only by the stylistic quirks of their directors",
+    "stored": 11.07771682739258,
+    "recomputed": 10.647682189941406
+   },
+   {
+    "window": 1,
+    "text": " The sell-off was driven mainly by the turmoil in China, which is",
+    "stored": 11.51914119720459,
+    "recomputed": 10.927906036376953
+   },
+   {
+    "window": 2,
+    "text": " rapid destruction of their forest habitat, driven largely by land clearance for palm oil and paper",
+    "stored": 11.3718433380127,
+    "recomputed": 11.458462715148926
+   },
+   {
+    "window": 8,
+    "text": " his value as a player may be shaped mostly by his end of the season statistics and",
+    "stored": 10.86499691009521,
+    "recomputed": 11.751481056213379
+   },
+   {
+    "window": 10,
+    "text": "ulent, supersonic gas is characterized mainly by the Reynolds number (the ratio of",
+    "stored": 10.46387958526611,
+    "recomputed": 12.790757179260254
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 53,
+    "text": " procedures in place.\" Keep updated: Sign up to our newsletter Email * Please",
+    "stored": 2.535903215408325,
+    "recomputed": 0.9736302495002747
+   },
+   {
+    "window": 70,
+    "text": " her biggest solo hit to date, climbing two places to number 15. She",
+    "stored": 1.294800519943237,
+    "recomputed": 1.1035873889923096
+   },
+   {
+    "window": 71,
+    "text": "�s leadership, with the Tories down one point on 30%. The Com",
+    "stored": 1.204945206642151,
+    "recomputed": 0.7459038496017456
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 19956,
+    "window": 21,
+    "text": " slow settlement activity, but not in Jerusalem.) Abbas had been under pressure",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 0,
+    "text": " of undress on the bar. McElroy requested a refund from the manager and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 42,
+    "text": ", which involved the participation of dozens of men and in some cases appear to have been",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 39,
+    "text": "ayer is assaulted by the officers and drops her phone, but the audio of the assault",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 40,
+    "text": "LEGAL IMMIGRANT (VIDEO) Guest post by Aleister",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 32,
+    "text": " friends, and a comfortable routine. One night, that all changes as he watches a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 38,
+    "text": " as scary as they were at the end of last season. Baltimore is replacing several key",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 43,
+    "text": ", but Plante insisted. “If I don’t wear the mask",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 4,
+    "text": " Candlestick Park. Thanks to their shared relationship with Turner, now the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 68,
+    "text": " ever heard. There are kind welcomes and hellos, questions about work, inside jokes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 30,
+    "text": "icky bombs. Thanks @RockstarGames pic.twitter.com/WA",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 27,
+    "text": "ist Coy resigned as senior pastor at the church in 2014. Regarding the child",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 54,
+    "text": "” for real. Speculation over a Kid Rock run went viral in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 1,
+    "text": " fulfilled. \"That was quick,\" Harry said, recovering. \"And most",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 56,
+    "text": " is that you get to learn from your students. This is especially useful when your students",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 30,
+    "text": " below are for the five games he has participated in this month. 20.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 6,
+    "text": " cubs popped out of the brush and hurried to catch up to her. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 68,
+    "text": " a reason. When the cameras cut to Trump and Hillary in the first debate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 31,
+    "text": " is interested in trying to get it done.\" The funding may not make it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 18,
+    "text": " workspace. HOULTON, Maine — Houlton’s historic",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 11911,
+    "window": 0,
+    "text": " of West Bethel Avenue, was arrested Monday on preliminary charges of strangulation, interference",
+    "recomputed": 0.6301212906837463
+   }
+  ]
+ }
+}

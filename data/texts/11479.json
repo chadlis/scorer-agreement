@@ -1,0 +1,256 @@
+{
+ "feature": 11479,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": "-Men: Apocalypse.” Adds DP Newton Thomas Sigel, “B",
+    "stored": 5.711310863494873,
+    "recomputed": 4.517035007476807
+   },
+   {
+    "window": 57,
+    "text": " action to restore order in the ranks and reassert a demand for moral conduct and respect",
+    "stored": 4.33765697479248,
+    "recomputed": 6.842571258544922
+   },
+   {
+    "window": 54,
+    "text": "ly selling voters on an impossible victory and delegitimizing the process. ",
+    "stored": 6.419551372528076,
+    "recomputed": 8.922675132751465
+   },
+   {
+    "window": 48,
+    "text": " Fan us on Facebook at ASSIGNMENT X Related Related",
+    "stored": 12.65383243560791,
+    "recomputed": 12.277162551879883
+   },
+   {
+    "window": 42,
+    "text": "ansion\":null}],\"label\":\"assignment to borrowed `p.x` occurs",
+    "stored": 17.10820579528809,
+    "recomputed": 17.975162506103516
+   },
+   {
+    "window": 44,
+    "text": " reserved work in JavaScript meaning you cannot reassign void. In the console we can see",
+    "stored": 16.06912231445312,
+    "recomputed": 21.654842376708984
+   },
+   {
+    "window": 33,
+    "text": " so used to thinking in terms of value assignments that we try to apply same approach to",
+    "stored": 22.89114379882812,
+    "recomputed": 23.70347785949707
+   },
+   {
+    "window": 38,
+    "text": ". So. That's three assignments in less than ten minutes. Where does",
+    "stored": 20.52968215942383,
+    "recomputed": 25.751983642578125
+   },
+   {
+    "window": 34,
+    "text": " implementation that does not support copying or copy assignment. Nor does it support returning a sc",
+    "stored": 22.48232269287109,
+    "recomputed": 28.787498474121094
+   },
+   {
+    "window": 30,
+    "text": "<|endoftext|> books.” The assignment in question: The future is",
+    "stored": 28.71080780029297,
+    "recomputed": 29.980422973632812
+   },
+   {
+    "window": 27,
+    "text": " debating skills impressed the Mormon leader, who assigned him to found a branch in Burlington,",
+    "stored": 31.63889312744141,
+    "recomputed": 34.409542083740234
+   },
+   {
+    "window": 18,
+    "text": " co-chairs the Iupac group assigned to categorise hydrogen bonds and other inter",
+    "stored": 36.18025588989258,
+    "recomputed": 36.159305572509766
+   },
+   {
+    "window": 29,
+    "text": ",” Reynolds, who has been assigned to a reserve unit out of<|endoftext|> this",
+    "stored": 29.12119102478027,
+    "recomputed": 36.8631706237793
+   },
+   {
+    "window": 16,
+    "text": " free society where pieces of property are all assigned ownership to specific individuals, there would be",
+    "stored": 36.28940963745117,
+    "recomputed": 38.29148483276367
+   },
+   {
+    "window": 24,
+    "text": " in Afghanistan, about half of whom were assigned to logistics and maintenance duties, according to",
+    "stored": 33.67165756225586,
+    "recomputed": 38.76215744018555
+   },
+   {
+    "window": 20,
+    "text": " it right. This would most likely mean assigning it with detailed context such as the name",
+    "stored": 34.6821403503418,
+    "recomputed": 39.2060432434082
+   },
+   {
+    "window": 14,
+    "text": " any note of<|endoftext|> or reducing the time assigned to others. And for people like me",
+    "stored": 36.82498931884766,
+    "recomputed": 39.57164001464844
+   },
+   {
+    "window": 9,
+    "text": " attempting to license the unlicensable, assign the unassignable, and effectively",
+    "stored": 37.78074264526367,
+    "recomputed": 40.110145568847656
+   },
+   {
+    "window": 3,
+    "text": " or purchased<|endoftext|> an individual aircraft may be assigned different registrations during its existence. This can",
+    "stored": 38.84055328369141,
+    "recomputed": 42.434757232666016
+   },
+   {
+    "window": 0,
+    "text": " payback to<|endoftext|> sell, transfer or assign any Account, or any items incorporated<|endoftext|>",
+    "stored": 42.30071640014648,
+    "recomputed": 43.530799865722656
+   }
+  ],
+  "positives": 58,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 19103,
+    "window": 48,
+    "text": ": Hastings Hastings Baptist Church 300 Karamu Road South",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 39,
+    "text": " ho<|endoftext|>Miten vuonna 2009 perustettu sivusto on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 24,
+    "text": " been much speculation about who Bush will nominate to replace Gonzales. Names mentioned in the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 13,
+    "text": " father, who was profoundly religious, sent him to a French boarding school and then to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 5,
+    "text": " – perhaps even possible – to have an authentic libertarian candidate elected into the White House today",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 27,
+    "text": "oughlin and then offensive coordinator Ben McAdoo. As a result, he was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 21,
+    "text": ". Nevertheless, Armey and his patrons’ goals are not what Hamilton envisioned",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 28,
+    "text": " a reporter. “We will also lodge a protest petition online against this ban.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 41,
+    "text": "Syariah\" is the Malay spelling for the Arabic word \"sharia\",",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 44,
+    "text": " years where local<|endoftext|>Kim Jong Nam, left, exiled half-brother of North Korea",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 39,
+    "text": ",200 square kilometers cleared by 1978; 30,000 by 1988; and 53,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 54,
+    "text": "NA said the flight test was a countermeasure to the Ulchi<|endoftext|>A solid",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 30,
+    "text": "IvankaTrump you aren't our friend,\" wrote another. \"Tread",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 26,
+    "text": " Related Future of Storytelling Pop-Up VR Arcade Is Coming to Manhattan Sche",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 38,
+    "text": ". What the researchers found was that the mutation rate was 10 times higher than previously believed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 40,
+    "text": " our economy will keep growing (and serves to legitimize our consumption patterns). If<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 2,
+    "text": " – but this came to be considered his signature and ensured his fame. Black Bart was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 38,
+    "text": " need the support of 10% of the party's MPs to stand. If",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 51,
+    "text": "”) should be seen as uprisings against the ordinary. Against the theory",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 57,
+    "text": " The U.S. EPA’s RE-Powering America’s",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

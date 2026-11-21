@@ -1,0 +1,282 @@
+{
+ "feature": 8968,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 42,
+    "text": " near Bunkerville, Nev. on Thursday, May 19, 2016. Jeff Sche",
+    "stored": 9.275144577026367,
+    "recomputed": 3.668288469314575
+   },
+   {
+    "window": 13,
+    "text": ".m. — Code Black Thursday (through Oct. 20) ",
+    "stored": 23.52641105651855,
+    "recomputed": 4.439056873321533
+   },
+   {
+    "window": 25,
+    "text": " Brulé YouTube Channel here, on Thursday, December 12, 2013 at 5:",
+    "stored": 20.59392738342285,
+    "recomputed": 7.435296058654785
+   },
+   {
+    "window": 46,
+    "text": "ger shareholders arrive at their annual meeting next Wednesday, they'll be greeted by a gun",
+    "stored": 7.492784976959229,
+    "recomputed": 8.117189407348633
+   },
+   {
+    "window": 31,
+    "text": " taken at 10:00AM PDT on Wednesday, April 23rd, 2014.Any",
+    "stored": 16.88439750671387,
+    "recomputed": 9.08885383605957
+   },
+   {
+    "window": 16,
+    "text": " Watson Prison Planet Wednesday, April 2, 2008 The",
+    "stored": 22.71594047546387,
+    "recomputed": 10.128268241882324
+   },
+   {
+    "window": 45,
+    "text": " in South Riding, Virginia. (Published Thursday, April 6, 2017) ",
+    "stored": 8.452009201049805,
+    "recomputed": 10.607751846313477
+   },
+   {
+    "window": 26,
+    "text": " Bowl - Montgomery, Ala. Tuesday, Dec. 19 Boca",
+    "stored": 19.4600772857666,
+    "recomputed": 11.624513626098633
+   },
+   {
+    "window": 22,
+    "text": "ULE Buses will run on Thursday, May 23rd with (1)",
+    "stored": 21.45880699157715,
+    "recomputed": 12.151557922363281
+   },
+   {
+    "window": 17,
+    "text": " Infowars.com Wednesday, May 30, 2012 The",
+    "stored": 22.27732849121094,
+    "recomputed": 13.044075012207031
+   },
+   {
+    "window": 36,
+    "text": " at the end of October. Monday sees some of the most change. With",
+    "stored": 13.16109561920166,
+    "recomputed": 14.359216690063477
+   },
+   {
+    "window": 33,
+    "text": "id-smelling mud. Monday, December 20 The trenches are",
+    "stored": 15.66230392456055,
+    "recomputed": 15.124377250671387
+   },
+   {
+    "window": 1,
+    "text": " ×<|endoftext|>Hullabaloo Wednesday, October 13, 2010 No",
+    "stored": 27.43869400024414,
+    "recomputed": 16.60198974609375
+   },
+   {
+    "window": 38,
+    "text": " McKie’s red Mini between Thursday afternoon and the early hours of Friday morning",
+    "stored": 12.12726879119873,
+    "recomputed": 17.040254592895508
+   },
+   {
+    "window": 21,
+    "text": " West Coast Assurance Senior] Sent: Wednesday, January 23, 2013 1:46",
+    "stored": 21.72133255004883,
+    "recomputed": 17.883087158203125
+   },
+   {
+    "window": 35,
+    "text": "’s Hall of Fame Celebration is Friday in Cedar Rapids. (Photo: Getty",
+    "stored": 14.50976467132568,
+    "recomputed": 18.703895568847656
+   },
+   {
+    "window": 7,
+    "text": "1,000) while quantities last (Thursday) Mystery scratch off giveaway",
+    "stored": 25.24114608764648,
+    "recomputed": 19.676898956298828
+   },
+   {
+    "window": 10,
+    "text": "Gouge Away When: Friday, 7:10pm – 7:",
+    "stored": 24.6374626159668,
+    "recomputed": 21.7485294342041
+   },
+   {
+    "window": 11,
+    "text": " Dinner and Regatta When: Friday August 22 to Saturday August 23, 2014",
+    "stored": 24.33196258544922,
+    "recomputed": 22.84964942932129
+   },
+   {
+    "window": 0,
+    "text": " streamed matches are featured below: Thursday, August 3, 2017 14",
+    "stored": 29.08213996887207,
+    "recomputed": 24.4864501953125
+   }
+  ],
+  "positives": 50,
+  "grey": [
+   {
+    "window": 48,
+    "text": " who made their public debut at the National Zoo and Aquarium in Canberra on Thursday morning",
+    "stored": 6.366332530975342,
+    "recomputed": 1.8907681703567505
+   },
+   {
+    "window": 51,
+    "text": ", protest outside Lloyd George Federal Building on Thursday, March 10, 2016, in Las",
+    "stored": 5.610697746276855,
+    "recomputed": 1.3068739175796509
+   },
+   {
+    "window": 53,
+    "text": " ventured a preview of what MPs will hear Tuesday from Finance Minister Bill Morneau, or",
+    "stored": 4.797611713409424,
+    "recomputed": 2.8758440017700195
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23629,
+    "window": 70,
+    "text": " the Interior, said in an email. Robert Haferd, who is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 46,
+    "text": " Rogers, who is also director of the NSA. It was not immediately clear who would",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 46,
+    "text": " want to start spending 100,000 euros.\" Jose's mother Inma Q",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 75,
+    "text": " For example, some psychics use the sciences of astrology, numerology and tar",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 29,
+    "text": " Of course, included in the Vive Bundles are the following four critically acclaimed titles",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 1,
+    "text": " long time, and people made careers, peoples’ livelihoods depended on the Cold",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 77,
+    "text": " The couple tried getting back together in the new place, but that did not last",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 10,
+    "text": ".S. officials met Syrian opposition and civil society leaders in Istanbul this week to discuss",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 0,
+    "text": " Daniel (Cryptogrind)<|endoftext|>Gordon Brown will make his first major intervention of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 28,
+    "text": " replica of a fictional weapon used by Flash Gordon... Which, you know, makes confisc",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 55,
+    "text": " home turf of the PC market rarely turns out well. As ABI points out,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 73,
+    "text": " is partly a simplistic post hoc logic. “Will and Grace” gave us",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 30,
+    "text": " lacked practical application because it could do little more than keep an object in place. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 40,
+    "text": "-match draw in Freiburg have left Mainz with one point from two games",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14889,
+    "window": 25,
+    "text": " the levers, something actually happens. That’s what we need in a deputy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 45,
+    "text": " , 25.08.2013 It is rumored that the US Navy may be interested in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 13,
+    "text": " explain to<|endoftext|> top special teams unit, per Football Outsiders—the Philadelphia Eagles,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 36,
+    "text": " but that's doomsday talk, thanks to the legwork of the increasingly mythical --",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 17,
+    "text": " walk a fun 5K in a gorilla suit Gorilla / banana suits",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 17,
+    "text": " fewer rape suspects were convicted in 2013 than in 2012. In the last year",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 13910,
+    "window": 2,
+    "text": "The bodies<|endoftext|> ministers next Wednesday and that Venezuela was ready to be part of any alliance",
+    "recomputed": 7.563904285430908
+   }
+  ]
+ }
+}

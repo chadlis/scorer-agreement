@@ -1,0 +1,263 @@
+{
+ "feature": 47,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " some see as designed to squeeze out smaller parties and disenfranchise Arab Israelis, raised the",
+    "stored": 7.257294178009033,
+    "recomputed": 5.702530860900879
+   },
+   {
+    "window": 51,
+    "text": " investigate a joint plan by the state Republican Party, Americans for Prosperity and local tea",
+    "stored": 10.02192497253418,
+    "recomputed": 9.20644474029541
+   },
+   {
+    "window": 52,
+    "text": " from the state ballot. The Minnesota Republican Party scrambled to provide the state secretary of state",
+    "stored": 9.778932571411133,
+    "recomputed": 10.146770477294922
+   },
+   {
+    "window": 47,
+    "text": " law as it now reads, the Republican Party may never win the White House again,",
+    "stored": 13.97743606567383,
+    "recomputed": 12.910555839538574
+   },
+   {
+    "window": 21,
+    "text": " packed into a hangar in Florida for her party convention speech. \"This man will not",
+    "stored": 38.00373077392578,
+    "recomputed": 15.751500129699707
+   },
+   {
+    "window": 24,
+    "text": " “If they’re the party of cutting spending, stop talking about some",
+    "stored": 35.36826705932617,
+    "recomputed": 17.10055923461914
+   },
+   {
+    "window": 53,
+    "text": ",\" he said. The Congress party yesterday stirred a controversy when its senior leader",
+    "stored": 9.023031234741211,
+    "recomputed": 18.191469192504883
+   },
+   {
+    "window": 12,
+    "text": "�revolting” against the party establishment. During a round table",
+    "stored": 41.81984329223633,
+    "recomputed": 20.925735473632812
+   },
+   {
+    "window": 6,
+    "text": " only differences between then and now are the party that controls the White House, and the",
+    "stored": 42.94186782836914,
+    "recomputed": 22.37306785583496
+   },
+   {
+    "window": 1,
+    "text": " “The fact that the party elders aren’t willing to come",
+    "stored": 45.92197418212891,
+    "recomputed": 23.788053512573242
+   },
+   {
+    "window": 35,
+    "text": "’t popular with voters from either party and could be especially disastrous for the Republican",
+    "stored": 24.0129566192627,
+    "recomputed": 24.428070068359375
+   },
+   {
+    "window": 4,
+    "text": " nuts. Unifying behind the party’s nominee has gone without saying",
+    "stored": 43.20057678222656,
+    "recomputed": 25.202970504760742
+   },
+   {
+    "window": 19,
+    "text": "The WikiLeaks files seemed timed to embarrass the party and Clinton, although the audio recordings did",
+    "stored": 40.22259140014648,
+    "recomputed": 28.101003646850586
+   },
+   {
+    "window": 3,
+    "text": " naked contempt, has predicted that if the party nominates him in 2016, \"there",
+    "stored": 43.24814224243164,
+    "recomputed": 29.565303802490234
+   },
+   {
+    "window": 28,
+    "text": " found more incentive to make<|endoftext|>The Republican party in Iowa did a better job in voter",
+    "stored": 32.20780181884766,
+    "recomputed": 31.74131202697754
+   },
+   {
+    "window": 42,
+    "text": " of former strategist Frank Flannery to the party fold. A FINE Gael",
+    "stored": 20.28951644897461,
+    "recomputed": 32.76001739501953
+   },
+   {
+    "window": 25,
+    "text": " one who is pledged to vote for his party's candidate for president but nevertheless votes of",
+    "stored": 33.62571334838867,
+    "recomputed": 33.37867736816406
+   },
+   {
+    "window": 17,
+    "text": " by refusing to support the nominee of their party? They are welcome to resign",
+    "stored": 40.34839248657227,
+    "recomputed": 38.11549758911133
+   },
+   {
+    "window": 5,
+    "text": " McCain? Not coming. The party’s only two living past presidents",
+    "stored": 43.12382125854492,
+    "recomputed": 40.48477554321289
+   },
+   {
+    "window": 15,
+    "text": " Americans. Gingrich told Ingraham that the party needs to admit that its national security strategy",
+    "stored": 40.79011917114258,
+    "recomputed": 45.076961517333984
+   }
+  ],
+  "positives": 56,
+  "grey": [
+   {
+    "window": 46,
+    "text": ". \"When you have these third-party validators attesting to someone's qualifications",
+    "stored": 14.28809642791748,
+    "recomputed": 2.9941275119781494
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 21725,
+    "window": 6,
+    "text": "!\" \"There was an election,\" Hewitt said. \"Donald Trump won",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 16,
+    "text": " yards per return and the best production, per PFF, from a Giants punt return",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 6,
+    "text": ". Six people survived, including three Chapecoense players. Hide Caption 1 of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 21,
+    "text": " now slipping behind the education race in our region and in the world,\" she said.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 45,
+    "text": " generalized trust -- that is, his or her trust in others or other sectors of society",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 28,
+    "text": " the main attraction was the hashish. If people were not selling it or smoking it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 29,
+    "text": " people who will enjoy the experience and help to make the Ryder Cup an unforgettable event for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 32,
+    "text": "PICK UP LOCATION Patrons will be responsible for getting themselves to and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 8,
+    "text": "araman says. But many restaurant workers in the U.S. don",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 51,
+    "text": " transfer but I think my game can be suited to English football.“I love",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 41,
+    "text": " Tony Taka designed two new swimsuit costumes, the “Dark Lotus Swim",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 64,
+    "text": " kind of local on-demand textile industry. Unique Scarves When",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 19,
+    "text": " woven into the daily lives of these native peoples who consider their land and territory as part",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 12,
+    "text": " with its better moments providing the cultural underpinnings of western civilization. Sitting and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 25,
+    "text": "). Well, as it turned out, even with the ability to exceed the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 27,
+    "text": "ates. 4 , 5 GSRH has also been demonstrated to improve the predictive power",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 23,
+    "text": ". But Summers argued against a stimulus that was too large. He",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 45,
+    "text": " do it, right?\" McMahan says just days after her Powerw",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 16,
+    "text": " the same ones.” Creators mostly chose not to sign their artwork",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 11,
+    "text": " farmers\". A spokesman for industry body Dairy UK said there had been \"significant",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

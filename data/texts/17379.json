@@ -1,0 +1,263 @@
+{
+ "feature": 17379,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 58,
+    "text": " to play a part in this political game,\" Democratic Representative Gregory Meeks said. ",
+    "stored": 5.268284320831299,
+    "recomputed": 6.457784175872803
+   },
+   {
+    "window": 59,
+    "text": "ebriated condition, said airport officials.\"Jaimin Patel was prevented from boarding",
+    "stored": 4.667399883270264,
+    "recomputed": 11.633716583251953
+   },
+   {
+    "window": 41,
+    "text": " together, someone got ‘cold feet.'” “It�",
+    "stored": 20.38023948669434,
+    "recomputed": 23.76472282409668
+   },
+   {
+    "window": 15,
+    "text": " For Working With<|endoftext|> a variety of exercises.\" Meanwhile, eight hospitals in the",
+    "stored": 40.98420715332031,
+    "recomputed": 28.81081771850586
+   },
+   {
+    "window": 50,
+    "text": "facebook.com' without any user consent.\" After all, it should be up to",
+    "stored": 13.34777450561523,
+    "recomputed": 31.480501174926758
+   },
+   {
+    "window": 32,
+    "text": " Each phrase takes around 3-5 seconds.\" Adults are paid £27 ($35)",
+    "stored": 30.73495292663574,
+    "recomputed": 32.95429229736328
+   },
+   {
+    "window": 10,
+    "text": " <|endoftext|> be a spinners' paradise.\" On the batting front, the",
+    "stored": 41.56820297241211,
+    "recomputed": 33.9592399597168
+   },
+   {
+    "window": 38,
+    "text": " deal of international cooperation to make that work.\" (\"International Monetary Fund director Dominique Strauss",
+    "stored": 24.59771347045898,
+    "recomputed": 34.73743438720703
+   },
+   {
+    "window": 13,
+    "text": ".<|endoftext|> just want to play the game.\" The same question was asked of",
+    "stored": 41.27155303955078,
+    "recomputed": 35.89664077758789
+   },
+   {
+    "window": 4,
+    "text": " total viewers<|endoftext|> robust as we go along.\" Monster’s introduction as",
+    "stored": 42.19868469238281,
+    "recomputed": 36.77212142944336
+   },
+   {
+    "window": 25,
+    "text": " both welcome to attend if you'd like.\" \"I'd love to.\"",
+    "stored": 34.90408706665039,
+    "recomputed": 37.39750289916992
+   },
+   {
+    "window": 27,
+    "text": "’t be faithful to their partners.\" This myth—arguably the",
+    "stored": 32.74950408935547,
+    "recomputed": 37.687076568603516
+   },
+   {
+    "window": 3,
+    "text": " the Vorn<|endoftext|> that's very important.\" Should an arena be built and",
+    "stored": 42.49527740478516,
+    "recomputed": 38.42033386230469
+   },
+   {
+    "window": 21,
+    "text": " what's important like health care and education.\" Story continues below advertisement ",
+    "stored": 37.36358261108398,
+    "recomputed": 38.71396255493164
+   },
+   {
+    "window": 43,
+    "text": " and boys - are barely more than toddlers.\"My daughter was crying for three weeks and",
+    "stored": 19.74947357177734,
+    "recomputed": 39.665428161621094
+   },
+   {
+    "window": 49,
+    "text": " in Europe and the trademark in the US.\" Bolivia is the largest",
+    "stored": 13.57369995117188,
+    "recomputed": 40.186614990234375
+   },
+   {
+    "window": 19,
+    "text": "<|endoftext|>'ll get right on top of it.\" At the Highlands Acid Pit on",
+    "stored": 40.59769439697266,
+    "recomputed": 41.093631744384766
+   },
+   {
+    "window": 14,
+    "text": "<|endoftext|> strange things on a pad of paper.\" The flight was delayed for two",
+    "stored": 41.23775863647461,
+    "recomputed": 41.766361236572266
+   },
+   {
+    "window": 7,
+    "text": "'re not going to have it any more.\" Inglis' admission isn't",
+    "stored": 41.78110122680664,
+    "recomputed": 42.39997863769531
+   },
+   {
+    "window": 5,
+    "text": " of wild fantasy is not worth the writing.\" This weather's the wild fantasy. It",
+    "stored": 41.8598747253418,
+    "recomputed": 44.84919738769531
+   }
+  ],
+  "positives": 60,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 17632,
+    "window": 0,
+    "text": " Minister, Avigdor Lieberman, during a press conference at the Foreign Ministry in Jerusalem",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 57,
+    "text": "quer on the amount of LIBOR funding available to museums, galleries and tourist attractions in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 1,
+    "text": " slow going. And in the absence of legislation, the courts have now renewed the collection",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 63,
+    "text": "-third of the management jobs; and that women were paid on average $1.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 19,
+    "text": " obvious that he was being incredibly effective, relative to everything else being done. To the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 39,
+    "text": " users to use an app to stream FM radio over Wi-Fi or cellular data.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 72,
+    "text": " (Version Bits) makes introduction of new scripting system like MAST much easier than before",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 43,
+    "text": " was the Church formally disestablished. Inbetween those dates, the collapse in religious belonging",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 13,
+    "text": " his acting debut at a Washington theater, she gave him a dozen roses on opening night",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 58,
+    "text": " vote itself, seeing as he skipped the vote altogether to attend a Christmas party.[T",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 7,
+    "text": "parable to the sea change that occurred when Copernicus described how the earth<|endoftext|> studies",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 22,
+    "text": " different occasions. No one in the nation, not Tyler Ennis, Andrew",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 37,
+    "text": " hasn't revealed why it keeps the FM radio functionality disabled. Some critics suggest it could",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 6,
+    "text": " even though the numbers required to trigger a recount were \"highly unlikely,\" in the words",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 35,
+    "text": " annum. The justification given in the bills for the increase in the salaries and reimburse",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 23,
+    "text": " breaks while our co-workers kept trudging along through the day. No one wanted",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 0,
+    "text": " wanted the Greek people to vote on any bailout to stay in the euro. He was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 10,
+    "text": " the Internet. Her name was a trending topic on Twitter. But Wednesday she backtr",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 17,
+    "text": "2009) IA Council Bluffs AMC Star Council Bluffs (2010",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 40,
+    "text": " a flawed 2007 vote. Electoral commission head Maurice Iwu said the presidential",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 22163,
+    "window": 38,
+    "text": " woman underneath the seat with her husband holding her.\" The director, however,",
+    "recomputed": 25.68768310546875
+   }
+  ]
+ }
+}

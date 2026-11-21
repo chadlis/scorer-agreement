@@ -1,0 +1,263 @@
+{
+ "feature": 23683,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 37,
+    "text": " people”) we presented each item contextualized as “with autistic people�",
+    "stored": 6.880358695983887,
+    "recomputed": 4.471521377563477
+   },
+   {
+    "window": 40,
+    "text": " a wide range of contextual responses, or conversational ad units. When an advertiser",
+    "stored": 4.803601264953613,
+    "recomputed": 5.238428592681885
+   },
+   {
+    "window": 41,
+    "text": "<|endoftext|> tenant to open in March, Loventhal said. TKL plans to open",
+    "stored": 4.033364772796631,
+    "recomputed": 5.847433567047119
+   },
+   {
+    "window": 31,
+    "text": " soft and comfortable with the halp of genuine or imitation fur, a beautiful headboard",
+    "stored": 11.06392860412598,
+    "recomputed": 9.256462097167969
+   },
+   {
+    "window": 32,
+    "text": " chief had brought must be properly verified as genuine. Shanakht (verification)",
+    "stored": 10.63565921783447,
+    "recomputed": 10.95078182220459
+   },
+   {
+    "window": 33,
+    "text": " another matter. What is so great about sincerity if it leads not to understanding but to",
+    "stored": 8.144240379333496,
+    "recomputed": 11.427447319030762
+   },
+   {
+    "window": 28,
+    "text": " a charity<|endoftext|>Vote-buying or genuine public service in Makati? ",
+    "stored": 13.86736392974854,
+    "recomputed": 12.181913375854492
+   },
+   {
+    "window": 25,
+    "text": ", even if<|endoftext|> affects how Apple devices authenticate their secure connection with servers, allowing",
+    "stored": 18.48093795776367,
+    "recomputed": 19.634544372558594
+   },
+   {
+    "window": 26,
+    "text": " local administrator. Because local users do not authenticate against the domain, you should not",
+    "stored": 18.33721733093262,
+    "recomputed": 22.137828826904297
+   },
+   {
+    "window": 21,
+    "text": " photographic and video evidence that has undisputed authenticity and is a part of the public record",
+    "stored": 24.65152931213379,
+    "recomputed": 24.811567306518555
+   },
+   {
+    "window": 16,
+    "text": " in the presence of police officers to confirm authenticity, they walked away,�<|endoftext|> guy",
+    "stored": 25.29745101928711,
+    "recomputed": 27.501806259155273
+   },
+   {
+    "window": 17,
+    "text": " rumors about Obama's past, especially the authenticity of his birth certificate. He was criticized",
+    "stored": 24.99357795715332,
+    "recomputed": 27.753047943115234
+   },
+   {
+    "window": 23,
+    "text": " as his willingness to include a dose of authenticity through historic-tinged gospel as he",
+    "stored": 21.89297294616699,
+    "recomputed": 28.94484519958496
+   },
+   {
+    "window": 13,
+    "text": " Most are riddled with doubt as to their authenticity, claiming that Photoshop can do anything these",
+    "stored": 26.44190216064453,
+    "recomputed": 30.962514877319336
+   },
+   {
+    "window": 12,
+    "text": "Now Instragram is looking to strengthen its authenticity because of its network’s steady",
+    "stored": 27.44664192199707,
+    "recomputed": 31.72995948791504
+   },
+   {
+    "window": 8,
+    "text": "�s anger at the president is probably authentic, it’s worth pointing out",
+    "stored": 31.48638916015625,
+    "recomputed": 35.09116744995117
+   },
+   {
+    "window": 7,
+    "text": " Rover would certainly not be the unquestionably authentic brand it is in the U.S",
+    "stored": 32.16475296020508,
+    "recomputed": 36.933746337890625
+   },
+   {
+    "window": 1,
+    "text": " These stereotypes include the belief that men are authentic and more devoted sport fans whose knowledge and",
+    "stored": 35.50754928588867,
+    "recomputed": 40.534881591796875
+   },
+   {
+    "window": 6,
+    "text": " The OCLA vigorously advocates for authentic and unqualified freedom of expression of individuals",
+    "stored": 33.97565841674805,
+    "recomputed": 40.87701416015625
+   },
+   {
+    "window": 5,
+    "text": " – perhaps even possible – to have an authentic libertarian candidate elected into the White House today",
+    "stored": 33.99480819702148,
+    "recomputed": 42.3545036315918
+   }
+  ],
+  "positives": 40,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16631,
+    "window": 38,
+    "text": " at community college and surfed WebMD look like a ridiculous choice. His education is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 47,
+    "text": "ING REPLY ALL TO EVERYONE ON THE LIST: THIS SHOULD BE THE LAST MA",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 40,
+    "text": "! Dog Friendly: No Non-Smoking: Yes! Wheelchair Accessible:",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 16,
+    "text": " point production, as he has scored at least 20 points in 21 games and netted 30",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 35,
+    "text": "> seconds -q, --quiet: Quiet mode (only",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 45,
+    "text": " such a long time that we can hardly remember what it looked like when it was on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 57,
+    "text": " said police want to publicize the dangers of remote-controlled aircraft, also known as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 19,
+    "text": "ying the scene at the hotel today, radio host Alex Jones described a chaotic picture,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 58,
+    "text": " levels in many places to over 200 percent of normal, well beyond the ability of our",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 69,
+    "text": " the note inside. It was very encouraging and just really nice to read. My Secret",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 24,
+    "text": " of maps shows. The Eastern Finnic peoples are not quite as light as the western",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 56,
+    "text": " can expect to see the TELUS team across the city neighbourhood by neighbourhood, knocking",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 3,
+    "text": " flourishes under increased CO2 levels. If carbon dioxide is truly a dangerous pollutant",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 41,
+    "text": " by many names – Kalkin, Siddhartha, Maitreya,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 64,
+    "text": " for iPhone and iPod touch. This is the fourth app which has come out of Microsoft",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 53,
+    "text": " an anxiety reaction, and therefore serves only to aggravate the situation, whereas being calm",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 17,
+    "text": " at a rate faster than they could be absorbed. It was exhilirating,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 47,
+    "text": " of anything else? What will make people want to back it, with no gameplay to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 36,
+    "text": " him . . . All of us in the village have been waiting for his return,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 5,
+    "text": " McCain? Not coming. The party’s only two living past presidents",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 47,
+    "window": 46,
+    "text": ". \"When you have these third-party validators attesting to someone's qualifications",
+    "recomputed": 2.2853362560272217
+   }
+  ]
+ }
+}

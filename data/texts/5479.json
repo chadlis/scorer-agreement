@@ -1,0 +1,256 @@
+{
+ "feature": 5479,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 43,
+    "text": "�m excited about decentralization, autonomous organizations, cryptocurrencies, and unc<|endoftext|>Please turn",
+    "stored": 3.539921998977661,
+    "recomputed": 3.614246368408203
+   },
+   {
+    "window": 42,
+    "text": ":<|endoftext|> a mass mobilization that supported vast armies that defeated the Nationalists. I don",
+    "stored": 3.576249361038208,
+    "recomputed": 5.538790225982666
+   },
+   {
+    "window": 34,
+    "text": " under the weight of names, places, religions, histories, and even ecology.After",
+    "stored": 8.431296348571777,
+    "recomputed": 7.54612398147583
+   },
+   {
+    "window": 39,
+    "text": " of hundreds of other tribes from across the Americas. On Thursday afternoon, over a hundred",
+    "stored": 4.747540950775146,
+    "recomputed": 8.826930046081543
+   },
+   {
+    "window": 37,
+    "text": " to help you develop your countries and their cultures, whether they're fantastic fairytale",
+    "stored": 7.366418361663818,
+    "recomputed": 10.932746887207031
+   },
+   {
+    "window": 33,
+    "text": " from a history of welcoming people from all cultures and backgrounds. This is a hallmark of",
+    "stored": 9.883378028869629,
+    "recomputed": 13.243237495422363
+   },
+   {
+    "window": 30,
+    "text": " into an interstellar war between two different human cultures, the Alliance and the Syndics.",
+    "stored": 10.31003379821777,
+    "recomputed": 13.841217041015625
+   },
+   {
+    "window": 28,
+    "text": " and there's no shortage of characters and cultures and events imported from The Lord of the",
+    "stored": 13.80883312225342,
+    "recomputed": 16.17256736755371
+   },
+   {
+    "window": 25,
+    "text": ", Jews, the LGBTQ community, indigenous peoples, the disabled, and, yes,",
+    "stored": 23.04288291931152,
+    "recomputed": 25.266357421875
+   },
+   {
+    "window": 20,
+    "text": " strengthen ties between the Algerian and Moroccan peoples. In the telegraphic",
+    "stored": 26.51646423339844,
+    "recomputed": 28.983190536499023
+   },
+   {
+    "window": 15,
+    "text": "ethnic town, a crossroads of different peoples, is known for being a stronghold of",
+    "stored": 27.12002372741699,
+    "recomputed": 29.99875259399414
+   },
+   {
+    "window": 9,
+    "text": " contact with all kinds of strange races and peoples. The first novel has a wonderful ensemble",
+    "stored": 28.94062805175781,
+    "recomputed": 30.914886474609375
+   },
+   {
+    "window": 13,
+    "text": "s and Mongols had to be sibling peoples. This Ural-Altaic",
+    "stored": 27.49634170532227,
+    "recomputed": 31.406496047973633
+   },
+   {
+    "window": 11,
+    "text": " all of the so-called civilised peoples of the galaxy. That doomsday draws",
+    "stored": 28.15449142456055,
+    "recomputed": 31.770517349243164
+   },
+   {
+    "window": 16,
+    "text": "Banning just leaves a bad taste in peoples' mouths---though perhaps the percentage of",
+    "stored": 27.11386299133301,
+    "recomputed": 31.942401885986328
+   },
+   {
+    "window": 6,
+    "text": " idea that Finno-Ugric peoples belonged in the “Mongol",
+    "stored": 29.66214179992676,
+    "recomputed": 32.73548126220703
+   },
+   {
+    "window": 8,
+    "text": " Kurdistan he had a positive impact on my peoples lives though his humility and kindness to everyone",
+    "stored": 29.33904647827148,
+    "recomputed": 33.330711364746094
+   },
+   {
+    "window": 7,
+    "text": " seed of hope to build true fraternity between peoples.\" A Burundi convent",
+    "stored": 29.59807968139648,
+    "recomputed": 35.045108795166016
+   },
+   {
+    "window": 3,
+    "text": "� category. Scholars once widely assumed that peoples who spoke related languages belonged to the same",
+    "stored": 31.03718566894531,
+    "recomputed": 36.169647216796875
+   },
+   {
+    "window": 0,
+    "text": " desire to identify and symbolically appropriate the peoples and lands with which they came into contact",
+    "stored": 32.75896453857422,
+    "recomputed": 38.535064697265625
+   }
+  ],
+  "positives": 43,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23683,
+    "window": 28,
+    "text": " a charity<|endoftext|>Vote-buying or genuine public service in Makati? ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 12,
+    "text": " “letters of happiness.” Activists and lawyers say the documents were drawn",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 38,
+    "text": " and strengthening the implementation of a moratorium on primary forest and peat land conversion. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 0,
+    "text": "s end.\" \"I see,\" said Quirrell after a moment's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 12,
+    "text": " Romney.” Watch this video from NBC’s Meet the Press",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 23,
+    "text": " deportations in lieu of waiting for congressional legislation. Obama said he will direct",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 17,
+    "text": " around there is quite quaint, though the church is not special to see.It is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 5,
+    "text": " has not been on CNN since AHIP began its recent advertising campaign, this week,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 41,
+    "text": " his preference for autonomy and democracy in the church.[7][11] In his only",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 16,
+    "text": " Today, we can confirm that (thanks to Trailer Track) the first trailer for Anderson",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 78,
+    "text": "The latest Around The NFL Podcast previews the biggest matchups in Week 17 and makes its picks",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 10,
+    "text": " festival on Sunday night. Play Video 2:25 Who was Las Vegas shooter",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 11,
+    "text": " some simple rules to follow if you enjoy extra cash and happen to enjoy being a good",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 36,
+    "text": " pays more in federal taxes than it receives in federal spending. A 2015 study by the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 14,
+    "text": " Visceral Games veteran Ian Milham to become a game director for the Tomb Raider",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 17,
+    "text": "” Those leaks cost the region’s largest water provider, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 6,
+    "text": ". Family law attorney Amanda McAlister told the Daily Mail Wednesday that she",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 12,
+    "text": " Lahaie heard the arguments from both sides on Jan. 6 and said she needed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 2,
+    "text": "�s brother, Jon, was hired to coach the Oakland Raiders after eight years as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 11,
+    "text": " on empowering the disenfranchised and directly addressing structural disadvantages such as poverty, not on deval",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

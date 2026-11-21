@@ -1,0 +1,263 @@
+{
+ "feature": 22163,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 56,
+    "text": " Church of the Nazarene, attacked him when told his son was gay, tried",
+    "stored": 1.639478921890259,
+    "recomputed": 3.419551372528076
+   },
+   {
+    "window": 52,
+    "text": "When You Can’t Throw All Men Into The Ocean, What CAN You Do",
+    "stored": 3.160780429840088,
+    "recomputed": 4.228904724121094
+   },
+   {
+    "window": 42,
+    "text": " novel \"A Clockwork Orange\" and had him look at artwork from Francis Bacon, the",
+    "stored": 6.065489768981934,
+    "recomputed": 4.594454288482666
+   },
+   {
+    "window": 39,
+    "text": "ayer is assaulted by the officers and drops her phone, but the audio of the assault",
+    "stored": 7.030391216278076,
+    "recomputed": 5.438603401184082
+   },
+   {
+    "window": 48,
+    "text": ",\" writes another. \"Praying you are found unharmed and returned to",
+    "stored": 4.520694255828857,
+    "recomputed": 6.029932975769043
+   },
+   {
+    "window": 45,
+    "text": " in the comment section below, or send me an e-mail at michael.",
+    "stored": 5.559142112731934,
+    "recomputed": 7.130633354187012
+   },
+   {
+    "window": 41,
+    "text": " idea they could have forced him to kick me and Bill Niskanen out is",
+    "stored": 6.552901268005371,
+    "recomputed": 7.473834991455078
+   },
+   {
+    "window": 27,
+    "text": " payment of the third facility and Gulf sent him a demand letter dated 19th November 2010",
+    "stored": 10.69770908355713,
+    "recomputed": 8.33777904510498
+   },
+   {
+    "window": 35,
+    "text": " Her clothes were saturated. Mum Allison rushed her to the hospital, where the baby vom",
+    "stored": 8.55020523071289,
+    "recomputed": 8.75855827331543
+   },
+   {
+    "window": 31,
+    "text": " at their home World Cup and to turn them, with one or two judicious tweaks",
+    "stored": 9.872733116149902,
+    "recomputed": 9.110645294189453
+   },
+   {
+    "window": 25,
+    "text": ", works with shoe companies, who send him the models and he gets input<|endoftext|> be",
+    "stored": 11.3972635269165,
+    "recomputed": 10.095114707946777
+   },
+   {
+    "window": 37,
+    "text": " Dean: \"You're tearing me apart, David! You say one thing",
+    "stored": 7.832568168640137,
+    "recomputed": 10.531505584716797
+   },
+   {
+    "window": 11,
+    "text": " sworn in contempt, and I'll put you in jail for 72 hours - and I",
+    "stored": 13.6978931427002,
+    "recomputed": 10.94411563873291
+   },
+   {
+    "window": 32,
+    "text": " being rented to the Davis family to drive them around the city. In early",
+    "stored": 9.680014610290527,
+    "recomputed": 11.343236923217773
+   },
+   {
+    "window": 22,
+    "text": " seized various items of computer equipment and placed him under arrest. “It",
+    "stored": 12.4457836151123,
+    "recomputed": 11.773048400878906
+   },
+   {
+    "window": 17,
+    "text": " Cruise's limo, they allegedly put him inside a bear mascot outfit. South Park",
+    "stored": 13.53322887420654,
+    "recomputed": 12.515676498413086
+   },
+   {
+    "window": 19,
+    "text": " intensified during the night. His mother took him to hospital the next day, where he",
+    "stored": 13.40509414672852,
+    "recomputed": 13.42032241821289
+   },
+   {
+    "window": 7,
+    "text": " he grabbed me by my hair and shoved me to my knees, forcing my face into",
+    "stored": 14.62026691436768,
+    "recomputed": 14.278839111328125
+   },
+   {
+    "window": 0,
+    "text": "ll call you a cab. He threw me out like trash.” The woman",
+    "stored": 16.17340850830078,
+    "recomputed": 15.011051177978516
+   },
+   {
+    "window": 2,
+    "text": " to his fellow friars, they laid him on the ground and he spent his last",
+    "stored": 15.47006416320801,
+    "recomputed": 15.405108451843262
+   }
+  ],
+  "positives": 57,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 3246,
+    "window": 8,
+    "text": " to appease large music labels, themselves afraid of losing money on pirated, illegally distributed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 26,
+    "text": "� în Israel, unii legal, alţii ilegal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 26,
+    "text": "ton seniors Sonali Rodrigues and James Tate stand outside Shelton High School Tuesday,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 51,
+    "text": " life and your personal relationships, no doubt.\" Mr Bloch says people need",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 7,
+    "text": " Michael Chabon said during a recent radio interview that he wakes up “every",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 39,
+    "text": " influencers to deliver events and programs on themes unique to its location in Ottawa. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 41,
+    "text": " in graphics Kim expressed \"great satisfaction\" over the launch that he called a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 37,
+    "text": " fit any Raspberry Pi models with 40 GPIO pins. That's the Pi Zero, A",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 47,
+    "text": " is not about good vs. bad or right vs. wrong. It’s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 48,
+    "text": " men were in fair condition. Pictures from the scene showed the Yellow cab",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 45,
+    "text": " what all four White House contenders were afraid to say. I've heard that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 72,
+    "text": " with a simple majority vote -- a political necessity, given that they hold 52 seats in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 28,
+    "text": " they had to decode the arcane process of smoking meat, applying science to a traditional Southern",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 2,
+    "text": " FILE PHOTO)Buy Photo For two years, between the spring of 2012 and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 4,
+    "text": " in any way. If the sanctioning body does elect to do so, a decision",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 25,
+    "text": " knowledge to achieve something with which they are absorbed. Readers continue to debate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 54,
+    "text": " is egg-shaped and hard, measuring 2 to 3 millimetres (0.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 10,
+    "text": ", ten years gone | The Lisa McPherson story told in real time |",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 11,
+    "text": " were on the verge of forming a Pac-16 and breaking the Big 12 apart.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 10,
+    "text": " ideology beyond broad secularism) and helps to settle leadership spats. But it matters",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 47,
+    "window": 3,
+    "text": " naked contempt, has predicted that if the party nominates him in 2016, \"there",
+    "recomputed": 4.4396467208862305
+   }
+  ]
+ }
+}

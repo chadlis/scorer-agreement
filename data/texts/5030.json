@@ -1,0 +1,256 @@
+{
+ "feature": 5030,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 56,
+    "text": "In all<|endoftext|>�s factional duopoly. “As someone who",
+    "stored": 4.615668296813965,
+    "recomputed": 5.172407627105713
+   },
+   {
+    "window": 52,
+    "text": " tooth box! Made from high-quality Pinus Sylvestris Var, you may",
+    "stored": 6.754284381866455,
+    "recomputed": 8.2363920211792
+   },
+   {
+    "window": 48,
+    "text": "RP: Helius AM frame w/ Pinion P1.18 gearbox -",
+    "stored": 10.37674999237061,
+    "recomputed": 9.767816543579102
+   },
+   {
+    "window": 46,
+    "text": " Hell’s Kitchen without the Kingpin, Frank and Matt begrudgingly",
+    "stored": 13.12575340270996,
+    "recomputed": 12.282856941223145
+   },
+   {
+    "window": 44,
+    "text": "acher-turned-meth-kingpin Walter White is the excellent Breaking Bad.",
+    "stored": 16.08127784729004,
+    "recomputed": 14.37094497680664
+   },
+   {
+    "window": 39,
+    "text": " woman whose life went into a ''tailspin'' after her partner was imprisoned<|endoftext|> Australia",
+    "stored": 20.58770751953125,
+    "recomputed": 18.457189559936523
+   },
+   {
+    "window": 38,
+    "text": " We've created coastal bowling-pin communities; we set 'em up and",
+    "stored": 21.81593704223633,
+    "recomputed": 20.021778106689453
+   },
+   {
+    "window": 33,
+    "text": " four or five guys behind it. They pinned me against the wall and proceeded to beat",
+    "stored": 26.51118469238281,
+    "recomputed": 27.504169464111328
+   },
+   {
+    "window": 29,
+    "text": " ESC connected to motor 1 into the output pin labeled 1 on the flight controller, the",
+    "stored": 31.42661666870117,
+    "recomputed": 32.25373077392578
+   },
+   {
+    "window": 25,
+    "text": "s Bergspitze Laurel Vineyard pinot noir from the Chehalem",
+    "stored": 34.48023986816406,
+    "recomputed": 34.82221221923828
+   },
+   {
+    "window": 20,
+    "text": " Angelos is seeing Manny Machado in pinstripes in 2018. The",
+    "stored": 38.98582458496094,
+    "recomputed": 37.09291458129883
+   },
+   {
+    "window": 17,
+    "text": " It’s quite hard to pin down, on AMOK, how much",
+    "stored": 39.79597854614258,
+    "recomputed": 38.42678451538086
+   },
+   {
+    "window": 14,
+    "text": " your state law says it's ok to pin down kids in school. Journal",
+    "stored": 40.19242095947266,
+    "recomputed": 38.842384338378906
+   },
+   {
+    "window": 11,
+    "text": " the things that are a little harder to pin down to specific amounts of time, such",
+    "stored": 40.56712341308594,
+    "recomputed": 40.64945602416992
+   },
+   {
+    "window": 21,
+    "text": " gentrification with her graduate students. She pinpoints bolstered commercial development in the area as",
+    "stored": 38.65095901489258,
+    "recomputed": 40.99550247192383
+   },
+   {
+    "window": 0,
+    "text": " tries to put in a headlock and pin before it has a chance. Based on",
+    "stored": 43.4763069152832,
+    "recomputed": 41.73788070678711
+   },
+   {
+    "window": 12,
+    "text": ", ritual<|endoftext|> Adam Smith’s pin factory. Or, indeed, since the",
+    "stored": 40.40852737426758,
+    "recomputed": 42.4439697265625
+   },
+   {
+    "window": 1,
+    "text": " could arrive. Yamauchi put a pin in August — so it may not be",
+    "stored": 43.178466796875,
+    "recomputed": 43.586631774902344
+   },
+   {
+    "window": 3,
+    "text": " of restraints, which can include anything from pinning uncooperative children face down on",
+    "stored": 42.29016876220703,
+    "recomputed": 44.31894302368164
+   },
+   {
+    "window": 23,
+    "text": ", Joe, has always been really into pinball, and he had started collecting machines",
+    "stored": 36.30405044555664,
+    "recomputed": 45.1325569152832
+   }
+  ],
+  "positives": 53,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16631,
+    "window": 23,
+    "text": "inch reduction in height both make the car look sportier and act sportier on twist",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 6,
+    "text": " to third parties. As a matter of legislation, for any communications, a means for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 31,
+    "text": ", Canepa is located in a quieter, and much more isolated part of California",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 58,
+    "text": " Adams, 16, was arrested and charged today for the brutal murder of Nathan Trapuzz",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 44,
+    "text": "-old Mikhail Andreevich Dostoevsky enrolled in Moscow's Imperial Medical",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 1,
+    "text": " that comes amid Syria's two-year civil war that has killed more than 100,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 62,
+    "text": " passing out and asked to speak to his pastor, according to police reports. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 46,
+    "text": " LOESCH: OK, stop this right here. Stop this right here. Can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 20,
+    "text": " against environmental pollution, as it can help to prevent pollution from the beginning by giving potential",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 57,
+    "text": " doing, and I think he was purposely impersonating Darryl Hammond doing an imperson",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 22,
+    "text": " government officials, and interested stakeholders including indigenous peoples, who may of course cross-cut",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 48,
+    "text": " of weeks. I've seen one or two incidents that have disturbed me. That's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 45,
+    "text": "<|endoftext|>Prominent atheists Richard Dawkins and Christopher Hitchens are paying lawyers to investigate the possibility",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 14,
+    "text": " The Eagles only have six passing touchdowns so far this season and the rookie receiver accounts for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 35,
+    "text": " her cap will; the one she wore Thursday night is headed to Canton. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 11,
+    "text": " that Obama grabbed a sandwich to go and marched upstairs to tell the nation. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 29,
+    "text": " natural gas as a way of lowering energy bills in a state that has some of the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 40,
+    "text": ", Vietnam, this afternoon, he told a handful of American servicemen, \"You",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 47,
+    "text": " Iran. PS “rumors that an international warrant has been issued against",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 48,
+    "text": " in a heartbeat!!! (*`ω´) She’s posed gently",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

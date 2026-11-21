@@ -1,0 +1,270 @@
+{
+ "feature": 21731,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " But when the state went through the budget cuts, it got progressively worse and worse and",
+    "stored": 3.365673303604126,
+    "recomputed": 4.596501350402832
+   },
+   {
+    "window": 48,
+    "text": ", which is being a voice for tax paying, hardworking AMERICANS and letting",
+    "stored": 8.998724937438965,
+    "recomputed": 8.171741485595703
+   },
+   {
+    "window": 44,
+    "text": "ained-CPI” Social Security cuts to upper-class tax increases no Republican",
+    "stored": 11.72738456726074,
+    "recomputed": 10.249497413635254
+   },
+   {
+    "window": 36,
+    "text": " cuts if they included $1 in tax hikes In Part One, Ann Romney",
+    "stored": 15.7088041305542,
+    "recomputed": 12.21939468383789
+   },
+   {
+    "window": 46,
+    "text": " united in their demands for a lower tax burden at the top, reacted with horror.",
+    "stored": 10.17245388031006,
+    "recomputed": 13.026564598083496
+   },
+   {
+    "window": 45,
+    "text": " to expire. In addition, payroll tax rates that had been reduced in 2011 and 2012",
+    "stored": 10.51202392578125,
+    "recomputed": 13.297014236450195
+   },
+   {
+    "window": 39,
+    "text": " LePage that would remove the property tax exemption that some nonprofits now have starting in 2019",
+    "stored": 13.99396705627441,
+    "recomputed": 15.656335830688477
+   },
+   {
+    "window": 32,
+    "text": " credit for wind and the solar investment tax credit — the benefits for both expired tax credits",
+    "stored": 18.45472717285156,
+    "recomputed": 18.928369522094727
+   },
+   {
+    "window": 28,
+    "text": " for $1.7 billion in tax credits for qualifying homeowners and renters. ",
+    "stored": 21.06573867797852,
+    "recomputed": 20.828649520874023
+   },
+   {
+    "window": 29,
+    "text": " Mark Rutte, amend the generous tax loopholes, which gradually began to expire in January",
+    "stored": 20.70583915710449,
+    "recomputed": 21.3716983795166
+   },
+   {
+    "window": 26,
+    "text": " all proposed similarly budget-busting tax cuts with big benefits for the top 1 percent",
+    "stored": 22.78709983825684,
+    "recomputed": 24.737701416015625
+   },
+   {
+    "window": 20,
+    "text": "�t seen Obamacare repealed and a tax cut passed,” said Steve Moore,",
+    "stored": 26.60495567321777,
+    "recomputed": 25.881643295288086
+   },
+   {
+    "window": 7,
+    "text": " 2007 estimate<|endoftext|> are still debating property tax breaks. Republican Gov. Greg Abbott proposed spending",
+    "stored": 28.88513374328613,
+    "recomputed": 26.869129180908203
+   },
+   {
+    "window": 11,
+    "text": "osedly temporary) Bush-era tax cuts for everyone except those who make more than",
+    "stored": 28.44608497619629,
+    "recomputed": 27.856760025024414
+   },
+   {
+    "window": 24,
+    "text": " of the likely economic benefits of the tax cuts are driven by<|endoftext|>We constantly see consumers",
+    "stored": 24.14543151855469,
+    "recomputed": 28.57513427734375
+   },
+   {
+    "window": 5,
+    "text": ". Bush administration figure tied to controversial tax cuts on dividends. Hubbard called",
+    "stored": 29.47700881958008,
+    "recomputed": 28.95391082763672
+   },
+   {
+    "window": 6,
+    "text": " Monday: Analysis: Trump is betting tax cuts will make him popular ► Nov",
+    "stored": 29.23140144348145,
+    "recomputed": 29.013843536376953
+   },
+   {
+    "window": 8,
+    "text": " is contractually obligated to, that tax cuts will pay for themselves. “It",
+    "stored": 28.82135391235352,
+    "recomputed": 29.841176986694336
+   },
+   {
+    "window": 4,
+    "text": " were made because the legislators support corporate tax breaks, financial deregulation or myriad other business-",
+    "stored": 29.77454566955566,
+    "recomputed": 30.86420440673828
+   },
+   {
+    "window": 0,
+    "text": " The corporate tax code contains so many tax breaks that no rational company pays that rate.",
+    "stored": 32.69252014160156,
+    "recomputed": 33.954742431640625
+   }
+  ],
+  "positives": 55,
+  "grey": [
+   {
+    "window": 53,
+    "text": " but it could be argued that by using loopholes they may not be paying their fair share",
+    "stored": 4.809632778167725,
+    "recomputed": 2.61575984954834
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 10122,
+    "window": 46,
+    "text": " 4 eggs 300g caster sugar 250ml buttermilk",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 53,
+    "text": " Bader in the main event, putting him in the front of the line for a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 58,
+    "text": " actually going to be there. So we’re going to be doing a lot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 14,
+    "text": " on 3/10/2013 by Klassified because: redaction edit",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 4,
+    "text": " had to go looking for additional work. Extra jobs usually found him. He became known",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 8,
+    "text": " intelligent player,\" said Villa manager Alex McLeish. \"A great team player and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 49,
+    "text": " when it's needed. Getting ready for an earthquake Emergency items to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 69,
+    "text": " generations and the burden that nuclear waste and pollution imposes on them. Some scholars have concluded",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 2,
+    "text": " of the American<|endoftext|> on Hamilton as a patron saint of American “conservatism.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 21,
+    "text": " team of researchers from the Daniel Guggenheim School of Aerospace Engineering and the School",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 8,
+    "text": "ize public safety. Therefore, NIST shall not release the following information: ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 1,
+    "text": "20 edition), showing the Rupes Nigra at the North Pole, surrounded by",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 30,
+    "text": " the Iraqi government announced Wednesday it had pushed insurgents out of the city, reclaiming the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 47,
+    "text": "Ezdur4 — Occupy Congress (@OCongress) August 14, 2014",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 7,
+    "text": "’t get back to shore. Right now cellulosic ethanol is potentially eight",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 44,
+    "text": " taxes and received<|endoftext|> Annually, the feds spend nearly $368 billion in California,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 54,
+    "text": " kick-off Peter waves to me and beckons me down to the front. I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 23,
+    "text": " wood Untitled, 1993 Mixed media collage (The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 5,
+    "text": "her tyres. \"Absolutely not,\" he said. \"I think you saw",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 16,
+    "text": " work begins. Seasoning bamboo is something of an enigma to most people. Personally",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 13847,
+    "window": 22,
+    "text": "’re just going to codify DACA in the year-end appropriations bill,",
+    "recomputed": 0.58827805519104
+   }
+  ]
+ }
+}

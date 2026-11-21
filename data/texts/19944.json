@@ -1,0 +1,276 @@
+{
+ "feature": 19944,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": ") tall, helped the Marauders to a 17–14 record while averaging 6",
+    "stored": 4.121296882629395,
+    "recomputed": 3.693006992340088
+   },
+   {
+    "window": 54,
+    "text": "Your feedback is always welcome and help us to improve. Wish you good",
+    "stored": 9.532416343688965,
+    "recomputed": 9.84325122833252
+   },
+   {
+    "window": 47,
+    "text": "uncle!” It served to quite the hysterics. Who among the",
+    "stored": 12.35318946838379,
+    "recomputed": 12.033530235290527
+   },
+   {
+    "window": 50,
+    "text": " game. This will not only help you to understand what is required, but also what",
+    "stored": 11.42339992523193,
+    "recomputed": 13.739505767822266
+   },
+   {
+    "window": 45,
+    "text": " If we panic, it can also serve to fuel the anxiety. If we become mad",
+    "stored": 14.75534152984619,
+    "recomputed": 15.005609512329102
+   },
+   {
+    "window": 40,
+    "text": " our economy will keep growing (and serves to legitimize our consumption patterns). If<|endoftext|>",
+    "stored": 18.52510833740234,
+    "recomputed": 17.63721466064453
+   },
+   {
+    "window": 35,
+    "text": " feeling vulnerable and adrift. It helped somewhat to vent these feelings to close friends and",
+    "stored": 21.4582462310791,
+    "recomputed": 22.37148666381836
+   },
+   {
+    "window": 32,
+    "text": "dates.org After downloading, please help to seed that beast ;) All materials",
+    "stored": 22.11333847045898,
+    "recomputed": 23.71268653869629
+   },
+   {
+    "window": 38,
+    "text": " years in Oxford, Mississippi, it helps to know the nature of the rivalry between Ole",
+    "stored": 20.70836067199707,
+    "recomputed": 24.815032958984375
+   },
+   {
+    "window": 26,
+    "text": ", food and equipment. It also helps to look after people displaced by the conflict.",
+    "stored": 28.59538078308105,
+    "recomputed": 27.155967712402344
+   },
+   {
+    "window": 29,
+    "text": " people who will enjoy the experience and help to make the Ryder Cup an unforgettable event for",
+    "stored": 25.22790145874023,
+    "recomputed": 28.739192962646484
+   },
+   {
+    "window": 28,
+    "text": " public interest due the recent release hopefully helps to find a new maintainer for the project",
+    "stored": 28.27375984191895,
+    "recomputed": 31.522953033447266
+   },
+   {
+    "window": 21,
+    "text": " UX over time with refreshes, helping to slow down the age of the car.",
+    "stored": 30.91336822509766,
+    "recomputed": 32.90576934814453
+   },
+   {
+    "window": 27,
+    "text": " forward towards the toe, which will help to put the knee angle in a more favorable",
+    "stored": 28.55731582641602,
+    "recomputed": 33.73334884643555
+   },
+   {
+    "window": 12,
+    "text": " No domestic groups have that designation, helping to create a disparity in charges faced by international",
+    "stored": 34.0786247253418,
+    "recomputed": 34.9208984375
+   },
+   {
+    "window": 18,
+    "text": " Network member Dave Hawkes said he helped to start a petition calling for Mr Dutton",
+    "stored": 32.69632339477539,
+    "recomputed": 35.34734344482422
+   },
+   {
+    "window": 6,
+    "text": " new wards are in single rooms, helping to slow the spread of hospital-acquired",
+    "stored": 34.70828247070312,
+    "recomputed": 35.772705078125
+   },
+   {
+    "window": 16,
+    "text": " Canarsie. The job is helping to pay the bills while he works toward his",
+    "stored": 33.50947570800781,
+    "recomputed": 36.20090103149414
+   },
+   {
+    "window": 9,
+    "text": " prominent, unimpeded role in helping to influence the crafting of policies that address climate",
+    "stored": 34.32033538818359,
+    "recomputed": 36.76997375488281
+   },
+   {
+    "window": 17,
+    "text": " such as the auto industry, has helped to fuel the popular outrage over the corporate bonuses",
+    "stored": 33.05346298217773,
+    "recomputed": 38.080894470214844
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 56,
+    "text": "% say they can help disabled students \"to a major extent,\" says an Education Department",
+    "stored": 4.327876567840576,
+    "recomputed": 2.2953147888183594
+   },
+   {
+    "window": 57,
+    "text": " high in iron ore prices would do little to help Arrium in the short term.",
+    "stored": 4.302383422851562,
+    "recomputed": 3.3870513439178467
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18623,
+    "window": 47,
+    "text": " even be synthesized. Hence, students converged at Tiananmen Square because<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 30,
+    "text": " \"<|endoftext|> are, in fact, public bodies under the Freedom of Information and Protection of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 8,
+    "text": " to show that far from being a gay Gordon he was a passionate womaniser, as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 26,
+    "text": " in the pipeline.” That news will also come as a relief given",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 24,
+    "text": " in Afghanistan, about half of whom were assigned to logistics and maintenance duties, according to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 3,
+    "text": "’s church in Alexandria where Coptic Pope Tawadros II had been",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 47,
+    "text": " just too good for the refs. That wasn't a forward pass tonight to young",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 31,
+    "text": ", value, and nutrition, for fear of dietary cholesterol , you must know that eggs",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 6,
+    "text": " it is what it says it is. Right after signing up to Dev Essentials I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 17,
+    "text": " certain books<|endoftext|> It was an absolute pleasure speaking with Baruchel and and while",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 2,
+    "text": ",” Bundesbank board member Carl-Ludwig Thiele said in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 11,
+    "text": "ity Airgrid5, below is a picture with the 27dBi antenna and the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 37,
+    "text": " basis images, known as eigenpictures, could be linearly combined to reconstruct",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 39,
+    "text": " Residents In String Of NW Side Burglaries Believing the jewelry to be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 17,
+    "text": " you can build it—and a \"ready to fly bird\" for $800 that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 9,
+    "text": " it, but it was still technically his.) I wouldn’t have",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 44,
+    "text": " against expressionism.) “Untitled” M<|endoftext|> pay for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 23,
+    "text": " leading American innovation enterprise,” Krzanich added. “America has a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 61,
+    "text": "rez (Team Colombia) and Julián Arredondo Moreno (Trek Factory",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 9,
+    "text": " restaurant: he said he had continued patronizing a coffee shop near his Upper East Side",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 12276,
+    "window": 11,
+    "text": " violence as far more acceptable than female sexual pleasure, and has done more to shame male",
+    "recomputed": 4.430561542510986
+   }
+  ]
+ }
+}

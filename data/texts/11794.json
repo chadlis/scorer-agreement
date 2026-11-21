@@ -1,0 +1,269 @@
+{
+ "feature": 11794,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 49,
+    "text": " awesome. I’ll post a video once we get everything polished.<|endoftext|>The",
+    "stored": 5.726249217987061,
+    "recomputed": 5.283674240112305
+   },
+   {
+    "window": 46,
+    "text": "<|endoftext|>FurEh! 2017 Dance Competition video ❮❮ Newer",
+    "stored": 8.364287376403809,
+    "recomputed": 6.315997123718262
+   },
+   {
+    "window": 43,
+    "text": " THE JUMP for a THEMATIC VIDEO of QWOP] Pass",
+    "stored": 11.58092975616455,
+    "recomputed": 6.895300388336182
+   },
+   {
+    "window": 47,
+    "text": " text): This very detailed training video demonstrates everything you need to know about writing",
+    "stored": 6.821828365325928,
+    "recomputed": 8.471548080444336
+   },
+   {
+    "window": 42,
+    "text": " can see where we started in this YouTube video: https://www.youtube.com",
+    "stored": 11.8898229598999,
+    "recomputed": 13.831900596618652
+   },
+   {
+    "window": 38,
+    "text": "geist and FEBLs. Video of an autistic person describing the language she",
+    "stored": 15.93591785430908,
+    "recomputed": 15.546090126037598
+   },
+   {
+    "window": 31,
+    "text": ", stopping the raids. This video is in Spanish but has English subtitles:",
+    "stored": 20.79076766967773,
+    "recomputed": 16.064712524414062
+   },
+   {
+    "window": 29,
+    "text": "ens into the spring air. VIDEO: What You Need To Know About The",
+    "stored": 21.65132713317871,
+    "recomputed": 17.15932273864746
+   },
+   {
+    "window": 36,
+    "text": "ious… Check out our quick video summary here: (Link<|endoftext|>",
+    "stored": 17.69137954711914,
+    "recomputed": 17.582969665527344
+   },
+   {
+    "window": 32,
+    "text": " Soul Train Awards] Watch the video for Lil Kim's \"Not Tonight\"",
+    "stored": 20.57434272766113,
+    "recomputed": 18.75645637512207
+   },
+   {
+    "window": 20,
+    "text": " enough to win Game 6? Video: Sidney Crosby talks to the media after",
+    "stored": 29.48594665527344,
+    "recomputed": 20.1472225189209
+   },
+   {
+    "window": 15,
+    "text": " community this week. [ + - ] Video Augusta, GA - Governor",
+    "stored": 31.77348518371582,
+    "recomputed": 21.913204193115234
+   },
+   {
+    "window": 17,
+    "text": " the country's disagreements with Western bodies. Video provided by Newsy Newslook ",
+    "stored": 31.12358856201172,
+    "recomputed": 22.15278434753418
+   },
+   {
+    "window": 13,
+    "text": " the issue comes out. See video of the screens here But for",
+    "stored": 31.99337196350098,
+    "recomputed": 24.533449172973633
+   },
+   {
+    "window": 23,
+    "text": " by WJTV - All rights reserved Video WJTV - COLUM",
+    "stored": 27.53922462463379,
+    "recomputed": 27.064756393432617
+   },
+   {
+    "window": 11,
+    "text": "� he replied. Video Loading Video Unavailable Click to play Tap to play",
+    "stored": 32.9510498046875,
+    "recomputed": 28.289562225341797
+   },
+   {
+    "window": 25,
+    "text": " on mobile? Click here to view the video These two biopics of",
+    "stored": 25.34915924072266,
+    "recomputed": 29.794580459594727
+   },
+   {
+    "window": 6,
+    "text": "[related-post] Watch Video: What’s making news ",
+    "stored": 35.25142669677734,
+    "recomputed": 31.58257484436035
+   },
+   {
+    "window": 8,
+    "text": " Sorry, this video has expired Video: Gen Y addicted to smartphones (ABC",
+    "stored": 34.38997268676758,
+    "recomputed": 32.18952560424805
+   },
+   {
+    "window": 0,
+    "text": ".<|endoftext|>Please enable Javascript to watch this video REDSTONE ARSEN",
+    "stored": 41.44217300415039,
+    "recomputed": 39.302276611328125
+   }
+  ],
+  "positives": 42,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 12229,
+    "window": 3,
+    "text": " all we had<|endoftext|>New USC survey finds region’s escalating home prices hindering",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 31,
+    "text": "agal: Lawman.\" Now Llovera is trying to get some lethal justice",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 48,
+    "text": " the 2014-2015 year.<|endoftext|>WASHINGTON (Reuters) - Consensus may be hard",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 7,
+    "text": "800 to $50,000 and making structural improvements to the property which is estimated to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 37,
+    "text": "aques verbales con un coro de gritos. Allí, en los dos",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 29,
+    "text": " website for about $60 each. The genuine products typically can fetch about twice that amount",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 78,
+    "text": ". But if a consumer is not familiar with the latter brand, they have to weigh",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 27,
+    "text": " Far from Home Poster Has Spider-Man Ready for an International Adventure Expect",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 53,
+    "text": " Mexico beyond embassy duty. DeShazo said Peña Nieto would be better",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 14,
+    "text": " progress. [via]<|endoftext|>Two administrators' wives among those traveling on the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 59,
+    "text": " you don’t understand.” LaHood had calmed down",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 22,
+    "text": " they hadn’t fed him or left him in a hot car, or perhaps",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 47,
+    "text": " probably not, since it only lasted one day.) U.S. Secretary",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 39,
+    "text": " that has lasted more than three decades and left him homeless Chat show: Father",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 40,
+    "text": "aged Sudan while a vulture ominously loomed in the background was originally published in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 38,
+    "text": " about needing more and more housing and focus instead on the consequences of this abundant housing production",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 46,
+    "text": " by Pulse Opinion Research, LLC. See methodology. OR<|endoftext|>People walk on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 10,
+    "text": " associated with the Koch brothers. CEI was critical of the EPA the last time the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 36,
+    "text": " same direction as the front of the quadcopter (for the Silver Blade #37",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 14,
+    "text": " fear death. Many are indeed ferocious and fearless fighters during the day, as many media",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 5634,
+    "window": 57,
+    "text": " not eligible for ads. For example, videos about recent tragedies, even if presented for",
+    "recomputed": 7.731306552886963
+   },
+   {
+    "from_feature": 19647,
+    "window": 52,
+    "text": "�s life in 2012. >>> Commentary: It’s Time to",
+    "recomputed": 2.076941967010498
+   }
+  ]
+ }
+}

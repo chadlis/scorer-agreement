@@ -1,0 +1,281 @@
+{
+ "feature": 22598,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": "point performances all season. While that is a small sample size, it gives",
+    "stored": 8.867923736572266,
+    "recomputed": 8.153305053710938
+   },
+   {
+    "window": 55,
+    "text": " of MPR. Certainly, that seems to have been the impression of Bill",
+    "stored": 12.52042865753174,
+    "recomputed": 11.70665454864502
+   },
+   {
+    "window": 54,
+    "text": " would rape her’, ‘That big bitch is bitter that no one wants",
+    "stored": 12.76143646240234,
+    "recomputed": 14.461180686950684
+   },
+   {
+    "window": 52,
+    "text": " so.\" Sun laughed. \"That's...pretty cool.\" Pyrrha chuckled.",
+    "stored": 15.244309425354,
+    "recomputed": 20.532379150390625
+   },
+   {
+    "window": 50,
+    "text": " guy who raped you as a feminist. That thing sucks.” Then she added",
+    "stored": 17.37468338012695,
+    "recomputed": 23.42135238647461
+   },
+   {
+    "window": 32,
+    "text": " economy in the world.\" \"That’s power – power we must",
+    "stored": 34.48344039916992,
+    "recomputed": 26.829004287719727
+   },
+   {
+    "window": 38,
+    "text": " always been a part of my family. That equity can stem from just about anything:",
+    "stored": 29.28655052185059,
+    "recomputed": 28.757972717285156
+   },
+   {
+    "window": 47,
+    "text": " just too good for the refs. That wasn't a forward pass tonight to young",
+    "stored": 20.14385986328125,
+    "recomputed": 29.82927703857422
+   },
+   {
+    "window": 48,
+    "text": " machine that could repeat back 16 tones. That was the only machine in our studio.",
+    "stored": 19.73615455627441,
+    "recomputed": 31.068614959716797
+   },
+   {
+    "window": 8,
+    "text": " disregard for people of color. That argument turned especially bitter last week, with",
+    "stored": 46.64968490600586,
+    "recomputed": 33.21248245239258
+   },
+   {
+    "window": 30,
+    "text": "maker, Nate Ruess. That's all we know for now. We",
+    "stored": 37.14714050292969,
+    "recomputed": 33.86738967895508
+   },
+   {
+    "window": 40,
+    "text": " of feathers. The car never slowed. That was hard.” At",
+    "stored": 28.08275413513184,
+    "recomputed": 35.79930877685547
+   },
+   {
+    "window": 18,
+    "text": " too complex for most systems. That is why Georgia Tech has built two rally",
+    "stored": 46.00429534912109,
+    "recomputed": 36.511322021484375
+   },
+   {
+    "window": 4,
+    "text": " to bloodshed in the streets. That the plastic bowl— which appears to be",
+    "stored": 46.93222427368164,
+    "recomputed": 37.5284309387207
+   },
+   {
+    "window": 16,
+    "text": " even if a spill does not occur. That’s because climate change, which",
+    "stored": 46.0587272644043,
+    "recomputed": 37.847774505615234
+   },
+   {
+    "window": 33,
+    "text": " worth about $9.7 billion. That compares to 215 million shares he pledged last",
+    "stored": 34.11498641967773,
+    "recomputed": 39.131568908691406
+   },
+   {
+    "window": 23,
+    "text": " 2015 to September this year. That puts the cost of the average home in",
+    "stored": 43.83296585083008,
+    "recomputed": 40.438812255859375
+   },
+   {
+    "window": 20,
+    "text": " capitol and Washington DC. That is the type of democracy that I would",
+    "stored": 45.35643005371094,
+    "recomputed": 40.95223617553711
+   },
+   {
+    "window": 5,
+    "text": " media often has been rocky. That’s chiefly because Obama and his",
+    "stored": 46.85398101806641,
+    "recomputed": 41.865108489990234
+   },
+   {
+    "window": 21,
+    "text": " resulted from legally binding contracts. That argument, however, rankles Tony Montana",
+    "stored": 44.11705780029297,
+    "recomputed": 44.44303894042969
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 60,
+    "text": " on her authorship in the least (that’s all Rush), and I",
+    "stored": 7.99603796005249,
+    "recomputed": 2.434337854385376
+   },
+   {
+    "window": 61,
+    "text": "issioning Up to now, that has required the maintenance (and, indeed",
+    "stored": 6.801331996917725,
+    "recomputed": 1.770106315612793
+   },
+   {
+    "window": 62,
+    "text": " century by conflicts between Catholics and Protestants — that would lead to the devastating Thirty Years War",
+    "stored": 6.233526229858398,
+    "recomputed": 1.467897891998291
+   },
+   {
+    "window": 63,
+    "text": " week in sunny Austin. All that said, it’s not so",
+    "stored": 5.436622142791748,
+    "recomputed": 3.5180013179779053
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 8511,
+    "window": 44,
+    "text": " 9 presentation Streicher made about the body cams . Howarth,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 36,
+    "text": "secutive Pogo-Stick Jumps\" (or hops, whatever they're",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 5,
+    "text": " Web Facebook Back to top<|endoftext|>Two Democratic lawmakers called for President Donald Trump to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 27,
+    "text": " endure from their parents are heartbreaking and deeply disturbing. I think about the 15",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 30,
+    "text": " hear how we got the name Dos Polacas? Click HERE. (Hint:",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 77,
+    "text": " international accord aimed at getting Iran to curb its nuclear program in exchange for relief from economic",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 0,
+    "text": " AM Posted by sublunary to Halfway There at 8/21",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 64,
+    "text": " 0xff” is a binary AND mask which extracts only last 2 octets.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 0,
+    "text": " KGB in 1991. Little is known about the specifics of Drozdov",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 59,
+    "text": " turning over every document related to what happened.\" “At Wednesday's hearing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 24,
+    "text": " was a dark amber Imperial IPA with rye malt. Great balance of malt flavour and citrus",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 73,
+    "text": "KATCHEWAN ROUGHRIDERS Released: DE Tavarus",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 70,
+    "text": " copyright law. Luckily, there are lawyers willing to help. New Media Rights",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 30,
+    "text": " but my lawyers have instructed me to stay quiet,” Bruyneel told Belgian",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 0,
+    "text": "ness is a historian based in the Washington, D.C. region. He specializes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 7,
+    "text": " Daily Telegraph reported that Stanford’s Venezuelan offices were raided by Venezuela’s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 14,
+    "text": " drive Black Lives Matters riots and protests. If Michael Brown had been patted down and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 8,
+    "text": "�s anger at the president is probably authentic, it’s worth pointing out",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 44,
+    "text": "s\\ %UserProfile%\\MyPictures /vmware-host/ %",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 18,
+    "text": " scared… I too am scared of love, more to the point true intimacy",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "feature": 16269,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 46,
+    "text": " corner. WATCH: Timelapse of storm moving into Winnipeg Monday ",
+    "stored": 4.136745929718018,
+    "recomputed": 6.102141857147217
+   },
+   {
+    "window": 42,
+    "text": " is designing those character for animation. Monaca ( Wake Up, Girls! , My",
+    "stored": 7.853299617767334,
+    "recomputed": 10.096782684326172
+   },
+   {
+    "window": 40,
+    "text": " goes from here. Dr. Clifford Saper, editor of the Annals of Neurolog",
+    "stored": 10.40750980377197,
+    "recomputed": 10.470966339111328
+   },
+   {
+    "window": 41,
+    "text": " last thing I look at as the reaper takes me.<|endoftext|>The recent discounts on",
+    "stored": 8.086539268493652,
+    "recomputed": 11.393875122070312
+   },
+   {
+    "window": 37,
+    "text": " <|endoftext|> Donald Trump the chance to reshape an agency that has drawn relentless attacks from",
+    "stored": 12.03388023376465,
+    "recomputed": 13.170064926147461
+   },
+   {
+    "window": 30,
+    "text": " not blight the landscape (or seascape). As was first reported by",
+    "stored": 17.36062049865723,
+    "recomputed": 18.879186630249023
+   },
+   {
+    "window": 33,
+    "text": ". thanks! – @shapeshed Void <|endoftext|>",
+    "stored": 16.27861404418945,
+    "recomputed": 19.456844329833984
+   },
+   {
+    "window": 28,
+    "text": " spotted was N930FXXU0APE1, which would of course change with",
+    "stored": 19.9319896697998,
+    "recomputed": 21.366167068481445
+   },
+   {
+    "window": 22,
+    "text": ".georgetown.edu, rosapepeassistant1@gmail.com",
+    "stored": 22.98593521118164,
+    "recomputed": 24.337881088256836
+   },
+   {
+    "window": 20,
+    "text": " from 202 — Arthur Staple (@StapeNewsday) July 8, 2014 ",
+    "stored": 23.76428604125977,
+    "recomputed": 25.83500099182129
+   },
+   {
+    "window": 16,
+    "text": " and carrot, cucumbers and jalapeño relish on a steamed b",
+    "stored": 26.06574821472168,
+    "recomputed": 26.429006576538086
+   },
+   {
+    "window": 24,
+    "text": " Interference. The award promised to Hapes and Filchock to fix the 1946",
+    "stored": 22.48473358154297,
+    "recomputed": 26.52103042602539
+   },
+   {
+    "window": 9,
+    "text": "cut. Am pierdut aproape o mie de oameni din",
+    "stored": 27.34270095825195,
+    "recomputed": 27.273136138916016
+   },
+   {
+    "window": 4,
+    "text": " gallo, shredded cabbage and jalapeños. 8. Lob",
+    "stored": 28.18880462646484,
+    "recomputed": 27.639745712280273
+   },
+   {
+    "window": 14,
+    "text": " the black half-collar at the nape of the bird’s neck.",
+    "stored": 26.96517562866211,
+    "recomputed": 28.265146255493164
+   },
+   {
+    "window": 6,
+    "text": ". Six people survived, including three Chapecoense players. Hide Caption 1 of",
+    "stored": 27.92293930053711,
+    "recomputed": 29.45603370666504
+   },
+   {
+    "window": 27,
+    "text": " through a window of his home in Chapeco as the funeral procession passes on December",
+    "stored": 20.53154182434082,
+    "recomputed": 30.189743041992188
+   },
+   {
+    "window": 3,
+    "text": " on Saturday,<|endoftext|> the history of Chapecoense football club, hoping for a",
+    "stored": 29.14974403381348,
+    "recomputed": 30.36145782470703
+   },
+   {
+    "window": 2,
+    "text": "<|endoftext|> … Acorda Therapeutics Announces FDA Approval of IN",
+    "stored": 33.60442733764648,
+    "recomputed": 32.708438873291016
+   },
+   {
+    "window": 0,
+    "text": " editor of the 'Drugs and Therapeutic Bulletin' (DTB), which",
+    "stored": 36.02336120605469,
+    "recomputed": 35.81783676147461
+   }
+  ],
+  "positives": 41,
+  "grey": [
+   {
+    "window": 45,
+    "text": " expected in Italian Worlds team Chaves commits to Orica-GreenEdge for",
+    "stored": 4.295257091522217,
+    "recomputed": 2.6616928577423096
+   },
+   {
+    "window": 48,
+    "text": " T-ONO: After Sakura-Con ends you'll be flying to",
+    "stored": 4.074195384979248,
+    "recomputed": 1.6493433713912964
+   }
+  ],
+  "zero": [
+   {
+    "window": 47,
+    "text": " November and December. Females, on the other hand, are much",
+    "stored": 4.133348941802979,
+    "recomputed": 0
+   },
+   {
+    "window": 49,
+    "text": " Find out more: Tripoli 'U-turn' on unity",
+    "stored": 3.848840236663818,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 11794,
+    "window": 29,
+    "text": "ens into the spring air. VIDEO: What You Need To Know About The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 34,
+    "text": "� the new President and “send him back” to the U.S",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 37,
+    "text": " you see today tangible accomplishments of Donald Trump.\"<|endoftext|>Unpacking the Ninth Circuit’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 17,
+    "text": " extension the 1 percent, a gigantic tax cut. To be clear: everyone knows this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 13,
+    "text": " saying that he’d heard a rumor from a “very credible source�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 49,
+    "text": " of scientific principles and discoveries that helped me to make my decisions, along with future discoveries",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 24,
+    "text": " şi de atacurile militanţilor islami",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 57,
+    "text": " up to take part from all over Italy,\" Mayor Francesco Crivelli tells Metro",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 76,
+    "text": " immigrants, we celebrate that we are a country of immigrants and a melting pot.�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 7,
+    "text": " Rover would certainly not be the unquestionably authentic brand it is in the U.S",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 41,
+    "text": " make the best of it. Seeking downhills, I conducted a short assessment of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 2,
+    "text": "' Choice Awards<|endoftext|> Arreis, Nigiro, Ocrim and Esorp.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 28,
+    "text": " a lot of capability. He has capability relative to children, he has capability relative to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 50,
+    "text": "-a-half year deal tying him to the club until the summer of 2018.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 24,
+    "text": " Rosenberg sent a campuswide e-mail Wednesday, noting that many on the St.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 38,
+    "text": " who I hooked up with on a one night stand accused me of rape. Not outright",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 77,
+    "text": "In fact I’d like to talk about a movement for the sharing economy.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 11,
+    "text": " upcoming appearance earlier in the week during a radio interview. “Now I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 48,
+    "text": ". The WHO said to AFP that there are no reports of staff or neighboring",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 13,
+    "text": "for instance, in the painting, the knife is not to be seen where Corday",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

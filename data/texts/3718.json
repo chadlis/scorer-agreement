@@ -1,0 +1,300 @@
+{
+ "feature": 3718,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 47,
+    "text": " order before leaving. The customer says that she did file an official complaint other than her",
+    "stored": 3.311641216278076,
+    "recomputed": 7.042198181152344
+   },
+   {
+    "window": 44,
+    "text": "repid reporter. “She went to the Soviet Union feeling very optimistic",
+    "stored": 4.627594947814941,
+    "recomputed": 7.860517978668213
+   },
+   {
+    "window": 48,
+    "text": " Election candidate has contacted gardaí after she received a vile death threat via social media",
+    "stored": 2.772391796112061,
+    "recomputed": 9.143847465515137
+   },
+   {
+    "window": 37,
+    "text": " Jem and the Holograms, but her work has also been featured in a number",
+    "stored": 7.117439746856689,
+    "recomputed": 9.36928939819336
+   },
+   {
+    "window": 35,
+    "text": " but Crown and defence lawyers argued over whether she should serve the time in prison or at",
+    "stored": 8.653871536254883,
+    "recomputed": 11.309662818908691
+   },
+   {
+    "window": 40,
+    "text": "cy’s discoverers noticed her broken bones when they found her, but",
+    "stored": 5.978233337402344,
+    "recomputed": 11.676762580871582
+   },
+   {
+    "window": 34,
+    "text": "s domestic policy council and in that role she took the lead within the White House in",
+    "stored": 9.470630645751953,
+    "recomputed": 12.414731979370117
+   },
+   {
+    "window": 8,
+    "text": "far, fast and hard,” she said, making a more robust shield necessary",
+    "stored": 16.54693031311035,
+    "recomputed": 13.054192543029785
+   },
+   {
+    "window": 39,
+    "text": "kel’s comments came Saturday during her weekly podcast. She asserted that her stance",
+    "stored": 6.821568965911865,
+    "recomputed": 13.459020614624023
+   },
+   {
+    "window": 16,
+    "text": "” We broke apart as she stared at Vox. Her expression wasn�",
+    "stored": 15.904709815979,
+    "recomputed": 15.343073844909668
+   },
+   {
+    "window": 27,
+    "text": " The film<|endoftext|>; some locals trick her into doing something embarrassing under the guise of",
+    "stored": 12.14541435241699,
+    "recomputed": 15.44748592376709
+   },
+   {
+    "window": 15,
+    "text": " tail and occurs through loss of the tail sheath (false autotomy) or through",
+    "stored": 16.02383804321289,
+    "recomputed": 15.815509796142578
+   },
+   {
+    "window": 38,
+    "text": " is no way one can make sense of her claim that the man's hatred was \"",
+    "stored": 7.102158069610596,
+    "recomputed": 16.071043014526367
+   },
+   {
+    "window": 36,
+    "text": ", and whose constant companion in Richmond was her beautiful younger brother? As in",
+    "stored": 7.703423976898193,
+    "recomputed": 16.207672119140625
+   },
+   {
+    "window": 26,
+    "text": " used to be their home for decades, she was sure he was safe and did not",
+    "stored": 12.26246547698975,
+    "recomputed": 16.681161880493164
+   },
+   {
+    "window": 0,
+    "text": " the founding of America. In her book Thomas Jefferson's Qur'an:",
+    "stored": 22.5565128326416,
+    "recomputed": 16.983318328857422
+   },
+   {
+    "window": 7,
+    "text": " on coal as its main energy source, she said. '�",
+    "stored": 16.61303520202637,
+    "recomputed": 17.68876838684082
+   },
+   {
+    "window": 5,
+    "text": "<|endoftext|>26] He is an adherent of hermeticism, a subject on which he",
+    "stored": 17.35310173034668,
+    "recomputed": 18.562454223632812
+   },
+   {
+    "window": 1,
+    "text": " child left<|endoftext|> he is the Terminator, she replies that he’s actually Sarah",
+    "stored": 18.97707366943359,
+    "recomputed": 18.90704345703125
+   },
+   {
+    "window": 13,
+    "text": " his acting debut at a Washington theater, she gave him a dozen roses on opening night",
+    "stored": 16.15483283996582,
+    "recomputed": 20.205909729003906
+   }
+  ],
+  "positives": 47,
+  "grey": [],
+  "zero": [
+   {
+    "window": 4,
+    "text": " be free,\" he said. Sheen insisted in all four interviews that he",
+    "stored": 17.97782135009766,
+    "recomputed": 0
+   },
+   {
+    "window": 17,
+    "text": ", which is pretty cool.\" Sheen said he would go back and finish",
+    "stored": 15.89396953582764,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5264,
+    "window": 18,
+    "text": ". Kurdistan's current political stability and security could become crucial for countries",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 23,
+    "text": " deepest<|endoftext|> After a six-day extravaganza of college hoops, we",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 35,
+    "text": " our top priority at all Jack's Restaurants. As part of our rigorous food safety",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 34,
+    "text": "24.Drive work pretty much exactly as in Dropbox – you can store files, share",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 21,
+    "text": " made to get Modi, with efforts beginning almost as soon as the UPA won the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 1,
+    "text": "<|endoftext|> 2014 (4) Sep 2014 (1) Aug 2014 (1) Jul 2014",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 8,
+    "text": " 8 election is generating substantial attention on both sides of the issue, but recent polls show",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 75,
+    "text": " come to the phone: I can hear you. You're saying, \"Please tell",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 37,
+    "text": " considering a bill that would provide property tax relief by giving towns more money from state sales",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14889,
+    "window": 5,
+    "text": "-esque Arial (the default for Ars text), the Webdings dingbat",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 31,
+    "text": " police and producing a \"patrons' bill of rights.\" Nova Scotia",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 15,
+    "text": " of the return spot in lieu of an extra defensive back, a change which has come",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 69,
+    "text": " Hanzo fashioned both katana blades for Kill Bill and Sin City. 6",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 45,
+    "text": " have studied cells through the lens of a microscope. With a little help from a team",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 38,
+    "text": "ER OF PSYCHIC LIBRARY, CONDUCTS HIS READINGS",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 30,
+    "text": " are more than 10 million contactless-ready locations in the countries where Apple Pay has",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 10,
+    "text": " <|endoftext|> be a spinners' paradise.\" On the batting front, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 4,
+    "text": " the taste buds of prehistoric mammoths and mastodons. Today, domestic",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 0,
+    "text": " by police. Senator Amy Klobuchar released this statement, ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 58,
+    "text": " was a wide variety of machinery that turned out. From classic Triumphs… ",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 21857,
+    "window": 13,
+    "text": " think regardless of how people feel about the legislation itself, our job is to look out",
+    "recomputed": 0.07361890375614166
+   },
+   {
+    "from_feature": 15387,
+    "window": 58,
+    "text": "IMALS Kabang, pictured here, had her snout and upper",
+    "recomputed": 11.505587577819824
+   },
+   {
+    "from_feature": 12276,
+    "window": 29,
+    "text": " found meaning and inspiration in living and the enjoyment of life, in trying to fulfil her",
+    "recomputed": 12.846712112426758
+   },
+   {
+    "from_feature": 6322,
+    "window": 7,
+    "text": " and<|endoftext|> girl to follow him with a knife, and who rapes her, could then",
+    "recomputed": 5.078339099884033
+   },
+   {
+    "from_feature": 7229,
+    "window": 44,
+    "text": ", while Coconut wafts through the swimsuit department. And during the holiday shopping season",
+    "recomputed": 0.6788548827171326
+   }
+  ]
+ }
+}

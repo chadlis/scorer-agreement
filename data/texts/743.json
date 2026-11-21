@@ -1,0 +1,270 @@
+{
+ "feature": 743,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 49,
+    "text": ", he was spotted by director Peter Bogdanovich and cast as a disabled boy forced",
+    "stored": 5.777117252349854,
+    "recomputed": 4.500702857971191
+   },
+   {
+    "window": 45,
+    "text": " level, is the reason why the Game Genie and adderall were invented. Nothing",
+    "stored": 9.37728500366211,
+    "recomputed": 8.767145156860352
+   },
+   {
+    "window": 44,
+    "text": "oey Generation Opportunity (Gen Opp), a \"nonpartisan\" youth",
+    "stored": 9.564859390258789,
+    "recomputed": 11.123249053955078
+   },
+   {
+    "window": 41,
+    "text": " poor too much power. 'Genuine universal suffrage' The",
+    "stored": 11.94071006774902,
+    "recomputed": 12.60548210144043
+   },
+   {
+    "window": 39,
+    "text": " those of us who don't consider ourselves geniuses. The best way to promote scientific",
+    "stored": 14.71818447113037,
+    "recomputed": 16.824480056762695
+   },
+   {
+    "window": 32,
+    "text": "broken iPhone 4's and 4th-gen iPod touches, marking the beginning of what",
+    "stored": 19.91856956481934,
+    "recomputed": 18.96673583984375
+   },
+   {
+    "window": 36,
+    "text": " genocide and help us see how far the genocidal process has progressed. ",
+    "stored": 17.05215263366699,
+    "recomputed": 20.342838287353516
+   },
+   {
+    "window": 29,
+    "text": " from a sample of 669 current-gen games which had protagonists of a specific gender",
+    "stored": 23.61802101135254,
+    "recomputed": 25.236486434936523
+   },
+   {
+    "window": 25,
+    "text": "Reporting by: Wladimir van Wilgenburg | Source: ARA News ",
+    "stored": 29.71146202087402,
+    "recomputed": 29.760143280029297
+   },
+   {
+    "window": 28,
+    "text": " start of the month, the Guggenheim was essentially shut down for May Day",
+    "stored": 24.74828720092773,
+    "recomputed": 32.2119255065918
+   },
+   {
+    "window": 9,
+    "text": " just what allegedly happened at the Guggenheim. According to the Post, a",
+    "stored": 35.89412307739258,
+    "recomputed": 32.77162551879883
+   },
+   {
+    "window": 13,
+    "text": " totally different way,” Guggenheim says. “And look at",
+    "stored": 35.43496322631836,
+    "recomputed": 33.507850646972656
+   },
+   {
+    "window": 22,
+    "text": " premium costs. Many community colleges in Bergen and Passaic counties were forced to cut",
+    "stored": 31.83652687072754,
+    "recomputed": 34.02140426635742
+   },
+   {
+    "window": 20,
+    "text": " a great scientist is less about “genius” than it is about willingness",
+    "stored": 33.70348739624023,
+    "recomputed": 34.02999496459961
+   },
+   {
+    "window": 7,
+    "text": "iten und Straftaten aufgenommen haben, die nie",
+    "stored": 36.79243850708008,
+    "recomputed": 34.698020935058594
+   },
+   {
+    "window": 10,
+    "text": ", Brazilian Specialty Foods in North Bergen, N.J., which I write",
+    "stored": 35.73934936523438,
+    "recomputed": 35.728572845458984
+   },
+   {
+    "window": 12,
+    "text": "60 RPM (Video) Algenol's Algae-to-E",
+    "stored": 35.65454483032227,
+    "recomputed": 37.220943450927734
+   },
+   {
+    "window": 5,
+    "text": ", Vadim Shipachev and Evgeni Malkin scored for Russia. ",
+    "stored": 39.30024719238281,
+    "recomputed": 40.906009674072266
+   },
+   {
+    "window": 2,
+    "text": ", which he suffered while blocking an Evgeni Malkin slapshot in Game 3",
+    "stored": 43.59979248046875,
+    "recomputed": 43.85887908935547
+   },
+   {
+    "window": 1,
+    "text": " — mainly to members of taxi mogul Evgeny Freidman's taxi fleet.",
+    "stored": 43.83700942993164,
+    "recomputed": 45.1555290222168
+   }
+  ],
+  "positives": 47,
+  "grey": [
+   {
+    "window": 50,
+    "text": " **Ace** of Spades Jhin on the **four** of Spades",
+    "stored": 4.984776496887207,
+    "recomputed": 4.281998634338379
+   }
+  ],
+  "zero": [
+   {
+    "window": 42,
+    "text": "<|endoftext|> sperm all this time? Genetic tests soon revealed the answer. ",
+    "stored": 10.76037788391113,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5634,
+    "window": 29,
+    "text": "ibliotecas e projetos independentes e autônomo de d",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 46,
+    "text": " is being embraced by so-called evangelical churches announcing that we worship the same god and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 12,
+    "text": " to take in all that caffeine? The relative amount of caffeine that its ingesting should",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 40,
+    "text": ") characters talk to each other from opposite sides of the screen. This involves looking at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 10,
+    "text": " reveals at the show, especially given recent rumors surrounding both Star Wars: Battlefront 2",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 19,
+    "text": " that it was quite possible that cancer caused smoking — after all, precancerous growth",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 55,
+    "text": "<|endoftext|> doctor, 'Give me some morphine.' They had no#8800 it had",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 18,
+    "text": " as adroit there as her more-ape-like ancestors. “Here�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 49,
+    "text": " Fox Sports, StarSports, ASN and Videoland for sports programming. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 43,
+    "text": " of<|endoftext|>ate the current federal excise tax structure for the nation’s brewers,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 46,
+    "text": " nearly 10 percentage points lower than it was a decade ago. First-time homebuy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 67,
+    "text": "socialist\" by Fox News. Reagan was willing to address many of the negative aspects",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 51,
+    "text": ", put our own individual interests to one side, and break the Labour Party’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 12,
+    "text": ", but they add up to a big bundle of unified nonsense. Yet McConnell is now",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 58,
+    "text": " these are designed so that the player can tailor their battalion to their own likes and play",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 21,
+    "text": ".\" <|endoftext|> rushing offense. Per the report from Football Scoop, Illinois",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 21,
+    "text": " what have you, simply because things were quiet on the news front, Loeb confirms",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 20,
+    "text": " Spanish every day, talking in a very quiet voice so that the other players could not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 16,
+    "text": "training sessions for 500 gals that weekend.) But as for the gathering itself, noted",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 62,
+    "text": "-area kennel. In Chicago, the dog flu spread so quickly",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

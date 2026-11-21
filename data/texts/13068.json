@@ -1,0 +1,282 @@
+{
+ "feature": 13068,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 33,
+    "text": " factory named Fábrica de Papel de Loreto y Peña P<|endoftext|>",
+    "stored": 4.726408004760742,
+    "recomputed": 4.01630973815918
+   },
+   {
+    "window": 31,
+    "text": ", and collaborators from dancehall star Popcaan to pop-house favourite Flume",
+    "stored": 4.955782890319824,
+    "recomputed": 6.808929920196533
+   },
+   {
+    "window": 28,
+    "text": " Saturday: Sun and clouds. Pop-up shower mainly inland. Highs 80",
+    "stored": 7.414422988891602,
+    "recomputed": 8.88774299621582
+   },
+   {
+    "window": 23,
+    "text": " adventure that actually features talking trees and raccoons. It's not that they're",
+    "stored": 11.69433116912842,
+    "recomputed": 9.199341773986816
+   },
+   {
+    "window": 26,
+    "text": " Related Future of Storytelling Pop-Up VR Arcade Is Coming to Manhattan Sche",
+    "stored": 8.566306114196777,
+    "recomputed": 11.311260223388672
+   },
+   {
+    "window": 25,
+    "text": " tour. He paired up with his rock-star sister Poe and toured with Depe",
+    "stored": 10.94392681121826,
+    "recomputed": 11.397134780883789
+   },
+   {
+    "window": 20,
+    "text": " and Drug Administration recalled a number of pacemakers because of these same whiskers.",
+    "stored": 14.69570350646973,
+    "recomputed": 13.4652099609375
+   },
+   {
+    "window": 29,
+    "text": " on your toes as a fan. Pacman has been arrested eight different times since entering",
+    "stored": 5.855876445770264,
+    "recomputed": 13.690675735473633
+   },
+   {
+    "window": 22,
+    "text": " list. #9: Pacman Jones Ahhh, the Pac",
+    "stored": 14.08106327056885,
+    "recomputed": 14.643207550048828
+   },
+   {
+    "window": 18,
+    "text": " 2015. (Photo by Brianna Paciorka, NOLA.com",
+    "stored": 18.72109222412109,
+    "recomputed": 17.749361038208008
+   },
+   {
+    "window": 17,
+    "text": " the likes of Floyd Mayweather, Manny Pacquiao and Shane Mosley. ",
+    "stored": 21.92585754394531,
+    "recomputed": 19.028982162475586
+   },
+   {
+    "window": 16,
+    "text": "-per-view fight featuring Manny Pacquiao without the help of HBO or Showtime",
+    "stored": 22.31101989746094,
+    "recomputed": 19.791339874267578
+   },
+   {
+    "window": 10,
+    "text": " three Final Fours and was 2010 Pac-12 Co-Defensive Player of the",
+    "stored": 31.54440879821777,
+    "recomputed": 30.678647994995117
+   },
+   {
+    "window": 11,
+    "text": " were on the verge of forming a Pac-16 and breaking the Big 12 apart.",
+    "stored": 29.50763893127441,
+    "recomputed": 32.10070037841797
+   },
+   {
+    "window": 12,
+    "text": " of 13 old games, including Pac-Man, Doom, Lemmings, Prince",
+    "stored": 27.73128128051758,
+    "recomputed": 32.59532165527344
+   },
+   {
+    "window": 9,
+    "text": "13, good for second in the Pac-12 and the sixth-best single season",
+    "stored": 31.98538780212402,
+    "recomputed": 33.24855041503906
+   },
+   {
+    "window": 1,
+    "text": " after the emotional high of winning the Pac-12 South in 2013 and climbing up to",
+    "stored": 35.32225036621094,
+    "recomputed": 33.505977630615234
+   },
+   {
+    "window": 6,
+    "text": " numbers and with the Big Ten, Pac-12 and SEC dabbling to various degrees",
+    "stored": 33.90114974975586,
+    "recomputed": 34.669090270996094
+   },
+   {
+    "window": 0,
+    "text": " the Big Ten and Colorado to the Pac-12. For a moment there, Texas",
+    "stored": 35.89797592163086,
+    "recomputed": 35.03887176513672
+   },
+   {
+    "window": 3,
+    "text": " Utah in the opening round of the Pac-12 tournament, two days after the suspensions",
+    "stored": 34.75084686279297,
+    "recomputed": 35.32617950439453
+   }
+  ],
+  "positives": 26,
+  "grey": [
+   {
+    "window": 27,
+    "text": "care and economic security Gatineau, Que., rises to the top",
+    "stored": 7.889392375946045,
+    "recomputed": 1.4327306747436523
+   },
+   {
+    "window": 30,
+    "text": "icky bombs. Thanks @RockstarGames pic.twitter.com/WA",
+    "stored": 5.157149791717529,
+    "recomputed": 2.5314016342163086
+   },
+   {
+    "window": 32,
+    "text": " 9:03 PM 298 177 SPORTSCENTER MORNING ESPN 5:00 AM 6",
+    "stored": 4.754217147827148,
+    "recomputed": 0.5416361689567566
+   }
+  ],
+  "zero": [
+   {
+    "window": 34,
+    "text": " Auto, or mowing down scores of racially stereotyped Arabs in some fictional Middle Eastern",
+    "stored": 2.760590791702271,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 2019,
+    "window": 14,
+    "text": ") and William McNulty (Chief Expeditionary Officer) to create POS REP,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 51,
+    "text": " they appear in theaters. Studios like Universal Pictures and Warner Bros. were said to be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 3,
+    "text": " potential new competitors and an annual avalanche of legislation that serves only to empower entrenched interests of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 62,
+    "text": "? Game Front gives the definitive opinion with our massive Xbox One vs. Playstation 4 Ultimate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 39,
+    "text": " Hutt River seceded, a bill of rights, a brief document outlining the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 25,
+    "text": " colleagues had<|endoftext|> level. McCloskey said he believes nanoscale",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 44,
+    "text": " the high bar for criminal prosecution under Washington state law, which requires a showing that the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 45,
+    "text": " the opportunities presented by the evolving Brexit negotiations.\" EU researchers working and studying in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 35,
+    "text": " social media strike on actress Leslie Jones of Ghostbusters fame, a form of character assassination in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 11,
+    "text": " That is not to say that Lego is now endorsing the current work by Mr",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 30,
+    "text": "s version is easier to buy than the genuine article, and even if it is a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 32,
+    "text": "broken iPhone 4's and 4th-gen iPod touches, marking the beginning of what",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 36,
+    "text": " and one woman. And it takes place just one week shy of the second anniversary of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 54,
+    "text": " would rape her’, ‘That big bitch is bitter that no one wants",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 44,
+    "text": " and other unique benefits) are also available exclusively through ussoccer.com. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 61,
+    "text": " ever Stand Up for Mental Health (SUFMH) comedy show at the Modern Theater",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 3,
+    "text": " residents spoke out on Monday, urging both sides “tune down the volume and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 39,
+    "text": " The aircraft registration is made up of a prefix selected from the country's callsign prefix",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 7,
+    "text": ". In mid-Feburary, Hobart-based independent MP Andrew",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 72,
+    "text": " 6: Kean at Bishop’s WOMEN W",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "feature": 1746,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": " iTunes updates were rolled out as \"hackers\" found new workarounds.A",
+    "stored": 2.575471878051758,
+    "recomputed": 2.8135321140289307
+   },
+   {
+    "window": 57,
+    "text": " of Qaddafi’s most dangerous opponents were groups that the United States had officially",
+    "stored": 3.324360132217407,
+    "recomputed": 4.251870155334473
+   },
+   {
+    "window": 47,
+    "text": " sending \"criminals\" and \"rapists\" into the United States, and for",
+    "stored": 6.825557231903076,
+    "recomputed": 5.537398815155029
+   },
+   {
+    "window": 50,
+    "text": " practices that may have already been exploited by spies, hackers and other advantageous adversaries, Pro",
+    "stored": 5.577342987060547,
+    "recomputed": 6.439820289611816
+   },
+   {
+    "window": 51,
+    "text": " than from grand schemes launched by planners and revolutionaries. Economists and scholars of",
+    "stored": 5.24915599822998,
+    "recomputed": 8.077857971191406
+   },
+   {
+    "window": 38,
+    "text": " caused by a group of 30 to 35 rebels who were “hiding in the",
+    "stored": 10.32388210296631,
+    "recomputed": 11.773152351379395
+   },
+   {
+    "window": 42,
+    "text": " trio of self-proclaimed ex-terrorists turned evangelical Christians was Walid Shoeb",
+    "stored": 8.53968620300293,
+    "recomputed": 12.781219482421875
+   },
+   {
+    "window": 39,
+    "text": " GMT) on Saturday to allow civilians and rebels to leave the city via safe corridors.",
+    "stored": 10.20885562896729,
+    "recomputed": 13.943904876708984
+   },
+   {
+    "window": 26,
+    "text": " Celebrity<|endoftext|> Freeing America-hating terrorists from Gitmo is patriotism. Forcing",
+    "stored": 15.56881332397461,
+    "recomputed": 15.133951187133789
+   },
+   {
+    "window": 34,
+    "text": " was allowing safe passage to Syria for ISIS fighters exiting Mosul, Iraq – even though the",
+    "stored": 12.37756443023682,
+    "recomputed": 15.958480834960938
+   },
+   {
+    "window": 31,
+    "text": " getting rid of bigger denominations can really prevent terrorists or criminals from engaging in illegal activities,",
+    "stored": 13.76192760467529,
+    "recomputed": 17.180950164794922
+   },
+   {
+    "window": 24,
+    "text": "-Russian newspaper, the Guardian, ISIS militants are already fleeing Mosul to Syria. This",
+    "stored": 16.16811752319336,
+    "recomputed": 17.5955810546875
+   },
+   {
+    "window": 30,
+    "text": " the Iraqi government announced Wednesday it had pushed insurgents out of the city, reclaiming the",
+    "stored": 13.9198112487793,
+    "recomputed": 17.92018699645996
+   },
+   {
+    "window": 17,
+    "text": "ulin, made a decision to attack the terrorists. The skillful actions of the Russian",
+    "stored": 17.99943542480469,
+    "recomputed": 18.506549835205078
+   },
+   {
+    "window": 21,
+    "text": " opposite direction, it was shot down by terrorists from the ground and crashed in an area",
+    "stored": 16.94071197509766,
+    "recomputed": 18.811845779418945
+   },
+   {
+    "window": 11,
+    "text": " that his fighters included Al-Qaeda linked jihadists who fought against allied troops in Iraq.",
+    "stored": 18.6805305480957,
+    "recomputed": 19.410518646240234
+   },
+   {
+    "window": 13,
+    "text": " to identify and take down the network of terrorists behind the carnage. Salah",
+    "stored": 18.39554405212402,
+    "recomputed": 20.191083908081055
+   },
+   {
+    "window": 5,
+    "text": " the use of encrypted messaging services used by terrorists and criminals at an upcoming meeting of ministers",
+    "stored": 19.03927230834961,
+    "recomputed": 20.414302825927734
+   },
+   {
+    "window": 2,
+    "text": "The Russian Defense Ministry said Saturday that Daesh terrorists shot down a helicopter near Syria's Pal",
+    "stored": 19.6559944152832,
+    "recomputed": 21.050539016723633
+   },
+   {
+    "window": 6,
+    "text": " intention to send 400 soldiers to train the terrorists,” the state news agency S",
+    "stored": 18.95586776733398,
+    "recomputed": 21.495346069335938
+   }
+  ],
+  "positives": 60,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14562,
+    "window": 56,
+    "text": " biologically or even psychologically, but were perfectly modern human beings living in the very circumstances that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 31,
+    "text": " schools. The main one here is Caesar Chavez. The privatization of schools is the death",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 18,
+    "text": " has a deadline of Thursday to strike a rescue deal with Italy's Fiat without which the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 7,
+    "text": " in interest. This is not dissimilar to what banks do to their customers",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 54,
+    "text": " about Seattle Startup Week, which is next week and has a ton of activity of interest",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 25,
+    "text": "icada en esta obra e indicó que los expertos analizaron",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 5,
+    "text": "ett's record for most rushing yards by a freshman in the Big East. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 21,
+    "text": "-mail) involving an unspecified experiment, rumors began to fly immediately. By Friday afternoon",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 9,
+    "text": ". I've looked at just about every bill to see how we could make it smaller",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 6,
+    "text": " tough re-election races. Sen. Gordon Smith (R-OR) has run",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 29,
+    "text": "ranos, but, oddly, nothing of the sort is happening in the image-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 43,
+    "text": " George. The celebration will begin Monday at 4:15 p.m.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 5,
+    "text": " and open to the public. Activities and displays now take up as much",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 43,
+    "text": ", on Monday's radio show --transcripts and audio here-- and it is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 25,
+    "text": " A team at Aberdeen's Robert Gordon University spent two years assessing measurements of hundreds",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 43,
+    "text": " working with URLs is the URL() global method. If you need to break",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 46,
+    "text": " work out at all, what could have been done better or tackled from a different angle",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 40,
+    "text": " on some social issues “make the Party look like it isn’t a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 21,
+    "text": " are other factors such as weight and moist absorption which can also make you re-think",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 45,
+    "text": "2.1 on its local network. If it receives a valid response, it grants",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

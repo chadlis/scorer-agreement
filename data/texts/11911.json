@@ -1,0 +1,294 @@
+{
+ "feature": 11911,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 53,
+    "text": " He remained at the Metropolitan Detention Center on Tuesday on a $2,000 bond.",
+    "stored": 7.202534675598145,
+    "recomputed": 4.447965145111084
+   },
+   {
+    "window": 50,
+    "text": " their driest 60 days on record, Thursday's national drought report showed. ",
+    "stored": 10.15928554534912,
+    "recomputed": 6.098624229431152
+   },
+   {
+    "window": 44,
+    "text": " every precaution when he posted the message early Friday, sometime between 1 and 3 a.",
+    "stored": 13.166428565979,
+    "recomputed": 8.417140007019043
+   },
+   {
+    "window": 46,
+    "text": " York to Prague, a Czech newspaper reported Wednesday. According to the report,",
+    "stored": 12.32901477813721,
+    "recomputed": 10.057419776916504
+   },
+   {
+    "window": 48,
+    "text": " before the incoming Liberal government is sworn in Wednesday. (Adrian Wyld/Canadian",
+    "stored": 12.23464584350586,
+    "recomputed": 11.468113899230957
+   },
+   {
+    "window": 36,
+    "text": " A CNN/ORC national poll released Tuesday finds Trump ahead of Clinton by<|endoftext|> towards",
+    "stored": 16.50232696533203,
+    "recomputed": 13.528410911560059
+   },
+   {
+    "window": 40,
+    "text": " time. The federal government may shut down Tuesday because it cannot afford to pay its bills",
+    "stored": 15.12494945526123,
+    "recomputed": 14.002594947814941
+   },
+   {
+    "window": 26,
+    "text": " met for an hour with Chief Bronaugh Tuesday afternoon, with the union hoping Chief Bron",
+    "stored": 22.98437309265137,
+    "recomputed": 14.880636215209961
+   },
+   {
+    "window": 30,
+    "text": " in March and returned for the public unveiling Monday. “This is as good a",
+    "stored": 20.0374870300293,
+    "recomputed": 17.880346298217773
+   },
+   {
+    "window": 45,
+    "text": " Department practiced crowd control techniques in Fair Park Wednesday, June 15, 2016. (Published",
+    "stored": 12.7397403717041,
+    "recomputed": 19.282503128051758
+   },
+   {
+    "window": 9,
+    "text": " agencies that assisted in securing the crime scene Thursday, including, the FBI Safe Streets Task",
+    "stored": 28.3961296081543,
+    "recomputed": 20.285049438476562
+   },
+   {
+    "window": 23,
+    "text": " number of gas canisters that was stopped Wednesday night close to the Maassilo concert",
+    "stored": 25.04429626464844,
+    "recomputed": 21.478620529174805
+   },
+   {
+    "window": 29,
+    "text": "ulz said the decision to cancel was made Thursday morning after a meeting with the nonprofit's",
+    "stored": 20.76518249511719,
+    "recomputed": 22.02144432067871
+   },
+   {
+    "window": 1,
+    "text": " the hospital, and then booked into jail Sunday morning. The Jackson County Sheriff",
+    "stored": 30.80355834960938,
+    "recomputed": 23.24541473388672
+   },
+   {
+    "window": 17,
+    "text": " Tepfer, who filed the petition Tuesday on behalf of the 15 defendants, said",
+    "stored": 27.87704086303711,
+    "recomputed": 23.642127990722656
+   },
+   {
+    "window": 22,
+    "text": " impacting five<|endoftext|>Cycle Oregon was canceled Thursday because of wildfires in central and southern Oregon",
+    "stored": 25.28826713562012,
+    "recomputed": 23.817893981933594
+   },
+   {
+    "window": 2,
+    "text": " He posted a $20,000 bond Wednesday and was released. Oy",
+    "stored": 29.80688095092773,
+    "recomputed": 24.587406158447266
+   },
+   {
+    "window": 7,
+    "text": " students. School administrators received information Friday about marijuana-laced cookies on school",
+    "stored": 28.60761070251465,
+    "recomputed": 25.841489791870117
+   },
+   {
+    "window": 4,
+    "text": " The kidnapped female flamingo was recovered Tuesday, but it was also severely injured and",
+    "stored": 29.3309211730957,
+    "recomputed": 26.718929290771484
+   },
+   {
+    "window": 0,
+    "text": " of West Bethel Avenue, was arrested Monday on preliminary charges of strangulation, interference",
+    "stored": 31.06358528137207,
+    "recomputed": 27.307682037353516
+   }
+  ],
+  "positives": 56,
+  "grey": [
+   {
+    "window": 43,
+    "text": " Wednesday, as he invites me for a nearly two-hour interview in his Mercedes-",
+    "stored": 13.82636165618896,
+    "recomputed": 2.85860013961792
+   },
+   {
+    "window": 55,
+    "text": " about 8:00 or 8:30 Monday. And I think I got out there",
+    "stored": 4.35223388671875,
+    "recomputed": 1.2409039735794067
+   },
+   {
+    "window": 57,
+    "text": " my boyfriend in Lincoln Park around 10 pm tonight on Saturday, June 3rd and saw",
+    "stored": 3.778378248214722,
+    "recomputed": 0.222335547208786
+   },
+   {
+    "window": 59,
+    "text": " of “Justice League” until Thursday, reported a score of 40%. R",
+    "stored": 3.303344964981079,
+    "recomputed": 1.0226210355758667
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 21857,
+    "window": 4,
+    "text": "” the language was included in the legislation passed by the House. �",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 16,
+    "text": " impact. The establishment of elected officials, party insiders, and wealthy donors use their power",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 0,
+    "text": " storms, changing the planet's ability to absorb sunlight. Some of the water ice at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 1,
+    "text": "strom's, but he says the robbers left everything alone when they realized it was not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 56,
+    "text": " true kevana. I still don't have a desire to wear tallit or te",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 35,
+    "text": " New Technology Telescope and the NASA/ESA Hubble Space Telescope to explore more than 100 planetary",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 66,
+    "text": " family, friends, and everyone who loved, knew, and admired him\". ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 12,
+    "text": " because they are extraordinarily risk-averse.) But Oyster went ahead and got H",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 31,
+    "text": "mos) and plunge into the dim underbelly of Tijuana, forced to unravel",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 5,
+    "text": " matter how often one reads about fires or structural collapses in Asia that kill hundreds of workers",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 36,
+    "text": " to represent independence between probability distributions in a way that can be verified statically. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 44,
+    "text": "CPI). People's eyes glaze over with this one. I'm",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 15,
+    "text": "Her statement to the public, and directly to the NCAA, was a fantastic piece of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 7,
+    "text": "ellick said in a statement that the extra money would help \"sharply reduce",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 22,
+    "text": " more in central broadcast distributions than they did in 2012-13, which helped fuel the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 41,
+    "text": " expanding national presence. There are WFP chapters in 12 states and Washington, DC,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 33,
+    "text": " einer Dienststelle der Bundespolizei im Berliner Ost",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 15,
+    "text": " [with Real Madrid] and Jürgen Klopp had also a contract [at Bor",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 14,
+    "text": " like Leader-1, Bugbite and Cop-Tur. In fact, the Wal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 37,
+    "text": "ymes of every culture carry the 'signature' melodies and inflections of a mother",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 8968,
+    "window": 51,
+    "text": ", protest outside Lloyd George Federal Building on Thursday, March 10, 2016, in Las",
+    "recomputed": 2.1554763317108154
+   },
+   {
+    "from_feature": 8995,
+    "window": 15,
+    "text": " Arkansas TV reporter and is expected to tell radio host Aaron Klein her story Sunday night.",
+    "recomputed": 21.720760345458984
+   }
+  ]
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "feature": 18011,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 24,
+    "text": " bankrupting the government, which had given depositor guarantees for all of the country�",
+    "stored": 6.795553207397461,
+    "recomputed": 7.437281608581543
+   },
+   {
+    "window": 22,
+    "text": " pads and drove him back several yards, depositing him on his rear end on his",
+    "stored": 8.65584659576416,
+    "recomputed": 8.361030578613281
+   },
+   {
+    "window": 23,
+    "text": " fixes elections, jails opponents and suppresses dissent with ruthless violence. Just the sort of",
+    "stored": 8.189621925354004,
+    "recomputed": 8.978570938110352
+   },
+   {
+    "window": 25,
+    "text": " an espionage team named Packrat to silence dissent in Ecuador, Venezuela, and Argentina.",
+    "stored": 6.436685562133789,
+    "recomputed": 10.284852981567383
+   },
+   {
+    "window": 20,
+    "text": " the unemployed does them a “disservice” because it keeps them",
+    "stored": 14.98758888244629,
+    "recomputed": 14.299531936645508
+   },
+   {
+    "window": 12,
+    "text": " ago, acid rain was killing fish and dissolving stone monuments on the East Coast.",
+    "stored": 55.47592544555664,
+    "recomputed": 54.215492248535156
+   },
+   {
+    "window": 18,
+    "text": "ices Alito, Roberts, and Kennedy dissented in part. (Justice Gorsuch did",
+    "stored": 51.49954605102539,
+    "recomputed": 55.091209411621094
+   },
+   {
+    "window": 17,
+    "text": ", but before<|endoftext|> top-level thermal dissipation strategies for aftermarket coolers in",
+    "stored": 52.09928894042969,
+    "recomputed": 56.60183334350586
+   },
+   {
+    "window": 16,
+    "text": " and a meme war, with partisans trading diss tracks and web videos that bash the other",
+    "stored": 53.81534194946289,
+    "recomputed": 58.43061828613281
+   },
+   {
+    "window": 15,
+    "text": " forces. Scorpion's allegiance to Kahn quickly dissolves when he discovers, in a continu",
+    "stored": 54.06280899047852,
+    "recomputed": 58.99245834350586
+   },
+   {
+    "window": 13,
+    "text": " be delegitimized by stigma will dissociate from any hint of racism. They",
+    "stored": 55.0817985534668,
+    "recomputed": 59.455772399902344
+   },
+   {
+    "window": 14,
+    "text": " recall across stimulus categories. The observed performance dissociation suggests that the posterior parietal lobe",
+    "stored": 54.844482421875,
+    "recomputed": 59.631874084472656
+   },
+   {
+    "window": 10,
+    "text": " communities from fragmenting and social networks from dissolving. Henrich points<|endoftext|>",
+    "stored": 56.4569206237793,
+    "recomputed": 61.780757904052734
+   },
+   {
+    "window": 4,
+    "text": " state police officers. The sole dissenter was Justice Thurgood Marshall,",
+    "stored": 58.79563522338867,
+    "recomputed": 62.30573654174805
+   },
+   {
+    "window": 7,
+    "text": " in interest. This is not dissimilar to what banks do to their customers",
+    "stored": 57.48276138305664,
+    "recomputed": 62.44645309448242
+   },
+   {
+    "window": 9,
+    "text": " me to stand as a lone voice of dissension, but the vote for the speaker",
+    "stored": 56.90453338623047,
+    "recomputed": 62.91701126098633
+   },
+   {
+    "window": 3,
+    "text": ": men. In 2008, Lee considered dissolving the government's Ministry of Gender Equality",
+    "stored": 59.89350891113281,
+    "recomputed": 63.370506286621094
+   },
+   {
+    "window": 6,
+    "text": " endorsement makes clear, that was not a diss. And the endorsement of the mayor,",
+    "stored": 58.23860549926758,
+    "recomputed": 63.62858581542969
+   },
+   {
+    "window": 1,
+    "text": " been building itself out of a group of dissident Imperial Admirals and Moffs who",
+    "stored": 60.67134475708008,
+    "recomputed": 63.872249603271484
+   },
+   {
+    "window": 0,
+    "text": " to be used in an exhibition by a dissident Chinese artist. Key points",
+    "stored": 61.39285278320312,
+    "recomputed": 65.0644302368164
+   }
+  ],
+  "positives": 26,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 11911,
+    "window": 57,
+    "text": " my boyfriend in Lincoln Park around 10 pm tonight on Saturday, June 3rd and saw",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 4,
+    "text": "'s disciples in the United States and the structural anthropologists in Europe had rejected any notion",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 8,
+    "text": " here’s a link to a picture of Charlie Adam, feel free to print",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 14,
+    "text": " Haugeberg discuss her research on these radio programs: Like this story?",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 59,
+    "text": " iTunes updates were rolled out as \"hackers\" found new workarounds.A",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 46,
+    "text": " work on. That was what made me worry. Halfway across the city",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 4,
+    "text": "our pressure,<|endoftext|> studies on the absorbance of the greenhouse gases water, carbon dioxide",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 36,
+    "text": "ated. Suddenly, from both paths, two monsters appeared. They were growling,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 47,
+    "text": ", unlike Britain or France,<|endoftext|>WASHINGTON (WUSA) -- A woman was sent",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 6,
+    "text": " clicked, and there’s a quiet level of excitement about him in an organization",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 23,
+    "text": " criticising new EU rules on allergen labelling in restaurant. That is not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 38,
+    "text": " caused by a group of 30 to 35 rebels who were “hiding in the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 38,
+    "text": "-announce] Valentine's? Kolab 3.2 Release Day! ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 44,
+    "text": " on under the hood? As method name suggests Aggregate will aggregate objects stored",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 74,
+    "text": " But the sexual deviancy of practicing Muslims has an economic impact as well",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 43,
+    "text": " mauled by the wild-animal extras who turn out to be the real stars",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 22,
+    "text": " in a 2004 fight with Mirko Cro Cop, but that wasn't from a submission",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 52,
+    "text": " hegemonic force within the Russian revolutionary current, and in establishing further Bolshevik supremacy,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 11,
+    "text": " approves of this, and the Indonesian Council of Ulema [MUI] approves",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 19,
+    "text": " “The arguments for such a body are overwhelming,” he says.",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "feature": 13689,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 31,
+    "text": ", Koji Fujiyama, Tooru Hanada, Ryuji Hayami,",
+    "stored": 4.02789306640625,
+    "recomputed": 3.893378257751465
+   },
+   {
+    "window": 34,
+    "text": ". Andrew Murphy, chief of allergy at Chester County Hospital of the University of Pennsylvania Health",
+    "stored": 3.261717796325684,
+    "recomputed": 5.925282001495361
+   },
+   {
+    "window": 32,
+    "text": " and her date. Translation: Andreas Ekström. In",
+    "stored": 3.742193460464478,
+    "recomputed": 6.322388648986816
+   },
+   {
+    "window": 30,
+    "text": " the dog to a rescue organization. Gleason says Sammie’s rescue was",
+    "stored": 5.151993751525879,
+    "recomputed": 7.354190349578857
+   },
+   {
+    "window": 27,
+    "text": ", but the power-packed midfield of Andreas Weimann Tom Huddlestone",
+    "stored": 7.196117401123047,
+    "recomputed": 9.188586235046387
+   },
+   {
+    "window": 22,
+    "text": " quoted Russian Defense Ministry spokesman Major General Igor Konashenkov as saying. \"We",
+    "stored": 9.394599914550781,
+    "recomputed": 11.705387115478516
+   },
+   {
+    "window": 26,
+    "text": ". He says his flock in Peru didn’t know about the abuse",
+    "stored": 7.716941833496094,
+    "recomputed": 12.164093017578125
+   },
+   {
+    "window": 21,
+    "text": " the son of an Alsatian; Konrad Adenauer was a Rhinelander",
+    "stored": 11.21519374847412,
+    "recomputed": 13.331443786621094
+   },
+   {
+    "window": 20,
+    "text": "amboanga City, ... more Photo: Anton Mari H. Lim, Courtesy Anton Lim",
+    "stored": 11.55031871795654,
+    "recomputed": 14.66331672668457
+   },
+   {
+    "window": 14,
+    "text": " Barack Obama on Saturday for not attending Justice Antonin Scalia's funeral services. ",
+    "stored": 12.57445049285889,
+    "recomputed": 15.08227252960205
+   },
+   {
+    "window": 11,
+    "text": ". This conflict resulted in many controversies during Konoe's reign.[6] ",
+    "stored": 13.17367649078369,
+    "recomputed": 15.855088233947754
+   },
+   {
+    "window": 12,
+    "text": ", the art direction is courtesy of Viktor Antonov and Sebasian Mitton.",
+    "stored": 12.91761207580566,
+    "recomputed": 16.659067153930664
+   },
+   {
+    "window": 16,
+    "text": " go after. One of those individuals was Antonin “Tony” Rezko",
+    "stored": 12.19790267944336,
+    "recomputed": 16.87169647216797
+   },
+   {
+    "window": 2,
+    "text": " will be held at Gleneagles, Perthshire in September next year. ",
+    "stored": 26.92866325378418,
+    "recomputed": 27.757097244262695
+   },
+   {
+    "window": 4,
+    "text": "17 km (354 mi) north of Perth, along the Hutt River. It",
+    "stored": 26.0716609954834,
+    "recomputed": 28.795413970947266
+   },
+   {
+    "window": 6,
+    "text": " Blairgowrie Golf Club, also in Perthshire. Edward Kitson,",
+    "stored": 25.86520385742188,
+    "recomputed": 29.553037643432617
+   },
+   {
+    "window": 8,
+    "text": " (1,930 mi) away in Perth, Western Australia, and the Indian Ocean",
+    "stored": 25.47074890136719,
+    "recomputed": 30.0648250579834
+   },
+   {
+    "window": 3,
+    "text": " many passengers in limbo and unable to reach Perth due to a lack of connecting flights.",
+    "stored": 26.09288215637207,
+    "recomputed": 30.937427520751953
+   },
+   {
+    "window": 5,
+    "text": " He worked for a shipping company based in Perth and, although he left school at 14",
+    "stored": 25.93317604064941,
+    "recomputed": 30.974868774414062
+   },
+   {
+    "window": 0,
+    "text": " launch of the SNP General Election manifesto at Perth Concert Hall Jane Barlow/PA 4",
+    "stored": 29.29357528686523,
+    "recomputed": 33.2586555480957
+   }
+  ],
+  "positives": 34,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 9451,
+    "window": 42,
+    "text": " (or cost) of that outcome. If you make an investment that has a 90",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 35,
+    "text": " out some construction paper, a pair of scissors, and that old crafty standby,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 36,
+    "text": ",\" McMahan said. McMahan has solar panels to recharge her Power",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 37,
+    "text": " are forever,” she said. Video is the closest thing we have to a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 63,
+    "text": " you indulge or not -- in fact, if you resist the snacks, you may have",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 48,
+    "text": ", if the P118 million Christmas giveaway allotment was merely given as additional budget to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 50,
+    "text": "**<|endoftext|>I understand why you hate these video games. I really do. I understand",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 10,
+    "text": ", the comedian, has also written to Gordon Brown on behalf of Peta, demanding",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 56,
+    "text": " guys like that hands and good things happen.\"<|endoftext|>In March 2009, SAX Limited",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 26,
+    "text": " released which is based upon the circumvention method discovered recently. The jailbreak tool is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 33,
+    "text": "google.com/analytics/answer/1032415?hl=en-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 40,
+    "text": " country, they have one of the lowest landfill rates: much of the waste is burned",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 47,
+    "text": ". The European Parliament had no legislative powers whatsoever back in 1979. Today it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 52,
+    "text": " “every right to fear” the health care reform plan and perpetuated the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 4,
+    "text": " hundreds of times during the Tony Blair and Gordon Brown years, would understand her strength of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 3,
+    "text": " not offered to most shareholders. Activision has now settled these suits, with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 51,
+    "text": " York. Let the breathless speculation begin: Don Draper and his wife Megan",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 54,
+    "text": "ly selling voters on an impossible victory and delegitimizing the process. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 48,
+    "text": " a hard time finding enough people with cars willing to work for them. To",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 36,
+    "text": " in 2001 following a strong high school career at Flambeau High School in Tony,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

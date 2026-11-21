@@ -1,0 +1,349 @@
+{
+ "feature": 13847,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " EU internet censorship directive”. “Filtering certain content on the",
+    "stored": 1.092487454414368,
+    "recomputed": 0.9617723226547241
+   },
+   {
+    "window": 49,
+    "text": " dark as it does in the path of totality, and the partial eclipse will start earlier",
+    "stored": 2.146260499954224,
+    "recomputed": 1.7568639516830444
+   },
+   {
+    "window": 50,
+    "text": " the Bundesliga that Borussia Dortmund have remained unbeaten at home all season (15 victories,",
+    "stored": 2.100742101669312,
+    "recomputed": 2.0406365394592285
+   },
+   {
+    "window": 51,
+    "text": " to use apps -- like Signal and now WhatsApp -- that encrypt your communications end-to",
+    "stored": 1.960890650749207,
+    "recomputed": 2.364252805709839
+   },
+   {
+    "window": 41,
+    "text": " a national museum of natural history – the Smithsonian Institute. (The history of the expedition",
+    "stored": 3.205278635025024,
+    "recomputed": 2.504589557647705
+   },
+   {
+    "window": 43,
+    "text": " true in states that were part of the Confederacy. Adjusting for this regional variance,",
+    "stored": 2.900715112686157,
+    "recomputed": 2.834282636642456
+   },
+   {
+    "window": 32,
+    "text": " They are not on the scale of the Carrier air conditioning plant layoff; its Indianapolis",
+    "stored": 4.748592853546143,
+    "recomputed": 3.0886547565460205
+   },
+   {
+    "window": 35,
+    "text": " social media strike on actress Leslie Jones of Ghostbusters fame, a form of character assassination in",
+    "stored": 4.492698192596436,
+    "recomputed": 3.420258045196533
+   },
+   {
+    "window": 25,
+    "text": ", technology, engineering, and mathematics (STEM) fields. The false claims are examples",
+    "stored": 6.134944438934326,
+    "recomputed": 3.806119203567505
+   },
+   {
+    "window": 38,
+    "text": "’<|endoftext|> locomotion; the greater dopamine level in the somatosensory cortex",
+    "stored": 3.729252099990845,
+    "recomputed": 4.360835552215576
+   },
+   {
+    "window": 24,
+    "text": " committing crimes in a dispute over funding for sanctuary cities. The White House on",
+    "stored": 6.412471294403076,
+    "recomputed": 4.422074317932129
+   },
+   {
+    "window": 27,
+    "text": " anxiety score and autoAbs directed against oxytocin and vasopressin were also",
+    "stored": 5.490508556365967,
+    "recomputed": 4.816994667053223
+   },
+   {
+    "window": 23,
+    "text": " a particle accelerator, like how a Higgs was found, for an important reason.",
+    "stored": 6.424242973327637,
+    "recomputed": 5.701325416564941
+   },
+   {
+    "window": 6,
+    "text": " even though the numbers required to trigger a recount were \"highly unlikely,\" in the words",
+    "stored": 7.877601623535156,
+    "recomputed": 5.952448844909668
+   },
+   {
+    "window": 17,
+    "text": "idation of drinking water after a councillor described fluoride as 'poisonous''. ",
+    "stored": 7.096662998199463,
+    "recomputed": 6.765939712524414
+   },
+   {
+    "window": 15,
+    "text": "<|endoftext|> Protection Agency for increased tolerance levels for glyphosate. It is mainly used on",
+    "stored": 7.183494091033936,
+    "recomputed": 7.189613342285156
+   },
+   {
+    "window": 0,
+    "text": " said the state of Alabama deserves better than Moore. \"The state of Alabama",
+    "stored": 8.896149635314941,
+    "recomputed": 7.311275005340576
+   },
+   {
+    "window": 1,
+    "text": " Ash and Paul Kemp of the American Kratom Association at the Kratom March on DC",
+    "stored": 8.569453239440918,
+    "recomputed": 7.5667009353637695
+   },
+   {
+    "window": 3,
+    "text": "Ryan, who has pushed to keep a DACA fix separate from a must-pass end",
+    "stored": 8.245280265808105,
+    "recomputed": 7.797037124633789
+   },
+   {
+    "window": 2,
+    "text": " feeling pressure from within to take action on DACA. Curbelo, who",
+    "stored": 8.40274715423584,
+    "recomputed": 9.414381980895996
+   }
+  ],
+  "positives": 55,
+  "grey": [
+   {
+    "window": 48,
+    "text": " and most comprehensively called neo-Darwinian theory. At first it seemed so",
+    "stored": 2.243498802185059,
+    "recomputed": 0.3068634271621704
+   }
+  ],
+  "zero": [
+   {
+    "window": 56,
+    "text": " At the bottom of the table, the Tennessee Titans, Oakland Raiders, Jacksonville Jaguars and",
+    "stored": 0.9994226098060608,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 21183,
+    "window": 75,
+    "text": " <|endoftext|> raise all of the required money. The government pushes the deadline to Oct",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 32,
+    "text": " 40% from the field and 33% from beyond the arc. Although those numbers aren",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 8,
+    "text": "umcision activists—or “intactivists,” as they rather cr",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 31,
+    "text": " 89<|endoftext|> either. I'd vote across party lines for a good candidate, even though",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 16,
+    "text": " put forward by New Zealand, Malaysia, Venezuela and Senegal, was passed after the US",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 47,
+    "text": " to go with a 5:7 touchdown-to-interception ratio. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 8,
+    "text": "Also, I need to learn how to spell “misogynistic.”",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 24,
+    "text": " to review the proposal. Maine is considering a plan from Republican Gov.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 47,
+    "text": "uncle!” It served to quite the hysterics. Who among the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 9,
+    "text": " tracking movements of 70 Pennsylvania hares with radio collars, fitting some of them with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 48,
+    "text": " T-ONO: After Sakura-Con ends you'll be flying to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 0,
+    "text": "water Drinking water Ready-to-eat food ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 13,
+    "text": " există palestinieni care lucrează în",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 17,
+    "text": "000 uninsured individuals. AHIP was also the organization behind this week’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 22,
+    "text": " separation of church and state? Creative Commons - robynneblume",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 48,
+    "text": " before the incoming Liberal government is sworn in Wednesday. (Adrian Wyld/Canadian",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 25,
+    "text": "m. after discovering a purse she had left at a party. The officers demanded she",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 20,
+    "text": " Behörden für seine mutmaßlichen Anschl<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 4,
+    "text": " pick up the Sanguine Garen bundle and save 50% on the skin.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 4,
+    "text": "-play goals. His 35 points currently rank second among all NCHC freshmen.",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 24159,
+    "window": 21,
+    "text": "07 Appalachian State Appalachian State 2007–08 Appalachian State Chattanooga 2008–09 Appalachian State College",
+    "recomputed": 0.7683022022247314
+   },
+   {
+    "from_feature": 3232,
+    "window": 3,
+    "text": " span not as a series of movies connected only by the stylistic quirks of their directors",
+    "recomputed": 0.08991444110870361
+   },
+   {
+    "from_feature": 9692,
+    "window": 16,
+    "text": " site where fans can submit their ideas for LEGO products, once a project<|endoftext|> as they",
+    "recomputed": 1.03512442111969
+   },
+   {
+    "from_feature": 19944,
+    "window": 17,
+    "text": " such as the auto industry, has helped to fuel the popular outrage over the corporate bonuses",
+    "recomputed": 1.3095252513885498
+   },
+   {
+    "from_feature": 1589,
+    "window": 25,
+    "text": " administration staffers quickly walked these comments back. Per an otherwise unbelievable account of the visit published",
+    "recomputed": 0.10325764119625092
+   },
+   {
+    "from_feature": 1133,
+    "window": 34,
+    "text": " former federal jail in the town. Under direction from Warden Robert W. Dick, they",
+    "recomputed": 2.831272602081299
+   },
+   {
+    "from_feature": 16447,
+    "window": 22,
+    "text": ") was able to gain another impressive victory at home versus the Chiefs, and look like",
+    "recomputed": 1.2058957815170288
+   },
+   {
+    "from_feature": 14799,
+    "window": 2,
+    "text": " distance — the new Xbox One and Kinect bundle isn't shipping until later this year,",
+    "recomputed": 2.938213348388672
+   },
+   {
+    "from_feature": 11911,
+    "window": 36,
+    "text": " A CNN/ORC national poll released Tuesday finds Trump ahead of Clinton by<|endoftext|> towards",
+    "recomputed": 4.040849685668945
+   },
+   {
+    "from_feature": 23683,
+    "window": 57,
+    "text": "No Walls Protest.” A few months after Mohammed Morsi was sworn in",
+    "recomputed": 3.1614646911621094
+   },
+   {
+    "from_feature": 9401,
+    "window": 29,
+    "text": " Smith (Saracens), Louis Stanfill (Mogliano), Todd Clever",
+    "recomputed": 0.43824923038482666
+   },
+   {
+    "from_feature": 24159,
+    "window": 38,
+    "text": " (The Green Album) (2001) The previous missteps: Disappearing",
+    "recomputed": 0.5268799066543579
+   },
+   {
+    "from_feature": 3540,
+    "window": 2,
+    "text": " According to the police report, McElroy was asked by management to leave S",
+    "recomputed": 0.35764604806900024
+   }
+  ]
+ }
+}

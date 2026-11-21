@@ -1,0 +1,263 @@
+{
+ "feature": 14612,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " coal and bauxite. On one side of the struggle are the rebels--perhaps",
+    "stored": 6.88520622253418,
+    "recomputed": 4.946996212005615
+   },
+   {
+    "window": 56,
+    "text": " at the players who have been at both ends of the Hot-or-Not spectrum",
+    "stored": 7.787004947662354,
+    "recomputed": 8.851655006408691
+   },
+   {
+    "window": 54,
+    "text": " have come off a bit lately at both ends of the ice. Their last three games",
+    "stored": 10.00699424743652,
+    "recomputed": 9.46590805053711
+   },
+   {
+    "window": 45,
+    "text": " use both elbows for leverage, one each side of the trench. After about one and",
+    "stored": 17.60427284240723,
+    "recomputed": 14.883062362670898
+   },
+   {
+    "window": 55,
+    "text": " \"Working together is good for both parties. Especially now both companies are looking at",
+    "stored": 9.823442459106445,
+    "recomputed": 15.51969051361084
+   },
+   {
+    "window": 43,
+    "text": " large canvas panels surrounded the balloons on all sides. through deep concentration, electronic",
+    "stored": 18.47932243347168,
+    "recomputed": 19.814659118652344
+   },
+   {
+    "window": 47,
+    "text": " truth there was little to tell between each side, and that will explain why Grims",
+    "stored": 15.69712066650391,
+    "recomputed": 25.107694625854492
+   },
+   {
+    "window": 30,
+    "text": " often leaves room for interpretation, allowing various sides to debate openly their preferred take. However",
+    "stored": 31.29000473022461,
+    "recomputed": 27.372705459594727
+   },
+   {
+    "window": 34,
+    "text": " in 1980. Since then, the two sides have engaged in a wide range of exercises",
+    "stored": 26.28262710571289,
+    "recomputed": 30.71429443359375
+   },
+   {
+    "window": 32,
+    "text": ". It strained relations just as the two sides were wrestling with how to make a success",
+    "stored": 29.61919784545898,
+    "recomputed": 31.884723663330078
+   },
+   {
+    "window": 29,
+    "text": " there may be legitimate safety concerns on all sides. A safe walk service for any guest",
+    "stored": 31.39460754394531,
+    "recomputed": 34.052188873291016
+   },
+   {
+    "window": 24,
+    "text": " agent defensive end Jason Jones, with both sides interested. CHATTER ",
+    "stored": 36.44098663330078,
+    "recomputed": 38.72368240356445
+   },
+   {
+    "window": 19,
+    "text": " camps, where they are prey to both sides of the proxy war and easy converts to",
+    "stored": 40.00250625610352,
+    "recomputed": 41.236122131347656
+   },
+   {
+    "window": 14,
+    "text": " regulators, industry representatives and activists on both sides. “The Marijuana Enforcement",
+    "stored": 40.47775650024414,
+    "recomputed": 42.451847076416016
+   },
+   {
+    "window": 23,
+    "text": " Yankees would seem to make sense for both sides. Of course, after a",
+    "stored": 36.69536590576172,
+    "recomputed": 43.02480697631836
+   },
+   {
+    "window": 25,
+    "text": " in the final weeks with violations on both sides. Now both Hamas and some Israeli leaders",
+    "stored": 35.10432434082031,
+    "recomputed": 43.16217041015625
+   },
+   {
+    "window": 35,
+    "text": " exchanges, it meant a lot to both sides as Luke Molyneux raced clear",
+    "stored": 26.07302665710449,
+    "recomputed": 44.157562255859375
+   },
+   {
+    "window": 1,
+    "text": " that the “cooperation between both sides would be rule-based, transparent and",
+    "stored": 42.96771621704102,
+    "recomputed": 44.95346450805664
+   },
+   {
+    "window": 7,
+    "text": ",<|endoftext|> resolution. So far, both sides have only seen minor victories. ",
+    "stored": 41.27278518676758,
+    "recomputed": 45.37331008911133
+   },
+   {
+    "window": 3,
+    "text": " residents spoke out on Monday, urging both sides “tune down the volume and",
+    "stored": 42.72557067871094,
+    "recomputed": 47.2244873046875
+   }
+  ],
+  "positives": 58,
+  "grey": [
+   {
+    "window": 60,
+    "text": " Continue reading the main story All parties have said that Mr. Friedman is angry",
+    "stored": 4.770867824554443,
+    "recomputed": 1.8373537063598633
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5030,
+    "window": 10,
+    "text": "<|endoftext|>It's not a huge secret that pinball is alive and well in Pittsburgh —",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 31,
+    "text": " the standpoint of efficiency, control and things of that nature.\" The Bills are",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 5,
+    "text": " protesting or supporting the protesters are first and foremost sick of their shitty lives in a shitty",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 34,
+    "text": " carbs are original, cleaned and tuned to suit the increased airflow from the Lynx filter",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 57,
+    "text": " proven<|endoftext|> said that in future Israel would have to choose either to recognise Hamas was around",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 12,
+    "text": " let off steam once in a while, right?) Returned to his native Pakistan,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 28,
+    "text": " team has devolved into a “knife fight,” writing on Twitter that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 46,
+    "text": " and third quarters with the ball changing hands at the end of the quarter. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 71,
+    "text": " are rated as junk. Hence we can expect that even with just one agency rating South",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 25,
+    "text": " which actress it is) gets naked an masturbates while Tasha secretly watches her.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 0,
+    "text": " feels good. Cocaine activates the same pleasure centers in your brain as breaking champagne glasses",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 81,
+    "text": " former reality TV star's 95 percent pledge was an ad-libbed moment in a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 45,
+    "text": " at officers during a disturbance call in Washington state sparked calls for a federal investigation and weeks",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 5,
+    "text": " waters around the ship, with some using suitcases as makeshift flotation<|endoftext|>In my",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 3,
+    "text": " 21. Challenge it to a knife fight - against itself.<|endoftext|>�v",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 46,
+    "text": " deer. The arrow missed, then ricocheted and hit the king in the heart",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 30,
+    "text": " Although there are many libertarians in the ranks of the Conservative party, including Harper",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 48,
+    "text": " scale imaginable.\" Grayson introduced a handful of bills on Wednesday -- the Business Should Mind Its",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 49,
+    "text": ". They act clueless about when they formed, where they are today, and how can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 41,
+    "text": "’s good for static values. Assignment is, however, terrible for dynamic data",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

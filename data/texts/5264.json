@@ -1,0 +1,361 @@
+{
+ "feature": 5264,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 31,
+    "text": " the country or stay quiet. Political observers say that verbal threats from Kremlin supporters",
+    "stored": 5.624234199523926,
+    "recomputed": 1.6462193727493286
+   },
+   {
+    "window": 26,
+    "text": " aims and in response to its own internal political and social contradictions. The Times",
+    "stored": 6.882060050964355,
+    "recomputed": 1.8037055730819702
+   },
+   {
+    "window": 29,
+    "text": " has been peaceful since the military and the civilian militia ousted them from the town, which",
+    "stored": 6.003622531890869,
+    "recomputed": 2.070991277694702
+   },
+   {
+    "window": 25,
+    "text": " purge of hundreds of princes, generals, religious leaders, and others by de facto Saudi",
+    "stored": 7.405303001403809,
+    "recomputed": 2.121994972229004
+   },
+   {
+    "window": 36,
+    "text": " regional insurgency a centerpiece of his claims for public support. But now, in 2017,",
+    "stored": 3.88392448425293,
+    "recomputed": 2.306706666946411
+   },
+   {
+    "window": 17,
+    "text": " republics or should they apply to predominantly ethnic Russian oblasts and krays as",
+    "stored": 8.455188751220703,
+    "recomputed": 2.665215015411377
+   },
+   {
+    "window": 20,
+    "text": " several cabinet members and travel to areas where ethnic armed groups fight the military and sometimes between",
+    "stored": 8.41555404663086,
+    "recomputed": 2.9944703578948975
+   },
+   {
+    "window": 27,
+    "text": " rise to power of Japan’s political forces that were beating the drums for war",
+    "stored": 6.16063928604126,
+    "recomputed": 3.747678279876709
+   },
+   {
+    "window": 6,
+    "text": " are drawing parallels with other countries where an ethnic minority's interests were once backed by a",
+    "stored": 9.163735389709473,
+    "recomputed": 4.37321662902832
+   },
+   {
+    "window": 32,
+    "text": " destabilizing European governments … and attacks on political enemies.\" The goal appears to",
+    "stored": 5.616674423217773,
+    "recomputed": 4.78958797454834
+   },
+   {
+    "window": 23,
+    "text": " regime was at risk unless infighting between political factions was curbed. \"",
+    "stored": 7.674208641052246,
+    "recomputed": 4.839956760406494
+   },
+   {
+    "window": 35,
+    "text": "JCP<|endoftext|> Tehran to receive relief from economic sanctions. Separately,",
+    "stored": 4.340404033660889,
+    "recomputed": 5.007823467254639
+   },
+   {
+    "window": 28,
+    "text": " improved and that the Iraqi government must implement reforms for stability in Iraq. This",
+    "stored": 6.098266124725342,
+    "recomputed": 7.346555709838867
+   },
+   {
+    "window": 10,
+    "text": ".S. officials met Syrian opposition and civil society leaders in Istanbul this week to discuss",
+    "stored": 8.90849781036377,
+    "recomputed": 7.349074840545654
+   },
+   {
+    "window": 15,
+    "text": " accused the US diplomat of interfereing of internal affairs and said the milita fighters are",
+    "stored": 8.586894035339355,
+    "recomputed": 8.461329460144043
+   },
+   {
+    "window": 5,
+    "text": " Czechoslovakia under the pretext of protecting ethnic Germans. Today, Russia is claiming to",
+    "stored": 9.324684143066406,
+    "recomputed": 8.526433944702148
+   },
+   {
+    "window": 1,
+    "text": " that comes amid Syria's two-year civil war that has killed more than 100,",
+    "stored": 10.86388492584229,
+    "recomputed": 8.569917678833008
+   },
+   {
+    "window": 21,
+    "text": "<|endoftext|> Iraqi Kurdish entity, and an important political openness towards its own Kurds, is a",
+    "stored": 8.234177589416504,
+    "recomputed": 8.691181182861328
+   },
+   {
+    "window": 9,
+    "text": " Russian proposal may not solve Syria's underlying civil war, \"but it does solve the",
+    "stored": 8.921516418457031,
+    "recomputed": 9.681296348571777
+   },
+   {
+    "window": 0,
+    "text": " unrest, saying Kiev continues to suppress the ethnic-Russian population living in east of Ukraine",
+    "stored": 13.6866626739502,
+    "recomputed": 11.154091835021973
+   }
+  ],
+  "positives": 29,
+  "grey": [
+   {
+    "window": 2,
+    "text": " that has raised fears of full-blown civil war in the world's newest country.",
+    "stored": 10.48542404174805,
+    "recomputed": 1.084026575088501
+   },
+   {
+    "window": 8,
+    "text": ", which, seemingly, has a new political vision for the region, recognizing the<|endoftext|>",
+    "stored": 8.98322868347168,
+    "recomputed": 0.033092424273490906
+   },
+   {
+    "window": 13,
+    "text": " the process of civil development by protecting the population more. As one American colonel",
+    "stored": 8.659314155578613,
+    "recomputed": 1.0035403966903687
+   },
+   {
+    "window": 19,
+    "text": " forcibly intervene in what appeared to be a civil war. In March 2011,",
+    "stored": 8.428915023803711,
+    "recomputed": 0.7915233373641968
+   },
+   {
+    "window": 22,
+    "text": " is still reeling from a 1993-2006 civil war between the Hutu and Tuts",
+    "stored": 7.738780975341797,
+    "recomputed": 0.002240091562271118
+   },
+   {
+    "window": 24,
+    "text": "Instead of taking the initiative and developing a political exit strategy from the crisis, Netanyahu and",
+    "stored": 7.595013618469238,
+    "recomputed": 1.0183255672454834
+   },
+   {
+    "window": 33,
+    "text": " north At least 280,000 people have been killed and more than half of",
+    "stored": 5.035891056060791,
+    "recomputed": 0.25512969493865967
+   },
+   {
+    "window": 34,
+    "text": " people and government use it to organize an independence referendum on Sunday and Spanish intelligence attacks,",
+    "stored": 4.6573805809021,
+    "recomputed": 1.0010466575622559
+   },
+   {
+    "window": 42,
+    "text": " support for Israel, Arab nations launched the oil boycott, leading to the 1970s energy",
+    "stored": 1.754723906517029,
+    "recomputed": 1.0955621004104614
+   },
+   {
+    "window": 45,
+    "text": " president, Boris Tadic, apologised to relatives of Srebrenica's victims in",
+    "stored": 1.482160568237305,
+    "recomputed": 0.9852397441864014
+   }
+  ],
+  "zero": [
+   {
+    "window": 12,
+    "text": " would change his calculus on intervening in the civil war and have 'enormous consequences",
+    "stored": 8.877545356750488,
+    "recomputed": 0
+   },
+   {
+    "window": 37,
+    "text": ", except in one key way: a religious sect was born that views Philip<|endoftext|> after",
+    "stored": 3.724853992462158,
+    "recomputed": 0
+   },
+   {
+    "window": 39,
+    "text": " couple knew that they didn't have any secular basis for taking on the conversos,",
+    "stored": 3.001884937286377,
+    "recomputed": 0
+   },
+   {
+    "window": 40,
+    "text": " a flawed 2007 vote. Electoral commission head Maurice Iwu said the presidential",
+    "stored": 2.762158870697021,
+    "recomputed": 0
+   },
+   {
+    "window": 41,
+    "text": " $30bn (£20bn) on arms. Image copyright Facebook Image caption",
+    "stored": 2.18817138671875,
+    "recomputed": 0
+   },
+   {
+    "window": 43,
+    "text": " bought last year followed its threat to order state refiners — Hindustan Petroleum,",
+    "stored": 1.719406247138977,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14799,
+    "window": 19,
+    "text": "45 RP! Garen Double Bundle Save 40% on both the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 55,
+    "text": " in an interview with INQUIRER.net on December 20 (I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 20,
+    "text": " arrest warrants were issued because the judges' orders to vacate them were not input in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 19,
+    "text": " only have been Chandler, though, right?) 3. At first, Matthew",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 27,
+    "text": " about Trump in the general as they were in the primaries, Trump will win a historic",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 57,
+    "text": " don’t have a situation like with Yamal, and sample YAD06",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 34,
+    "text": "urally There\" The 'Lego House' singer admits he did most of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 17,
+    "text": "ietta, heiress to a restaurant fortune, had pledged $1 million to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 32,
+    "text": " in an internal bay to reduce the radar signature. The two YF-23s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 75,
+    "text": " Standard Life’s head of investment strategy, Andrew Milligan, said on Wednesday",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 7,
+    "text": " leading a couple of the downtown area's signature redevelopment projects: the Rotunda Building,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 33,
+    "text": "° of rotation. A special rubber shock absorber is used to de-couple",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 39,
+    "text": " of the 78 (53.8 percent) special teams tackles that PFF recorded for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 10,
+    "text": " organizations in Ankara, according to Haber Turk TV. The statement is a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 11,
+    "text": "’s principal said he was a quiet, shy kid who didn’t",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 36,
+    "text": " on Thursday that diplomatic ties between the two sides would not be cut. \"We need",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 7,
+    "text": " I don’t think anybody in the Leafs’ room, especially the younger",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 3,
+    "text": " Justice describe the arrest of Shelton McElroy on Oct. 26 outside of S",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 42,
+    "text": " of former strategist Frank Flannery to the party fold. A FINE Gael",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 73,
+    "text": " <|endoftext|> flexion is ideal) at the bottom of your pedal stroke will relieve pressure",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 5479,
+    "window": 26,
+    "text": " of two separate laws tabled by Pakistan Peoples Party lawmaker Sardar Fakhar Az",
+    "recomputed": 2.2197158336639404
+   }
+  ]
+ }
+}

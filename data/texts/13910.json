@@ -1,0 +1,263 @@
+{
+ "feature": 13910,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 41,
+    "text": " drug trafficking conviction in a 1989 indictment involving Colombian drug kingpin Pablo Escobar and members",
+    "stored": 5.175238609313965,
+    "recomputed": 7.161046981811523
+   },
+   {
+    "window": 40,
+    "text": " mocks, how a tribal family in Colombia treats women like second-class citizens.",
+    "stored": 5.311686038970947,
+    "recomputed": 8.798986434936523
+   },
+   {
+    "window": 34,
+    "text": "-thirds and production of tobacco, once Zimbabwe's biggest money earner, has dropped",
+    "stored": 10.19564723968506,
+    "recomputed": 9.41643238067627
+   },
+   {
+    "window": 32,
+    "text": " store at 1401 E. Cesar Chavez, with no effective notice to Sergio and",
+    "stored": 12.82930469512939,
+    "recomputed": 13.192462921142578
+   },
+   {
+    "window": 36,
+    "text": " More specifically, the Nevada fracas has been seized upon as a dire pre",
+    "stored": 9.066267013549805,
+    "recomputed": 14.760839462280273
+   },
+   {
+    "window": 31,
+    "text": " schools. The main one here is Caesar Chavez. The privatization of schools is the death",
+    "stored": 14.38859367370605,
+    "recomputed": 16.16512680053711
+   },
+   {
+    "window": 30,
+    "text": " hear how we got the name Dos Polacas? Click HERE. (Hint:",
+    "stored": 14.53718948364258,
+    "recomputed": 18.058292388916016
+   },
+   {
+    "window": 26,
+    "text": " activities connected to oil exploitation,” Chavez said from a confiscated boat sailing across the",
+    "stored": 18.86576843261719,
+    "recomputed": 20.32638931274414
+   },
+   {
+    "window": 28,
+    "text": "ude revenues have fallen in recent months and Chavez is now moving against smaller service companies the",
+    "stored": 18.36522483825684,
+    "recomputed": 20.714435577392578
+   },
+   {
+    "window": 23,
+    "text": " that we need fair prices,” Maduro told the World Energy Congress in Istanbul,",
+    "stored": 25.97152519226074,
+    "recomputed": 31.332292556762695
+   },
+   {
+    "window": 15,
+    "text": " Ecuador, Haiti, Honduras, Taiwan and Venezuela. Liberal trends in the church",
+    "stored": 40.1491813659668,
+    "recomputed": 39.066917419433594
+   },
+   {
+    "window": 6,
+    "text": " in Japan, Namibia, Alaska, Venezuela, Peru and Australia. And since 2000",
+    "stored": 42.239990234375,
+    "recomputed": 40.78925704956055
+   },
+   {
+    "window": 9,
+    "text": " between those nations and Argentina, Brazil and Venezuela on the Atlantic coast, which have been",
+    "stored": 41.1106071472168,
+    "recomputed": 40.94434356689453
+   },
+   {
+    "window": 21,
+    "text": "CIUDAD OJEDA, Venezuela, May 8 (Reuters) - Venezuelan",
+    "stored": 38.94827651977539,
+    "recomputed": 41.101600646972656
+   },
+   {
+    "window": 14,
+    "text": " a July news conference in Caracas, Venezuela, that Salvador Perez was his idol,",
+    "stored": 40.15963363647461,
+    "recomputed": 41.2308349609375
+   },
+   {
+    "window": 13,
+    "text": " Packrat to silence dissent in Ecuador, Venezuela, and Argentina. The group used malware",
+    "stored": 40.60906982421875,
+    "recomputed": 41.67863464355469
+   },
+   {
+    "window": 11,
+    "text": " made him the third-highest-paid Venezuela prospect ever, according to MLB.com",
+    "stored": 40.84673690795898,
+    "recomputed": 44.27421188354492
+   },
+   {
+    "window": 2,
+    "text": "The bodies<|endoftext|> ministers next Wednesday and that Venezuela was ready to be part of any alliance",
+    "stored": 43.67505264282227,
+    "recomputed": 46.226318359375
+   },
+   {
+    "window": 7,
+    "text": " Daily Telegraph reported that Stanford’s Venezuelan offices were raided by Venezuela’s",
+    "stored": 41.86894989013672,
+    "recomputed": 46.5662841796875
+   },
+   {
+    "window": 0,
+    "text": " development. The dreaded term �<|endoftext|>* Venezuela seizes big oil project from U.",
+    "stored": 45.18418502807617,
+    "recomputed": 48.64047622680664
+   }
+  ],
+  "positives": 37,
+  "grey": [
+   {
+    "window": 38,
+    "text": ", already approved for treating conditions such as epilepsy and bi-polar disease, can",
+    "stored": 6.497666835784912,
+    "recomputed": 4.080697536468506
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 7229,
+    "window": 57,
+    "text": " PLL filming in Los Angeles and Suits shooting in Toronto, Bellisario is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 3,
+    "text": " winds<|endoftext|>ett says. The method worked for each month except for September and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 23,
+    "text": " is important to note, but as a directive of the NKVD (an earlier name",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 3,
+    "text": " these new banknotes are more durable and sharper than its paper counterpart it acts like a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 22,
+    "text": " are countries that enforce the death penalty on homosexuality on paper, but have not carried out",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 51,
+    "text": " to use apps -- like Signal and now WhatsApp -- that encrypt your communications end-to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 37,
+    "text": " parents, you will be informed directly, and on the website, when you are able",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 20,
+    "text": ". Standing alongside Mr Rudd during a press conference in Jerusalem, Mr Lieberman said",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 26,
+    "text": " that follows the work of a task force assigned to study the issue. \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 10,
+    "text": "chat Torah is what men do, and she wouldn’t have ever imagined that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 38,
+    "text": "’<|endoftext|> locomotion; the greater dopamine level in the somatosensory cortex",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 34,
+    "text": ". Andrew Murphy, chief of allergy at Chester County Hospital of the University of Pennsylvania Health",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 56,
+    "text": " executive to brand individuals enemy combatants by expressly delegating to Congress the ability to declare war",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 38,
+    "text": " is unambiguous, and brackets within the prefix expression are unnecessary. As such, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 11,
+    "text": " persons have confirmed their appointment, CAMS will make an announcement. Where and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 4,
+    "text": " the area might not be big enough for two rising superpowers. In August",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 25,
+    "text": " total, the TTC has logged some 620 Presto complaints system-wide so far this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 56,
+    "text": " increasing the limit is necessary to allow the United States to meet obligations that have been previously",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 23,
+    "text": "ive – including all documents on arXiv’s repository and the OAP",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 23,
+    "text": " try to reduce the severity of these bloody mutilations by publishing approved “gu",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

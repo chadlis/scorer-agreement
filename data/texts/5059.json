@@ -1,0 +1,256 @@
+{
+ "feature": 5059,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 33,
+    "text": " May 29, 1997), raised as Scott Moorhead,[1] was an American singer",
+    "stored": 3.429232835769653,
+    "recomputed": 3.053093194961548
+   },
+   {
+    "window": 34,
+    "text": " the president and just life in general,\" Snoop said. He added that",
+    "stored": 3.013309717178345,
+    "recomputed": 5.017534255981445
+   },
+   {
+    "window": 31,
+    "text": " solicitor Mark Stephens and human rights barrister Geoffrey Robertson QC. \"I'm",
+    "stored": 4.523385047912598,
+    "recomputed": 5.32044792175293
+   },
+   {
+    "window": 30,
+    "text": " appellate court. He may also lodge a mercy petition to the Army chief within",
+    "stored": 5.204779148101807,
+    "recomputed": 5.655791282653809
+   },
+   {
+    "window": 26,
+    "text": " Stuka dive bombers in a light cruiser HMS \"Dido\", in 1941, evac",
+    "stored": 6.49838924407959,
+    "recomputed": 7.501776695251465
+   },
+   {
+    "window": 29,
+    "text": " and where thou lodgest, I will lodge: thy people shall be my people,",
+    "stored": 5.594522476196289,
+    "recomputed": 7.745058536529541
+   },
+   {
+    "window": 24,
+    "text": " was a dark amber Imperial IPA with rye malt. Great balance of malt flavour and citrus",
+    "stored": 8.639774322509766,
+    "recomputed": 9.781975746154785
+   },
+   {
+    "window": 23,
+    "text": " on remaining differences. MS/HMV/SS<|endoftext|>(Reuters) -",
+    "stored": 9.237509727478027,
+    "recomputed": 11.008163452148438
+   },
+   {
+    "window": 20,
+    "text": " more apprehensive about what the end of HMV means for the future of Canada's",
+    "stored": 10.28543758392334,
+    "recomputed": 11.449978828430176
+   },
+   {
+    "window": 21,
+    "text": " the time of the incident. HMCS Athabaskan went adrift",
+    "stored": 10.03626251220703,
+    "recomputed": 12.277029991149902
+   },
+   {
+    "window": 15,
+    "text": "On defense, he and Timofey Mozgov have made the Warriors look hopeless at",
+    "stored": 13.19901943206787,
+    "recomputed": 12.496772766113281
+   },
+   {
+    "window": 13,
+    "text": " revived in these capitals, Haydn and Mozart were dead. There was no logical",
+    "stored": 14.66478538513184,
+    "recomputed": 14.498226165771484
+   },
+   {
+    "window": 18,
+    "text": "oven were piano virtuosos. Mozart made much of his living from playing",
+    "stored": 11.90390110015869,
+    "recomputed": 15.226798057556152
+   },
+   {
+    "window": 9,
+    "text": " Freshman Florida GOP Rep. Brian Mast — who voted for Hartzler amendment",
+    "stored": 21.70452499389648,
+    "recomputed": 21.717374801635742
+   },
+   {
+    "window": 7,
+    "text": " (e.g., mammoths, mastodons, giant ground sloths)",
+    "stored": 23.47367477416992,
+    "recomputed": 24.415573120117188
+   },
+   {
+    "window": 4,
+    "text": " the taste buds of prehistoric mammoths and mastodons. Today, domestic",
+    "stored": 24.39433670043945,
+    "recomputed": 24.648073196411133
+   },
+   {
+    "window": 6,
+    "text": " with a little fertilizer in the form of mastodon/mammoth poop to help",
+    "stored": 23.72852325439453,
+    "recomputed": 26.428443908691406
+   },
+   {
+    "window": 5,
+    "text": " the scientists point out. When mastodons and mammoths<|endoftext|> any offer",
+    "stored": 24.20171356201172,
+    "recomputed": 28.2003231048584
+   },
+   {
+    "window": 2,
+    "text": " the flags to be lowered to half-mast. In a response that has become a",
+    "stored": 26.35604286193848,
+    "recomputed": 29.205698013305664
+   },
+   {
+    "window": 0,
+    "text": "pp.) had very different evolutionary partners—mastodons, woolly mammoths and",
+    "stored": 26.84906959533691,
+    "recomputed": 31.4874324798584
+   }
+  ],
+  "positives": 33,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13572,
+    "window": 71,
+    "text": ". Read more about restraints and seclusions in public schools across the country,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 40,
+    "text": " investigators compared the 17 genomes, looking for mutations (termed single nucle<|endoftext|> by the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 1,
+    "text": " has named Solicitor General Paul Clement to serve as acting attorney general. Meanwhile,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 11,
+    "text": "i, dove ridondanze e generalità ormai inutili",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 45,
+    "text": " expected in Italian Worlds team Chaves commits to Orica-GreenEdge for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 70,
+    "text": "’s version of the bill would also let states opt out of the program.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 48,
+    "text": " a clear mind and creativity. To fuel these things, you need good sleep and water",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 20,
+    "text": " The mystique died next. Turns out, Osama Bin Laden was not a hardened",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 42,
+    "text": " authorities announced on Sunday the closure of the two roads from Afrin to Marea and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 43,
+    "text": " is causal by making use of a substantial body of research showing that variation in pension,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 32,
+    "text": "� she added.<|endoftext|>CALGARY, Alberta -- The Vancouver Canucks wrapped up",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 6,
+    "text": ". Shift | Kraftwerk as a Lego band When my professor, Ernst",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 9,
+    "text": " Reds return home for three consecutive home games at BMO Field vs. the Chicago Fire",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 13,
+    "text": " question when they were asked if a tax cut would spur investment Earlier this week",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 35,
+    "text": " more Richard Petty who co-owns Richard Petty Motorsports told the AP",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 20,
+    "text": " to military rule. Ultras constituted the foremost group in the waning years of the Mubarak",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 40,
+    "text": " to suspect Israel. Only one day after buying an anonymous prepaid mobile phone,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 37,
+    "text": " lay a single egg, and they are philopatric (they use the nesting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 57,
+    "text": " they don't<|endoftext|> Patriot Place retail and dining area at Gillette Stadium. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 19,
+    "text": " who’s worked as sound or picture editor on films with George Lucas, Francis",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "feature": 2019,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": " and author of Catching Bullets – Memoirs of a Bond Fan (available from",
+    "stored": 2.29417896270752,
+    "recomputed": 2.858246088027954
+   },
+   {
+    "window": 50,
+    "text": " from our communities in Judea and Samaria should be treated as any other Israeli product",
+    "stored": 4.808647155761719,
+    "recomputed": 5.2548508644104
+   },
+   {
+    "window": 47,
+    "text": " He also said the Benghazi-based Transitional National Council needs large amounts of money from",
+    "stored": 6.040389537811279,
+    "recomputed": 5.4803595542907715
+   },
+   {
+    "window": 49,
+    "text": " (a) and A. percivali (b) possess stiff, spine",
+    "stored": 5.896300315856934,
+    "recomputed": 6.310941219329834
+   },
+   {
+    "window": 44,
+    "text": ", originally had intended to become an actuary. Here is Friedman on Hay",
+    "stored": 7.186733245849609,
+    "recomputed": 7.827183723449707
+   },
+   {
+    "window": 36,
+    "text": "' Prosecutor Ken Kratz Says Documentary 'Very Well Done' Find",
+    "stored": 11.10300254821777,
+    "recomputed": 8.621907234191895
+   },
+   {
+    "window": 33,
+    "text": " guys who were disturbed mid-burglary on a previous occasion. '",
+    "stored": 11.74930000305176,
+    "recomputed": 9.546265602111816
+   },
+   {
+    "window": 32,
+    "text": "� she added.<|endoftext|>CALGARY, Alberta -- The Vancouver Canucks wrapped up",
+    "stored": 12.36009788513184,
+    "recomputed": 10.99931526184082
+   },
+   {
+    "window": 27,
+    "text": "_strlen SUMMARY: AddressSanitizer?: heap-",
+    "stored": 14.39866638183594,
+    "recomputed": 11.825173377990723
+   },
+   {
+    "window": 34,
+    "text": ", Most Influential, Most Necessary, Most Important, Most Essential Magazines",
+    "stored": 11.58595943450928,
+    "recomputed": 13.88461971282959
+   },
+   {
+    "window": 28,
+    "text": " tenure that Reason later called \"legendary\". [2] He has contributed to",
+    "stored": 13.97478103637695,
+    "recomputed": 15.66688346862793
+   },
+   {
+    "window": 6,
+    "text": "ters drawn, staring at an old rotary phone. Just staring. Projecting his",
+    "stored": 20.46527481079102,
+    "recomputed": 17.909313201904297
+   },
+   {
+    "window": 18,
+    "text": " the pre-tax equivalent “salary” that welfare recipients receive is higher",
+    "stored": 19.40281105041504,
+    "recomputed": 18.755168914794922
+   },
+   {
+    "window": 24,
+    "text": " some suggested. \"Recessionary fears were overdone,\" said David L",
+    "stored": 16.53462791442871,
+    "recomputed": 18.900665283203125
+   },
+   {
+    "window": 11,
+    "text": " harvest, growers have to fill out canary-yellow tracking agreements where they identify themselves",
+    "stored": 20.21557426452637,
+    "recomputed": 19.06402587890625
+   },
+   {
+    "window": 20,
+    "text": ", Singer was interested in the corollary between Professor X and Magneto and lumin",
+    "stored": 18.32966995239258,
+    "recomputed": 19.624095916748047
+   },
+   {
+    "window": 3,
+    "text": " Bunning, an arch-reactionary from Kentucky who took advantage of a Senate",
+    "stored": 21.27772521972656,
+    "recomputed": 20.138269424438477
+   },
+   {
+    "window": 13,
+    "text": " targets the tear ducts and salivary glands, causing dryness of the eyes",
+    "stored": 20.16468238830566,
+    "recomputed": 20.68016815185547
+   },
+   {
+    "window": 1,
+    "text": " pro forma act by a government functionary. Secular Celebrants, officially empowered",
+    "stored": 22.30549049377441,
+    "recomputed": 21.647226333618164
+   },
+   {
+    "window": 8,
+    "text": " Line Boss Beer Girl manages the Commissary arm of the T$A (tr",
+    "stored": 20.39032173156738,
+    "recomputed": 23.088685989379883
+   }
+  ],
+  "positives": 53,
+  "grey": [
+   {
+    "window": 54,
+    "text": "doctor en Economía y ex funcionario” vivió una",
+    "stored": 2.505582094192505,
+    "recomputed": 0.004701361060142517
+   }
+  ],
+  "zero": [
+   {
+    "window": 9,
+    "text": "ent over the cap. Salary Cap: $101,869,",
+    "stored": 20.38109397888184,
+    "recomputed": 0
+   },
+   {
+    "window": 46,
+    "text": " draft by the Browns. Transcript: Johnny Manziel's attorney's statement about",
+    "stored": 6.311576843261719,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14612,
+    "window": 47,
+    "text": " truth there was little to tell between each side, and that will explain why Grims",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 12,
+    "text": " asshole. Kind of a fumble, Council of High Sorcery. Bad Council of High",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 24,
+    "text": " is a fan, but it's so quiet i only hear it if i put the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 21,
+    "text": "); the trippy image of $20 bills stacking up against a shifting red background (",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 30,
+    "text": "]What is Cuusoo?LEGO Cuusoo is a site where fans",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 21,
+    "text": " packed into a hangar in Florida for her party convention speech. \"This man will not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 33,
+    "text": " laws in 2011.Supporters of the new legislation said 19 states considered restricting access to restrooms",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 34,
+    "text": ". House Greyjoy were not chosen to be Wardens, because more often than not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 51,
+    "text": " as its name suggests, repeal the Patriot Act along with the FISA Amendments Act of 2008",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 53,
+    "text": " of the main concerns as second-hand smoke harms children’s airways<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 15,
+    "text": "With members of the public now donating their Lego to Mr Ai, the artist may no",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 31,
+    "text": " inspectors commenting: \"Teachers use imaginative methods and resources ... to spark pupils' imagination",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 44,
+    "text": " student-athletes, and received thousands of requested documents and emails from the University.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 46,
+    "text": " Hell’s Kitchen without the Kingpin, Frank and Matt begrudgingly",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 44,
+    "text": " every precaution when he posted the message early Friday, sometime between 1 and 3 a.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 53,
+    "text": " an embellished blue and silver bodysuit and matching boots, Gaga look amazing as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 37,
+    "text": " time I kicked myself in the ass 🙂 If you’re following the blog for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 44,
+    "text": ". The Obamacare days of reckoning have barely begun, and our only salvation now is to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 48,
+    "text": "'t strong. \"When people come back from war and combat and they see",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 47,
+    "text": " cater more to tycoons than to the average consumer, who represents Hong Kong�",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "feature": 12276,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 46,
+    "text": " quality, best-designed, and most enjoyable RPGs possible. It is our dream that",
+    "stored": 5.733653545379639,
+    "recomputed": 4.080774307250977
+   },
+   {
+    "window": 42,
+    "text": " each week Mr. Brown crows with delight. “Faaantastic!",
+    "stored": 9.58951187133789,
+    "recomputed": 7.300712585449219
+   },
+   {
+    "window": 49,
+    "text": "Questions about the details of the evening's climax to the crisis – whether<|endoftext|> recent stories",
+    "stored": 4.399308204650879,
+    "recomputed": 8.427337646484375
+   },
+   {
+    "window": 43,
+    "text": "s management and staff working to ensure client satisfaction. Crazy concept, that… ",
+    "stored": 9.253877639770508,
+    "recomputed": 10.598834991455078
+   },
+   {
+    "window": 34,
+    "text": ", which often doesn't bring us the satisfaction we had hoped for anyway. The Buddha",
+    "stored": 15.22702026367188,
+    "recomputed": 12.460310935974121
+   },
+   {
+    "window": 38,
+    "text": " to cheap bandwidth and an appetite for instant gratification, so-called streaming portals have grown",
+    "stored": 11.8543176651001,
+    "recomputed": 13.957688331604004
+   },
+   {
+    "window": 36,
+    "text": " success for indies and varying levels of enjoyment for players buying products that are still in",
+    "stored": 12.11711120605469,
+    "recomputed": 16.03112030029297
+   },
+   {
+    "window": 30,
+    "text": "esque hearing, that I offer for your enjoyment below. I read this transcript in a",
+    "stored": 17.55660057067871,
+    "recomputed": 18.568405151367188
+   },
+   {
+    "window": 28,
+    "text": "'s room on the shelf for risque pleasures and bawdy fun. Sometimes we",
+    "stored": 20.35155868530273,
+    "recomputed": 22.149261474609375
+   },
+   {
+    "window": 26,
+    "text": " them a cup of coffee and cherish the pleasures of genuine intellectual discussion, which is among",
+    "stored": 23.19827461242676,
+    "recomputed": 24.108320236206055
+   },
+   {
+    "window": 21,
+    "text": " Commanding 10th Irish Division has much pleasure in informing the troops that Field-Marsh",
+    "stored": 27.4809398651123,
+    "recomputed": 27.643762588500977
+   },
+   {
+    "window": 23,
+    "text": " Video But it has its pleasures and grace notes, like those practical yet",
+    "stored": 25.21482276916504,
+    "recomputed": 28.191133499145508
+   },
+   {
+    "window": 17,
+    "text": " certain books<|endoftext|> It was an absolute pleasure speaking with Baruchel and and while",
+    "stored": 29.95160293579102,
+    "recomputed": 30.606857299804688
+   },
+   {
+    "window": 14,
+    "text": " advice<|endoftext|>In September Dubspot had the pleasure of hosting Deep Medi Musik recording",
+    "stored": 31.16969680786133,
+    "recomputed": 31.844221115112305
+   },
+   {
+    "window": 5,
+    "text": " before my time, but I had the pleasure of watching him as an assistant coach and",
+    "stored": 33.24988555908203,
+    "recomputed": 32.77598571777344
+   },
+   {
+    "window": 15,
+    "text": "The North Korean company) built three sophisticated pleasure boats with intelligent functions in only a few",
+    "stored": 30.58349800109863,
+    "recomputed": 33.8336067199707
+   },
+   {
+    "window": 6,
+    "text": " of oral sex because “practice makes pleasure.” However, to use the",
+    "stored": 33.24441528320312,
+    "recomputed": 35.22365951538086
+   },
+   {
+    "window": 10,
+    "text": ". “It is a pleasure to be a model for all of you",
+    "stored": 31.79808807373047,
+    "recomputed": 36.8067512512207
+   },
+   {
+    "window": 4,
+    "text": " on certain issues), or merely sadistic pleasure from making someone fearful or anxious. ",
+    "stored": 33.71108245849609,
+    "recomputed": 37.27339172363281
+   },
+   {
+    "window": 0,
+    "text": " feels good. Cocaine activates the same pleasure centers in your brain as breaking champagne glasses",
+    "stored": 37.90668106079102,
+    "recomputed": 39.81504440307617
+   }
+  ],
+  "positives": 50,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14562,
+    "window": 16,
+    "text": " I hate spending money on utility bills. Don't get me wrong. I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 45,
+    "text": " Ceiling (ALC) Act, which has remained on paper so far. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 6,
+    "text": " with her back in December. There were rumors back when news broke on her removal as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 55,
+    "text": " who identify with the culture) and Nippon (consisting of Japanese). The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 8,
+    "text": "ner. White House officials counter that the bailout plan adopted last week by European nations to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 48,
+    "text": "CB ruling for the first time,\" Outdoor Adventures Whistler said in a release.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 36,
+    "text": "Microsoft Corp.' Added 'Digital Signature' column, which displays the signer",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 15,
+    "text": " Browser (more specifically, the Tor Browser Bundle) is a great way to go.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 46,
+    "text": " notification alerting them to new peers in the area. After verifying their veteran",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 75,
+    "text": "ative medicine, which poses the question: why do some of us age better than others",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 24,
+    "text": " Jim Smith, president of the Connecticut Council on Freedom of Information, said a death certificate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 15,
+    "text": " \"entertainment\" makes Glenn Beck look like so much more than a malicious pund",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 41,
+    "text": " Travel to Greece came at the invitation of the Stavros Niarchos",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 9,
+    "text": " Chinese authorities in 2011. A Lego spokesman said they will now fulfil bulk orders",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 15,
+    "text": "regulated for a short time (brief relative to lifespan) and then “rep",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 35,
+    "text": " as he spoke, casting as many privacy spells as could be evoked within the castle",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 29,
+    "text": " was Butts' design: \"McGuinty's plan, which called for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 54,
+    "text": " strategy of using all those assets in the minors to improve the major league team was a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 19,
+    "text": " chemicals, surgical items and consumer goods to Uzbekistan. Beans, chemicals",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 37,
+    "text": "although we can work much higher than that in any one month as long as they rot",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 10122,
+    "window": 40,
+    "text": " Silence because no fun allowed. Counterspells, spot removal, Wraths,",
+    "recomputed": 4.673889636993408
+   }
+  ]
+ }
+}

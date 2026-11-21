@@ -1,0 +1,301 @@
+{
+ "feature": 12637,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 62,
+    "text": " so we couldn't think of anyone better to make an all-new instant system.\"",
+    "stored": 3.156164646148682,
+    "recomputed": 3.0837478637695312
+   },
+   {
+    "window": 63,
+    "text": " logic, though, that attracting Apple customers to an area will automatically make the local Ann",
+    "stored": 3.153496980667114,
+    "recomputed": 4.37033748626709
+   },
+   {
+    "window": 33,
+    "text": " former FBI Director Robert Mueller as special counsel to lead that probe. House Republicans",
+    "stored": 11.80939102172852,
+    "recomputed": 4.667616367340088
+   },
+   {
+    "window": 49,
+    "text": " with LinkedIn Sign in with Facebook Sign up to gain exclusive access to email subscriptions, event",
+    "stored": 4.390634536743164,
+    "recomputed": 4.716836929321289
+   },
+   {
+    "window": 43,
+    "text": " with Winnipeg this week, he is ineligible to return to the University of Miami-Ohio",
+    "stored": 6.912298202514648,
+    "recomputed": 8.234036445617676
+   },
+   {
+    "window": 41,
+    "text": " in Denmark and was named by Amager to honor the six string skills that Surly",
+    "stored": 7.59741735458374,
+    "recomputed": 8.475852966308594
+   },
+   {
+    "window": 39,
+    "text": " Ministry of Gender Equality, established in 2002 to promote women's rights, into the Health",
+    "stored": 8.578317642211914,
+    "recomputed": 9.130073547363281
+   },
+   {
+    "window": 36,
+    "text": " unfortunately fell through. First he signed on to create, direct, and serve as show",
+    "stored": 10.55922412872314,
+    "recomputed": 9.824257850646973
+   },
+   {
+    "window": 45,
+    "text": " you know the feeling of signing your name to pages of barely understandable fine print,�",
+    "stored": 6.260393619537354,
+    "recomputed": 11.51514720916748
+   },
+   {
+    "window": 16,
+    "text": " wants Burwell, who has been nominated to lead the health department, to explain why",
+    "stored": 16.67899513244629,
+    "recomputed": 12.462603569030762
+   },
+   {
+    "window": 31,
+    "text": ". \"I'm currently recruiting to collect speech data for Google,\" reads one",
+    "stored": 11.90992450714111,
+    "recomputed": 13.883337020874023
+   },
+   {
+    "window": 18,
+    "text": " the hiring of Tod Leiweke to serve as the NFL’s Chief",
+    "stored": 16.62323570251465,
+    "recomputed": 15.018219947814941
+   },
+   {
+    "window": 25,
+    "text": "m guessing every team will eventually be tapped to give up a home game at some point",
+    "stored": 14.61734580993652,
+    "recomputed": 15.672385215759277
+   },
+   {
+    "window": 22,
+    "text": " �<|endoftext|> Diego, California, was appointed to the case after Roll’s colleagues",
+    "stored": 15.30407238006592,
+    "recomputed": 16.035390853881836
+   },
+   {
+    "window": 10,
+    "text": ". Mueller, by contrast, was hired to probe the Trump campaign and Russia, and",
+    "stored": 16.9845027923584,
+    "recomputed": 16.810583114624023
+   },
+   {
+    "window": 21,
+    "text": " was that they could hopefully sign Machado to an extension, but if they couldn't",
+    "stored": 15.6934289932251,
+    "recomputed": 17.052806854248047
+   },
+   {
+    "window": 9,
+    "text": " State Department of Health selected a private contractor to take over responsibility of the Donate Life",
+    "stored": 17.11589050292969,
+    "recomputed": 17.467304229736328
+   },
+   {
+    "window": 3,
+    "text": " McLouth: The Orioles signed McClouth to a minor league deal June 5 after he",
+    "stored": 17.84491539001465,
+    "recomputed": 17.965957641601562
+   },
+   {
+    "window": 11,
+    "text": " still exists. If United hire Jose Mourinho to replace Van Gaal, Giggs' future",
+    "stored": 16.82405471801758,
+    "recomputed": 18.319686889648438
+   },
+   {
+    "window": 4,
+    "text": "Sanders hired illegal immigrant Erika Andiola to push his open borders policies. ",
+    "stored": 17.57438659667969,
+    "recomputed": 19.166868209838867
+   }
+  ],
+  "positives": 51,
+  "grey": [
+   {
+    "window": 32,
+    "text": " by the primarily Mormon residents of Caldwell County to be the county's first representative to the",
+    "stored": 11.89397430419922,
+    "recomputed": 1.5381020307540894
+   },
+   {
+    "window": 51,
+    "text": "�<|endoftext|>aw commenter gets a free Apple Bloom to cure the heartattack(note to",
+    "stored": 3.517476797103882,
+    "recomputed": 1.5784813165664673
+   }
+  ],
+  "zero": [
+   {
+    "window": 14,
+    "text": " Visceral Games veteran Ian Milham to become a game director for the Tomb Raider",
+    "stored": 16.70729637145996,
+    "recomputed": 0
+   },
+   {
+    "window": 30,
+    "text": "o client Soheil Mosun - to the board of the Toronto Parking Authority.",
+    "stored": 12.68936157226562,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 10814,
+    "window": 9,
+    "text": " 2009 bankruptcy filing and $50 billion government bailout. It returned to the New York Stock",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 56,
+    "text": " collection of shale wells that will be completed once oil prices increase (an estimated 900 in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 21,
+    "text": " strategy? Watch FOX. They execute campaign orders with the scary discipline of practiced propagand",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 32,
+    "text": " of the documents in his possession, during an online Q-and-A hosted by",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 72,
+    "text": " largely inactive since his wide September 2015 loss in the final bout of Floyd Mayweather’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 26,
+    "text": " to show something was being done when all sides were not ready for talks. I fear",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 37,
+    "text": " nella scuola con i minibus, lasciati con le chia",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 35,
+    "text": " though. As a zerg the fear of tank and medivac harass is strong",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 45,
+    "text": " blockade coordinated by Visa, Mastercard, Paypal, Bank of America and Western Union",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 26,
+    "text": " again, she started shaking her head, walking away. Some Democrats asked for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 30,
+    "text": " of tips may not produce a good income.\" This is an idea still very",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 31,
+    "text": " public's ability to pet and pose for pictures with young, potentially dangerous animals. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 21,
+    "text": " lawyer from the southern German town of Karlsruhe who served in Germany’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 6,
+    "text": " anyone, including you and me, based solely on his whims. Torture, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 69,
+    "text": "I Wish\", in which they manually chopped and edited tiny loops for several days in order",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 31,
+    "text": " available only on tap at Buffalo Wild Wings restaurants. However, a brand representative clarified that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 28,
+    "text": " about 1830] pale ale was very little known in London, except to those engaged in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 55,
+    "text": "' label,\" says Blake at The Washington Post. That includes \"non-religious people",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 19,
+    "text": " intensified during the night. His mother took him to hospital the next day, where he",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 34,
+    "text": " advantage of these discoveries. ¶Smoking has declined more rapidly among people with",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 16631,
+    "window": 29,
+    "text": " I accomplished here was to make someone else look short. Could I look taller than someone",
+    "recomputed": 0.09565442055463791
+   },
+   {
+    "from_feature": 21857,
+    "window": 22,
+    "text": " to force Tesla to use their model through legislation preventing automakers to own auto dealerships.",
+    "recomputed": 2.785231113433838
+   },
+   {
+    "from_feature": 19647,
+    "window": 36,
+    "text": ") was convoked as the Fourth Council of Constantinople to decide this matter. At this",
+    "recomputed": 5.614040851593018
+   }
+  ]
+ }
+}

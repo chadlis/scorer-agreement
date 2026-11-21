@@ -1,0 +1,263 @@
+{
+ "feature": 336,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 52,
+    "text": " something comes into shape, without the gods willing it to happen. An unmade is",
+    "stored": 4.553179740905762,
+    "recomputed": 4.763115406036377
+   },
+   {
+    "window": 48,
+    "text": " a hard time finding enough people with cars willing to work for them. To",
+    "stored": 6.838425636291504,
+    "recomputed": 6.188946723937988
+   },
+   {
+    "window": 53,
+    "text": " of the most delicious champagne, and are ready for the night ahead. You get in",
+    "stored": 3.540385723114014,
+    "recomputed": 9.752017974853516
+   },
+   {
+    "window": 41,
+    "text": " MIR-based backend has proved itself ready for prime-time. M",
+    "stored": 11.57708740234375,
+    "recomputed": 11.914912223815918
+   },
+   {
+    "window": 40,
+    "text": " is waiting in the closet. Everything is ready for the big day. Student Sofie",
+    "stored": 11.99816417694092,
+    "recomputed": 12.159693717956543
+   },
+   {
+    "window": 45,
+    "text": " functional version of the Lightning Network should be ready this summer. Testing on Seg",
+    "stored": 9.64466381072998,
+    "recomputed": 12.544716835021973
+   },
+   {
+    "window": 37,
+    "text": " headstock and the neck to get it ready for clamping. I also used a",
+    "stored": 14.62405586242676,
+    "recomputed": 14.666993141174316
+   },
+   {
+    "window": 34,
+    "text": " themselves to be easy going, rough and ready, all-action guys and that's",
+    "stored": 16.43256568908691,
+    "recomputed": 16.43523406982422
+   },
+   {
+    "window": 31,
+    "text": " training staff<|endoftext|>s [just about] ready to go.” He",
+    "stored": 19.58999252319336,
+    "recomputed": 20.418516159057617
+   },
+   {
+    "window": 30,
+    "text": " are more than 10 million contactless-ready locations in the countries where Apple Pay has",
+    "stored": 19.62413787841797,
+    "recomputed": 21.75730323791504
+   },
+   {
+    "window": 18,
+    "text": " fantasy – it is an engineered reality, ready for use as a portable dwelling for traveling",
+    "stored": 25.04036903381348,
+    "recomputed": 23.212665557861328
+   },
+   {
+    "window": 24,
+    "text": " summer and emerge in autumn with thick coats ready for the winter. Natives",
+    "stored": 22.9439754486084,
+    "recomputed": 24.25662612915039
+   },
+   {
+    "window": 26,
+    "text": " end up wasting your time and energy and ready to quit the internet altogether at the end",
+    "stored": 22.11709785461426,
+    "recomputed": 24.69159698486328
+   },
+   {
+    "window": 23,
+    "text": " if it was digitally installed on my system ready to be played at the drop of a",
+    "stored": 23.02719879150391,
+    "recomputed": 25.728450775146484
+   },
+   {
+    "window": 17,
+    "text": " you can build it—and a \"ready to fly bird\" for $800 that",
+    "stored": 25.6940746307373,
+    "recomputed": 28.03062629699707
+   },
+   {
+    "window": 13,
+    "text": "Zero's 40-Pin GPIO header, ready to connect to your project -",
+    "stored": 28.29062652587891,
+    "recomputed": 29.382516860961914
+   },
+   {
+    "window": 14,
+    "text": " growth requires a complexity of nutrients and a ready supply of oxygen but comparatively few authoritive",
+    "stored": 28.17483520507812,
+    "recomputed": 30.206012725830078
+   },
+   {
+    "window": 9,
+    "text": " Island secretary of state's corporations database. Ready said the location that is now Mardi",
+    "stored": 29.26567840576172,
+    "recomputed": 31.425100326538086
+   },
+   {
+    "window": 7,
+    "text": ": Second Coat Sprayed. Ready for Install: The sliders",
+    "stored": 29.51434707641602,
+    "recomputed": 32.27809143066406
+   },
+   {
+    "window": 5,
+    "text": " a membership base that spans the nation. Ready to Fight Back? Sign Up For Take",
+    "stored": 29.99931907653809,
+    "recomputed": 33.51246643066406
+   }
+  ],
+  "positives": 49,
+  "grey": [
+   {
+    "window": 51,
+    "text": ", cut a medium-to-large ripe avocado in half, remove the pit,",
+    "stored": 4.994465351104736,
+    "recomputed": 3.1962568759918213
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13920,
+    "window": 68,
+    "text": " a few ways you can ensure that you don't end up sucked down such rabbit holes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 42,
+    "text": " the ecosystem.\" Science Minister Kirsty Duncan, who had a long career in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 57,
+    "text": " of the rules since Norway’s right-wing government took office in 2013,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1589,
+    "window": 15,
+    "text": " relation to a 2015 drunk driving arrest, per TMZ Sports. In addition to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 13,
+    "text": " totally different way,” Guggenheim says. “And look at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 2,
+    "text": " the outcome of the investigation.People in the crowd were heard on the video saying the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 6,
+    "text": " took care of the basics, first and foremost, and all interactions were voluntary. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 40,
+    "text": " in an Islamic State video that showed him driving a vehicle carrying mutilated bodies to a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 1,
+    "text": " — mainly to members of taxi mogul Evgeny Freidman's taxi fleet.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 21,
+    "text": " had to set up \"sanctuaries\" for women) or other mass drunken",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 32,
+    "text": " rally this week in Virginia, according to the eyewitness report of a journalist sitting nearby and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 44,
+    "text": " the Book Banning Started On Wednesday October 9th, an article in UK",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 49,
+    "text": " if M<|endoftext|>Micro Service Architecture is an architectural concept that aims to decouple a solution",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 60,
+    "text": " are an amazing club and you see how well they are doing this season,”",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 2,
+    "text": " same night. She said she left her car door unlocked and when she woke",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 46,
+    "text": " – on the one hand, adversely affecting industrialized economies heavily involved in the Asia value chain",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 23,
+    "text": " had to kill an aggressive dog with a knife. \"By that point he",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 40,
+    "text": " for H-1B visa workers for Hertz Technology offices. For Hert",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 66,
+    "text": " the history of the Jedi and Sith orders, making him a prominent figure in the Church",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 31,
+    "text": " the first post so we could update the topic easily. Third time's a charm?",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

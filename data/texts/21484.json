@@ -1,0 +1,186 @@
+{
+ "feature": 21484,
+ "status": "failed",
+ "positives": {
+  "kept": [],
+  "positives": 16,
+  "grey": [
+   {
+    "window": 38,
+    "text": ". 2. CDKN2B/ANRIL Implicated",
+    "stored": 3.825544595718384,
+    "recomputed": 1.7554384469985962
+   },
+   {
+    "window": 39,
+    "text": "23-28. 55(4)23-28. Plot ",
+    "stored": 2.499412059783936,
+    "recomputed": 0.8096709251403809
+   },
+   {
+    "window": 40,
+    "text": ".<|endoftext|>SCP-190 Item #: SCP-190 Object Class",
+    "stored": 2.464606761932373,
+    "recomputed": 1.4108755588531494
+   }
+  ],
+  "zero": [
+   {
+    "window": 41,
+    "text": "called “poker face”. Expressive suppression has been shown to be",
+    "stored": 2.435980558395386,
+    "recomputed": 0
+   },
+   {
+    "window": 42,
+    "text": " (a common name for Title V of the Telecommunications Act of 1996) is a landmark",
+    "stored": 0.08965650200843811,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20058,
+    "window": 28,
+    "text": " California, Colorado, Hawaii, Washington, and, as of yesterday, Nevada. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 3,
+    "text": " on Saturday,<|endoftext|> the history of Chapecoense football club, hoping for a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 55,
+    "text": " amounts of matter and antimatter, the two would have annihilated each other in short",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 6,
+    "text": " it’s kind of a specialized topic, so don’t be surprised",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 54,
+    "text": " something dangerously amiss. Marquinez’s neighbors in Margate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 10,
+    "text": " attended San Diego Comic Con 2012 were women!) Conventions are where the geek community is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 14,
+    "text": " n United States of America n Uruguay n Uzbekistan n Vanuatu n Venezuela n",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 46,
+    "text": " Blu-ray Collector edition, featuring various extras. (And last month, there was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 11,
+    "text": " any exception, that the judge has overstepped his bounds,\" said Baird. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 2,
+    "text": " experience attempting to hand out materials with a church group at Glendale Community College. Despite",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 7,
+    "text": ". When the identity or the party affiliation is yet unknown, the pattern is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 32,
+    "text": " the ocean mid-flight, and thanks to a waterproof gimbal and GoPro Dive",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 19,
+    "text": " Say we have the following source file, suitably named hello.c: ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 11,
+    "text": " way.” Klobuchar said on MSNBC's \"Morning",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 2,
+    "text": " by eating more meat-free meals and extra fruit and vegetables each week is enough to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 38,
+    "text": " ahead<|endoftext|> into a prime example for an intensifying debate over the future of a housing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 20,
+    "text": " to take over the world, and they left. But the damage was already done.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 53,
+    "text": " \"It's very William Faulkner.\" Loyd, who represents former",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 11,
+    "text": "umthor explains of his uncompromising method, taking a sip of his capp",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 21,
+    "text": ".\" Right? Wrong. According to several news reports",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 23629,
+    "window": 19,
+    "text": " in the community. ENR also refused to disclose the document. The department",
+    "recomputed": 0.03777530789375305
+   },
+   {
+    "from_feature": 14097,
+    "window": 31,
+    "text": " http://meetingorganizer.copernicus.org/EGU2011",
+    "recomputed": 0.33970335125923157
+   },
+   {
+    "from_feature": 20330,
+    "window": 11,
+    "text": "; it was these teachings that I<|endoftext|>Two leading European academics say Scotland could be a",
+    "recomputed": 0.18818989396095276
+   }
+  ]
+ }
+}

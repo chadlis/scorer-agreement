@@ -1,0 +1,281 @@
+{
+ "feature": 3665,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 56,
+    "text": " points are gained by icing all members of the opposing team. Players can thaw out",
+    "stored": 3.019014835357666,
+    "recomputed": 3.133774518966675
+   },
+   {
+    "window": 54,
+    "text": " pan out differently across the many regions of the world. There will be much more<|endoftext|>",
+    "stored": 3.947976112365723,
+    "recomputed": 4.9723219871521
+   },
+   {
+    "window": 51,
+    "text": " \"They can do it from anywhere in the world, and they choose to do it",
+    "stored": 4.669731140136719,
+    "recomputed": 6.469502925872803
+   },
+   {
+    "window": 45,
+    "text": " short and unadorned: Things on the quad are pretty grim. I",
+    "stored": 7.08519983291626,
+    "recomputed": 8.230265617370605
+   },
+   {
+    "window": 47,
+    "text": "ING REPLY ALL TO EVERYONE ON THE LIST: THIS SHOULD BE THE LAST MA",
+    "stored": 6.771105766296387,
+    "recomputed": 9.203624725341797
+   },
+   {
+    "window": 43,
+    "text": " the tradition that she represents. We in the Corps of Cadets are especially fond of",
+    "stored": 7.689878940582275,
+    "recomputed": 10.193119049072266
+   },
+   {
+    "window": 41,
+    "text": " reality glasses. As leaders in the community on so many levels, the Flames",
+    "stored": 7.782380104064941,
+    "recomputed": 11.02143383026123
+   },
+   {
+    "window": 36,
+    "text": " him . . . All of us in the village have been waiting for his return,",
+    "stored": 10.98104000091553,
+    "recomputed": 14.274466514587402
+   },
+   {
+    "window": 34,
+    "text": " list May<|endoftext|> McDaniel and others on the campaign have given since Kelly's arrest Friday",
+    "stored": 11.94398880004883,
+    "recomputed": 14.764500617980957
+   },
+   {
+    "window": 30,
+    "text": " Although there are many libertarians in the ranks of the Conservative party, including Harper",
+    "stored": 12.7220458984375,
+    "recomputed": 15.767614364624023
+   },
+   {
+    "window": 20,
+    "text": " likely to do so? Which mayors in the developing world are willing to experiment with new",
+    "stored": 15.59837055206299,
+    "recomputed": 17.09401512145996
+   },
+   {
+    "window": 28,
+    "text": " schools were not on lockdown. Students in the schools were released to parents who arrive to",
+    "stored": 13.54020309448242,
+    "recomputed": 17.567218780517578
+   },
+   {
+    "window": 23,
+    "text": " writing. After all, most students in the digital age are not taught handwriting anymore.",
+    "stored": 15.23038768768311,
+    "recomputed": 19.2988224029541
+   },
+   {
+    "window": 24,
+    "text": " reason for the surge was that people on the fringe of the Bitcoin world before these events",
+    "stored": 15.21751594543457,
+    "recomputed": 19.731735229492188
+   },
+   {
+    "window": 12,
+    "text": " 2010o). If anyone in the U.S. was alarmed about the",
+    "stored": 17.08383178710938,
+    "recomputed": 20.11659812927246
+   },
+   {
+    "window": 16,
+    "text": " means that like 1% of people in the UK, I can’t digest",
+    "stored": 17.04302024841309,
+    "recomputed": 20.349870681762695
+   },
+   {
+    "window": 5,
+    "text": " that justified some extraordinary measures. Those in the outgoing George W. Bush administration thought so",
+    "stored": 18.20817565917969,
+    "recomputed": 20.980615615844727
+   },
+   {
+    "window": 8,
+    "text": " is now being talked about by those in the currency trade, among others. ",
+    "stored": 17.63247871398926,
+    "recomputed": 21.341318130493164
+   },
+   {
+    "window": 25,
+    "text": ". A few of those in the military who were appreciated Monday night in Baltimore",
+    "stored": 14.95559787750244,
+    "recomputed": 21.9295711517334
+   },
+   {
+    "window": 6,
+    "text": " of the orchestra so that every person in the audience would receive optimum quality of sound.",
+    "stored": 17.80244636535645,
+    "recomputed": 22.775421142578125
+   }
+  ],
+  "positives": 58,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 3540,
+    "window": 13,
+    "text": " charges are not dismissed. McElroy’s attorney, Elizabeth Jones",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 45,
+    "text": " in Pakistan: Sponsored and directed Improvised Explosive Device and grenade attacks in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 32,
+    "text": "-10, the new tough on crime legislation. Now the government is armed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 26,
+    "text": " constrain legitimate discussion or research on controversial topics. Last summer, the University",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 52,
+    "text": " tooth box! Made from high-quality Pinus Sylvestris Var, you may",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 57,
+    "text": " equities last year. And that did not end well for price action before",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 34,
+    "text": ", Earth First! News is anti-copyright. Read it, print it,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 60,
+    "text": " to sequence distributions together. That is: if some distribution ‘foo’ has",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 20,
+    "text": "�s a lot to ask for, right? As valuable as that knowledge would be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 44,
+    "text": " are also me, at least for one night per year. My inexplicable love of One",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 48,
+    "text": " 26, 2017 THANK YOU to all of the great volunteers helping out with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 11,
+    "text": " also pacing all goalies in minutes played (3,078) and is tied",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 68,
+    "text": " remains is usually fairly trivial. Doing it the hard way! How long",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 9,
+    "text": " attempting to license the unlicensable, assign the unassignable, and effectively",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 2,
+    "text": ", he must have been good because one day it was announced that Pete was the new",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 50,
+    "text": " put the two similar citations together with McClellan’s revelation of the secret",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 33,
+    "text": " so used to thinking in terms of value assignments that we try to apply same approach to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 43,
+    "text": " . . . you can’t legislate for every possible situation<|endoftext|>jjw",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 21,
+    "text": "� So said John McDonnell during a recent LSE lecture, and frankly amen",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 45,
+    "text": "s milk is not great for nutrition or digestion thanks to the pasteurization and hom",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 8511,
+    "window": 28,
+    "text": "\"Police, customs, national food regulatory bodies and partners from the private sector carried out",
+    "recomputed": 6.502195835113525
+   },
+   {
+    "from_feature": 20467,
+    "window": 28,
+    "text": " six guards who were protecting Colorado as he cycled through the remote western province of Bal",
+    "recomputed": 1.5389552116394043
+   },
+   {
+    "from_feature": 10171,
+    "window": 24,
+    "text": " all those who visited the temporary memorial and left flowers, toys, words of comfort and",
+    "recomputed": 2.6242504119873047
+   },
+   {
+    "from_feature": 22598,
+    "window": 4,
+    "text": " to bloodshed in the streets. That the plastic bowl— which appears to be",
+    "recomputed": 3.793025016784668
+   }
+  ]
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "feature": 9451,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 61,
+    "text": ".99. So, for example, if customers would buy 100,000 copies of",
+    "stored": 6.990823268890381,
+    "recomputed": 4.23947811126709
+   },
+   {
+    "window": 62,
+    "text": " Angeles Galaxy signing Jonathan dos Santos, and if those will make one or two other players",
+    "stored": 6.952836513519287,
+    "recomputed": 7.913998126983643
+   },
+   {
+    "window": 51,
+    "text": " can and should lead that effort. For if we were to lose NATO, Canada�",
+    "stored": 14.48636341094971,
+    "recomputed": 10.04362678527832
+   },
+   {
+    "window": 50,
+    "text": "s Magic Kingdom actually flooded. So, if you’re planning on visiting either",
+    "stored": 14.85015869140625,
+    "recomputed": 12.23166561126709
+   },
+   {
+    "window": 54,
+    "text": ". GOGOGOGOGO!! If you have a MWD and they turn",
+    "stored": 13.46405792236328,
+    "recomputed": 14.786042213439941
+   },
+   {
+    "window": 58,
+    "text": " 3353 2000. If you are writing a comment for publication, please mark clearly \"",
+    "stored": 10.22945880889893,
+    "recomputed": 17.227828979492188
+   },
+   {
+    "window": 23,
+    "text": " facilitate or impede your participation in anything. If you are a poor, black, a",
+    "stored": 36.1717414855957,
+    "recomputed": 19.610788345336914
+   },
+   {
+    "window": 26,
+    "text": " to balancing and feedback from the players. If all goes well we may even add more",
+    "stored": 33.22638320922852,
+    "recomputed": 21.90456771850586
+   },
+   {
+    "window": 25,
+    "text": " charge at White Hart Lane. If you look at the ‘silly",
+    "stored": 34.41960906982422,
+    "recomputed": 22.915328979492188
+   },
+   {
+    "window": 3,
+    "text": " flourishes under increased CO2 levels. If carbon dioxide is truly a dangerous pollutant",
+    "stored": 39.29336166381836,
+    "recomputed": 23.793672561645508
+   },
+   {
+    "window": 31,
+    "text": " that role as well. \"If that's my role that the coaches have",
+    "stored": 29.40735244750977,
+    "recomputed": 26.14015007019043
+   },
+   {
+    "window": 34,
+    "text": "�wow. such confused.” If pronunciations of doge were parties",
+    "stored": 28.125732421875,
+    "recomputed": 27.119701385498047
+   },
+   {
+    "window": 37,
+    "text": " time I kicked myself in the ass 🙂 If you’re following the blog for",
+    "stored": 25.92312622070312,
+    "recomputed": 27.617761611938477
+   },
+   {
+    "window": 40,
+    "text": " speed up several major projects. If the express train concept moves forward, it",
+    "stored": 23.20848274230957,
+    "recomputed": 28.030561447143555
+   },
+   {
+    "window": 12,
+    "text": " them to sell him on the cheap. If Real Madrid want to pay up then so",
+    "stored": 38.54339218139648,
+    "recomputed": 29.91457176208496
+   },
+   {
+    "window": 4,
+    "text": "sexy’ embarrassing and confusing. If I do a photo-shoot people desperately",
+    "stored": 39.25129318237305,
+    "recomputed": 31.38793182373047
+   },
+   {
+    "window": 0,
+    "text": " desks that hasn't been produced yet. If House Democrats shun the proceedings they will themselves",
+    "stored": 39.53880310058594,
+    "recomputed": 31.93239402770996
+   },
+   {
+    "window": 20,
+    "text": " pre-existing anti-capitalist narrative. If those justifications don’t actually",
+    "stored": 37.91653442382812,
+    "recomputed": 34.386104583740234
+   },
+   {
+    "window": 21,
+    "text": " that the damage he caused was terrible. If we hadn’t used Marwan",
+    "stored": 37.70392227172852,
+    "recomputed": 36.36860656738281
+   },
+   {
+    "window": 18,
+    "text": " Humanity is no longer an imagined community. If it's ever to become so again,",
+    "stored": 38.16373825073242,
+    "recomputed": 38.452125549316406
+   }
+  ],
+  "positives": 63,
+  "grey": [
+   {
+    "window": 64,
+    "text": " story to any more media outlets and that if she did she should inform a staffer.",
+    "stored": 5.105380535125732,
+    "recomputed": 3.3914334774017334
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20330,
+    "window": 59,
+    "text": "The researchers noticed that the closer together the two electrodes were positioned, the higher the electric",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 27,
+    "text": " fund but dropped its motions after learning all sides agreed to change some of the language of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 7,
+    "text": " this level. \"Elsewhere, Gordon D'Arcy has been declared fit",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 41,
+    "text": " this proves that a Muslim should not fear the bloated image of the crusader intelligence.\"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 36,
+    "text": " genocide and help us see how far the genocidal process has progressed. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 44,
+    "text": " via biomass derived gas for use in gas turbines. My earlier analyses did not consider this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 2,
+    "text": " not all of them, are in fact authentic. He has a gallery of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 41,
+    "text": " Salient Discs owner Chris Kilgus showed us a preview of the DG",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 49,
+    "text": " in Europe and the trademark in the US.\" Bolivia is the largest",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 33,
+    "text": " spiritually and who will lead in the fear of God. The biblical biological requirement for office",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 21,
+    "text": " what's important like health care and education.\" Story continues below advertisement ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 29,
+    "text": " Comancheros. At Santo Rio two men, Travis and Chato, who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 34,
+    "text": " as sIFR. These methods share some drawbacks, however. Usability",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 24,
+    "text": " side<|endoftext|> Republican-led Congress on overspending, corruption and campaign finance reform.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 8,
+    "text": " engage helps explain why the Kings signed him to an AHL contract in Manchester last season,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 20,
+    "text": " will work for harvesting bamboo. A folding saw or a hefty knife are my favorites.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 20,
+    "text": ") “I owe Louis van Gaal so much. I will tell you",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 27,
+    "text": " can be used as a carbon sink, absorbing and storing CO2. �",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 33,
+    "text": ". thanks! – @shapeshed Void <|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 17,
+    "text": "<|endoftext|> with the FEC to get them resolved.\" The Ohio Republican Party, though",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

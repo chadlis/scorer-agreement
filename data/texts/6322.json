@@ -1,0 +1,263 @@
+{
+ "feature": 6322,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 47,
+    "text": " plain black one. Rock it with a pencil skirt for business chic or a pair of",
+    "stored": 6.897140502929688,
+    "recomputed": 6.585145950317383
+   },
+   {
+    "window": 48,
+    "text": " quiet ease, directing patrollers with chain saws, sleds and closure ropes across",
+    "stored": 5.88941764831543,
+    "recomputed": 7.676384449005127
+   },
+   {
+    "window": 42,
+    "text": " Make a pre-cut with a sharp blade before any sawing. This will prevent",
+    "stored": 11.37110710144043,
+    "recomputed": 12.646296501159668
+   },
+   {
+    "window": 40,
+    "text": " general discussions page. Forum razor and blade (double edge, single edge",
+    "stored": 15.08671283721924,
+    "recomputed": 14.637968063354492
+   },
+   {
+    "window": 39,
+    "text": " his grasp. But his reflexes, razor-sharp all the way through this tournament",
+    "stored": 15.83833122253418,
+    "recomputed": 16.425048828125
+   },
+   {
+    "window": 33,
+    "text": ", Cordray fashioned the agency into a razor-toothed watchdog with as much",
+    "stored": 22.01797866821289,
+    "recomputed": 21.096036911010742
+   },
+   {
+    "window": 31,
+    "text": " over a century ago, the Swiss Army Knife has evolved into the household name and industry",
+    "stored": 31.02822875976562,
+    "recomputed": 29.692237854003906
+   },
+   {
+    "window": 32,
+    "text": ", the site primarily offered SilverCut folding knives and Roxanni iPad cases with built-",
+    "stored": 29.80174446105957,
+    "recomputed": 31.571046829223633
+   },
+   {
+    "window": 28,
+    "text": " team has devolved into a “knife fight,” writing on Twitter that",
+    "stored": 34.23697280883789,
+    "recomputed": 34.58883285522461
+   },
+   {
+    "window": 16,
+    "text": "so I am assured) \"Let's knife-and-fork it and see what",
+    "stored": 42.56161880493164,
+    "recomputed": 39.54841995239258
+   },
+   {
+    "window": 17,
+    "text": " POLITICO that the transition is \"an absolute knife fight,\" with multiple people jocke",
+    "stored": 42.39362335205078,
+    "recomputed": 40.50151443481445
+   },
+   {
+    "window": 24,
+    "text": " murder and an enhancement for allegedly using a knife.. In a separate case over",
+    "stored": 40.89113998413086,
+    "recomputed": 42.030479431152344
+   },
+   {
+    "window": 15,
+    "text": " is to move beyond the fork and the knife and think about inhaling food,\" he",
+    "stored": 42.66913223266602,
+    "recomputed": 43.6474494934082
+   },
+   {
+    "window": 22,
+    "text": " gay himself, writing: “The knife was raised against my community. We stayed",
+    "stored": 41.33607864379883,
+    "recomputed": 44.669921875
+   },
+   {
+    "window": 7,
+    "text": " and<|endoftext|> girl to follow him with a knife, and who rapes her, could then",
+    "stored": 44.68371200561523,
+    "recomputed": 44.67668533325195
+   },
+   {
+    "window": 12,
+    "text": " research shows how quickly a suspect with a knife can close the gap on an officer.",
+    "stored": 43.28896713256836,
+    "recomputed": 45.51448059082031
+   },
+   {
+    "window": 14,
+    "text": " \"This whole description of the knife fight, or this internal fighting. Nothing",
+    "stored": 42.74601745605469,
+    "recomputed": 45.7557487487793
+   },
+   {
+    "window": 9,
+    "text": " we at this point are people bringing a knife to a gunfight with a heavily financed",
+    "stored": 44.31125259399414,
+    "recomputed": 46.006507873535156
+   },
+   {
+    "window": 0,
+    "text": " our new mayor is an expert with a knife.” One day toward",
+    "stored": 48.69919204711914,
+    "recomputed": 46.99848937988281
+   },
+   {
+    "window": 13,
+    "text": "for instance, in the painting, the knife is not to be seen where Corday",
+    "stored": 43.20148086547852,
+    "recomputed": 47.0509033203125
+   }
+  ],
+  "positives": 45,
+  "grey": [
+   {
+    "window": 49,
+    "text": " use So, besides the broken tool, the broken lug, the shaky butterfly",
+    "stored": 4.892178535461426,
+    "recomputed": 3.929321050643921
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 8697,
+    "window": 46,
+    "text": " meet Sunday in a divisional game that quietly holds huge implications for both teams. At",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 69,
+    "text": " can deliver some quality work to you soon. Love and light, ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 50,
+    "text": " if you know nothing of the careful scientific methodology used to obtain a result or to reach",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 38,
+    "text": ". So. That's three assignments in less than ten minutes. Where does",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 55,
+    "text": " employed the same defense attorney, Dick DeGuerin, as Iran-Contra",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 44,
+    "text": " reserved work in JavaScript meaning you cannot reassign void. In the console we can see",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 31,
+    "text": " hugely successful '+' is \"structurally there\". The 'You Need",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 16,
+    "text": "” We broke apart as she stared at Vox. Her expression wasn�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 68,
+    "text": " the bombing campaign, says John Laughland, the director for the Institute of Democracy and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 28,
+    "text": " publicly called the ad \"great\" during an appearance on MSNBC. But in private,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 46,
+    "text": " fence\" to a development team, the two sides unaware of each other's existence for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 46,
+    "text": " Friendship, especially in the trailers, was billed as a comedy of sorts, and outside",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 40,
+    "text": " has already issued an apology for the Catholic church’s inadequate response to the crisis",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 63,
+    "text": "�d be losing all of our possessions. Instantly, she ran in one direction",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 22,
+    "text": " is still reeling from a 1993-2006 civil war between the Hutu and Tuts",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 18,
+    "text": " billions of dollars to finance an enormous tax cut for the rich. After all, McConnell",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 10,
+    "text": ", but that’s okay. Right now, the Nets have Brook Lopez as",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 48,
+    "text": " pay for the chance to save Connor’s life. And the money the company",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 48,
+    "text": "gs of the income ladder are helping themselves to big payouts while the less fortunate lose",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 43,
+    "text": "hit individuals believe that the government should intervene more, so they lean more to the left",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

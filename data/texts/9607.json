@@ -1,0 +1,276 @@
+{
+ "feature": 9607,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": "style pulled pork at home, complete with smoke ring and bark, which will show up",
+    "stored": 5.298601627349854,
+    "recomputed": 6.88468074798584
+   },
+   {
+    "window": 54,
+    "text": " girlfriend, who is very sensitive to cigarette smoke, found it acceptable. I",
+    "stored": 9.662467002868652,
+    "recomputed": 10.927892684936523
+   },
+   {
+    "window": 49,
+    "text": ". In a park, teenagers chat and smoke cigarettes in the sun. V",
+    "stored": 14.22205352783203,
+    "recomputed": 16.446996688842773
+   },
+   {
+    "window": 46,
+    "text": " light lunch fare — Kline says the smoked-salmon sandwich is particularly popular.",
+    "stored": 18.63896942138672,
+    "recomputed": 22.356689453125
+   },
+   {
+    "window": 47,
+    "text": "Whether you are contemplating buying your very first smoker, or maybe upgrading your existing unit,",
+    "stored": 17.81945610046387,
+    "recomputed": 24.024961471557617
+   },
+   {
+    "window": 38,
+    "text": " you<|endoftext|> to develop cancer than those who smoke less aggressively. The half-",
+    "stored": 25.66791725158691,
+    "recomputed": 26.312946319580078
+   },
+   {
+    "window": 39,
+    "text": " Every primitive culture that has ever existed has smoked meat. The ancient Carib tribes of the",
+    "stored": 24.56875991821289,
+    "recomputed": 29.22764778137207
+   },
+   {
+    "window": 37,
+    "text": " results from his study of blood samples from smokers at the American Chemical Society national meeting and",
+    "stored": 26.43177032470703,
+    "recomputed": 31.61565589904785
+   },
+   {
+    "window": 35,
+    "text": " nearly 60% more likely for those who smoked in their first half-hour awake.",
+    "stored": 29.46105575561523,
+    "recomputed": 34.16386413574219
+   },
+   {
+    "window": 31,
+    "text": " but enforcement has remained lax and no-smoking signs are frequently ignored. �",
+    "stored": 32.30759048461914,
+    "recomputed": 38.11249923706055
+   },
+   {
+    "window": 10,
+    "text": " man bloodily smothering dissent while smoking a cigar, of Mao Zedong boasting",
+    "stored": 44.71198654174805,
+    "recomputed": 41.457122802734375
+   },
+   {
+    "window": 13,
+    "text": " Donald, which was posted yesterday by the Smoking Gun. The complaint alleges: ",
+    "stored": 44.42122650146484,
+    "recomputed": 43.5435791015625
+   },
+   {
+    "window": 28,
+    "text": " they had to decode the arcane process of smoking meat, applying science to a traditional Southern",
+    "stored": 36.67605590820312,
+    "recomputed": 45.65896224975586
+   },
+   {
+    "window": 23,
+    "text": ", and they may be more addicted than smokers who refrain from smoking for a half hour",
+    "stored": 40.77675628662109,
+    "recomputed": 46.15970993041992
+   },
+   {
+    "window": 11,
+    "text": " and feasts began with the invention of smoking. It has always been a communal activity",
+    "stored": 44.55636596679688,
+    "recomputed": 46.873783111572266
+   },
+   {
+    "window": 8,
+    "text": " and some US states have tightened laws on smoking in public places over the last few years",
+    "stored": 44.94496154785156,
+    "recomputed": 47.16093063354492
+   },
+   {
+    "window": 5,
+    "text": " admissions is a reflection of the bans making smoking less socially acceptable. “It�",
+    "stored": 46.59962463378906,
+    "recomputed": 48.361122131347656
+   },
+   {
+    "window": 22,
+    "text": ", and should encourage their colleagues to quit smoking, a top Chinese government body said in",
+    "stored": 41.71174621582031,
+    "recomputed": 48.93283462524414
+   },
+   {
+    "window": 4,
+    "text": " childhood asthma and preterm births changed after smoking bans came in – pregnant women who smoke",
+    "stored": 47.02210998535156,
+    "recomputed": 49.5726318359375
+   },
+   {
+    "window": 19,
+    "text": " that it was quite possible that cancer caused smoking — after all, precancerous growth",
+    "stored": 43.77923202514648,
+    "recomputed": 51.57035446166992
+   }
+  ],
+  "positives": 56,
+  "grey": [
+   {
+    "window": 55,
+    "text": " running but it is all huff and puff sometimes and it had no impact against a",
+    "stored": 5.936910629272461,
+    "recomputed": 3.2558321952819824
+   },
+   {
+    "window": 56,
+    "text": " the cops should let them just keep on puffing. @Murdoch",
+    "stored": 5.77716064453125,
+    "recomputed": 4.538960933685303
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20330,
+    "window": 54,
+    "text": " the upward-moving source waves, the two ‘cancel out’ in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 15,
+    "text": " Weather against Abigail’s orders, take shelter in an underground parking garage",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 40,
+    "text": " collect that also unlock special in-game extras for Nintendo Wii U and 3DS games",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 21,
+    "text": " easy to understand. Some time when i crocheted things for my own relatives so",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 7,
+    "text": " courts entertain these people and pass<|endoftext|>Fear of a second Mongol invasion was bizarrely echoed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 21,
+    "text": " or more would be classed as \"extra broad\" and would have to sit next",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 35,
+    "text": "s\" most recent season ended in 1967.) While Megan is hard at work, Don",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 15,
+    "text": "? Will the global market be able to absorb new volumes from Alberta projects in the coming",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 31,
+    "text": ", Koji Fujiyama, Tooru Hanada, Ryuji Hayami,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 71,
+    "text": " election season. Just lately, for example, the campaign seems to be having",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 57,
+    "text": " prices \"is beginning to sound suspiciously awkward.\" The debate is certainly getting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 2,
+    "text": " Apart from the lifestyle of the region, another reason it's happening in this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 58,
+    "text": " members with Xbox One can experience a customized view of what’s on<|endoftext|> people",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 23,
+    "text": " Video But it has its pleasures and grace notes, like those practical yet",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 40,
+    "text": " mocks, how a tribal family in Colombia treats women like second-class citizens.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 7,
+    "text": " is often a tendency in England to overhype players, but in Kane's case",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 40,
+    "text": " natural snow. Frozen cheeks on the downhills weren’t worth the poor",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 7,
+    "text": " remains a major caveat. Watch video 04:01 Share Euroskepticism in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 18,
+    "text": " his wife, and his water and sewer bills average $180 a month with just two",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 7,
+    "text": " Although some people have doubted the suitability of petting these shy and no",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 3665,
+    "window": 27,
+    "text": " a smattering of interest from those on the leading edge of the virtual currency movement.",
+    "recomputed": 0.11565718054771423
+   }
+  ]
+ }
+}

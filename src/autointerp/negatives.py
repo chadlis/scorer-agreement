@@ -42,6 +42,7 @@ def assign_candidates(
     n: int,
     seed: int,
     k: int = 6,
+    taken: frozenset[tuple[int, int]] = frozenset(),
 ) -> dict[int, list[Passage]]:
     """Give each target feature an ordered list of n candidate negatives.
 
@@ -52,6 +53,9 @@ def assign_candidates(
     no run of k tokens with a stored window of the target, and is given to one
     target only. The pool is shuffled once with the seed, then targets take turns
     so that none is left with only the end of the pool.
+    taken: (feature, window) of passages already given to other targets. A
+    replacement feature (PLAN.md 2.3, rule 6) is assigned alone, after the others,
+    with every passage of their lists marked as taken.
     """
     order = list(pool)
     random.Random(seed).shuffle(order)
@@ -69,7 +73,12 @@ def assign_candidates(
                 j = pointer[t]
                 pointer[t] += 1
                 p = order[j]
-                if j in used or p.feature in banned or kgrams(list(p.tokens), k) & own_grams[t]:
+                if (
+                    j in used
+                    or (p.feature, p.window) in taken
+                    or p.feature in banned
+                    or kgrams(list(p.tokens), k) & own_grams[t]
+                ):
                     continue
                 used.add(j)
                 out[t].append(p)

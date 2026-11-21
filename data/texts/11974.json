@@ -1,0 +1,276 @@
+{
+ "feature": 11974,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 35,
+    "text": " would give him an erection, photograph his genitals, and compare the photo with existing pictures",
+    "stored": 4.426151275634766,
+    "recomputed": 5.5350661277771
+   },
+   {
+    "window": 31,
+    "text": "ogeneity over heterogeneity, particularly in regard to ethnicity and race. Those communities depicted in �",
+    "stored": 7.892894744873047,
+    "recomputed": 9.503849029541016
+   },
+   {
+    "window": 28,
+    "text": ", this issue just reflects the problems with nudity in our society in general. When I",
+    "stored": 8.442388534545898,
+    "recomputed": 10.070815086364746
+   },
+   {
+    "window": 29,
+    "text": " are the majority, a dynamic understanding of ethnicity isn’t a luxury or a",
+    "stored": 8.097228050231934,
+    "recomputed": 10.709708213806152
+   },
+   {
+    "window": 27,
+    "text": "s President signed into law a bill making homosexuality punishable with life imprisonment, several countries have",
+    "stored": 11.05703735351562,
+    "recomputed": 11.687322616577148
+   },
+   {
+    "window": 33,
+    "text": " procedures. Questions have been swirling around her finances and the activities of the “Clinton",
+    "stored": 4.906856536865234,
+    "recomputed": 11.791036605834961
+   },
+   {
+    "window": 25,
+    "text": "Don<|endoftext|> chaplains who object to homosexuality. Under the language, service members could",
+    "stored": 12.57462596893311,
+    "recomputed": 13.082320213317871
+   },
+   {
+    "window": 16,
+    "text": " linguistics, philosophy, and gender and sexuality studies at Northwestern University in Evanston.",
+    "stored": 32.26762390136719,
+    "recomputed": 31.467172622680664
+   },
+   {
+    "window": 18,
+    "text": ". Offer age-appropriate sexuality education for all students. End",
+    "stored": 32.19730377197266,
+    "recomputed": 32.11360168457031
+   },
+   {
+    "window": 21,
+    "text": " hurled slurs about the man’s sexuality and punched him in the face repeatedly,",
+    "stored": 31.67412757873535,
+    "recomputed": 33.335487365722656
+   },
+   {
+    "window": 2,
+    "text": " about the interaction of politics, religion, sexuality and identity,\" Cecil said by phone from",
+    "stored": 35.37621688842773,
+    "recomputed": 34.15523147583008
+   },
+   {
+    "window": 15,
+    "text": " they are no longer allowed to express their sexuality. Women who breach this outdated social norm",
+    "stored": 32.66164779663086,
+    "recomputed": 35.118743896484375
+   },
+   {
+    "window": 11,
+    "text": " We have to include race and gender and sexuality and class as markers that facilitate or impede",
+    "stored": 33.54630279541016,
+    "recomputed": 35.22065353393555
+   },
+   {
+    "window": 10,
+    "text": " by motherhood and coerced access to her sexuality, despite attempts to break out of this",
+    "stored": 33.65028381347656,
+    "recomputed": 35.53986740112305
+   },
+   {
+    "window": 5,
+    "text": " Mateen’s struggles with his sexuality as a likely motive for the massacre,",
+    "stored": 34.81782531738281,
+    "recomputed": 36.3142204284668
+   },
+   {
+    "window": 7,
+    "text": " gender”, but does not mention sexuality. In practice, few people",
+    "stored": 34.71337890625,
+    "recomputed": 36.7258415222168
+   },
+   {
+    "window": 4,
+    "text": " essay that analyzes Halsey's sexuality in conjunction with her celeb status. H",
+    "stored": 35.09749984741211,
+    "recomputed": 37.973548889160156
+   },
+   {
+    "window": 3,
+    "text": " Ghanaians are generally forced to hide their sexuality behind closed doors.<|endoftext|>In a recent",
+    "stored": 35.27386856079102,
+    "recomputed": 38.37083435058594
+   },
+   {
+    "window": 6,
+    "text": " been open. She's open about her sexuality, her past struggles, and her emotions",
+    "stored": 34.74009323120117,
+    "recomputed": 38.62777328491211
+   },
+   {
+    "window": 0,
+    "text": " every day. The notion that someone's sexuality is a phase, or not real,",
+    "stored": 37.16149520874023,
+    "recomputed": 40.8265380859375
+   }
+  ],
+  "positives": 35,
+  "grey": [
+   {
+    "window": 34,
+    "text": ", grab a ribeye steak—whatever thickness you like. Heat up the",
+    "stored": 4.779153823852539,
+    "recomputed": 1.5328181982040405
+   },
+   {
+    "window": 36,
+    "text": " time the foreign fighters marry another woman. Sexual relations under the appropriately sanctioned institution of marriage",
+    "stored": 3.830852508544922,
+    "recomputed": 2.758012294769287
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13689,
+    "window": 19,
+    "text": "urt Wonderstone (Carell) and Anton Marvelton (Buscemi) who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 0,
+    "text": " coaches are expected to have a lot of suitors from China this year 6",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 46,
+    "text": " the people calling names, the people afraid to talk to their fellow Jews just because those",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 35,
+    "text": " the Program on Arab Politics at the Washington Institute. Tabler said the regime",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 31,
+    "text": " Dumbledore: 1. How are spells really made? 2. How",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 14,
+    "text": " Great War in Africa, 2007, ISBN 0-297-84709-0,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 32,
+    "text": ". Dozens of construction sites with scores of Palestinian workers are active. Why?",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 6,
+    "text": " payouts represent a sliver of government bailout funds and resulted from legally binding contracts.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 51,
+    "text": " in a 1989 indictment involving Colombian drug kingpin Pablo Escobar and members of the Med",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 25,
+    "text": " in the final weeks with violations on both sides. Now both Hamas and some Israeli leaders",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 58,
+    "text": "�s wasteful. It’s ineffective. It doesn’t work to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 3,
+    "text": " Bunning, an arch-reactionary from Kentucky who took advantage of a Senate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 8,
+    "text": " interested. The report from Klis could mean that the Broncos think Fox may",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 39,
+    "text": " his grasp. But his reflexes, razor-sharp all the way through this tournament",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 21,
+    "text": " address the problem. Even with her position at the U.N., M",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 25,
+    "text": "<|endoftext|>Sega’s been awfully quiet about making noise in mobile and digital.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 47,
+    "text": " for Marine Parade GRC and the MacPherson single-seat ward. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 20,
+    "text": " president and CEO. “CFI has long championed the rights of nonreligious couples",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 52,
+    "text": " the summer<|endoftext|> months, the Kenai Peninsula Borough Assembly has again voted to change the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14889,
+    "window": 22,
+    "text": " final year, due to the new Collective Bargaining Agreement’s escalating luxury tax",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 17379,
+    "window": 75,
+    "text": " to the person at the end of life, the conversation changes. The agency has put",
+    "recomputed": 1.181714415550232
+   }
+  ]
+ }
+}

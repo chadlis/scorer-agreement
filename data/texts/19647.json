@@ -1,0 +1,294 @@
+{
+ "feature": 19647,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 53,
+    "text": ",\" Center said. \"It has been a really common practice in schools for decades.",
+    "stored": 0.6062920689582825,
+    "recomputed": 2.3489251136779785
+   },
+   {
+    "window": 48,
+    "text": " of Mines Colorado State University Columbia University Connecticut College University of Connecticut–Storrs Cornell",
+    "stored": 3.932007074356079,
+    "recomputed": 3.111346960067749
+   },
+   {
+    "window": 49,
+    "text": " responded to<|endoftext|> Parliament and the Guardian Council, in addition to acting in an advisory role",
+    "stored": 3.025984525680542,
+    "recomputed": 3.932468891143799
+   },
+   {
+    "window": 41,
+    "text": "-8) Reported by the joint conference committee on August 2, 1917; agreed to",
+    "stored": 6.318613052368164,
+    "recomputed": 5.179881572723389
+   },
+   {
+    "window": 46,
+    "text": "WA) 1080, Professional Staff Congress-CUNY, the health care union 119",
+    "stored": 4.98296070098877,
+    "recomputed": 5.950901031494141
+   },
+   {
+    "window": 40,
+    "text": " time.<|endoftext|>The Daily Beast columnist Kirsten Powers took a jab at Congressional Republicans on",
+    "stored": 6.456509590148926,
+    "recomputed": 7.367213726043701
+   },
+   {
+    "window": 37,
+    "text": " sign of progress, officials scheduled European Council President Donald Tusk to make a statement on",
+    "stored": 9.007362365722656,
+    "recomputed": 9.17590045928955
+   },
+   {
+    "window": 35,
+    "text": "gs<|endoftext|>In a letter to European Council President Herman Van Rompuy, who has",
+    "stored": 9.694950103759766,
+    "recomputed": 9.725025177001953
+   },
+   {
+    "window": 17,
+    "text": "2009) IA Council Bluffs AMC Star Council Bluffs (2010",
+    "stored": 16.51127815246582,
+    "recomputed": 10.373930931091309
+   },
+   {
+    "window": 33,
+    "text": " Toronto and Hamilton Area. Vancouver's council of regional mayors estimates that governments need to spend",
+    "stored": 11.49648284912109,
+    "recomputed": 11.516538619995117
+   },
+   {
+    "window": 36,
+    "text": ") was convoked as the Fourth Council of Constantinople to decide this matter. At this",
+    "stored": 9.326807022094727,
+    "recomputed": 12.962181091308594
+   },
+   {
+    "window": 25,
+    "text": " Leslie Gelb, president of the Council on Foreign Relations, penned an article in Foreign",
+    "stored": 15.59852027893066,
+    "recomputed": 14.481985092163086
+   },
+   {
+    "window": 14,
+    "text": " president of the indisputably bipartisan Council on Foreign Relations, likened Trump's rhetoric to",
+    "stored": 17.05636596679688,
+    "recomputed": 15.043359756469727
+   },
+   {
+    "window": 19,
+    "text": " and director of international economics at the Council on Foreign Relations (CFR). In the",
+    "stored": 16.49028587341309,
+    "recomputed": 15.633399963378906
+   },
+   {
+    "window": 20,
+    "text": " to barricade protesters. The Supreme Council of Armed Forces (SCAF) walled",
+    "stored": 16.45631408691406,
+    "recomputed": 16.817659378051758
+   },
+   {
+    "window": 12,
+    "text": " asshole. Kind of a fumble, Council of High Sorcery. Bad Council of High",
+    "stored": 17.57462120056152,
+    "recomputed": 18.395536422729492
+   },
+   {
+    "window": 7,
+    "text": " has called on the Commission and the Council of Ministers to “abandon their plans",
+    "stored": 19.33269309997559,
+    "recomputed": 18.82954216003418
+   },
+   {
+    "window": 3,
+    "text": " Hassett, the Chair of the Council of Economic Advisers, explained that the C",
+    "stored": 19.65860748291016,
+    "recomputed": 19.3853816986084
+   },
+   {
+    "window": 5,
+    "text": ") - Delegates from the Council of Europe's GRECO anti-corruption watchdog will",
+    "stored": 19.37664794921875,
+    "recomputed": 20.36197280883789
+   },
+   {
+    "window": 2,
+    "text": " a judge or a member of the Council of State. A referendum would be",
+    "stored": 19.69087409973145,
+    "recomputed": 20.585968017578125
+   }
+  ],
+  "positives": 40,
+  "grey": [
+   {
+    "window": 50,
+    "text": " of silica – alpha-cristobalite – low temperature, but tightly closed",
+    "stored": 2.705177068710327,
+    "recomputed": 1.8203014135360718
+   },
+   {
+    "window": 51,
+    "text": "1 vote Started a 12th Playthrough: 1 vote 1 vote Started a",
+    "stored": 2.243866205215454,
+    "recomputed": 0.20637652277946472
+   },
+   {
+    "window": 52,
+    "text": "�s life in 2012. >>> Commentary: It’s Time to",
+    "stored": 0.9017842411994934,
+    "recomputed": 1.620802879333496
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18562,
+    "window": 73,
+    "text": " refrain from sexual activities in Qatar\" quote, this time he gave quite the explanation for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 2,
+    "text": " feeling pressure from within to take action on DACA. Curbelo, who",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 31,
+    "text": " linked up with the trickery of McManaman as he flashed an effort over the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 14,
+    "text": " \"This whole description of the knife fight, or this internal fighting. Nothing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 8,
+    "text": " cheese WITH bacon, and a jalapeño skewer. That is a lot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 3,
+    "text": " first attempt at truth-telling was something of a dress rehearsal for the revelations to come",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 7,
+    "text": ", on a larger scale, that most restaurant cooks routinely use for short ribs, though",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 26,
+    "text": " Kane scored four of them. His goals were scored in 30 games, at a ratio",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 22,
+    "text": " Trump's ardent use of Twitter did little to boost users or ad income. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 60,
+    "text": " (1879–1968), an American radiologist, working independently;[4]",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 57,
+    "text": " high in iron ore prices would do little to help Arrium in the short term.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 2,
+    "text": " on autonomous and remote-controlled shipping in Turku, Finland. Finland",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 56,
+    "text": " the cops should let them just keep on puffing. @Murdoch",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 0,
+    "text": " people who read to the kids, relying instead on volunteers (bless them). ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 45,
+    "text": " day. I would have been in abject hell. Between reading that letter and receiving",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 27,
+    "text": " commenced, Secretary of State Clinton declared during a classified briefing for members of Congress that �",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 52,
+    "text": " have procedures.\"At that point, I politely said I wasn't aware of any rules",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 43,
+    "text": " Avengers sequel.If any of this turns out to be true, there could still be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 9,
+    "text": " same name, Holiday Inn is directed by Gordon Greenberg and features choreography by Denis Jones",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 15,
+    "text": "rified of Tom Watson. They were scared of what he could do to their careers.",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 16447,
+    "window": 49,
+    "text": " tournament. Prior to enrolling at North Dakota, Jost was named the",
+    "recomputed": 0.9144045114517212
+   },
+   {
+    "from_feature": 1133,
+    "window": 18,
+    "text": " charges of \"disobedience of lawful orders\" Ugandan authorities jailed",
+    "recomputed": 0.2741871178150177
+   },
+   {
+    "from_feature": 21857,
+    "window": 36,
+    "text": " as long as Sweden offers friendlier asylum legislation than Denmark, the former will be a",
+    "recomputed": 0.1782950609922409
+   }
+  ]
+ }
+}

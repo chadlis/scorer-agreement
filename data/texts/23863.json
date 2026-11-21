@@ -1,0 +1,282 @@
+{
+ "feature": 23863,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " prices \"is beginning to sound suspiciously awkward.\" The debate is certainly getting",
+    "stored": 2.123756885528564,
+    "recomputed": 2.9170825481414795
+   },
+   {
+    "window": 55,
+    "text": " cold war. It is being translated and published by Kotodama Heavy Industries, the",
+    "stored": 2.695772647857666,
+    "recomputed": 3.3973212242126465
+   },
+   {
+    "window": 51,
+    "text": " on bending every institution to his arbitrary and selfish designs. This cannot be acceptable to the",
+    "stored": 5.135157585144043,
+    "recomputed": 4.117929935455322
+   },
+   {
+    "window": 49,
+    "text": " industry in Japan relies on unskilled and uneducated daily workers, and even now the",
+    "stored": 5.298014163970947,
+    "recomputed": 5.129500389099121
+   },
+   {
+    "window": 48,
+    "text": " behind the sharing economy is either dishonest or unbelievably self-deceiving. ",
+    "stored": 5.732297420501709,
+    "recomputed": 6.850041389465332
+   },
+   {
+    "window": 35,
+    "text": " him. 2. Trump is vulgar and uninformed about issues. For a",
+    "stored": 10.52958297729492,
+    "recomputed": 8.21261978149414
+   },
+   {
+    "window": 45,
+    "text": " with vinyls designed to be easily and quickly applied in Google offices around the world –",
+    "stored": 6.787796974182129,
+    "recomputed": 8.954164505004883
+   },
+   {
+    "window": 34,
+    "text": " The tool must be portable and small enough to fit in our storage space.",
+    "stored": 10.64858436584473,
+    "recomputed": 10.369226455688477
+   },
+   {
+    "window": 37,
+    "text": "<|endoftext|>Sure, you may be thrilled and horrified at all of your email connections on display",
+    "stored": 9.95042610168457,
+    "recomputed": 11.96744155883789
+   },
+   {
+    "window": 12,
+    "text": " shape is suddenly sitting there, quiet and mysterious, in the space next to us.",
+    "stored": 15.08655738830566,
+    "recomputed": 12.305914878845215
+   },
+   {
+    "window": 27,
+    "text": " endure from their parents are heartbreaking and deeply disturbing. I think about the 15",
+    "stored": 12.7629337310791,
+    "recomputed": 12.366325378417969
+   },
+   {
+    "window": 24,
+    "text": " result is that the pacing feels better and faster, and even though you're technically doing",
+    "stored": 14.10042285919189,
+    "recomputed": 14.039828300476074
+   },
+   {
+    "window": 10,
+    "text": " 30 seconds, he was remarkably funny and gracious. Eric Spitznag",
+    "stored": 15.11888980865479,
+    "recomputed": 14.110637664794922
+   },
+   {
+    "window": 30,
+    "text": " had the potential to be very devastating and dangerous and he was certainly the driving force,",
+    "stored": 11.98517990112305,
+    "recomputed": 14.378814697265625
+   },
+   {
+    "window": 22,
+    "text": "unk, but she is also creative and rebellious and is often the only one of her",
+    "stored": 14.20212554931641,
+    "recomputed": 14.56543254852295
+   },
+   {
+    "window": 23,
+    "text": " Yet research suggests we are naturally kind and cooperative He claims that research shows that",
+    "stored": 14.18605709075928,
+    "recomputed": 14.823667526245117
+   },
+   {
+    "window": 2,
+    "text": " pure. All carbonates are soft and brittle. Carbonates also effervesce when",
+    "stored": 16.28793716430664,
+    "recomputed": 15.215659141540527
+   },
+   {
+    "window": 1,
+    "text": " that the authors assure us is tender and delicate, as well as braised short ribs",
+    "stored": 16.42193603515625,
+    "recomputed": 15.962495803833008
+   },
+   {
+    "window": 14,
+    "text": " fear death. Many are indeed ferocious and fearless fighters during the day, as many media",
+    "stored": 15.04601383209229,
+    "recomputed": 16.383289337158203
+   },
+   {
+    "window": 0,
+    "text": ". These pups are more confident and adventurous than the previous litter and I think that",
+    "stored": 16.55767250061035,
+    "recomputed": 17.512264251708984
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 56,
+    "text": "ated is exactly that type of smart, provocative series, delivering a fresh, edge of",
+    "stored": 2.254146814346313,
+    "recomputed": 1.4070364236831665
+   },
+   {
+    "window": 58,
+    "text": "�s wasteful. It’s ineffective. It doesn’t work to",
+    "stored": 2.052341461181641,
+    "recomputed": 0.7244277000427246
+   },
+   {
+    "window": 59,
+    "text": " this stage whether Trump tweets strategically or compulsively, whether he means what he tweets or",
+    "stored": 1.818764328956604,
+    "recomputed": 1.3161729574203491
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18623,
+    "window": 5,
+    "text": " somehow managed to seem accessible. AND HE SANG ABOUT GIRLS. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 59,
+    "text": " Victorians had a very peculiar tradition of picnicking in cemeteries.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 10,
+    "text": "ulent, supersonic gas is characterized mainly by the Reynolds number (the ratio of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 13,
+    "text": " was hoping for,\" says Wichita Police Chief Gordon Ramsay. The barbecue took place",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 24,
+    "text": " we've ever seen in college basketball. If they don't finish the season undefeated and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 27,
+    "text": " and come to be seen as “experts.” As such, they",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 25,
+    "text": " innovations early on so that we can help to shape their development and co-create the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 7,
+    "text": "<|endoftext|>.38 GAA Known primarily for – His Hall of Fame Induction",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 64,
+    "text": "but it worked. The problems began with the election for a constitutional parliament.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 7,
+    "text": " seed of hope to build true fraternity between peoples.\" A Burundi convent",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 30,
+    "text": " has been charged with carrying out female genital mutilation (FGM) on young girls",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 72,
+    "text": " U.S. cities such as in Philadelphia and Seattle, the use of trans-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 2,
+    "text": " you ask. \"Not really,\" Brian replies. \"Well,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 32,
+    "text": " my nature to betray or abandon the responsibilities,\" said Mubarak, who promised \"to restore",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 4,
+    "text": "conclave period<|endoftext|> But some in the Church believe that an early conclave would",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 39,
+    "text": " years ago, Wii Network was merged into Dolphin after over two years of work. It",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 5,
+    "text": " of Dogs will debut this week with The Lego Ninjago Movie and will also appear",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 1,
+    "text": " been overrun with monstrous creatures, including mutating humans, and that outbreaks of suicide and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 31,
+    "text": "aine Drouhin Oregon and J. Christopher, which I’ve come to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21484,
+    "window": 40,
+    "text": ".<|endoftext|>SCP-190 Item #: SCP-190 Object Class",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 21183,
+    "window": 0,
+    "text": " James denounced the judge for “overriding and striking down the will of the",
+    "recomputed": 2.5701661109924316
+   }
+  ]
+ }
+}

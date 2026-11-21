@@ -1,0 +1,263 @@
+{
+ "feature": 16546,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 58,
+    "text": " had continued to publicly and privately entertain conspiracy theories, including the long-debunked",
+    "stored": 5.454596519470215,
+    "recomputed": 7.331876277923584
+   },
+   {
+    "window": 57,
+    "text": " given market capitalization. The speculation has now gone beyond individuals. It seems",
+    "stored": 7.017941951751709,
+    "recomputed": 8.906410217285156
+   },
+   {
+    "window": 51,
+    "text": " York. Let the breathless speculation begin: Don Draper and his wife Megan",
+    "stored": 14.98561191558838,
+    "recomputed": 14.483875274658203
+   },
+   {
+    "window": 49,
+    "text": " actually be 2017. These rumoured releases also line-up with the<|endoftext|>",
+    "stored": 17.12651252746582,
+    "recomputed": 18.076828002929688
+   },
+   {
+    "window": 46,
+    "text": " much less internal space.Apple is widely rumored to unveil its first OLED iPhone later this",
+    "stored": 20.6629581451416,
+    "recomputed": 19.823780059814453
+   },
+   {
+    "window": 47,
+    "text": " Iran. PS “rumors that an international warrant has been issued against",
+    "stored": 19.87467575073242,
+    "recomputed": 23.284435272216797
+   },
+   {
+    "window": 38,
+    "text": " UFC 182, check out the UFC Rumors section of the site. *",
+    "stored": 29.87334251403809,
+    "recomputed": 31.11580467224121
+   },
+   {
+    "window": 34,
+    "text": ". And was it true, as rumour had it, that the Russian had dropped",
+    "stored": 33.68774795532227,
+    "recomputed": 35.82050323486328
+   },
+   {
+    "window": 32,
+    "text": " about his health, Mr Brown emphatically denied rumours that he was a regular user of prescription",
+    "stored": 35.22211074829102,
+    "recomputed": 37.224853515625
+   },
+   {
+    "window": 25,
+    "text": " to what we can expect, there are rumours that an All-in-One Surface",
+    "stored": 40.19594573974609,
+    "recomputed": 42.3797721862793
+   },
+   {
+    "window": 21,
+    "text": "-mail) involving an unspecified experiment, rumors began to fly immediately. By Friday afternoon",
+    "stored": 42.17140960693359,
+    "recomputed": 43.05474853515625
+   },
+   {
+    "window": 29,
+    "text": " that a child was responsible was based on rumors from witnesses. \"We do",
+    "stored": 36.80441284179688,
+    "recomputed": 44.19625473022461
+   },
+   {
+    "window": 23,
+    "text": "ors and Pentax Full Frame forums cite rumors claiming we might see a FF as early",
+    "stored": 41.16835784912109,
+    "recomputed": 45.010555267333984
+   },
+   {
+    "window": 26,
+    "text": ", has been quick to dissipate those rumors - the Korean company reached to us with",
+    "stored": 40.03336715698242,
+    "recomputed": 46.10554504394531
+   },
+   {
+    "window": 15,
+    "text": "Spot, \"We don't comment on rumors and speculation.\" At Gamescom",
+    "stored": 44.4366340637207,
+    "recomputed": 46.949913024902344
+   },
+   {
+    "window": 8,
+    "text": " is an area<|endoftext|> going to comment on rumors that came out of a private meeting,'",
+    "stored": 45.98246383666992,
+    "recomputed": 47.49774169921875
+   },
+   {
+    "window": 4,
+    "text": " company will<|endoftext|> though, as today's rumor claims the company is actively experimenting with Android",
+    "stored": 46.63064575195312,
+    "recomputed": 47.86897277832031
+   },
+   {
+    "window": 19,
+    "text": "� Push further and ask if about the rumor that she’ll be playing Thor",
+    "stored": 43.56239700317383,
+    "recomputed": 48.15504455566406
+   },
+   {
+    "window": 3,
+    "text": " None of these reasons are related to the rumors that have been circulating over the course of",
+    "stored": 46.78838348388672,
+    "recomputed": 48.853271484375
+   },
+   {
+    "window": 10,
+    "text": " reveals at the show, especially given recent rumors surrounding both Star Wars: Battlefront 2",
+    "stored": 45.53503799438477,
+    "recomputed": 50.052978515625
+   }
+  ],
+  "positives": 52,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 19647,
+    "window": 0,
+    "text": "The human rights commissioner at the Council of Europe, Nils Muiznieks,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 12,
+    "text": " team’s Twitter feed include a picture of a mass baptism… followed by someone",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 56,
+    "text": " novels. Her restaurant critic son, Jay, told BBC Radio 4's Today",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 19,
+    "text": " at the 1996 Olympics in Atlanta – would quiet the feelings she had carried inside her since",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 9,
+    "text": " Hospital Image caption Dr Nagarwala mutilated girls aged between six and eight,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 55,
+    "text": " a<|endoftext|> of the caricature Senator Obama's right-wing critics have tried to create,\"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 7,
+    "text": " The streets of Ras Lanuf were quiet on Monday, troubled only by cars and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 33,
+    "text": " guys who were disturbed mid-burglary on a previous occasion. '",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 22,
+    "text": "ingoism in the debate over wine styles.) But Bonné doesn’t",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 18,
+    "text": "-led coalition forces were dramatically lower than in the preceding year, with a total of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 37,
+    "text": " is not committing a sin, according to the Quran. Share on Facebook<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 0,
+    "text": " also<|endoftext|> that until ES5 undefined was mutable so if there are other scripts on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 30,
+    "text": ", Software Update also checks for Apple's signature on any code that it asks users to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 53,
+    "text": " was in the end saved by the bell when the program ended. This guy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 15,
+    "text": " they are no longer allowed to express their sexuality. Women who breach this outdated social norm",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 25,
+    "text": "Keep Calm and Carry On”: Structural Correlates of Expressive Supp",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 47,
+    "text": " sending \"criminals\" and \"rapists\" into the United States, and for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 9,
+    "text": " and safer\" for Jews in Ukraine than in Western countries such as Belgium and France,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 72,
+    "text": "'s hard to fight here with two arms. It's tough. There's guys that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 42,
+    "text": ", and Castillo are definitely in sync right now. And it is great to see",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 23318,
+    "window": 19,
+    "text": " British Airways said goodbye to Zimbabwe, amid mutterings from supporters of Robert Mugabe",
+    "recomputed": 1.649224877357483
+   }
+  ]
+ }
+}

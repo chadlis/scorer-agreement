@@ -1,0 +1,256 @@
+{
+ "feature": 2221,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 44,
+    "text": " occurring in Mosul. Additionally, Mosul's absolute number of violent incidents deadly to civilians in",
+    "stored": 5.926600456237793,
+    "recomputed": 6.222634315490723
+   },
+   {
+    "window": 42,
+    "text": " the word; they are normal only in relation to a profoundly abnormal society. Their perfect",
+    "stored": 6.933448314666748,
+    "recomputed": 7.430139541625977
+   },
+   {
+    "window": 39,
+    "text": " “Cost estimates are conceptual and for comparative purposes only.”<|endoftext|>Mr Obama",
+    "stored": 14.56721878051758,
+    "recomputed": 11.005400657653809
+   },
+   {
+    "window": 37,
+    "text": " transcriptional noise. We show, by comparative transcriptomics of 20 bacterial species and one",
+    "stored": 17.25127792358398,
+    "recomputed": 15.594914436340332
+   },
+   {
+    "window": 40,
+    "text": " thought of as the essential document of modern comparative psychology. Upon graduation, Thorndike",
+    "stored": 14.13449096679688,
+    "recomputed": 16.312822341918945
+   },
+   {
+    "window": 31,
+    "text": " paper that argues that Lucy, a human relative belonging to the species Australopithecus",
+    "stored": 38.27029418945312,
+    "recomputed": 38.77641296386719
+   },
+   {
+    "window": 29,
+    "text": " be if the federal government had less power relative to the states. Laboratories",
+    "stored": 42.41035461425781,
+    "recomputed": 42.250064849853516
+   },
+   {
+    "window": 34,
+    "text": " himself grew to have a temper, a relative said. \"Anyone going through",
+    "stored": 35.25690078735352,
+    "recomputed": 43.300193786621094
+   },
+   {
+    "window": 25,
+    "text": ", is moving at nine miles a second relative to Earth and would hit us with a",
+    "stored": 44.44694519042969,
+    "recomputed": 45.71041488647461
+   },
+   {
+    "window": 21,
+    "text": " the industries most dependent on undocumented labor. Relative to the overall economy, however, the",
+    "stored": 48.43426132202148,
+    "recomputed": 47.95232391357422
+   },
+   {
+    "window": 14,
+    "text": " at how the individual Cowboys players have performed relative to other players at their positions across the",
+    "stored": 49.69829559326172,
+    "recomputed": 48.359981536865234
+   },
+   {
+    "window": 23,
+    "text": " the Pacific Plate and Australian Plate started moving relative to each other \"in a big way",
+    "stored": 47.15469741821289,
+    "recomputed": 49.3614501953125
+   },
+   {
+    "window": 19,
+    "text": " obvious that he was being incredibly effective, relative to everything else being done. To the",
+    "stored": 49.32189178466797,
+    "recomputed": 50.38316345214844
+   },
+   {
+    "window": 3,
+    "text": " that make up the perimeter walls and the relative size of the core structure, which also",
+    "stored": 52.03196334838867,
+    "recomputed": 51.07551956176758
+   },
+   {
+    "window": 9,
+    "text": " During this period Palestinians could also travel with relative freedom between the West Bank and Gaza.",
+    "stored": 50.98565673828125,
+    "recomputed": 51.219970703125
+   },
+   {
+    "window": 2,
+    "text": "ed subjects had little trouble figuring out the relative sizes of the spaces. The person who",
+    "stored": 53.40121078491211,
+    "recomputed": 51.84222412109375
+   },
+   {
+    "window": 11,
+    "text": " the freedoms of the people. And, relative to the OP's question, allowed for",
+    "stored": 50.82881164550781,
+    "recomputed": 52.41659164428711
+   },
+   {
+    "window": 12,
+    "text": " to take in all that caffeine? The relative amount of caffeine that its ingesting should",
+    "stored": 50.00944519042969,
+    "recomputed": 54.04728698730469
+   },
+   {
+    "window": 0,
+    "text": " critical. <|endoftext|> on and off with relative regularity. No less an authority than",
+    "stored": 55.78115081787109,
+    "recomputed": 55.1729736328125
+   },
+   {
+    "window": 1,
+    "text": " few months.\"<|endoftext|>This graph shows the relative number of people who have completed each exact",
+    "stored": 53.87290191650391,
+    "recomputed": 55.67852783203125
+   }
+  ],
+  "positives": 45,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20330,
+    "window": 22,
+    "text": " Matter. All Lives Matter. Two phrases that are supposed to go hand in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 46,
+    "text": " be more and more months until they call me. They have a private rental",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 19,
+    "text": "hattisgarh. Also, the orders of the environment ministry have not been put",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 0,
+    "text": " Twitter account for the lander marked its quiet demise with tragic tweets — \"it's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 7,
+    "text": " depreciates. Credit rating agencies then assign a credit rating to such bonds. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 56,
+    "text": ", and video streams from everyone from political parties to the Toronto Maple Leafs. Creators",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 53,
+    "text": " tested to its limits. And that’s why there is an increasing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 17,
+    "text": " but porn apps,\" Jobs told journalists during a Q&A session. \"You can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 52,
+    "text": " and a stocking full of little toys and things from Santa. Our families have free reign",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 1,
+    "text": " show bias toward Clinton over Sanders -- and patronize ordinary Americans The leaked Clinton",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 68,
+    "text": " nor will a somewhat less impressive result. More slack for you. The vendor,<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 29,
+    "text": " RUN npm install #Bundle app source COPY . / app #create non root",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 57,
+    "text": " given market capitalization. The speculation has now gone beyond individuals. It seems",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 74,
+    "text": "aunt told Racked it would be at least a year until the image quality was good",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 17,
+    "text": " Walsh, fucking little troll, casting his spell on people, liar. I've won",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 2,
+    "text": " older.<|endoftext|> this campaign will go directly to our work of combatting the same anti",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 0,
+    "text": " The corporate tax code contains so many tax breaks that no rational company pays that rate.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 28,
+    "text": " Syria fights government forces in close proximity to insurgents deemed moderates by Western states. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 45,
+    "text": " a lot of people removed. This was not that.\" The mother, Dev",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 21,
+    "text": " women, head in hands, mouths agape, staring at the hellish fires of",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

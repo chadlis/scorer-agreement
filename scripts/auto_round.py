@@ -1,8 +1,12 @@
 """Automatic placebo rounds (PLAN.md, section 2.4, rules 10 and 11).
 
+A feature replaced in the sample (data/draw/draw.json, "replacements") hands its
+donor to its replacement, which is then repaired and triaged like a changed pair.
+
 Usage:
   uv run scripts/auto_round.py assign N   repair round N-1 into round N, list the
                                           changed pairs for the triage
+  uv run scripts/auto_round.py final N    write final.json from round N (no doubt left)
   uv run scripts/auto_round.py close N    merge the triage of the changed pairs with
                                           the verdicts carried over, reject every strong
                                           doubt (a doubt without strength counts as strong)
@@ -12,6 +16,7 @@ agent writes roundN/triage_changed.json. close writes roundN/triage.json and
 roundN/decisions.json.
 """
 
+import datetime
 import json
 import random
 import sys
@@ -50,14 +55,22 @@ def rejected_pairs(n: int) -> set[tuple[int, int]]:
 
 
 def assign(n: int) -> None:
-    sample = load(ROOT / "data" / "draw" / "draw.json")["sample"]
+    drawn = load(ROOT / "data" / "draw" / "draw.json")
+    sample = drawn["sample"]
+    replacements = drawn.get("replacements", [])
     classes = load(DIR / "generic.json")["explanations"]
     specific = {(e["index"], e["model"]) for e in classes if e["class"] == "specific"}
     candidates = [c["index"] for c in load(DIR / "donor_candidates.json")["candidates"]]
+    # A replaced feature stays a donor (PLAN.md 2.3, rule 6), like an outside donor.
+    # A candidate donor drawn as a replacement is now a sampled feature.
+    candidates = [c for c in candidates if c not in sample] + [r["out"] for r in replacements]
     donors, dropped, outside = donor_pool(sample, specific, candidates)
     pairs = build_pairs(sample, fetch_feature, extra_donors=outside, specific=specific)
     prev = load(DIR / f"round{n - 1}" / "assignment.json")["pairs"]
     m = {r["target"]: r["donor"] for r in prev}
+    for r in replacements:  # the replacement starts from the freed donor
+        if r["out"] in m:
+            m[r["in"]] = m.pop(r["out"])
     spare = sorted(set(donors) - set(m.values()))
     swaps = repair(
         m,
@@ -70,7 +83,7 @@ def assign(n: int) -> None:
     )
     out_rows = rows(pairs, m, sample)
     before = {r["target"]: r["placebo"] for r in prev}
-    changed = [r for r in out_rows if r["placebo"] != before[r["target"]]]
+    changed = [r for r in out_rows if r["placebo"] != before.get(r["target"])]
     d = DIR / f"round{n}"
     d.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -123,5 +136,33 @@ def close(n: int) -> None:
     )
 
 
+def final(n: int) -> None:
+    """Write data/placebos/final.json from round N, which must have no doubt left
+    except light doubts that Salah kept (decisions.json, light_doubt_review)."""
+    d = DIR / f"round{n}"
+    dec = load(d / "decisions.json")
+    reviewed = dec.get("light_doubt_review", {})
+    if dec["rejected_doubt"] or set(dec["light_doubt"]) - set(reviewed.get("kept", [])):
+        raise SystemExit(f"round {n} still has doubts not kept by Salah's review (rule 11)")
+    reason = {t["target"]: t["reason"] for t in load(d / "triage.json")["pairs"]}
+    out = load(DIR / "final.json")
+    out["history"].append(
+        {
+            "round": n,
+            "rejected_pairs": 0,
+            "rejected_texts": [],
+            "changed": load(d / "assignment.json")["changed"],
+            "light_doubts_kept": reviewed.get("kept", []),
+        }
+    )
+    out["frozen"] = datetime.date.today().isoformat()
+    out["from_round"] = n
+    out["pairs"] = [
+        {**r, "triage_reason": reason[r["target"]]} for r in load(d / "assignment.json")["pairs"]
+    ]
+    (DIR / "final.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    print(f"final.json written from round {n}")
+
+
 if __name__ == "__main__":
-    {"assign": assign, "close": close}[sys.argv[1]](int(sys.argv[2]))
+    {"assign": assign, "close": close, "final": final}[sys.argv[1]](int(sys.argv[2]))

@@ -1,0 +1,289 @@
+{
+ "feature": 16447,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " of El Pintor, including sets at Glastonbury, Coachella and",
+    "stored": 4.821720600128174,
+    "recomputed": 2.7386491298675537
+   },
+   {
+    "window": 59,
+    "text": " had trouble getting to sleep without first hearing at least a couple of stories of life,",
+    "stored": 2.625164031982422,
+    "recomputed": 4.4209394454956055
+   },
+   {
+    "window": 54,
+    "text": " Knight offers Seattle a back-up at their shallowest position, particularly now that",
+    "stored": 5.254415512084961,
+    "recomputed": 5.537773132324219
+   },
+   {
+    "window": 51,
+    "text": " first race, contact sending the Honda spinning at more than 100mph. Pl",
+    "stored": 6.558747291564941,
+    "recomputed": 7.071380138397217
+   },
+   {
+    "window": 50,
+    "text": " players have played, the player standing undefeated at the end will recieve, and the",
+    "stored": 6.920143127441406,
+    "recomputed": 11.060428619384766
+   },
+   {
+    "window": 36,
+    "text": " in 2001 following a strong high school career at Flambeau High School in Tony,",
+    "stored": 13.9566822052002,
+    "recomputed": 11.270159721374512
+   },
+   {
+    "window": 44,
+    "text": " already a stunning striker and the main man at Anfield but a liability with his on-",
+    "stored": 10.90388107299805,
+    "recomputed": 11.867377281188965
+   },
+   {
+    "window": 47,
+    "text": " Wed Aug 5: Murray State at Concordia Valparaiso",
+    "stored": 8.291948318481445,
+    "recomputed": 13.646697998046875
+   },
+   {
+    "window": 4,
+    "text": " week’s 2-2 draw at home against Atlanta United FC, although he",
+    "stored": 24.81413459777832,
+    "recomputed": 14.735281944274902
+   },
+   {
+    "window": 5,
+    "text": " total shot attempts, including 66-29 at even strength. The series is",
+    "stored": 24.61310958862305,
+    "recomputed": 16.625011444091797
+   },
+   {
+    "window": 13,
+    "text": " Jost captained Team Canada at the 2016 IIHF Under-18 World",
+    "stored": 23.22159385681152,
+    "recomputed": 17.72920036315918
+   },
+   {
+    "window": 21,
+    "text": " 2-1 on Burrows' goal at 2:02. The Canucks",
+    "stored": 21.96864700317383,
+    "recomputed": 19.30743980407715
+   },
+   {
+    "window": 27,
+    "text": " last weekend's 3-0 defeat away at Stoke City has seen some criticise the",
+    "stored": 18.80336761474609,
+    "recomputed": 19.641536712646484
+   },
+   {
+    "window": 11,
+    "text": " with 19 starts, including the last seven at defensive end after moving from tackle. The",
+    "stored": 23.39113616943359,
+    "recomputed": 20.185380935668945
+   },
+   {
+    "window": 10,
+    "text": " just tied their series with the Atlanta Hawks at 2-2 because of a couple fl",
+    "stored": 23.41134452819824,
+    "recomputed": 22.829572677612305
+   },
+   {
+    "window": 20,
+    "text": " winning goal in a 2-1 win at Anfield earlier this season and the two<|endoftext|>",
+    "stored": 22.43511581420898,
+    "recomputed": 23.12919807434082
+   },
+   {
+    "window": 6,
+    "text": "-3 win over the Montreal Canadiens Monday at the Bell Centre.<|endoftext|>(Twitter/",
+    "stored": 24.04500579833984,
+    "recomputed": 23.87928581237793
+   },
+   {
+    "window": 17,
+    "text": " silverware if Arsenal can beat Aston Villa at Wembley on Saturday evening and retain the FA",
+    "stored": 22.8850040435791,
+    "recomputed": 25.298002243041992
+   },
+   {
+    "window": 1,
+    "text": " batters. Texas A&M had six at-bats with bases loaded, going 4",
+    "stored": 25.983642578125,
+    "recomputed": 26.00564193725586
+   },
+   {
+    "window": 3,
+    "text": " 37-16 loss to the Tennessee Titans at EverBank Field Sunday *1",
+    "stored": 24.97921752929688,
+    "recomputed": 29.21758460998535
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 49,
+    "text": " tournament. Prior to enrolling at North Dakota, Jost was named the",
+    "stored": 7.945264339447021,
+    "recomputed": 2.367835760116577
+   },
+   {
+    "window": 58,
+    "text": " testing and we’re still not at the level we’d like to",
+    "stored": 3.510409593582153,
+    "recomputed": 1.183821678161621
+   },
+   {
+    "window": 60,
+    "text": " and vitamins A and D, could be dangerous at high levels, but essential at low",
+    "stored": 0.1748211681842804,
+    "recomputed": 2.341149091720581
+   }
+  ],
+  "zero": [
+   {
+    "window": 52,
+    "text": " Volpi Foods, on Oct. 6 at Orlando City Stadium will go on sale Thursday",
+    "stored": 6.460895538330078,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20330,
+    "window": 20,
+    "text": ",\" Villanueva said.<|endoftext|>Two Fort Worth, Texas police officers were shot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 67,
+    "text": " Energy Inc. He was in Halifax Monday to tell Nova Scotia's Department of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 28,
+    "text": " practice journalism.\" Michael, who left Ethiopia to study for his doctorate in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 15,
+    "text": ". Yhtiö tarjosi vastaukseksi vain linkki",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 31,
+    "text": "<|endoftext|> is judged successful non-NHS bodies will be allowed to deliver more complicated clinical",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 31,
+    "text": " that the Patrolmen’s Benevolent Association is a group that is constantly agg",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 29,
+    "text": "id, director<|endoftext|> president, ousted during a 2011 uprising, has been told he can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 10,
+    "text": " by motherhood and coerced access to her sexuality, despite attempts to break out of this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 8,
+    "text": "in queue altogether. Since airports are little else than endless queues, this is a good",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 42,
+    "text": " near Bunkerville, Nev. on Thursday, May 19, 2016. Jeff Sche",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 10,
+    "text": " their creator, Nun – an emissary from the far-flung world of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 41,
+    "text": "Radio Spare batteries Radio Spare batteries Mobile phone ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 48,
+    "text": " team impacts<|endoftext|> in the 2010 season. Prices fell quite a bit following",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 19,
+    "text": " and Francois Lake. The Kapella River fire had burned about 600 to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 59,
+    "text": " Alexander Vasquez, 48, made a left turn from Giddings Street and struck",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 3,
+    "text": " version of you; create that kind of authentic and actualized life you want with your",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 26,
+    "text": "There was so much rain in California one day, Disneyland was practically deserted, making for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 45,
+    "text": " until Quintana claimed the final victory thanks to winning the last, technically very difficult,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 50,
+    "text": " their driest 60 days on record, Thursday's national drought report showed. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 5,
+    "text": " of wild fantasy is not worth the writing.\" This weather's the wild fantasy. It",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 13572,
+    "window": 41,
+    "text": " fact,<|endoftext|> it will cause a huge uptake in the number of people who choose to",
+    "recomputed": 1.293236494064331
+   }
+  ]
+ }
+}

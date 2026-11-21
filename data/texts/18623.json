@@ -1,0 +1,288 @@
+{
+ "feature": 18623,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 53,
+    "text": " As a state representative after the armed conflict subsided, Corrill presented a petition from",
+    "stored": 3.33479118347168,
+    "recomputed": 2.604414463043213
+   },
+   {
+    "window": 56,
+    "text": ", actually, it appears that the phrase originates from the genteel confines of",
+    "stored": 2.466459035873413,
+    "recomputed": 4.153451442718506
+   },
+   {
+    "window": 46,
+    "text": " sapphire ring. It subdues your presence, making it difficult to",
+    "stored": 5.432042598724365,
+    "recomputed": 4.9486470222473145
+   },
+   {
+    "window": 48,
+    "text": " music on headphones. The trailer empties out as the day goes on.",
+    "stored": 5.378629207611084,
+    "recomputed": 6.192212104797363
+   },
+   {
+    "window": 47,
+    "text": " even be synthesized. Hence, students converged at Tiananmen Square because<|endoftext|>",
+    "stored": 5.421280384063721,
+    "recomputed": 6.328587532043457
+   },
+   {
+    "window": 37,
+    "text": " formula. The Democratic leadership \"pushed as hard as they could\" for",
+    "stored": 8.603343963623047,
+    "recomputed": 7.46089506149292
+   },
+   {
+    "window": 44,
+    "text": "CPI). People's eyes glaze over with this one. I'm",
+    "stored": 6.569621562957764,
+    "recomputed": 8.068119049072266
+   },
+   {
+    "window": 39,
+    "text": " mosque at Ground Zero\". As pole dancers gyrated with all the sizzling",
+    "stored": 8.184467315673828,
+    "recomputed": 8.919469833374023
+   },
+   {
+    "window": 28,
+    "text": " end of the world.\" Harry shivered. There was nothing particular about the",
+    "stored": 11.34533309936523,
+    "recomputed": 9.84298324584961
+   },
+   {
+    "window": 23,
+    "text": " well worth it! The first time I bleached my hair, I had to pause",
+    "stored": 12.26061534881592,
+    "recomputed": 10.326313972473145
+   },
+   {
+    "window": 29,
+    "text": ", background, and personal interests, he stuttered and “drew a total",
+    "stored": 11.09766864776611,
+    "recomputed": 11.110762596130371
+   },
+   {
+    "window": 24,
+    "text": "�Well, whatever,” he huffed. “Univision,",
+    "stored": 12.1462287902832,
+    "recomputed": 12.067082405090332
+   },
+   {
+    "window": 21,
+    "text": " easy to understand. Some time when i crocheted things for my own relatives so",
+    "stored": 13.44312763214111,
+    "recomputed": 12.989720344543457
+   },
+   {
+    "window": 4,
+    "text": "s clothes. “She undressed them one by one, prodd",
+    "stored": 14.58436679840088,
+    "recomputed": 13.52069091796875
+   },
+   {
+    "window": 1,
+    "text": " too much.” He Loves Event Horizon When introducing Ne",
+    "stored": 14.97424602508545,
+    "recomputed": 13.742979049682617
+   },
+   {
+    "window": 9,
+    "text": ", not even in the movies. I scurried away, and confided in",
+    "stored": 14.12850666046143,
+    "recomputed": 14.091248512268066
+   },
+   {
+    "window": 14,
+    "text": " those I decided. So I undocked a Bellicose and set a",
+    "stored": 13.70617485046387,
+    "recomputed": 14.228711128234863
+   },
+   {
+    "window": 8,
+    "text": " even more. Saeed said that he disfavoured the grant of Most Fav",
+    "stored": 14.14683246612549,
+    "recomputed": 15.27764892578125
+   },
+   {
+    "window": 22,
+    "text": " did was laugh a lot. Then I scoured the kitchen for something to eat.",
+    "stored": 13.25100231170654,
+    "recomputed": 15.667826652526855
+   },
+   {
+    "window": 0,
+    "text": " grandmother said. \"He told me he de-committed.\" The Buc",
+    "stored": 16.46866798400879,
+    "recomputed": 16.180879592895508
+   }
+  ],
+  "positives": 55,
+  "grey": [
+   {
+    "window": 54,
+    "text": " kick-off Peter waves to me and beckons me down to the front. I",
+    "stored": 3.147801637649536,
+    "recomputed": 1.0123357772827148
+   },
+   {
+    "window": 55,
+    "text": " China. The 7.9 magnitude quake tumbled buildings and killed more than 80,",
+    "stored": 2.87460470199585,
+    "recomputed": 1.4490176439285278
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18727,
+    "window": 27,
+    "text": "é and the « great island » of Madagascar. The OLPC deployment done by<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 47,
+    "text": "abas har som syfte att samla samtliga nordiska",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 34,
+    "text": " this is true, it certainly appears that Hertz is admitting to a bogus takedown.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 55,
+    "text": " Sean Spicer agreed that the president wanted a bill with 'more heart,' though wouldn't",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 46,
+    "text": " he or she will give the client direct names, places, events, illnesses, or",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 40,
+    "text": " \"Sweet Force lightning, bro.\" The film follows the adventures of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 72,
+    "text": " the Big Bang - by the presence of dark matter and dark energy. While",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 55,
+    "text": " have begun appearing in Building 88, purportedly teasing the 2017 line of Surface products. While",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 30,
+    "text": " Cardiff: Only TUSC can be trusted to save services \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 44,
+    "text": ". Both Prop. 1 in 2014 and Prop. 7 last year passed with more than",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 48,
+    "text": "wheel-drive automobile with such an aggressive caster angle. While the two engines",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 24,
+    "text": " is: people’s political concerns relative to their identity. People who are marginalized",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 71,
+    "text": " Denver Post for comment on the letter to Alexander. “When<|endoftext|> guys",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 33,
+    "text": " worth about $9.7 billion. That compares to 215 million shares he pledged last",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 56,
+    "text": " different. And, as it is usually with my stories, it is about Rojava",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 55,
+    "text": " some see as designed to squeeze out smaller parties and disenfranchise Arab Israelis, raised the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 22,
+    "text": "<|endoftext|> already violated the law in my opinion.\" Rep. Jerry Nadler (",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 43,
+    "text": " 30-60 minutes chipping away at right now? Long-term goals come into",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 27,
+    "text": " general. But the partisan grip squeezing Washington, and the agency’s supercharged",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 7,
+    "text": " House of Cards in the District was something of an open secret; a BuzzFeed article published",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 3718,
+    "window": 31,
+    "text": " knowing I LOOOOVE Fallout, and she loved it too, she silk screened two",
+    "recomputed": 10.983036041259766
+   },
+   {
+    "from_feature": 14799,
+    "window": 34,
+    "text": " had plenty for sale, and so they bundled their cash savings in their car’",
+    "recomputed": 0.3675944209098816
+   },
+   {
+    "from_feature": 18011,
+    "window": 8,
+    "text": "first” bank account, not too dissimilar from BankMobile or Simple in the",
+    "recomputed": 0.26819103956222534
+   }
+  ]
+ }
+}

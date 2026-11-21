@@ -1,0 +1,276 @@
+{
+ "feature": 14256,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 39,
+    "text": " and influence. They are marginalized and ostracized. When that happens, they can",
+    "stored": 3.035161256790161,
+    "recomputed": 2.9361250400543213
+   },
+   {
+    "window": 34,
+    "text": " after becoming public. Brian Kelcey, who worked in the mayor's",
+    "stored": 6.225796222686768,
+    "recomputed": 5.209111213684082
+   },
+   {
+    "window": 38,
+    "text": "-announce] Valentine's? Kolab 3.2 Release Day! ",
+    "stored": 4.29934549331665,
+    "recomputed": 5.586239814758301
+   },
+   {
+    "window": 28,
+    "text": "ьно наклоненно<|endoftext|> did it",
+    "stored": 9.570005416870117,
+    "recomputed": 6.469161510467529
+   },
+   {
+    "window": 32,
+    "text": " move all these big ramps,\" Michael Knapik said.Despite the damage, the",
+    "stored": 7.733948230743408,
+    "recomputed": 6.94570779800415
+   },
+   {
+    "window": 29,
+    "text": " who also performs with bands \"Skylė\", \"Atalyja\" and",
+    "stored": 8.764230728149414,
+    "recomputed": 8.09012508392334
+   },
+   {
+    "window": 26,
+    "text": "Plomin, DeFries, Knopik, & Neiderhiser,",
+    "stored": 10.68966865539551,
+    "recomputed": 8.454704284667969
+   },
+   {
+    "window": 24,
+    "text": " real estate analyst G.U. Krueger’s commentary on the housing",
+    "stored": 10.82958126068115,
+    "recomputed": 9.787355422973633
+   },
+   {
+    "window": 23,
+    "text": " leading American innovation enterprise,” Krzanich added. “America has a",
+    "stored": 12.20689964294434,
+    "recomputed": 11.612425804138184
+   },
+   {
+    "window": 20,
+    "text": " President Donald Trump and Intel CEO Brian Krzanich at the White House. ",
+    "stored": 14.25729084014893,
+    "recomputed": 12.374773979187012
+   },
+   {
+    "window": 18,
+    "text": " Ratio\" was also noticed by Edgar Klusener from \"Metal Hammer\" magazine.",
+    "stored": 16.8986759185791,
+    "recomputed": 16.625545501708984
+   },
+   {
+    "window": 17,
+    "text": " is a clown dubbed \"Ronald Klump.\" In a mock breaking news",
+    "stored": 17.08639144897461,
+    "recomputed": 17.134716033935547
+   },
+   {
+    "window": 12,
+    "text": "Citing multiple unnamed sources, Mike Klis of the Denver Post reports that the Broncos",
+    "stored": 18.9540958404541,
+    "recomputed": 17.718955993652344
+   },
+   {
+    "window": 10,
+    "text": " Dog<|endoftext|> crawl reads \"Ronald Klump wants to deport all doggs.\"",
+    "stored": 19.49410629272461,
+    "recomputed": 18.987001419067383
+   },
+   {
+    "window": 14,
+    "text": " on 3/10/2013 by Klassified because: redaction edit",
+    "stored": 18.25943565368652,
+    "recomputed": 19.984277725219727
+   },
+   {
+    "window": 9,
+    "text": ". Tied with Cindy Klassen as Canada’s most-",
+    "stored": 20.82602500915527,
+    "recomputed": 20.089603424072266
+   },
+   {
+    "window": 4,
+    "text": " group travel to the desert city of Klugetown in search of the aforementioned \"",
+    "stored": 21.88931465148926,
+    "recomputed": 21.77216339111328
+   },
+   {
+    "window": 3,
+    "text": " them, they come back,\" says Klug. \"It fits in perfectly with the",
+    "stored": 23.05408668518066,
+    "recomputed": 22.515195846557617
+   },
+   {
+    "window": 1,
+    "text": " also helped that, according to Thomas Klug, Marygrove College history professor and",
+    "stored": 23.78059196472168,
+    "recomputed": 23.328149795532227
+   },
+   {
+    "window": 11,
+    "text": " way.” Klobuchar said on MSNBC's \"Morning",
+    "stored": 19.48709678649902,
+    "recomputed": 24.385517120361328
+   }
+  ],
+  "positives": 40,
+  "grey": [
+   {
+    "window": 37,
+    "text": " at the Robert Schumann Hochschule in Dusseldorf, where",
+    "stored": 4.305153846740723,
+    "recomputed": 2.4147462844848633
+   },
+   {
+    "window": 40,
+    "text": "st place is awarded to SrPhloofy! Advertisement And",
+    "stored": 2.905246496200562,
+    "recomputed": 2.3885464668273926
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13689,
+    "window": 5,
+    "text": " He worked for a shipping company based in Perth and, although he left school at 14",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 25,
+    "text": ", works with shoe companies, who send him the models and he gets input<|endoftext|> be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 17,
+    "text": " local NIMBY concerns. According to the city charter, zoning in Houston must be",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 55,
+    "text": " safety officials at all times in entering and leaving campus, and act with concern for those",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 7,
+    "text": " on coal as its main energy source, she said. '�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 14,
+    "text": " those I decided. So I undocked a Bellicose and set a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 62,
+    "text": " century by conflicts between Catholics and Protestants — that would lead to the devastating Thirty Years War",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 53,
+    "text": " I am subscribing to it.(Godamn)I consistently come away in awe of how",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 17,
+    "text": " Hoopes chat on a wide array of topics, including the band’s fresh",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 17,
+    "text": " supervillains to work together and take orders, and Brown's Luthor was always in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 5,
+    "text": ", Vadim Shipachev and Evgeni Malkin scored for Russia. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 56,
+    "text": "s eye-catching cover set the tone right off the bat for our story and I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 37,
+    "text": " sign of progress, officials scheduled European Council President Donald Tusk to make a statement on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 30,
+    "text": " it will take a cooperative and new scientific method, embracing openness, to bring many hidden",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 34,
+    "text": " will be mining the ranks of underappreciated journeymen who have shown a spark",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 18,
+    "text": " Network member Dave Hawkes said he helped to start a petition calling for Mr Dutton",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 54,
+    "text": " standards and continue practicing under substandard conditions,\" Republican Lieutenant Governor Dan Patrick said. \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 45,
+    "text": " short and unadorned: Things on the quad are pretty grim. I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 55,
+    "text": " click here to see it ). Only a day or two after that article appeared I received",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 48,
+    "text": " who made their public debut at the National Zoo and Aquarium in Canberra on Thursday morning",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 5030,
+    "window": 50,
+    "text": " on My Own” shows Cotterpin’s more adventurous side and this",
+    "recomputed": 0.3323473036289215
+   }
+  ]
+ }
+}

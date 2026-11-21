@@ -1,0 +1,263 @@
+{
+ "feature": 22207,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 23,
+    "text": "): And, last but not least... Good luck, and don",
+    "stored": 6.713433265686035,
+    "recomputed": 8.253665924072266
+   },
+   {
+    "window": 24,
+    "text": ",\" he says. But most importantly to Marcu, freshly baked bread in",
+    "stored": 5.820355415344238,
+    "recomputed": 8.796050071716309
+   },
+   {
+    "window": 22,
+    "text": " of those who pledge. Last but not least, and I'm not going to lie",
+    "stored": 7.05757999420166,
+    "recomputed": 10.345049858093262
+   },
+   {
+    "window": 20,
+    "text": " to military rule. Ultras constituted the foremost group in the waning years of the Mubarak",
+    "stored": 18.0969181060791,
+    "recomputed": 19.18148422241211
+   },
+   {
+    "window": 17,
+    "text": " the United States, is one of the foremost voices for small government — including eliminating foreign",
+    "stored": 19.48806571960449,
+    "recomputed": 20.414710998535156
+   },
+   {
+    "window": 15,
+    "text": " building on cultural intelligence because they are the foremost means by which that process operates in free",
+    "stored": 20.09610557556152,
+    "recomputed": 20.491405487060547
+   },
+   {
+    "window": 16,
+    "text": " urban legends, the Internet’s foremost debunker of myths, Snopes.",
+    "stored": 19.74042320251465,
+    "recomputed": 21.494606018066406
+   },
+   {
+    "window": 19,
+    "text": " US, and pulling in one of the foremost experts on early NASA spaceflight, Larry",
+    "stored": 18.92897033691406,
+    "recomputed": 21.702505111694336
+   },
+   {
+    "window": 14,
+    "text": " known that he is Russia’s foremost UFOlogist and a long-time",
+    "stored": 21.70754241943359,
+    "recomputed": 21.912277221679688
+   },
+   {
+    "window": 13,
+    "text": ", seeking to enhance global solidarity. The foremost guiding principles of the Tachanka project",
+    "stored": 21.8710823059082,
+    "recomputed": 22.5950870513916
+   },
+   {
+    "window": 2,
+    "text": " 1. Culture First and foremost, this is a culture problem. The",
+    "stored": 53.70369338989258,
+    "recomputed": 49.25825119018555
+   },
+   {
+    "window": 8,
+    "text": ", though, have always been first and foremost filmmakers of ideas, building the worlds of",
+    "stored": 49.89128875732422,
+    "recomputed": 50.826080322265625
+   },
+   {
+    "window": 11,
+    "text": " and all of Finland – and first and foremost yet another accolade for the world-",
+    "stored": 48.69770431518555,
+    "recomputed": 50.99623489379883
+   },
+   {
+    "window": 7,
+    "text": " and rules about campaign financing, first and foremost, make sure I'm following the law",
+    "stored": 50.64432907104492,
+    "recomputed": 52.73530960083008
+   },
+   {
+    "window": 10,
+    "text": "men. It’s first and foremost a desire to gain some control over their",
+    "stored": 49.58847427368164,
+    "recomputed": 53.11405563354492
+   },
+   {
+    "window": 6,
+    "text": " took care of the basics, first and foremost, and all interactions were voluntary. The",
+    "stored": 50.81025314331055,
+    "recomputed": 53.46652603149414
+   },
+   {
+    "window": 5,
+    "text": " protesting or supporting the protesters are first and foremost sick of their shitty lives in a shitty",
+    "stored": 51.03924560546875,
+    "recomputed": 54.23905944824219
+   },
+   {
+    "window": 1,
+    "text": " attention on how Martin plays. First and foremost this is about the fact that we have",
+    "stored": 53.75918197631836,
+    "recomputed": 54.33154296875
+   },
+   {
+    "window": 3,
+    "text": ". \"We believe first and foremost this is the right thing to do with",
+    "stored": 52.9599609375,
+    "recomputed": 54.74028015136719
+   },
+   {
+    "window": 0,
+    "text": " damn contract. I think, first and foremost, that has to be the top expectation",
+    "stored": 53.78121948242188,
+    "recomputed": 56.23728561401367
+   }
+  ],
+  "positives": 25,
+  "grey": [
+   {
+    "window": 25,
+    "text": " in the two decades prior. The most prominent came in 1946, when Merle H",
+    "stored": 5.599913120269775,
+    "recomputed": 4.697835922241211
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 14799,
+    "window": 23,
+    "text": " time. The ThO2 bundles were irradiated up to 600 FPD",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 31,
+    "text": " In apparent anticipation of those concerns, Boyd said in the letter that Justice Department �",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 34,
+    "text": ", “Think Hard: Protect Your Signature,” was shown to Valley Stream",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 27,
+    "text": " With Cate Blanchett Rumors have been circulating for a while now",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 36,
+    "text": " slowly drifted over it. The phenomenon has left a trail of calderas created by",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 2,
+    "text": " the novel by Martin Prinz, the quiet yet kinetic and visually elegant film mixes the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 59,
+    "text": " they would refuse to fight on the same side as Al-Qaeda in Syria. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 30,
+    "text": " leaping, and this skink was seen leaping through the rocky terrain of its environment hunting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 34,
+    "text": " filled with cavities designed to reabsorb moisture from their exhalations.[10",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 51,
+    "text": " than from grand schemes launched by planners and revolutionaries. Economists and scholars of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 26,
+    "text": " years, lots of companies have abused the DMCA to squeeze out the competition. In the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 74,
+    "text": "Turkey sandwich with whole-grain bread, cheese, avocado, tomato and lettuce ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 24,
+    "text": " of the likely economic benefits of the tax cuts are driven by<|endoftext|>We constantly see consumers",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 44,
+    "text": " already a stunning striker and the main man at Anfield but a liability with his on-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 41,
+    "text": ".[3] As a freshman at Antelope Valley in 2009–10,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 44,
+    "text": " rhetoric and dismissed false legal narratives that serve to reinforce the power of states to censor,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 8,
+    "text": " and some US states have tightened laws on smoking in public places over the last few years",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 1,
+    "text": " (where<|endoftext|>Even while it was a rumor that President Obama would announce that Osama bin",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 38,
+    "text": " to cheap bandwidth and an appetite for instant gratification, so-called streaming portals have grown",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 44,
+    "text": " judge not to impose a no-contact order on Cetin, arguing that he",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

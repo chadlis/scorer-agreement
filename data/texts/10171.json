@@ -1,0 +1,282 @@
+{
+ "feature": 10171,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 56,
+    "text": " as the conventional auto industry packs up and leaves. It’s Elon Musk to",
+    "stored": 6.670875072479248,
+    "recomputed": 3.4416098594665527
+   },
+   {
+    "window": 53,
+    "text": " allowing Cunningham to get into the cruiser and leave the area. Harrison said",
+    "stored": 9.088640213012695,
+    "recomputed": 5.933595180511475
+   },
+   {
+    "window": 50,
+    "text": " Melbourne said he checked the Tiger website before leaving for the airport, but no information was",
+    "stored": 10.55688858032227,
+    "recomputed": 7.943073272705078
+   },
+   {
+    "window": 47,
+    "text": "’ The fifth one gets up and leaves, because he’s not in",
+    "stored": 12.41809177398682,
+    "recomputed": 9.66140365600586
+   },
+   {
+    "window": 43,
+    "text": " would have been intermarriage, should have left a larger genetic heritage in Spain than just",
+    "stored": 16.14550971984863,
+    "recomputed": 15.194225311279297
+   },
+   {
+    "window": 39,
+    "text": " that has lasted more than three decades and left him homeless Chat show: Father",
+    "stored": 18.50687980651855,
+    "recomputed": 16.907917022705078
+   },
+   {
+    "window": 32,
+    "text": " continues where Xrd: Sign's tale left off, players are treated to a full",
+    "stored": 23.45157623291016,
+    "recomputed": 18.71625328063965
+   },
+   {
+    "window": 45,
+    "text": "duty police officer Kody Vedder, left, when she tried to detain him after",
+    "stored": 15.25842761993408,
+    "recomputed": 21.83405303955078
+   },
+   {
+    "window": 37,
+    "text": " took all the valuable crypto that their customers left on their system. Maybe the entire exchange",
+    "stored": 20.14027214050293,
+    "recomputed": 22.821102142333984
+   },
+   {
+    "window": 33,
+    "text": " two of the smartest, whereas the Tigers left the AL East at just about the perfect",
+    "stored": 23.28279495239258,
+    "recomputed": 24.582435607910156
+   },
+   {
+    "window": 28,
+    "text": " practice journalism.\" Michael, who left Ethiopia to study for his doctorate in",
+    "stored": 25.37349891662598,
+    "recomputed": 24.949493408203125
+   },
+   {
+    "window": 23,
+    "text": " at UNCW. Dunand left the yard for the second time in the",
+    "stored": 28.83644485473633,
+    "recomputed": 25.852581024169922
+   },
+   {
+    "window": 21,
+    "text": " It's pretty clear Austin Hedges left a clear path to home. Say what",
+    "stored": 29.45853614807129,
+    "recomputed": 27.18439292907715
+   },
+   {
+    "window": 4,
+    "text": " said he walked in, demanded cash and left the bank. He is called",
+    "stored": 32.7386589050293,
+    "recomputed": 27.82125473022461
+   },
+   {
+    "window": 26,
+    "text": " helped us' The village they left behind lies by the side of a long",
+    "stored": 26.44098091125488,
+    "recomputed": 29.85748291015625
+   },
+   {
+    "window": 8,
+    "text": " the epoxy set and cure. I left the guitar clamped and under the lamp",
+    "stored": 32.53977203369141,
+    "recomputed": 30.423891067504883
+   },
+   {
+    "window": 6,
+    "text": " last year. Demonstrators left chalk messages on the ground outside the circus",
+    "stored": 32.64667892456055,
+    "recomputed": 31.199247360229492
+   },
+   {
+    "window": 3,
+    "text": " other things (see picture), and I left with only one, which is connecting the",
+    "stored": 32.76132583618164,
+    "recomputed": 32.10676574707031
+   },
+   {
+    "window": 11,
+    "text": " vehicular accident (and where the driver left the scene), and intentional destruction of property",
+    "stored": 31.70634841918945,
+    "recomputed": 32.36274719238281
+   },
+   {
+    "window": 0,
+    "text": "Mart at 3801 Turtle Creek Drive he left in his patrol car. He wore street",
+    "stored": 33.69855880737305,
+    "recomputed": 34.1832275390625
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 58,
+    "text": "600 goal pledged, with only 27 days left to go, but we're putting 100",
+    "stored": 4.914103507995605,
+    "recomputed": 1.5076870918273926
+   },
+   {
+    "window": 59,
+    "text": " Alexander Vasquez, 48, made a left turn from Giddings Street and struck",
+    "stored": 4.114011764526367,
+    "recomputed": 1.78751540184021
+   }
+  ],
+  "zero": [
+   {
+    "window": 57,
+    "text": " to the far side of the field, leaving the participants to stand around wondering what to",
+    "stored": 5.93658971786499,
+    "recomputed": 0
+   },
+   {
+    "window": 60,
+    "text": " rules. If there are backward axis steps left in the query, then HXQ",
+    "stored": 4.084047317504883,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 9607,
+    "window": 45,
+    "text": ", or brewers who mistakenly believe peat smoked malt and Laphroig barrels have",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 23,
+    "text": " Gardner. \"She was spoiled,\" laughed Tina. Recently Reveille",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 14,
+    "text": " Geary legend includes the expectation that one day he will return from the dead to lead",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 1,
+    "text": " up with at least that much.<|endoftext|>Ready to fight back? Sign up for Take",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 30,
+    "text": " drafting a story is told it might help to draw its plot. And there it is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 42,
+    "text": " Greg Morrow deftly documents the downzoning of Los Angeles in his 2013 dissertation",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 62,
+    "text": " so we couldn't think of anyone better to make an all-new instant system.\"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 45,
+    "text": " Calero wants to see the parties and government branches work together — rather than",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 49,
+    "text": " deal. That spot later sold to Paramount Pictures President Rob Moore, his son Michael and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 33,
+    "text": " A generous research and development tax credit, an active public investment bank and a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 22,
+    "text": " he’s also contending with rumors about a sequel to 2015’s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10814,
+    "window": 31,
+    "text": " political capital following its failure either to restructure the debt or to enter Greece into the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 6,
+    "text": " Meucci, mentre il terzo frequenta il «Vallauri»,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 26,
+    "text": "�t walk down Mill Avenue without fear of being assaulted, insulted and urinated on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 3,
+    "text": " prior to stringing it. I finally strung it up to pitch, adjusted the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 30,
+    "text": " replace the health law's mandates with tax credits for the purchase of insurance. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 42,
+    "text": " smugglers have taken advantage of a breakdown of order to pack people into unseaworthy boats",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 6,
+    "text": " a liar, but a cheerleader for extra-judicial killings. At worst, it",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 43,
+    "text": " to see many, many other countries follow suit,\" said Melodie Tilson,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 18,
+    "text": " series, almost extinct. This knife with Akulas head and ornamental front",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

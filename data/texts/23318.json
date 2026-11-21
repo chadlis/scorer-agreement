@@ -1,0 +1,256 @@
+{
+ "feature": 23318,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 43,
+    "text": "ab, will compare the oscillations of neutrinos to those of antineut",
+    "stored": 7.717655181884766,
+    "recomputed": 10.363690376281738
+   },
+   {
+    "window": 42,
+    "text": " zero. That would have made several future neutrino experiments that plan to compare the",
+    "stored": 8.958666801452637,
+    "recomputed": 11.693440437316895
+   },
+   {
+    "window": 40,
+    "text": " investigators compared the 17 genomes, looking for mutations (termed single nucle<|endoftext|> by the",
+    "stored": 11.9037618637085,
+    "recomputed": 14.901762008666992
+   },
+   {
+    "window": 39,
+    "text": " at this critical number. And if the mutation rate isn't constant over time, we",
+    "stored": 12.23741340637207,
+    "recomputed": 17.883586883544922
+   },
+   {
+    "window": 35,
+    "text": " in a 2-0 win over Helmut Schön's team in 1975 and it",
+    "stored": 32.32827758789062,
+    "recomputed": 32.27851486206055
+   },
+   {
+    "window": 33,
+    "text": " to the attention of Red Bull's Helmut Marko, news of the energy drink",
+    "stored": 33.14212036132812,
+    "recomputed": 33.02294158935547
+   },
+   {
+    "window": 30,
+    "text": " has been charged with carrying out female genital mutilation (FGM) on young girls",
+    "stored": 43.32728576660156,
+    "recomputed": 43.76253890991211
+   },
+   {
+    "window": 31,
+    "text": " maintains, is whether or not female genital mutilation actually took place. The defense argues",
+    "stored": 40.29597091674805,
+    "recomputed": 44.07362365722656
+   },
+   {
+    "window": 24,
+    "text": " antibiotics. But the ever-mutating gonorrhea bacterium is becoming",
+    "stored": 48.58462142944336,
+    "recomputed": 49.84056854248047
+   },
+   {
+    "window": 21,
+    "text": " Egypt have been subjected to sexual organ mutilation. And the numbers are expected to be",
+    "stored": 49.673095703125,
+    "recomputed": 51.86763381958008
+   },
+   {
+    "window": 19,
+    "text": " British Airways said goodbye to Zimbabwe, amid mutterings from supporters of Robert Mugabe",
+    "stored": 51.93626403808594,
+    "recomputed": 52.82989501953125
+   },
+   {
+    "window": 14,
+    "text": " chemicals, genetic engineering, and technology to mutate themselves into stronger, powerful and immortal",
+    "stored": 53.27617263793945,
+    "recomputed": 53.25410461425781
+   },
+   {
+    "window": 22,
+    "text": " bias toward G/C nucleotides mutating to A/T ( 21 ).",
+    "stored": 49.40635299682617,
+    "recomputed": 54.56669235229492
+   },
+   {
+    "window": 18,
+    "text": " them, but what happens if a scientist mutates a particular gene or “turn",
+    "stored": 52.11320495605469,
+    "recomputed": 54.80720901489258
+   },
+   {
+    "window": 16,
+    "text": " between space and sound, MYRIAD mutates forms of live musical performance. The",
+    "stored": 52.85965728759766,
+    "recomputed": 55.407737731933594
+   },
+   {
+    "window": 10,
+    "text": " video that showed him driving a vehicle carrying mutilated bodies to a mass grave. ",
+    "stored": 53.71298980712891,
+    "recomputed": 56.05657958984375
+   },
+   {
+    "window": 7,
+    "text": " supplies, Washington's troops were close to mutiny.[9] Washington determined that he",
+    "stored": 54.21000671386719,
+    "recomputed": 56.3202018737793
+   },
+   {
+    "window": 12,
+    "text": " for aggravated battery and cruelty to children for mutilating his two-year-old",
+    "stored": 53.41914367675781,
+    "recomputed": 58.07806396484375
+   },
+   {
+    "window": 1,
+    "text": " been overrun with monstrous creatures, including mutating humans, and that outbreaks of suicide and",
+    "stored": 58.92570114135742,
+    "recomputed": 59.309200286865234
+   },
+   {
+    "window": 4,
+    "text": "s good ideas - particularly its control over mutable aliasing - to reach production code",
+    "stored": 56.53968811035156,
+    "recomputed": 60.66187286376953
+   }
+  ],
+  "positives": 43,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 24369,
+    "window": 81,
+    "text": " major concern is safety,” said Maureen O’Reilly, the president",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 9,
+    "text": " he says, because the analysis included several smoking bans introduced in different countries in different years",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 9,
+    "text": " as the right approach for solving problems. If our leading cultural institutions are thus geared toward",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 30,
+    "text": ", according to an estimate from the Washington-based Center for Strategic and International Studies.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 18,
+    "text": " years railing against the president’s signature health care law are now trying to find",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 11,
+    "text": " That’s unlikely to happen, right? Like these sites state a lot of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 35,
+    "text": " nearly 60% more likely for those who smoked in their first half-hour awake.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 35,
+    "text": " PLEDGE and add the $ amount extra to your pledge amount for the items you",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 50,
+    "text": " guy who raped you as a feminist. That thing sucks.” Then she added",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 19,
+    "text": " total, ranging in age, ethnicity and sexuality, but most importantly these couples needed to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 36,
+    "text": "�, Theresa May ended up losing her party’s majority by winning just 318",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 54,
+    "text": " Patrons at the Across the Street Diner in downtown Corsicana. (Phot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 8,
+    "text": " TOWARDS A BIOLOGICAL UNDERSTANDING OF ARCHITECTURE",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 45,
+    "text": " is powerful, and He answers prayer. That is why we are asking people to come",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 51,
+    "text": " we’re here to do. That’s on us,”",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 43,
+    "text": " board<|endoftext|> board for your other 40-pin Raspberry Pi models. Proto",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 39,
+    "text": " couple knew that they didn't have any secular basis for taking on the conversos,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 34,
+    "text": "�wow. such confused.” If pronunciations of doge were parties",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 30,
+    "text": " cost $41<|endoftext|>More than once during a storm — as I've fretted over",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 58,
+    "text": " Security on Thursday. According to an English translation of the article provided by NK News,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

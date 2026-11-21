@@ -1,0 +1,269 @@
+{
+ "feature": 24159,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 48,
+    "text": " team impacts<|endoftext|> in the 2010 season. Prices fell quite a bit following",
+    "stored": 2.273479461669922,
+    "recomputed": 1.001604437828064
+   },
+   {
+    "window": 54,
+    "text": "er’s 2011 best seller of the same title. More movies are still to",
+    "stored": 0.9311140775680542,
+    "recomputed": 1.8454949855804443
+   },
+   {
+    "window": 41,
+    "text": "434 on 01/01/2016 to $6,080 on 22/10/",
+    "stored": 3.562915325164795,
+    "recomputed": 1.9354801177978516
+   },
+   {
+    "window": 53,
+    "text": "S. 30 October] 1821, was the second child of Dr. Mikhail D",
+    "stored": 0.9349592924118042,
+    "recomputed": 2.3096306324005127
+   },
+   {
+    "window": 51,
+    "text": "\" came to prominence in the 1950s Madison Avenue advertising industry. It derived from a",
+    "stored": 1.921254515647888,
+    "recomputed": 2.4601423740386963
+   },
+   {
+    "window": 8,
+    "text": "u trilogy (1955-1959, dir. Satyajit Ray),<|endoftext|>",
+    "stored": 7.139302730560303,
+    "recomputed": 3.1774978637695312
+   },
+   {
+    "window": 36,
+    "text": " Sambanis , Nicholas . 2000 . International Peacekeeping: A Theoretical and",
+    "stored": 4.415964603424072,
+    "recomputed": 3.234189510345459
+   },
+   {
+    "window": 39,
+    "text": ",200 square kilometers cleared by 1978; 30,000 by 1988; and 53,",
+    "stored": 3.753896951675415,
+    "recomputed": 3.7279279232025146
+   },
+   {
+    "window": 31,
+    "text": "Thursday, December 15, 2005 Page 11 REMINISCING (",
+    "stored": 4.81980037689209,
+    "recomputed": 4.008033275604248
+   },
+   {
+    "window": 17,
+    "text": "works) F1 2011 (Steamworks) Fuel (No Comment",
+    "stored": 6.582951545715332,
+    "recomputed": 4.4684553146362305
+   },
+   {
+    "window": 10,
+    "text": " Pasadena, CA Salem Press, 2002. v. 1, p. 156-158",
+    "stored": 6.864395141601562,
+    "recomputed": 5.192218780517578
+   },
+   {
+    "window": 24,
+    "text": "3. Nov. 19, 1978, East final: Montreal 21, Ottawa 16 ",
+    "stored": 5.771002769470215,
+    "recomputed": 5.640686988830566
+   },
+   {
+    "window": 33,
+    "text": " 10/03/2011 1.65 Added support for 3 types of shell extensions",
+    "stored": 4.568613052368164,
+    "recomputed": 5.81294059753418
+   },
+   {
+    "window": 12,
+    "text": " Director & Cameraman 2002–2011, 2013- Stuart Torevell Rigger &",
+    "stored": 6.755170822143555,
+    "recomputed": 6.020376205444336
+   },
+   {
+    "window": 30,
+    "text": "-6, 2005/2006 By: David Lapham, Studio F,",
+    "stored": 4.963388919830322,
+    "recomputed": 6.28570032119751
+   },
+   {
+    "window": 0,
+    "text": "Beta 10) released 18 September 2015: 3RVX 2.9.1",
+    "stored": 8.109152793884277,
+    "recomputed": 6.45250129699707
+   },
+   {
+    "window": 19,
+    "text": "–72 William & Mary — 1972–73 William & Mary — 1973–74 East",
+    "stored": 6.549107551574707,
+    "recomputed": 6.646930694580078
+   },
+   {
+    "window": 15,
+    "text": " East Germany (1949-1990) Estonia Finland France Georgia Germany Greece Hong Kong Hungary",
+    "stored": 6.72510814666748,
+    "recomputed": 6.863015174865723
+   },
+   {
+    "window": 5,
+    "text": " work.<|endoftext|>16 August, 2007 (14:29) | Duncan/Blake Mystery",
+    "stored": 7.501046657562256,
+    "recomputed": 7.648488998413086
+   },
+   {
+    "window": 9,
+    "text": " Jan 2016 (2) Sep 2015 (1) Jul 2015 (3) Jun 2015",
+    "stored": 7.011990547180176,
+    "recomputed": 8.889147758483887
+   }
+  ],
+  "positives": 52,
+  "grey": [
+   {
+    "window": 52,
+    "text": "-point shooting month was February, when he hit 40 percent of his treys.",
+    "stored": 1.374769687652588,
+    "recomputed": 0.6521947383880615
+   },
+   {
+    "window": 56,
+    "text": "Riding on Susan’s back we surf as fast as Susan can. Soon",
+    "stored": 0.2028422653675079,
+    "recomputed": 0.24511946737766266
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 11911,
+    "window": 3,
+    "text": ", two men and two women were arrested Monday morning. No victims were found",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 4,
+    "text": "s is going to create a few casualties.) Also, Jump is arranged like a mono",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 43,
+    "text": " high, and the latter fact helps us to understand why the victory of simple justice took",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 13,
+    "text": " of national security information to reporters made him look hypocritical. [snip] In time",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 57,
+    "text": " posting a $15,000 bond. Read or Share this story: http",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 19,
+    "text": " massively higher per item memory usage makes it seem that something is broken somewhere, but I",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 11,
+    "text": " elections. The decisions by the secularist, centre-left Republican People's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 11,
+    "text": " made him the third-highest-paid Venezuela prospect ever, according to MLB.com",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 32,
+    "text": " destabilizing European governments … and attacks on political enemies.\" The goal appears to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 6,
+    "text": ", who<|endoftext|> and hadn't given value.\" \"It's just I feel",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 15,
+    "text": " risks\" to the US economy, helped to push global markets sharply lower on Thursday,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 5,
+    "text": " that justified some extraordinary measures. Those in the outgoing George W. Bush administration thought so",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 46,
+    "text": " quality, best-designed, and most enjoyable RPGs possible. It is our dream that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 24,
+    "text": " knocking on a door. According to rock 'n' roll myth, the knock is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 51,
+    "text": " like chanter ends in é (chanté), but what are the rules governing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 7,
+    "text": " since the pipes cannot freeze. AER is working to ensure all regulatory and safety requirements",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 18,
+    "text": " go to military custody?\" The legislation also would deny suspected terrorists, even U",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 46,
+    "text": " gave us an “Aha! That’s how you do it in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 68,
+    "text": " read more books, deepen your knowledge and improve your craft — without it feeling like an",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 25,
+    "text": " among UN Officers Involved . Copenhagen : COPRI . Biermann ,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

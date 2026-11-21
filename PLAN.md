@@ -1,9 +1,8 @@
 # Plan
 
-> **Status (2026-11-20): complete, not frozen yet.** Every decision is taken. The
-> file will be frozen in the commit that adds the verified texts and labels (git tag
-> `plan-frozen`), before the first scorer call. From then on, any change is recorded
-> in `DEVIATIONS.md` with its reason.
+> **Status (2026-11-21): frozen** (git tag `plan-frozen`), in the commit that adds
+> the verified texts and labels, before the first scorer call. From then on, any
+> change is recorded in `DEVIATIONS.md` with its reason.
 
 How to read it: section 1 is a one-page summary, section 2 holds the rules in the
 order the study runs, section 3 gathers every limit to be reported, and the
@@ -148,6 +147,15 @@ passages: once duplicates are removed, about 6 distinct passages remain per feat
 5. *Check.* Each candidate is checked with Neuronpedia's activation API for T,
    following the label rule (section 2.3). A candidate whose activation for T is
    above 0 is rejected and replaced by the next one in T's list.
+6. *Replacement feature.* A feature that replaces another (section 2.3, rule 6)
+   gets its candidates after all the others, from the same pool (the windows of the
+   sample as drawn) and the same seeded order, skipping every passage already in a
+   list. The lists of the other features do not change.
+7. *After a placebo round.* A placebo round that runs after the build can give a
+   target a new donor. Any negative of that target that comes from the new donor
+   is then replaced by the next candidate of its list, checked as in rule 5
+   (`scripts/finalize_texts.py`). Every swapped-out negative is kept in the
+   feature's record with its reason.
 
 **Why this source.** Positives and negatives then come from the same corpus, with
 the same tokenisation, the same length and the same decoding, so their form gives
@@ -168,9 +176,9 @@ recomputed label matches the text shown.
    eligible passages without one, from the same seeded list, until the gap is at
    most 5 points, so that the separator says nothing about the label.
 
-**Why.** Dropping these windows would leave two sampled features (14889 and 21484)
-with fewer than 20 distinct positive passages, so the sample and the frozen
-placebos would change. Dropping them on one side only would make the separator a
+**Why.** Dropping these windows would leave two sampled features (14889 and 21484,
+later replaced for another reason, A.2) with fewer than 20 distinct positive
+passages, so the sample and the frozen placebos would change. Dropping them on one side only would make the separator a
 cue. The share of windows concerned is in A.6.
 
 ### 2.3 Labels
@@ -516,6 +524,9 @@ The pilot also decides the third pass (Scoring, rule 5).
 | 2026-11-20 | Placebo assignment frozen in `data/placebos/final.json` | 2.4, rule 12 |
 | 2026-11-20 | Windows: document separators, mixed passages, one window per passage | 2.2 |
 | 2026-11-20 | Threshold of the third pass, X = 5% | 2.5, rule 5 |
+| 2026-11-21 | Feature 21484 (16 positives) replaced by 22836, placebo round 14 | 2.3, rule 6 |
+| 2026-11-21 | Light doubt on the placebo of 22836 kept by Salah | 2.4, rule 11 |
+| 2026-11-21 | Candidates of a replacement feature, negatives after a placebo round | 2.2, Negatives, rules 6 and 7 |
 
 ### A.2 Feature selection: survey, draw and trial figures
 
@@ -530,6 +541,16 @@ them never fires), 8 failed the gate, 100 were kept. The pilot is 1133, 10461,
 14889, 47 and 15387. Replacements continue from position 113. The sample holds 1
 feature between 0.001% and 0.01%, 71 between 0.01% and 0.1%, and 28 between 0.1%
 and 1%.
+
+**Replacement after the build (2026-11-21, `scripts/replace_features.py`).** One
+feature failed the text build: 21484 ("ISBN numbers") kept 16 positives out of the
+21 passages labelled (3 grey, 2 at 0 once recomputed on the 17-token text). It is
+replaced by 22836 ("references to FIFA"), position 113, which passes the gate
+(stored-max window recomputed at 104% of the stored maximum). The pilot does not
+change. The sample now holds 1 feature between 0.001% and 0.01%, 72 between 0.01%
+and 0.1%, and 27 between 0.1% and 1%. 21484 stays a placebo donor (for 19103), and
+its windows stay in the pool of negatives, as drawn. Further replacements continue
+from position 114.
 
 **Trial figure for the lower bound.** In the trial, the rarest feature, 10468
 (f = 0.014%), still had 54 distinct positive passages.
@@ -601,7 +622,7 @@ name "Corey"" (light doubt on two targets in a row) and asked for a round 12.
 strong and light doubts from round 13 on (section 2.4, rule 11).
 
 **Result (frozen 2026-11-20, `data/placebos/final.json`).** Round 13 left no doubt,
-so its assignment is final. Rejected pairs per round:
+so its assignment was final. Rejected pairs per round:
 
 | Round | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -615,7 +636,24 @@ A and 50 from explanations B, and no target is its own donor. Pairs not changed
 since an earlier round keep the verdict of that round's triage, so each final pair
 was judged once by a fresh Fable 5.2 agent and found confident.
 
+**Round 14 (2026-11-21), after the replacement of 21484 by 22836.** 22836 took the
+donor freed by 21484 (8995), which failed the length filter. The repair made 9 swaps
+and changed 5 placebos: 22836, 6076, 3718, 22207 and 21725. A fresh Fable 5.2 agent
+judged 4 confident and 1 light doubt: the placebo of 22836, "terms related to a
+specific genre or category frequently ending in "ary."", has no link with FIFA but
+is vague. Salah kept it: a vague placebo fits positives and negatives alike, so it
+does not bias the gain, and it concerns one feature of 100. The donors still number
+100, 21 outside the sample, 50 A and 50 B. The new donor of 6076 (8995) supplied
+one of its negatives ("…MMASucka Radio…", while the new placebo is "words related
+to radio"). That negative was replaced by the next candidate of 6076's list
+(section 2.2, Negatives, rule 7).
+
 ### A.6 Windows: figures on the sample
+
+Figures on the sample as drawn (with 21484, before its replacement). On the built
+texts of the final sample, 9.65% of positives and 8.6% of negatives hold a
+separator, a gap of 1.05 points, so no balancing was needed (2.2, Document
+separators, rule 2, figures in `data/texts/summary.json`).
 
 - *Document separators.* In the sample, 9.2% of positive windows (480 of 5,201) and 9.3% of
   distinct positive passages (460 of 4,948) hold one, and the peak is after it in two cases out of three,

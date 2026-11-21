@@ -1,0 +1,263 @@
+{
+ "feature": 10814,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 30,
+    "text": " balked at opposition from the powerful AARP; poor messaging and GOP infighting;",
+    "stored": 6.979526519775391,
+    "recomputed": 6.510458946228027
+   },
+   {
+    "window": 18,
+    "text": " has a deadline of Thursday to strike a rescue deal with Italy's Fiat without which the",
+    "stored": 17.52474021911621,
+    "recomputed": 8.894441604614258
+   },
+   {
+    "window": 22,
+    "text": " Greece. Instead of the “rescue” of the country, they are",
+    "stored": 14.23323154449463,
+    "recomputed": 9.462345123291016
+   },
+   {
+    "window": 24,
+    "text": " countries cannot bail out failing banks by recapitalizing them — in other words, injecting",
+    "stored": 12.66394519805908,
+    "recomputed": 12.235713958740234
+   },
+   {
+    "window": 28,
+    "text": " the creation of money and credit and fiscal stimulus the result of debt. Without these props",
+    "stored": 11.83845043182373,
+    "recomputed": 13.067789077758789
+   },
+   {
+    "window": 17,
+    "text": " their additional papers. The Greek rescue packages have been linked to drastic cost-",
+    "stored": 17.85319900512695,
+    "recomputed": 13.458285331726074
+   },
+   {
+    "window": 27,
+    "text": "<|endoftext|> Economic Advisers who wanted to suggest stimulus plans as large as the $2 trillion",
+    "stored": 12.5503396987915,
+    "recomputed": 14.230988502502441
+   },
+   {
+    "window": 19,
+    "text": " the risk of contagion. The euro rescue fund, supposed to guarantee Greece’",
+    "stored": 17.35633087158203,
+    "recomputed": 15.385138511657715
+   },
+   {
+    "window": 16,
+    "text": " already agreed in June to increase the euro rescue fund (EFSF) and expand",
+    "stored": 20.52168655395508,
+    "recomputed": 16.805492401123047
+   },
+   {
+    "window": 13,
+    "text": " on<|endoftext|> Bush's $700 billion financial bailout that \"would effectively nationalize an array",
+    "stored": 41.75974273681641,
+    "recomputed": 39.184364318847656
+   },
+   {
+    "window": 12,
+    "text": " Program (TARP) and the auto bailout. However, these were sector-wide",
+    "stored": 42.01132583618164,
+    "recomputed": 43.21369552612305
+   },
+   {
+    "window": 3,
+    "text": " shoulder another national debt increase and finance another bailout, the Germans have started questioning everything from",
+    "stored": 48.65215682983398,
+    "recomputed": 44.4205207824707
+   },
+   {
+    "window": 15,
+    "text": " has responsibility for the car-industry bailout, recalled: All of us",
+    "stored": 37.96946716308594,
+    "recomputed": 44.60639190673828
+   },
+   {
+    "window": 7,
+    "text": " crisis in 2011, the EU and IMF bailout conditions demanded a “haircut�",
+    "stored": 47.25784301757812,
+    "recomputed": 46.64567947387695
+   },
+   {
+    "window": 14,
+    "text": " and Africa before re-entry and a bailout back to the ground near the city of",
+    "stored": 40.5236930847168,
+    "recomputed": 47.01354217529297
+   },
+   {
+    "window": 2,
+    "text": " as “stupid” a bailout idea advanced by Geithner. White",
+    "stored": 48.77863693237305,
+    "recomputed": 47.42353057861328
+   },
+   {
+    "window": 5,
+    "text": " a substantial increase in the eurozone's communal bailout fund, the European Financial Stability Facility (",
+    "stored": 48.19766998291016,
+    "recomputed": 47.73030471801758
+   },
+   {
+    "window": 11,
+    "text": " GM shares it acquired as part of the bailout. As a result of Monday's news",
+    "stored": 44.95736312866211,
+    "recomputed": 50.962284088134766
+   },
+   {
+    "window": 0,
+    "text": " wanted the Greek people to vote on any bailout to stay in the euro. He was",
+    "stored": 52.96239471435547,
+    "recomputed": 52.20893859863281
+   },
+   {
+    "window": 8,
+    "text": "ner. White House officials counter that the bailout plan adopted last week by European nations to",
+    "stored": 46.91268539428711,
+    "recomputed": 54.316810607910156
+   }
+  ],
+  "positives": 30,
+  "grey": [
+   {
+    "window": 31,
+    "text": " political capital following its failure either to restructure the debt or to enter Greece into the",
+    "stored": 6.969418525695801,
+    "recomputed": 3.864746570587158
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 16269,
+    "window": 24,
+    "text": " Interference. The award promised to Hapes and Filchock to fix the 1946",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 3,
+    "text": " Rainbow Dash persuades the pirates to defy orders and take the group to the hippog",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 41,
+    "text": "-8) Reported by the joint conference committee on August 2, 1917; agreed to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 29,
+    "text": " unnecessary, unashamedly raw and visceral and created for the sole purpose of good",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 22,
+    "text": "unk, but she is also creative and rebellious and is often the only one of her",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 80,
+    "text": " file photo, has crashed in the sea off the southwest coast of France, near Per",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 5,
+    "text": " dead after a gunman opened fire at a church in Sutherland Springs, Texas. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 38,
+    "text": " Brad tackled 20 table-service restaurants. Me – the Fast Food",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 45,
+    "text": "100; 50% of the next tranche, and 33% of a subsequent tr",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 743,
+    "window": 2,
+    "text": ", which he suffered while blocking an Evgeni Malkin slapshot in Game 3",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 25,
+    "text": " training games in 1989 and, thanks to a push by commissioner A. Bartlett G",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 47,
+    "text": "This project is no longer accepting submissions. If you participated, please fill out this form",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 13,
+    "text": " the seventh time the two had scored at least 30 points in games against each other.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 33,
+    "text": " higher education institutions, said universities were working \"hell for leather\" to rectify the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 51,
+    "text": " a report by the Los Angeles Times, Mr. Youssef has portrayed Mr.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 21,
+    "text": " health. But, echoing other restaurant workers, she said some city health inspectors",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 53,
+    "text": " his art served that purpose unbeknownst to him. The CIA program was originally",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 2,
+    "text": " a signatory has said. Activist Aziza Yousef told AFP",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 22,
+    "text": " and the matter was cited as a cautionary example of how modern technology can be used",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 1,
+    "text": "ad,” written by respected author Gordon Thomas and due out next week. ",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

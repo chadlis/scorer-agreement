@@ -1,0 +1,263 @@
+{
+ "feature": 8995,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 62,
+    "text": " energy consumption. A transcription model simulating mRNA and asRNA production indicates that the as",
+    "stored": 5.779684543609619,
+    "recomputed": 5.958250522613525
+   },
+   {
+    "window": 59,
+    "text": "ame currently receiving heavy play on Rinse FM and other stations dedicated to the best in",
+    "stored": 9.150386810302734,
+    "recomputed": 12.40023422241211
+   },
+   {
+    "window": 51,
+    "text": ", according to U.S.-funded Radio Free Asia.<|endoftext|>Three former Conservative MPs",
+    "stored": 19.36695671081543,
+    "recomputed": 18.06761360168457
+   },
+   {
+    "window": 57,
+    "text": " mill saying Chen Lu will definitelybe called Radioactive Man and he will only be called",
+    "stored": 12.95195388793945,
+    "recomputed": 21.04413414001465
+   },
+   {
+    "window": 55,
+    "text": " At One, a similar length item on Radio Four, but nothing on ITV, Sky",
+    "stored": 15.24264812469482,
+    "recomputed": 22.482030868530273
+   },
+   {
+    "window": 47,
+    "text": "aling the information from all other passengers. Radio and ventilation controls were placed on the central",
+    "stored": 25.03505516052246,
+    "recomputed": 25.5164852142334
+   },
+   {
+    "window": 36,
+    "text": " for Iggy Pop's afternoon public-radio showcase on April 28 with his band The",
+    "stored": 32.62849044799805,
+    "recomputed": 31.335832595825195
+   },
+   {
+    "window": 29,
+    "text": " in character by post-Rise ham radio operator, “Truth.”",
+    "stored": 39.33056259155273,
+    "recomputed": 34.35480499267578
+   },
+   {
+    "window": 34,
+    "text": "TAG SGF This magazine/radio/podcast/website was a great",
+    "stored": 35.53797912597656,
+    "recomputed": 37.6649055480957
+   },
+   {
+    "window": 39,
+    "text": " users to use an app to stream FM radio over Wi-Fi or cellular data.",
+    "stored": 31.06584930419922,
+    "recomputed": 40.09593200683594
+   },
+   {
+    "window": 27,
+    "text": " the fools who believe what their TV, radio and newspapers shove down their throats, a",
+    "stored": 43.00045776367188,
+    "recomputed": 42.98764419555664
+   },
+   {
+    "window": 18,
+    "text": " prisoners had previously been warned, by secret radio, to take cover at a particular time",
+    "stored": 47.77243041992188,
+    "recomputed": 44.78541946411133
+   },
+   {
+    "window": 24,
+    "text": " Collect the data openly and honestly – neighbor radio, personal charts, etc. It�",
+    "stored": 44.36328506469727,
+    "recomputed": 46.7974853515625
+   },
+   {
+    "window": 19,
+    "text": "ying the scene at the hotel today, radio host Alex Jones described a chaotic picture,",
+    "stored": 47.65239715576172,
+    "recomputed": 47.53777313232422
+   },
+   {
+    "window": 11,
+    "text": " upcoming appearance earlier in the week during a radio interview. “Now I",
+    "stored": 48.2787971496582,
+    "recomputed": 48.806880950927734
+   },
+   {
+    "window": 13,
+    "text": " Hensarling. Cruz also cut a radio ad that the campaign has used to swamp",
+    "stored": 48.18282699584961,
+    "recomputed": 49.16016387939453
+   },
+   {
+    "window": 15,
+    "text": " Arkansas TV reporter and is expected to tell radio host Aaron Klein her story Sunday night.",
+    "stored": 47.97906112670898,
+    "recomputed": 50.143272399902344
+   },
+   {
+    "window": 16,
+    "text": "Herman Cain as a person and as radio personality. I think he's going to",
+    "stored": 47.9739990234375,
+    "recomputed": 51.14052963256836
+   },
+   {
+    "window": 2,
+    "text": " comment. In addition to the radio commercial, the ECCC also<|endoftext|> to",
+    "stored": 50.32540893554688,
+    "recomputed": 51.85673904418945
+   },
+   {
+    "window": 0,
+    "text": " of the Courage Foundation is based on a radio interview conducted by Margaret Flowers and Kevin Ze",
+    "stored": 51.42034149169922,
+    "recomputed": 53.30051040649414
+   }
+  ],
+  "positives": 60,
+  "grey": [
+   {
+    "window": 61,
+    "text": " ever Stand Up for Mental Health (SUFMH) comedy show at the Modern Theater",
+    "stored": 6.283449649810791,
+    "recomputed": 4.961308002471924
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 6322,
+    "window": 5,
+    "text": " turn. Eat Lisbon with a knife, fork, spoon and your fingers.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 35,
+    "text": " 18-year-old fly half-turned-scrum half know that making a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 13,
+    "text": "ters. Each one of these “activist holders” is purchasing tokens with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 12,
+    "text": " of a woman who once had a bad spell, has come out of it and is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 9,
+    "text": " teenager, working as a sign painter and pinstriper, according to a release.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22207,
+    "window": 1,
+    "text": " attention on how Martin plays. First and foremost this is about the fact that we have",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 4,
+    "text": "s component parts as well as its centralized political system. In a lead article",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 42,
+    "text": " on 11 June 1811[10] and Colonel on 21 October that year.[11",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 17,
+    "text": " another key passage, Mrs Romney spoke directly to the women among whom Mr Romney badly trails",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 39,
+    "text": " to deny him the open shot and his trademark ‘La Bomba’.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 15,
+    "text": " had previously blacklisted. Another Republican, Maine Gov. Paul LePage vowed in August",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 18,
+    "text": " co-chairs the Iupac group assigned to categorise hydrogen bonds and other inter",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 45,
+    "text": " the very end of our trip for one night, as Baixa has a two",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 45,
+    "text": " call ‘The Lobbyist Full-Employment Act,’ ” one",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 39,
+    "text": "Using the language of disability (either directly or through metaphor) as a way to insult",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 34,
+    "text": " cable) and these plug into the output pins of the flight controller. This is because",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 13,
+    "text": " Emperor Toba. Shortly thereafter, Emperor Konoe is said to have acceded to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 39,
+    "text": "kel’s comments came Saturday during her weekly podcast. She asserted that her stance",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 12,
+    "text": " @narendramodi to a restaurant for Mexican vegetarian fare pic.twitter.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 2,
+    "text": " continuity of native civilizations? Who insures a culture's stability<|endoftext|> Court,",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

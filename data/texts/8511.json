@@ -1,0 +1,276 @@
+{
+ "feature": 8511,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 55,
+    "text": "hiking in the West Bank and their bodies were found last Monday. Image",
+    "stored": 4.949105739593506,
+    "recomputed": 4.695591926574707
+   },
+   {
+    "window": 44,
+    "text": " 9 presentation Streicher made about the body cams . Howarth,",
+    "stored": 13.41184997558594,
+    "recomputed": 6.590214252471924
+   },
+   {
+    "window": 48,
+    "text": ", the Tottenham manager, had lost a body in midfield – Sandro was out for",
+    "stored": 9.347329139709473,
+    "recomputed": 8.299182891845703
+   },
+   {
+    "window": 52,
+    "text": " cottage or hunting camp. The bodies were discovered in the rubble. ",
+    "stored": 6.531944274902344,
+    "recomputed": 8.680388450622559
+   },
+   {
+    "window": 43,
+    "text": " is causal by making use of a substantial body of research showing that variation in pension,",
+    "stored": 13.45822143554688,
+    "recomputed": 11.14345932006836
+   },
+   {
+    "window": 36,
+    "text": " said he would immediately get rid of the body, which regulates over 100 different occupations from",
+    "stored": 18.74619102478027,
+    "recomputed": 11.641526222229004
+   },
+   {
+    "window": 19,
+    "text": " “The arguments for such a body are overwhelming,” he says.",
+    "stored": 33.2275276184082,
+    "recomputed": 15.095804214477539
+   },
+   {
+    "window": 37,
+    "text": " some, or most, of the student body. Recent incidents at Old Dominion University (",
+    "stored": 18.52260208129883,
+    "recomputed": 16.16455078125
+   },
+   {
+    "window": 39,
+    "text": " email. The email said the entire student body and some staff members would be targeted.",
+    "stored": 16.17597579956055,
+    "recomputed": 17.707029342651367
+   },
+   {
+    "window": 24,
+    "text": " Pearson place their collection squarely within the new body of scholarship on the “rise of",
+    "stored": 29.54668235778809,
+    "recomputed": 20.618207931518555
+   },
+   {
+    "window": 30,
+    "text": " \"<|endoftext|> are, in fact, public bodies under the Freedom of Information and Protection of",
+    "stored": 23.88031005859375,
+    "recomputed": 24.090137481689453
+   },
+   {
+    "window": 20,
+    "text": " if India is allowed to join the exclusive body, a media report said here today.",
+    "stored": 33.11196517944336,
+    "recomputed": 29.765926361083984
+   },
+   {
+    "window": 26,
+    "text": " to issues of human rights. The governing bodies make plenty of platitudes about opposing racism",
+    "stored": 27.55486679077148,
+    "recomputed": 30.69783592224121
+   },
+   {
+    "window": 8,
+    "text": " 48-nation NSG is a multinational body that aims to reduce nuclear proliferation by controlling",
+    "stored": 35.31935501098633,
+    "recomputed": 31.851499557495117
+   },
+   {
+    "window": 13,
+    "text": " in the Spanish Grand Prix as the governing body moved to stop teams trying to store petrol",
+    "stored": 34.37448501586914,
+    "recomputed": 33.20911407470703
+   },
+   {
+    "window": 17,
+    "text": " parliament, argued an ICAC-like body was only needed “where there is",
+    "stored": 34.032470703125,
+    "recomputed": 34.041114807128906
+   },
+   {
+    "window": 11,
+    "text": " farmers\". A spokesman for industry body Dairy UK said there had been \"significant",
+    "stored": 34.65293121337891,
+    "recomputed": 35.044166564941406
+   },
+   {
+    "window": 7,
+    "text": " Committee on Taxation, the nonpartisan Congressional body responsible for evaluating tax proposals, hurried its",
+    "stored": 35.9489860534668,
+    "recomputed": 35.70356369018555
+   },
+   {
+    "window": 3,
+    "text": " welcomed the timely visit by the independent European body focused on evaluating levels of corruption among members",
+    "stored": 37.76396942138672,
+    "recomputed": 37.67572784423828
+   },
+   {
+    "window": 1,
+    "text": " The council's decision-making body, the Committee of Ministers, last week",
+    "stored": 39.48984909057617,
+    "recomputed": 42.41705322265625
+   }
+  ],
+  "positives": 54,
+  "grey": [
+   {
+    "window": 16,
+    "text": "ing its muscles. A new body has been set up, called, rather",
+    "stored": 34.11477279663086,
+    "recomputed": 3.7224502563476562
+   },
+   {
+    "window": 27,
+    "text": " start to fuse the two parts of the body politic,” he said. ",
+    "stored": 27.50689697265625,
+    "recomputed": 1.2087962627410889
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 3246,
+    "window": 48,
+    "text": " confused I felt sick. My biggest fear was never having children. Suddenly a huge piece",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18011,
+    "window": 12,
+    "text": " ago, acid rain was killing fish and dissolving stone monuments on the East Coast.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 64,
+    "text": " The Sunday Telegraph. \"It is a bottomless weight in all our souls.\" ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 35,
+    "text": " Way and altered by passing through this turbulent region. The gases are ionized, so",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 34,
+    "text": " read his tweet translated into English below thanks to goldpanner. The June",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 9,
+    "text": " d'Eté from Britain's Tate Gallery. The impressionist masterpiece",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 42,
+    "text": " Group Captain John Astley Gray, MacCarthy entered the burning wreck and rescued two",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 4,
+    "text": " with the racing history – that leaves little to wonder about how this remarkable<|endoftext|> one of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 43,
+    "text": "ab, will compare the oscillations of neutrinos to those of antineut",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 20,
+    "text": " is that since Azure’s underpinnings mirror those of Windows Server 2012",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 25,
+    "text": " whose undercover agents and informers posed as terrorists offering a dummy missile, fake C-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 32,
+    "text": "ing the tax system and a law signed Friday by Trump that makes it easier for the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 9,
+    "text": " Jihadists and Islamists accuse Copts of supporting the military overthrow of Islamist",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13068,
+    "window": 1,
+    "text": " after the emotional high of winning the Pac-12 South in 2013 and climbing up to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 30,
+    "text": " crackdown in decades At a gray church on the outskirts of Wenzhou in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 9,
+    "text": ", FL, has turned to the local church to help out. Steve Comparato,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 49,
+    "text": " cold—typical of the Yukon basin—and dry. Disturbed by snow",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 37,
+    "text": " introduced to the outside world. Topics: animals, zoos, animal-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 11,
+    "text": "omesh was in the Roswell jail Friday afternoon.<|endoftext|>The Austrian announced his retirement",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 4,
+    "text": " the criticism in a recent interview with the radio program “Marketplace.”",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 13350,
+    "window": 41,
+    "text": " afford such a luxury. It must deconstruct these bloated inefficient government agencies, and rid",
+    "recomputed": 1.260899543762207
+   }
+  ]
+ }
+}

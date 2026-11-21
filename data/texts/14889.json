@@ -1,0 +1,263 @@
+{
+ "feature": 14889,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 21,
+    "text": " it to Simpson, who after hiding from Argos defenders, ran 80 yards to help",
+    "stored": 6.452988624572754,
+    "recomputed": 6.724167823791504
+   },
+   {
+    "window": 19,
+    "text": "-authors, Meyer specified the issues of IEEE’s Transactions on Information Theory journal",
+    "stored": 7.267344951629639,
+    "recomputed": 8.131876945495605
+   },
+   {
+    "window": 16,
+    "text": "oldupasec! You made my Arbitrary Day anything but Arbitrary!<|endoftext|>",
+    "stored": 7.725754737854004,
+    "recomputed": 8.232735633850098
+   },
+   {
+    "window": 23,
+    "text": " for Internet records. Today, EFF sued the Justice Department to turn over records",
+    "stored": 6.363981246948242,
+    "recomputed": 8.801901817321777
+   },
+   {
+    "window": 20,
+    "text": " said many things, hoping to motivate the Argos. Then the Ottawa Journal reported Cah",
+    "stored": 7.190103530883789,
+    "recomputed": 8.91907787322998
+   },
+   {
+    "window": 15,
+    "text": " by our Government. So, EFF warded off the unwanted interference of Government",
+    "stored": 8.070070266723633,
+    "recomputed": 9.92077922821045
+   },
+   {
+    "window": 14,
+    "text": " on the<|endoftext|> After defeating the Argos 33-21 at home in the",
+    "stored": 8.935604095458984,
+    "recomputed": 10.309243202209473
+   },
+   {
+    "window": 18,
+    "text": " violated FBI guidelines and policies.” EFF has successfully challenged the NSL gag orders",
+    "stored": 7.383407115936279,
+    "recomputed": 10.338150978088379
+   },
+   {
+    "window": 12,
+    "text": " of our feature showcase sample app, Van Arsdel! The Van Arsdel",
+    "stored": 44.1113166809082,
+    "recomputed": 49.10475540161133
+   },
+   {
+    "window": 11,
+    "text": " more compact in the latest release! Van Arsdel sports two, more compact versions of",
+    "stored": 48.62202453613281,
+    "recomputed": 49.458675384521484
+   },
+   {
+    "window": 10,
+    "text": " Spotlight Features Van Arsdel uses many new and exciting features that",
+    "stored": 50.6436653137207,
+    "recomputed": 49.68447494506836
+   },
+   {
+    "window": 9,
+    "text": "rd place in the Premier League to ensure Arsene Wenger’s side qualified directly",
+    "stored": 51.93805694580078,
+    "recomputed": 56.88615036010742
+   },
+   {
+    "window": 6,
+    "text": " elderly father and sick mother.<|endoftext|>• Arsène Wenger confident over transfer after productive",
+    "stored": 57.59128189086914,
+    "recomputed": 58.90517044067383
+   },
+   {
+    "window": 4,
+    "text": ", compensatory, and exemplary damages. Ars attempted to contact Interceptor but did<|endoftext|>",
+    "stored": 58.90299224853516,
+    "recomputed": 60.551658630371094
+   },
+   {
+    "window": 5,
+    "text": "-esque Arial (the default for Ars text), the Webdings dingbat",
+    "stored": 57.62343597412109,
+    "recomputed": 60.96348571777344
+   },
+   {
+    "window": 1,
+    "text": " DK<|endoftext|> anything,\" McKiernan told Ars.\" We definitely want to see progress from",
+    "stored": 61.37147903442383,
+    "recomputed": 61.92066955566406
+   },
+   {
+    "window": 3,
+    "text": ",\" Apple spokesperson Trudy Muller told Ars at the time. \"If we find",
+    "stored": 60.75252532958984,
+    "recomputed": 62.66636276245117
+   },
+   {
+    "window": 7,
+    "text": " when deemed necessary, McKiernan told Ars. \"We take no stance on the",
+    "stored": 56.41958618164062,
+    "recomputed": 62.854732513427734
+   },
+   {
+    "window": 2,
+    "text": " national grassroots director Gavin McKiernan told Ars, because parents can't sit with the",
+    "stored": 61.23911666870117,
+    "recomputed": 64.21358489990234
+   },
+   {
+    "window": 0,
+    "text": " regarding two key areas discussed previously here on Ars: the Investment-State Dispute Settlement",
+    "stored": 63.1217155456543,
+    "recomputed": 64.3208236694336
+   }
+  ],
+  "positives": 22,
+  "grey": [
+   {
+    "window": 22,
+    "text": " final year, due to the new Collective Bargaining Agreement’s escalating luxury tax",
+    "stored": 6.402660846710205,
+    "recomputed": 4.203886985778809
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 8511,
+    "window": 47,
+    "text": " UK was offering 5,000 sets of body armor, 6,650 police uniforms,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 16,
+    "text": " One must add to this list Maine governor Paul LePage — apparently now taking",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 16,
+    "text": " Once a site<|endoftext|>Watch the latest video at <a href=”//",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 3,
+    "text": " the Vorn<|endoftext|> that's very important.\" Should an arena be built and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14256,
+    "window": 13,
+    "text": " mission runs smoothly,” said Kloeppel. “There were a lot",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 37,
+    "text": " the character James Martin – who is played delightfully by Tom Bennett, it isn�",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 78,
+    "text": " St. Clair, 23, works as the operations manager and is the organization's only",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 25,
+    "text": " one who is pledged to vote for his party's candidate for president but nevertheless votes of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 66,
+    "text": " 25 appreciating the released recently film 'Oopiri' starring Nagarjuna",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 6,
+    "text": " tile is made to endure humidity and to absorb the least amount of water possible most ad",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 19,
+    "text": " as once-in-a-generation legislation, lobbyists speaking on background predicted a busy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 1,
+    "text": " meeting more than our fair share of the region’s housing demand in addition to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 47,
+    "window": 44,
+    "text": ", body cameras will further empower the very party they were designed to check.<|endoftext|>Two",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 27,
+    "text": "’t speculate and get caught one day, unaware! Speculate too much",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 50,
+    "text": "� The risks, she adds, are when people are detained without trial<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 26,
+    "text": " to no avail. The result spells trouble for the so-called Trump effect",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 19,
+    "text": " Alkins, Brandon Sampson Two-Way Daily Rate in NBA/G",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 5,
+    "text": " \"What if the bar or the restaurant or Walmart or Target, they pay for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 34,
+    "text": " the president and just life in general,\" Snoop said. He added that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 3,
+    "text": " Hassett, the Chair of the Council of Economic Advisers, explained that the C",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

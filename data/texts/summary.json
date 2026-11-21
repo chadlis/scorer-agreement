@@ -1,0 +1,44 @@
+{
+ "features_ok": 100,
+ "features_failed": [],
+ "features_missing": [],
+ "features_replaced": [
+  {
+   "out": 21484,
+   "in": 22836,
+   "labelled": {
+    "positives": 16,
+    "negatives": 20
+   }
+  }
+ ],
+ "negatives_replaced": [
+  {
+   "feature": 6076,
+   "reason": "placebo donor",
+   "out": {
+    "from_feature": 8995,
+    "window": 53,
+    "text": "�s edition of MMASucka Radio.<|endoftext|>Silver Spur Drive in is rev",
+    "recomputed": 0
+   },
+   "in": {
+    "from_feature": 8968,
+    "window": 17,
+    "text": " Infowars.com Wednesday, May 30, 2012 The",
+    "recomputed": 0
+   }
+  }
+ ],
+ "separator_share": {
+  "positives": 0.0965,
+  "negatives": 0.086
+ },
+ "separator_gap_ok": true,
+ "mean_tokens": {
+  "positives": 16.4,
+  "negatives": 16.39
+ },
+ "grey_and_zero_positives": 170,
+ "negatives_rejected": 91
+}

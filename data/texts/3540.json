@@ -1,0 +1,275 @@
+{
+ "feature": 3540,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": " a crowded field, said Margaret O'Mara, a history professor at the<|endoftext|>",
+    "stored": 5.445828914642334,
+    "recomputed": 4.303911209106445
+   },
+   {
+    "window": 57,
+    "text": " world. In 2013, DeSantis was asked by Prince Jigy",
+    "stored": 7.351822853088379,
+    "recomputed": 6.571352481842041
+   },
+   {
+    "window": 53,
+    "text": " Mexico beyond embassy duty. DeShazo said Peña Nieto would be better",
+    "stored": 9.347729682922363,
+    "recomputed": 7.918006420135498
+   },
+   {
+    "window": 54,
+    "text": " play as soon as these occur. McDavid is even being used by the Otters",
+    "stored": 8.435776710510254,
+    "recomputed": 9.85756778717041
+   },
+   {
+    "window": 52,
+    "text": " of<|endoftext|> moving.” Robin DeFabbio, Richland Center, Wis",
+    "stored": 10.83590507507324,
+    "recomputed": 11.489463806152344
+   },
+   {
+    "window": 48,
+    "text": "Sunday night's event in Wichita's McAdams Park drew a crowd of nearly 1,",
+    "stored": 13.53641223907471,
+    "recomputed": 15.779118537902832
+   },
+   {
+    "window": 42,
+    "text": " Group Captain John Astley Gray, MacCarthy entered the burning wreck and rescued two",
+    "stored": 19.71819686889648,
+    "recomputed": 17.692047119140625
+   },
+   {
+    "window": 35,
+    "text": " addition to countless voice acting credits, MacFarlane starred in A Million Ways to Die",
+    "stored": 24.27563095092773,
+    "recomputed": 23.689626693725586
+   },
+   {
+    "window": 30,
+    "text": " Review-Journal attorney Maggie McLetchie said, “FOIA was",
+    "stored": 28.53923416137695,
+    "recomputed": 27.067468643188477
+   },
+   {
+    "window": 27,
+    "text": "oughlin and then offensive coordinator Ben McAdoo. As a result, he was",
+    "stored": 31.21750450134277,
+    "recomputed": 30.801603317260742
+   },
+   {
+    "window": 22,
+    "text": " District 17) and Assemblyman John McKeon (D- District 27) at",
+    "stored": 34.72913360595703,
+    "recomputed": 32.782989501953125
+   },
+   {
+    "window": 23,
+    "text": " make an opening address to Justice John McKechnie in the judge-only trial",
+    "stored": 34.47880172729492,
+    "recomputed": 33.699092864990234
+   },
+   {
+    "window": 24,
+    "text": " admissions now transferred to the Lyell McEwin. No longer hamstr",
+    "stored": 32.8637580871582,
+    "recomputed": 35.418575286865234
+   },
+   {
+    "window": 41,
+    "text": " better team won,” said McInnes. “It was tough to",
+    "stored": 20.03194618225098,
+    "recomputed": 36.215431213378906
+   },
+   {
+    "window": 11,
+    "text": ". Military's Ft. Lewis and McChord Air Force Base received damage and there",
+    "stored": 38.59340286254883,
+    "recomputed": 37.26544952392578
+   },
+   {
+    "window": 9,
+    "text": " SFA compliance officer Tony McGlennan may have a busy Monday morning",
+    "stored": 38.93647384643555,
+    "recomputed": 38.46241760253906
+   },
+   {
+    "window": 7,
+    "text": " This Game Hit the dirt in Colin McRae Rally - the classic off-road",
+    "stored": 39.1723518371582,
+    "recomputed": 39.12770462036133
+   },
+   {
+    "window": 2,
+    "text": " According to the police report, McElroy was asked by management to leave S",
+    "stored": 39.77402496337891,
+    "recomputed": 40.81691360473633
+   },
+   {
+    "window": 1,
+    "text": " the coalition brought up the arrest of McElroy — whom he called a community leader",
+    "stored": 39.90235137939453,
+    "recomputed": 41.47884750366211
+   },
+   {
+    "window": 39,
+    "text": ". It then says that officers told McElroy he needed to step out onto the",
+    "stored": 20.90474510192871,
+    "recomputed": 42.82294464111328
+   }
+  ],
+  "positives": 57,
+  "grey": [],
+  "zero": [
+   {
+    "window": 17,
+    "text": " my job.” McGrattan drew a 10-minute misconduct",
+    "stored": 36.51776504516602,
+    "recomputed": 0
+   },
+   {
+    "window": 36,
+    "text": ",\" McMahan said. McMahan has solar panels to recharge her Power",
+    "stored": 24.04609870910645,
+    "recomputed": 0
+   },
+   {
+    "window": 45,
+    "text": " do it, right?\" McMahan says just days after her Powerw",
+    "stored": 14.41413879394531,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 18727,
+    "window": 3,
+    "text": " have been up for debate in Pennsylvania, Maine and Nebraska this year. In",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 14,
+    "text": " territory but will not necessarily collapse soon. Activists agreed, saying that unless the international",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 39,
+    "text": " This important advance in scientific methods was introduced only 25 years after the death of Galileo and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 1,
+    "text": " to life at White Hart Lane before throwing him into the first-team picture. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 4,
+    "text": " and his first at the home arena in Turku. Two former members of the Kings",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 51,
+    "text": " Meanwhile, the King’s Church organisation, Jesus Cares, have added",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 35,
+    "text": " I think, has prompted some interesting conversations.\" The Russian proposal could lead to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 18,
+    "text": " Miami, Sacramento, Seattle, and Washington, DC. While the goal of 5G",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 14,
+    "text": " at how the individual Cowboys players have performed relative to other players at their positions across the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6322,
+    "window": 12,
+    "text": " research shows how quickly a suspect with a knife can close the gap on an officer.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 27,
+    "text": " debating skills impressed the Mormon leader, who assigned him to found a branch in Burlington,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 5,
+    "text": " the use of encrypted messaging services used by terrorists and criminals at an upcoming meeting of ministers",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 42,
+    "text": " trio of self-proclaimed ex-terrorists turned evangelical Christians was Walid Shoeb",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 53,
+    "text": " hairs, short hairs, fine and downy hairs and thorns.■The<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 16,
+    "text": " have about ten degrees more of movement than in Qatar, which should make quite a big",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 34,
+    "text": " in private. (If you need that spelled out, it’s because big",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 7,
+    "text": "… stood in front of a wall of Lego boxes for 45 minutes before shoving the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 36,
+    "text": " Sambanis , Nicholas . 2000 . International Peacekeeping: A Theoretical and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 3,
+    "text": " to blame widening trade deficit caused by tax cuts on Mexico As you’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 1,
+    "text": " The sell-off was driven mainly by the turmoil in China, which is",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

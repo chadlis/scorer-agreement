@@ -1,0 +1,256 @@
+{
+ "feature": 12732,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 59,
+    "text": " A<|endoftext|> of all, Big Boy turned out to have the highest level of testosterone of",
+    "stored": 6.918148994445801,
+    "recomputed": 8.071063995361328
+   },
+   {
+    "window": 58,
+    "text": " was a wide variety of machinery that turned out. From classic Triumphs… ",
+    "stored": 7.197067260742188,
+    "recomputed": 9.188030242919922
+   },
+   {
+    "window": 52,
+    "text": "In the event, these claims too turn out to be twisted, or absurdly thin",
+    "stored": 13.15901279449463,
+    "recomputed": 15.050414085388184
+   },
+   {
+    "window": 50,
+    "text": " “But what’s turned out in practice since (the law) has",
+    "stored": 17.3424015045166,
+    "recomputed": 18.522533416748047
+   },
+   {
+    "window": 44,
+    "text": " the unidentified aircraft photographed over Amarillo turns out to be a new U.S.",
+    "stored": 23.94515800476074,
+    "recomputed": 19.849451065063477
+   },
+   {
+    "window": 47,
+    "text": " even existed. The story turned out to be completely wrong—but, again",
+    "stored": 21.38712501525879,
+    "recomputed": 20.89784049987793
+   },
+   {
+    "window": 43,
+    "text": " Avengers sequel.If any of this turns out to be true, there could still be",
+    "stored": 24.88716697692871,
+    "recomputed": 24.7711238861084
+   },
+   {
+    "window": 41,
+    "text": " the answer to one of these questions turns out to be, actually yes. Best of",
+    "stored": 27.60681343078613,
+    "recomputed": 28.854860305786133
+   },
+   {
+    "window": 37,
+    "text": "). In fact, it will probably turn out that lots of genes vary in this way",
+    "stored": 32.83478546142578,
+    "recomputed": 33.954166412353516
+   },
+   {
+    "window": 39,
+    "text": " matched up with his story. This turns out to be, not because the wreck didn",
+    "stored": 31.71040344238281,
+    "recomputed": 35.802146911621094
+   },
+   {
+    "window": 32,
+    "text": ", money, money It turned out during a postmortem of that failure that",
+    "stored": 39.15324401855469,
+    "recomputed": 40.66268539428711
+   },
+   {
+    "window": 30,
+    "text": " insisting on further austerity. As it turned out on Sunday, the “no�",
+    "stored": 41.10740280151367,
+    "recomputed": 42.969261169433594
+   },
+   {
+    "window": 28,
+    "text": " experts by surprise. But if it turns out Yellowstone ever does erupt, presumably the embarrassment",
+    "stored": 45.00782012939453,
+    "recomputed": 46.62089920043945
+   },
+   {
+    "window": 27,
+    "text": " personality and family. Only now it turns out that a member of her family doesn't",
+    "stored": 46.05336761474609,
+    "recomputed": 47.352413177490234
+   },
+   {
+    "window": 18,
+    "text": " put officially on hold in 2009. Turns out something far more interesting is going on in",
+    "stored": 55.23765563964844,
+    "recomputed": 55.17692947387695
+   },
+   {
+    "window": 15,
+    "text": ". And both of them, it turns out, can be driven by excessive heat.",
+    "stored": 56.09352874755859,
+    "recomputed": 56.40991973876953
+   },
+   {
+    "window": 17,
+    "text": " back pocket all along. But it turns out the multi-year Russian offer was nowhere",
+    "stored": 55.5623779296875,
+    "recomputed": 56.950077056884766
+   },
+   {
+    "window": 12,
+    "text": "'s where things get sticky. It turns out that some of the folks whom President Jane",
+    "stored": 56.29380798339844,
+    "recomputed": 57.6895751953125
+   },
+   {
+    "window": 21,
+    "text": " because nothing further was required. It turns out that the GISSE model temperature hind",
+    "stored": 52.82243728637695,
+    "recomputed": 59.379249572753906
+   },
+   {
+    "window": 9,
+    "text": " afford to? As it turns out, though, the study uses price per",
+    "stored": 56.8180046081543,
+    "recomputed": 60.67046356201172
+   }
+  ],
+  "positives": 44,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 47,
+    "window": 53,
+    "text": ",\" he said. The Congress party yesterday stirred a controversy when its senior leader",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 11,
+    "text": " from military readiness to cosmetic medical services. Mast, a veteran, told Breitbart: ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 38,
+    "text": " We've created coastal bowling-pin communities; we set 'em up and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 29,
+    "text": " other day, as I was surfing through pictures of medieval torture devices (don't ask",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 27,
+    "text": " (For a factbox on Chavez nationalizations, please click on [ID",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 28,
+    "text": " on the Brexit divorce, including settling its bills and citizens’ rights. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 1,
+    "text": ", by way of binding arbitration, a method that has proven quicker and<|endoftext|>, Assistant",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 42,
+    "text": " the word; they are normal only in relation to a profoundly abnormal society. Their perfect",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 27,
+    "text": ". That’s 492 touches over the course of 16 games,<|endoftext|> holding",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 12,
+    "text": "� He was so opposed to her sleeping with “Paul the Wine Guy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 6,
+    "text": " as Spidey looks like. Thanks to some newly revealed concept art, we actually",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 2,
+    "text": " was still conscious.” She added: “An hour later,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 55,
+    "text": " At One, a similar length item on Radio Four, but nothing on ITV, Sky",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 53,
+    "text": " a small, unadorned Russian Orthodox chapel with a simple belfry. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15660,
+    "window": 24,
+    "text": " the NSA's own documents, collection directly from the servers of these companies. We then",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9692,
+    "window": 2,
+    "text": " wooden roller coaster Coasterasaurus, Lego Ninjago World will open in early",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 42,
+    "text": " Qualification Rounds. The three sides that finish in the bottom three places suffer",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 3,
+    "text": " best in my opinion. I hope one day I can play in the Premier League with",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 30,
+    "text": " Why have you started yet anothertranslation topic?Because the first attempt was utter fail",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8511,
+    "window": 24,
+    "text": " Pearson place their collection squarely within the new body of scholarship on the “rise of",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

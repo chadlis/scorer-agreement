@@ -1,0 +1,263 @@
+{
+ "feature": 20058,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 58,
+    "text": " and place a cast-iron or oven-safe skillet on the middle rack. Then",
+    "stored": 3.14031195640564,
+    "recomputed": 2.9480056762695312
+   },
+   {
+    "window": 56,
+    "text": " and use SQLlite as well. Ubuntu/Mint/RasberryPi users",
+    "stored": 4.512521743774414,
+    "recomputed": 5.391990661621094
+   },
+   {
+    "window": 55,
+    "text": "' label,\" says Blake at The Washington Post. That includes \"non-religious people",
+    "stored": 4.907788276672363,
+    "recomputed": 5.975439071655273
+   },
+   {
+    "window": 53,
+    "text": " aside a space in the heart of Washington D.C, alongside those who seek to",
+    "stored": 5.595824241638184,
+    "recomputed": 7.279994487762451
+   },
+   {
+    "window": 46,
+    "text": " Shane Bouvet from Illinois, in Washington on Thursday. (Justin Jouvenal/",
+    "stored": 9.358294486999512,
+    "recomputed": 9.426260948181152
+   },
+   {
+    "window": 47,
+    "text": ", unlike Britain or France,<|endoftext|>WASHINGTON (WUSA) -- A woman was sent",
+    "stored": 9.300277709960938,
+    "recomputed": 11.075255393981934
+   },
+   {
+    "window": 39,
+    "text": ". Copyright © 2019 The Washington Times, LLC. Click here for reprint permission",
+    "stored": 13.64846229553223,
+    "recomputed": 11.858131408691406
+   },
+   {
+    "window": 45,
+    "text": " at officers during a disturbance call in Washington state sparked calls for a federal investigation and weeks",
+    "stored": 10.43019771575928,
+    "recomputed": 13.34752082824707
+   },
+   {
+    "window": 38,
+    "text": " Cleveland Chicago Sacramento Baltimore Columbus Indianapolis Denver Washington St. Louis Louisville Las Vegas Durham Nashville Albuquerque",
+    "stored": 14.01698780059814,
+    "recomputed": 13.71838092803955
+   },
+   {
+    "window": 42,
+    "text": " United States their home. Washington state seeks to expand travel ban injunction to cover",
+    "stored": 12.91095447540283,
+    "recomputed": 14.557109832763672
+   },
+   {
+    "window": 35,
+    "text": " the Program on Arab Politics at the Washington Institute. Tabler said the regime",
+    "stored": 16.10087203979492,
+    "recomputed": 16.569833755493164
+   },
+   {
+    "window": 31,
+    "text": " Comments comments<|endoftext|>WASHINGTON, D.C. — Republican presidential front",
+    "stored": 18.7323055267334,
+    "recomputed": 19.461782455444336
+   },
+   {
+    "window": 33,
+    "text": " handful of presidents—Lincoln, Washington, and Franklin Delano Roosevelt, followed closely",
+    "stored": 18.30064010620117,
+    "recomputed": 20.723052978515625
+   },
+   {
+    "window": 26,
+    "text": " New York, Oregon, Virginia and Washington, among others. The list is",
+    "stored": 20.3199291229248,
+    "recomputed": 20.98375129699707
+   },
+   {
+    "window": 18,
+    "text": " Miami, Sacramento, Seattle, and Washington, DC. While the goal of 5G",
+    "stored": 24.01555633544922,
+    "recomputed": 21.194252014160156
+   },
+   {
+    "window": 24,
+    "text": "� the city marshal wrote to Washington, following a raft of complaints from out-",
+    "stored": 21.08413124084473,
+    "recomputed": 22.168790817260742
+   },
+   {
+    "window": 1,
+    "text": " United States Senate Washington, DC 20510 Dear Mr.",
+    "stored": 26.86945533752441,
+    "recomputed": 24.615694046020508
+   },
+   {
+    "window": 15,
+    "text": " performing tonight at the Verizon Center in Washington, to the Oval Office just before dinner last",
+    "stored": 24.48905754089355,
+    "recomputed": 24.848129272460938
+   },
+   {
+    "window": 11,
+    "text": " Act Radio, 1480 AM in Washington, DC, and also available by podcast.",
+    "stored": 25.1564998626709,
+    "recomputed": 26.035600662231445
+   },
+   {
+    "window": 8,
+    "text": " is a licensed clinical psychologist practicing in Washington, DC. He counsels individuals and couples",
+    "stored": 25.46090698242188,
+    "recomputed": 27.319669723510742
+   }
+  ],
+  "positives": 41,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 5264,
+    "window": 42,
+    "text": " support for Israel, Arab nations launched the oil boycott, leading to the 1970s energy",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 52,
+    "text": " anti-choice rant that described scenes more suited to an abattoir or an installment",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 4,
+    "text": " că adună o armată pentru a se ap",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 33,
+    "text": " six years after the Great Recession—thanks to the hard work of the American people and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19944,
+    "window": 3,
+    "text": " When he talks about something, he helps to mainstream it. Still, Bill",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 13,
+    "text": ".<|endoftext|> just want to play the game.\" The same question was asked of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 52,
+    "text": " as a human being to make this line move along as quickly as possible. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 20,
+    "text": " more flexible, open-ended, decentralized method of creation and organization. Ph",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 8,
+    "text": " out airstrikes against a large group of Daesh terrorists advancing to the east of Palmyra,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 12,
+    "text": "-shouldered officer named Barry Washington pulled them over. He asked if Henderson knew that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 47,
+    "text": " that sounded like SPELLS instead of casting \"Strategic Retreat\" or \"",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 45,
+    "text": " now understood: it is due to compressive stress - caused by, say, diffusion",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18562,
+    "window": 26,
+    "text": " request an accommodation. Consideration for 20 extra minutes required application as a “disabled",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 27,
+    "text": " of war. Then it happens: Hitler marches the Wehrmacht into Poland and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 39,
+    "text": " was conducted by the air forces from each side to mark 50 years of diplomatic relations between",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 31,
+    "text": " as they arrive at the airport in Chapeco, Brazil, on Saturday,<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 9,
+    "text": "Leaguer Chris Babb from the Maine Red Claws to a<|endoftext|> would still",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 35,
+    "text": " Her clothes were saturated. Mum Allison rushed her to the hospital, where the baby vom",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19956,
+    "window": 17,
+    "text": " about myself. See? Unapologetic.) Okay so book numero un",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 44,
+    "text": " dependent need that cigarette earlier, and often smoke more cigarettes throughout the day, more intensely",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 10814,
+    "window": 13,
+    "text": " on<|endoftext|> Bush's $700 billion financial bailout that \"would effectively nationalize an array",
+    "recomputed": 0.8773819208145142
+   }
+  ]
+ }
+}

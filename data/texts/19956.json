@@ -1,0 +1,354 @@
+{
+ "feature": 19956,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 16,
+    "text": "training sessions for 500 gals that weekend.) But as for the gathering itself, noted",
+    "stored": 21.03556251525879,
+    "recomputed": 2.821221113204956
+   },
+   {
+    "window": 30,
+    "text": " be able to help us with this question.) As noted in a previous post , this",
+    "stored": 16.15504264831543,
+    "recomputed": 3.1946253776550293
+   },
+   {
+    "window": 32,
+    "text": " Casablanca late Friday night to escape.) Any action taken by Rafsanjani",
+    "stored": 15.38402462005615,
+    "recomputed": 3.7791497707366943
+   },
+   {
+    "window": 20,
+    "text": " whose signature song was \"Over the Rainbow.\") With gay issues so much in",
+    "stored": 20.55019378662109,
+    "recomputed": 3.8948521614074707
+   },
+   {
+    "window": 4,
+    "text": "s is going to create a few casualties.) Also, Jump is arranged like a mono",
+    "stored": 22.64737701416016,
+    "recomputed": 3.9928040504455566
+   },
+   {
+    "window": 3,
+    "text": " have at least one séance scene?) All the while, unbeknownst",
+    "stored": 22.92036628723145,
+    "recomputed": 4.087445259094238
+   },
+   {
+    "window": 8,
+    "text": ", and be sure you have a tissue.) After admiring the Scarlet Be",
+    "stored": 22.03746223449707,
+    "recomputed": 4.342954158782959
+   },
+   {
+    "window": 21,
+    "text": " slow settlement activity, but not in Jerusalem.) Abbas had been under pressure",
+    "stored": 20.09107208251953,
+    "recomputed": 4.515432834625244
+   },
+   {
+    "window": 27,
+    "text": " I want to know who killed my son.) Aldrin had kept himself",
+    "stored": 16.50904273986816,
+    "recomputed": 4.829830646514893
+   },
+   {
+    "window": 25,
+    "text": " a good time to be a Waters fan.) Paste had the chance to interview the ma",
+    "stored": 18.3365421295166,
+    "recomputed": 4.966137886047363
+   },
+   {
+    "window": 48,
+    "text": " in a heartbeat!!! (*`ω´) She’s posed gently",
+    "stored": 6.322069644927979,
+    "recomputed": 6.09829568862915
+   },
+   {
+    "window": 50,
+    "text": " players? A: (Stuart answers) You can't get an answer out of",
+    "stored": 5.255059719085693,
+    "recomputed": 6.21691370010376
+   },
+   {
+    "window": 5,
+    "text": " a primary challenge will be even more desperate.) Romney had a chance to show",
+    "stored": 22.29172706604004,
+    "recomputed": 6.368455410003662
+   },
+   {
+    "window": 53,
+    "text": " I am subscribing to it.(Godamn)I consistently come away in awe of how",
+    "stored": 3.16436505317688,
+    "recomputed": 6.917706489562988
+   },
+   {
+    "window": 40,
+    "text": ". (Last week: The Visitor) One of the great things about",
+    "stored": 9.837796211242676,
+    "recomputed": 7.638422012329102
+   },
+   {
+    "window": 42,
+    "text": " missed it, give it a listen here!) … we shared a bottle of wine,",
+    "stored": 8.793598175048828,
+    "recomputed": 8.070056915283203
+   },
+   {
+    "window": 10,
+    "text": " attended San Diego Comic Con 2012 were women!) Conventions are where the geek community is",
+    "stored": 21.75648498535156,
+    "recomputed": 8.671680450439453
+   },
+   {
+    "window": 36,
+    "text": " sort of a critic am I, anyway?) simply because, well — I’",
+    "stored": 12.44128799438477,
+    "recomputed": 8.794285774230957
+   },
+   {
+    "window": 11,
+    "text": "Thank you, Jack! You are correct.) The ultimate purpose of Hunter�",
+    "stored": 21.57937431335449,
+    "recomputed": 8.859819412231445
+   },
+   {
+    "window": 17,
+    "text": " about myself. See? Unapologetic.) Okay so book numero un",
+    "stored": 20.89946365356445,
+    "recomputed": 9.07358455657959
+   }
+  ],
+  "positives": 39,
+  "grey": [
+   {
+    "window": 2,
+    "text": " like Jafar or Hades? Man.) Yet Irons' sinister tones, practically",
+    "stored": 23.54758071899414,
+    "recomputed": 1.9382214546203613
+   },
+   {
+    "window": 6,
+    "text": " of the Webbs on such a policy.) The Government has decided to increase",
+    "stored": 22.28807067871094,
+    "recomputed": 2.593402624130249
+   },
+   {
+    "window": 7,
+    "text": " subject, it’s in Icelandic.) The government responded by ignoring the",
+    "stored": 22.12924194335938,
+    "recomputed": 0.7810317277908325
+   },
+   {
+    "window": 14,
+    "text": " Philippines produce its own Einsteins?) “Paano tay",
+    "stored": 21.31460189819336,
+    "recomputed": 2.1949009895324707
+   },
+   {
+    "window": 22,
+    "text": "ingoism in the debate over wine styles.) But Bonné doesn’t",
+    "stored": 19.51360130310059,
+    "recomputed": 2.6086018085479736
+   },
+   {
+    "window": 23,
+    "text": " of U.S. students studying Korean.) In Cantonese-speaking",
+    "stored": 19.37164688110352,
+    "recomputed": 0.6527029871940613
+   },
+   {
+    "window": 28,
+    "text": " that feed America’s heroin habit] A fraught history There",
+    "stored": 16.31610298156738,
+    "recomputed": 0.9077470898628235
+   },
+   {
+    "window": 29,
+    "text": " their behalf and sell it to the companies.) That trend has put the state more and",
+    "stored": 16.26658630371094,
+    "recomputed": 1.851266860961914
+   },
+   {
+    "window": 37,
+    "text": "_induced_abortion.html#1) In other words, between one<|endoftext|> middle",
+    "stored": 12.19899940490723,
+    "recomputed": 2.24284029006958
+   },
+   {
+    "window": 39,
+    "text": " sucker punched him while trying to grab gun] These seminal events of the Black",
+    "stored": 11.4077844619751,
+    "recomputed": 1.6856895685195923
+   },
+   {
+    "window": 44,
+    "text": "Updates Fox News comment in final paragraph) NEW YORK, July 23 (",
+    "stored": 8.342805862426758,
+    "recomputed": 1.0285476446151733
+   },
+   {
+    "window": 46,
+    "text": "ecast is running a modified version of Android) no matter what device you \"cast\"",
+    "stored": 7.497141361236572,
+    "recomputed": 0.5736894607543945
+   },
+   {
+    "window": 54,
+    "text": "note, voter registration, not voter fraud) allegations at ACORN, but he can",
+    "stored": 2.744056701660156,
+    "recomputed": 2.132493495941162
+   }
+  ],
+  "zero": [
+   {
+    "window": 34,
+    "text": " top 10 Worst Fast-Food Meals) In a study conducted by the",
+    "stored": 14.74037170410156,
+    "recomputed": 0
+   },
+   {
+    "window": 41,
+    "text": " social injustices before first home preseason game] [With back feeling<|endoftext|> continue",
+    "stored": 9.712645530700684,
+    "recomputed": 0
+   },
+   {
+    "window": 49,
+    "text": " port her to RE4 not only 5)P:S Also one thing i noticed",
+    "stored": 5.620726108551025,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 15660,
+    "window": 12,
+    "text": " any place where you can get food directly from a farmer. Even so, I still",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 47,
+    "text": "’s office used a subpoena to quietly obtain the names and other personal information of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 13,
+    "text": " major cause of the extinction crisis – driven ultimately by human population growth and over-cons",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1746,
+    "window": 43,
+    "text": " document goes on to call the Founding Fathers extremists, stating, “In U.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 5,
+    "text": " ban on the public use of e-cigarettes while just 29 percent of Americans under age",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10122,
+    "window": 36,
+    "text": " It has the potential to draw endless Priest Spells with Lyra the Sunshard and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 46,
+    "text": " draft by the Browns. Transcript: Johnny Manziel's attorney's statement about",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 27,
+    "text": "ving] wants to score. Kevin [Durant] wants to score. DeMar",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 34,
+    "text": " as male or female. It added to church rules against discrimination based on race, ethnicity",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 15,
+    "text": " a European animal broker looking to recruit him to capture eight orcas off Russia’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 55,
+    "text": ". And sure, the Hornets were never pegged by most as a team full of potential",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20467,
+    "window": 7,
+    "text": "47) Simon has been gliding for just over 2 years and went solo",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 29,
+    "text": " her to the gristmill and locking her in. When Knight returned, Baker told",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 28,
+    "text": " the map. In an interview Friday on Fox News, Cruz — who is",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5059,
+    "window": 27,
+    "text": " carry any Clif Shot Gels or Succeed S Caps, since I know they",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 10,
+    "text": " say that giving the big corporations more tax breaks, subsidies, no-bid contracts,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 17,
+    "text": ". While almost everyone on both sides of the political spectrum has appreciated our reporting",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 22,
+    "text": " 19-element ThO2 pellet bundles at different points in time. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 22,
+    "text": "ppersmith turned to crime, revealing a picture of a man angry at an evolving world",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 41,
+    "text": "07) and save percentage (.927) as he bids to become just the second",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

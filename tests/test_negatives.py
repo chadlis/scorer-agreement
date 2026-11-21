@@ -56,3 +56,14 @@ def test_too_small_pool_fails_loudly():
     windows, pool = big_pool()
     with pytest.raises(ValueError, match="pool too small"):
         assign_candidates(pool, {0: windows[0]}, {}, n=41, seed=0, k=8)
+
+
+def test_late_target_skips_taken_passages_and_keeps_the_seeded_order():
+    windows, pool = big_pool()
+    first = assign_candidates(pool, {0: windows[0], 1: windows[1]}, {}, n=6, seed=3, k=8)
+    taken = frozenset((p.feature, p.window) for ps in first.values() for p in ps)
+    late = assign_candidates(pool, {9: [w("zz")]}, {9: {2}}, n=10, seed=3, k=8, taken=taken)[9]
+    assert not {(p.feature, p.window) for p in late} & taken
+    assert all(p.feature != 2 for p in late)
+    alone = assign_candidates(pool, {9: [w("zz")]}, {9: {2}}, n=40, seed=3, k=8)[9]
+    assert late == [p for p in alone if (p.feature, p.window) not in taken][:10]

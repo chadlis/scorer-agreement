@@ -1,0 +1,20 @@
+{
+ "round": 14,
+ "reviewer": "automatic (section 2.4, rule 10)",
+ "rejected_doubt": [],
+ "light_doubt": [
+  22836
+ ],
+ "confident_checked": [],
+ "confident_rejected": [],
+ "rejected_generic": [],
+ "light_doubt_review": {
+  "reviewer": "Salah",
+  "date": "2026-11-21",
+  "kept": [
+   22836
+  ],
+  "rejected": [],
+  "reason": "A vague placebo fits positives and negatives alike, so it does not bias the gain (section 2.4, rule 4); one feature of 100."
+ }
+}

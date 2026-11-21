@@ -1,0 +1,263 @@
+{
+ "feature": 2112,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 27,
+    "text": " Tokyo Imperial University (東京帝國大學, T",
+    "stored": 5.771744728088379,
+    "recomputed": 5.333667755126953
+   },
+   {
+    "window": 26,
+    "text": " the Canadian engineering firm Abdolaziz Khalili and Associates, which specialises in",
+    "stored": 7.57581901550293,
+    "recomputed": 5.592813014984131
+   },
+   {
+    "window": 19,
+    "text": " chemicals, surgical items and consumer goods to Uzbekistan. Beans, chemicals",
+    "stored": 11.03765964508057,
+    "recomputed": 8.710700988769531
+   },
+   {
+    "window": 16,
+    "text": " were injured when 34-year-old Uzbek citizen Abdulkadir Masharip",
+    "stored": 12.60028743743896,
+    "recomputed": 9.244589805603027
+   },
+   {
+    "window": 25,
+    "text": " Lal Bahadur Shastri visited Uzbekistan (then USSR) in January 1966",
+    "stored": 9.541558265686035,
+    "recomputed": 9.791433334350586
+   },
+   {
+    "window": 18,
+    "text": " post-graduate level. Uzbek Radio has completed 50 years of Hindi broadcasting",
+    "stored": 11.64902400970459,
+    "recomputed": 10.063132286071777
+   },
+   {
+    "window": 22,
+    "text": " India's inclusion<|endoftext|>imha Rao visited Uzbekistan in 1993 and Prime Minister Manm",
+    "stored": 10.31177139282227,
+    "recomputed": 10.944258689880371
+   },
+   {
+    "window": 21,
+    "text": " constitute the largest item of Indian imports from Uzbekistan apart from machinery, silver, raw",
+    "stored": 10.32031345367432,
+    "recomputed": 11.062082290649414
+   },
+   {
+    "window": 17,
+    "text": "BT reported: Millions of Turks woke up to a confusing morning on Sunday",
+    "stored": 12.09753608703613,
+    "recomputed": 13.652948379516602
+   },
+   {
+    "window": 24,
+    "text": " would take in September 2015. Turks and Kurds fought running battles on the",
+    "stored": 10.24470901489258,
+    "recomputed": 15.354423522949219
+   },
+   {
+    "window": 11,
+    "text": "<|endoftext|> the dictator; and Interior Minister Hassan Turkmani. Assad's location was unknown",
+    "stored": 43.6865348815918,
+    "recomputed": 41.5033073425293
+   },
+   {
+    "window": 10,
+    "text": " organizations in Ankara, according to Haber Turk TV. The statement is a",
+    "stored": 44.63119125366211,
+    "recomputed": 42.473960876464844
+   },
+   {
+    "window": 12,
+    "text": " intractable on such data sets. Turk and Pentland's paper demonstrated ways to",
+    "stored": 41.21838760375977,
+    "recomputed": 44.04662322998047
+   },
+   {
+    "window": 13,
+    "text": " mostly Alawite-Muslim regime. Turkmani headed the regime's response to",
+    "stored": 40.19957733154297,
+    "recomputed": 44.19218444824219
+   },
+   {
+    "window": 7,
+    "text": " Glenn Hall (Mr. Goalie), Turk Broda, Harry “Apple Che",
+    "stored": 45.74602890014648,
+    "recomputed": 45.04620361328125
+   },
+   {
+    "window": 5,
+    "text": "<|endoftext|>th, the same day they honored Turk Broda’s #1.)",
+    "stored": 47.09500122070312,
+    "recomputed": 46.82667922973633
+   },
+   {
+    "window": 4,
+    "text": " and his first at the home arena in Turku. Two former members of the Kings",
+    "stored": 47.16774368286133,
+    "recomputed": 48.476993560791016
+   },
+   {
+    "window": 8,
+    "text": " to locate a research and development centre in Turku is a victory for us and all",
+    "stored": 45.09297180175781,
+    "recomputed": 48.84050750732422
+   },
+   {
+    "window": 1,
+    "text": "ce's decision to establish its facility in Turku adds a sense of urgency to the",
+    "stored": 48.20256042480469,
+    "recomputed": 49.610355377197266
+   },
+   {
+    "window": 6,
+    "text": "The announcement was met with joy both in Turku and Helsinki. Anne Ber",
+    "stored": 46.51912307739258,
+    "recomputed": 49.8106803894043
+   }
+  ],
+  "positives": 28,
+  "grey": [
+   {
+    "window": 29,
+    "text": "ariya, a 70-something Morgan Freeman lookalike and retired bus driver.",
+    "stored": 5.266517162322998,
+    "recomputed": 3.376941442489624
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 12637,
+    "window": 32,
+    "text": " by the primarily Mormon residents of Caldwell County to be the county's first representative to the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 12,
+    "text": " Director & Cameraman 2002–2011, 2013- Stuart Torevell Rigger &",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13572,
+    "window": 28,
+    "text": "pád, and hasten their absorption into the Western Christian community. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 1,
+    "text": " the nation, is currently in danger of structural failure. Thousands living downstream from",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 4,
+    "text": "17 km (354 mi) north of Perth, along the Hutt River. It",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 28,
+    "text": " end of the world.\" Harry shivered. There was nothing particular about the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 9,
+    "text": "460 deaths). GSRH has not been widely used for predicting patient outcomes",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 13,
+    "text": " the Deathly Hallows part II. If you don't have the goods, wait",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21183,
+    "window": 25,
+    "text": " in jellyfish, through decades of overfishing. There is a certain Schaden",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 28,
+    "text": " 150<|endoftext|>, so it appears that Toshiba is only willing to cover the most necessary",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5264,
+    "window": 33,
+    "text": " north At least 280,000 people have been killed and more than half of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16631,
+    "window": 55,
+    "text": " faces. \"They made this happen. They did the hard work.\" ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 25,
+    "text": " and symbol. As mentioned before, the suit design is based off of this new series",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 34,
+    "text": " to support any version of the health care legislation (she backed it on the Finance Committee",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 45,
+    "text": ", just<|endoftext|> where better than a retro diner dripping with nostalgia and greasy patty",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 23,
+    "text": " Yet research suggests we are naturally kind and cooperative He claims that research shows that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 39,
+    "text": " new security threats, for all the exhortations to reinvent government, America’",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13689,
+    "window": 12,
+    "text": ", the art direction is courtesy of Viktor Antonov and Sebasian Mitton.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 37,
+    "text": "asing. It was a plum assignment. We bought annual passes – before the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16546,
+    "window": 49,
+    "text": " actually be 2017. These rumoured releases also line-up with the<|endoftext|>",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

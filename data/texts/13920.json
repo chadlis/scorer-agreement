@@ -1,0 +1,256 @@
+{
+ "feature": 13920,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " cafeteria. The church serves one meal a day, which sustains many seniors who have",
+    "stored": 4.762694835662842,
+    "recomputed": 5.783979892730713
+   },
+   {
+    "window": 54,
+    "text": " last game. Tomorrow’s another day,” warned Halak, who",
+    "stored": 8.513073921203613,
+    "recomputed": 7.694168567657471
+   },
+   {
+    "window": 48,
+    "text": " several years (or attempted to). Some days though, despite what is going on in",
+    "stored": 13.26491641998291,
+    "recomputed": 11.076640129089355
+   },
+   {
+    "window": 43,
+    "text": " person taking 500 shots of espresso in one day—and its habit is becoming a real",
+    "stored": 17.08551597595215,
+    "recomputed": 16.91559410095215
+   },
+   {
+    "window": 47,
+    "text": " probably not, since it only lasted one day.) U.S. Secretary",
+    "stored": 15.19146537780762,
+    "recomputed": 18.59521484375
+   },
+   {
+    "window": 38,
+    "text": " who I hooked up with on a one night stand accused me of rape. Not outright",
+    "stored": 22.10885047912598,
+    "recomputed": 21.11196517944336
+   },
+   {
+    "window": 36,
+    "text": " least give it try – even just one day per week. And with that, I",
+    "stored": 24.15179443359375,
+    "recomputed": 24.045427322387695
+   },
+   {
+    "window": 39,
+    "text": " for another. And another. And one night — really, we have<|endoftext|>While the",
+    "stored": 21.89456176757812,
+    "recomputed": 26.081310272216797
+   },
+   {
+    "window": 30,
+    "text": " appears in the Nov. 28 \"One Day, One Game\" issue of ESPN The",
+    "stored": 28.37864303588867,
+    "recomputed": 27.783063888549805
+   },
+   {
+    "window": 28,
+    "text": " \"We were all just talking one day around [Crowder's] house",
+    "stored": 31.30045890808105,
+    "recomputed": 33.53141403198242
+   },
+   {
+    "window": 29,
+    "text": " near term and I look forward to one day welcoming those two nations sharing the protective umbrella",
+    "stored": 31.25677108764648,
+    "recomputed": 37.6197509765625
+   },
+   {
+    "window": 23,
+    "text": " me as what I myself wanted to one day become. I wrote against the Jewish students",
+    "stored": 37.12113952636719,
+    "recomputed": 39.4693603515625
+   },
+   {
+    "window": 11,
+    "text": ", and breaching international law. But one day this unjust world will have to change,",
+    "stored": 43.04973602294922,
+    "recomputed": 40.962623596191406
+   },
+   {
+    "window": 15,
+    "text": " daily physical therapy in the hopes that one day she will not need her wheelchair. ",
+    "stored": 42.5618896484375,
+    "recomputed": 41.6501350402832
+   },
+   {
+    "window": 18,
+    "text": "qvist’s mother. One day, the mother was unable to help out",
+    "stored": 42.21474075317383,
+    "recomputed": 42.688873291015625
+   },
+   {
+    "window": 25,
+    "text": "t always been consistent, either. One day after Mr. de Blasio promised that the",
+    "stored": 35.29774475097656,
+    "recomputed": 43.097877502441406
+   },
+   {
+    "window": 14,
+    "text": " Geary legend includes the expectation that one day he will return from the dead to lead",
+    "stored": 42.60920715332031,
+    "recomputed": 44.131099700927734
+   },
+   {
+    "window": 12,
+    "text": " to hone your movement skills and maybe one day claim a new world record time. ",
+    "stored": 43.04087066650391,
+    "recomputed": 45.19855499267578
+   },
+   {
+    "window": 3,
+    "text": " best in my opinion. I hope one day I can play in the Premier League with",
+    "stored": 46.00392913818359,
+    "recomputed": 47.303611755371094
+   },
+   {
+    "window": 2,
+    "text": ", he must have been good because one day it was announced that Pete was the new",
+    "stored": 46.45836639404297,
+    "recomputed": 47.844970703125
+   }
+  ],
+  "positives": 57,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23318,
+    "window": 28,
+    "text": "'s something I started with Cable in New Mutants and X-Force, the gear",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 20,
+    "text": "ea, players fixing games was a thing of the past. An oddsmaker named",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 12,
+    "text": " students. The building has become something of a local landmark due to installations such as a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 42,
+    "text": " United States their home. Washington state seeks to expand travel ban injunction to cover",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 79,
+    "text": " the dental clinic, with children’s bodies stored in ice-cream, flower",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16269,
+    "window": 10,
+    "text": " thin, the small Brazilian town of Chapeco has stood by its football team.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3232,
+    "window": 25,
+    "text": " with<|endoftext|> religion, or have morals developed solely through religion, or been given directly by",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 3,
+    "text": " climate change<|endoftext|> “Thanks to President Trump, the American taxpayer will no",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 33,
+    "text": " Guantanamo Bay.<|endoftext|>Autoplay next video The neighbors' dog will not",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 32,
+    "text": " after he told the gunman he had nothing of value to hand over, NOPD",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 10,
+    "text": "What do Turkey, Chile, Russia, Venezuela, Azerbaijan, North Korea and Haiti all",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 49,
+    "text": " GST is that it will lower the tax rate and make tax evasion very difficult,\" God",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 50,
+    "text": "The Barson family filed a wrongful death suit against the seven-time Grand Slam winner",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 57,
+    "text": " have a larger uncertainty because we have less light in each image. Our<|endoftext|> Cuba,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 32,
+    "text": " economy in the world.\" \"That’s power – power we must",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22455,
+    "window": 18,
+    "text": " day, Ram Leela is like Gordon Ramsay cooking pani puri. A good",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 43,
+    "text": " here needs to be scalable and transferrable to other cities,\" Austin Transportation Director Robert",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 36,
+    "text": ".\" [4 ways Hillary Clinton distanced herself from Bernie Sanders on Monday]",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 26,
+    "text": " the diminution of state authority to little more than an administrative role. That is History",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 8,
+    "text": "far, fast and hard,” she said, making a more robust shield necessary",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

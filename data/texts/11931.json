@@ -1,0 +1,263 @@
+{
+ "feature": 11931,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 57,
+    "text": " that the isolated populations may follow different evolutionary routes, as shown by Darwin's observation of",
+    "stored": 4.597779750823975,
+    "recomputed": 4.1448655128479
+   },
+   {
+    "window": 53,
+    "text": " the moral sense, although not for his mode of action, Grynszpan may",
+    "stored": 9.093263626098633,
+    "recomputed": 6.346887588500977
+   },
+   {
+    "window": 51,
+    "text": " to it and turn it into good training methodology. That’s the type of",
+    "stored": 13.12068939208984,
+    "recomputed": 15.705425262451172
+   },
+   {
+    "window": 46,
+    "text": " by Pulse Opinion Research, LLC. See methodology. OR<|endoftext|>People walk on",
+    "stored": 16.61212348937988,
+    "recomputed": 20.3974609375
+   },
+   {
+    "window": 48,
+    "text": " of Java’s most undervalued methods. The reason is that it’",
+    "stored": 15.94569110870361,
+    "recomputed": 22.54646110534668
+   },
+   {
+    "window": 38,
+    "text": "les Over Baby Parts Prices, Changes Abortion Methods EMBARGOED UNTIL",
+    "stored": 23.18386077880859,
+    "recomputed": 26.44976234436035
+   },
+   {
+    "window": 39,
+    "text": " by all sorts of intrigues and despicable methods with a wild ambition to grab the supreme",
+    "stored": 23.01466751098633,
+    "recomputed": 30.402969360351562
+   },
+   {
+    "window": 36,
+    "text": " Inter-Services<|endoftext|> of the planned attack methods, the precise volume of intelligence that American",
+    "stored": 26.83482360839844,
+    "recomputed": 32.12812042236328
+   },
+   {
+    "window": 27,
+    "text": " allows a glimpse into another brewers world and methods. I’m really excited to",
+    "stored": 32.19923400878906,
+    "recomputed": 33.95783615112305
+   },
+   {
+    "window": 20,
+    "text": " more flexible, open-ended, decentralized method of creation and organization. Ph",
+    "stored": 37.66706466674805,
+    "recomputed": 37.20072937011719
+   },
+   {
+    "window": 23,
+    "text": " films simultaneously (Shame, A Dangerous Method, and Haywire)—part of a",
+    "stored": 36.42642593383789,
+    "recomputed": 37.77416229248047
+   },
+   {
+    "window": 21,
+    "text": " of severity, goal of operation, and method of attack. This goes beyond Freedom on",
+    "stored": 37.00204849243164,
+    "recomputed": 38.70592498779297
+   },
+   {
+    "window": 18,
+    "text": ". I have yet to try the same method during the winter season. 2",
+    "stored": 38.68061447143555,
+    "recomputed": 40.1796989440918
+   },
+   {
+    "window": 24,
+    "text": " to thousands of years. The resulting agricultural method is carbon-negative since the enriched soil",
+    "stored": 34.90420532226562,
+    "recomputed": 40.48368835449219
+   },
+   {
+    "window": 25,
+    "text": " come out of the printer, so the method has no significant impact on printer performance.",
+    "stored": 34.89577102661133,
+    "recomputed": 41.12568664550781
+   },
+   {
+    "window": 6,
+    "text": " an error-prone, biased and expensive method by which to assess merit. While the",
+    "stored": 40.22018051147461,
+    "recomputed": 41.65068054199219
+   },
+   {
+    "window": 9,
+    "text": "atoconus eye. This very promising method was introduced in 2013. The",
+    "stored": 39.81818771362305,
+    "recomputed": 42.80205154418945
+   },
+   {
+    "window": 8,
+    "text": " between her dimension and another. The conventional method of using magic and share energy took too",
+    "stored": 39.947265625,
+    "recomputed": 44.04576873779297
+   },
+   {
+    "window": 3,
+    "text": " winds<|endoftext|>ett says. The method worked for each month except for September and",
+    "stored": 40.79307174682617,
+    "recomputed": 44.41554641723633
+   },
+   {
+    "window": 4,
+    "text": "'s why many people decide to choose this method in the first place. Can",
+    "stored": 40.73839950561523,
+    "recomputed": 45.216835021972656
+   }
+  ],
+  "positives": 57,
+  "grey": [
+   {
+    "window": 56,
+    "text": "ats, which in some sabbath modes continue to operate as normal, which is",
+    "stored": 4.781079292297363,
+    "recomputed": 2.1194844245910645
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 1133,
+    "window": 24,
+    "text": " secret orders is sharply increasing -- from 21 orders in 2009 to 96 orders in 2010,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10171,
+    "window": 13,
+    "text": " about it. “We hugged and left the bathroom, and I thought everything was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 14,
+    "text": " a July news conference in Caracas, Venezuela, that Salvador Perez was his idol,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 8,
+    "text": " electoral contest in the US, its indispensable patron, had been concluded. Press",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 19,
+    "text": " and director of international economics at the Council on Foreign Relations (CFR). In the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 12,
+    "text": " they start in on the forgettable \"Ready to Run,\" a song that would've",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 12,
+    "text": " the president’s oldest son. That company, Harken Energy Corp.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21725,
+    "window": 47,
+    "text": " was provided primarily from women in the Senate,\" McCain said after the bipartisan deal was announced",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 65,
+    "text": " reason. “The US kind of does have a sandbox. It’s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 4,
+    "text": " special branch of the police will also be assigned the task of monitoring the katchi",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 15,
+    "text": " the Republican Party<|endoftext|> weapons in Syria (\"Creative Diplom<|endoftext|>I have written in the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 72,
+    "text": " For instance last Thursday, despite official figures showing a fall in Australia's unemployment rate",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 10,
+    "text": " Now that I'm in a restaurant in Philly, I have time to share",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 50,
+    "text": " According to the inmate's account, Oyekanmi walked into her cell at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 23,
+    "text": " invisible, nor are they willing to be quiet. Both were fired recently at Jack in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 43,
+    "text": "anged while they were in college.\" How she \"felt like a prey animal.\" ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3025,
+    "window": 7,
+    "text": " hundreds of police stood by while doing little to stop the crowds, until eventually they just",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24369,
+    "window": 8,
+    "text": " is ridiculously more advanced today than it was at that point. Rothwell had only used",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9607,
+    "window": 14,
+    "text": " as the Netherlands and Germany, still allow smoking in pubs and restaurants or do not strictly",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 9,
+    "text": " government should allow people to use e-cigarettes in public places. Nevertheless, majorities of",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

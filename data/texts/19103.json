@@ -1,0 +1,270 @@
+{
+ "feature": 19103,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 58,
+    "text": " New York University University of North Carolina at Chapel Hill University of North Carolina at Greensboro",
+    "stored": 7.830875873565674,
+    "recomputed": 5.514077663421631
+   },
+   {
+    "window": 62,
+    "text": " passing out and asked to speak to his pastor, according to police reports. ",
+    "stored": 5.635444164276123,
+    "recomputed": 8.268845558166504
+   },
+   {
+    "window": 59,
+    "text": " failing. In Italy, the Church was tightening its grip on free thinking,",
+    "stored": 6.022380352020264,
+    "recomputed": 11.61081314086914
+   },
+   {
+    "window": 55,
+    "text": " sign in front of Tabernacle Baptist Church in Hickory, N.C.",
+    "stored": 12.01358985900879,
+    "recomputed": 14.041051864624023
+   },
+   {
+    "window": 51,
+    "text": " Meanwhile, the King’s Church organisation, Jesus Cares, have added",
+    "stored": 14.06520652770996,
+    "recomputed": 15.242389678955078
+   },
+   {
+    "window": 42,
+    "text": "'s influence in the region. Church leaders say that the central government has ignored",
+    "stored": 22.69929885864258,
+    "recomputed": 20.35622787475586
+   },
+   {
+    "window": 40,
+    "text": " has already issued an apology for the Catholic church’s inadequate response to the crisis",
+    "stored": 23.36911392211914,
+    "recomputed": 27.87983512878418
+   },
+   {
+    "window": 35,
+    "text": " stood in lines that wrapped around sidewalks at churches, community centers and government buildings after the",
+    "stored": 29.65436553955078,
+    "recomputed": 32.441043853759766
+   },
+   {
+    "window": 36,
+    "text": " Habsburg and Austrian history. Two churches were built here before the construction of this",
+    "stored": 29.30506896972656,
+    "recomputed": 35.9285774230957
+   },
+   {
+    "window": 23,
+    "text": " that is why we have to defend our church.\" Like many here, it",
+    "stored": 40.44988632202148,
+    "recomputed": 38.7166748046875
+   },
+   {
+    "window": 27,
+    "text": "ist Coy resigned as senior pastor at the church in 2014. Regarding the child",
+    "stored": 36.43670272827148,
+    "recomputed": 41.28833770751953
+   },
+   {
+    "window": 19,
+    "text": " a gunman opened fire during Sunday-morning church services. A witness told the",
+    "stored": 42.05799102783203,
+    "recomputed": 42.25934982299805
+   },
+   {
+    "window": 10,
+    "text": "�s and spoke as if delivering a church sermon, the cadence is recogniz",
+    "stored": 42.91006469726562,
+    "recomputed": 43.189456939697266
+   },
+   {
+    "window": 20,
+    "text": " a wedding ceremony with his girlfriend at a church in Osaka recommended by another Chinese activist.",
+    "stored": 41.62554168701172,
+    "recomputed": 43.703617095947266
+   },
+   {
+    "window": 17,
+    "text": " around there is quite quaint, though the church is not special to see.It is",
+    "stored": 42.06993865966797,
+    "recomputed": 44.30782699584961
+   },
+   {
+    "window": 18,
+    "text": " shots being fired in quick succession while a church service was underway. A law-enforcement",
+    "stored": 42.06865310668945,
+    "recomputed": 44.531463623046875
+   },
+   {
+    "window": 21,
+    "text": "�s coworker—who attended her church—thanked her for her kind gesture",
+    "stored": 41.38151550292969,
+    "recomputed": 45.33002853393555
+   },
+   {
+    "window": 9,
+    "text": ", FL, has turned to the local church to help out. Steve Comparato,",
+    "stored": 42.93546295166016,
+    "recomputed": 45.95384979248047
+   },
+   {
+    "window": 0,
+    "text": "3 billion where folks were often buried in churchyards, it’s not hard",
+    "stored": 45.02522659301758,
+    "recomputed": 47.50442886352539
+   },
+   {
+    "window": 13,
+    "text": " department. The family was at church at the time of the crash. ",
+    "stored": 42.52169418334961,
+    "recomputed": 49.26167678833008
+   }
+  ],
+  "positives": 60,
+  "grey": [],
+  "zero": [
+   {
+    "window": 43,
+    "text": " with other sawmills.\" Churchill went on to blame \"market forces",
+    "stored": 22.44419479370117,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23756,
+    "window": 12,
+    "text": " on their religious faith. Naturally, the topic of Genesis comes up frequently, because a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 11,
+    "text": " Muslims entering the United States. Few in the audience would have predicted then that Trump would",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11974,
+    "window": 17,
+    "text": " you have to go around flouting your sexuality? It’s not necessary,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 24,
+    "text": " some suggested. \"Recessionary fears were overdone,\" said David L",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 13,
+    "text": "elled rightward lurch. That is of course the mirror image of what",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 2,
+    "text": "'s suicide note indicated that he was afraid of being charged for the death of a man",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 23,
+    "text": " providing significant benefits for ethnic Malays. In two short years there were race riots and awful",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 52,
+    "text": " years without incident, Kern recalled that one year, “all of a sudden,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 35,
+    "text": " the California job markets are stirring, thanks to our geekiness. Now can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 48,
+    "text": "” but the “Amazon Instant Video for books”—unlike Netflix",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 78,
+    "text": " of the tournament before playing French club Toulon on day two. <|endoftext|> could",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 28,
+    "text": " call seeking comment Monday. Messages left on two phone numbers listed under Cowart's name",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 23,
+    "text": " who were widely known throughout Europe as influential patrons of the arts. With deep pockets,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 12,
+    "text": " your faith has always been the real, quiet, constant bedrock of who you are;",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5596,
+    "window": 38,
+    "text": " Business Committee should it pass the 100 000 signature threshold.<|endoftext|>The pivotal ally on NATO",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21731,
+    "window": 4,
+    "text": " were made because the legislators support corporate tax breaks, financial deregulation or myriad other business-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13920,
+    "window": 42,
+    "text": " course of just a few hours (one evening). From there, you can revisit the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12637,
+    "window": 9,
+    "text": " State Department of Health selected a private contractor to take over responsibility of the Donate Life",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 2,
+    "text": " course: The pact said both sides agreed to the settlement “without conced",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3246,
+    "window": 54,
+    "text": " cane. What binds them is a love of Chaplin's cinema - most are members",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 18377,
+    "window": 3,
+    "text": " format. We deserve better. It's patronising rubbish. MH But the",
+    "recomputed": 1.034926414489746
+   }
+  ]
+ }
+}

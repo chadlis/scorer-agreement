@@ -1,0 +1,283 @@
+{
+ "feature": 9401,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 45,
+    "text": "<|endoftext|>Prominent atheists Richard Dawkins and Christopher Hitchens are paying lawyers to investigate the possibility",
+    "stored": 4.085484504699707,
+    "recomputed": 2.5225839614868164
+   },
+   {
+    "window": 27,
+    "text": "ving] wants to score. Kevin [Durant] wants to score. DeMar",
+    "stored": 10.03850555419922,
+    "recomputed": 3.9056806564331055
+   },
+   {
+    "window": 34,
+    "text": " please share it using the \"Join the Conversation\" buttons below, and thank you for",
+    "stored": 6.955787181854248,
+    "recomputed": 4.500530242919922
+   },
+   {
+    "window": 39,
+    "text": " of criminals. The American Kennel Club tracked 432 pet thefts in 2011,",
+    "stored": 6.40636157989502,
+    "recomputed": 4.592053413391113
+   },
+   {
+    "window": 44,
+    "text": " progressive!). And Mother Jones’ Kevin Drum who, despite writing for a magazine named",
+    "stored": 4.282782554626465,
+    "recomputed": 6.23888635635376
+   },
+   {
+    "window": 36,
+    "text": " accepted to be on our advisory board Kevin. Kevin Zeese: Thank you",
+    "stored": 6.724680423736572,
+    "recomputed": 6.421343803405762
+   },
+   {
+    "window": 43,
+    "text": "Fee, 1979:418). Carl Vogt, a University of Geneva natural history",
+    "stored": 5.644139766693115,
+    "recomputed": 7.030961513519287
+   },
+   {
+    "window": 35,
+    "text": " reached at [email protected]<|endoftext|>United Against a Nuclear Iran (UANI), an",
+    "stored": 6.902499675750732,
+    "recomputed": 7.376142978668213
+   },
+   {
+    "window": 32,
+    "text": " According to UK Study by Kevin Caruso August 25, 2005",
+    "stored": 8.158202171325684,
+    "recomputed": 8.361764907836914
+   },
+   {
+    "window": 24,
+    "text": " they’d put her and Kevin Gentry on our board. Both of them",
+    "stored": 11.20772361755371,
+    "recomputed": 10.02145767211914
+   },
+   {
+    "window": 25,
+    "text": " personal life and your personal relationships. Kevin Bloch, Cisco Cisco's",
+    "stored": 10.91154670715332,
+    "recomputed": 10.542856216430664
+   },
+   {
+    "window": 15,
+    "text": " was the unanimous choice over flyweight Louis Gaudinot (6-3 MMA",
+    "stored": 12.33509731292725,
+    "recomputed": 11.321004867553711
+   },
+   {
+    "window": 19,
+    "text": " [ edit ] Cast<|endoftext|>Kevin De Bruyne has been speaking to German magazine",
+    "stored": 11.97368717193604,
+    "recomputed": 11.578767776489258
+   },
+   {
+    "window": 14,
+    "text": "�s perspective,” coach Kevin Dineen said of Weiss. “",
+    "stored": 12.4323787689209,
+    "recomputed": 11.871801376342773
+   },
+   {
+    "window": 22,
+    "text": "00 a pop.<|endoftext|>Story highlights Louis C.K. will host \"Saturday Night",
+    "stored": 11.4656400680542,
+    "recomputed": 12.178523063659668
+   },
+   {
+    "window": 1,
+    "text": "We've heard Tyson Barrie, Kevin Shattenkirk, Cam Fowler & more",
+    "stored": 14.463698387146,
+    "recomputed": 12.518354415893555
+   },
+   {
+    "window": 11,
+    "text": " Sergio Romero loves Louis van Gaal so much that he was once quite",
+    "stored": 12.76674652099609,
+    "recomputed": 13.070108413696289
+   },
+   {
+    "window": 7,
+    "text": " distant,<|endoftext|>, from Norway's Karl Ove Knausgaard to France's",
+    "stored": 13.48616600036621,
+    "recomputed": 13.352095603942871
+   },
+   {
+    "window": 6,
+    "text": "Now You See Me” director Louis Leterrier will executive produce the series and",
+    "stored": 13.75883674621582,
+    "recomputed": 15.486589431762695
+   },
+   {
+    "window": 0,
+    "text": " strike group, led by the USS Carl Vinson, to waters off the Korean peninsula",
+    "stored": 16.30659675598145,
+    "recomputed": 16.67350959777832
+   }
+  ],
+  "positives": 47,
+  "grey": [
+   {
+    "window": 49,
+    "text": " the clear choice of the plurality of Floridians who went to the polls on November",
+    "stored": 2.177679777145386,
+    "recomputed": 1.2237391471862793
+   }
+  ],
+  "zero": [
+   {
+    "window": 50,
+    "text": " of a family-owned 400-employee enterprise with roots in the waste management business",
+    "stored": 2.144856452941895,
+    "recomputed": 0
+   },
+   {
+    "window": 51,
+    "text": "side. Immigration Minister Chris Bowen has been under fire this week for secretly",
+    "stored": 1.791016817092896,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 20467,
+    "window": 42,
+    "text": " back to see if the other monster was chasing her. It was still standing at the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19071,
+    "window": 5,
+    "text": " she was suspended from broke. According to the report, the wire rope “was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23629,
+    "window": 0,
+    "text": " set to accept<|endoftext|> benefits to KSP as a whole. Finally, we",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 25,
+    "text": ", is moving at nine miles a second relative to Earth and would hit us with a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 24,
+    "text": " Merseyside and 1-1 draw at Old Trafford saw LFC through to the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22598,
+    "window": 48,
+    "text": " machine that could repeat back 16 tones. That was the only machine in our studio.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23683,
+    "window": 34,
+    "text": " Wars.'\" \"He was so genuine about it, I thought, well,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8995,
+    "window": 21,
+    "text": " might be several processes producing similar surges in radio emissions. The burst in question",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 60,
+    "text": " 3:09 that put the Knicks up six — and that came well after a steal",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18377,
+    "window": 48,
+    "text": "stain” anonymous traffic as it enters the Tor network, enabling the NSA to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 61,
+    "text": " It should give you a visual confirmation, that it was successful. You can",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 67,
+    "text": " of SB 4 Garcia’s ruling bars the state from implementing",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23318,
+    "window": 33,
+    "text": " to the attention of Red Bull's Helmut Marko, news of the energy drink",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17632,
+    "window": 18,
+    "text": "� Bonné told me recently during a visit to Washington to promote his book.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 35,
+    "text": " or spouse, or where a sealed protective order has been filed. Parties to a case",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 1,
+    "text": ".<|endoftext|>In less than two months, restaurant critic Brad A. Johnson and I embarked",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 42,
+    "text": " tactics, how they coordinate, their communication methods, and most importantly, how the media",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 7229,
+    "window": 16,
+    "text": ", the original Stripesy, builds a suit of armor to stand by her and protect",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 23,
+    "text": ", Joe, has always been really into pinball, and he had started collecting machines",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23756,
+    "window": 44,
+    "text": " March will prove that point. Topics: contemporary-art, lifestyle-and",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 2019,
+    "window": 2,
+    "text": " obviously not going<|endoftext|>ster to Wiktionary. Here’s the entire list",
+    "recomputed": 2.1776185035705566
+   }
+  ]
+ }
+}

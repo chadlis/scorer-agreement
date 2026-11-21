@@ -1,0 +1,276 @@
+{
+ "feature": 10122,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 50,
+    "text": " pen, according to the Arizona Hotel & Lodging Association. Hotels don",
+    "stored": 5.425402164459229,
+    "recomputed": 5.339534282684326
+   },
+   {
+    "window": 49,
+    "text": ". That is why both administrations supported the Troubled Asset Relief Program (TARP)",
+    "stored": 5.648523807525635,
+    "recomputed": 8.957277297973633
+   },
+   {
+    "window": 45,
+    "text": "150g plain flour 110g caster sugar 50g soft brown sugar",
+    "stored": 10.96121025085449,
+    "recomputed": 10.643549919128418
+   },
+   {
+    "window": 43,
+    "text": " it’s very easy to misspell them. Consider the following: ",
+    "stored": 14.02464199066162,
+    "recomputed": 16.95232582092285
+   },
+   {
+    "window": 39,
+    "text": " Some sites can tell you the multiple spelling rules with their corresponding multiple exceptions, but",
+    "stored": 18.26620674133301,
+    "recomputed": 21.628660202026367
+   },
+   {
+    "window": 37,
+    "text": " have a hard time grappling with the French spelling system. It may seem arbitrary to write",
+    "stored": 19.1347827911377,
+    "recomputed": 22.177444458007812
+   },
+   {
+    "window": 42,
+    "text": " finding relatively cheap, decent options for short spells is their best move and Van Persie",
+    "stored": 16.68201065063477,
+    "recomputed": 29.463987350463867
+   },
+   {
+    "window": 31,
+    "text": " Dumbledore: 1. How are spells really made? 2. How",
+    "stored": 26.54401016235352,
+    "recomputed": 31.465906143188477
+   },
+   {
+    "window": 33,
+    "text": " gag Rastapopoulos, Krollspell and also Carreidas who has gone",
+    "stored": 26.13788414001465,
+    "recomputed": 32.95176696777344
+   },
+   {
+    "window": 18,
+    "text": " subtlety and symbolism, this film just spells it out for you. It<|endoftext|> a",
+    "stored": 36.01927185058594,
+    "recomputed": 33.87116622924805
+   },
+   {
+    "window": 26,
+    "text": " to no avail. The result spells trouble for the so-called Trump effect",
+    "stored": 31.01923179626465,
+    "recomputed": 35.229618072509766
+   },
+   {
+    "window": 12,
+    "text": " of a woman who once had a bad spell, has come out of it and is",
+    "stored": 37.62587356567383,
+    "recomputed": 36.72687530517578
+   },
+   {
+    "window": 17,
+    "text": " Walsh, fucking little troll, casting his spell on people, liar. I've won",
+    "stored": 37.16611480712891,
+    "recomputed": 37.24607849121094
+   },
+   {
+    "window": 22,
+    "text": "-sized, sleepless slugs could spell devastation for our gardens this summer.\" ",
+    "stored": 35.22929763793945,
+    "recomputed": 37.582462310791016
+   },
+   {
+    "window": 15,
+    "text": "ie (Fiona Shaw) casts a spell that starts to rot Pam's flesh.",
+    "stored": 37.52459335327148,
+    "recomputed": 39.03562545776367
+   },
+   {
+    "window": 21,
+    "text": " is in the deck and because of the spell isolation with Shadow Visions. It has",
+    "stored": 35.83567047119141,
+    "recomputed": 40.696128845214844
+   },
+   {
+    "window": 4,
+    "text": " because it’s only the first spell for those Black Wizards put on you,",
+    "stored": 41.11051177978516,
+    "recomputed": 41.73388671875
+   },
+   {
+    "window": 6,
+    "text": " by a weapon (except fists), hostile spell, shout or scroll the player",
+    "stored": 40.1861686706543,
+    "recomputed": 42.858978271484375
+   },
+   {
+    "window": 3,
+    "text": "S. have completed written advance directives that spell out wishes for care or designate the person",
+    "stored": 41.79411697387695,
+    "recomputed": 42.951900482177734
+   },
+   {
+    "window": 8,
+    "text": "Also, I need to learn how to spell “misogynistic.”",
+    "stored": 39.28871536254883,
+    "recomputed": 43.136775970458984
+   }
+  ],
+  "positives": 51,
+  "grey": [
+   {
+    "window": 47,
+    "text": " that sounded like SPELLS instead of casting \"Strategic Retreat\" or \"",
+    "stored": 9.096664428710938,
+    "recomputed": 0.9427188038825989
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13350,
+    "window": 19,
+    "text": "uts fit together, creating a model that structural engineers can use to calculate the forces and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15655,
+    "window": 27,
+    "text": " government as a Schedule 1 narcotic, right up there with LSD and heroin. Purchase",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 35,
+    "text": " but Crown and defence lawyers argued over whether she should serve the time in prison or at",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 55,
+    "text": " the<|endoftext|> hard work. Credits to Vihar and Netham_45 for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14799,
+    "window": 3,
+    "text": "<|endoftext|> we’ve got two amazing bundles with significant savings. The Summer",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 64,
+    "text": " violence and hate-related assults on the streets of Newtown, which is outside of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16447,
+    "window": 4,
+    "text": " week’s 2-2 draw at home against Atlanta United FC, although he",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 9,
+    "text": "atoconus eye. This very promising method was introduced in 2013. The",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5479,
+    "window": 0,
+    "text": " desire to identify and symbolically appropriate the peoples and lands with which they came into contact",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 44,
+    "text": " Greenwich Village, a uniformed officer stood quietly next to a woman who had unbutton",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 29,
+    "text": " ESC connected to motor 1 into the output pin labeled 1 on the flight controller, the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11794,
+    "window": 13,
+    "text": " the issue comes out. See video of the screens here But for",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 32,
+    "text": " are adequate for the purpose. Result: Quiet, harmonious environment restored. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3665,
+    "window": 23,
+    "text": " writing. After all, most students in the digital age are not taught handwriting anymore.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 63,
+    "text": ". No one has been charged in the incident, which occurred as the high",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 27,
+    "text": "The hospital was a given, & the bill will likely be in the thousands (they",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 0,
+    "text": " said the state of Alabama deserves better than Moore. \"The state of Alabama",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 14,
+    "text": " to ask for them. However, the restaurant industry is often plagued by a passive-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 47,
+    "text": "ued -- recent book than \"Restaurant Man,\" written by Mario Batali's",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5634,
+    "window": 20,
+    "text": "0:99999:7::: news:*:16270:0:99",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 2019,
+    "window": 23,
+    "text": " {N, N}, periodic_boundary = {true,true}, } --",
+    "recomputed": 0.07132519781589508
+   },
+   {
+    "from_feature": 19956,
+    "window": 46,
+    "text": "ecast is running a modified version of Android) no matter what device you \"cast\"",
+    "recomputed": 4.2952656745910645
+   }
+  ]
+ }
+}

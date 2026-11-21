@@ -1,0 +1,263 @@
+{
+ "feature": 14562,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 52,
+    "text": " House passed a massive $662 billion defense bill Wednesday night after last-minute changes plac",
+    "stored": 5.218719482421875,
+    "recomputed": 4.972492218017578
+   },
+   {
+    "window": 53,
+    "text": " money in the fiscal 2018 Homeland Security spending bill. \"It's a huge",
+    "stored": 4.363185882568359,
+    "recomputed": 6.170345306396484
+   },
+   {
+    "window": 47,
+    "text": " no longer get Medicaid coverage under the tax bill. Second, even if such",
+    "stored": 9.65345287322998,
+    "recomputed": 9.274243354797363
+   },
+   {
+    "window": 44,
+    "text": " about it. In what was billed as a “high profile”",
+    "stored": 11.16315746307373,
+    "recomputed": 10.654500961303711
+   },
+   {
+    "window": 49,
+    "text": " a warrant.\" Lucido's bill, if passed, would finally bring Michigan",
+    "stored": 7.899381637573242,
+    "recomputed": 12.73003101348877
+   },
+   {
+    "window": 43,
+    "text": " and other veterans endorsing Trump and was also billed as where Trump would make a major announcement",
+    "stored": 12.04409885406494,
+    "recomputed": 13.10854434967041
+   },
+   {
+    "window": 41,
+    "text": " nephew. The Department of Public Works allegedly billed the city for overtime pay for work performed",
+    "stored": 13.89612865447998,
+    "recomputed": 14.09054946899414
+   },
+   {
+    "window": 34,
+    "text": " loophole to avoid a huge capital gains tax bill. One employee described changing the company�",
+    "stored": 20.41745185852051,
+    "recomputed": 15.578119277954102
+   },
+   {
+    "window": 22,
+    "text": " bill, hot water bill, and coffee bill, then headed off to synagogue. As",
+    "stored": 27.59465026855469,
+    "recomputed": 20.556257247924805
+   },
+   {
+    "window": 27,
+    "text": "The hospital was a given, & the bill will likely be in the thousands (they",
+    "stored": 24.61646842956543,
+    "recomputed": 21.427963256835938
+   },
+   {
+    "window": 11,
+    "text": " paying for — \"any other potential surprise bills,\" and for future hospital checkups or",
+    "stored": 30.23187255859375,
+    "recomputed": 24.72599220275879
+   },
+   {
+    "window": 12,
+    "text": " and discounts. These firms have primarily used bill and prepaid mobile payments for customer acquisition.",
+    "stored": 29.71945762634277,
+    "recomputed": 26.620649337768555
+   },
+   {
+    "window": 23,
+    "text": " the levels of train crew.\" Overtime bills soar following opening of new Redcliffe line",
+    "stored": 27.11977386474609,
+    "recomputed": 27.648962020874023
+   },
+   {
+    "window": 21,
+    "text": "); the trippy image of $20 bills stacking up against a shifting red background (",
+    "stored": 27.75771713256836,
+    "recomputed": 28.257787704467773
+   },
+   {
+    "window": 16,
+    "text": " I hate spending money on utility bills. Don't get me wrong. I",
+    "stored": 29.27037811279297,
+    "recomputed": 29.4794921875
+   },
+   {
+    "window": 10,
+    "text": "based policy not only paid for her hospital bills and cancer treatment in full, they afforded",
+    "stored": 30.42457962036133,
+    "recomputed": 30.99529266357422
+   },
+   {
+    "window": 8,
+    "text": " do some great story telling while paying the bills. Still, it’s a",
+    "stored": 30.78423881530762,
+    "recomputed": 31.461740493774414
+   },
+   {
+    "window": 20,
+    "text": ", where families are struggling to pay their bills, Obamacare is a deal-breaker for",
+    "stored": 29.07740783691406,
+    "recomputed": 31.749889373779297
+   },
+   {
+    "window": 1,
+    "text": ". The job is helping to pay the bills while he works toward his US medical license",
+    "stored": 34.55968475341797,
+    "recomputed": 33.9285774230957
+   },
+   {
+    "window": 5,
+    "text": " for the first time and are seeing monthly bills for the first time<|endoftext|>In the late",
+    "stored": 31.91676330566406,
+    "recomputed": 35.188140869140625
+   }
+  ],
+  "positives": 56,
+  "grey": [],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 23863,
+    "window": 44,
+    "text": " power. Customers - if united and well organised - could have immense influence. Over 10",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12276,
+    "window": 25,
+    "text": " Christmas tunes from one of my favourite guilty pleasure TV shows, Nashville. With only a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 37,
+    "text": " headstock and the neck to get it ready for clamping. I also used a",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3812,
+    "window": 29,
+    "text": " warriors. Recall what happened when “Occupy Wall Street” ran into Wall",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20058,
+    "window": 39,
+    "text": ". Copyright © 2019 The Washington Times, LLC. Click here for reprint permission",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 33,
+    "text": " 6. Peter Kelly (Lucan Sarsfields) 7.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 22163,
+    "window": 33,
+    "text": "illas, two of the gorillas singled him out and charged at the glass. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 6,
+    "text": "ters drawn, staring at an old rotary phone. Just staring. Projecting his",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 24,
+    "text": " admissions now transferred to the Lyell McEwin. No longer hamstr",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 5030,
+    "window": 7,
+    "text": "Lord was emerging as a bit of a pin up and his his personal profile was on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14612,
+    "window": 31,
+    "text": " marched west on University Avenue, blocking both sides of the street and shouting expletives",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 56,
+    "text": " a big deal about games played between these two teams? It’s",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 29,
+    "text": ",” Reynolds, who has been assigned to a reserve unit out of<|endoftext|> this",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 25,
+    "text": " Brulé YouTube Channel here, on Thursday, December 12, 2013 at 5:",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9401,
+    "window": 36,
+    "text": " accepted to be on our advisory board Kevin. Kevin Zeese: Thank you",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 46,
+    "text": " 8 p.m. — MacGyver 9 p.m.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18727,
+    "window": 17,
+    "text": " case then many states will follow suit. Maine and Connecticut also have the same law,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 565,
+    "window": 17,
+    "text": " was a life no pet deserves. Thanks to an app, one post, and the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19103,
+    "window": 19,
+    "text": " a gunman opened fire during Sunday-morning church services. A witness told the",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 41,
+    "text": " the campaign trail, Donald Trump made much of his $1 trillion infrastructure promises. Today",
+    "recomputed": 0
+   }
+  ],
+  "rejected": [
+   {
+    "from_feature": 21731,
+    "window": 48,
+    "text": ", which is being a voice for tax paying, hardworking AMERICANS and letting",
+    "recomputed": 3.1208481788635254
+   }
+  ]
+ }
+}

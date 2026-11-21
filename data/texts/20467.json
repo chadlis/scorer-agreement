@@ -1,0 +1,281 @@
+{
+ "feature": 20467,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 46,
+    "text": " deer. The arrow missed, then ricocheted and hit the king in the heart",
+    "stored": 3.201984882354736,
+    "recomputed": 2.834038257598877
+   },
+   {
+    "window": 48,
+    "text": "'t strong. \"When people come back from war and combat and they see",
+    "stored": 2.302867650985718,
+    "recomputed": 3.0663962364196777
+   },
+   {
+    "window": 43,
+    "text": " was to take effect, congregants shuffled in and out of the three-story",
+    "stored": 3.822683095932007,
+    "recomputed": 3.816401958465576
+   },
+   {
+    "window": 40,
+    "text": " in an Islamic State video that showed him driving a vehicle carrying mutilated bodies to a",
+    "stored": 5.318851947784424,
+    "recomputed": 4.1365766525268555
+   },
+   {
+    "window": 32,
+    "text": " skill with Pokémon like Zubat who flutter around and jump, so you'll want",
+    "stored": 7.982922554016113,
+    "recomputed": 5.393538951873779
+   },
+   {
+    "window": 33,
+    "text": " has already read the entire book. Trent races down the hall, with Cane's",
+    "stored": 7.888088703155518,
+    "recomputed": 6.183952331542969
+   },
+   {
+    "window": 41,
+    "text": " time of its sinking, the ship was sailing the route of Manila → Taclob",
+    "stored": 4.9923415184021,
+    "recomputed": 7.866606712341309
+   },
+   {
+    "window": 11,
+    "text": " that Obama grabbed a sandwich to go and marched upstairs to tell the nation. ",
+    "stored": 13.46840381622314,
+    "recomputed": 8.634060859680176
+   },
+   {
+    "window": 22,
+    "text": " little girl grabbed her backpack and began to run down the hill, back toward her village",
+    "stored": 12.07062435150146,
+    "recomputed": 9.604406356811523
+   },
+   {
+    "window": 8,
+    "text": " to make the traffic stop, the driver sped up to 98 mph and failed to stop",
+    "stored": 13.72281837463379,
+    "recomputed": 10.08008861541748
+   },
+   {
+    "window": 24,
+    "text": " approached a man and woman as they were walking. They said he then produced a gun",
+    "stored": 11.11873340606689,
+    "recomputed": 10.692585945129395
+   },
+   {
+    "window": 4,
+    "text": " officer sought to question the driver, he sped away. The chase reached 100",
+    "stored": 14.23749351501465,
+    "recomputed": 11.234906196594238
+   },
+   {
+    "window": 18,
+    "text": " called out to him, but he continued walking along the second-story walkway and",
+    "stored": 12.96510696411133,
+    "recomputed": 11.93577766418457
+   },
+   {
+    "window": 13,
+    "text": " vehicle before security guards, deputies and police raced to the scene and stopped the shooter,",
+    "stored": 13.36507701873779,
+    "recomputed": 12.019343376159668
+   },
+   {
+    "window": 14,
+    "text": " and took his clipboard, then turned and walked toward the door. “",
+    "stored": 13.26662445068359,
+    "recomputed": 12.229385375976562
+   },
+   {
+    "window": 23,
+    "text": " breaks while our co-workers kept trudging along through the day. No one wanted",
+    "stored": 11.36226749420166,
+    "recomputed": 13.389453887939453
+   },
+   {
+    "window": 2,
+    "text": " All Lives Matter. I grinned as he walked by, looking him straight in the eye",
+    "stored": 15.54349231719971,
+    "recomputed": 13.45672607421875
+   },
+   {
+    "window": 5,
+    "text": " closed down at 6 pm, we strolled around in the Palace Square. While I",
+    "stored": 14.2361946105957,
+    "recomputed": 15.061382293701172
+   },
+   {
+    "window": 7,
+    "text": "47) Simon has been gliding for just over 2 years and went solo",
+    "stored": 13.89751434326172,
+    "recomputed": 16.648412704467773
+   },
+   {
+    "window": 1,
+    "text": " under the body. The figure was gliding quickly along the length of the street heading",
+    "stored": 16.78559875488281,
+    "recomputed": 17.014257431030273
+   }
+  ],
+  "positives": 45,
+  "grey": [
+   {
+    "window": 42,
+    "text": " back to see if the other monster was chasing her. It was still standing at the",
+    "stored": 4.296699523925781,
+    "recomputed": 0.36217212677001953
+   },
+   {
+    "window": 44,
+    "text": "bound drivers on Olive and John. Drivers heading north or south on Broadway didn’",
+    "stored": 3.305781602859497,
+    "recomputed": 0.2336912751197815
+   },
+   {
+    "window": 45,
+    "text": " bolts from Tintin's arms, runs off into the jungle under fire by gunmen",
+    "stored": 3.252365112304688,
+    "recomputed": 0.48077085614204407
+   },
+   {
+    "window": 47,
+    "text": " that year. A decade later, famine swept the north of Ethiopia once again. For",
+    "stored": 2.968183994293213,
+    "recomputed": 1.4803162813186646
+   }
+  ],
+  "zero": []
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 12276,
+    "window": 7,
+    "text": "ays. Blow The Scene has had the pleasure of catching up with Wisdom In Chains on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 35,
+    "text": ". The decoys, outfitted with two key receptors, effectively deactivate the virus",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3540,
+    "window": 21,
+    "text": "’s publisher Joseph W. McQuaid wrote in the signed editorial. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 27,
+    "text": " personality and family. Only now it turns out that a member of her family doesn't",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 20,
+    "text": "Investigators from the National Transportation Safety Board arrived Saturday at the scene of a deadly plane crash",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 9451,
+    "window": 62,
+    "text": " Angeles Galaxy signing Jonathan dos Santos, and if those will make one or two other players",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 11,
+    "text": "ano DATE: April 15, 2010 SUBJECT: The 420 gathering at CU-",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 336,
+    "window": 35,
+    "text": "ohan Singh era, the reform writers had ready scapegoats. Every fall in production was",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2019,
+    "window": 44,
+    "text": ", originally had intended to become an actuary. Here is Friedman on Hay",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 19647,
+    "window": 50,
+    "text": " of silica – alpha-cristobalite – low temperature, but tightly closed",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 17379,
+    "window": 59,
+    "text": "ebriated condition, said airport officials.\"Jaimin Patel was prevented from boarding",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11931,
+    "window": 57,
+    "text": " that the isolated populations may follow different evolutionary routes, as shown by Darwin's observation of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 42,
+    "text": " tropes, the moderate zones and the polar regions are presented. They are based",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12229,
+    "window": 41,
+    "text": " northeast. To expand the fight beyond those regions, the U.S. recently air",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14889,
+    "window": 3,
+    "text": ",\" Apple spokesperson Trudy Muller told Ars at the time. \"If we find",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 24159,
+    "window": 31,
+    "text": "Thursday, December 15, 2005 Page 11 REMINISCING (",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14562,
+    "window": 67,
+    "text": " tend to imagine that threatened species are only found in far away national parks or remote areas",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8968,
+    "window": 8,
+    "text": " Decider (On stream) Friday, August 4, 2017 21",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 20330,
+    "window": 7,
+    "text": " and Beckham Without a doubt, two Giants special teams players who had a big",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13910,
+    "window": 15,
+    "text": " Ecuador, Haiti, Honduras, Taiwan and Venezuela. Liberal trends in the church",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}

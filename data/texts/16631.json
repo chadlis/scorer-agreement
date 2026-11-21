@@ -1,0 +1,276 @@
+{
+ "feature": 16631,
+ "status": "ok",
+ "positives": {
+  "kept": [
+   {
+    "window": 52,
+    "text": " as a human being to make this line move along as quickly as possible. ",
+    "stored": 6.364650249481201,
+    "recomputed": 3.520711898803711
+   },
+   {
+    "window": 54,
+    "text": "m so glad we finally made this thing happen. Cory has been tearing it up on",
+    "stored": 5.188143730163574,
+    "recomputed": 7.567376613616943
+   },
+   {
+    "window": 50,
+    "text": " short trial,<|endoftext|> habit of making fire come out of her hands. Apparently, this",
+    "stored": 7.479302883148193,
+    "recomputed": 8.593582153320312
+   },
+   {
+    "window": 48,
+    "text": " a large bracelet, which helps your hands seem smaller. iv. Select the",
+    "stored": 8.844493865966797,
+    "recomputed": 10.26091194152832
+   },
+   {
+    "window": 44,
+    "text": " build a wall and to \"make Mexico pay for it\" were keynotes of his",
+    "stored": 11.02908897399902,
+    "recomputed": 12.140840530395508
+   },
+   {
+    "window": 40,
+    "text": " have a \"powerful incentive to make prosecutors believe that death or dire consequences await.\" ",
+    "stored": 14.78671836853027,
+    "recomputed": 14.707531929016113
+   },
+   {
+    "window": 42,
+    "text": ".” Makes you want to puddle up with patriotic pride,",
+    "stored": 12.57729530334473,
+    "recomputed": 16.32001304626465
+   },
+   {
+    "window": 35,
+    "text": " makes the idea of women on the podium seem more natural to audiences, institutions and donors",
+    "stored": 17.86570358276367,
+    "recomputed": 17.640541076660156
+   },
+   {
+    "window": 33,
+    "text": " can sometimes make a company's financial performance appear rosier than it really is.",
+    "stored": 18.54744720458984,
+    "recomputed": 18.863862991333008
+   },
+   {
+    "window": 24,
+    "text": " effort is required to make the Republican conference look rejectionist, and being even theoretically open",
+    "stored": 24.75279808044434,
+    "recomputed": 23.526880264282227
+   },
+   {
+    "window": 29,
+    "text": " I accomplished here was to make someone else look short. Could I look taller than someone",
+    "stored": 21.16825866699219,
+    "recomputed": 24.87236976623535
+   },
+   {
+    "window": 25,
+    "text": " the fisheye lens made players seem farther away than they actually were when the",
+    "stored": 24.10782432556152,
+    "recomputed": 25.88276481628418
+   },
+   {
+    "window": 19,
+    "text": " massively higher per item memory usage makes it seem that something is broken somewhere, but I",
+    "stored": 26.01080513000488,
+    "recomputed": 26.253149032592773
+   },
+   {
+    "window": 15,
+    "text": " \"entertainment\" makes Glenn Beck look like so much more than a malicious pund",
+    "stored": 26.43918228149414,
+    "recomputed": 26.766294479370117
+   },
+   {
+    "window": 7,
+    "text": " some social issues “make the Party look like it isn’t a modern",
+    "stored": 28.18785285949707,
+    "recomputed": 27.901798248291016
+   },
+   {
+    "window": 10,
+    "text": " Photos of the scene made it look like that part of the airport was hit",
+    "stored": 27.74261665344238,
+    "recomputed": 28.187646865844727
+   },
+   {
+    "window": 1,
+    "text": " quickly and Kawhi Leonard still makes it look easy on the break. 38",
+    "stored": 29.31517219543457,
+    "recomputed": 28.662233352661133
+   },
+   {
+    "window": 8,
+    "text": " risk. Your spit makes you look old: How's this for a depressing",
+    "stored": 28.0923957824707,
+    "recomputed": 29.042516708374023
+   },
+   {
+    "window": 4,
+    "text": " and weakening your entire team by making them look all over for it. 3",
+    "stored": 28.4991283416748,
+    "recomputed": 29.47397232055664
+   },
+   {
+    "window": 2,
+    "text": " anybody out there and Nick can make him look good. \"I'm just",
+    "stored": 29.25399208068848,
+    "recomputed": 29.921836853027344
+   }
+  ],
+  "positives": 54,
+  "grey": [
+   {
+    "window": 56,
+    "text": " camera even slightly would have resulted in everything looking very strange. That's what we've",
+    "stored": 4.219563961029053,
+    "recomputed": 2.3268795013427734
+   }
+  ],
+  "zero": [
+   {
+    "window": 36,
+    "text": " the one that followed Abu Ghraib look like the mewling of a kitten",
+    "stored": 16.35578155517578,
+    "recomputed": 0
+   },
+   {
+    "window": 38,
+    "text": " at community college and surfed WebMD look like a ridiculous choice. His education is",
+    "stored": 15.27861404418945,
+    "recomputed": 0
+   }
+  ]
+ },
+ "negatives": {
+  "kept": [
+   {
+    "from_feature": 13920,
+    "window": 0,
+    "text": " aliens are really out there - and one day they will come for us. ",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2112,
+    "window": 5,
+    "text": "<|endoftext|>th, the same day they honored Turk Broda’s #1.)",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11479,
+    "window": 0,
+    "text": " payback to<|endoftext|> sell, transfer or assign any Account, or any items incorporated<|endoftext|>",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 6076,
+    "window": 34,
+    "text": " ranked 17th in the NFL in touchdowns (17) this season and 19th in",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 10461,
+    "window": 5,
+    "text": "agedy, wound up being something of a masterpiece: an epic listening experience that has",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 16064,
+    "window": 43,
+    "text": "�s counted Sir Paul McCartney, Annie Lennox and Prince Charles among her clients.",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 8697,
+    "window": 38,
+    "text": " female Chilean flamingo nor its mate went quietly. Hattiesburg Zoo",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13847,
+    "window": 24,
+    "text": " committing crimes in a dispute over funding for sanctuary cities. The White House on",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 23863,
+    "window": 0,
+    "text": ". These pups are more confident and adventurous than the previous litter and I think that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 12732,
+    "window": 41,
+    "text": " the answer to one of these questions turns out to be, actually yes. Best of",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 13350,
+    "window": 18,
+    "text": " collapse model that were used to simulate sequential structural failures leading to collapse, and all Excel",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 3718,
+    "window": 14,
+    "text": " correct<|endoftext|>He was crying and screaming,\" she said. \"They strapped him to that",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 11911,
+    "window": 25,
+    "text": ", said Matthew Weaver, who sounded exhausted Thursday evening after blogging for more than 10 days",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 2221,
+    "window": 66,
+    "text": " a fundamental right to have the opportunity of a pleasant one. Those who have enough to",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 18623,
+    "window": 0,
+    "text": " grandmother said. \"He told me he de-committed.\" The Buc",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 21857,
+    "window": 5,
+    "text": "136 and reflected the strong support for annual legislation that authorizes money for the men and",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1635,
+    "window": 27,
+    "text": " way up from cook to manager at the restaurant, in Elkhart, Ind.,",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 1133,
+    "window": 40,
+    "text": " ingots, tin plates, Government dispatches – and India ale in hogsheads",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 15387,
+    "window": 38,
+    "text": " are two notable deals by Microsoft and Sony Pictures Imageworks for more than 200,000",
+    "recomputed": 0
+   },
+   {
+    "from_feature": 14097,
+    "window": 35,
+    "text": " a shy person could be transformed into RoboCop with just one squirt of photons from",
+    "recomputed": 0
+   }
+  ],
+  "rejected": []
+ }
+}
