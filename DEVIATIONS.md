@@ -38,3 +38,10 @@ difference cannot be attributed to the family alone.
 
 **When.** Only after the two figures and the table of PLAN.md 2.6 exist (PLAN.md
 2.7, rule 6).
+
+**Where.** `report.exploratory_errors` and `analysis.error_counts` (hand-checked test
+in `tests/test_analysis.py`), numbers in `data/analysis/exploratory_errors.json`,
+figure in `figures/exploratory_errors.png`, last section of
+`notebooks/analysis.ipynb`. A reading aid, not an added test: the ratio cannot
+exceed 1 / max(e_x, e_y), about 4.7 to 4.8 for these pairs, since shared errors are
+at most the errors of the scorer that errs less.

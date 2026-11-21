@@ -47,7 +47,8 @@ made twice: 120,000 calls. Answers are scored against labels recomputed on the e
 text shown, and the analyses (agreement, gain over the placebo, profile per scorer)
 are fixed in `PLAN.md`, which is frozen before the first measurement.
 Changes made after the freeze are listed in `DEVIATIONS.md`: so far, one exploratory
-analysis (agreement on errors), added before any grid result was read.
+analysis (agreement on errors), added before any grid result was read
+(`figures/exploratory_errors.png`, last section of the notebook).
 
 ## Scorers
 

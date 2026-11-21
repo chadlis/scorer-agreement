@@ -116,3 +116,34 @@ def cluster_bootstrap(
         draws[b] = stat(pd.Series(totals, index=per_feature.columns))
     lo, hi = np.quantile(draws, [(1 - level) / 2, 1 - (1 - level) / 2])
     return stat(per_feature.sum()), float(lo), float(hi)
+
+
+def error_counts(
+    calls: pd.DataFrame, conditions=("A", "B"), pass_: int = 1
+) -> dict[tuple[str, str], pd.DataFrame]:
+    """Exploratory (DEVIATIONS.md, 1). Per pair of scorers, per feature, on the texts
+    both answered with 1 or 0 (same texts as pair_counts): n, the errors of each
+    scorer (ex, ey) and the errors they share (exy)."""
+    c = calls[(calls["pass"] == pass_) & calls["condition"].isin(conditions)]
+    wide = c.pivot_table(
+        index=["feature", "text", "condition", "label"],
+        columns="scorer",
+        values="answer",
+        aggfunc="first",
+    )
+    label = wide.index.get_level_values("label").astype(str)
+    out = {}
+    for x, y in combinations(sorted(wide.columns), 2):
+        ok = wide[x].isin(["0", "1"]) & wide[y].isin(["0", "1"])
+        wx, wy = (wide[x] != label) & ok, (wide[y] != label) & ok
+        table = pd.DataFrame(
+            {"n": ok, "ex": wx, "ey": wy, "exy": wx & wy}, index=wide.index
+        ).astype(int)
+        out[(x, y)] = table.groupby(level="feature").sum()
+    return out
+
+
+def error_ratio(t: pd.Series) -> float:
+    """Shared errors over what independent errors would give: exy / (ex * ey), rates."""
+    n = t["n"]
+    return (t["exy"] / n) / ((t["ex"] / n) * (t["ey"] / n))

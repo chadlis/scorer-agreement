@@ -92,3 +92,22 @@ def test_bootstrap_is_reproducible_and_constant_data_gives_a_point():
     )
     assert first == (0.5, 0.5, 0.5)
     assert not math.isnan(first[0])
+
+
+def test_error_ratio_on_a_case_worked_by_hand():
+    # 4 texts. x is wrong on texts 0 and 1, y on text 0 only: e_x = 1/2, e_y = 1/4,
+    # shared 1/4, independent errors would share 1/2 * 1/4 = 1/8, so the ratio is 2.
+    # Text 4 is invalid for y and left out, the placebo and pass 2 are ignored.
+    rows = []
+    for t, label, ax, ay in [
+        (0, 1, "0", "0"),
+        (1, 0, "1", "0"),
+        (2, 1, "1", "1"),
+        (3, 0, "0", "0"),
+        (4, 0, "1", "invalid"),
+    ]:
+        rows += [(1, t, label, "A", "x", 1, ax), (1, t, label, "A", "y", 1, ay)]
+    rows += [(1, 0, 1, "P", "x", 1, "0"), (1, 0, 1, "A", "x", 2, "1")]
+    t = an.error_counts(calls(rows))[("x", "y")].sum()
+    assert dict(t) == {"n": 4, "ex": 2, "ey": 1, "exy": 1}
+    assert an.error_ratio(t) == pytest.approx(2.0)

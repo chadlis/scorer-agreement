@@ -221,3 +221,63 @@ def fig_gain(res: dict):
     _style(b)
     fig.tight_layout()
     return fig
+
+
+CLAUDE = {s for s in SCORERS if SCORERS[s]["api"] == "anthropic"}
+
+
+def exploratory_errors(calls: pd.DataFrame) -> dict:
+    """Exploratory, added after the freeze (DEVIATIONS.md, 1): do two scorers fail on
+    the same texts more than independent errors would? Per pair, the ratio of shared
+    errors to e_x * e_y, and the mean ratio within Claude minus across families.
+    Same texts as Figure 1 (A and B, pass 1, both answered), same bootstrap."""
+    tables = an.error_counts(calls)
+    wide = pd.concat({f"{x} / {y}": t for (x, y), t in tables.items()}, axis=1).fillna(0)
+    pairs = list(dict.fromkeys(wide.columns.get_level_values(0)))
+    within = [p for p in pairs if set(p.split(" / ")) <= CLAUDE]
+    across = [p for p in pairs if p not in within]
+
+    def ratio(t: pd.Series, p: str) -> float:
+        return an.error_ratio(t[p])
+
+    def family(t: pd.Series) -> float:
+        w = sum(ratio(t, p) for p in within) / len(within)
+        return w - sum(ratio(t, p) for p in across) / len(across)
+
+    out = {"within_claude": within, "pairs": {}}
+    for p in pairs:
+        tot = wide[p].sum()
+        out["pairs"][p] = {
+            "n": int(tot["n"]),
+            "e_x": round(tot["ex"] / tot["n"], 4),
+            "e_y": round(tot["ey"] / tot["n"], 4),
+            "e_xy": round(tot["exy"] / tot["n"], 4),
+            "ratio": ci(wide, lambda t, p=p: ratio(t, p)),
+        }
+    out["within_minus_across"] = ci(wide, family)
+    return out
+
+
+def fig_errors(exp: dict):
+    """Exploratory figure: shared-error ratio per pair, 95% bootstrap intervals.
+    1 = errors as often together as if independent."""
+    pairs = sorted(exp["pairs"], key=lambda p: exp["pairs"][p]["ratio"]["est"])
+    fig, ax = plt.subplots(figsize=(6.4, 3.9))
+    for i, p in enumerate(pairs):
+        r = exp["pairs"][p]["ratio"]
+        color = BLUE if p in exp["within_claude"] else ORANGE
+        _intervals(ax, [None], [r["est"]], [r["lo"]], [r["hi"]], color, i)
+    ax.set_yticks(range(len(pairs)), [" / ".join(NAMES[s] for s in p.split(" / ")) for p in pairs])
+    ax.axvline(1, color=INK, linewidth=0.8)
+    ax.plot([], [], "o", color=BLUE, label="both Claude")
+    ax.plot([], [], "o", color=ORANGE, label="across families")
+    ax.legend(fontsize=7.5, frameon=False, loc="center left", bbox_to_anchor=(0.04, 0.5))
+    ax.set_title(
+        "Shared errors / errors expected if independent (exploratory)",
+        fontsize=9.5,
+        color=INK,
+        loc="left",
+    )
+    _style(ax)
+    fig.tight_layout()
+    return fig
