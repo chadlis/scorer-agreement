@@ -64,10 +64,10 @@ recommends reporting every score next to an explanation-free baseline.
 Scorers have been compared before. Paulo et al.\ already compare three scorers on the
 same explanations, through their median scores\footnote{Claude Sonnet 3.5, Llama 70B and
 Llama 8B, in appendix F.7 (table A9) of Paulo et al.\ 2024.}, and Chen compares
-simulators on identical inputs with original and shuffled explanations. To our knowledge
+simulators on identical inputs with original and shuffled explanations. To my knowledge
 (searches of 17 and 21 November 2026), no study measures, for several detection scorers,
 their agreement text by text, the gain that each draws over an explanation-free control,
-and whether their disagreements change which explanation is preferred. We therefore ask:
+and whether their disagreements change which explanation is preferred. I therefore ask:
 
 \begin{center}
 \begin{minipage}{0.86\linewidth}
@@ -98,7 +98,7 @@ scorers pick opposite explanations on 13 to 27\% of the features.
 before the first scorer call (tag \texttt{plan-frozen}).}
 \end{figure}
 
-\textbf{Features.} We drew 100 features of the SAE \texttt{gpt2-small/6-res-jb}
+\textbf{Features.} I drew 100 features of the SAE \texttt{gpt2-small/6-res-jb}
 (Neuronpedia), with a published seed, among those that fire on 0.001\% to 1\% of tokens
 and have two original explanations: A, written by gpt-3.5-turbo, and B, by
 gpt-4o-mini\footnote{Of the first 114 features examined, 5 failed the frequency filter,
@@ -120,7 +120,7 @@ the explanation of another feature with an unrelated meaning, chosen by a seeded
 assignment with filters and reviewed in 14 rounds\footnote{The filters exclude a shared
 content word, a feature close in the decoder space of the SAE, a length out of
 proportion, and generic descriptions such as ``punctuation''. A fresh LLM agent triaged
-each round, and the author reviewed the doubts.}.
+each round, and I reviewed the doubts.}.
 
 \textbf{Scorers.} The five scorers are Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini
 2.5 Flash and Mistral Small 3.2, with the detection prompt of delphi, one text per call,
@@ -209,11 +209,11 @@ better reading of the explanation.}
 
 \subsection*{The texts where the scorers disagree}
 
-The five scorers are not unanimous on 1,568 texts (20\%). We drew 30 of them, 15
+The five scorers are not unanimous on 1,568 texts (20\%). I drew 30 of them, 15
 positives and 15 negatives, and had two fresh LLM agents propose the cause of each
 disagreement\footnote{The agents (Claude Fable 5.2) were blind to the names of the
-scorers, but not to the labels and activations. The author also read the 30 texts. His
-reading broadly agrees with theirs, but was not recorded text by text.}. They agree on 25
+scorers, but not to the labels and activations. I also read the 30 texts. My reading
+broadly agrees with theirs, but I did not record it text by text.}. They agree on 25
 of the 30 (kappa 0.79), and attribute 18 to 21 of them to the explanation or the text
 rather than to an error of the scorer. For example, a feature explained as ``references
 to radio'' fires on ``Radio'' in ``Radioactive Man'', and the lone scorer that answers 1
@@ -231,7 +231,7 @@ explanations. These preferences rest on 40 texts per feature.
 
 \section{Conclusion}
 
-\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers draw
+\interp{I can thus conclude that, on this SAE and with this prompt, the five scorers draw
 a similar average benefit from an explanation, within about 3 points, while two of them
 disagree on about one text in ten. The placebo shows that the benefit is real, since every
 scorer falls to chance without the explanation. The larger gain of Opus comes with more
@@ -259,8 +259,8 @@ for a given feature.
 
 Setup, prompt, feature draw, placebos and code were prepared before the kick-off (20
 November, 18:00), and every scorer call and analysis was made on 21 November. This report
-and the code were generated with Claude (Claude Opus 5.5) and checked by the author, who
-made every design decision.
+and the code were generated with Claude (Claude Opus 5.5). I checked them and made every
+design decision.
 
 \subsection*{References}
 

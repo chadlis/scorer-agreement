@@ -42,8 +42,8 @@
 \noindent Automated interpretability (\emph{autointerp}) scores an explanation of a
 sparse autoencoder feature by asking a language model, the \emph{scorer}, to predict
 from the explanation where the feature fires. Published pipelines usually fix one
-scorer. We ask whether the choice of scorer changes the judgments and the benefit of
-the explanation. We hold texts and explanations fixed and compare five scorers (Claude
+scorer. I ask whether the choice of scorer changes the judgments and the benefit of
+the explanation. I hold texts and explanations fixed and compare five scorers (Claude
 Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini 2.5 Flash, Mistral Small 3.2) on 100
 features of one SAE, 40 texts per feature with measured labels, two original
 explanations per feature and a placebo explanation taken from another feature
@@ -86,13 +86,13 @@ the same scores, and how much of a score actually comes from the explanation.
 Scorers have been compared before. Paulo et al.\ (2024, appendix F.7) score the same
 explanations with three scorers (Claude Sonnet 3.5, Llama 70B and Llama 8B) and compare
 their median scores, and Chen (2026) compares simulators on identical inputs with
-original and shuffled explanations. To our knowledge
+original and shuffled explanations. To my knowledge
 (searches of 17 and 21 November 2026), no study measures, for several detection scorers,
 their agreement text by text, the gain each draws over an explanation-free control, and
-whether their disagreements change which explanation is preferred. Our question is
+whether their disagreements change which explanation is preferred. My question is
 therefore the following: \emph{with texts and explanations held fixed, do scorer models differ in their
 judgments, and in the gain that the explanation brings them over an unrelated
-explanation (a placebo)?} We include Gemini Flash among the five scorers, so that our
+explanation (a placebo)?} I include Gemini Flash among the five scorers, so that my
 results can be related to the scorer that van der Ben et al.\ keep fixed.
 
 This study makes three contributions. First, it measures how often five detection
@@ -128,7 +128,7 @@ each scorer on exactly the same texts.
 \label{fig:design}
 \end{figure}
 
-Figure~\ref{fig:design} shows the chain. We describe each step in order. Appendix~A
+Figure~\ref{fig:design} shows the chain. I describe each step in order. Appendix~A
 gives the details, and \texttt{PLAN.md} in the repository gives every rule.
 
 \paragraph{Features.} The SAE is \texttt{gpt2-small/6-res-jb} (Bloom, 2024), read
@@ -157,7 +157,7 @@ explanation A, explanation B, and a placebo, which is the explanation of another
 feature. The placebos were chosen by a seeded assignment with filters (no shared
 content word, no feature close in the SAE's decoder space, a comparable length, no
 generic description such as ``punctuation''), then triaged by a fresh LLM agent and
-reviewed by the author, in 14 rounds, until no pair was in doubt.
+reviewed by me, in 14 rounds, until no pair was in doubt.
 
 \paragraph{Scorers.} Five scorers answer: Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5
 (through Anthropic's Message Batches API), and Gemini 2.5 Flash and Mistral Small 3.2
@@ -227,7 +227,7 @@ example Opus minus Mistral: $+3.2$ points, interval [1.8, 4.6]). The ten compari
 were fixed beforehand, and with ten comparisons about one in two series would exclude 0
 once by chance. Here the four exclusions form a single pattern, Opus against every
 other scorer, rather than isolated exclusions. As a robustness check suggested by an
-external review after the results (\texttt{DEVIATIONS.md}, entry 3), we also computed
+external review after the results (\texttt{DEVIATIONS.md}, entry 3), I also computed
 Bonferroni intervals, each at 99.5\%, so that the 10 hold together at 95\%. The four
 differences of Opus still exclude 0 (from [0.7, 4.9] for Opus minus Sonnet to [1.2, 5.2]
 for Opus minus Mistral).
@@ -303,15 +303,15 @@ while 73\% of the divergent texts of the grid are positives.}
 \end{figure}
 
 On pass 1 and with the explanations, the five scorers are not unanimous on 1,568 of
-7,752 texts (20\%). We drew 30 of them with a seed fixed beforehand, 15 positives and
+7,752 texts (20\%). I drew 30 of them with a seed fixed beforehand, 15 positives and
 15 negatives, and asked two fresh LLM agents (Claude Fable 5.2, with no other context
 and with the scorers renamed S1 to S5) to say for each text whether it fits the
 explanation and why the scorers split. The agents saw the labels and the activations,
 so their causes are hypotheses to test, for instance by a human annotation blind to the
 votes and the activations, rather than measurements. The two readings give the same cause for 25 of
-the 30 texts (kappa 0.79). The author also read the 30 texts, before seeing the
-agents' readings but with the scorer names visible. His reading broadly agrees with
-theirs, but it was not recorded text by text and is not quantified.
+the 30 texts (kappa 0.79). I also read the 30 texts myself, before seeing the agents'
+readings but with the scorer names visible. My reading broadly agrees with theirs, but I
+did not record it text by text, so this agreement is not quantified.
 
 Figure~\ref{fig:divergent} gives the causes. On the positives, the disagreement has two
 forms. Either one or two scorers miss a cue that is present, or the majority answers
@@ -331,7 +331,7 @@ choose between a literal reading and a reading by meaning.}
 
 \paragraph{Exploratory: do scorers fail on the same texts?} This analysis was added
 after the plan was frozen, before any grid result was read (\texttt{DEVIATIONS.md},
-entry 1). For each pair of scorers, we compare the share of texts where both are wrong
+entry 1). For each pair of scorers, I compare the share of texts where both are wrong
 with the share expected if their errors were independent. Every pair fails together
 3.4 to 4.1 times more often than independence would give (Figure~\ref{fig:errors} in
 Appendix~B). This is expected: some texts, such as the weakest positives, are hard for
@@ -379,14 +379,14 @@ feature is less stable. Two scorers pick opposite explanations on 13\% (Haiku an
 Sonnet) to 27\% (Opus and Gemini) of the features, and on 47 of the 100 features at
 least two of the five scorers prefer opposite explanations. Even Haiku and Mistral,
 whose mean gains differ by 0.4 points, make 20 opposite choices out of 100. To read
-these numbers, we compared each scorer with itself, pass 1 against pass 2: the opposite
+these numbers, I compared each scorer with itself, pass 1 against pass 2: the opposite
 choices are then Haiku 6, Sonnet 1, Opus 7, Gemini 0, Mistral 0 out of 100. The reversals between scorers are thus
 well above the noise of a single scorer. They rest, however, on the 40 texts of each
 feature, and whether they hold on new texts is not tested here.
 
 \section{Discussion}
 
-In this section, we discuss two questions that the results raise for the use of
+In this section, I discuss two questions that the results raise for the use of
 autointerp scores.
 
 The first question is whether the choice of scorer matters. \interp{At the level of a
@@ -397,7 +397,7 @@ fifth draws about 3 points more on a gain of 30. At the level of the choice betw
 explanations of a feature, it matters again: the scorers rank the 200 explanations
 alike, but two scorers pick opposite explanations on 13 to 27\% of the features.} Van
 der Ben et al.\ (2026) report that the ranking of the best-explained features can shift
-with the pipeline even when mean scores look stable, and our ranking analysis shows
+with the pipeline even when mean scores look stable, and my ranking analysis shows
 the same pattern for the scorer: a stable mean gain does not guarantee a stable choice of
 explanation.
 
@@ -410,7 +410,7 @@ scorer, and this protocol does not separate the two.}
 
 \section{Conclusion}
 
-\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers
+\interp{I can thus conclude that, on this SAE and with this prompt, the five scorers
 draw a similar average benefit from an explanation, within about 3 points, while two of
 them disagree on about one text in ten. The placebo control shows that the benefit is
 real, since every scorer falls to chance without the explanation. The larger gain of
@@ -450,8 +450,8 @@ assignment, the analysis code and the pilot runner were prepared before the kick
 and the construction of the texts started on the afternoon of 20 November. The data
 were frozen, and the pilot, the grid, the analyses and the reading of the divergent
 texts were done on 21 November. This report was generated with Claude (Claude Code,
-Claude Opus 5.5), like the code, and checked by the author. The author made every design
-decision, reviewed the placebos and the plan, and read the divergent texts.
+Claude Opus 5.5), like the code. I checked it, made every design decision, reviewed the
+placebos and the plan, and read the divergent texts.
 
 \section*{References}
 
@@ -504,7 +504,7 @@ of positives and 8.6\% of negatives, and the mean length is 16.40 and 16.39 GPT-
 \paragraph{Placebos.} The final assignment uses 100 distinct donors, 21 of them
 outside the sample, 50 explanations A and 50 explanations B, and no feature is its own
 donor. Seven placebo texts were forbidden along the rounds. The last round left one
-light doubt, which the author kept.
+light doubt, which I kept.
 
 \paragraph{Scoring.} The prompt is delphi's detection prompt (commit \texttt{a11130d}),
 with four changes: the three solved examples are removed, one sentence is reworded, and
