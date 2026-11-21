@@ -56,7 +56,15 @@ identical inputs with original and shuffled explanations \av. To our knowledge
 scorers, their agreement text by text, the gain each draws over an explanation-free
 control, and whether their disagreements change which explanation is preferred. We ask: \emph{with texts and
 explanations held fixed, do scorers differ in their judgments, and in the gain that the
-explanation brings them over an unrelated explanation (a placebo)?}
+explanation brings them over an unrelated explanation (a placebo)?} This study makes three contributions. First, it measures how often five detection
+scorers disagree on the same text, and not only whether their mean scores agree: two
+scorers answer differently on 7 to 13\% of the texts. Second, it measures, for each
+scorer and on exactly the same texts, the gain that the explanation brings over a
+placebo, so that the gains can be compared pair by pair: four scorers gain about the
+same, and Opus about 3 points more. Third, in an exploratory analysis decided after the
+results, it asks whether these disagreements change which of two explanations of a
+feature a researcher would keep: two scorers pick opposite explanations on 13 to 27\%
+of the features.
 
 \section{Design}
 
@@ -77,11 +85,11 @@ is exactly 0. Negatives are stored windows of the other sampled features, so tha
 positives and negatives share corpus, length and cut, and no token is marked. Each text
 is scored under A, under B and under a \emph{placebo}, the explanation of another feature
 with an unrelated meaning, chosen by a filtered seeded assignment and reviewed in 14
-rounds. The five scorers are Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini 2.5 Flash
-and Mistral Small 3.2, with delphi's detection prompt, one text per call, the most
-deterministic settings each model accepts, and two passes: 120,000 calls (27.55 USD),
-after a pilot on 5 features. The \emph{gain} of a scorer is its accuracy with A and B
-minus its accuracy with the placebo. Intervals are 95\% bootstrap intervals over features.
+rounds. The scorers are Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini 2.5 Flash and
+Mistral Small 3.2, with delphi's detection prompt and the most deterministic settings
+each accepts (27.55 USD, after a pilot on 5 features). The \emph{gain} is the accuracy
+with A and B minus the accuracy with the placebo. Intervals are 95\% bootstrap
+intervals over features.
 
 \section{Results}
 
@@ -96,8 +104,8 @@ Table~\ref{tab:profile}.}
 \label{fig:main}
 \end{figure}
 
-\textbf{Judgments.} Two scorers answer differently on 7 to 13\% of the texts: the raw
-agreement goes from 86.9\% (Mistral and Opus) to 92.6\% (Haiku and Sonnet), and Cohen's
+\textbf{Judgments.} The raw agreement goes from 86.9\% (Mistral and Opus) to 92.6\%
+(Haiku and Sonnet), and Cohen's
 kappa from 0.72 to 0.84, with non-overlapping intervals for the extreme pairs
 (Figure~\ref{fig:main}a). Each scorer changes its own answer between two passes on
 only 0.1 to 3.1\% of the texts, so these disagreements are not sampling noise.
@@ -152,8 +160,6 @@ scorer error. These causes are hypotheses rather than measurements. For example,
 explained as ``references to radio'' fires on ``Radio'' in ``Radioactive Man'', and the
 lone scorer that answers 1 is right. The author's own reading broadly agrees but was not
 recorded text by text.
-Exploratory, added after the freeze: every pair of scorers fails on the same texts 3.4
-to 4.1 times more often than independent errors would, and most within Claude.
 
 \textbf{Do scorers pick the same explanation?} Exploratory, decided after the results
 (DEVIATIONS.md, entry 2). Across the 200 explanations, the scorers rank accuracies
@@ -177,7 +183,7 @@ explanations, comparing one scorer on two disjoint sets of texts with two scorer
 same set, to tell whether these reversals come from the scorer or from the choice of
 texts.
 
-\textbf{What this does not show.} High agreement is not validity: scorers are often
+\textbf{What this does not show.} High agreement is not validity: scorers can be
 wrong together. A gain shows that the explanation helps to predict activations, not that
 it describes a mechanism. One SAE, one layer, 100 features, one prompt, five scorers of
 which three are Claude models, and settings that differ by scorer, so a difference mixes
@@ -189,10 +195,12 @@ prepared before the kick-off (20 November, 18:00), and every scorer call and ana
 made on 21 November. \interp{Code and drafts were written with Claude Code (Claude Opus
 5.5), and the author made every design decision and revised the text.}
 
-{\footnotesize
-\bibentree{Chen (2026). Scoring explanations without reading them: structural shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}
-\bibentree{Paulo, G., Mallen, A., Juang, C., \& Belrose, N. (2024). Automatically interpreting millions of features in large language models. arXiv:2410.13928. \av}
-\bibentree{Van der Ben, S., Roch, N., Hedstr\"om, A., \& El-Assady, M. (2026). Building fast, evaluating slow: pipeline choices dominate autointerpretability score variance. arXiv:2607.19386. \av}
-}
+{\footnotesize\noindent\textbf{References.} Chen, X. (2026). Scoring explanations without
+reading them: structural shortcuts in automated-interpretability evaluation data.
+arXiv:2610.37676. \av\ Paulo, G., Mallen, A., Juang, C., \& Belrose, N. (2024).
+Automatically interpreting millions of features in large language models.
+arXiv:2410.13928. \av\ Van der Ben, S., Roch, N., Hedstr\"om, A., \& El-Assady, M.
+(2026). Building fast, evaluating slow: pipeline choices dominate autointerpretability
+score variance. arXiv:2607.19386. \av\par}
 
 \end{document}
