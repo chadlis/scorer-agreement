@@ -45,3 +45,31 @@ figure in `figures/exploratory_errors.png`, last section of
 `notebooks/analysis.ipynb`. A reading aid, not an added test: the ratio cannot
 exceed 1 / max(e_x, e_y), about 4.7 to 4.8 for these pairs, since shared errors are
 at most the errors of the scorer that errs less.
+
+## 2. Exploratory analysis, to be done later: do scorers rank explanations alike? (noted 2026-11-21)
+
+**Decided by Salah on 2026-11-21, after reading the grid results** (unlike
+deviation 1, which was decided before). Not computed yet. Weaker than deviation 1:
+the question was raised by the results themselves, so it is reported as an
+exploratory follow-up, not as evidence.
+
+**Why.** The planned analyses compare scorers text by text (agreement) and on
+average (gain). The practical use of an autointerp score is to compare
+explanations: which of two explanations of a feature is better, or which features
+are better explained. A gain larger by 3 points on average does not say whether two
+scorers would rank explanations differently.
+
+**What will be computed**, on conditions A and B, mean over passes, invalid counted
+as wrong (as for accuracy in PLAN.md 2.6):
+
+1. For each scorer, the accuracy of each of the 200 explanations (100 features times
+   A and B). For each pair of scorers, the Spearman rank correlation of these 200
+   scores.
+2. For each pair of scorers, the share of features where both scorers find the same
+   explanation better (A or B), leaving out features where either scorer gives A and
+   B the same accuracy.
+3. Intervals by the bootstrap over features of PLAN.md 2.6, rule 8.
+
+The difference between A and B for a given feature stays exploratory (PLAN.md 2.6,
+rule 11): only the agreement between scorers on that difference is studied, not
+which explanation is better.

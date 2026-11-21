@@ -1,0 +1,613 @@
+{
+ "rule": "an item is a (feature, text, condition) with condition\nA or B, read on pass 1 (as Figure 1). It is divergent if all five scorers answered\n1 or 0 and they are not unanimous. Items are shuffled with seed 20261120, then\ntaken in that order, 15 positives and 15 negatives, at most 2 per feature.",
+ "seed": 20261120,
+ "counts": {
+  "items": 8000,
+  "all_valid": 7752,
+  "divergent": 1568,
+  "divergent_positives": 1140,
+  "divergent_negatives": 428
+ },
+ "items": [
+  {
+   "feature": 8995,
+   "text_index": 3,
+   "condition": "B",
+   "explanation": "references to radio",
+   "other_explanation": "words related to radio",
+   "text": " mill saying Chen Lu will definitelybe called Radioactive Man and he will only be called",
+   "label": 1,
+   "activation": 21.044,
+   "activation_share_of_max": 0.409,
+   "rank_among_positives": 3,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "0",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 14562,
+   "text_index": 0,
+   "condition": "B",
+   "explanation": "references to financial obligations or expenses",
+   "other_explanation": "words related to financial transactions, specifically focusing on the concept of bills",
+   "text": " House passed a massive $662 billion defense bill Wednesday night after last-minute changes plac",
+   "label": 1,
+   "activation": 4.972,
+   "activation_share_of_max": 0.139,
+   "rank_among_positives": 0,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "0",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 18011,
+   "text_index": 10,
+   "condition": "A",
+   "explanation": "occurrences of the word \"diss\" or its variations in the text",
+   "other_explanation": "words related to dissociation or disconnection",
+   "text": " be delegitimized by stigma will dissociate from any hint of racism. They",
+   "label": 1,
+   "activation": 59.456,
+   "activation_share_of_max": 0.968,
+   "rank_among_positives": 10,
+   "yes": 2,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 17379,
+   "text_index": 15,
+   "condition": "B",
+   "explanation": "sentences that conclude with a period",
+   "other_explanation": "phrases indicating completion or finality, often with a tone of resolution or accomplishment",
+   "text": " in Europe and the trademark in the US.\" Bolivia is the largest",
+   "label": 1,
+   "activation": 40.187,
+   "activation_share_of_max": 0.9,
+   "rank_among_positives": 15,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 14256,
+   "text_index": 11,
+   "condition": "B",
+   "explanation": "mentions of specific individuals and their associated actions or roles",
+   "other_explanation": "names or terms related to people, potentially in positions of authority or prominence",
+   "text": " is a clown dubbed \"Ronald Klump.\" In a mock breaking news",
+   "label": 1,
+   "activation": 17.135,
+   "activation_share_of_max": 0.647,
+   "rank_among_positives": 11,
+   "yes": 4,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 3025,
+   "text_index": 0,
+   "condition": "B",
+   "explanation": "phrases indicating a lack of information or uncertainty",
+   "other_explanation": "phrases indicating lack of information or minimal impact",
+   "text": " his art served that purpose unbeknownst to him. The CIA program was originally",
+   "label": 1,
+   "activation": 2.36,
+   "activation_share_of_max": 0.136,
+   "rank_among_positives": 0,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 8511,
+   "text_index": 28,
+   "condition": "A",
+   "explanation": "organizations or formal groups",
+   "other_explanation": "references to organizations or entities described as \"bodies.\"",
+   "text": "ab, will compare the oscillations of neutrinos to those of antineut",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 2221,
+   "text_index": 3,
+   "condition": "B",
+   "explanation": "terms associated with comparisons or ratios",
+   "other_explanation": "instances of the word \"relative\" occurring in various contexts",
+   "text": " transcriptional noise. We show, by comparative transcriptomics of 20 bacterial species and one",
+   "label": 1,
+   "activation": 15.595,
+   "activation_share_of_max": 0.28,
+   "rank_among_positives": 3,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "1",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 22163,
+   "text_index": 19,
+   "condition": "B",
+   "explanation": "pronouns referring to individuals involved in interactions or conflicts",
+   "other_explanation": "pronouns referring to people or entities",
+   "text": " to his fellow friars, they laid him on the ground and he spent his last",
+   "label": 1,
+   "activation": 15.405,
+   "activation_share_of_max": 0.952,
+   "rank_among_positives": 19,
+   "yes": 3,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 3665,
+   "text_index": 36,
+   "condition": "B",
+   "explanation": "references to \"the\" as a prominent article throughout the text",
+   "other_explanation": "phrases related to being projected or forecasted to occur",
+   "text": " so used to thinking in terms of value assignments that we try to apply same approach to",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "0",
+    "S4": "1",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 3540,
+   "text_index": 30,
+   "condition": "B",
+   "explanation": "references to names or surnames, particularly with the prefix \"Mc\" or variations thereof",
+   "other_explanation": "phrases containing the name \"McElroy\"",
+   "text": " debating skills impressed the Mormon leader, who assigned him to found a branch in Burlington,",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "0",
+    "S4": "1",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 13847,
+   "text_index": 15,
+   "condition": "B",
+   "explanation": "references to controversial or significant issues and topics",
+   "other_explanation": "proper nouns and terms related to legal and political issues",
+   "text": "<|endoftext|> Protection Agency for increased tolerance levels for glyphosate. It is mainly used on",
+   "label": 1,
+   "activation": 7.19,
+   "activation_share_of_max": 0.808,
+   "rank_among_positives": 15,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "0",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 3232,
+   "text_index": 2,
+   "condition": "B",
+   "explanation": "adverbs or phrases that indicate degree or extent",
+   "other_explanation": "verbs indicating causality or influence",
+   "text": " at a time. They don't come anywhere near replacing the pensions. The",
+   "label": 1,
+   "activation": 3.452,
+   "activation_share_of_max": 0.3,
+   "rank_among_positives": 2,
+   "yes": 3,
+   "answers": {
+    "S1": "1",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 23756,
+   "text_index": 15,
+   "condition": "B",
+   "explanation": "references to specific subjects or themes in various contexts",
+   "other_explanation": "the word \"topic\" followed by a number",
+   "text": ": If you ever write anything on any topic, and the headline is \"When Genocide",
+   "label": 1,
+   "activation": 40.334,
+   "activation_share_of_max": 0.999,
+   "rank_among_positives": 15,
+   "yes": 4,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 15387,
+   "text_index": 9,
+   "condition": "A",
+   "explanation": "images or visual representations in text",
+   "other_explanation": "references to images or pictures",
+   "text": " native AJAX<|endoftext|> could get the most picturesque views of the city. ",
+   "label": 1,
+   "activation": 25.764,
+   "activation_share_of_max": 0.737,
+   "rank_among_positives": 9,
+   "yes": 2,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 24369,
+   "text_index": 11,
+   "condition": "B",
+   "explanation": "phrases indicating comparisons between different time periods or generations",
+   "other_explanation": "comparisons between different time periods or locations",
+   "text": " times as deadly in New York City as in London.\" THE US APPE",
+   "label": 1,
+   "activation": 12.001,
+   "activation_share_of_max": 0.834,
+   "rank_among_positives": 11,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "0",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 2221,
+   "text_index": 16,
+   "condition": "B",
+   "explanation": "terms associated with comparisons or ratios",
+   "other_explanation": "instances of the word \"relative\" occurring in various contexts",
+   "text": " the freedoms of the people. And, relative to the OP's question, allowed for",
+   "label": 1,
+   "activation": 52.417,
+   "activation_share_of_max": 0.94,
+   "rank_among_positives": 16,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 21857,
+   "text_index": 30,
+   "condition": "A",
+   "explanation": "concepts related to legislation",
+   "other_explanation": "references to legislation",
+   "text": " fear that the standoff may play out again in a few months. The plan sets up",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 22207,
+   "text_index": 16,
+   "condition": "B",
+   "explanation": "phrases emphasizing priority or significance",
+   "other_explanation": "generic phrases representing importance or priority",
+   "text": " protesting or supporting the protesters are first and foremost sick of their shitty lives in a shitty",
+   "label": 1,
+   "activation": 54.239,
+   "activation_share_of_max": 1.009,
+   "rank_among_positives": 16,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 8995,
+   "text_index": 37,
+   "condition": "A",
+   "explanation": "words related to radio",
+   "other_explanation": "references to radio",
+   "text": "kel’s comments came Saturday during her weekly podcast. She asserted that her stance",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 11794,
+   "text_index": 39,
+   "condition": "A",
+   "explanation": "video-related words or prompts",
+   "other_explanation": "references to videos that can be watched",
+   "text": " fear death. Many are indeed ferocious and fearless fighters during the day, as many media",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "0",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 8511,
+   "text_index": 22,
+   "condition": "B",
+   "explanation": "references to organizations or entities described as \"bodies.\"",
+   "other_explanation": "organizations or formal groups",
+   "text": " The Sunday Telegraph. \"It is a bottomless weight in all our souls.\" ",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "0",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 13350,
+   "text_index": 21,
+   "condition": "A",
+   "explanation": "terms related to structural components or properties",
+   "other_explanation": "terms related to structural integrity and engineering",
+   "text": " called,’ ‘différance,’ ‘problemat",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "1",
+    "S3": "0",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 22163,
+   "text_index": 21,
+   "condition": "A",
+   "explanation": "pronouns referring to people or entities",
+   "other_explanation": "pronouns referring to individuals involved in interactions or conflicts",
+   "text": "� în Israel, unii legal, alţii ilegal",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 2,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "1",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 2112,
+   "text_index": 22,
+   "condition": "B",
+   "explanation": "references to specific ethnic groups or nationalities",
+   "other_explanation": "references to geographic locations, specifically focusing on names of cities or countries",
+   "text": "pád, and hasten their absorption into the Western Christian community. ",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 3812,
+   "text_index": 25,
+   "condition": "A",
+   "explanation": "phrases related to activism and social issues",
+   "other_explanation": "words related to activism and activist actions",
+   "text": ", it’s just a cautionary PSA about the realities of HIV and",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 4,
+   "answers": {
+    "S1": "1",
+    "S2": "1",
+    "S3": "1",
+    "S4": "0",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 9401,
+   "text_index": 31,
+   "condition": "A",
+   "explanation": "names of individuals",
+   "other_explanation": "proper nouns, specifically names of individuals and entities",
+   "text": " of SB 4 Garcia’s ruling bars the state from implementing",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 3,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 12637,
+   "text_index": 21,
+   "condition": "B",
+   "explanation": "instances of the word \"to.\"",
+   "other_explanation": "names of individuals being selected or hired for specific roles or positions",
+   "text": " collection of shale wells that will be completed once oil prices increase (an estimated 900 in",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "0",
+    "S4": "1",
+    "S5": "0"
+   }
+  },
+  {
+   "feature": 9401,
+   "text_index": 37,
+   "condition": "B",
+   "explanation": "proper nouns, specifically names of individuals and entities",
+   "other_explanation": "names of individuals",
+   "text": ", the original Stripesy, builds a suit of armor to stand by her and protect",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 3,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "1",
+    "S5": "1"
+   }
+  },
+  {
+   "feature": 23863,
+   "text_index": 28,
+   "condition": "A",
+   "explanation": "adjectives that describe attributes of objects or characteristics of actions",
+   "other_explanation": "adjectives that convey characteristics of objects, emotions, and behaviors",
+   "text": "but it worked. The problems began with the election for a constitutional parliament.",
+   "label": 0,
+   "activation": 0,
+   "activation_share_of_max": 0.0,
+   "rank_among_positives": null,
+   "yes": 1,
+   "answers": {
+    "S1": "0",
+    "S2": "0",
+    "S3": "1",
+    "S4": "0",
+    "S5": "0"
+   }
+  }
+ ]
+}

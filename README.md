@@ -46,9 +46,12 @@ Neuronpedia's activation API on the exact text shown to the scorer.
 made twice: 120,000 calls. Answers are scored against labels recomputed on the exact
 text shown, and the analyses (agreement, gain over the placebo, profile per scorer)
 are fixed in `PLAN.md`, which is frozen before the first measurement.
-Changes made after the freeze are listed in `DEVIATIONS.md`: so far, one exploratory
-analysis (agreement on errors), added before any grid result was read
-(`figures/exploratory_errors.png`, last section of the notebook).
+Changes made after the freeze are listed in `DEVIATIONS.md`: one exploratory analysis
+done (agreement on errors, decided before any grid result was read,
+`figures/exploratory_errors.png`, last section of the notebook), and one noted for
+later (whether scorers rank explanations alike, decided after the results). The 30
+divergent texts read by hand are drawn by `scripts/sample_divergent.py`
+(`data/analysis/divergent_sample.json`).
 
 ## Scorers
 
