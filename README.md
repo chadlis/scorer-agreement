@@ -132,6 +132,7 @@ Data-freezing scripts:
 - `uv run scripts/run_grid.py` prints what the grid would send. With `--yes` it sends
   it (paid). The total cap of 40 USD covers the pilot and the grid. The three Claude
   batches and the OpenRouter calls run at the same time (`data/runs/grid/`).
+  `uv run scripts/grid_status.py` shows its progress (free).
 - `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
   freeze (no negative from the placebo donor, separator balance, token lengths), and `uv run scripts/pilot_report.py`
   computes the pilot gate and both central measures from the pilot log.
