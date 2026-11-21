@@ -40,6 +40,8 @@ Neuronpedia's activation API on the exact text shown to the scorer.
 made twice: 120,000 calls. Answers are scored against labels recomputed on the exact
 text shown, and the analyses (agreement, gain over the placebo, profile per scorer)
 are fixed in `PLAN.md`, which is frozen before the first measurement.
+Changes made after the freeze are listed in `DEVIATIONS.md`: so far, one exploratory
+analysis (agreement on errors), added before any grid result was read.
 
 ## Scorers
 
