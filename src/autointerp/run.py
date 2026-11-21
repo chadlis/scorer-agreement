@@ -113,14 +113,28 @@ def require_frozen(root: Path) -> None:
         raise SystemExit("frozen files changed since the tag plan-frozen")
 
 
+CALL_KEYS = ("id", "feature", "text", "label", "condition", "scorer", "pass")
+
+
 def finish(log: Log, call: dict, record: dict, attempt: int) -> bool:
     """Store one attempt. Returns True if the call is finished: a readable answer, or
-    an unreadable one already retried once (PLAN.md, Scoring, rule 3)."""
+    an unreadable one already retried once (PLAN.md, Scoring, rule 3).
+    The model's reply is stored as "reply". "text" stays the index of the text."""
     answer = parse_answer(record.get("text")) if record.get("ok") else "error"
     final = answer in ("1", "0") or (answer == "invalid" and attempt == 2)
-    keep = {k: call[k] for k in ("id", "feature", "text", "label", "condition", "scorer", "pass")}
-    log.add({**keep, **record, "answer": answer, "attempt": attempt, "final": final})
+    rec = {("reply" if k == "text" else k): v for k, v in record.items()}
+    keep = {k: call[k] for k in CALL_KEYS}
+    log.add({**rec, **keep, "answer": answer, "attempt": attempt, "final": final})
     return final
+
+
+def call_fields(record: dict) -> dict:
+    """The call's fields and the reply of one stored attempt. In the pilot log
+    (written before 2026-11-21 06:00), the reply overwrote "text", so the text index
+    is always read back from the id (f{feature}-t{text}-...)."""
+    reply = record["reply"] if "reply" in record else record.get("text")
+    text = int(record["id"].split("-")[1][1:])
+    return {**{k: record[k] for k in CALL_KEYS}, "text": text, "reply": reply}
 
 
 def run_openrouter(
@@ -197,6 +211,8 @@ def run_batch(
             rec = {
                 "model": cfg["model"],
                 "params": cfg["params"],
+                "system": SYSTEM,
+                "user": c["user"],
                 "transport": "batch",
                 "batch_id": batch.id,
                 "result_type": entry.result.type,
@@ -248,8 +264,9 @@ def export_csv(log: Log, path: Path) -> None:
             w.writerow(
                 {
                     **{k: r.get(k) for k in cols},
+                    **{k: v for k, v in call_fields(r).items() if k != "reply"},
                     "params": json.dumps(r.get("params")),
-                    "raw_text": r.get("text"),
+                    "raw_text": call_fields(r)["reply"],
                     "input_tokens": u.get("input_tokens", u.get("prompt_tokens")),
                     "output_tokens": u.get("output_tokens", u.get("completion_tokens")),
                     "cost_usd": round(cost(r), 8),

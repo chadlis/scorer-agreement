@@ -20,12 +20,13 @@ so. The state submitted to the hackathon is the git tag `hackathon-submission`.
 ## Status
 
 Setup is done. The scorer prompt was frozen on 2026-11-19 (git tag `prompt-frozen`)
-after three format checks on 19 texts per scorer (`data/smoke/`). No measurement has
-been made yet.
+after three format checks on 19 texts per scorer (`data/smoke/`).
 
 The data are frozen (git tag `plan-frozen`, 2026-11-21): `PLAN.md`, the 40 verified
 texts of each of the 100 features (`data/texts/`) and the placebos
-(`data/placebos/final.json`). The pilot is next. The 100 features are a simple
+(`data/placebos/final.json`). The pilot ran on 2026-11-21 on the 5 pilot features
+(6,000 calls, 1.39 USD, raw log and gate report in `data/runs/pilot/`). The grid
+waits for the decision on the pilot. The 100 features are a simple
 random sample of the eligible features, drawn with a seed committed beforehand. One
 feature that kept too few positives after recomputation was replaced by the next
 one of the draw (`PLAN.md`, appendix A.2). Negatives are drawn from the stored windows of the other

@@ -11,7 +11,7 @@ import pandas as pd
 
 from autointerp import analysis as an
 from autointerp.neuronpedia import ROOT
-from autointerp.run import Log, cost
+from autointerp.run import Log, call_fields, cost
 
 OUT = ROOT / "data" / "runs" / "pilot"
 
@@ -19,8 +19,7 @@ OUT = ROOT / "data" / "runs" / "pilot"
 def main() -> None:
     log = Log(OUT / "calls.jsonl")
     finals = [r for r in log.records if r.get("final")]
-    cols = ["feature", "text", "label", "condition", "scorer", "pass", "answer"]
-    calls = pd.DataFrame([{k: r[k] for k in cols} for r in finals])
+    calls = pd.DataFrame([{**call_fields(r), "answer": r["answer"]} for r in finals])
     scores = an.text_scores(calls)
     totals = an.accuracy_counts(scores).sum()
     stab = an.stability(calls)

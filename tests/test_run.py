@@ -129,3 +129,15 @@ def test_csv_has_one_row_per_finished_call(tmp_path):
     rows = out.read_text().splitlines()
     assert len(rows) == 3 and rows[0].startswith("feature,text,label")
     assert json.loads(log.path.read_text().splitlines()[0])["attempt"] == 1
+
+
+def test_a_finished_record_keeps_its_text_index_and_the_reply_apart(tmp_path):
+    log = run.Log(tmp_path / "calls.jsonl")
+    calls = run.plan_calls(texts(1), EXPL, ["gemini-flash"], passes=(1,))
+    c = next(c for c in calls if c["text"] == 7)
+    run.run_openrouter(log, [c], fake_send(["[1]"]), cap=10, workers=1)
+    (r,) = log.records
+    assert r["text"] == 7 and r["reply"] == "[1]" and r["answer"] == "1"
+    old = {**r, "text": "[1]"}  # the pilot log: the reply overwrote the index
+    del old["reply"]
+    assert run.call_fields(old)["text"] == 7 and run.call_fields(old)["reply"] == "[1]"

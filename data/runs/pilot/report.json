@@ -1,0 +1,183 @@
+{
+ "calls_finished": 6000,
+ "usd_spent": 1.3934,
+ "scorers": {
+  "gemini-flash": {
+   "accuracy": {
+    "A": 0.7975,
+    "B": 0.8825,
+    "P": 0.4875
+   },
+   "gain": 0.3525,
+   "sensitivity_AB": 0.7025,
+   "specificity_AB": 0.9775,
+   "yes_rate": {
+    "A": 0.3225,
+    "B": 0.3975,
+    "P": 0.03
+   },
+   "invalid_rate": 0.0025,
+   "stability_changed": 0.005,
+   "usd_per_call": 6.9e-05,
+   "gate": {
+    "placebo_40_60": true,
+    "invalid_below_2pct": true,
+    "third_pass_needed": false
+   }
+  },
+  "haiku-5.5": {
+   "accuracy": {
+    "A": 0.7725,
+    "B": 0.8075,
+    "P": 0.4925
+   },
+   "gain": 0.2975,
+   "sensitivity_AB": 0.6,
+   "specificity_AB": 0.98,
+   "yes_rate": {
+    "A": 0.2975,
+    "B": 0.3175,
+    "P": 0.025
+   },
+   "invalid_rate": 0.0067,
+   "stability_changed": 0.0367,
+   "usd_per_call": 1.8e-05,
+   "gate": {
+    "placebo_40_60": true,
+    "invalid_below_2pct": true,
+    "third_pass_needed": false
+   }
+  },
+  "mistral-small": {
+   "accuracy": {
+    "A": 0.7825,
+    "B": 0.8625,
+    "P": 0.49
+   },
+   "gain": 0.3325,
+   "sensitivity_AB": 0.67,
+   "specificity_AB": 0.975,
+   "yes_rate": {
+    "A": 0.3075,
+    "B": 0.3775,
+    "P": 0.025
+   },
+   "invalid_rate": 0.0067,
+   "stability_changed": 0.0033,
+   "usd_per_call": 1.7e-05,
+   "gate": {
+    "placebo_40_60": true,
+    "invalid_below_2pct": true,
+    "third_pass_needed": false
+   }
+  },
+  "opus-5.5": {
+   "accuracy": {
+    "A": 0.9,
+    "B": 0.85,
+    "P": 0.495
+   },
+   "gain": 0.38,
+   "sensitivity_AB": 0.7825,
+   "specificity_AB": 0.9675,
+   "yes_rate": {
+    "A": 0.4625,
+    "B": 0.35,
+    "P": 0.0275
+   },
+   "invalid_rate": 0.015,
+   "stability_changed": 0.0333,
+   "usd_per_call": 0.000711,
+   "gate": {
+    "placebo_40_60": true,
+    "invalid_below_2pct": true,
+    "third_pass_needed": false
+   }
+  },
+  "sonnet-5.5": {
+   "accuracy": {
+    "A": 0.82,
+    "B": 0.8375,
+    "P": 0.5025
+   },
+   "gain": 0.3263,
+   "sensitivity_AB": 0.6575,
+   "specificity_AB": 1.0,
+   "yes_rate": {
+    "A": 0.32,
+    "B": 0.3375,
+    "P": 0.015
+   },
+   "invalid_rate": 0.0008,
+   "stability_changed": 0.01,
+   "usd_per_call": 0.000346,
+   "gate": {
+    "placebo_40_60": true,
+    "invalid_below_2pct": true,
+    "third_pass_needed": false
+   }
+  }
+ },
+ "agreement_AB_pass1": {
+  "gemini-flash / haiku-5.5": {
+   "agreement": 0.8962,
+   "disagreement": 0.1038,
+   "kappa": 0.7672,
+   "n": 395.0
+  },
+  "gemini-flash / mistral-small": {
+   "agreement": 0.8917,
+   "disagreement": 0.1083,
+   "kappa": 0.7633,
+   "n": 397.0
+  },
+  "gemini-flash / opus-5.5": {
+   "agreement": 0.8721,
+   "disagreement": 0.1279,
+   "kappa": 0.73,
+   "n": 391.0
+  },
+  "gemini-flash / sonnet-5.5": {
+   "agreement": 0.9123,
+   "disagreement": 0.0877,
+   "kappa": 0.8061,
+   "n": 399.0
+  },
+  "haiku-5.5 / mistral-small": {
+   "agreement": 0.8477,
+   "disagreement": 0.1523,
+   "kappa": 0.6519,
+   "n": 394.0
+  },
+  "haiku-5.5 / opus-5.5": {
+   "agreement": 0.8608,
+   "disagreement": 0.1392,
+   "kappa": 0.699,
+   "n": 388.0
+  },
+  "haiku-5.5 / sonnet-5.5": {
+   "agreement": 0.9116,
+   "disagreement": 0.0884,
+   "kappa": 0.7951,
+   "n": 396.0
+  },
+  "mistral-small / opus-5.5": {
+   "agreement": 0.8333,
+   "disagreement": 0.1667,
+   "kappa": 0.6461,
+   "n": 390.0
+  },
+  "mistral-small / sonnet-5.5": {
+   "agreement": 0.8543,
+   "disagreement": 0.1457,
+   "kappa": 0.6726,
+   "n": 398.0
+  },
+  "opus-5.5 / sonnet-5.5": {
+   "agreement": 0.8903,
+   "disagreement": 0.1097,
+   "kappa": 0.7648,
+   "n": 392.0
+  }
+ }
+}
