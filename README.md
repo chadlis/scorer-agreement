@@ -51,7 +51,8 @@ done (agreement on errors, decided before any grid result was read,
 `figures/exploratory_errors.png`, last section of the notebook), and one noted for
 later (whether scorers rank explanations alike, decided after the results). The 30
 divergent texts read by hand are drawn by `scripts/sample_divergent.py`
-(`data/analysis/divergent_sample.json`).
+(`data/analysis/divergent_sample.json`). Two fresh agents read them blind to the scorer
+names (`divergent_agent_reading.json`, `divergent_agent_reading_2.json`).
 
 ## Scorers
 
