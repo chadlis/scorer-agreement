@@ -1,0 +1,22 @@
+{
+ "frozen": "2026-11-21",
+ "calls": 120000,
+ "attempts_in_log": 121510,
+ "usd_spent": 27.5493,
+ "usd_by_transport": {
+  "openrouter": 1.7798,
+  "batch": 25.7696
+ },
+ "invalid_by_scorer": {
+  "gemini-flash": 53,
+  "haiku-5.5": 282,
+  "mistral-small": 142,
+  "opus-5.5": 214,
+  "sonnet-5.5": 48
+ },
+ "errors_retried": 1,
+ "sha256": {
+  "calls.csv": "4226575e08fd3421801037edb2899bd23bc3b478843037b4b881e76fe0ccce0f",
+  "calls.jsonl.gz": "a79dafafcfd6a5e9e718ff6e51efba7e41e8579d1e7a272c0f4bc2dd6c3c9d7d"
+ }
+}

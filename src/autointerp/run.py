@@ -9,6 +9,7 @@ texts and the placebos are frozen (git tag `plan-frozen`, nothing changed since)
 """
 
 import csv
+import gzip
 import json
 import subprocess
 import threading
@@ -95,13 +96,20 @@ def cost(record: dict) -> float:
 
 class Log:
     """Append-only JSONL of attempts, with the spend so far and the finished calls.
-    The spend is kept as running totals per transport, so checking it is cheap."""
+    The spend is kept as running totals per transport, so checking it is cheap.
+    A finished run may be stored compressed (path + ".gz", the grid log is too large
+    for git): it is then read from there."""
 
     def __init__(self, path: Path):
         self.path, self.lock = path, threading.Lock()
-        self.records = (
-            [json.loads(x) for x in path.read_text().splitlines()] if path.exists() else []
-        )
+        gz = path.with_name(path.name + ".gz")
+        if path.exists():
+            lines = path.read_text().splitlines()
+        elif gz.exists():
+            lines = gzip.decompress(gz.read_bytes()).decode().splitlines()
+        else:
+            lines = []
+        self.records = [json.loads(x) for x in lines]
         self.totals: dict[str | None, float] = {}
         for r in self.records:
             self._count(r)

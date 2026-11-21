@@ -154,3 +154,16 @@ def test_spend_is_kept_per_transport_and_survives_a_reload(tmp_path):
     assert log.spent("openrouter") == pytest.approx(0.02)
     assert log.spent("batch") == pytest.approx(2.0)
     assert run.Log(path).spent() == pytest.approx(2.02)
+
+
+def test_a_compressed_log_is_read_when_the_plain_one_is_absent(tmp_path):
+    import gzip
+
+    path = tmp_path / "calls.jsonl"
+    log = run.Log(path)
+    calls = run.plan_calls(texts(1), EXPL, ["gemini-flash"], passes=(1,))[:2]
+    run.run_openrouter(log, calls, fake_send(["[1]", "[0]"]), cap=10, workers=1)
+    (tmp_path / "calls.jsonl.gz").write_bytes(gzip.compress(path.read_bytes()))
+    path.unlink()
+    again = run.Log(path)
+    assert again.done() == log.done() and again.spent() == pytest.approx(log.spent())

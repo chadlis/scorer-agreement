@@ -26,7 +26,10 @@ The data are frozen (git tag `plan-frozen`, 2026-11-21): `PLAN.md`, the 40 verif
 texts of each of the 100 features (`data/texts/`) and the placebos
 (`data/placebos/final.json`). The pilot ran on 2026-11-21 on the 5 pilot features
 (6,000 calls, 1.39 USD, raw log and gate report in `data/runs/pilot/`). It passed
-the gate, and the grid was started on the same day (`data/runs/pilot/decision.md`). The 100 features are a simple
+the gate (`data/runs/pilot/decision.md`). The grid ran on the same day: 120,000
+calls, 27.55 USD, frozen with the git tag `grid-frozen` (`data/runs/grid/`: one CSV
+row per call, the raw log compressed as `calls.jsonl.gz`, counts and checksums in
+`summary.json`). The analyses are next. The 100 features are a simple
 random sample of the eligible features, drawn with a seed committed beforehand. One
 feature that kept too few positives after recomputation was replaced by the next
 one of the draw (`PLAN.md`, appendix A.2). Negatives are drawn from the stored windows of the other

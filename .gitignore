@@ -10,3 +10,5 @@ __pycache__/
 # raw Neuronpedia cache: re-downloadable, large
 data/raw/*
 !data/raw/.gitkeep
+# the plain grid log is too large for git: calls.jsonl.gz is committed instead
+data/runs/grid/calls.jsonl
