@@ -1,8 +1,8 @@
 % Draft write-up, prepared by Claude for Salah's revision (2026-11-21).
-% Passages in bold (\interp{...}) are interpretations drafted by Claude:
-% Salah confirms, rewrites or removes each of them. [AV] marks a reference or a
-% claim about another paper that Salah must check against the source.
-% Extended version. The two-page submission is report.tex.
+% Interpretations: in the results they open with an italic "Interpretation." run-in,
+% and the Discussion and Conclusion are interpretive by their titles. Salah confirms,
+% rewrites or removes each of them. Every reference was checked at its source on
+% 2026-11-21. Extended version. The short submission is report.tex.
 % Compile with: tectonic report_extended.tex   (or pdflatex, two passes)
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -26,7 +26,6 @@
 \setlength{\emergencystretch}{3em}
 
 \newcommand{\bibentree}[1]{\par\noindent\hangindent=1.5em\hangafter=1 #1\par\vspace{0.5em}}
-\newcommand{\interp}[1]{\textbf{#1}}
 \newcommand{\av}{\textcolor{red}{[AV]}}
 
 \title{Do autointerp scorers agree?\\[0.3em]
@@ -281,9 +280,11 @@ more false alarms. Opus is the clearest case. With the explanations, it recognis
 73\% of the positives against 62 to 65\% for the others, and answers ``yes'' to about
 10\% of the negatives against 4 to 7\%. Its larger gain is therefore the balance of
 more positives found and more false alarms, and the first effect is larger.
-\interp{The difference between scorers on the gain thus appears to come, at least in
+
+
+\textit{Interpretation.} The difference between scorers on the gain thus appears to come, at least in
 part, from a different threshold for answering ``yes'', and not only from a different
-understanding of the explanation.}
+understanding of the explanation.
 
 The errors also depend on the strength of the positive. In the pilot, the scorers
 recognised about half of the weakest positives and nine in ten of the strongest
@@ -325,9 +326,11 @@ readings attribute 18 to 21 of the 30 disagreements to the explanation or the te
 rather than to a scorer error. The blind readings also recover the profiles of the
 table: the scorer that is most often alone in saying ``yes'' is Opus, and the two
 scorers that are alone only in saying ``no'' are Gemini and Sonnet.
-\interp{A large share of the disagreement between scorers therefore seems to come from
+
+
+\textit{Interpretation.} A large share of the disagreement between scorers therefore seems to come from
 explanations that do not describe the feature exactly, which leaves each scorer to
-choose between a literal reading and a reading by meaning.}
+choose between a literal reading and a reading by meaning.
 
 \paragraph{Exploratory: do scorers fail on the same texts?} This analysis was added
 after the plan was frozen, before any grid result was read (\texttt{DEVIATIONS.md},
@@ -389,35 +392,35 @@ feature, and whether they hold on new texts is not tested here.
 In this section, I discuss two questions that the results raise for the use of
 autointerp scores.
 
-The first question is whether the choice of scorer matters. \interp{At the level of a
+The first question is whether the choice of scorer matters. At the level of a
 single text, it does: two scorers disagree on 7 to 13\% of the texts, which is well
 above the noise of a single scorer. At the level of the average gain, it matters much
 less: four of the five scorers draw a similar benefit from the explanation, and the
 fifth draws about 3 points more on a gain of 30. At the level of the choice between two
 explanations of a feature, it matters again: the scorers rank the 200 explanations
-alike, but two scorers pick opposite explanations on 13 to 27\% of the features.} Van
+alike, but two scorers pick opposite explanations on 13 to 27\% of the features. Van
 der Ben et al.\ (2026) report that the ranking of the best-explained features can shift
 with the pipeline even when mean scores look stable, and my ranking analysis shows
 the same pattern for the scorer: a stable mean gain does not guarantee a stable choice of
 explanation.
 
-The second question is what a scorer's error measures. \interp{The reading of the
+The second question is what a scorer's error measures. The reading of the
 divergent texts suggests that many errors are errors of the explanation rather than
 of the scorer: when an explanation is too narrow or too broad, a scorer that follows
 it faithfully is wrong against the measured label. The detection score of an
 explanation thus mixes the quality of the explanation with the threshold of the
-scorer, and this protocol does not separate the two.}
+scorer, and this protocol does not separate the two.
 
 \section{Conclusion}
 
-\interp{I can thus conclude that, on this SAE and with this prompt, the five scorers
+I can thus conclude that, on this SAE and with this prompt, the five scorers
 draw a similar average benefit from an explanation, within about 3 points, while two of
 them disagree on about one text in ten. The placebo control shows that the benefit is
 real, since every scorer falls to chance without the explanation. The larger gain of
 Opus comes with more false alarms, and a large share of the disagreement appears to
 come from the explanations themselves. The scorers rank explanations alike overall,
 but on almost half of the features at least two of them would retain a different one
-of the two explanations.}
+of the two explanations.
 
 \paragraph{Next steps.} These directions need new scorer calls and are outside the
 frozen protocol. First, score new texts for the same explanations, comparing one scorer

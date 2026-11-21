@@ -1,6 +1,7 @@
 % Short submission (three pages at most), drafted by Claude for Salah's revision.
-% Passages in bold (\interp{...}) are interpretations: Salah confirms, rewrites or
-% removes each of them. Every reference was checked at its source on 2026-11-21.
+% Interpretations: in the results they open with an italic "Interpretation." run-in,
+% and the Discussion and Conclusion are interpretive by their titles. Salah confirms,
+% rewrites or removes each of them. Every reference was checked at its source on 2026-11-21.
 % The extended version, with every detail, is report_extended.tex.
 % Compile with: tectonic report.tex
 \documentclass[10pt]{article}
@@ -27,7 +28,6 @@
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}{-1.3ex}{0.4ex}{\normalfont\normalsize\bfseries}}
 \renewcommand\@makefntext[1]{\noindent\footnotesize\textbf{\@thefnmark.}\ #1}
 \makeatother
-\newcommand{\interp}[1]{\textbf{#1}}
 \newcommand{\bibentree}[1]{\par\noindent\hangindent=1.2em\hangafter=1 #1\par}
 
 \begin{document}
@@ -203,9 +203,11 @@ a small loss (0.8 to 3.1 points). In other words, the explanation makes a scorer
 more positives, and raise a few more false alarms (Table~\ref{tab:profile}).
 
 Opus is the clearest case. It finds 73\% of the positives, against 62 to 65\% for the
-others, and answers 1 to about 10\% of the negatives, against 4 to 7\%. \interp{Its larger
+others, and answers 1 to about 10\% of the negatives, against 4 to 7\%.
+
+\textit{Interpretation.} Its larger
 gain thus seems to come from a lower threshold for answering ``yes'', rather than from a
-better reading of the explanation.}
+better reading of the explanation.
 
 \subsection*{The texts where the scorers disagree}
 
@@ -231,14 +233,14 @@ explanations. These preferences rest on 40 texts per feature.
 
 \section{Conclusion}
 
-\interp{I can thus conclude that, on this SAE and with this prompt, the five scorers draw
+I can thus conclude that, on this SAE and with this prompt, the five scorers draw
 a similar average benefit from an explanation, within about 3 points, while two of them
 disagree on about one text in ten. The placebo shows that the benefit is real, since every
 scorer falls to chance without the explanation. The larger gain of Opus comes with more
 false alarms, and much of the disagreement appears to come from explanations that do not
 describe the feature exactly. Finally, the scorers rank explanations alike overall, but
 on almost half of the features at least two of them would retain a different one of the
-two explanations.}
+two explanations.
 
 The next step is to score new texts for the same explanations, comparing one scorer on
 two disjoint sets of texts with two scorers on the same set, to tell whether these
