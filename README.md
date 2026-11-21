@@ -29,7 +29,10 @@ texts of each of the 100 features (`data/texts/`) and the placebos
 the gate (`data/runs/pilot/decision.md`). The grid ran on the same day: 120,000
 calls, 27.55 USD, frozen with the git tag `grid-frozen` (`data/runs/grid/`: one CSV
 row per call, the raw log compressed as `calls.jsonl.gz`, counts and checksums in
-`summary.json`). The analyses are next. The 100 features are a simple
+`summary.json`). The planned analyses are in `notebooks/analysis.ipynb` (executed,
+replayed from a fresh clone): Figure 1 (`figures/figure1_agreement.png`), Figure 2
+(`figures/figure2_gain.png`), the table (`data/analysis/table_profile.csv`) and every
+number with its interval (`data/analysis/results.json`). The 100 features are a simple
 random sample of the eligible features, drawn with a seed committed beforehand. One
 feature that kept too few positives after recomputation was replaced by the next
 one of the draw (`PLAN.md`, appendix A.2). Negatives are drawn from the stored windows of the other
@@ -138,6 +141,10 @@ Data-freezing scripts:
   it (paid). The total cap of 40 USD covers the pilot and the grid. The three Claude
   batches and the OpenRouter calls run at the same time (`data/runs/grid/`).
   `uv run scripts/grid_status.py` shows its progress (free).
+- `uv run scripts/analyze_grid.py` runs the analyses of `PLAN.md` 2.6 on the frozen
+  grid (no call, about 30 s) and writes the results, both figures and the table.
+  `uv run jupyter nbconvert --to notebook --execute notebooks/analysis.ipynb` replays
+  the notebook, which checks the grid checksums and the committed results.
 - `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
   freeze (no negative from the placebo donor, separator balance, token lengths), and `uv run scripts/pilot_report.py`
   computes the pilot gate and both central measures from the pilot log.

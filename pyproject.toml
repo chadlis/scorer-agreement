@@ -14,7 +14,14 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["pytest>=8", "pytest-asyncio>=0.23", "ipykernel>=6", "ruff>=0.17"]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+    "ipykernel>=6",
+    "ruff>=0.17",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+]
 
 [build-system]
 requires = ["hatchling"]
