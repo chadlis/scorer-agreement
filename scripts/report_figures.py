@@ -3,8 +3,9 @@ of the scorers, and the causes of disagreement on the 30 divergent texts.
 
 Usage: uv run scripts/report_figures.py
 Reads the frozen grid and the two blind readings, writes
-figures/fig0_design.png, figures/fig3_operating_points.png and
-figures/fig5_divergent.png.
+figures/fig0_design.png, figures/fig3_operating_points.png,
+figures/fig5_divergent.png and figures/fig_report_main.png (the two central measures
+at the width of the two-page report).
 """
 
 import json
@@ -14,7 +15,17 @@ from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Patch
 
 from autointerp.models import SCORERS
 from autointerp.neuronpedia import ROOT
-from autointerp.report import BLUE, GRID_LINE, INK, INK2, NAMES, ORANGE, _style, load_grid
+from autointerp.report import (
+    BLUE,
+    GRID_LINE,
+    INK,
+    INK2,
+    NAMES,
+    ORANGE,
+    _intervals,
+    _style,
+    load_grid,
+)
 
 FIG = ROOT / "figures"
 DATA = ROOT / "data" / "analysis"
@@ -163,11 +174,46 @@ def divergent() -> plt.Figure:
     return fig
 
 
+def compact(res: dict) -> plt.Figure:
+    """The two central measures at the width of a two-page report: (a) Cohen's kappa
+    per pair of scorers, (b) the paired differences of gain, larger minus smaller."""
+    short = {s: NAMES[s].split(" ")[0] for s in SCORERS}
+    fig, (a, b) = plt.subplots(1, 2, figsize=(7.4, 3.0))
+    block = res["agreement_AB_pass1"]
+    pairs = sorted(block, key=lambda k: block[k]["kappa"]["est"])
+    v = [block[k]["kappa"] for k in pairs]
+    _intervals(a, pairs, [x["est"] for x in v], [x["lo"] for x in v], [x["hi"] for x in v])
+    a.set_yticks(range(len(pairs)), [" / ".join(short[p] for p in k.split(" / ")) for k in pairs])
+    a.set_xlim(0.65, 0.9)
+    a.set_title("(a) Cohen's kappa, A and B, pass 1", fontsize=8.5, color=INK, loc="left")
+    diffs = {}
+    for k, d in res["gain_differences"].items():
+        x, y = k.split(" - ")
+        if d["est"] < 0:
+            x, y, d = y, x, {"est": -d["est"], "lo": -d["hi"], "hi": -d["lo"]}
+        diffs[(x, y)] = d
+    keys = sorted(diffs, key=lambda k: diffs[k]["est"])
+    for i, k in enumerate(keys):
+        d = diffs[k]
+        color = BLUE if d["lo"] > 0 or d["hi"] < 0 else INK2
+        _intervals(b, [None], [d["est"] * 100], [d["lo"] * 100], [d["hi"] * 100], color, i)
+    b.axvline(0, color=INK, linewidth=0.8)
+    b.set_yticks(range(len(keys)), [" − ".join(short[p] for p in k) for k in keys])
+    b.set_title("(b) Paired difference of gain (points)", fontsize=8.5, color=INK, loc="left")
+    for ax in (a, b):
+        _style(ax)
+        ax.tick_params(labelsize=7.5)
+    fig.tight_layout()
+    return fig
+
+
 def main() -> None:
     design().savefig(FIG / "fig0_design.png", dpi=200)
     operating_points(load_grid()).savefig(FIG / "fig3_operating_points.png", dpi=200)
     divergent().savefig(FIG / "fig5_divergent.png", dpi=200)
-    print("written fig0_design, fig3_operating_points, fig5_divergent")
+    res = json.loads((DATA / "results.json").read_text())
+    compact(res).savefig(FIG / "fig_report_main.png", dpi=250)
+    print("written fig0_design, fig3_operating_points, fig5_divergent, fig_report_main")
 
 
 if __name__ == "__main__":

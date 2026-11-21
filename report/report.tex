@@ -1,483 +1,180 @@
-% Draft write-up, prepared by Claude for Salah's revision (2026-11-21).
-% Passages typeset in violet (\interp{...}) are interpretations drafted by Claude:
-% Salah confirms, rewrites or removes each of them. [AV] marks a reference or a
-% claim about another paper that Salah must check against the source.
-% Compile with: tectonic report.tex   (or pdflatex, two passes)
-\documentclass[11pt]{article}
+% Two-page submission, drafted by Claude for Salah's revision (2026-11-21).
+% Passages in violet (\interp{...}) are interpretations: Salah confirms, rewrites or
+% removes each of them. [AV] marks a claim about another paper to check at the source.
+% The extended version, with every detail, is report_extended.tex.
+% Compile with: tectonic report.tex
+\documentclass[10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
-\usepackage{geometry}
-\usepackage{amsmath, amssymb}
+\usepackage[a4paper, margin=1.7cm, top=1.4cm, bottom=1.6cm]{geometry}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
-\usepackage{caption}
-\usepackage{float}
+\usepackage[font=footnotesize, labelfont=bf, skip=3pt]{caption}
 \usepackage{hyperref}
-\geometry{margin=2.3cm}
-\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue, breaklinks=true}
-\usepackage{url}
-\urlstyle{same}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, breaklinks=true}
 \graphicspath{{../figures/}}
-\captionsetup{font=small, labelfont=bf}
 \tolerance=2000
 \setlength{\emergencystretch}{3em}
-
-\newcommand{\bibentree}[1]{\par\noindent\hangindent=1.5em\hangafter=1 #1\par\vspace{0.5em}}
+\setlength{\parskip}{2pt}
+\setlength{\textfloatsep}{6pt}
+\setlength{\floatsep}{4pt}
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}{-1.2ex}{0.5ex}{\normalfont\normalsize\bfseries}}
+\makeatother
 \newcommand{\interp}[1]{\textcolor{violet}{#1}}
 \newcommand{\av}{\textcolor{red}{[AV]}}
-
-\title{Do autointerp scorers agree?\\[0.3em]
-\large Five LLM scorers, one SAE, and a placebo control}
-\author{Salah Chadli\\ \small Mechanistic Interpretability Hackathon 5: Autointerp, November 2026\\
-\small Code and data: \url{https://github.com/chadlis/scorer-agreement}}
-\date{}
+\newcommand{\bibentree}[1]{\par\noindent\hangindent=1.2em\hangafter=1 #1\par}
 
 \begin{document}
-\maketitle
 
-\begin{abstract}
-\noindent Automated interpretability (\emph{autointerp}) scores an explanation of a
-sparse autoencoder feature by asking a language model, the \emph{scorer}, to predict
-from the explanation where the feature fires. Published pipelines usually fix one
-scorer. We ask whether the choice of scorer changes the judgments and the benefit of
-the explanation. We hold texts and explanations fixed and compare five scorers (Claude
-Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini 2.5 Flash, Mistral Small 3.2) on 100
-features of one SAE, 40 texts per feature with measured labels, two original
-explanations per feature and a placebo explanation taken from another feature
-(120,000 calls). Two scorers answer differently on 7 to 13\% of the texts (Cohen's
-kappa 0.72 to 0.84). Under the placebo every scorer falls to chance (48.6 to 49.5\%),
-and the explanation brings each of them about 30 accuracy points. Four scorers gain
-the same amount within about one point, while Opus gains about 3 points more than
-each of them, because it answers ``yes'' more often: it finds more positives and
-raises more false alarms. A reading of 30 texts where the scorers disagree suggests
-that a large share of the disagreement comes from explanations that do not describe
-the feature exactly. The whole design was fixed and frozen before the first call.
-\end{abstract}
+\begin{center}
+{\large\bfseries Do autointerp scorers agree? Five LLM scorers, one SAE, and a placebo control}\\[2pt]
+{\small Salah Chadli $\cdot$ Mechanistic Interpretability Hackathon 5: Autointerp, November 2026 $\cdot$
+\url{https://github.com/chadlis/scorer-agreement}}
+\end{center}
 
-\section{The question}
+\section{Question and motivation}
 
-A \emph{sparse autoencoder} (SAE) rewrites the activations of a language model as a
-sum of many \emph{features}, each of which fires on few tokens and is meant to stand
-for one idea. An LLM writes a short \emph{explanation} of each feature from the texts
-where it fires most. To know whether the explanation is any good, the
-\emph{detection} method of Paulo et al.\ (2024) shows the explanation and a text to a
-second LLM, the \emph{scorer}, which answers 1 if it predicts that the feature fires
-on the text and 0 otherwise. The share of right answers is the score of the
-explanation.
-
-The score therefore depends on two things: the explanation, which is what one wants to
-measure, and the scorer, which is a choice of the pipeline. Two recent works make this
-dependence a practical concern. First, van der Ben et al.\ (2026) show that the choices
-made in the pipeline move autointerp scores more than the differences between the models
-that are explained. To isolate those choices, they keep a single scorer fixed (Gemini
-Flash), and they name the variation of the scorer as an axis of instability that they
-did not study \av. Second, Chen (2026) shows that on the stored scoring data of
-Neuronpedia for GPT-2 small, a simple rule that never reads the explanation (it answers
-``yes'' when the central token of the excerpt is marked) reaches a higher balanced
-accuracy than the stored LLM scorers, and recommends reporting every score next to the
-best rule that does without the explanation \av. Taken together, these results raise
-two questions that a fixed-scorer study cannot answer: whether another scorer would give
-the same scores, and how much of a score actually comes from the explanation.
-
-To our knowledge (searches of 17 and 21 November 2026), no published study compares
-several scorers on the same texts and explanations. Our question is therefore the
-following: \emph{with texts and explanations held fixed, do scorer models differ in their
-judgments, and in the gain that the explanation brings them over an unrelated
-explanation (a placebo)?} We include Gemini Flash among the five scorers, so that our
-results can be related to the scorer that van der Ben et al.\ keep fixed.
-
-The question has two parts, and each part has its own measure, fixed before the
-first call. The first part is about judgments: do two scorers give the same answer on
-the same text? It is measured by the raw agreement and Cohen's kappa of each pair of
-scorers (Figure~\ref{fig:agreement}). The second part is about the benefit of the
-explanation: the \emph{gain} of a scorer is its accuracy with the original
-explanations minus its accuracy with the placebo. It is the central measure of the
-study (Figure~\ref{fig:gain}). The placebo is what makes the gain meaningful: a scorer
-that answers well with the explanation could do so because of the explanation, or
-because of some cue in the texts themselves. Giving it the explanation of another
-feature, and nothing else changed, removes the first cause and keeps the second. The
-placebo is thus the explanation-free baseline that Chen (2026) recommends, measured for
-each scorer on exactly the same texts.
+A \emph{sparse autoencoder} (SAE) splits the activations of a language model into many
+\emph{features}, each meant to stand for one idea, and an LLM writes a short
+\emph{explanation} of each. In \emph{detection} scoring (Paulo et al., 2024), a second
+LLM, the \emph{scorer}, reads the explanation and one text and answers 1 if it predicts
+that the feature fires on the text. The share of right answers is the score of the
+explanation. The score thus depends on the explanation, which one wants to measure, and
+on the scorer, which is a choice of the pipeline. Van der Ben et al.\ (2026) show that
+pipeline choices move autointerp scores a great deal, keep one scorer fixed (Gemini
+Flash), and name the variation of the scorer as an axis they did not study \av. Chen
+(2026) shows that a rule that never reads the explanation can beat LLM scorers on stored
+scoring data, and recommends reporting every score next to an explanation-free baseline
+\av. To our knowledge (searches of 17 and 21 November 2026), no published study compares
+several scorers on the same texts and explanations. We ask: \emph{with texts and
+explanations held fixed, do scorers differ in their judgments, and in the gain that the
+explanation brings them over an unrelated explanation (a placebo)?}
 
 \section{Design}
 
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{fig0_design.png}
-\caption{The design. Every element on the left of the scorers was frozen in git
-(tag \texttt{plan-frozen}) before the first scorer call.}
-\label{fig:design}
+\includegraphics[width=0.94\linewidth]{fig0_design.png}
+\caption{The design. Texts, labels, placebos and the analysis plan were frozen in git
+before the first scorer call (tag \texttt{plan-frozen}).}
 \end{figure}
 
-Figure~\ref{fig:design} shows the chain. We describe each step in order. Appendix~A
-gives the details, and \texttt{PLAN.md} in the repository gives every rule.
-
-\paragraph{Features.} The SAE is \texttt{gpt2-small/6-res-jb} (Bloom, 2024 \av), read
-through the Neuronpedia API. The 24,576 features are shuffled once with a published
-seed (20261120) and examined in that order. A feature is kept if it fires on between
-0.001\% and 1\% of tokens, has both original explanations (A, written by
-gpt-3.5-turbo, and B, by gpt-4o-mini), has at least 20 distinct stored passages where
-it fires, and passes a gate: its strongest stored window still fires when sent alone.
-The first 100 features kept form the sample. One of them later lost too many positives
-and was replaced by the next feature of the order.
-
-\paragraph{Texts and labels.} Each feature gets 40 texts of 17 GPT-2 tokens: 20
-\emph{positives} and 20 \emph{negatives}. Every label is measured, never assumed: the
-feature's activation is recomputed on the exact text shown to the scorer. A positive
-must reach at least 10\% of the feature's maximum activation, and the 20 positives are
-spread over the whole range, from the weakest to the strongest. A negative must have
-an activation of exactly 0. Negatives are windows stored for the other sampled
-features: positives and negatives then come from the same corpus, with the same
-length and the same cut, so that their form tells nothing about the label. In
-particular, no token is marked in the text shown to the scorer, and positives and
-negatives alike are windows centred on a token where some feature fires (position 8 of
-17 for most of them), so the shortcut found by Chen (2026) is not available here.
-
-\paragraph{Explanations and placebo.} Each text is scored under three descriptions:
-explanation A, explanation B, and a placebo, which is the explanation of another
-feature. The placebos were chosen by a seeded assignment with filters (no shared
-content word, no feature close in the SAE's decoder space, a comparable length, no
-generic description such as ``punctuation''), then triaged by a fresh LLM agent and
-reviewed by the author, in 14 rounds, until no pair was in doubt.
-
-\paragraph{Scorers.} Five scorers answer: Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5
-(through Anthropic's Message Batches API), and Gemini 2.5 Flash and Mistral Small 3.2
-(through OpenRouter, with the provider pinned). Each call shows one text and one
-description, with the detection prompt of the delphi library (Paulo et al., 2024). The settings are the closest to deterministic that
-each model accepts (Appendix~A, Table~\ref{tab:settings}). Every call is made twice.
-
-\paragraph{Volume and order of work.} 100 features, 40 texts, 3 descriptions, 5
-scorers and 2 passes give 120,000 calls. A pilot on 5 features (6,000 calls, 1.39 USD)
-checked the whole chain against criteria fixed beforehand, then the grid ran (120,000
-calls, 27.55 USD). Accuracies and gains use the mean of the two passes, agreement uses
-pass 1. Every interval is a 95\% percentile interval from a bootstrap over features
-(10,000 resamples): the 40 texts of a feature share its explanation, so their errors
-are not independent, and the feature is the unit that is resampled.
+We drew 100 features of the SAE \texttt{gpt2-small/6-res-jb} (Neuronpedia), with a
+published seed, among those that fire on 0.001\% to 1\% of tokens and have two original
+explanations (A by gpt-3.5-turbo, B by gpt-4o-mini). Each feature has 40 texts of 17
+tokens, 20 \emph{positives} and 20 \emph{negatives}, and every label is measured by
+recomputing the feature's activation on the exact text shown: a positive reaches at
+least 10\% of the feature's maximum, from the weakest to the strongest, and a negative
+is exactly 0. Negatives are stored windows of the other sampled features, so that
+positives and negatives share corpus, length and cut, and no token is marked. Each text
+is scored under A, under B and under a \emph{placebo}, the explanation of another feature
+with an unrelated meaning, chosen by a filtered seeded assignment and reviewed in 14
+rounds. The five scorers are Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5, Gemini 2.5 Flash
+and Mistral Small 3.2, with delphi's detection prompt, one text per call, the most
+deterministic settings each model accepts, and two passes: 120,000 calls (27.55 USD),
+after a pilot on 5 features. The \emph{gain} of a scorer is its accuracy with A and B
+minus its accuracy with the placebo. Intervals are 95\% bootstrap intervals over features.
 
 \section{Results}
 
-\subsection{Judgments: two scorers differ on 7 to 13\% of the texts}
-
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.92\linewidth]{figure1_agreement.png}
-\caption{Agreement between scorers, explanations A and B pooled, pass 1, about 7,900
-texts per pair (texts with an unreadable answer are left out). Points are estimates,
-bars are 95\% bootstrap intervals over features. Pairs are sorted by kappa.}
-\label{fig:agreement}
+\includegraphics[width=0.86\linewidth]{fig_report_main.png}
+\caption{The two central measures, with 95\% bootstrap intervals over features. (a)
+Cohen's kappa of each pair of scorers, explanations A and B, pass 1, about 7,900 texts
+per pair. (b) The 10 paired differences of gain over the placebo, each oriented as larger
+minus smaller, in blue when the interval excludes 0. Gains per scorer are in
+Table~\ref{tab:profile}.}
+\label{fig:main}
 \end{figure}
 
-Figure~\ref{fig:agreement} gives the agreement of each of the 10 pairs. The raw
-agreement goes from 86.9\% (Mistral and Opus) to 92.6\% (Haiku and Sonnet): two
-scorers answer differently on 7 to 13\% of the texts. Cohen's kappa, which removes the
-agreement that two scorers would reach by chance given how often each says ``yes'',
-goes from 0.72 to 0.84. The pairs are not all alike: the intervals of the two extreme
-pairs do not overlap ([0.68, 0.76] against [0.81, 0.86]). Pass 2 gives the same kappas
-within 0.01. These disagreements are much larger than the noise of a single scorer:
-each scorer changes its own answer between its two passes on only 0.1 to 3.1\% of the
-texts. This stability is not a ceiling on the agreement between scorers, but it shows
-that the disagreements are not the result of sampling noise.
+\textbf{Judgments.} Two scorers answer differently on 7 to 13\% of the texts: the raw
+agreement goes from 86.9\% (Mistral and Opus) to 92.6\% (Haiku and Sonnet), and Cohen's
+kappa from 0.72 to 0.84, with non-overlapping intervals for the extreme pairs
+(Figure~\ref{fig:main}a). Each scorer changes its own answer between two passes on
+only 0.1 to 3.1\% of the texts, so these disagreements are not sampling noise.
 
-\subsection{Gain: about 30 points for every scorer, 3 more for Opus}
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.92\linewidth]{figure2_gain.png}
-\caption{(a) Gain over the placebo: accuracy with the explanation minus accuracy with
-the placebo, in points. (b) The 10 paired differences of gain, each oriented as larger
-minus smaller, in blue when the 95\% interval excludes 0.}
-\label{fig:gain}
-\end{figure}
-
-The placebo works as a control. Under the placebo, every scorer falls to an accuracy
-of 48.6 to 49.5\%, that is to chance: the texts carry no cue of their label that a
-scorer could use without the explanation. (The values sit slightly below 50\% because
-an unreadable answer counts as wrong.) With the explanations, the accuracy rises to 77
-to 83\%.
-
-Figure~\ref{fig:gain}a gives the gain of each scorer. It is about 30 points for every
-scorer, from 29.2 (Mistral) to 32.4 (Opus), and explanation B brings slightly more than
-explanation A to every scorer. Figure~\ref{fig:gain}b gives the paired differences.
-Six of the 10 differences are indistinguishable from 0, between $-0.1$ and $+0.5$
-points, with intervals of about $\pm 1$ point: Haiku, Sonnet, Gemini and Mistral draw
-the same benefit from the explanation, to about one point. The four other differences
-are those of Opus, which gains about 3 points more than each of the four others (for
-example Opus minus Mistral: $+3.2$ points, interval [1.8, 4.6]). The ten comparisons
-were fixed beforehand, and with ten comparisons about one in two series would exclude 0
-once by chance. Here the four exclusions form a single pattern, Opus against every
-other scorer, rather than isolated exclusions.
-
-\subsection{Where the differences come from}
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.62\linewidth]{fig3_operating_points.png}
-\caption{Operating point of each scorer under each description: sensitivity (share of
-positives answered 1) against false alarms (share of negatives answered 1), both
-passes. The placebo points sit near the origin. The explanation lifts every scorer
-mostly upwards, and a little to the right.}
-\label{fig:operating}
-\end{figure}
-
-\begin{table}[t]
-\centering
-\small
-\begin{tabular}{lrrrrrrrr}
-\toprule
-& \multicolumn{3}{c}{Sensitivity (\%)} & \multicolumn{3}{c}{Specificity (\%)} & Invalid & Changed \\
-\cmidrule(lr){2-4}\cmidrule(lr){5-7}
-Scorer & A & B & placebo & A & B & placebo & (\%) & (\%) \\
-\midrule
-Haiku 5.5 & 62.1 & 67.1 & 1.5 & 92.2 & 91.5 & 95.9 & 1.2 & 3.1 \\
-Sonnet 5.5 & 60.3 & 67.4 & 1.1 & 94.9 & 94.2 & 98.0 & 0.2 & 1.4 \\
-Opus 5.5 & 71.2 & 75.0 & 2.1 & 90.1 & 90.0 & 96.2 & 0.9 & 2.3 \\
-Gemini 2.5 Flash & 58.7 & 65.6 & 1.2 & 95.7 & 96.2 & 97.6 & 0.2 & 0.2 \\
-Mistral Small 3.2 & 60.9 & 63.6 & 1.2 & 93.6 & 94.6 & 96.8 & 0.6 & 0.1 \\
-\bottomrule
-\end{tabular}
-\caption{Profile per scorer (mean of both passes). Sensitivity: positives answered 1.
-Specificity: negatives answered 0. An unreadable answer counts as neither. Invalid:
-share of unreadable answers over all calls, after one retry. Changed: share of texts
-answered differently by the two passes.}
-\label{tab:profile}
-\end{table}
-
-Table~\ref{tab:profile} and Figure~\ref{fig:operating} decompose these results.
-Because each feature has as many positives as negatives, the accuracy is the mean of
-the sensitivity and the specificity, and the gain splits into two parts:
-\[
-\text{gain} = \tfrac{1}{2}\,(\text{sens}_{AB} - \text{sens}_{P}) + \tfrac{1}{2}\,(\text{spec}_{AB} - \text{spec}_{P}).
-\]
-The first part counts the positives that the explanation lets the scorer recognise,
-the second the negatives it rejects better. For every scorer, the first part makes
-the gain (30.5 to 35.5 points) and the second part is a small loss (0.8 to 3.1
-points): with the explanation, a scorer finds many more positives and raises a few
-more false alarms. Opus is the clearest case. With the explanations, it recognises
-73\% of the positives against 62 to 65\% for the others, and answers ``yes'' to about
-10\% of the negatives against 4 to 7\%. Its larger gain is therefore the balance of
-more positives found and more false alarms, and the first effect is larger.
-\interp{The difference between scorers on the gain thus appears to come, at least in
-part, from a different threshold for answering ``yes'', and not only from a different
-understanding of the explanation.}
-
-The errors also depend on the strength of the positive. In the pilot, the scorers
-recognised about half of the weakest positives and nine in ten of the strongest
-(Appendix~B). An explanation describes what makes a feature fire most, and the
-weakest activations are those it covers least.
-
-\subsection{Reading the texts where the scorers disagree}
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.78\linewidth]{fig5_divergent.png}
-\caption{Most likely cause of disagreement on 30 texts where the five scorers did not
-all give the same answer, according to two independent blind readings by the same
-model. Illustrative counts: the 30 texts were drawn 15 positives and 15 negatives,
-while 73\% of the divergent texts of the grid are positives.}
-\label{fig:divergent}
-\end{figure}
-
-On pass 1 and with the explanations, the five scorers are not unanimous on 1,568 of
-7,752 texts (20\%). We drew 30 of them with a seed fixed beforehand, 15 positives and
-15 negatives, and asked two fresh LLM agents (Claude Fable 5.2, with no other context
-and with the scorers renamed S1 to S5) to say for each text whether it fits the
-explanation and why the scorers split. The two readings give the same cause for 25 of
-the 30 texts (kappa 0.79). The author also read the 30 texts, before seeing the
-agents' readings but with the scorer names visible. His reading broadly agrees with
-theirs, but it was not recorded text by text and is not quantified.
-
-Figure~\ref{fig:divergent} gives the causes. On the positives, the disagreement has two
-forms. Either one or two scorers miss a cue that is present, or the majority answers
-0 while the feature fires strongly, because the explanation, read by its meaning,
-does not cover what makes the feature fire. For example, a feature explained as
-``references to radio'' fires on ``Radio'' in ``Radioactive Man'': the scorer that
-answers 1 is right against the majority. On the negatives, a scorer often answers 1
-because the text does contain what a too broad explanation describes, while the
-feature stays at 0. Across the 30 texts, the minority is right only 8 times. Both
-readings attribute 18 to 21 of the 30 disagreements to the explanation or the text
-rather than to a scorer error. The blind readings also recover the profiles of the
-table: the scorer that is most often alone in saying ``yes'' is Opus, and the two
-scorers that are alone only in saying ``no'' are Gemini and Sonnet.
-\interp{A large share of the disagreement between scorers therefore seems to come from
-explanations that do not describe the feature exactly, which leaves each scorer to
-choose between a literal reading and a reading by meaning.}
-
-\paragraph{Exploratory: do scorers fail on the same texts?} This analysis was added
-after the plan was frozen, before any grid result was read (\texttt{DEVIATIONS.md},
-entry 1). For each pair of scorers, we compare the share of texts where both are wrong
-with the share expected if their errors were independent. Every pair fails together
-3.4 to 4.1 times more often than independence would give (Figure~\ref{fig:errors} in
-Appendix~B). This is expected: some texts, such as the weakest positives, are hard for
-every scorer. The three pairs within Claude have the highest ratios, and the mean
-ratio within Claude exceeds the mean across families by 0.37 (interval [0.23, 0.52]).
-This comparison rests on 3 pairs against 7, and family is mixed with the settings of
-the models, so it does not show an effect of the family as such.
-
-\section{Discussion}
-
-In this section, we discuss two questions that the results raise for the use of
-autointerp scores.
-
-The first question is whether the choice of scorer matters. \interp{At the level of a
-single text, it does: two scorers disagree on 7 to 13\% of the texts, which is well
-above the noise of a single scorer. At the level of the average gain, it matters much
-less: four of the five scorers draw the same benefit from the explanation within one
-point, and the fifth draws about 3 points more on a gain of 30. A comparison of
-explanations made with one scorer would thus be broadly, but not exactly, the same with
-another.} This last point is only partly tested here: we compared scorers text by text
-and on average, not on the order in which they rank explanations, which is the
-practical use of a score. Van der Ben et al.\ (2026) report that the ranking of the
-best-explained features can shift with the pipeline even when mean scores look stable
-\av, so a stable mean gain does not guarantee a stable ranking. This test is noted for
-later (\texttt{DEVIATIONS.md}, entry 2).
-
-The second question is what a scorer's error measures. \interp{The reading of the
-divergent texts suggests that many errors are errors of the explanation rather than
-of the scorer: when an explanation is too narrow or too broad, a scorer that follows
-it faithfully is wrong against the measured label. The detection score of an
-explanation thus mixes the quality of the explanation with the threshold of the
-scorer, and this protocol does not separate the two.}
-
-\section{Conclusion}
-
-\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers
-are interchangeable for the average benefit of an explanation up to about 3 points,
-while they disagree on a fifth of the individual texts where any of them hesitates.
-The placebo control shows that the benefit is real, since every scorer falls to chance
-without the explanation. The larger gain of Opus comes with more false alarms, and a
-large share of the disagreement appears to come from the explanations themselves.
-These results do not say whether scorers rank explanations alike, which is the
-question that the next analysis should answer.}
-
-\section*{What these results do not show}
-
-High agreement is not validity: scorers can be wrong together, and the exploratory
-analysis shows that they often are. A gain over the placebo shows that the explanation
-helps to predict where the feature fires, not that it describes a mechanism. The study
-covers one SAE, one layer of a small model and 100 features, so nothing generalises to
-other SAEs. It uses five scorers, three of them from the same family, and one prompt.
-The settings differ from one scorer to another (thinking switched off, minimal or not
-available), so a difference between two scorers mixes the model and its setting. The
-positives are taken from the stored examples, which the explaining model may have seen,
-so they are not a sample of the natural distribution of the feature. One text is shown
-per call, which is not delphi's batched protocol. Finally, nothing reliable can be said
-about whether explanation A or B is better for a given feature.
-
-\section*{Work done before the hackathon, and AI assistance}
-
-Work before the kick-off (20 November 2026, 18:00 Paris time) was allowed. The setup,
-the scorer prompt (frozen on 19 November), the draw of the 100 features, the placebo
-assignment, the analysis code and the pilot runner were prepared before the kick-off,
-and the construction of the texts started on the afternoon of 20 November. The data
-were frozen, and the pilot, the grid, the analyses and the reading of the divergent
-texts were done on 21 November. \interp{The code and the first draft of this report
-were written with Claude Code (Claude Opus 5.5). The author made every design decision,
-reviewed the placebos and the plan, read the divergent texts and revised this report.}
-
-\section*{References}
-
-\bibentree{Bloom, J. (2024). Open source sparse autoencoders for all residual stream
-layers of GPT2-small. \emph{LessWrong / AI Alignment Forum}. \av}
-
-\bibentree{Chen (2026). Scoring explanations without reading them: structural
-shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}
-
-\bibentree{Cohen, J. (1960). A coefficient of agreement for nominal scales.
-\emph{Educational and Psychological Measurement}, 20(1), 37-46.}
-
-\bibentree{Efron, B., \& Tibshirani, R. J. (1993). \emph{An Introduction to the
-Bootstrap}. Chapman \& Hall.}
-
-\bibentree{Lin, J. (2023). Neuronpedia: an interactive reference and tooling for
-interpretability. \url{https://www.neuronpedia.org}. \av}
-
-\bibentree{Paulo, G., Mallen, A., Juang, C., \& Belrose, N. (2024). Automatically
-interpreting millions of features in large language models. arXiv:2410.13928. \av}
-
-\bibentree{Van der Ben, S., Roch, N., Hedstr\"om, A., \& El-Assady, M. (2026). Building
-fast, evaluating slow: pipeline choices dominate autointerpretability score variance.
-arXiv:2607.19386. \av}
-
-\newpage
-\appendix
-
-\section{Details of the design}
-
-\paragraph{Draw.} The features are examined in a list shuffled with seed 20261120.
-Of the first 114 examined, 5 failed the frequency filter, 8 failed the gate, and one
-(21484, ``ISBN numbers'') kept only 16 positives once the activations were recomputed
-on the 17-token texts, and was replaced by the next eligible feature (22836,
-``references to FIFA''). The sample holds 1 feature that fires on 0.001 to 0.01\% of
-tokens, 72 on 0.01 to 0.1\% and 27 on 0.1 to 1\%.
-
-\paragraph{Texts.} A positive passage is a stored window where the feature fires, and
-a passage is counted once even when Neuronpedia stores several sliding windows of it.
-The 20 positives are taken at evenly spaced ranks of the recomputed activation. The
-negatives are drawn, with a seed, from the stored windows of the other sampled
-features, never from the feature whose explanation is the placebo, each passage used
-once. Labels were recomputed with Neuronpedia's activation API on the exact text shown
-to the scorer (line breaks replaced by spaces). Over the 100 features, 170 candidate
-positives fell below the threshold and were set aside, and 91 candidate negatives had a
-non-zero activation and were replaced. The document separator token appears in 9.7\%
-of positives and 8.6\% of negatives, and the mean length is 16.40 and 16.39 GPT-2 tokens.
-
-\paragraph{Placebos.} The final assignment uses 100 distinct donors, 21 of them
-outside the sample, 50 explanations A and 50 explanations B, and no feature is its own
-donor. Seven placebo texts were forbidden along the rounds. The last round left one
-light doubt, which the author kept.
-
-\paragraph{Scoring.} The prompt is delphi's detection prompt (commit \texttt{a11130d}),
-with four changes: the three solved examples are removed, one sentence is reworded, and
-two sentences are added on the format of the answer and on excerpts cut mid-sentence.
-The answer is read with delphi's parser. An unreadable answer is retried once, then
-counted as invalid: wrong for accuracy, left out of agreement.
+\textbf{Gain.} The placebo works as a control: every scorer falls to 48.6 to 49.5\%,
+that is to chance, so the texts carry no usable cue of their label. With the
+explanations, accuracy rises to 77 to 83\%, a gain of about 30 points for every scorer
+(29.2 to 32.4, Table~\ref{tab:profile}). Six of the ten paired differences lie between $-0.1$ and $+0.5$ points
+with intervals of about $\pm1$ point: Haiku, Sonnet, Gemini and Mistral draw the same
+benefit from the explanation (Figure~\ref{fig:main}b). The four others are those of Opus, which gains about 3
+points more than each of them (Opus minus Mistral: $+3.2$, [1.8, 4.6]).
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{lll}
+\footnotesize
+\begin{tabular}{lrrrrrrrrr}
 \toprule
-Scorer & Access & Settings \\
+& Gain & \multicolumn{3}{c}{Sensitivity (\%)} & \multicolumn{3}{c}{Specificity (\%)} & Invalid & Changed \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Scorer & (pts) & A & B & placebo & A & B & placebo & (\%) & (\%) \\
 \midrule
-Claude Haiku 5.5 & Anthropic, batch & thinking off, effort low \\
-Claude Sonnet 5.5 & Anthropic, batch & initial thinking off (\texttt{between\_tools}), effort low \\
-Claude Opus 5.5 & Anthropic, batch & effort low (thinking cannot be switched off) \\
-Gemini 2.5 Flash & OpenRouter, Google AI Studio & temperature 0, reasoning off \\
-Mistral Small 3.2 & OpenRouter, Parasail bf16 & temperature 0 \\
+Haiku 5.5 & 29.6 & 62.1 & 67.1 & 1.5 & 92.2 & 91.5 & 95.9 & 1.2 & 3.1 \\
+Sonnet 5.5 & 29.7 & 60.3 & 67.4 & 1.1 & 94.9 & 94.2 & 98.0 & 0.2 & 1.4 \\
+Opus 5.5 & 32.4 & 71.2 & 75.0 & 2.1 & 90.1 & 90.0 & 96.2 & 0.9 & 2.3 \\
+Gemini 2.5 Flash & 29.6 & 58.7 & 65.6 & 1.2 & 95.7 & 96.2 & 97.6 & 0.2 & 0.2 \\
+Mistral Small 3.2 & 29.2 & 60.9 & 63.6 & 1.2 & 93.6 & 94.6 & 96.8 & 0.6 & 0.1 \\
 \bottomrule
 \end{tabular}
-\caption{Scorer settings. The Claude 5.5 models do not accept sampling parameters.}
-\label{tab:settings}
+\caption{Profile per scorer, mean of both passes. Gain: accuracy with A and B minus
+accuracy with the placebo (intervals in the repository). Sensitivity: positives answered 1.
+Specificity: negatives answered 0. Invalid: unreadable answers after one retry.
+Changed: texts answered differently by the two passes.}
+\label{tab:profile}
 \end{table}
 
-\paragraph{Pilot and grid.} The pilot (5 features, 6,000 calls, 1.39 USD) had to show
-placebo accuracy between 40 and 60\% and less than 2\% invalid answers for every
-scorer, the real cost per call, and both central measures computed end to end. It
-passed. No scorer changed its answer on more than 5\% of calls, so no third pass was
-added. The grid (120,000 calls) cost 27.55 USD: 25.77 USD for the Claude batches and
-1.78 USD through OpenRouter. One call failed on a transport error and was resumed.
-In all, 739 answers (0.6\%) were invalid after their retry.
+\textbf{Where the differences come from.} With as many positives as negatives, the gain
+splits into $\tfrac12(\text{sens}_{AB}-\text{sens}_P)+\tfrac12(\text{spec}_{AB}-\text{spec}_P)$.
+For every scorer the first part makes the gain (30.5 to 35.5 points) and the second is a
+small loss (0.8 to 3.1 points): the explanation makes a scorer find many more positives
+and raise a few more false alarms (Table~\ref{tab:profile}). Opus finds 73\% of the
+positives against 62 to 65\% for the others, and answers 1 to about 10\% of the negatives
+against 4 to 7\%. \interp{Its larger gain thus seems to come from a lower threshold for
+answering ``yes'' rather than from a better reading of the explanation.} On the 1,568
+texts (20\%) where the five scorers are not unanimous, we drew 30 (15 positives, 15
+negatives) and had two fresh LLM agents, blind to the scorer names, give the cause of
+each disagreement. They agree on 25 of 30 (kappa 0.79), and attribute 18 to 21 of them
+to the explanation or the text rather than to a scorer error. For example, a feature
+explained as ``references to radio'' fires on ``Radio'' in ``Radioactive Man'', and the
+lone scorer that answers 1 is right. The author's own reading, done before seeing the
+agents' and with the scorer names visible, broadly agrees but is not quantified.
+Exploratory, added after the freeze: every pair of scorers fails on the same texts 3.4
+to 4.1 times more often than independent errors would, and most within Claude.
 
-\paragraph{Changes after the freeze.} \texttt{DEVIATIONS.md} lists them: the
-exploratory analysis of shared errors (entry 1), and the ranking analysis noted for
-later (entry 2).
+\section{Conclusion}
 
-\section{Additional figures}
+\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers are
+interchangeable for the average benefit of an explanation up to about 3 points, while
+two of them disagree on about one text in ten. The placebo shows that the benefit is
+real, since every scorer falls to chance without the explanation. The larger gain of
+Opus comes with more false alarms, and much of the disagreement appears to come from
+explanations that do not describe the feature exactly. Whether scorers rank explanations
+alike, the practical use of a score, remains to be tested (DEVIATIONS.md, entry 2).}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.75\linewidth]{exploratory_errors.png}
-\caption{Exploratory. Share of texts where both scorers are wrong, divided by the share
-expected if their errors were independent, A and B pooled, pass 1, 95\% bootstrap
-intervals over features.}
-\label{fig:errors}
-\end{figure}
+\textbf{What this does not show.} High agreement is not validity: the scorers are often
+wrong together. A gain shows that the explanation helps to predict activations, not that
+it describes a mechanism. One SAE, one layer, 100 features, one prompt, five scorers of
+which three are Claude models, and settings that differ by scorer, so a difference mixes
+the model and its setting. Positives come from stored examples, not the natural
+distribution. Nothing reliable can be said about A against B for a given feature.
 
-\paragraph{Weak positives (pilot).} Over the 5 pilot features, explanations A and B
-pooled, all scorers together, the share of positives recognised is 48.6\% for the
-five weakest of each feature, 57.8\% and 77.8\% for the two middle groups, and 88.8\%
-for the five strongest.
+\textbf{Prior work and AI assistance.} Setup, prompt, feature draw, placebos, analysis
+code and pilot runner were prepared before the kick-off (20 November, 18:00), the data
+were frozen and every scorer call, analysis and reading was made on 21 November.
+\interp{Code and drafts were written with Claude Code (Claude Opus 5.5), and the author
+made every design decision, reviewed the placebos and the plan, and revised the text.}
+Details are in the extended report of the repository.
+
+{\footnotesize
+\bibentree{Chen (2026). Scoring explanations without reading them: structural shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}
+\bibentree{Paulo, G., Mallen, A., Juang, C., \& Belrose, N. (2024). Automatically interpreting millions of features in large language models. arXiv:2410.13928. \av}
+\bibentree{Van der Ben, S., Roch, N., Hedstr\"om, A., \& El-Assady, M. (2026). Building fast, evaluating slow: pipeline choices dominate autointerpretability score variance. arXiv:2607.19386. \av}
+}
 
 \end{document}
