@@ -1,0 +1,308 @@
+{
+ "model": "claude-fable-5-2",
+ "reader": "fresh agent, blind to scorer identities",
+ "items": [
+  {
+   "feature": 8995,
+   "text_index": 3,
+   "condition": "B",
+   "fits": "no",
+   "category": "literal_vs_sense",
+   "minority_right": true,
+   "reason": "« Radioactive Man » contient la chaîne « Radio » mais ne parle pas de radio : seul S2 lit la chaîne, et la feature s'active bien dessus."
+  },
+  {
+   "feature": 14562,
+   "text_index": 0,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "weak_positive",
+   "minority_right": false,
+   "reason": "« $662 billion defense bill » est une loi de dépenses, pas une facture : le sens financier est indirect et la feature s'active au plus faible niveau (14 % du maximum)."
+  },
+  {
+   "feature": 18011,
+   "text_index": 10,
+   "condition": "A",
+   "fits": "borderline",
+   "category": "literal_vs_sense",
+   "minority_right": true,
+   "reason": "« dissociate » commence par « diss » sans être le mot « diss » : S2 et S3 acceptent la sous-chaîne, les trois autres exigent le mot."
+  },
+  {
+   "feature": 17379,
+   "text_index": 15,
+   "condition": "B",
+   "fits": "yes",
+   "category": "literal_vs_sense",
+   "minority_right": true,
+   "reason": "Une phrase se termine bien par un point (« in the US.\" »), mais l'extrait lui-même finit en cours de phrase (« Bolivia is the largest ») : quatre scoreurs semblent lire « l'extrait se termine par un point »."
+  },
+  {
+   "feature": 14256,
+   "text_index": 11,
+   "condition": "B",
+   "fits": "yes",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« a clown dubbed \"Ronald Klump\" » nomme un individu avec son rôle : le texte correspond, le non de S1 est une erreur."
+  },
+  {
+   "feature": 3025,
+   "text_index": 0,
+   "condition": "B",
+   "fits": "yes",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« unbeknownst to him » exprime clairement un manque d'information : le non de S4 est une erreur, même si l'activation est faible (14 %)."
+  },
+  {
+   "feature": 8511,
+   "text_index": 28,
+   "condition": "A",
+   "fits": "no",
+   "category": "context",
+   "minority_right": false,
+   "reason": "Aucune organisation lisible, sauf le fragment « ab, » en bord d'extrait (peut-être la fin d'un nom de laboratoire) que S3 a pu compléter de lui-même."
+  },
+  {
+   "feature": 2221,
+   "text_index": 3,
+   "condition": "B",
+   "fits": "yes",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« comparative transcriptomics » est un terme de comparaison explicite : le non de S5 est une erreur."
+  },
+  {
+   "feature": 22163,
+   "text_index": 19,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "too_narrow",
+   "minority_right": false,
+   "reason": "« they laid him on the ground and he spent » contient des pronoms dans une interaction mais aucun conflit : la précision « interactions or conflicts » restreint plus que la feature, qui s'active sur les pronoms (95 % du maximum)."
+  },
+  {
+   "feature": 3665,
+   "text_index": 36,
+   "condition": "B",
+   "fits": "no",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "Le texte ne contient aucun « the » (« to apply same approach to ») : le oui de S4 est une erreur."
+  },
+  {
+   "feature": 3540,
+   "text_index": 30,
+   "condition": "B",
+   "fits": "no",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "Ni nom de personne ni préfixe « Mc » (« the Mormon leader », « Burlington ») : le oui de S4 est une erreur, peut-être par lecture large de « names »."
+  },
+  {
+   "feature": 13847,
+   "text_index": 15,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "other",
+   "minority_right": false,
+   "reason": "Explication trop vague pour trancher par le texte seul : il faut savoir que « glyphosate » est un sujet controversé, ce que S2 n'a pas retenu."
+  },
+  {
+   "feature": 3232,
+   "text_index": 2,
+   "condition": "B",
+   "fits": "yes",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« don't come anywhere near replacing » est une locution de degré : les non de S2 et S4 sont des erreurs, sur une activation modeste (30 %)."
+  },
+  {
+   "feature": 23756,
+   "text_index": 15,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "literal_vs_sense",
+   "minority_right": false,
+   "reason": "« on any topic » contient le mot « topic » mais ne désigne justement aucun sujet précis : S1 lit « specific subjects » au sens strict, les autres s'en tiennent au mot."
+  },
+  {
+   "feature": 15387,
+   "text_index": 9,
+   "condition": "A",
+   "fits": "borderline",
+   "category": "too_narrow",
+   "minority_right": true,
+   "reason": "« picturesque views » ne désigne aucune image, mais la feature s'active sur la forme dérivée « picturesque » que l'explication ne couvre pas."
+  },
+  {
+   "feature": 24369,
+   "text_index": 11,
+   "condition": "B",
+   "fits": "no",
+   "category": "too_narrow",
+   "minority_right": true,
+   "reason": "« as deadly in New York City as in London » compare deux lieux, pas deux époques ni deux générations : l'explication B oublie le cas des lieux, que l'autre explication mentionne."
+  },
+  {
+   "feature": 2221,
+   "text_index": 16,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "literal_vs_sense",
+   "minority_right": false,
+   "reason": "« relative to the OP's question » veut dire « à propos de » et non une comparaison : S4 lit le sens, les autres le mot « relative »."
+  },
+  {
+   "feature": 21857,
+   "text_index": 30,
+   "condition": "A",
+   "fits": "borderline",
+   "category": "context",
+   "minority_right": false,
+   "reason": "« the standoff » et « The plan sets up » évoquent un bras de fer politique sans nommer de loi : S3 a supposé un contexte législatif absent de l'extrait."
+  },
+  {
+   "feature": 22207,
+   "text_index": 16,
+   "condition": "B",
+   "fits": "yes",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« first and foremost » est l'exemple type d'une locution de priorité : le non de S4 est une erreur, sur l'activation maximale."
+  },
+  {
+   "feature": 8995,
+   "text_index": 37,
+   "condition": "A",
+   "fits": "borderline",
+   "category": "literal_vs_sense",
+   "minority_right": false,
+   "reason": "« weekly podcast » est voisin de la radio par le sens mais ne contient aucun mot de radio : S3 lit par proximité de sens, les autres au mot."
+  },
+  {
+   "feature": 11794,
+   "text_index": 39,
+   "condition": "A",
+   "fits": "no",
+   "category": "context",
+   "minority_right": false,
+   "reason": "Le seul indice est « as many media », dernier mot d'un extrait coupé : S2 a pu y voir un renvoi à des vidéos que la suite manquante ne confirme pas."
+  },
+  {
+   "feature": 8511,
+   "text_index": 22,
+   "condition": "B",
+   "fits": "no",
+   "category": "literal_vs_sense",
+   "minority_right": false,
+   "reason": "« The Sunday Telegraph » est une organisation mais n'est pas décrit comme un « body » : S2 retient l'organisation et ignore la restriction littérale."
+  },
+  {
+   "feature": 13350,
+   "text_index": 21,
+   "condition": "A",
+   "fits": "no",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "« différance » et « problemat » sont du vocabulaire philosophique, sans rapport avec des composants structurels : le oui de S2 est une erreur."
+  },
+  {
+   "feature": 22163,
+   "text_index": 21,
+   "condition": "A",
+   "fits": "yes",
+   "category": "too_broad",
+   "minority_right": false,
+   "reason": "En roumain, « unii … alţii » (« les uns … les autres ») sont des pronoms désignant des personnes : le texte correspond à l'explication, mais la feature ne s'active pas hors de l'anglais."
+  },
+  {
+   "feature": 2112,
+   "text_index": 22,
+   "condition": "B",
+   "fits": "borderline",
+   "category": "context",
+   "minority_right": false,
+   "reason": "« their absorption into the Western Christian community » suppose un peuple nommé hors de l'extrait (fragment « pád, ») et ne cite qu'un groupe religieux : S3 a comblé le contexte."
+  },
+  {
+   "feature": 3812,
+   "text_index": 25,
+   "condition": "A",
+   "fits": "yes",
+   "category": "too_broad",
+   "minority_right": true,
+   "reason": "« a cautionary PSA about the realities of HIV » relève bien d'un sujet de société, pourtant la feature reste à 0 : seul S4 répond comme l'étiquette."
+  },
+  {
+   "feature": 9401,
+   "text_index": 31,
+   "condition": "A",
+   "fits": "yes",
+   "category": "too_broad",
+   "minority_right": true,
+   "reason": "« Garcia's ruling » contient un nom de personne, mais la feature ne s'active pas : l'explication « names of individuals » est plus large que la feature."
+  },
+  {
+   "feature": 12637,
+   "text_index": 21,
+   "condition": "B",
+   "fits": "no",
+   "category": "scorer_error",
+   "minority_right": false,
+   "reason": "Le texte ne contient pas le mot « to » (« will be completed once oil prices increase ») : le oui de S4 est une erreur."
+  },
+  {
+   "feature": 9401,
+   "text_index": 37,
+   "condition": "B",
+   "fits": "yes",
+   "category": "too_broad",
+   "minority_right": true,
+   "reason": "« the original Stripesy » est un nom propre de personnage, mais la feature ne s'active pas : l'explication est plus large que la feature."
+  },
+  {
+   "feature": 23863,
+   "text_index": 28,
+   "condition": "A",
+   "fits": "yes",
+   "category": "too_broad",
+   "minority_right": false,
+   "reason": "« constitutional parliament » contient un adjectif qualifiant un objet, donc S3 suit l'explication à la lettre, mais la feature ne s'active pas sur n'importe quel adjectif."
+  }
+ ],
+ "category_counts": {
+  "weak_positive": 1,
+  "too_narrow": 3,
+  "too_broad": 5,
+  "literal_vs_sense": 7,
+  "context": 4,
+  "scorer_error": 9,
+  "other": 1
+ },
+ "minority_counts": {
+  "S1": {
+   "said_1": 0,
+   "said_0": 4
+  },
+  "S2": {
+   "said_1": 7,
+   "said_0": 5
+  },
+  "S3": {
+   "said_1": 9,
+   "said_0": 0
+  },
+  "S4": {
+   "said_1": 4,
+   "said_0": 6
+  },
+  "S5": {
+   "said_1": 0,
+   "said_0": 2
+  }
+ },
+ "overall": "Sur les 30 textes, je compte 9 erreurs simples de scoreur, 7 cas de lecture littérale contre lecture par le sens, 5 explications trop larges, 4 cas de contexte manquant ou d'indice en bord d'extrait, 3 explications trop étroites, 1 positif faible et 1 cas inclassable (explication trop vague). Les désaccords sur les positifs tiennent surtout à la forme de l'explication : la feature s'active sur une chaîne ou un mot (« Radioactive », « dissociate », « picturesque », « relative to », « topic ») que l'explication décrit par un sens, ou elle ajoute une restriction que la feature ignore (« time periods », « conflicts ») ; le scoreur qui répond 1 a alors raison contre la majorité dans 5 cas sur 15. Les désaccords sur les négatifs sont d'une autre nature : soit le texte contient bien ce que dit l'explication et la feature reste à 0 (noms de personnes, adjectifs, pronoms roumains), si bien que répondre 1 est fidèle à l'explication et faux pour l'étiquette, soit un scoreur isolé dit oui à partir d'un indice ténu ou d'un contexte qu'il invente. Du côté des scoreurs, S3 est 9 fois dans la minorité et toujours en disant oui, souvent par association de sens large (« podcast » pour la radio, « standoff » pour la législation) ; S1 et S5 ne sont minoritaires qu'en disant non (4 et 2 fois), profil prudent ; S2 est le plus souvent minoritaire (12 fois) dans les deux sens, avec une tendance à accepter les sous-chaînes ; S4 l'est 10 fois, avec deux oui sur des mots absents du texte (« the », « to ») et plusieurs non sur des positifs évidents (« first and foremost », « unbeknownst »). La minorité n'a raison que 8 fois sur 30, donc l'avis isolé est le plus souvent faux, mais pas toujours : sur les explications trop étroites ou littérales, c'est la majorité qui se trompe. Cela suggère que le désaccord vient de deux sources mêlées : l'écart entre l'explication et ce que fait réellement la feature (environ la moitié des cas ici, où aucun scoreur « raisonnable » ne peut à la fois suivre l'explication et l'étiquette), et un seuil de oui propre à chaque scoreur, auquel s'ajoutent de vraies fautes d'inattention. Réserve importante : 30 textes seulement, stratifiés 15 positifs / 15 négatifs alors que 73 % des textes divergents de l'ensemble complet sont des positifs, au plus 2 par feature, et classés par un seul lecteur ; ces comptes sont des illustrations, pas des estimations de proportions, et les profils par scoreur restent des hypothèses à confronter au tableau complet."
+}
