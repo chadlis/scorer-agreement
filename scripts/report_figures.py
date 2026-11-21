@@ -50,7 +50,7 @@ def design() -> plt.Figure:
         ax.text(
             x + 8.5, 18.5, head, ha="center", va="center", fontsize=8.5, color=INK, weight="bold"
         )
-        ax.text(x + 8.5, 12, sub, ha="center", va="center", fontsize=7.5, color=INK2)
+        ax.text(x + 8.5, 12, sub, ha="center", va="center", fontsize=6.8, color=INK2)
     for x in (18.6, 38.6, 58.6, 78.6):
         ax.add_patch(
             FancyArrowPatch(

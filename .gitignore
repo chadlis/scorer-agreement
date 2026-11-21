@@ -12,3 +12,4 @@ data/raw/*
 !data/raw/.gitkeep
 # the plain grid log is too large for git: calls.jsonl.gz is committed instead
 data/runs/grid/calls.jsonl
+report/*.log

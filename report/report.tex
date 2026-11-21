@@ -13,6 +13,7 @@
 \usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage{caption}
+\usepackage{float}
 \usepackage{hyperref}
 \geometry{margin=2.3cm}
 \hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue, breaklinks=true}
@@ -23,7 +24,7 @@
 \tolerance=2000
 \setlength{\emergencystretch}{3em}
 
-\newcommand{\bibentree}[1]{\par\hangindent=1.5em\hangafter=1 #1\par\vspace{0.5em}}
+\newcommand{\bibentree}[1]{\par\noindent\hangindent=1.5em\hangafter=1 #1\par\vspace{0.5em}}
 \newcommand{\interp}[1]{\textcolor{violet}{#1}}
 \newcommand{\av}{\textcolor{red}{[AV]}}
 
@@ -126,8 +127,7 @@ reviewed by the author, in 14 rounds, until no pair was in doubt.
 \paragraph{Scorers.} Five scorers answer: Claude Haiku 5.5, Sonnet 5.5 and Opus 5.5
 (through Anthropic's Message Batches API), and Gemini 2.5 Flash and Mistral Small 3.2
 (through OpenRouter, with the provider pinned). Each call shows one text and one
-description, with the detection prompt of the delphi library (Paulo et al., 2024)
-and one text per call. The settings are the closest to deterministic that
+description, with the detection prompt of the delphi library (Paulo et al., 2024). The settings are the closest to deterministic that
 each model accepts (Appendix~A, Table~\ref{tab:settings}). Every call is made twice.
 
 \paragraph{Volume and order of work.} 100 features, 40 texts, 3 descriptions, 5
@@ -446,7 +446,7 @@ later (entry 2).
 
 \section{Additional figures}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.75\linewidth]{exploratory_errors.png}
 \caption{Exploratory. Share of texts where both scorers are wrong, divided by the share
