@@ -51,8 +51,14 @@ done (agreement on errors, decided before any grid result was read,
 `figures/exploratory_errors.png`, last section of the notebook), and one noted for
 later (whether scorers rank explanations alike, decided after the results). The 30
 divergent texts read by hand are drawn by `scripts/sample_divergent.py`
-(`data/analysis/divergent_sample.json`). Two fresh agents read them blind to the scorer
-names (`divergent_agent_reading.json`, `divergent_agent_reading_2.json`).
+(`data/analysis/divergent_sample.json`). Two fresh Claude Fable 5.2 agents read them
+blind to the scorer names (`divergent_agent_reading.json`,
+`divergent_agent_reading_2.json`). They give the same cause of disagreement for 25 of
+the 30 texts (kappa 0.79). Being the same model, their agreement shows that the
+reading is stable, not that it is right. The author also read the 30 texts himself,
+before seeing the agents' readings and with the scorer names visible. His reading
+broadly agrees with theirs. It was not recorded text by text, so this agreement is
+not quantified.
 
 ## Scorers
 
