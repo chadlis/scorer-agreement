@@ -36,6 +36,23 @@ def call_id(c: dict) -> str:
     return f"f{c['feature']}-t{c['text']}-{c['condition']}-{scorer}-p{c['pass']}"
 
 
+def load_explanations(features: list[int]) -> dict[int, dict]:
+    """The three descriptions shown for each feature: A, B and the frozen placebo."""
+    from autointerp.neuronpedia import ROOT, fetch_feature
+
+    final = {
+        p["target"]: p for p in json.loads((ROOT / "data/placebos/final.json").read_text())["pairs"]
+    }
+    out = {}
+    for f in features:
+        expl = {
+            e["explanationModelName"]: e["description"].strip()
+            for e in fetch_feature(f)["explanations"]
+        }
+        out[f] = {"A": expl["gpt-3.5-turbo"], "B": expl["gpt-4o-mini"], "P": final[f]["placebo"]}
+    return out
+
+
 def plan_calls(
     texts: dict[int, dict], explanations: dict[int, dict], scorers: list[str], passes=(1, 2)
 ) -> list[dict]:
@@ -77,23 +94,35 @@ def cost(record: dict) -> float:
 
 
 class Log:
-    """Append-only JSONL of attempts, with the spend so far and the finished calls."""
+    """Append-only JSONL of attempts, with the spend so far and the finished calls.
+    The spend is kept as running totals per transport, so checking it is cheap."""
 
     def __init__(self, path: Path):
         self.path, self.lock = path, threading.Lock()
         self.records = (
             [json.loads(x) for x in path.read_text().splitlines()] if path.exists() else []
         )
+        self.totals: dict[str | None, float] = {}
+        for r in self.records:
+            self._count(r)
+
+    def _count(self, record: dict) -> None:
+        t = record.get("transport")
+        self.totals[t] = self.totals.get(t, 0.0) + cost(record)
 
     def add(self, record: dict) -> None:
         with self.lock:
             self.records.append(record)
+            self._count(record)
             self.path.parent.mkdir(parents=True, exist_ok=True)
             with self.path.open("a") as fh:
                 fh.write(json.dumps(record) + "\n")
 
-    def spent(self) -> float:
-        return sum(cost(r) for r in self.records)
+    def spent(self, transport: str | None = None) -> float:
+        """USD spent in all, or through one transport ("batch", "openrouter")."""
+        if transport is not None:
+            return self.totals.get(transport, 0.0)
+        return sum(self.totals.values())
 
     def done(self) -> set[str]:
         """Calls with a final reading ("1", "0" or "invalid" after its retry)."""
@@ -143,12 +172,15 @@ def run_openrouter(
     send: Callable[[str, str, str], dict],
     cap: float,
     workers: int = 8,
+    own_spend: bool = False,
 ) -> None:
-    """Calls one by one per worker, each retried once if unreadable, until the cap."""
+    """Calls one by one per worker, each retried once if unreadable, until the cap.
+    With own_spend, only OpenRouter's spend counts against the cap (the grid
+    reserves the Claude batches' share beforehand)."""
 
     def one(c: dict) -> None:
         for attempt in (1, 2):
-            if log.spent() >= cap:
+            if log.spent("openrouter" if own_spend else None) >= cap:
                 return
             rec = send(c["scorer"], SYSTEM, c["user"])
             rec["transport"] = "openrouter"

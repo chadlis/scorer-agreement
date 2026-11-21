@@ -14,12 +14,13 @@ import sys
 
 from autointerp.clients import Clients, call_scorer, load_env
 from autointerp.models import SCORERS
-from autointerp.neuronpedia import ROOT, fetch_feature
+from autointerp.neuronpedia import ROOT
 from autointerp.run import (
     BATCH_DISCOUNT,
     PRICES,
     Log,
     export_csv,
+    load_explanations,
     plan_calls,
     require_frozen,
     run_batch,
@@ -30,20 +31,6 @@ CAP_USD = 10.0  # decided by Salah on 2026-11-20 (PLAN.md 2.7, rule 3)
 OUT = ROOT / "data" / "runs" / "pilot"
 # deliberately high per-call guess for the batch check: 300 input, 400 output tokens
 EST_IN, EST_OUT = 300, 400
-
-
-def explanations(features: list[int]) -> dict[int, dict]:
-    final = {
-        p["target"]: p for p in json.loads((ROOT / "data/placebos/final.json").read_text())["pairs"]
-    }
-    out = {}
-    for f in features:
-        expl = {
-            e["explanationModelName"]: e["description"].strip()
-            for e in fetch_feature(f)["explanations"]
-        }
-        out[f] = {"A": expl["gpt-3.5-turbo"], "B": expl["gpt-4o-mini"], "P": final[f]["placebo"]}
-    return out
 
 
 def estimate(c: dict) -> float:
@@ -59,7 +46,7 @@ def main(paid: bool) -> None:
         if rec["status"] != "ok":
             raise SystemExit(f"feature {f}: texts not ready ({rec['status']})")
         texts[f] = rec
-    calls = plan_calls(texts, explanations(pilot), list(SCORERS))
+    calls = plan_calls(texts, load_explanations(pilot), list(SCORERS))
     claude = [c for c in calls if SCORERS[c["scorer"]]["api"] == "anthropic"]
     others = [c for c in calls if SCORERS[c["scorer"]]["api"] != "anthropic"]
     log = Log(OUT / "calls.jsonl")

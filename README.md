@@ -25,8 +25,8 @@ after three format checks on 19 texts per scorer (`data/smoke/`).
 The data are frozen (git tag `plan-frozen`, 2026-11-21): `PLAN.md`, the 40 verified
 texts of each of the 100 features (`data/texts/`) and the placebos
 (`data/placebos/final.json`). The pilot ran on 2026-11-21 on the 5 pilot features
-(6,000 calls, 1.39 USD, raw log and gate report in `data/runs/pilot/`). The grid
-waits for the decision on the pilot. The 100 features are a simple
+(6,000 calls, 1.39 USD, raw log and gate report in `data/runs/pilot/`). It passed
+the gate, and the grid was started on the same day (`data/runs/pilot/decision.md`). The 100 features are a simple
 random sample of the eligible features, drawn with a seed committed beforehand. One
 feature that kept too few positives after recomputation was replaced by the next
 one of the draw (`PLAN.md`, appendix A.2). Negatives are drawn from the stored windows of the other
@@ -129,6 +129,9 @@ Data-freezing scripts:
 - `uv run scripts/run_pilot.py` prints what the pilot would send. With `--yes` it
   sends it (paid, capped at 10 USD, Claude through the Message Batches API), and only
   once the git tag `plan-frozen` exists (`data/runs/pilot/`).
+- `uv run scripts/run_grid.py` prints what the grid would send. With `--yes` it sends
+  it (paid). The total cap of 40 USD covers the pilot and the grid. The three Claude
+  batches and the OpenRouter calls run at the same time (`data/runs/grid/`).
 - `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
   freeze (no negative from the placebo donor, separator balance, token lengths), and `uv run scripts/pilot_report.py`
   computes the pilot gate and both central measures from the pilot log.

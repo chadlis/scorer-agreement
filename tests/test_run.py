@@ -141,3 +141,16 @@ def test_a_finished_record_keeps_its_text_index_and_the_reply_apart(tmp_path):
     old = {**r, "text": "[1]"}  # the pilot log: the reply overwrote the index
     del old["reply"]
     assert run.call_fields(old)["text"] == 7 and run.call_fields(old)["reply"] == "[1]"
+
+
+def test_spend_is_kept_per_transport_and_survives_a_reload(tmp_path):
+    path = tmp_path / "calls.jsonl"
+    log = run.Log(path)
+    calls = run.plan_calls(texts(1), EXPL, ["gemini-flash"], passes=(1,))[:3]
+    run.run_openrouter(log, calls, fake_send(["[0]"] * 3), cap=0.015, workers=1, own_spend=True)
+    assert len(log.done()) == 2  # second call reaches 0.02 >= cap
+    claude = {"model": "claude-opus-5-5", "transport": "batch"}
+    log.add({**claude, "id": "x", "usage": {"input_tokens": 1e6, "output_tokens": 0}})
+    assert log.spent("openrouter") == pytest.approx(0.02)
+    assert log.spent("batch") == pytest.approx(2.0)
+    assert run.Log(path).spent() == pytest.approx(2.02)
