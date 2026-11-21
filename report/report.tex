@@ -7,7 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
-\usepackage[a4paper, margin=1.7cm, top=1.4cm, bottom=1.6cm]{geometry}
+\usepackage[a4paper, margin=1.7cm, top=1.2cm, bottom=1.3cm]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -18,7 +18,7 @@
 \graphicspath{{../figures/}}
 \tolerance=2000
 \setlength{\emergencystretch}{3em}
-\setlength{\parskip}{2pt}
+\setlength{\parskip}{1pt}
 \setlength{\textfloatsep}{6pt}
 \setlength{\floatsep}{4pt}
 \makeatletter
@@ -49,8 +49,12 @@ pipeline choices move autointerp scores a great deal, keep one scorer fixed (Gem
 Flash), and name the variation of the scorer as an axis they did not study \av. Chen
 (2026) shows that a rule that never reads the explanation can beat LLM scorers on stored
 scoring data, and recommends reporting every score next to an explanation-free baseline
-\av. To our knowledge (searches of 17 and 21 November 2026), no published study compares
-several scorers on the same texts and explanations. We ask: \emph{with texts and
+\av. Paulo et al.\ already compare several scorers on the same explanations, through
+their mean scores and the correlations of their scores, and Chen compares simulators on
+identical inputs with original and shuffled explanations \av. To our knowledge
+(searches of 17 and 21 November 2026), no study measures, for several detection
+scorers, their agreement text by text, the gain each draws over an explanation-free
+control, and whether their disagreements change which explanation is preferred. We ask: \emph{with texts and
 explanations held fixed, do scorers differ in their judgments, and in the gain that the
 explanation brings them over an unrelated explanation (a placebo)?}
 
@@ -58,7 +62,7 @@ explanation brings them over an unrelated explanation (a placebo)?}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.94\linewidth]{fig0_design.png}
+\includegraphics[width=0.86\linewidth]{fig0_design.png}
 \caption{The design. Texts, labels, placebos and the analysis plan were frozen in git
 before the first scorer call (tag \texttt{plan-frozen}).}
 \end{figure}
@@ -101,10 +105,13 @@ only 0.1 to 3.1\% of the texts, so these disagreements are not sampling noise.
 \textbf{Gain.} The placebo works as a control: every scorer falls to 48.6 to 49.5\%,
 that is to chance, so the texts carry no usable cue of their label. With the
 explanations, accuracy rises to 77 to 83\%, a gain of about 30 points for every scorer
-(29.2 to 32.4, Table~\ref{tab:profile}). Six of the ten paired differences lie between $-0.1$ and $+0.5$ points
-with intervals of about $\pm1$ point: Haiku, Sonnet, Gemini and Mistral draw the same
-benefit from the explanation (Figure~\ref{fig:main}b). The four others are those of Opus, which gains about 3
-points more than each of them (Opus minus Mistral: $+3.2$, [1.8, 4.6]).
+(29.2 to 32.4, Table~\ref{tab:profile}). Six of the ten paired differences lie between
+$-0.1$ and $+0.5$ points, with intervals of about $\pm1.2$ points: Haiku, Sonnet, Gemini
+and Mistral draw a similar benefit from the explanation, although no equivalence margin
+was set in advance (Figure~\ref{fig:main}b). The four others are those of Opus, which
+gains about 3 points more than each of them (Opus minus Mistral: $+3.2$, [1.8, 4.6]).
+These four still exclude 0 with Bonferroni intervals that hold together at 95\% (Opus
+minus Mistral: [1.2, 5.2]).
 
 \begin{table}[h]
 \centering
@@ -123,7 +130,7 @@ Mistral Small 3.2 & 29.2 & 60.9 & 63.6 & 1.2 & 93.6 & 94.6 & 96.8 & 0.6 & 0.1 \\
 \bottomrule
 \end{tabular}
 \caption{Profile per scorer, mean of both passes. Gain: accuracy with A and B minus
-accuracy with the placebo (intervals in the repository). Sensitivity: positives answered 1.
+accuracy with the placebo. Sensitivity: positives answered 1.
 Specificity: negatives answered 0. Invalid: unreadable answers after one retry.
 Changed: texts answered differently by the two passes.}
 \label{tab:profile}
@@ -138,38 +145,49 @@ positives against 62 to 65\% for the others, and answers 1 to about 10\% of the 
 against 4 to 7\%. \interp{Its larger gain thus seems to come from a lower threshold for
 answering ``yes'' rather than from a better reading of the explanation.} On the 1,568
 texts (20\%) where the five scorers are not unanimous, we drew 30 (15 positives, 15
-negatives) and had two fresh LLM agents, blind to the scorer names, give the cause of
-each disagreement. They agree on 25 of 30 (kappa 0.79), and attribute 18 to 21 of them
-to the explanation or the text rather than to a scorer error. For example, a feature
+negatives) and had two fresh LLM agents, blind to the scorer names but not to the labels
+and activations, propose the cause of each disagreement. They agree on 25 of 30 (kappa
+0.79), and attribute 18 to 21 of them to the explanation or the text rather than to a
+scorer error. These causes are hypotheses rather than measurements. For example, a feature
 explained as ``references to radio'' fires on ``Radio'' in ``Radioactive Man'', and the
-lone scorer that answers 1 is right. The author's own reading, done before seeing the
-agents' and with the scorer names visible, broadly agrees but is not quantified.
+lone scorer that answers 1 is right. The author's own reading broadly agrees but was not
+recorded text by text.
 Exploratory, added after the freeze: every pair of scorers fails on the same texts 3.4
 to 4.1 times more often than independent errors would, and most within Claude.
 
+\textbf{Do scorers pick the same explanation?} Exploratory, decided after the results
+(DEVIATIONS.md, entry 2). Across the 200 explanations, the scorers rank accuracies
+alike (Spearman 0.76 to 0.90). Choosing between A and B for a given feature is less
+stable: two scorers pick opposite explanations on 13\% (Haiku and Sonnet, [7, 20]) to
+27\% (Opus and Gemini, [18, 36]) of the features, while a scorer against itself, pass 1
+against pass 2, does so on 0 to 7\%. On 47 of the 100 features, at least two scorers
+prefer opposite explanations. These preferences rest on 40 texts per feature.
+
 \section{Conclusion}
 
-\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers are
-interchangeable for the average benefit of an explanation up to about 3 points, while
-two of them disagree on about one text in ten. The placebo shows that the benefit is
+\interp{We can thus conclude that, on this SAE and with this prompt, the five scorers draw
+a similar average benefit from an explanation, within about 3 points, while two of them
+disagree on about one text in ten. The placebo shows that the benefit is
 real, since every scorer falls to chance without the explanation. The larger gain of
 Opus comes with more false alarms, and much of the disagreement appears to come from
-explanations that do not describe the feature exactly. Whether scorers rank explanations
-alike, the practical use of a score, remains to be tested (DEVIATIONS.md, entry 2).}
+explanations that do not describe the feature exactly. The scorers rank explanations
+alike overall, but on almost half of the features at least two of them would retain a
+different one of the two explanations.} The next step is to score new texts for the same
+explanations, comparing one scorer on two disjoint sets of texts with two scorers on the
+same set, to tell whether these reversals come from the scorer or from the choice of
+texts.
 
-\textbf{What this does not show.} High agreement is not validity: the scorers are often
+\textbf{What this does not show.} High agreement is not validity: scorers are often
 wrong together. A gain shows that the explanation helps to predict activations, not that
 it describes a mechanism. One SAE, one layer, 100 features, one prompt, five scorers of
 which three are Claude models, and settings that differ by scorer, so a difference mixes
 the model and its setting. Positives come from stored examples, not the natural
 distribution. Nothing reliable can be said about A against B for a given feature.
 
-\textbf{Prior work and AI assistance.} Setup, prompt, feature draw, placebos, analysis
-code and pilot runner were prepared before the kick-off (20 November, 18:00), the data
-were frozen and every scorer call, analysis and reading was made on 21 November.
-\interp{Code and drafts were written with Claude Code (Claude Opus 5.5), and the author
-made every design decision, reviewed the placebos and the plan, and revised the text.}
-Details are in the extended report of the repository.
+\textbf{Prior work and AI assistance.} Setup, prompt, feature draw, placebos and code were
+prepared before the kick-off (20 November, 18:00), and every scorer call and analysis was
+made on 21 November. \interp{Code and drafts were written with Claude Code (Claude Opus
+5.5), and the author made every design decision and revised the text.}
 
 {\footnotesize
 \bibentree{Chen (2026). Scoring explanations without reading them: structural shortcuts in automated-interpretability evaluation data. arXiv:2610.37676. \av}

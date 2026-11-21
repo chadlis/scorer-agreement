@@ -50,11 +50,13 @@ explanations per feature and a placebo explanation taken from another feature
 (120,000 calls). Two scorers answer differently on 7 to 13\% of the texts (Cohen's
 kappa 0.72 to 0.84). Under the placebo every scorer falls to chance (48.6 to 49.5\%),
 and the explanation brings each of them about 30 accuracy points. Four scorers gain
-the same amount within about one point, while Opus gains about 3 points more than
-each of them, because it answers ``yes'' more often: it finds more positives and
-raises more false alarms. A reading of 30 texts where the scorers disagree suggests
-that a large share of the disagreement comes from explanations that do not describe
-the feature exactly. The whole design was fixed and frozen before the first call.
+a similar amount, with differences under one point, while Opus gains about 3 points
+more than each of them, because it answers ``yes'' more often: it finds more positives
+and raises more false alarms. The scorers rank the 200 explanations alike (Spearman
+0.76 to 0.90), but on 47 of the 100 features at least two of them prefer opposite
+explanations. A reading of 30 texts where the scorers disagree suggests that a large
+share of the disagreement comes from explanations that do not describe the feature
+exactly. The whole design was fixed and frozen before the first call.
 \end{abstract}
 
 \section{The question}
@@ -82,9 +84,14 @@ best rule that does without the explanation \av. Taken together, these results r
 two questions that a fixed-scorer study cannot answer: whether another scorer would give
 the same scores, and how much of a score actually comes from the explanation.
 
-To our knowledge (searches of 17 and 21 November 2026), no published study compares
-several scorers on the same texts and explanations. Our question is therefore the
-following: \emph{with texts and explanations held fixed, do scorer models differ in their
+Scorers have been compared before. Paulo et al.\ (2024) score the same explanations
+with several scorers (Claude Sonnet 3.5, Llama 3.1 70B and 8B) and compare their mean
+scores and the correlations of their scores, and Chen (2026) compares simulators on
+identical inputs with original and shuffled explanations \av. To our knowledge
+(searches of 17 and 21 November 2026), no study measures, for several detection scorers,
+their agreement text by text, the gain each draws over an explanation-free control, and
+whether their disagreements change which explanation is preferred. Our question is
+therefore the following: \emph{with texts and explanations held fixed, do scorer models differ in their
 judgments, and in the gain that the explanation brings them over an unrelated
 explanation (a placebo)?} We include Gemini Flash among the five scorers, so that our
 results can be related to the scorer that van der Ben et al.\ keep fixed.
@@ -201,14 +208,20 @@ to 83\%.
 Figure~\ref{fig:gain}a gives the gain of each scorer. It is about 30 points for every
 scorer, from 29.2 (Mistral) to 32.4 (Opus), and explanation B brings slightly more than
 explanation A to every scorer. Figure~\ref{fig:gain}b gives the paired differences.
-Six of the 10 differences are indistinguishable from 0, between $-0.1$ and $+0.5$
-points, with intervals of about $\pm 1$ point: Haiku, Sonnet, Gemini and Mistral draw
-the same benefit from the explanation, to about one point. The four other differences
+Six of the 10 differences are compatible with 0, between $-0.1$ and $+0.5$ points, with
+intervals of about $\pm 1.2$ points: Haiku, Sonnet, Gemini and Mistral draw a similar
+benefit from the explanation. This is not a test of equivalence, since no equivalence
+margin was set in advance, and with simultaneous intervals (below) these six reach
+$\pm 2.3$ points. The four other differences
 are those of Opus, which gains about 3 points more than each of the four others (for
 example Opus minus Mistral: $+3.2$ points, interval [1.8, 4.6]). The ten comparisons
 were fixed beforehand, and with ten comparisons about one in two series would exclude 0
 once by chance. Here the four exclusions form a single pattern, Opus against every
-other scorer, rather than isolated exclusions.
+other scorer, rather than isolated exclusions. As a robustness check suggested by an
+external review after the results (\texttt{DEVIATIONS.md}, entry 3), we also computed
+Bonferroni intervals, each at 99.5\%, so that the 10 hold together at 95\%. The four
+differences of Opus still exclude 0 (from [0.7, 4.9] for Opus minus Sonnet to [1.2, 5.2]
+for Opus minus Mistral).
 
 \subsection{Where the differences come from}
 
@@ -274,8 +287,8 @@ weakest activations are those it covers least.
 \centering
 \includegraphics[width=0.78\linewidth]{fig5_divergent.png}
 \caption{Most likely cause of disagreement on 30 texts where the five scorers did not
-all give the same answer, according to two independent blind readings by the same
-model. Illustrative counts: the 30 texts were drawn 15 positives and 15 negatives,
+all give the same answer, according to two independent readings by the same model,
+blind to the scorer names but not to the labels. Illustrative counts: the 30 texts were drawn 15 positives and 15 negatives,
 while 73\% of the divergent texts of the grid are positives.}
 \label{fig:divergent}
 \end{figure}
@@ -284,7 +297,9 @@ On pass 1 and with the explanations, the five scorers are not unanimous on 1,568
 7,752 texts (20\%). We drew 30 of them with a seed fixed beforehand, 15 positives and
 15 negatives, and asked two fresh LLM agents (Claude Fable 5.2, with no other context
 and with the scorers renamed S1 to S5) to say for each text whether it fits the
-explanation and why the scorers split. The two readings give the same cause for 25 of
+explanation and why the scorers split. The agents saw the labels and the activations,
+so their causes are hypotheses to test, for instance by a human annotation blind to the
+votes and the activations, rather than measurements. The two readings give the same cause for 25 of
 the 30 texts (kappa 0.79). The author also read the 30 texts, before seeing the
 agents' readings but with the scorer names visible. His reading broadly agrees with
 theirs, but it was not recorded text by text and is not quantified.
@@ -316,6 +331,50 @@ ratio within Claude exceeds the mean across families by 0.37 (interval [0.23, 0.
 This comparison rests on 3 pairs against 7, and family is mixed with the settings of
 the models, so it does not show an effect of the family as such.
 
+\subsection{Do scorers pick the same explanation? (exploratory)}
+
+This analysis was decided after the results (\texttt{DEVIATIONS.md}, entry 2), and an
+external review of the repository computed it first with the same definition. For each
+scorer, each of the 200 explanations (100 features, A and B) receives its accuracy on
+the 40 texts of its feature. Table~\ref{tab:ranking} gives, for each pair of scorers, the
+rank correlation of these 200 accuracies, and how often the two scorers pick the same
+explanation of a feature, the opposite one, or a tie for at least one of them.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrcrrcr}
+\toprule
+Pair & Spearman & 95\% interval & Same & Opposite & Opposite, 95\% interval (\%) & Tie \\
+\midrule
+Haiku / Sonnet & 0.90 & [0.85, 0.93] & 69 & 13 & [7, 20] & 18 \\
+Sonnet / Gemini & 0.89 & [0.84, 0.93] & 65 & 14 & [8, 21] & 21 \\
+Haiku / Gemini & 0.88 & [0.83, 0.91] & 67 & 15 & [8, 22] & 18 \\
+Gemini / Mistral & 0.87 & [0.81, 0.91] & 60 & 18 & [11, 26] & 22 \\
+Haiku / Mistral & 0.85 & [0.80, 0.89] & 63 & 20 & [12, 28] & 17 \\
+Haiku / Opus & 0.83 & [0.75, 0.90] & 63 & 23 & [15, 32] & 14 \\
+Sonnet / Mistral & 0.83 & [0.77, 0.89] & 61 & 15 & [8, 22] & 24 \\
+Sonnet / Opus & 0.83 & [0.74, 0.90] & 64 & 19 & [12, 27] & 17 \\
+Opus / Gemini & 0.81 & [0.72, 0.87] & 56 & 27 & [18, 36] & 17 \\
+Opus / Mistral & 0.76 & [0.68, 0.83] & 59 & 22 & [14, 30] & 19 \\
+\bottomrule
+\end{tabular}
+\caption{Ranking of the 200 explanations by each pair of scorers, and choice between A
+and B for each of the 100 features. Intervals by the bootstrap over features.}
+\label{tab:ranking}
+\end{table}
+
+The scorers rank the explanations alike: the Spearman correlation goes from 0.76 (Opus
+and Mistral) to 0.90 (Haiku and Sonnet). Choosing between the two explanations of a
+feature is less stable. Two scorers pick opposite explanations on 13\% (Haiku and
+Sonnet) to 27\% (Opus and Gemini) of the features, and on 47 of the 100 features at
+least two of the five scorers prefer opposite explanations. Even Haiku and Mistral,
+whose mean gains differ by 0.4 points, make 20 opposite choices out of 100. To read
+these numbers, we compared each scorer with itself, pass 1 against pass 2: the opposite
+choices are then Haiku 6, Sonnet 1, Opus 7, Gemini 0, Mistral 0 out of 100. The reversals between scorers are thus
+well above the noise of a single scorer. They rest, however, on the 40 texts of each
+feature, and whether they hold on new texts is not tested here.
+
 \section{Discussion}
 
 In this section, we discuss two questions that the results raise for the use of
@@ -324,15 +383,14 @@ autointerp scores.
 The first question is whether the choice of scorer matters. \interp{At the level of a
 single text, it does: two scorers disagree on 7 to 13\% of the texts, which is well
 above the noise of a single scorer. At the level of the average gain, it matters much
-less: four of the five scorers draw the same benefit from the explanation within one
-point, and the fifth draws about 3 points more on a gain of 30. A comparison of
-explanations made with one scorer would thus be broadly, but not exactly, the same with
-another.} This last point is only partly tested here: we compared scorers text by text
-and on average, not on the order in which they rank explanations, which is the
-practical use of a score. Van der Ben et al.\ (2026) report that the ranking of the
-best-explained features can shift with the pipeline even when mean scores look stable
-\av, so a stable mean gain does not guarantee a stable ranking. This test is noted for
-later (\texttt{DEVIATIONS.md}, entry 2).
+less: four of the five scorers draw a similar benefit from the explanation, and the
+fifth draws about 3 points more on a gain of 30. At the level of the choice between two
+explanations of a feature, it matters again: the scorers rank the 200 explanations
+alike, but two scorers pick opposite explanations on 13 to 27\% of the features.} Van
+der Ben et al.\ (2026) report that the ranking of the best-explained features can shift
+with the pipeline even when mean scores look stable \av, and our ranking analysis shows
+the same pattern for the scorer: a stable mean gain does not guarantee a stable choice of
+explanation.
 
 The second question is what a scorer's error measures. \interp{The reading of the
 divergent texts suggests that many errors are errors of the explanation rather than
@@ -344,13 +402,22 @@ scorer, and this protocol does not separate the two.}
 \section{Conclusion}
 
 \interp{We can thus conclude that, on this SAE and with this prompt, the five scorers
-are interchangeable for the average benefit of an explanation up to about 3 points,
-while they disagree on a fifth of the individual texts where any of them hesitates.
-The placebo control shows that the benefit is real, since every scorer falls to chance
-without the explanation. The larger gain of Opus comes with more false alarms, and a
-large share of the disagreement appears to come from the explanations themselves.
-These results do not say whether scorers rank explanations alike, which is the
-question that the next analysis should answer.}
+draw a similar average benefit from an explanation, within about 3 points, while two of
+them disagree on about one text in ten. The placebo control shows that the benefit is
+real, since every scorer falls to chance without the explanation. The larger gain of
+Opus comes with more false alarms, and a large share of the disagreement appears to
+come from the explanations themselves. The scorers rank explanations alike overall,
+but on almost half of the features at least two of them would retain a different one
+of the two explanations.}
+
+\paragraph{Next steps.} These directions need new scorer calls and are outside the
+frozen protocol. First, score new texts for the same explanations, comparing one scorer
+on two disjoint sets of texts with two scorers on the same set, to tell whether the
+reversals of preference come from the scorer or from the choice of texts. Second, test
+explanations that are plausible but imperfect (too broad or too narrow, with
+semantically close negatives), to see whether the score rewards the precision of an
+explanation. Third, compare scorers at a fixed rate of false alarms, to separate a more
+permissive threshold from a better discrimination.
 
 \section*{What these results do not show}
 
