@@ -5,7 +5,7 @@ Usage: uv run scripts/report_figures.py
 Reads the frozen grid and the two blind readings, writes
 figures/fig0_design.png, figures/fig3_operating_points.png,
 figures/fig5_divergent.png and figures/fig_report_main.png (the two central measures
-at the width of the two-page report).
+at the width of the short report).
 """
 
 import json
@@ -175,7 +175,7 @@ def divergent() -> plt.Figure:
 
 
 def compact(res: dict) -> plt.Figure:
-    """The two central measures at the width of a two-page report: (a) Cohen's kappa
+    """The two central measures at the width of the short report: (a) Cohen's kappa
     per pair of scorers, (b) the paired differences of gain, larger minus smaller."""
     short = {s: NAMES[s].split(" ")[0] for s in SCORERS}
     fig, (a, b) = plt.subplots(1, 2, figsize=(7.4, 3.0))
