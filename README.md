@@ -156,6 +156,8 @@ Data-freezing scripts:
   grid (no call, about 30 s) and writes the results, both figures and the table.
   `uv run jupyter nbconvert --to notebook --execute notebooks/analysis.ipynb` replays
   the notebook, which checks the grid checksums and the committed results.
+- `uv run scripts/report_figures.py` draws the extra figures of the write-up (design,
+  operating points, causes of disagreement). The write-up draft is `report/report.tex`.
 - `uv run scripts/finalize_texts.py [--balance]` checks the built texts before the
   freeze (no negative from the placebo donor, separator balance, token lengths), and `uv run scripts/pilot_report.py`
   computes the pilot gate and both central measures from the pilot log.
