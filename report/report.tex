@@ -68,12 +68,25 @@ on the text and 0 otherwise. The share of right answers is the score of the
 explanation.
 
 The score therefore depends on two things: the explanation, which is what one wants to
-measure, and the scorer, which is a choice of the pipeline. Van der Ben et al.\ (2026)
-show that pipeline choices move autointerp scores a great deal, and they keep one
-scorer fixed (Gemini Flash) to study the others \av. This leaves open the question
-of the scorer itself. Our question is the following: \emph{with texts and explanations
-held fixed, do scorer models differ in their judgments, and in the gain that the
-explanation brings them over an unrelated explanation (a placebo)?}
+measure, and the scorer, which is a choice of the pipeline. Two recent works make this
+dependence a practical concern. First, van der Ben et al.\ (2026) show that the choices
+made in the pipeline move autointerp scores more than the differences between the models
+that are explained. To isolate those choices, they keep a single scorer fixed (Gemini
+Flash), and they name the variation of the scorer as an axis of instability that they
+did not study \av. Second, Chen (2026) shows that on the stored scoring data of
+Neuronpedia for GPT-2 small, a simple rule that never reads the explanation (it answers
+``yes'' when the central token of the excerpt is marked) reaches a higher balanced
+accuracy than the stored LLM scorers, and recommends reporting every score next to the
+best rule that does without the explanation \av. Taken together, these results raise
+two questions that a fixed-scorer study cannot answer: whether another scorer would give
+the same scores, and how much of a score actually comes from the explanation.
+
+To our knowledge (searches of 17 and 21 November 2026), no published study compares
+several scorers on the same texts and explanations. Our question is therefore the
+following: \emph{with texts and explanations held fixed, do scorer models differ in their
+judgments, and in the gain that the explanation brings them over an unrelated
+explanation (a placebo)?} We include Gemini Flash among the five scorers, so that our
+results can be related to the scorer that van der Ben et al.\ keep fixed.
 
 The question has two parts, and each part has its own measure, fixed before the
 first call. The first part is about judgments: do two scorers give the same answer on
@@ -84,7 +97,9 @@ explanations minus its accuracy with the placebo. It is the central measure of t
 study (Figure~\ref{fig:gain}). The placebo is what makes the gain meaningful: a scorer
 that answers well with the explanation could do so because of the explanation, or
 because of some cue in the texts themselves. Giving it the explanation of another
-feature, and nothing else changed, removes the first cause and keeps the second.
+feature, and nothing else changed, removes the first cause and keeps the second. The
+placebo is thus the explanation-free baseline that Chen (2026) recommends, measured for
+each scorer on exactly the same texts.
 
 \section{Design}
 
@@ -115,7 +130,10 @@ must reach at least 10\% of the feature's maximum activation, and the 20 positiv
 spread over the whole range, from the weakest to the strongest. A negative must have
 an activation of exactly 0. Negatives are windows stored for the other sampled
 features: positives and negatives then come from the same corpus, with the same
-length and the same cut, so that their form tells nothing about the label.
+length and the same cut, so that their form tells nothing about the label. In
+particular, no token is marked in the text shown to the scorer, and positives and
+negatives alike are windows centred on a token where some feature fires (position 8 of
+17 for most of them), so the shortcut found by Chen (2026) is not available here.
 
 \paragraph{Explanations and placebo.} Each text is scored under three descriptions:
 explanation A, explanation B, and a placebo, which is the explanation of another
@@ -310,8 +328,10 @@ point, and the fifth draws about 3 points more on a gain of 30. A comparison of
 explanations made with one scorer would thus be broadly, but not exactly, the same with
 another.} This last point is only partly tested here: we compared scorers text by text
 and on average, not on the order in which they rank explanations, which is the
-practical use of a score. This test is noted for later (\texttt{DEVIATIONS.md},
-entry 2).
+practical use of a score. Van der Ben et al.\ (2026) report that the ranking of the
+best-explained features can shift with the pipeline even when mean scores look stable
+\av, so a stable mean gain does not guarantee a stable ranking. This test is noted for
+later (\texttt{DEVIATIONS.md}, entry 2).
 
 The second question is what a scorer's error measures. \interp{The reading of the
 divergent texts suggests that many errors are errors of the explanation rather than
